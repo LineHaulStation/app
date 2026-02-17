@@ -1,0 +1,66 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_calark_international",
+    "legal_name": "CalArk International, Inc.",
+    "dba_name": "CalArk",
+    "parent_company": null,
+    "parent_ticker": null,
+    "hq_address": "1721 W Oak St, Little Rock, AR 72114",
+    "founded_year": 1977,
+    "carrier_type": "asset_based",
+    "ownership": "privately_held",
+    "fleet_power_units": 600,
+    "fleet_trailers": 2200,
+    "fleet_drivers": 800,
+    "employee_count_total": "501-1000",
+    "service_modes": [
+      "dry_van",
+      "truckload",
+      "dedicated",
+      "intermodal",
+      "brokerage"
+    ],
+    "primary_mode": "dry_van_OTR",
+    "coverage": "48 states, Canada, Mexico",
+    "revenue_annual": null,
+    "financial_health": "stable_private",
+    "terminal_count_us": 3,
+    "terminal_locations_us": [
+      "Little Rock AR (HQ)",
+      "Rockwall TX (Dallas)",
+      "West Memphis AR"
+    ],
+    "glassdoor_overall": 3.3,
+    "indeed_rating": 3.4,
+    "driver_satisfaction_notes": "Mixed reviews. Good equipment, home time. Pay complaints typical of mid-size. Some dispatch communication issues.",
+    "sentiment_top_complaints": [
+      "Pay below mega-carrier rates",
+      "Dispatch communication gaps",
+      "Miles inconsistency",
+      "Benefits could improve"
+    ],
+    "sentiment_top_praises": [
+      "Good equipment (Volvos)",
+      "Home time respected",
+      "Family-owned feel",
+      "Dedicated accounts stable",
+      "Safety-focused"
+    ],
+    "fit_score_overall": 8.0,
+    "fit_score_parking_pressure": 8,
+    "fit_score_retention_need": 8,
+    "fit_score_recruiting_leverage": 8,
+    "fit_score_corridor_alignment": 9,
+    "fit_score_activation_likelihood": 7,
+    "fit_tier": "TIER_1",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "600+ trucks, privately held, Little Rock HQ = Arkansas neighbor. West Memphis AR terminal = ALREADY THERE. Every LHS Phase 1 hub on CalArk lanes. Family-owned = faster decisions. Terminal in Rockwall TX aligns with DFW hub.",
+    "primary_pitch_angle": "You already have a terminal in West Memphis \u2014 now your drivers have a private club there too",
+    "secondary_pitch_angle": "6 LHS hubs on every CalArk lane \u2014 driver amenities coast to coast",
+    "recommended_entry_persona": "VP Operations or Fleet Manager",
+    "exec_summary": "CalArk International is a privately held, Little Rock AR-based dry van carrier with 600+ trucks, 2,200 trailers, 800 drivers. Founded 1977. Already has a terminal in West Memphis AR. 48 states + Canada + Mexico. Strong I-40 corridor alignment. Family-owned = faster activation path.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": []
+}

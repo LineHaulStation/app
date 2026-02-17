@@ -1,0 +1,116 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_heartland_express",
+    "legal_name": "Heartland Express, Inc.",
+    "dba_name": "Heartland Express",
+    "parent_ticker": "HTLD",
+    "parent_exchange": "NASDAQ",
+    "hq_address": "North Liberty, Iowa",
+    "founded_year": 1978,
+    "founder": "Russell Gerdin",
+    "carrier_type": "asset_based",
+    "ownership": "public",
+    "ceo": "Michael J. Gerdin (Chairman, President & CEO)",
+    "cfo": "Christopher Strain",
+    "fleet_power_units": 4276,
+    "fleet_power_units_note": "Actively shrinking",
+    "fleet_trailers": 5600,
+    "fleet_avg_age_months": 31,
+    "employee_count_total": 5220,
+    "service_modes": [
+      "dry_van",
+      "temperature_controlled",
+      "dedicated",
+      "truckload"
+    ],
+    "primary_mode": "short_to_medium_haul_truckload",
+    "haul_profile": "75% of loads under 500 miles",
+    "coverage": "48 contiguous states",
+    "subsidiaries": [
+      "CFI (Joplin, MO)",
+      "Millis Transfer",
+      "Smith Transport"
+    ],
+    "revenue_annual": 1050000000,
+    "revenue_year": 2024,
+    "financial_health": "crisis",
+    "financial_note": "$28M loss 2024. $51M+ loss H1 2025. O.R. 105.9%. Stock $19\u2192$7.60. Selling terminals. Shrinking fleet.",
+    "debt_total": 194000000,
+    "debt_note": "$194M remaining from $494M 2022 acquisitions (CFI + Smith Transport)",
+    "terminal_count_us": "14-37",
+    "terminal_note": "Some being sold. Sold 3 terminals Q4 2023 for $25.6M gain.",
+    "fit_score_overall": 5.0,
+    "fit_score_parking_pressure": 6,
+    "fit_score_retention_need": 8,
+    "fit_score_corridor_alignment": 6,
+    "fit_score_activation_likelihood": 3,
+    "fit_tier": "CONDITIONAL",
+    "fit_priority": "YEAR_2_PLUS",
+    "fit_rationale": "In crisis \u2014 $51M+ losses, shrinking fleet, selling terminals. 75% short-haul = lower OTR parking need. 14-37 terminals already. Zero appetite for new vendor spend. BUT: CEO cited 'driver retention challenges' in earnings, and CFI subsidiary runs longer-haul OTR.",
+    "reactivation_conditions": [
+      "Freight market recovery + profitability",
+      "Fleet stops shrinking",
+      "CFI subsidiary OTR needs I-40 infrastructure",
+      "LHS has 5-10 carrier testimonials"
+    ],
+    "conditional_pitch": "You sold your terminals. Your drivers still need somewhere to go. $13/day, zero CapEx.",
+    "exec_summary": "Heartland Express (NASDAQ: HTLD) has ~4,276 trucks (shrinking), $1.05B revenue, in financial crisis ($51M+ losses). 75% short-haul. Selling terminals. Year 2+ conditional target \u2014 only pursue after freight recovery and proof of concept.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_htl_001",
+      "first_name": "James",
+      "last_name": "Clark",
+      "title": "CEO",
+      "phone": "(313) 505-1058",
+      "city": "St. Petersburg, FL",
+      "notes": "May be subsidiary/former CEO. Mike Gerdin is CEO per SEC."
+    },
+    {
+      "contact_id": "ct_htl_002",
+      "first_name": "Robert",
+      "last_name": "Peterson",
+      "title": "VP Operations",
+      "email": "bpeterson@heartlandexpress.com",
+      "phone": "(253) 891-4350",
+      "city": "Tacoma, WA"
+    },
+    {
+      "contact_id": "ct_htl_003",
+      "first_name": "Brent",
+      "last_name": "Helle",
+      "title": "Sr. Dir. Operations",
+      "email": "bhelle@heartlandexpress.com",
+      "phone": "(662) 893-3742"
+    },
+    {
+      "contact_id": "ct_htl_004",
+      "first_name": "Casey",
+      "last_name": "Kuper",
+      "title": "Sr. Dir. Operations",
+      "email": "ckuper@heartlandexpress.com",
+      "phone": "(253) 820-2700",
+      "city": "Tacoma, WA"
+    },
+    {
+      "contact_id": "ct_htl_005",
+      "first_name": "Patrick",
+      "last_name": "Meilinger",
+      "title": "Dir. Operations",
+      "phone": "(512) 431-5990",
+      "city": "Joplin, MO",
+      "notes": "Likely CFI subsidiary. CFI OTR angle."
+    },
+    {
+      "contact_id": "ct_htl_006",
+      "first_name": "Benny",
+      "last_name": "Anderson",
+      "title": "Dir. Operations",
+      "email": "eanderson@heartlandexpress.com",
+      "phone": "(253) 303-2771",
+      "city": "Tacoma, WA"
+    }
+  ]
+}

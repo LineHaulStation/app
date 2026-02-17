@@ -1,0 +1,149 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_imc_logistics",
+    "legal_name": "IMC Logistics LLC",
+    "dba_name": "IMC Logistics / IMC Companies",
+    "hq_address": "Collierville, TN (Memphis suburb)",
+    "hq_distance_from_hub_miles": 30,
+    "founded_year": 1982,
+    "carrier_type": "asset_based",
+    "ownership": "privately_held",
+    "chairman": "Mark George",
+    "ceo": "Joel Henry",
+    "fleet_power_units": 2200,
+    "employee_count_total": 2641,
+    "employee_count_memphis": 729,
+    "service_modes": [
+      "marine_drayage",
+      "intermodal",
+      "container_storage",
+      "transloading",
+      "chassis_provisioning"
+    ],
+    "primary_mode": "marine_drayage",
+    "primary_mode_note": "Largest marine drayage company in the US. Drivers haul containers from ports/rail yards within 50-100 mile radius. NOT OTR.",
+    "operating_companies": [
+      "Atlantic Intermodal Services",
+      "DNJ Intermodal Service",
+      "Gulf Intermodal Services",
+      "H&M Intermodal Services",
+      "Intermodal Cartage Company",
+      "Ohio Intermodal Services",
+      "Pacific Drayage Services"
+    ],
+    "coverage": "All major ports and rails nationwide",
+    "revenue_annual": 1000000000,
+    "terminal_count_us": 50,
+    "industry_role": "Mark George = TTA Board Director (listed as Intermodal Cartage Co.). Memphis trucking royalty.",
+    "fit_score_overall": 4.0,
+    "fit_tier": "RELATIONSHIP_ONLY",
+    "fit_priority": "TOUR_INVITE_REFERRAL",
+    "fit_rationale": "Drayage drivers are local/regional, not OTR. 50+ depots = no terminal gap. Container chassis, not 53' dry vans. BUT: Mark George is Memphis power broker, TTA Board, can endorse LHS to OTR carriers.",
+    "wrong_fit_reason": "Drayage \u2260 OTR. Drivers go home daily. Equipment mismatch (container chassis vs sleeper cabs).",
+    "relationship_value": "Mark George endorsement to Memphis carrier community. Tour invite, not membership pitch.",
+    "recommended_action": "Invite Mark George to tour West Memphis hub as industry leader \u2014 not sales target. His endorsement to Tim Gatlin (Empire), TTA Board, Memphis trucking community is the prize.",
+    "exec_summary": "IMC Logistics is the largest marine drayage company in the US. 2,200+ trucks, $1B revenue, Memphis HQ. WRONG FIT for membership (drayage \u2260 OTR). BUT Mark George (Chairman) is Memphis trucking royalty and TTA Board member. Relationship/referral value, not membership target.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_imc_001",
+      "first_name": "Mark",
+      "last_name": "George",
+      "title": "Chairman",
+      "email": "mgeorge@imccompanies.com",
+      "email_alt": "mgeorge@imcc.com",
+      "phone": "(901) 508-3593",
+      "phone_alt": "(901) 870-4112",
+      "city": "Memphis, TN",
+      "notes": "Memphis trucking royalty. TTA Board. TOUR INVITE target."
+    },
+    {
+      "contact_id": "ct_imc_002",
+      "first_name": "Joel",
+      "last_name": "Henry",
+      "title": "CEO",
+      "email": "joelj@imcc.com",
+      "phone": "(901) 340-4657",
+      "city": "Germantown, TN"
+    },
+    {
+      "contact_id": "ct_imc_003",
+      "first_name": "Barry",
+      "last_name": "Bernard",
+      "title": "President",
+      "email": "bbernard@imcc.com",
+      "phone": "(901) 634-8072",
+      "city": "Columbus, OH"
+    },
+    {
+      "contact_id": "ct_imc_004",
+      "first_name": "Joe",
+      "last_name": "Tovo",
+      "title": "President/CEO",
+      "phone": "(630) 890-8113",
+      "city": "Cicero, IL"
+    },
+    {
+      "contact_id": "ct_imc_005",
+      "first_name": "Chris",
+      "last_name": "Henley",
+      "title": "President, Southeast Region",
+      "email": "chenley@imcc.com",
+      "email_alt": "chenley@imccompanies.com",
+      "phone": "(901) 734-3699",
+      "city": "Memphis, TN"
+    },
+    {
+      "contact_id": "ct_imc_006",
+      "first_name": "Ted",
+      "last_name": "Showalter",
+      "title": "CFO",
+      "email": "teds@imccompanies.com",
+      "email_alt": "tshowalter@imcc.com",
+      "phone": "(901) 634-4460",
+      "city": "Collierville, TN"
+    },
+    {
+      "contact_id": "ct_imc_007",
+      "first_name": "Donna",
+      "last_name": "Lemm",
+      "title": "Chief Strategy Officer",
+      "email": "dlemm@imcc.com",
+      "email_alt": "dlemm@imccompanies.com",
+      "phone": "(901) 623-2286",
+      "city": "Memphis, TN"
+    },
+    {
+      "contact_id": "ct_imc_008",
+      "first_name": "Robert",
+      "last_name": "Counce",
+      "title": "EVP Operations",
+      "email": "rcounce@imccompanies.com",
+      "email_alt": "rcounce@imcc.com",
+      "phone": "(901) 438-8120",
+      "city": "Memphis, TN"
+    },
+    {
+      "contact_id": "ct_imc_009",
+      "first_name": "Katie",
+      "last_name": "George Hooser",
+      "title": "Chief Marketing Officer",
+      "email": "khooser@imcc.com",
+      "email_alt": "khooser@imccompanies.com",
+      "phone": "(901) 488-3604",
+      "city": "Memphis, TN",
+      "notes": "Mark George's daughter. ATA Women In Motion recognition."
+    },
+    {
+      "contact_id": "ct_imc_010",
+      "first_name": "Steve",
+      "last_name": "Schaber",
+      "title": "Chief Enterprise Architect",
+      "email": "sschaber@imcc.com",
+      "phone": "(901) 509-4629",
+      "city": "Memphis, TN"
+    }
+  ]
+}

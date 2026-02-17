@@ -1,0 +1,49 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_riverside_transport_rti",
+    "legal_name": "Riverside Transport, Inc.",
+    "dba_name": "RTI",
+    "parent_company": null,
+    "parent_ticker": null,
+    "hq_address": "Chattanooga, TN / Russellville, AR",
+    "founded_year": null,
+    "carrier_type": "asset_based",
+    "ownership": "privately_held",
+    "fleet_power_units": 750,
+    "fleet_trailers": 2500,
+    "fleet_drivers": null,
+    "employee_count_total": "501-1000",
+    "service_modes": [
+      "dry_van",
+      "truckload",
+      "dedicated",
+      "OTR"
+    ],
+    "primary_mode": "dry_van_OTR",
+    "coverage": "48 states",
+    "revenue_annual": null,
+    "financial_health": "stable_private",
+    "shared_leadership_with": "carrier_transco_lines_tli",
+    "shared_leadership_note": "Kelly Conley (CFO) and Wade Rubin (CCO) serve both RTI and TLI.",
+    "fit_score_overall": 8.0,
+    "fit_score_parking_pressure": 8,
+    "fit_score_retention_need": 8,
+    "fit_score_recruiting_leverage": 8,
+    "fit_score_corridor_alignment": 8,
+    "fit_score_activation_likelihood": 7,
+    "fit_tier": "ENTERPRISE_PLAY",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "750 trucks + TLI's 470 = 1,220 combined. Shared C-suite. Enterprise deal potential. Strong OTR dry van presence.",
+    "primary_pitch_angle": "Enterprise deal \u2014 RTI + TLI = 1,220 trucks",
+    "recommended_entry_persona": "Kelly Conley (shared CFO) or Wade Rubin (shared CCO)",
+    "enterprise_play": {
+      "partner_carrier": "carrier_transco_lines_tli",
+      "combined_trucks": 1220,
+      "combined_trailers": 4300
+    },
+    "exec_summary": "Riverside Transport (RTI) is a privately held dry van OTR carrier with ~750 trucks, 2,500 trailers. Shares C-suite with Transco Lines (TLI). Enterprise play = 1,220 trucks, 4,300 trailers.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": []
+}

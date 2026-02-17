@@ -1,0 +1,73 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_ozark_motor_lines",
+    "legal_name": "Ozark Motor Lines, Inc.",
+    "dba_name": "Ozark Motor Lines",
+    "parent_company": null,
+    "parent_ticker": null,
+    "parent_exchange": null,
+    "hq_address": "Memphis, TN",
+    "founded_year": 1961,
+    "carrier_type": "asset_based",
+    "ownership": "privately_held",
+    "fleet_power_units": 765,
+    "fleet_trailers": 2500,
+    "fleet_drivers": null,
+    "employee_count_total": "501-1000",
+    "service_modes": [
+      "dry_van",
+      "truckload",
+      "dedicated",
+      "OTR"
+    ],
+    "primary_mode": "dry_van_OTR",
+    "coverage": "48 states",
+    "revenue_annual": null,
+    "financial_health": "stable_private",
+    "terminal_count_us": null,
+    "terminal_locations_us": [
+      "Memphis TN (HQ)"
+    ],
+    "glassdoor_overall": null,
+    "driver_satisfaction_notes": "Family feel, respected in Memphis market. Drivers know management by name.",
+    "sentiment_top_complaints": [
+      "Equipment age concerns",
+      "Compensation vs mega-carriers"
+    ],
+    "sentiment_top_praises": [
+      "Family atmosphere",
+      "Management accessibility",
+      "Memphis trucking community respect"
+    ],
+    "fit_score_overall": 8.5,
+    "fit_score_parking_pressure": 9,
+    "fit_score_retention_need": 8,
+    "fit_score_recruiting_leverage": 8,
+    "fit_score_corridor_alignment": 9,
+    "fit_score_activation_likelihood": 8,
+    "fit_tier": "TIER_1",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "Memphis HQ = closest Tier 1 prospect to West Memphis hub. 765 trucks dry van OTR. Donnie Caldwell (COO) previously at Empire Express = warm intro path. Strong family culture aligns with Outriders Club values.",
+    "primary_pitch_angle": "Memphis neighbor \u2014 your drivers pass our hub daily",
+    "secondary_pitch_angle": "Outriders Club as recruiting differentiator for 765-truck fleet competing against mega-carriers",
+    "recommended_entry_persona": "Donnie Caldwell (COO)",
+    "warm_intro_path": "Caldwell previously at Empire Express. Close Ozark first \u2192 Caldwell introduces to Tim Gatlin (Empire CEO).",
+    "strategic_multiplier": "Ozark + Empire + Mid South = 3 Memphis-based carriers at LHS. West Memphis hub becomes Memphis trucking community gathering point.",
+    "exec_summary": "Ozark Motor Lines is a privately held, Memphis-based dry van OTR carrier with 765 trucks and 2,500 trailers. Founded 1961. Strong family culture. COO Donnie Caldwell previously worked at Empire Express, creating the strongest warm-intro path in the pipeline. Memphis HQ makes this the geographic anchor for the West Memphis hub strategy.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "2.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_ozk_001",
+      "first_name": "Donnie",
+      "last_name": "Caldwell",
+      "title": "Chief Operating Officer",
+      "role_type": "operations",
+      "seniority": "c_level",
+      "email": null,
+      "phone": null,
+      "notes": "PRIMARY TARGET. Previously at Empire Express. Warm intro to Tim Gatlin."
+    }
+  ]
+}

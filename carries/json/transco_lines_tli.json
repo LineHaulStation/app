@@ -1,0 +1,80 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_transco_lines_tli",
+    "legal_name": "Transco Lines, Inc.",
+    "dba_name": "TLI / Transco Lines",
+    "parent_company": null,
+    "parent_ticker": null,
+    "hq_address": "Russellville, AR",
+    "founded_year": 1984,
+    "carrier_type": "asset_based",
+    "ownership": "privately_held",
+    "fleet_power_units": 470,
+    "fleet_trailers": 1800,
+    "fleet_drivers": null,
+    "employee_count_total": "201-500",
+    "service_modes": [
+      "dry_van",
+      "truckload",
+      "dedicated"
+    ],
+    "primary_mode": "dry_van_OTR",
+    "coverage": "48 states",
+    "revenue_annual": null,
+    "financial_health": "stable_private",
+    "terminal_count_us": null,
+    "terminal_locations_us": [
+      "Russellville AR (HQ)"
+    ],
+    "shared_leadership_with": "carrier_riverside_transport_rti",
+    "shared_leadership_note": "Kelly Conley (CFO) and Wade Rubin (CCO) serve both RTI and TLI. Enterprise play: one negotiation closes two fleets (1,220 combined trucks).",
+    "fit_score_overall": 7.5,
+    "fit_score_parking_pressure": 8,
+    "fit_score_retention_need": 7,
+    "fit_score_recruiting_leverage": 7,
+    "fit_score_corridor_alignment": 8,
+    "fit_score_activation_likelihood": 7,
+    "fit_tier": "TIER_2",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "470+ trucks dry van OTR. Shared C-suite with RTI = enterprise play. One deal closes 1,220 trucks. Arkansas-based. Good corridor alignment.",
+    "primary_pitch_angle": "Enterprise deal \u2014 RTI + TLI together = 1,220 trucks, one negotiation",
+    "secondary_pitch_angle": "Arkansas neighbor, I-40 corridor alignment",
+    "recommended_entry_persona": "Kelly Conley (shared CFO) or Wade Rubin (shared CCO)",
+    "enterprise_play": {
+      "partner_carrier": "carrier_riverside_transport_rti",
+      "combined_trucks": 1220,
+      "combined_trailers": 4300,
+      "shared_contacts": [
+        "Kelly Conley (CFO)",
+        "Wade Rubin (CCO)"
+      ]
+    },
+    "exec_summary": "Transco Lines (TLI) is a privately held Russellville AR dry van carrier with 470+ trucks, 1,800 trailers. Shares C-suite leadership with Riverside Transport (RTI). Combined enterprise play = 1,220 trucks, 4,300 trailers. One negotiation closes two fleets.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_tli_001",
+      "first_name": "Kelly",
+      "last_name": "Conley",
+      "title": "Chief Financial Officer (shared RTI/TLI)",
+      "role_type": "finance",
+      "seniority": "c_level",
+      "email": null,
+      "phone": null,
+      "notes": "Shared CFO for both RTI and TLI. Key to enterprise deal."
+    },
+    {
+      "contact_id": "ct_tli_002",
+      "first_name": "Wade",
+      "last_name": "Rubin",
+      "title": "Chief Commercial Officer (shared RTI/TLI)",
+      "role_type": "sales",
+      "seniority": "c_level",
+      "email": null,
+      "phone": null,
+      "notes": "Shared CCO for both RTI and TLI."
+    }
+  ]
+}

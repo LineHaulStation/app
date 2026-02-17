@@ -1,0 +1,143 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_crst",
+    "legal_name": "CRST The Transportation Solution, Inc.",
+    "dba_name": "CRST",
+    "hq_address": "3930 16th Ave SW, Cedar Rapids, IA 52404",
+    "founded_year": 1955,
+    "founder": "Herald 'Smitty' and Miriam Smith",
+    "carrier_type": "asset_based",
+    "ownership": "privately_held_family",
+    "ownership_note": "Smith family. Largest privately held transportation company.",
+    "ceo": "Mike Gannon (recently appointed)",
+    "cfo": "Scott Rheinschmidt (appointed Oct 2025)",
+    "cpo": "Jenny Abernathy",
+    "fleet_power_units": 4500,
+    "fleet_trailers": 7300,
+    "fleet_drivers": 6000,
+    "fleet_contractors": 2000,
+    "miles_per_year": 370000000,
+    "employee_count_total": "6200 + 2000 contractors",
+    "service_modes": [
+      "team_expedited",
+      "flatbed",
+      "dedicated",
+      "truckload",
+      "final_mile",
+      "white_glove",
+      "transportation_management"
+    ],
+    "primary_mode": "team_expedited_OTR",
+    "primary_mode_note": "CRST pioneered team driving \u2014 two drivers per truck, running 24/7 coast-to-coast",
+    "business_units": [
+      "Capacity Solutions (team expedited)",
+      "Dedicated Solutions",
+      "Home Solutions (NAL Group)",
+      "Specialized Solutions (flatbed, white-glove)"
+    ],
+    "coverage": "Nationwide",
+    "revenue_annual": 1500000000,
+    "financial_health": "stable_private",
+    "key_locations": [
+      "Cedar Rapids IA (HQ)",
+      "Fort Wayne IN",
+      "Cincinnati OH",
+      "Carlisle PA",
+      "Manteca CA",
+      "Louisville KY"
+    ],
+    "carlisle_pa_connection": "CRST has a diesel mechanic shop in Carlisle, PA. LHS has a Phase 1 hub planned for Carlisle, PA.",
+    "culture_program": "Gold Rules (2014) \u2014 driver-focused culture shift",
+    "awards": [
+      "2024 SmartWay Excellence Award",
+      "Quest for Quality (Logistics Management)",
+      "2025 Handshake Early Talent Award"
+    ],
+    "fit_score_overall": 7.0,
+    "fit_score_parking_pressure": 8,
+    "fit_score_driver_need": 9,
+    "fit_score_corridor_alignment": 8,
+    "fit_score_activation_likelihood": 6,
+    "fit_score_contact_quality": 9,
+    "fit_tier": "TIER_2_STRATEGIC",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "Privately held = fast decisions. Team driving = highest on-road time. Gold Rules culture = receptive. Carlisle PA shop = direct geographic match. 7 C-suite contacts = best access of any prospect. Better than Covenant/Heartland on every dimension except fleet size.",
+    "primary_pitch_angle": "Your team drivers already stop in Carlisle PA \u2014 now there's a private terminal waiting",
+    "secondary_pitch_angle": "You launched Gold Rules in 2014. We built the physical expression of it.",
+    "recommended_entry_persona": "Larry Barnes (SVP Strategy, Birmingham AL) or Jenny Abernathy (CPO)",
+    "outreach_paths": {
+      "bold": "Email Mike Gannon (CEO) \u2014 new, needs visible wins",
+      "strategic": "Email Larry Barnes (SVP Strategy, Birmingham AL) \u2014 title matches, Southeast location",
+      "culture": "Email Jenny Abernathy (CPO) \u2014 Gold Rules alignment"
+    },
+    "exec_summary": "CRST is one of America's largest privately held carriers: $1.5B revenue, 4,500 trucks, 7,300 trailers, 6,000+ drivers. Team driving pioneers. Family-owned (Smith family). New CEO Mike Gannon. Gold Rules driver culture since 2014. Carlisle PA mechanic shop = Phase 1 hub geographic match. 7 C-suite contacts. Best large-carrier prospect in pipeline.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_crs_001",
+      "first_name": "Mike",
+      "last_name": "Gannon",
+      "title": "CEO / Group President",
+      "email": "mgannon@crst.com",
+      "phone": "(563) 323-0645",
+      "city": "Cedar Rapids, IA",
+      "notes": "Recently appointed CEO. New, needs visible wins."
+    },
+    {
+      "contact_id": "ct_crs_002",
+      "first_name": "Cedric",
+      "last_name": "Smith",
+      "title": "CEO",
+      "email": "csmith@crst.com",
+      "city": "Pontotoc, MS",
+      "notes": "May be subsidiary or former CEO."
+    },
+    {
+      "contact_id": "ct_crs_003",
+      "first_name": "Bill",
+      "last_name": "Clement",
+      "title": "Chief Strategy Officer / Group President",
+      "email": "bill.clement@crst.com",
+      "phone": "(904) 230-1815",
+      "city": "Fort Wayne, IN"
+    },
+    {
+      "contact_id": "ct_crs_004",
+      "first_name": "Scott",
+      "last_name": "Rheinschmidt",
+      "title": "Chief Financial Officer",
+      "email": "scott.rheinschmidt@crst.com",
+      "phone": "(319) 558-6925",
+      "city": "Cedar Rapids, IA"
+    },
+    {
+      "contact_id": "ct_crs_005",
+      "first_name": "Jenny",
+      "last_name": "Abernathy",
+      "title": "Chief People Officer",
+      "email": "jabernathy@crst.com",
+      "phone": "(319) 981-6547",
+      "notes": "KEY \u2014 Gold Rules champion. Quoted in press about driver-first culture."
+    },
+    {
+      "contact_id": "ct_crs_006",
+      "first_name": "Jerald",
+      "last_name": "Kilgore",
+      "title": "President of Dedicated Solutions",
+      "email": "jkilgore@crst.com",
+      "phone": "(319) 693-7375",
+      "city": "Cedar Rapids, IA"
+    },
+    {
+      "contact_id": "ct_crs_007",
+      "first_name": "Larry",
+      "last_name": "Barnes",
+      "title": "SVP Strategy & Market Development",
+      "phone": "(904) 759-0748",
+      "city": "Birmingham, AL",
+      "notes": "RECOMMENDED ENTRY. Title matches. Southeast location. Closest to LHS territory."
+    }
+  ]
+}

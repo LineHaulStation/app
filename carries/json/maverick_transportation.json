@@ -1,0 +1,69 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_maverick_transportation",
+    "legal_name": "Maverick Transportation LLC",
+    "dba_name": "Maverick Transportation",
+    "parent_company": null,
+    "parent_ticker": null,
+    "hq_address": "1515 E Hwy 62-65, Harrison, AR 72601",
+    "founded_year": 1980,
+    "carrier_type": "asset_based",
+    "ownership": "privately_held_esop",
+    "fleet_power_units": 1600,
+    "fleet_trailers": 5500,
+    "fleet_drivers": 2000,
+    "employee_count_total": "1001-5000",
+    "service_modes": [
+      "dry_van",
+      "flatbed",
+      "dedicated",
+      "glass_hauling",
+      "temperature_controlled"
+    ],
+    "primary_mode": "dry_van_OTR",
+    "coverage": "48 states, Canada",
+    "revenue_annual": 700000000,
+    "financial_health": "stable_private_esop",
+    "terminal_count_us": 5,
+    "terminal_locations_us": [
+      "Harrison AR (HQ)",
+      "North Little Rock AR",
+      "Dallas TX area",
+      "Other regional"
+    ],
+    "glassdoor_overall": 3.4,
+    "indeed_rating": 3.1,
+    "indeed_review_count": "600+",
+    "driver_satisfaction_notes": "Decent pay for mid-size. ESOP = drivers are owners. Equipment quality praised. Flatbed division well-regarded. Some dispatch and home time complaints.",
+    "sentiment_top_complaints": [
+      "Home time inconsistency",
+      "Dispatch favoritism",
+      "Miles dropped during freight recession",
+      "Flatbed tarping in bad weather",
+      "Communication gaps"
+    ],
+    "sentiment_top_praises": [
+      "ESOP \u2014 drivers own the company",
+      "Good equipment (new trucks)",
+      "Flatbed pay above average",
+      "Safety culture strong",
+      "Harrison HQ accessible"
+    ],
+    "fit_score_overall": 8.5,
+    "fit_score_parking_pressure": 9,
+    "fit_score_retention_need": 8,
+    "fit_score_recruiting_leverage": 9,
+    "fit_score_corridor_alignment": 9,
+    "fit_score_activation_likelihood": 7,
+    "fit_tier": "ANCHOR",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "1,600 trucks = largest privately held prospect. ESOP = drivers are owners, making Outriders Club a natural extension of ownership culture. Arkansas neighbor. 5,500 trailers = Media Partner goldmine. Strong I-40 corridor presence. $700M revenue but still family-run feel.",
+    "primary_pitch_angle": "Your drivers are employee-owners. Give them an owner's experience on the road.",
+    "secondary_pitch_angle": "5,500 trailers = massive Media Partner Program opportunity \u2014 national sponsors could offset membership costs",
+    "recommended_entry_persona": "VP Operations or Driver Development leadership",
+    "exec_summary": "Maverick Transportation is a privately held, ESOP-owned carrier based in Harrison, AR with 1,600+ trucks, 5,500 trailers, 2,000 drivers, ~$700M revenue. Founded 1980. Largest privately held prospect in pipeline. ESOP model = drivers are owners. Dry van + flatbed + glass hauling. Arkansas HQ = neighbor. Anchor prospect for entire pipeline strategy.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": []
+}

@@ -1,0 +1,49 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_mid_south_transport",
+    "legal_name": "Mid South Transport, Inc.",
+    "dba_name": "Mid South Transport",
+    "parent_company": null,
+    "parent_ticker": null,
+    "hq_address": "West Memphis, AR area (~10 miles from LHS hub)",
+    "founded_year": null,
+    "carrier_type": "asset_based",
+    "ownership": "privately_held",
+    "fleet_power_units": 110,
+    "fleet_trailers": null,
+    "fleet_drivers": null,
+    "employee_count_total": "51-200",
+    "service_modes": [
+      "dry_van",
+      "truckload"
+    ],
+    "primary_mode": "dry_van_OTR",
+    "coverage": "Regional/National",
+    "revenue_annual": null,
+    "financial_health": "stable_private",
+    "terminal_count_us": 2,
+    "terminal_locations_us": [
+      "West Memphis AR area (HQ)",
+      "One other"
+    ],
+    "glassdoor_overall": 4.3,
+    "driver_satisfaction_notes": "4.3 star rating = highest driver satisfaction in pipeline. Small fleet, drivers known by name. Ideal pilot partner.",
+    "fit_score_overall": 7.5,
+    "fit_score_parking_pressure": 8,
+    "fit_score_retention_need": 6,
+    "fit_score_recruiting_leverage": 8,
+    "fit_score_corridor_alignment": 9,
+    "fit_score_activation_likelihood": 9,
+    "fit_tier": "PILOT_PARTNER",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "10 miles from West Memphis hub. 4.3 star driver satisfaction = happy drivers give best testimonials. Only 2 facilities = massive terminal gap (LHS adds 4 more). Small fleet = fast decision, easy pilot (10-20 Flex Passes). Ideal proof-of-concept partner.",
+    "primary_pitch_angle": "10-20 driver Flex Pass pilot \u2014 your drivers are 10 minutes away",
+    "secondary_pitch_angle": "Collect testimonials from happiest drivers in pipeline, use in every subsequent carrier pitch",
+    "recommended_entry_persona": "Owner/President (small fleet = owner decides)",
+    "pilot_strategy": "10-20 Flex Pass pilot. Collect driver testimonials. Use Mid South success story in Ozark, Empire, CalArk pitches.",
+    "exec_summary": "Mid South Transport is a small (110 trucks) carrier ~10 miles from the West Memphis LHS hub with the highest driver satisfaction in the pipeline (4.3 stars). Ideal pilot partner: fast decision, happy drivers, great testimonials. Proof of concept for entire pipeline.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": []
+}

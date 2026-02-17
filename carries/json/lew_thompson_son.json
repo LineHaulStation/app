@@ -1,0 +1,112 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_lew_thompson_son",
+    "legal_name": "Lew Thompson & Son Trucking, Inc.",
+    "dba_name": "Lew Thompson & Son",
+    "parent_company": "Covenant Logistics Group, Inc.",
+    "parent_ticker": "CVLG",
+    "parent_exchange": "NYSE",
+    "parent_acquisition_date": "April 2023",
+    "parent_acquisition_price": "~$100M",
+    "hq_address": "11135 Hwy 412, Huntsville, AR",
+    "hq_distance_from_hub_miles": 200,
+    "founded_year": 1983,
+    "founder": "Lew Thompson (started hauling turkeys for Butterball)",
+    "carrier_type": "asset_based",
+    "ownership": "subsidiary_public_parent",
+    "fleet_power_units": 350,
+    "fleet_power_units_note": "Growing to 500-750 under Covenant",
+    "fleet_trailers": 600,
+    "service_modes": [
+      "refrigerated",
+      "live_haul",
+      "tank_trailer",
+      "poultry_transport"
+    ],
+    "primary_mode": "poultry_transportation",
+    "specialization": "Poultry (day-old poults, feed, live haul, reefer final product)",
+    "coverage": "Regional (NW Arkansas, processing plants, cold storage)",
+    "certifications": [
+      "USDA/FSIS compliant"
+    ],
+    "fit_score_overall": 5.5,
+    "fit_score_parking_pressure": 4,
+    "fit_score_retention_need": 5,
+    "fit_score_recruiting_leverage": 5,
+    "fit_score_corridor_alignment": 5,
+    "fit_score_activation_likelihood": 4,
+    "fit_tier": "PARKED",
+    "fit_priority": "DO_NOT_PURSUE",
+    "fit_rationale": "Acquired by Covenant (NYSE: CVLG) in April 2023. No longer family-owned. Niche cargo (live poultry), regional/dedicated routes, corporate procurement, 200 miles from hub.",
+    "parked_reason": "Covenant subsidiary. Niche cargo. Regional routes. Corporate procurement required.",
+    "reactivation_conditions": [
+      "Covenant becomes target through another division",
+      "LT reefer division routes through West Memphis",
+      "Covenant approaches LHS independently"
+    ],
+    "exec_summary": "Lew Thompson & Son was acquired by Covenant Logistics (NYSE: CVLG) in April 2023 for ~$100M. 350+ trucks specializing in poultry transportation. NW Arkansas, 200 miles from hub. PARKED \u2014 niche cargo, corporate parent, regional routes.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_lts_001",
+      "first_name": "Terry",
+      "last_name": "Belue",
+      "title": "VP Operations",
+      "email": "tbelue@lewthompsontrucking.com",
+      "phone": "(864) 425-3408",
+      "city": "South Carolina",
+      "notes": "Best contact IF pursuing. Likely oversees reefer/OTR expansion."
+    },
+    {
+      "contact_id": "ct_lts_002",
+      "first_name": "Mike",
+      "last_name": "Jones",
+      "title": "VP Operations",
+      "phone": "(479) 461-2885",
+      "city": "Fayetteville, AR"
+    },
+    {
+      "contact_id": "ct_lts_003",
+      "first_name": "Brian",
+      "last_name": "Gilreath",
+      "title": "VP Operations",
+      "phone": "(479) 926-5957",
+      "city": "Huntsville, AR"
+    },
+    {
+      "contact_id": "ct_lts_004",
+      "first_name": "Chris",
+      "last_name": "Dewitt",
+      "title": "Dir. Operations",
+      "email": "cdewitt@lewthompsontrucking.com",
+      "phone": "(479) 372-0399",
+      "city": "Decatur, AR"
+    },
+    {
+      "contact_id": "ct_lts_005",
+      "first_name": "Daulton",
+      "last_name": "Terry",
+      "title": "GM Transportation",
+      "phone": "(479) 601-7493",
+      "city": "Fayetteville, AR"
+    },
+    {
+      "contact_id": "ct_lts_006",
+      "first_name": "Derek",
+      "last_name": "Jeremiah",
+      "title": "GM Livehaul Ops",
+      "phone": "(254) 535-3194",
+      "city": "Van Buren, AR"
+    },
+    {
+      "contact_id": "ct_lts_007",
+      "first_name": "Octavio",
+      "last_name": "Lopez",
+      "title": "General Manager",
+      "phone": "(559) 723-2472",
+      "city": "Visalia, CA"
+    }
+  ]
+}

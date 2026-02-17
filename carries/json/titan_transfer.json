@@ -1,0 +1,55 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_titan_transfer",
+    "legal_name": "Titan Transfer, Inc.",
+    "dba_name": "Titan Transfer",
+    "parent_company": null,
+    "parent_ticker": null,
+    "hq_address": "Shelbyville, TN",
+    "founded_year": null,
+    "carrier_type": "asset_based",
+    "ownership": "privately_held",
+    "fleet_power_units": "201-500",
+    "fleet_trailers": null,
+    "employee_count_total": "201-500",
+    "service_modes": [
+      "dry_van",
+      "truckload",
+      "dedicated"
+    ],
+    "primary_mode": "dry_van_OTR",
+    "coverage": "48 states",
+    "revenue_annual": null,
+    "financial_health": "stable_private",
+    "key_person": "Tommy Hodges \u2014 Chairman, past ATA National Chairman",
+    "fit_score_overall": 7.5,
+    "fit_score_parking_pressure": 7,
+    "fit_score_retention_need": 7,
+    "fit_score_recruiting_leverage": 7,
+    "fit_score_corridor_alignment": 7,
+    "fit_score_activation_likelihood": 8,
+    "fit_tier": "STRATEGIC",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "Tommy Hodges is past ATA National Chairman. His endorsement opens doors industry-wide. Not the largest fleet but highest strategic value per truck. Shelbyville TN = Tennessee corridor.",
+    "primary_pitch_angle": "Tommy Hodges' endorsement = industry-wide credibility",
+    "secondary_pitch_angle": "Titan's drivers on I-24/I-40 corridor benefit from West Memphis + Nashville proximity",
+    "recommended_entry_persona": "Tommy Hodges (Chairman)",
+    "strategic_multiplier": "Hodges' ATA network = introductions to every major carrier in the Southeast. His endorsement is worth more than Titan's membership revenue.",
+    "exec_summary": "Titan Transfer is a Shelbyville TN carrier with 201-500 trucks. Tommy Hodges (Chairman) is past ATA National Chairman. Strategic value = industry endorsement. His approval opens doors across the trucking industry.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_ttn_001",
+      "first_name": "Tommy",
+      "last_name": "Hodges",
+      "title": "Chairman (past ATA National Chairman)",
+      "role_type": "executive",
+      "seniority": "chairman",
+      "email": null,
+      "phone": null,
+      "notes": "STRATEGIC TARGET. Past ATA National Chairman. Industry-wide endorsement value."
+    }
+  ]
+}

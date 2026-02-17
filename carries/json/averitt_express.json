@@ -1,0 +1,115 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_averitt_express",
+    "legal_name": "Averitt Express, Inc.",
+    "dba_name": "Averitt Express",
+    "hq_address": "1415 Neal St, Cookeville, TN 38501",
+    "founded_year": 1971,
+    "owner": "Gary Sasser",
+    "carrier_type": "asset_based",
+    "ownership": "privately_held",
+    "employee_count_total": "5001-10000",
+    "service_modes": [
+      "LTL",
+      "truckload",
+      "dedicated",
+      "warehousing",
+      "distribution",
+      "intermodal",
+      "international"
+    ],
+    "primary_mode": "LTL",
+    "coverage": "18 Southeast states primarily, single terminals in CA, OH, WI, MO, IL",
+    "terminal_count_us": 100,
+    "facility_sqft": 2400000,
+    "fit_score_overall": 3.0,
+    "fit_tier": "SCREENED_OUT",
+    "fit_priority": "DO_NOT_PURSUE",
+    "fit_rationale": "DISQUALIFIED. Three reasons: (1) LTL drivers are not OTR \u2014 they run routes between terminals and go home daily. Outriders Club doesn't apply. (2) 100+ facilities \u2014 zero terminal gap. (3) All 9 Lusha contacts are recruiters \u2014 no decision-makers.",
+    "disqualifiers": [
+      "LTL drivers are not OTR \u2014 go home daily",
+      "100+ facilities \u2014 no terminal gap",
+      "No decision-maker contacts \u2014 all 9 are recruiters"
+    ],
+    "exec_summary": "Averitt Express is a Cookeville TN-based LTL carrier with 5,000-10,000 employees, 100+ facilities. SCREENED OUT \u2014 LTL drivers aren't OTR, no terminal gap, no decision-maker contacts.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_avr_001",
+      "first_name": "Jeremiah",
+      "last_name": "Madden",
+      "title": "Recruiter",
+      "email": "jmadden@averittexpress.com",
+      "phone": "(423) 741-1682",
+      "city": "Cookeville, TN"
+    },
+    {
+      "contact_id": "ct_avr_002",
+      "first_name": "Randy",
+      "last_name": "Guidry",
+      "title": "Marketing & Recruiting Comms Leader",
+      "email": "rguidry@averittexpress.com",
+      "phone": "(931) 544-1046",
+      "city": "Cookeville, TN"
+    },
+    {
+      "contact_id": "ct_avr_003",
+      "first_name": "Britnie",
+      "last_name": "Pittman",
+      "title": "Recruiting Outreach Coordinator",
+      "email": "bpittman@averittexpress.com",
+      "phone": "(931) 261-2211",
+      "city": "Cookeville, TN"
+    },
+    {
+      "contact_id": "ct_avr_004",
+      "first_name": "Kristin",
+      "last_name": "Weathers",
+      "title": "Corporate Recruiter",
+      "phone": "(512) 290-8157",
+      "city": "Cookeville, TN"
+    },
+    {
+      "contact_id": "ct_avr_005",
+      "first_name": "Candice",
+      "last_name": "Parker",
+      "title": "Corporate Recruiter",
+      "phone": "(865) 599-0312",
+      "city": "Cookeville, TN"
+    },
+    {
+      "contact_id": "ct_avr_006",
+      "first_name": "Gayle",
+      "last_name": "Stewart",
+      "title": "Recruitment Marketing Leader",
+      "phone": "(931) 319-2413",
+      "city": "Cookeville, TN"
+    },
+    {
+      "contact_id": "ct_avr_007",
+      "first_name": "Kim",
+      "last_name": "Crabtree",
+      "title": "Selections Coordinator",
+      "phone": "(931) 267-8623",
+      "city": "Cookeville, TN"
+    },
+    {
+      "contact_id": "ct_avr_008",
+      "first_name": "Kayla",
+      "last_name": "Harville",
+      "title": "Admin Asst - Driver Recruiting",
+      "phone": "(574) 849-1982",
+      "city": "Cookeville, TN"
+    },
+    {
+      "contact_id": "ct_avr_009",
+      "first_name": "Bruce",
+      "last_name": "Fuehr",
+      "title": "Driver Recruiter",
+      "phone": "(931) 787-8559",
+      "city": "Crossville, TN"
+    }
+  ]
+}

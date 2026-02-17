@@ -1,0 +1,202 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_covenant_logistics",
+    "legal_name": "Covenant Logistics Group, Inc.",
+    "dba_name": "Covenant",
+    "parent_ticker": "CVLG",
+    "parent_exchange": "NYSE",
+    "hq_address": "Chattanooga, TN",
+    "founded_year": 1986,
+    "founder": "David and Jacqueline Parker",
+    "carrier_type": "asset_based",
+    "ownership": "public",
+    "fleet_power_units": 3000,
+    "fleet_trailers": 7000,
+    "fleet_avg_age_months": 20,
+    "employee_count_total": 4800,
+    "service_modes": [
+      "expedited",
+      "temperature_controlled",
+      "dedicated",
+      "managed_transportation",
+      "truckload",
+      "brokerage"
+    ],
+    "primary_mode": "expedited_truckload",
+    "coverage": "All 50 states",
+    "revenue_annual": 1130000000,
+    "revenue_year": 2024,
+    "financial_health": "pressured",
+    "financial_note": "Q4 2025: $0.73/share loss, impairment charges, goodwill writedowns",
+    "subsidiaries": [
+      "Covenant Transport",
+      "Southern Refrigerated Transport (Texarkana AR)",
+      "Star Transportation (La Vergne TN)",
+      "Landair Transportation (Greeneville TN)",
+      "Lew Thompson & Son (Huntsville AR)",
+      "Covenant Transport Solutions (brokerage)",
+      "Transport Financial Solutions (factoring)",
+      "Transport Enterprise Leasing (TEL)"
+    ],
+    "terminal_count_us": 8,
+    "terminal_locations_us": [
+      "Chattanooga TN",
+      "Hutchins TX",
+      "Pomona CA",
+      "Texarkana AR",
+      "La Vergne TN",
+      "Allentown PA",
+      "Orlando FL",
+      "Greeneville TN"
+    ],
+    "ceo": "David R. Parker (Chairman/CEO)",
+    "president": "Paul Bunn (President/COO)",
+    "cfo": "Tripp Grant",
+    "fit_score_overall": 6.5,
+    "fit_score_parking_pressure": 7,
+    "fit_score_terminal_need": 4,
+    "fit_score_retention_need": 8,
+    "fit_score_corridor_alignment": 7,
+    "fit_score_activation_likelihood": 4,
+    "fit_tier": "ASPIRATIONAL",
+    "fit_priority": "YEAR_2",
+    "fit_rationale": "Already has 8 shared terminals (some overlap with LHS Phase 1). $1.13B NYSE company. Under financial pressure but too well-infrastructured for terminal-gap argument. Year 2 target after proof of concept.",
+    "primary_pitch_angle": "Outriders Club is different from your terminals \u2014 it's a driver amenity, not a dispatch facility",
+    "recommended_entry_persona": "Matt Duncan (VP Enterprise Driver Recruiting) after testimonials exist",
+    "conditional_paths": [
+      "Lew Thompson engagement opens door",
+      "Covenant reaches out inbound",
+      "After 5-10 carrier testimonials, approach with proof",
+      "Subsidiary pilot (Star Transportation or Southern Refrigerated)"
+    ],
+    "exec_summary": "Covenant Logistics Group (NYSE: CVLG) is a $1.13B publicly traded mega-carrier with 3,000+ trucks, 7,000+ trailers, 8 shared terminals. Already has more infrastructure than LHS Phase 1 can offer. Year 2 aspirational target.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_cvt_001",
+      "first_name": "Paul",
+      "last_name": "Bunn",
+      "title": "President/COO",
+      "email": "pbunn@covenantlogistics.com",
+      "city": "Tennessee"
+    },
+    {
+      "contact_id": "ct_cvt_002",
+      "first_name": "Dustin",
+      "last_name": "Koehl",
+      "title": "COO",
+      "email": "dkoehl@covenantlogistics.com",
+      "city": "Tennessee"
+    },
+    {
+      "contact_id": "ct_cvt_003",
+      "first_name": "Eric",
+      "last_name": "Johnson",
+      "title": "SVP Operations",
+      "phone": "(423) 470-6946",
+      "city": "Greeneville, TN"
+    },
+    {
+      "contact_id": "ct_cvt_004",
+      "first_name": "Patrick",
+      "last_name": "Childs",
+      "title": "VP Strategic Operations",
+      "email": "pchilds@covenantlogistics.com",
+      "phone": "(865) 599-9655",
+      "city": "Chattanooga"
+    },
+    {
+      "contact_id": "ct_cvt_005",
+      "first_name": "Edward",
+      "last_name": "Kern",
+      "title": "VP Pricing/Network Strategy",
+      "email": "ekern@covenanttransport.com",
+      "phone": "(423) 240-3330",
+      "city": "Chattanooga"
+    },
+    {
+      "contact_id": "ct_cvt_006",
+      "first_name": "Jarrod",
+      "last_name": "Ricker",
+      "title": "VP Logistics Engineering",
+      "email": "jricker@covenantlogistics.com",
+      "phone": "(423) 329-6359",
+      "city": "Spring Hill, TN"
+    },
+    {
+      "contact_id": "ct_cvt_007",
+      "first_name": "Will",
+      "last_name": "Acker",
+      "title": "VP Operations",
+      "email": "wacker@covenantlogistics.com",
+      "city": "Chattanooga"
+    },
+    {
+      "contact_id": "ct_cvt_008",
+      "first_name": "Maher",
+      "last_name": "Farah",
+      "title": "VP Strategic Sales",
+      "email": "mfarah@covenantlogistics.com",
+      "phone": "(810) 210-9616",
+      "city": "Detroit, MI"
+    },
+    {
+      "contact_id": "ct_cvt_009",
+      "first_name": "Misti",
+      "last_name": "Olszewski",
+      "title": "VP Enterprise Safety",
+      "email": "molszewski@covenantlogistics.com",
+      "phone": "(423) 619-1045",
+      "city": "Chattanooga"
+    },
+    {
+      "contact_id": "ct_cvt_010",
+      "first_name": "Matt",
+      "last_name": "Duncan",
+      "title": "VP Enterprise Driver Recruiting",
+      "phone": "(423) 329-5667",
+      "city": "Greeneville, TN",
+      "notes": "KEY TARGET after testimonials exist."
+    },
+    {
+      "contact_id": "ct_cvt_011",
+      "first_name": "Ashley",
+      "last_name": "Brown",
+      "title": "VP Continuous Improvement/PM",
+      "email": "abrown@covenantlogistics.com",
+      "phone": "(423) 463-3205",
+      "city": "Chattanooga"
+    },
+    {
+      "contact_id": "ct_cvt_012",
+      "first_name": "Matt",
+      "last_name": "McLelland",
+      "title": "VP Sustainability",
+      "email": "mmclelland@covenantlogistics.com",
+      "city": "Lookout Mountain, TN"
+    },
+    {
+      "contact_id": "ct_cvt_013",
+      "first_name": "Michael",
+      "last_name": "Mahaney",
+      "title": "CEO/President",
+      "city": "Florida"
+    },
+    {
+      "contact_id": "ct_cvt_014",
+      "first_name": "Joey",
+      "last_name": "Ballard",
+      "title": "EVP People & Safety",
+      "city": "Greeneville, TN"
+    },
+    {
+      "contact_id": "ct_cvt_015",
+      "first_name": "Scott",
+      "last_name": "Loomer",
+      "title": "CEO",
+      "city": "Kingston, TN"
+    }
+  ]
+}

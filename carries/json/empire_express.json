@@ -1,0 +1,131 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_empire_express",
+    "legal_name": "Empire Express, Inc.",
+    "dba_name": "Empire Express",
+    "parent_company": null,
+    "parent_ticker": null,
+    "hq_address": "3710 Tulane Rd, Memphis, TN 38116",
+    "hq_distance_from_hub_miles": 15,
+    "founded_year": 1985,
+    "founder": "Ed 'Big Ed' Gatlin",
+    "carrier_type": "asset_based",
+    "ownership": "privately_held_family",
+    "fleet_power_units": "201-500",
+    "fleet_trailers": null,
+    "employee_count_total": "201-500",
+    "service_modes": [
+      "dry_van",
+      "hazmat",
+      "truckload",
+      "OTR"
+    ],
+    "primary_mode": "dry_van_OTR_hazmat",
+    "hazmat_pct": "35-45%",
+    "hazmat_types": [
+      "agricultural chemicals",
+      "paint",
+      "styrenes",
+      "polymers"
+    ],
+    "coverage": "48 states, Canada",
+    "revenue_annual": null,
+    "financial_health": "stable_private_family",
+    "terminal_count_us": 1,
+    "terminal_locations_us": [
+      "Memphis TN (sole terminal)"
+    ],
+    "certifications": [
+      "American Chemistry Council Responsible Care Program"
+    ],
+    "equipment_features": [
+      "APUs",
+      "Inverters",
+      "Magtec anti-theft",
+      "Full safety lane inspection at Memphis terminal"
+    ],
+    "culture_philosophy": "Treat People Right \u2014 Ed Gatlin, 1985",
+    "industry_role": "Tim Gatlin = Tennessee Trucking Association Board of Directors",
+    "glassdoor_overall": null,
+    "driver_satisfaction_notes": "Above-average pay (+$0.05/mi vs national avg), family atmosphere, no-touch freight, premium equipment. Complaints: only 1 terminal, camera rollout concerns.",
+    "sentiment_top_complaints": [
+      "ONE terminal (Memphis) \u2014 LHS adds 6 more",
+      "Camera rollout causing concern",
+      "Hazmat drivers need secure overnight parking",
+      "Regulatory fatigue"
+    ],
+    "sentiment_top_praises": [
+      "Above-average pay",
+      "Family atmosphere (known by name)",
+      "Premium equipment",
+      "No-touch freight",
+      "Tuition reimbursement",
+      "401k match"
+    ],
+    "fit_score_overall": 7.5,
+    "fit_score_parking_pressure": 9,
+    "fit_score_retention_need": 7,
+    "fit_score_recruiting_leverage": 7,
+    "fit_score_corridor_alignment": 8,
+    "fit_score_activation_likelihood": 7,
+    "fit_tier": "LOCAL_ALLY",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "15 miles from West Memphis hub. 35-45% hazmat = highest security parking need. Only 1 terminal = massive gap. Donnie Caldwell (Ozark COO) warm intro. Tim Gatlin = TTA Board Director. 'Treat People Right' philosophy aligns perfectly.",
+    "primary_pitch_angle": "'Treat People Right' \u2014 we built a place that does exactly that",
+    "secondary_pitch_angle": "Hazmat drivers need secure overnight parking \u2014 gated, camera-monitored, 24/7",
+    "recommended_entry_persona": "Tim Gatlin (CEO) via Donnie Caldwell warm intro",
+    "warm_intro_path": "Donnie Caldwell (Ozark COO) \u2192 Tim Gatlin (Empire CEO). Close Ozark first, then Caldwell introduces.",
+    "strategic_multiplier": "Empire + Mid South + Ozark = 3 Memphis carriers at LHS.",
+    "exec_summary": "Empire Express is a family-owned Memphis carrier (15 mi from hub) with 201-500 trucks, 35-45% hazmat. Founded 1985 by Ed 'Big Ed' Gatlin. CEO Tim Gatlin (TTA Board). Only 1 terminal. Warm intro via Ozark's Caldwell. 'Treat People Right' culture = perfect Outriders Club alignment.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_emp_001",
+      "first_name": "Tim",
+      "last_name": "Gatlin",
+      "title": "President & CEO",
+      "role_type": "executive",
+      "seniority": "c_level",
+      "email": "tim@empireexpress.com",
+      "phone": "(901) 647-7954",
+      "city": "Collierville, TN",
+      "notes": "PRIMARY. TTA Board Director. Warm intro via Caldwell."
+    },
+    {
+      "contact_id": "ct_emp_002",
+      "first_name": "Rodney",
+      "last_name": "Hudson",
+      "title": "VP Driver Operations",
+      "role_type": "operations",
+      "seniority": "vp",
+      "email": null,
+      "phone": "(708) 299-0417",
+      "city": "Memphis, TN",
+      "notes": "Hazmat driver ops angle."
+    },
+    {
+      "contact_id": "ct_emp_003",
+      "first_name": "Jonathan",
+      "last_name": "Gaines",
+      "title": "Director of Logistics",
+      "role_type": "logistics",
+      "seniority": "director",
+      "email": "jonathan@empireexpress.com",
+      "phone": "(901) 238-0769",
+      "city": "Memphis, TN"
+    },
+    {
+      "contact_id": "ct_emp_004",
+      "first_name": "Tommy",
+      "last_name": "Robinson",
+      "title": "Fleet Manager",
+      "role_type": "fleet",
+      "seniority": "manager",
+      "email": "tommy@empireexpress.com",
+      "phone": "(901) 262-7222",
+      "city": "Kansas"
+    }
+  ]
+}

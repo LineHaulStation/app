@@ -1,0 +1,219 @@
+{
+  "carrier_master": {
+    "carrier_id": "carrier_pam_transport",
+    "legal_name": "PAM Transport, Inc. / PAM Transportation Services, Inc.",
+    "dba_name": "PAM Transport",
+    "parent_company": "PAM Transportation Services, Inc.",
+    "parent_ticker": "PAMT",
+    "parent_exchange": "NASDAQ",
+    "hq_address": "Tontitown, AR",
+    "founded_year": 1980,
+    "founder": "Paul Allen Maestri (5 trucks)",
+    "carrier_type": "asset_based",
+    "ownership": "public",
+    "controlling_shareholder": "Matthew T. Moroun (family trusts, Chairman since 2007)",
+    "fleet_power_units": 2300,
+    "fleet_trailers": 7500,
+    "fleet_trailer_ratio": 3.3,
+    "fleet_trailer_ratio_note": "3.3:1 = heavily drop-and-hook",
+    "fleet_equipment": [
+      "Peterbilt",
+      "Freightliner",
+      "International"
+    ],
+    "fleet_avg_age_months": 18,
+    "employee_count_total": "1001-5000",
+    "service_modes": [
+      "dry_van",
+      "truckload",
+      "expedited",
+      "intermodal",
+      "logistics"
+    ],
+    "primary_mode": "dry_van_OTR",
+    "coverage": "48 states, Ontario/Quebec Canada, Mexico (Laredo/El Paso)",
+    "revenue_annual": null,
+    "ceo_status": "VACANT \u2014 Joseph Vitiritto resigned June 2025",
+    "training_programs": [
+      "CDL sponsorship via Driver Solutions Network",
+      "Select CDL School"
+    ],
+    "driver_programs": [
+      "Mission MPG fuel competition",
+      "$1,500 driver referral bonus",
+      "PTO from day 1"
+    ],
+    "glassdoor_overall": 3.0,
+    "glassdoor_recommend_pct": 31,
+    "glassdoor_review_count": 99,
+    "indeed_review_count": "464+",
+    "driver_satisfaction_notes": "WORST in pipeline. 3.0/5, 31% recommend. Low pay is #1 complaint. CEO just resigned.",
+    "sentiment_top_complaints": [
+      "LOW PAY \u2014 #1 complaint",
+      "Forced dispatch / bad routes",
+      "Not enough miles / sitting",
+      "Dispatch communication",
+      "No layover/detention pay"
+    ],
+    "sentiment_top_praises": [
+      "CDL school (free training)",
+      "Good equipment (Peterbilt/Freightliner, 18-month avg)",
+      "Mission MPG fuel bonus",
+      "Driver referral bonuses",
+      "Good starter company"
+    ],
+    "fit_score_overall": 8.0,
+    "fit_score_parking_pressure": 9,
+    "fit_score_retention_need": 10,
+    "fit_score_recruiting_leverage": 9,
+    "fit_score_corridor_alignment": 8,
+    "fit_score_activation_likelihood": 5,
+    "fit_tier": "WHALE",
+    "fit_priority": "PURSUE_NOW",
+    "fit_rationale": "Largest dry van prospect: 2,300 trucks, 7,500 trailers. WORST driver satisfaction (3.0/5, 31% recommend). CEO just resigned = new leadership needs visible wins. 7,500 trailers = Media Partner goldmine. CDL school pipeline leaks graduates. Outriders Club = most tangible driver investment without raising per-mile pay.",
+    "primary_pitch_angle": "A driver resource for 2,300 drivers \u2014 $13/day, no CapEx",
+    "secondary_pitch_angle": "7,500 trailers in Media Partner Program could offset entire membership cost",
+    "recommended_entry_persona": "Gary Kirby (VP Driver Resources)",
+    "timing_advantage": "CEO resigned June 2025. New/interim leadership looking for visible wins.",
+    "media_partner_math": "7,500 trailers = largest banner fleet in pipeline. National sponsors would pay premium.",
+    "exec_summary": "PAM Transport (NASDAQ: PAMT) is the largest dry van prospect in the pipeline. 2,300+ trucks, 7,500+ trailers. Worst driver satisfaction (3.0/5, 31% recommend). CEO just resigned. Chairman Moroun controls via trusts. $13/day Outriders Club = most tangible driver investment PAM can make without raising pay. 7,500 trailers = Media Partner goldmine.",
+    "dossier_created": "2026-02-17",
+    "dossier_version": "1.0"
+  },
+  "carrier_contacts": [
+    {
+      "contact_id": "ct_pam_001",
+      "first_name": "Gary",
+      "last_name": "Kirby",
+      "title": "VP Driver Resources",
+      "email": "gary.kirby@pamtransport.com",
+      "phone": "(479) 263-2249",
+      "city": "Springdale, AR",
+      "notes": "PRIMARY TARGET. Title IS the problem you solve."
+    },
+    {
+      "contact_id": "ct_pam_002",
+      "first_name": "Cole",
+      "last_name": "Fritschen",
+      "title": "Dir. OTR Operations",
+      "email": "fritc@pamt.com",
+      "phone": "(501) 529-2371",
+      "city": "Fayetteville, AR",
+      "notes": "KEY \u2014 decides where drivers stop."
+    },
+    {
+      "contact_id": "ct_pam_003",
+      "first_name": "Chelsea",
+      "last_name": "Wood",
+      "title": "Dir. Recruiting",
+      "email": "chelsea.wood@pamtransport.com",
+      "phone": "(432) 266-3028",
+      "city": "Tontitown, AR",
+      "notes": "KEY \u2014 recruiting angle."
+    },
+    {
+      "contact_id": "ct_pam_004",
+      "first_name": "Fernando",
+      "last_name": "Gonzalez",
+      "title": "COO",
+      "email": "fernando.gonzalez@pamtransport.com",
+      "phone": "+52 81 8349 9302",
+      "city": "Mexico City"
+    },
+    {
+      "contact_id": "ct_pam_005",
+      "first_name": "Chris",
+      "last_name": "Adams",
+      "title": "VP Logistics / AVP Strategy",
+      "email": "chris.adams@pamtransport.com",
+      "phone": "(479) 502-1870",
+      "city": "Tontitown, AR"
+    },
+    {
+      "contact_id": "ct_pam_006",
+      "first_name": "Shane",
+      "last_name": "Barnes",
+      "title": "VP Maintenance",
+      "email": "shane.barnes@pamtransport.com",
+      "phone": "(479) 228-2637",
+      "city": "Gravette, AR"
+    },
+    {
+      "contact_id": "ct_pam_007",
+      "first_name": "Tyler",
+      "last_name": "Majors",
+      "title": "VP Human Resources",
+      "email": "majot@pamtransport.com",
+      "phone": "(479) 263-7060",
+      "city": "Bentonville, AR"
+    },
+    {
+      "contact_id": "ct_pam_008",
+      "first_name": "Malea",
+      "last_name": "McElyea",
+      "title": "VP Safety & Compliance",
+      "email": "malea.mcelyea@pamtransport.com"
+    },
+    {
+      "contact_id": "ct_pam_009",
+      "first_name": "Cortney",
+      "last_name": "Parrott",
+      "title": "VP Logistics",
+      "email": "cortney.parrott@pamtransport.com",
+      "phone": "(501) 691-3360",
+      "city": "Fayetteville, AR"
+    },
+    {
+      "contact_id": "ct_pam_010",
+      "first_name": "Cookie",
+      "last_name": "Mingin",
+      "title": "Vice President",
+      "email": "cookie.mingin@pamtransport.com",
+      "phone": "(856) 362-1789"
+    },
+    {
+      "contact_id": "ct_pam_011",
+      "first_name": "Jordan",
+      "last_name": "Claytor",
+      "title": "Sr. Dir. US Trucking Ops",
+      "email": "jordan.claytor@pamtransport.com",
+      "phone": "(479) 659-2523",
+      "city": "Cave Springs, AR"
+    },
+    {
+      "contact_id": "ct_pam_012",
+      "first_name": "Ava",
+      "last_name": "Robinson",
+      "title": "Dir. Pricing & Network",
+      "email": "ava.robinson@pamtransport.com",
+      "phone": "(870) 918-6290",
+      "city": "Fayetteville, AR"
+    },
+    {
+      "contact_id": "ct_pam_013",
+      "first_name": "Holly",
+      "last_name": "Wright",
+      "title": "Dir. HR",
+      "email": "wrigh@pamt.com",
+      "phone": "(479) 361-5571"
+    },
+    {
+      "contact_id": "ct_pam_014",
+      "first_name": "Tacker",
+      "last_name": "O'Halloran",
+      "title": "Dir. Operations",
+      "email": "tacker.ohalloran@pamtransport.com",
+      "phone": "(479) 236-2487",
+      "city": "Fayetteville, AR"
+    },
+    {
+      "contact_id": "ct_pam_015",
+      "first_name": "Chris",
+      "last_name": "Mayes",
+      "title": "Dir. Operations",
+      "email": "chris.mayes@pamtransport.com",
+      "phone": "(870) 623-4139",
+      "city": "Lowell/Springdale, AR"
+    }
+  ]
+}

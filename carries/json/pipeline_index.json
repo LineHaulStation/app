@@ -1,0 +1,163 @@
+{
+  "pipeline_summary": {
+    "generated": "2026-02-17",
+    "total_dossiers": 15,
+    "total_trucks_catalogued": "~21,000+",
+    "pursue_now": 10,
+    "year_2_plus": 3,
+    "relationship_only": 1,
+    "screened_out": 1
+  },
+  "carriers": [
+    {
+      "carrier_id": "carrier_ozark_motor_lines",
+      "name": "Ozark Motor Lines",
+      "trucks": 765,
+      "fit_score": 8.5,
+      "tier": "TIER_1",
+      "priority": "PURSUE_NOW",
+      "hq": "Memphis, TN",
+      "contacts": 1
+    },
+    {
+      "carrier_id": "carrier_maverick_transportation",
+      "name": "Maverick Transportation",
+      "trucks": 1600,
+      "fit_score": 8.5,
+      "tier": "ANCHOR",
+      "priority": "PURSUE_NOW",
+      "hq": "1515 E Hwy 62-65, Harrison, AR 72601",
+      "contacts": 0
+    },
+    {
+      "carrier_id": "carrier_calark_international",
+      "name": "CalArk",
+      "trucks": 600,
+      "fit_score": 8.0,
+      "tier": "TIER_1",
+      "priority": "PURSUE_NOW",
+      "hq": "1721 W Oak St, Little Rock, AR 72114",
+      "contacts": 0
+    },
+    {
+      "carrier_id": "carrier_riverside_transport_rti",
+      "name": "RTI",
+      "trucks": 750,
+      "fit_score": 8.0,
+      "tier": "ENTERPRISE_PLAY",
+      "priority": "PURSUE_NOW",
+      "hq": "Chattanooga, TN / Russellville, AR",
+      "contacts": 0
+    },
+    {
+      "carrier_id": "carrier_pam_transport",
+      "name": "PAM Transport",
+      "trucks": 2300,
+      "fit_score": 8.0,
+      "tier": "WHALE",
+      "priority": "PURSUE_NOW",
+      "hq": "Tontitown, AR",
+      "contacts": 15
+    },
+    {
+      "carrier_id": "carrier_transco_lines_tli",
+      "name": "TLI / Transco Lines",
+      "trucks": 470,
+      "fit_score": 7.5,
+      "tier": "TIER_2",
+      "priority": "PURSUE_NOW",
+      "hq": "Russellville, AR",
+      "contacts": 2
+    },
+    {
+      "carrier_id": "carrier_titan_transfer",
+      "name": "Titan Transfer",
+      "trucks": "201-500",
+      "fit_score": 7.5,
+      "tier": "STRATEGIC",
+      "priority": "PURSUE_NOW",
+      "hq": "Shelbyville, TN",
+      "contacts": 1
+    },
+    {
+      "carrier_id": "carrier_mid_south_transport",
+      "name": "Mid South Transport",
+      "trucks": 110,
+      "fit_score": 7.5,
+      "tier": "PILOT_PARTNER",
+      "priority": "PURSUE_NOW",
+      "hq": "West Memphis, AR area (~10 miles from LHS hub)",
+      "contacts": 0
+    },
+    {
+      "carrier_id": "carrier_empire_express",
+      "name": "Empire Express",
+      "trucks": "201-500",
+      "fit_score": 7.5,
+      "tier": "LOCAL_ALLY",
+      "priority": "PURSUE_NOW",
+      "hq": "3710 Tulane Rd, Memphis, TN 38116",
+      "contacts": 4
+    },
+    {
+      "carrier_id": "carrier_crst",
+      "name": "CRST",
+      "trucks": 4500,
+      "fit_score": 7.0,
+      "tier": "TIER_2_STRATEGIC",
+      "priority": "PURSUE_NOW",
+      "hq": "3930 16th Ave SW, Cedar Rapids, IA 52404",
+      "contacts": 7
+    },
+    {
+      "carrier_id": "carrier_covenant_logistics",
+      "name": "Covenant",
+      "trucks": 3000,
+      "fit_score": 6.5,
+      "tier": "ASPIRATIONAL",
+      "priority": "YEAR_2",
+      "hq": "Chattanooga, TN",
+      "contacts": 15
+    },
+    {
+      "carrier_id": "carrier_lew_thompson_son",
+      "name": "Lew Thompson & Son",
+      "trucks": 350,
+      "fit_score": 5.5,
+      "tier": "PARKED",
+      "priority": "DO_NOT_PURSUE",
+      "hq": "11135 Hwy 412, Huntsville, AR",
+      "contacts": 7
+    },
+    {
+      "carrier_id": "carrier_heartland_express",
+      "name": "Heartland Express",
+      "trucks": 4276,
+      "fit_score": 5.0,
+      "tier": "CONDITIONAL",
+      "priority": "YEAR_2_PLUS",
+      "hq": "North Liberty, Iowa",
+      "contacts": 6
+    },
+    {
+      "carrier_id": "carrier_imc_logistics",
+      "name": "IMC Logistics / IMC Companies",
+      "trucks": 2200,
+      "fit_score": 4.0,
+      "tier": "RELATIONSHIP_ONLY",
+      "priority": "TOUR_INVITE_REFERRAL",
+      "hq": "Collierville, TN (Memphis suburb)",
+      "contacts": 10
+    },
+    {
+      "carrier_id": "carrier_averitt_express",
+      "name": "Averitt Express",
+      "trucks": null,
+      "fit_score": 3.0,
+      "tier": "SCREENED_OUT",
+      "priority": "DO_NOT_PURSUE",
+      "hq": "1415 Neal St, Cookeville, TN 38501",
+      "contacts": 9
+    }
+  ]
+}
