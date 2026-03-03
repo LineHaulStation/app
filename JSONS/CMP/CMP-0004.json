@@ -1,0 +1,101 @@
+{
+  "__path__": "JSONS/CMP/CMP-0004.json",
+  "schema_version": "1.2.1",
+  "entity_type": "campaign",
+  "id": "CMP-0004",
+  "status": "active",
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "Geoffrey",
+    "last_touched_at": "2026-03-03T21:07:05.468Z"
+  },
+  "definition": {
+    "title": "Federal Government Engagements (Strategic Authority Layer)",
+    "objective": "Signaling institutional-level credibility. Changes investor perception, partner perception, industry perception. Institutional narrative, not startup narrative.",
+    "channel": "linkedin",
+    "target_audience": "Investors, strategic partners, industry leaders, policymakers, LinkedIn professional audience",
+    "cadence": "Low frequency, high impact. Use around infrastructure news cycles, funding announcements, policy headlines, and LHS mile"
+  },
+  "content": {
+    "drafts": [],
+    "approved": [],
+    "published": []
+  },
+  "flags": [],
+  "next_actions": [
+    "Mine content for 90-day plan deliverables"
+  ],
+  "metrics": {
+    "impressions": 0,
+    "engagements": 0,
+    "conversions": 0
+  },
+  "timestamps": {
+    "created_at": "2026-03-03T21:07:05.468Z",
+    "updated_at": "2026-03-03T21:07:05.468Z"
+  },
+  "campaign_card": {
+    "target_audience": "Investors, strategic partners, industry leaders, policymakers, LinkedIn professional audience",
+    "campaign_name": "Federal Government Engagements (Strategic Authority Layer)",
+    "campaign_goal": {
+      "memberships_per_week_target": 0
+    },
+    "key_messages": [
+      "Presented to federal leadership on freight infrastructure reform",
+      "Operating at institutional conversation level — not startup pitch",
+      "Infrastructure-focused, non-partisan, system-improvement positioning"
+    ],
+    "cta": {
+      "text": "Learn About the Model",
+      "lead_capture_point": "FlippingBook Duffy presentation"
+    },
+    "campaign_type": "organic",
+    "budget": {
+      "total": 0,
+      "weekly": 0,
+      "currency": "USD"
+    },
+    "creative_assets": [
+      {
+        "type": "deck",
+        "label": "Duffy Presentation (FlippingBook)",
+        "url": "https://online.flippingbook.com/view/773641369/"
+      },
+      {
+        "type": "video",
+        "label": "Duffy Video (Vimeo)",
+        "url": "https://vimeo.com/linehaul/duffy?share=copy&fl=sv&fe=ci"
+      }
+    ]
+  },
+  "plan": {
+    "time_window_days": 90,
+    "start_date": "2026-04-01",
+    "monday_review": {
+      "cadence": "weekly",
+      "focus": "performance review + week planning"
+    },
+    "friday_report": {
+      "cadence": "weekly",
+      "focus": "metrics snapshot + next week prep"
+    },
+    "initiatives": [
+      "Clip mining from Vimeo. Credibility signal posts. Thought leadership threads. Behind the scenes framing."
+    ]
+  },
+  "reporting": {
+    "weekly_reports": []
+  },
+  "_legacy_card": {
+    "original_id": 4,
+    "category": "Brand",
+    "legacy_status": "Ready",
+    "description": "Direct engagement with federal and state-level transportation leadership. Jeff has presented to Texas DOT and Secretary Sean Duffy with a custom piece created specifically for Duffy.",
+    "strategic_purpose": "Signaling institutional-level credibility. Changes investor perception, partner perception, industry perception. Institutional narrative, not startup narrative.",
+    "asset_links": "Duffy Presentation (FlippingBook): https://online.flippingbook.com/view/773641369/\nDuffy Video (Vimeo): https://vimeo.com/linehaul/duffy?share=copy&fl=sv&fe=ci",
+    "pre_approved_angles": "Credibility signals. Infrastructure-focused thought leadership. Behind the scenes framing. Tone: avoid political positioning, keep it infrastructure-focused and system-focused.",
+    "artlist_cost": "Zero for static credibility posts. Vimeo clip mining may use credits for editing.",
+    "repurposing": "Clip mining from Vimeo. Credibility signal posts. Thought leadership threads. Behind the scenes framing.",
+    "timeline": "Low frequency, high impact. Use around infrastructure news cycles, funding announcements, policy headlines, and LHS milestones."
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "generated_at": "2026-03-03T21:07:05.468Z",
+  "campaign_count": 19,
+  "campaigns": [
+    {
+      "file": "CMP-0001.json",
+      "id": "CMP-0001",
+      "title": "Ad Clips Master Repository",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Campaign",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0002.json",
+      "id": "CMP-0002",
+      "title": "LHS America's Flip Freight Relay Network (Master Deck)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Brand",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0003.json",
+      "id": "CMP-0003",
+      "title": "LHS Facility Renderings (Visual Vision Library)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Brand",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0004.json",
+      "id": "CMP-0004",
+      "title": "Federal Government Engagements (Strategic Authority Layer)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Brand",
+      "channel": "linkedin",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0005.json",
+      "id": "CMP-0005",
+      "title": "Freight Broker Positioning & Brokerage Pitch",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Product",
+      "channel": "linkedin",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0006.json",
+      "id": "CMP-0006",
+      "title": "2026 Line Haul Station Brand Guide (System Authority)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Brand",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0007.json",
+      "id": "CMP-0007",
+      "title": "LineHaulStation.com (Narrative & Asset Core)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Brand",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0008.json",
+      "id": "CMP-0008",
+      "title": "LHS Apparel & Merch (Identity + Revenue + Prompt Engine)",
+      "status": "active",
+      "legacy_status": "In Production",
+      "category": "Campaign",
+      "channel": "multi_channel",
+      "campaign_type": "mixed"
+    },
+    {
+      "file": "CMP-0009.json",
+      "id": "CMP-0009",
+      "title": "Jeff's 5-Min Driver Address (YouTube Authority Asset)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Marketing > Shows",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0010.json",
+      "id": "CMP-0010",
+      "title": "Hello America's Truck Drivers (Foundational Founder Address)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Marketing > Shows",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0011.json",
+      "id": "CMP-0011",
+      "title": "The True Cost of Truck Terminals (Economic Authority Series)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Brand",
+      "channel": "linkedin",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0021.json",
+      "id": "CMP-0021",
+      "title": "Resort on the Road / Life at LineHaul / One Home",
+      "status": "active",
+      "legacy_status": "In Production",
+      "category": "Campaign",
+      "channel": "multi_channel",
+      "campaign_type": "mixed"
+    },
+    {
+      "file": "CMP-0022.json",
+      "id": "CMP-0022",
+      "title": "Top 10 Truckers Campaign (Referral Marketing Funnel)",
+      "status": "active",
+      "legacy_status": "In Production",
+      "category": "Campaign",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0023.json",
+      "id": "CMP-0023",
+      "title": "Real Housewives of Trucking (IP + Audience Expansion)",
+      "status": "active",
+      "legacy_status": "In Production",
+      "category": "Campaign",
+      "channel": "multi_channel",
+      "campaign_type": "mixed"
+    },
+    {
+      "file": "CMP-0024.json",
+      "id": "CMP-0024",
+      "title": "Truck Sleeping Cab Makeovers (HGTV-Style Contest Campaign)",
+      "status": "draft",
+      "legacy_status": "Idea",
+      "category": "Campaign",
+      "channel": "multi_channel",
+      "campaign_type": "mixed"
+    },
+    {
+      "file": "CMP-0025.json",
+      "id": "CMP-0025",
+      "title": "The Modern Day Pony Express (Recurring Content Franchise)",
+      "status": "active",
+      "legacy_status": "In Production",
+      "category": "Campaign",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0026.json",
+      "id": "CMP-0026",
+      "title": "Chip McNeely — Carrier Intelligence (Internal Bot Collaboration)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Brand",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0027.json",
+      "id": "CMP-0027",
+      "title": "Lulu Membership Report — Live Data Feed (Feb 2026)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Brand",
+      "channel": "multi_channel",
+      "campaign_type": "organic"
+    },
+    {
+      "file": "CMP-0028.json",
+      "id": "CMP-0028",
+      "title": "Malcolm McLean / Shipping Containerization (Authority Analogy Video)",
+      "status": "active",
+      "legacy_status": "Ready",
+      "category": "Marketing > Shows",
+      "channel": "linkedin",
+      "campaign_type": "organic"
+    }
+  ]
+}

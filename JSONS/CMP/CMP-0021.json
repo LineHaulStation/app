@@ -1,0 +1,91 @@
+{
+  "__path__": "JSONS/CMP/CMP-0021.json",
+  "schema_version": "1.2.1",
+  "entity_type": "campaign",
+  "id": "CMP-0021",
+  "status": "active",
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "Geoffrey",
+    "last_touched_at": "2026-03-03T21:07:05.468Z"
+  },
+  "definition": {
+    "title": "Resort on the Road / Life at LineHaul / One Home",
+    "objective": "Build Resort on the Road as THE dominant content pillar. Feed creative into GA #1 ad campaign for testing. Aspirational lifestyle positioning. Must feel premium, not pitchy.",
+    "channel": "multi_channel",
+    "target_audience": "Truck drivers (primary — lifestyle aspiration + dignity), young/prospective drivers (mentorship track), trucker families, carriers evaluating driver retention",
+    "cadence": "ACTIVE NOW. First batch of lifestyle videos in production. GA #1 ad test imminent. Jeff viral short scripting next."
+  },
+  "content": {
+    "drafts": [],
+    "approved": [],
+    "published": []
+  },
+  "flags": [],
+  "next_actions": [
+    "Continue active production",
+    "Mine content for 90-day plan deliverables"
+  ],
+  "metrics": {
+    "impressions": 0,
+    "engagements": 0,
+    "conversions": 0
+  },
+  "timestamps": {
+    "created_at": "2026-03-03T21:07:05.468Z",
+    "updated_at": "2026-03-03T21:07:05.468Z"
+  },
+  "campaign_card": {
+    "target_audience": "Truck drivers (primary — lifestyle aspiration + dignity), young/prospective drivers (mentorship track), trucker families, carriers evaluating driver retention",
+    "campaign_name": "Resort on the Road / Life at LineHaul / One Home",
+    "campaign_goal": {
+      "memberships_per_week_target": 25
+    },
+    "key_messages": [
+      "Resort on the Road — aspirational lifestyle positioning for drivers",
+      "$13/day when you use it vs $50 apartment vs $110 hotel vs $65 truck stop",
+      "You already live on the road — LHS is your resort"
+    ],
+    "cta": {
+      "text": "Sign Up",
+      "lead_capture_point": "LHS membership registration"
+    },
+    "campaign_type": "mixed",
+    "budget": {
+      "total": 0,
+      "weekly": 0,
+      "currency": "USD"
+    },
+    "creative_assets": []
+  },
+  "plan": {
+    "time_window_days": 90,
+    "start_date": "2026-04-01",
+    "monday_review": {
+      "cadence": "weekly",
+      "focus": "performance review + week planning"
+    },
+    "friday_report": {
+      "cadence": "weekly",
+      "focus": "metrics snapshot + next week prep"
+    },
+    "initiatives": [
+      "Long-form ads (Year of the Trucker format). Sora2 lifestyle videos. Viral shorts (Jeff mentorship). Financial math graphics. Ad campaign fee"
+    ]
+  },
+  "reporting": {
+    "weekly_reports": []
+  },
+  "_legacy_card": {
+    "original_id": 21,
+    "category": "Campaign",
+    "legacy_status": "In Production",
+    "description": "CONTENT ACTIVE. Dominant content pillar. Position LHS as aspirational — the place drivers deserve. Two tracks: Lifestyle Aspiration and Driver Dignity. Financial math: $13/day vs $50 apartment vs $110 hotel vs $65 truck stop.",
+    "strategic_purpose": "Build Resort on the Road as THE dominant content pillar. Feed creative into GA #1 ad campaign for testing. Aspirational lifestyle positioning. Must feel premium, not pitchy.",
+    "asset_links": "Resort on the Road Videos: New videos reviewed — Anj content plan active.\n10 Sora2 Video Prompts: Lifestyle testimonials ready to generate.\nViral Short Scripts: If I Was 18 Again, You're Not Lost, Your First Business.\nPodcast Concept: The Trucking Blueprint / CDL Playbook.",
+    "pre_approved_angles": "Resort on the Road. The Rig Carlton. $13/day financial comparison. Young driver mentorship. AI-generated resort experience visuals.",
+    "artlist_cost": "Sora2 prompts for AI video. Long-form ad production ongoing. Viral shorts need Jeff filming time.",
+    "repurposing": "Long-form ads (Year of the Trucker format). Sora2 lifestyle videos. Viral shorts (Jeff mentorship). Financial math graphics. Ad campaign feed. Podcast content.",
+    "timeline": "ACTIVE NOW. First batch of lifestyle videos in production. GA #1 ad test imminent. Jeff viral short scripting next."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "__path__": "JSONS/CMP/CMP-0024.json",
+  "schema_version": "1.2.1",
+  "entity_type": "campaign",
+  "id": "CMP-0024",
+  "status": "draft",
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "Geoffrey",
+    "last_touched_at": "2026-03-03T21:07:05.468Z"
+  },
+  "definition": {
+    "title": "Truck Sleeping Cab Makeovers (HGTV-Style Contest Campaign)",
+    "objective": "Generate PR, UGC, and One Home membership interest via national cab makeover contest. HGTV reveal format is shareable and press-worthy. Leverages existing organic behavior.",
+    "channel": "multi_channel",
+    "target_audience": "Truck drivers (contestants), cab/sprinter-van makeover communities, HGTV-style content audiences, trucker wives/families, influencer followings",
+    "cadence": "CONCEPT PHASE. Needs attention. Awaiting Alexis research + influencer list."
+  },
+  "content": {
+    "drafts": [],
+    "approved": [],
+    "published": []
+  },
+  "flags": [
+    "concept_only"
+  ],
+  "next_actions": [
+    "Move from concept to production plan",
+    "Mine content for 90-day plan deliverables"
+  ],
+  "metrics": {
+    "impressions": 0,
+    "engagements": 0,
+    "conversions": 0
+  },
+  "timestamps": {
+    "created_at": "2026-03-03T21:07:05.468Z",
+    "updated_at": "2026-03-03T21:07:05.468Z"
+  },
+  "campaign_card": {
+    "target_audience": "Truck drivers (contestants), cab/sprinter-van makeover communities, HGTV-style content audiences, trucker wives/families, influencer followings",
+    "campaign_name": "Truck Sleeping Cab Makeovers (HGTV-Style Contest Campaign)",
+    "campaign_goal": {
+      "memberships_per_week_target": 0
+    },
+    "key_messages": [
+      "You deserve a space that feels like yours",
+      "We will makeover your cab AND give you a home base on every major corridor",
+      "HGTV-style reveal format — shareable, press-worthy, and UGC-generating"
+    ],
+    "cta": {
+      "text": "Enter the Makeover Contest",
+      "lead_capture_point": "Contest entry form (TBD)"
+    },
+    "campaign_type": "mixed",
+    "budget": {
+      "total": 0,
+      "weekly": 0,
+      "currency": "USD"
+    },
+    "creative_assets": []
+  },
+  "plan": {
+    "time_window_days": 90,
+    "start_date": "2026-04-01",
+    "monday_review": {
+      "cadence": "weekly",
+      "focus": "performance review + week planning"
+    },
+    "friday_report": {
+      "cadence": "weekly",
+      "focus": "metrics snapshot + next week prep"
+    },
+    "initiatives": [
+      "Reveal video. UGC from contestants. Influencer amplification. Behind the scenes series. Before/after statics. One Home integration."
+    ]
+  },
+  "reporting": {
+    "weekly_reports": []
+  },
+  "_legacy_card": {
+    "original_id": 24,
+    "category": "Campaign",
+    "legacy_status": "Idea",
+    "description": "National truck-cabin makeover contest modeled on HGTV-style reveal format. Partner with cab/sprinter-van makeover influencers. PR + UGC + One Home membership leads.",
+    "strategic_purpose": "Generate PR, UGC, and One Home membership interest via national cab makeover contest. HGTV reveal format is shareable and press-worthy. Leverages existing organic behavior.",
+    "asset_links": "No produced assets yet — concept phase. ACTION: Alexis compiling influencer list + contest concept.",
+    "pre_approved_angles": "HGTV reveal format. Influencer partnership. One Home tie-in. Before/after transformation.",
+    "artlist_cost": "TBD — depends on contest prize, influencer costs, and reveal video production.",
+    "repurposing": "Reveal video. UGC from contestants. Influencer amplification. Behind the scenes series. Before/after statics. One Home integration.",
+    "timeline": "CONCEPT PHASE. Needs attention. Awaiting Alexis research + influencer list."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "__path__": "JSONS/CMP/CMP-0008.json",
+  "schema_version": "1.2.1",
+  "entity_type": "campaign",
+  "id": "CMP-0008",
+  "status": "active",
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "Geoffrey",
+    "last_touched_at": "2026-03-03T21:07:05.468Z"
+  },
+  "definition": {
+    "title": "LHS Apparel & Merch (Identity + Revenue + Prompt Engine)",
+    "objective": "Creative laboratory + revenue experiment + engagement engine. Gives Anj creative freedom. Apparel hype posts, mockup teasers, design voting polls, 'Should we print this?' posts. Keeps engagement fresh.",
+    "channel": "multi_channel",
+    "target_audience": "Drivers (primary), trucker wives/families, fleet operators, LHS members, general trucking community fans",
+    "cadence": "1-2 times per month minimum. Spike during launch windows. Tie into bigger campaigns. Quarterly capsule drop planning."
+  },
+  "content": {
+    "drafts": [],
+    "approved": [],
+    "published": []
+  },
+  "flags": [],
+  "next_actions": [
+    "Continue active production",
+    "Mine content for 90-day plan deliverables"
+  ],
+  "metrics": {
+    "impressions": 0,
+    "engagements": 0,
+    "conversions": 0
+  },
+  "timestamps": {
+    "created_at": "2026-03-03T21:07:05.468Z",
+    "updated_at": "2026-03-03T21:07:05.468Z"
+  },
+  "campaign_card": {
+    "target_audience": "Drivers (primary), trucker wives/families, fleet operators, LHS members, general trucking community fans",
+    "campaign_name": "LHS Apparel & Merch (Identity + Revenue + Prompt Engine)",
+    "campaign_goal": {
+      "memberships_per_week_target": 0
+    },
+    "key_messages": [
+      "Apparel is identity signaling and community building — not just merch",
+      "Apparel Prompt Engine generates production-ready AI mockups at zero friction",
+      "Must feel cool, insider, elevated — culture not merch hustle"
+    ],
+    "cta": {
+      "text": "Shop LHS Gear",
+      "lead_capture_point": "Anton Sport store link"
+    },
+    "campaign_type": "mixed",
+    "budget": {
+      "total": 0,
+      "weekly": 0,
+      "currency": "USD"
+    },
+    "creative_assets": [
+      {
+        "type": "file",
+        "label": "Apparel Dropbox",
+        "url": "https://www.dropbox.com/scl/fo/5uyqgnef7fc3lhrosuhar/AMI8KeaTXS_KDAoSwwKtEwQ?rlkey=ddkf6pjospf9c2ydjwltuuqgw&dl=0"
+      },
+      {
+        "type": "file",
+        "label": "Apparel PDF 2026",
+        "url": "https://www.dropbox.com/scl/fi/s2onzwy4fzbafqegxwwuy/LHS_Apparel_2026.pdf?rlkey=zrjljohs3ry10s86a4hkztroz&dl=0"
+      }
+    ]
+  },
+  "plan": {
+    "time_window_days": 90,
+    "start_date": "2026-04-01",
+    "monday_review": {
+      "cadence": "weekly",
+      "focus": "performance review + week planning"
+    },
+    "friday_report": {
+      "cadence": "weekly",
+      "focus": "metrics snapshot + next week prep"
+    },
+    "initiatives": [
+      "AI mockup prompts for lifestyle shots. Campaign tie-ins. Engagement levers (polls, preorders). Sub-sections: current items, archived concept"
+    ]
+  },
+  "reporting": {
+    "weekly_reports": []
+  },
+  "_legacy_card": {
+    "original_id": 8,
+    "category": "Campaign",
+    "legacy_status": "In Production",
+    "description": "Apparel is not merch — it is identity signaling, community building, revenue testing, cultural leverage, and social media fuel. Three core functions: Identity Amplification, Social Media Fuel, Revenue Generation.",
+    "strategic_purpose": "Creative laboratory + revenue experiment + engagement engine. Gives Anj creative freedom. Apparel hype posts, mockup teasers, design voting polls, 'Should we print this?' posts. Keeps engagement fresh.",
+    "asset_links": "Apparel Dropbox: https://www.dropbox.com/scl/fo/5uyqgnef7fc3lhrosuhar/AMI8KeaTXS_KDAoSwwKtEwQ?rlkey=ddkf6pjospf9c2ydjwltuuqgw&dl=0\nApparel PDF 2026: https://www.dropbox.com/scl/fi/s2onzwy4fzbafqegxwwuy/LHS_Apparel_2026.pdf?rlkey=zrjljohs3ry10s86a4hkztroz&dl=0",
+    "pre_approved_angles": "AI mockup drops. Limited run announcements. Driver wife angle. Design voting polls. Gift box teasers. Seasonal tie-ins.",
+    "artlist_cost": "Minimal for AI-generated mockups. Print-on-demand costs separate from content budget.",
+    "repurposing": "AI mockup prompts for lifestyle shots. Campaign tie-ins. Engagement levers (polls, preorders). Sub-sections: current items, archived concepts, prompt templates, drop calendar.",
+    "timeline": "1-2 times per month minimum. Spike during launch windows. Tie into bigger campaigns. Quarterly capsule drop planning."
+  }
+}

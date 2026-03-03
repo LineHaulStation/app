@@ -1,0 +1,97 @@
+{
+  "__path__": "JSONS/CMP/CMP-0023.json",
+  "schema_version": "1.2.1",
+  "entity_type": "campaign",
+  "id": "CMP-0023",
+  "status": "active",
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "Geoffrey",
+    "last_touched_at": "2026-03-03T21:07:05.468Z"
+  },
+  "definition": {
+    "title": "Real Housewives of Trucking (IP + Audience Expansion)",
+    "objective": "Penetrate female-skewed trucker-wife/partner segment. Build brand warmth before commercial offers. Brand repositioning from driver-facing operational to family-aware community brand. Funnel: Outriders Partners Club.",
+    "channel": "multi_channel",
+    "target_audience": "Trucker wives and partners (primary), women in trucking households. Secondary: male drivers who share with partners. Funnel: Outriders Partners Club.",
+    "cadence": "Ep 1 LIVE. Anj distributing to trucker wife FB communities + female-skewed paid targeting. Track engagement for Ep 2/3 g"
+  },
+  "content": {
+    "drafts": [],
+    "approved": [],
+    "published": []
+  },
+  "flags": [],
+  "next_actions": [
+    "Continue active production",
+    "Mine content for 90-day plan deliverables"
+  ],
+  "metrics": {
+    "impressions": 0,
+    "engagements": 0,
+    "conversions": 0
+  },
+  "timestamps": {
+    "created_at": "2026-03-03T21:07:05.468Z",
+    "updated_at": "2026-03-03T21:07:05.468Z"
+  },
+  "campaign_card": {
+    "target_audience": "Trucker wives and partners (primary), women in trucking households. Secondary: male drivers who share with partners. Funnel: Outriders Partners Club.",
+    "campaign_name": "Real Housewives of Trucking (IP + Audience Expansion)",
+    "campaign_goal": {
+      "memberships_per_week_target": 10
+    },
+    "key_messages": [
+      "The video is the spark — the funnel is the fire",
+      "We built a universe, not a marketing video — scalable IP with merch potential",
+      "Apparel is tribe, tribe is referral, referral is members"
+    ],
+    "cta": {
+      "text": "Join Outriders Partners Club",
+      "lead_capture_point": "Outriders Partners Club landing page"
+    },
+    "campaign_type": "mixed",
+    "budget": {
+      "total": 0,
+      "weekly": 0,
+      "currency": "USD"
+    },
+    "creative_assets": [
+      {
+        "type": "video",
+        "label": "YouTube Ep 1",
+        "url": "https://youtu.be/fGngFyEBkcU?si=7OX1UfilhgzUnJJP"
+      }
+    ]
+  },
+  "plan": {
+    "time_window_days": 90,
+    "start_date": "2026-04-01",
+    "monday_review": {
+      "cadence": "weekly",
+      "focus": "performance review + week planning"
+    },
+    "friday_report": {
+      "cadence": "weekly",
+      "focus": "metrics snapshot + next week prep"
+    },
+    "initiatives": [
+      "Short-form reels from Ep 1. Static character portraits. Apparel tie-in. Meme statics. FB community deployment. Ep 2/3 iteration."
+    ]
+  },
+  "reporting": {
+    "weekly_reports": []
+  },
+  "_legacy_card": {
+    "original_id": 23,
+    "category": "Campaign",
+    "legacy_status": "In Production",
+    "description": "EP 1 CANCELLED — PRODUCTION COMPLETE. LIVE on YouTube. Internal grade: A / 9.4 out of 10. IP built. Universe scalable. Audience affinity first, conversion second.",
+    "strategic_purpose": "Penetrate female-skewed trucker-wife/partner segment. Build brand warmth before commercial offers. Brand repositioning from driver-facing operational to family-aware community brand. Funnel: Outriders Partners Club.",
+    "asset_links": "YouTube Ep 1: https://youtu.be/fGngFyEBkcU?si=7OX1UfilhgzUnJJP\nWhite Paper: Strategic doc in Maverick.\nStrategic Brief: Funnel flow + Outriders Partners Club.",
+    "pre_approved_angles": "The wives are the heroes. The producers are the clowns. Meme-first. Affinity-first. Conversion second. Apparel is tribe. Tribe is referral. Referral is members.",
+    "artlist_cost": "Ep 1 fully produced. Apparel mockups zero until committed.",
+    "repurposing": "Short-form reels from Ep 1. Static character portraits. Apparel tie-in. Meme statics. FB community deployment. Ep 2/3 iteration.",
+    "timeline": "Ep 1 LIVE. Anj distributing to trucker wife FB communities + female-skewed paid targeting. Track engagement for Ep 2/3 greenlight."
+  }
+}
