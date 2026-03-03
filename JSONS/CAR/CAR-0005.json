@@ -1,0 +1,430 @@
+{
+  "__path__": "/linehaul-station/carriers/CAR-0005.json",
+  "schema_version": "3.0",
+  "entity_type": "carrier",
+  "id": "CAR-0005",
+  "status": "target",
+  "ownership": {
+    "assigned_to": "JJ",
+    "last_touched_by": "Chip",
+    "last_touched_at": "2026-03-03T00:00:00Z"
+  },
+  "profile": {
+    "company_name": "Heartland Express, Inc.",
+    "website": "https://heartlandexpress.com",
+    "hq_city": "North Liberty",
+    "hq_state": "IA",
+    "founded_year": 1978,
+    "employee_range": "4,500-6,500",
+    "naics_code": "484121",
+    "sic_code": "4213",
+    "description": "Heartland Express is a publicly traded (Nasdaq: HTLD) irregular route truckload carrier providing short-to-medium and long-haul dry van and temperature-controlled truckload service. Founded in 1978 by Russell Gerdin, now led by his son Mike Gerdin (Chairman/President/CEO since 2011). Multi-brand operation: Heartland Express, Millis Transfer, Smith Transport. CFI U.S. operations integrated and rebranded into Heartland Express effective December 31, 2025. Approximately 4,560 drivers and non-driving personnel as of late 2025. 2025 revenue approximately $805.7M. Ranked No. 39 on Transport Topics Top 100, No. 11 among truckload carriers. ~30 terminals across U.S. and Mexico including West Memphis, AR; Joplin, MO; Laredo, TX; Taylor, MI; Sanford, FL. Specializes in time-sensitive shipments including just-in-time freight. Currently navigating multi-year freight rate recession with improving OR trajectory (107.1 → 106.0 → 103.5 → 101.6 through 2025 quarters). Goal: debt-free by 2027, target OR in low-to-mid 80s.",
+    "specialties": [
+      "Irregular route truckload",
+      "Short-to-medium haul",
+      "Long-haul OTR",
+      "Dry van",
+      "Temperature-controlled",
+      "Just-in-time / time-sensitive freight",
+      "Cross-border Mexico (CFI Logistica)",
+      "LTL/FTL distribution (Mexico)"
+    ],
+    "operating_regions": [
+      "Nationwide U.S.",
+      "Cross-border Mexico/Canada",
+      "Midwest corridor (Iowa HQ)",
+      "Mid-South corridor (West Memphis, AR terminal)",
+      "Southwest corridor (Laredo, TX)",
+      "Southeast (Sanford, FL)",
+      "Pacific Northwest (Tacoma, WA — ops presence)",
+      "Midwest (Joplin, MO — former CFI HQ, retained)",
+      "Great Lakes (Taylor, MI)"
+    ],
+    "corridor_alignment_notes": "CRITICAL: Heartland Express operates a terminal at 3400 Southland Dr, West Memphis, AR 72301 — acquired via CFI in 2022, retained through the CFI integration/rebrand in December 2025. Their drivers are already staging in West Memphis at the I-40/I-55 interchange. This is the exact geography of LHS Phase One. Additionally, the Joplin, MO facility (former CFI HQ, 200 acres) sits on the I-44 corridor feeding into the I-40 interchange. Heartland's short-to-medium haul model means high driver density at terminal locations."
+  },
+  "authority_id": null,
+  "external_refs": {
+    "crm_id": "",
+    "carrier_pack_url": "",
+    "nasdaq_ticker": "HTLD",
+    "tt_top100_rank": 39,
+    "tt_truckload_rank": 11,
+    "sec_10k_url": "https://www.stocktitan.net/sec-filings/HTLD/10-k-heartland-express-inc-files-annual-report-89d29ab0b1e3.html"
+  },
+  "classification": {
+    "model": "carrier",
+    "confidence": "high",
+    "naics_vs_description_conflict": false,
+    "disqualifiers": [],
+    "notes": "Clear carrier classification. NAICS 484121 (General Freight Trucking, Long-Distance, Truckload) confirmed by description. Asset-based truckload operation with owned fleet of late-model equipment. Multi-brand but all asset-based truckload. No brokerage component in current operations (CFI Logistics U.S. brokerage was excluded from the 2022 acquisition)."
+  },
+  "fit_score": {
+    "total": 8.4,
+    "breakdown": {
+      "geography_corridor": 9.5,
+      "fleet_scale_model": 9.0,
+      "operating_history": 9.0,
+      "contact_quality": 5.5,
+      "strategic_signals": 9.0
+    },
+    "rationale": "GEOGRAPHY (9.5): Heartland Express operates a terminal in West Memphis, AR — the exact geography of LHS Phase One. Their drivers are already staging at the I-40/I-55 interchange. Joplin, MO facility feeds the I-44/I-40 corridor. Nationwide routes mean high volume through the Mid-South interchange. Only not a 10 because HQ is Iowa, not Memphis metro. FLEET SCALE (9.0): 4,500+ personnel, multi-brand truckload operation, late-model equipment, irregular route OTR. This is exactly the fleet profile for Dedicated Proprietary. Short-to-medium haul model means drivers cycle through terminals frequently — high utilization potential for LHS. OPERATING HISTORY (9.0): Founded 1978, 48 years of continuous operation. Family-founded, second-generation CEO. Aggressive acquisition strategy (Gordon, Smith, CFI, Millis). Proven scale-builder. CONTACT QUALITY (5.5): Six contacts but only four have confirmed emails. No C-suite email (CEO James Clark has no email and may not be the actual CEO — Mike Gerdin is Chairman/President/CEO per all public sources). Two email prefix mismatches need verification. No CFO, no VP Sales, no retention leadership in the CSV. Operations-heavy contact list. STRATEGIC SIGNALS (9.0): West Memphis terminal is the golden signal — their drivers are already there. Publicly traded company going through a tough freight cycle with improving but still negative margins. Driver satisfaction issues noted in public reviews. Currently integrating CFI fleet, meaning infrastructure upgrades are already on their radar. Family-controlled via Gerdin family. Mike Gerdin started in the truck wash bay in 1983 — operational DNA. Goal of debt-free by 2027 means CapEx decisions are scrutinized, making the 80% refundable structure compelling."
+  },
+  "contacts": [
+    {
+      "contact_id": "C-0001",
+      "name": "Robert Peterson",
+      "title": "Vice President of Operations",
+      "email": "bpeterson@heartlandexpress.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 253-891-4350",
+      "linkedin_url": "https://www.linkedin.com/in/robert-peterson-00353236b",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "VP Ops is the primary infrastructure decision-maker. Peterson oversees operations — position him on the West Memphis terminal angle. His drivers are already staging at the I-40/I-55 interchange. LHS Phase One is purpose-built infrastructure adjacent to where Heartland already operates. Frame as: your terminal handles logistics, LHS handles driver quality-of-life. Complementary, not competitive. Reference the CFI integration and the operational improvements Heartland is making in 2026 — LHS is the next infrastructure upgrade for the driver experience.",
+      "personality_read": "VP Ops at a publicly traded carrier during a freight recession and major fleet integration. Under pressure to improve OR and driver retention simultaneously. Likely data-driven, operationally focused, skeptical of anything that doesn't tie to measurable outcomes. Located in Tacoma, WA — manages western operations. May need to be convinced that a West Memphis facility is relevant to his portfolio.",
+      "influence_level": "decision_maker",
+      "communication_tone": "Professional, operational, data-anchored. Lead with infrastructure specifics and driver utilization impact. Avoid soft sell.",
+      "flags": ["email_prefix_mismatch"]
+    },
+    {
+      "contact_id": "C-0002",
+      "name": "Brent Helle",
+      "title": "Senior Director of Operations",
+      "email": "bhelle@heartlandexpress.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 662-893-3742",
+      "linkedin_url": "https://www.linkedin.com/in/brent-helle-387bb4170",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "Senior Director of Ops with a 662 area code (Mississippi) — geographically proximate to the Mid-South corridor. If Helle oversees southern or mid-south operations, he may have direct oversight of the West Memphis terminal or drivers routing through it. Frame as: purpose-built driver infrastructure at the interchange your drivers already use. Reference Heartland's commitment to being 'best in class' for drivers — LHS is the physical manifestation of that promise.",
+      "personality_read": "Senior Director level at a large carrier suggests hands-on operational leadership. Mississippi area code indicates southern operations focus — potentially the most geographically relevant contact for LHS. May be closest to the West Memphis terminal operations.",
+      "influence_level": "decision_maker",
+      "communication_tone": "Direct, operational. Geographic proximity angle. Lead with the West Memphis terminal adjacency.",
+      "flags": []
+    },
+    {
+      "contact_id": "C-0003",
+      "name": "Casey Kuper",
+      "title": "Senior Director of Operations",
+      "email": "ckuper@heartlandexpress.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 253-820-2700",
+      "linkedin_url": "https://www.linkedin.com/in/casey-kuper-bbb37045",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "Same title as Helle — likely regional operations split. Tacoma, WA location suggests western operations focus. Less direct corridor alignment but still relevant at the enterprise level. Frame as: even western-routed drivers transit the I-40/I-55 interchange. LHS is a network-wide infrastructure upgrade, not a regional play.",
+      "personality_read": "Pacific Northwest-based operations leader. May be less immediately relevant than Helle for the West Memphis angle but carries organizational influence as a peer to Helle.",
+      "influence_level": "influencer",
+      "communication_tone": "Professional, enterprise-level framing. Position LHS as a network asset, not a regional one.",
+      "flags": ["duplicate_title"]
+    },
+    {
+      "contact_id": "C-0004",
+      "name": "Benny Anderson",
+      "title": "Director of Operations",
+      "email": "eanderson@heartlandexpress.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 253-303-2771",
+      "linkedin_url": "https://www.linkedin.com/in/benny-anderson-8a5823b",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "Director of Operations in Tacoma. Tertiary ops contact. Useful as an internal champion if VP Ops or Senior Directors engage. Frame as: driver-facing infrastructure that improves the daily experience for Heartland drivers routing through the Mid-South.",
+      "personality_read": "Director-level ops in the western region. May have less direct influence on a West Memphis infrastructure decision but could be an internal advocate.",
+      "influence_level": "influencer",
+      "communication_tone": "Practical, driver-impact focused.",
+      "flags": ["email_prefix_mismatch"]
+    },
+    {
+      "contact_id": "C-0005",
+      "name": "Patrick Meilinger",
+      "title": "Director of Operations",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 512-431-5990",
+      "linkedin_url": "https://www.linkedin.com/in/patrickmeilinger",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "Joplin, MO location is significant — this is the former CFI headquarters that Heartland retained after the integration. Meilinger may be a legacy CFI operations leader now under the Heartland banner. If so, he has direct knowledge of the West Memphis, AR facility (CFI operated it). Frame as: the infrastructure upgrade for drivers who already know the West Memphis interchange.",
+      "personality_read": "Joplin-based Director of Ops — possible CFI legacy leadership. If confirmed, this person has the deepest West Memphis terminal knowledge of anyone on the list. The 512 area code (Austin, TX) is a mismatch with Joplin, MO — may indicate relocation or mobile number from a prior role.",
+      "influence_level": "influencer",
+      "communication_tone": "Operational, familiar. If CFI legacy, lean into the continuity angle — CFI knew West Memphis, now Heartland does too.",
+      "flags": ["missing_email", "partial_phone"]
+    },
+    {
+      "contact_id": "C-0006",
+      "name": "James Clark",
+      "title": "Chief Executive Officer",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 313-505-1058",
+      "linkedin_url": "https://www.linkedin.com/in/james-clark-28613a37",
+      "priority_tier": "skip",
+      "sender": null,
+      "strategic_angle": null,
+      "personality_read": "CLASSIFICATION RISK: All public sources confirm Mike Gerdin as Chairman/President/CEO of Heartland Express since 2011. James Clark is not referenced in SEC filings, company website, or any public executive profile. St. Petersburg, FL location does not match any known Heartland office. 313 area code is Detroit, MI. This may be a subsidiary executive, a former CFI/Smith/Millis leader, or a Lusha data error. Do NOT contact as CEO. Requires LinkedIn verification before any outreach.",
+      "influence_level": "unknown",
+      "communication_tone": null,
+      "flags": ["missing_email", "role_changed", "classification_risk"]
+    }
+  ],
+  "strategic_positioning": {
+    "win_thesis": "Heartland Express already operates a terminal in West Memphis, AR — their drivers are physically present at the I-40/I-55 interchange where LHS Phase One is being built. This is not a cold pitch about a facility in a geography they don't touch. This is: your drivers are already here, and the infrastructure they deserve is being purpose-built next to where they already stage. Combined with a brutal three-year freight recession that has squeezed margins and driver satisfaction, LHS offers Heartland a zero-CapEx-risk way to materially upgrade their driver experience at the most critical interchange in their southern network.",
+    "pain_points": [
+      {
+        "pain": "Three-year freight rate recession with sustained operating losses (OR above 100 through most of 2025)",
+        "confidence": "confirmed",
+        "source": "Q4 2025 earnings release, 10-K filing"
+      },
+      {
+        "pain": "Driver satisfaction issues — public reviews cite slow trucks (63-64 mph), minimal truck amenities, poor terminal quality, pay disputes, micromanagement complaints",
+        "confidence": "confirmed",
+        "source": "TruckersReport reviews, multiple entries 2025-2026"
+      },
+      {
+        "pain": "Massive fleet integration (CFI → Heartland Express) completed Dec 31, 2025 — driver disruption, brand confusion, pay package alignment still settling",
+        "confidence": "confirmed",
+        "source": "Company press release Dec 9, 2025; FreightWaves coverage"
+      },
+      {
+        "pain": "Driver count declining: ~5,700 in 2024 down to ~4,560 in 2025 — losing over 1,100 drivers in one year during integration",
+        "confidence": "confirmed",
+        "source": "10-K filing, driver and personnel counts"
+      },
+      {
+        "pain": "$159.8M in remaining acquisition debt — CapEx decisions are under intense scrutiny with goal of debt-free by 2027",
+        "confidence": "confirmed",
+        "source": "Q4 2025 earnings, CEO commentary"
+      },
+      {
+        "pain": "Terminal network under rationalization — sold three terminals via sale-leaseback in 2023 to raise capital",
+        "confidence": "confirmed",
+        "source": "Trucking Dive, Nov 2023"
+      }
+    ],
+    "competitive_angle": "LHS is not a truck stop. It is purpose-built driver infrastructure adjacent to Heartland's existing West Memphis terminal. No other facility in the market offers this at the I-40/I-55 interchange. Heartland is publicly committed to being 'best in class' for driver experience — their website says 'best pay, best trucks, best experience.' LHS lets them make that real at the most critical interchange in their southern network without building their own facility. The 80% refundable initiation means near-zero capital risk during a period where every dollar is being scrutinized against the debt-free-by-2027 goal.",
+    "leverage_points": [
+      "West Memphis, AR terminal — their drivers are already at the interchange. No geographic education needed.",
+      "Driver attrition: lost 1,100+ personnel in one year. Retention infrastructure is not optional, it's survival.",
+      "CFI integration disruption — drivers are unsettled. A tangible quality-of-life upgrade signals the company cares.",
+      "Public company with stated goals: debt-free by 2027, OR in low-to-mid 80s. LHS pricing structure ($100K, 80% refundable) aligns with CapEx discipline.",
+      "Family-controlled: Mike Gerdin owns 20.34% of shares. Decisions can move faster than at a committee-driven public company.",
+      "Mike Gerdin started in the truck wash bay in 1983. Operational DNA. He understands driver experience at a visceral level.",
+      "Heartland's own driver reviews cite poor terminal quality and minimal amenities. LHS directly addresses this."
+    ],
+    "objection_map": [
+      {
+        "objection": "We already have a terminal in West Memphis.",
+        "counter": "Your terminal handles logistics — parking, dispatch, maintenance. LHS handles what your terminal can't: purpose-built driver quality-of-life infrastructure. Dedicated showers, lounge, food, rest environment. They're complementary, not competitive. Your terminal gets trucks moving. LHS gets drivers rested and retained.",
+        "evidence": "Driver reviews cite 'minimum everything' at Heartland terminals — no privacy curtains, poor mattresses, minimal amenities. LHS fills this gap."
+      },
+      {
+        "objection": "We're focused on getting debt-free by 2027. We can't take on new costs.",
+        "counter": "$100K initiation, 80% refundable. Net exposure is $20K. That's not a capital commitment — it's a rounding error on a $160M debt reduction plan. And $395/month is $13/day per driver. Compare that to the cost of replacing a single driver who quits because the infrastructure doesn't match the operation.",
+        "evidence": "Traditional terminal: ~$15M for 10 acres (~$165K/space). LHS Dedicated Proprietary: $20K net exposure. 88% reduction in per-space capital risk."
+      },
+      {
+        "objection": "We're in the middle of the CFI integration. This isn't the right time.",
+        "counter": "This is exactly the right time. You just rebranded 2,000+ CFI drivers into Heartland Express. They're watching to see if the new brand delivers better than the old one. A purpose-built facility at West Memphis — where CFI already had a terminal — signals that the integration isn't just a name change, it's an upgrade.",
+        "evidence": "CFI drivers were told they'd get 'increased driver compensation and benefits package.' LHS access is a tangible benefit that costs Heartland $13/day."
+      },
+      {
+        "objection": "Our OR is still above 100. We can't justify new spending.",
+        "counter": "Your OR improved every quarter in 2025: 107.1 → 106.0 → 103.5 → 101.6. You're trending toward profitability. The question isn't whether you can afford $13/day per driver — it's whether you can afford to keep losing drivers at 1,100/year. Driver replacement costs dwarf the membership.",
+        "evidence": "ATA estimates driver turnover cost at $8,000-$12,000 per driver. Heartland lost 1,100+ personnel in 2025."
+      }
+    ]
+  },
+  "playbook": {
+    "first_touch": {
+      "channel": "email",
+      "sender": "JJ",
+      "angle_summary": "Lead with the West Memphis terminal adjacency. 'Your drivers are already at the interchange. The infrastructure they deserve is being built next door.' Anchor on the CFI integration moment — this is the time to signal that the Heartland brand means something better for drivers. Reference the 48-year operating history and Heartland's stated commitment to best-in-class driver experience.",
+      "tone": "Confident peer. Not selling — informing. JJ as someone who knows the interchange, knows the operation, and is extending a founding member opportunity to a carrier that belongs in the conversation."
+    },
+    "sequence_recommendation": [
+      {
+        "touch": 1,
+        "channel": "email",
+        "sender": "JJ",
+        "angle": "VP Ops (Peterson) + Senior Director Ops (Helle) — West Memphis terminal adjacency, driver infrastructure upgrade, founding member framing",
+        "timing": "day1"
+      },
+      {
+        "touch": 2,
+        "channel": "email",
+        "sender": "JJ",
+        "angle": "Secondary ops contacts (Kuper, Anderson) — enterprise network angle, driver quality-of-life",
+        "timing": "day2"
+      },
+      {
+        "touch": 3,
+        "channel": "email",
+        "sender": "JJ",
+        "angle": "Meilinger (if email confirmed) — CFI legacy angle, West Memphis continuity",
+        "timing": "day2"
+      },
+      {
+        "touch": 4,
+        "channel": "email",
+        "sender": "JJ",
+        "angle": "Follow up on Day 1 no-responses. Shift angle: driver retention math, 1,100 drivers lost in 2025",
+        "timing": "day5"
+      },
+      {
+        "touch": 5,
+        "channel": "email",
+        "sender": "Jeff",
+        "angle": "Jeff escalation to Mike Gerdin or confirmed C-suite. Founder-to-family-leader framing. 'Russell built this from a truck wash bay. We're building something your drivers will remember.'",
+        "timing": "day5"
+      },
+      {
+        "touch": 6,
+        "channel": "call",
+        "sender": "JJ",
+        "angle": "Phone follow-up to highest-engagement contact. Shift to scheduling a 20-minute call.",
+        "timing": "day7plus"
+      }
+    ],
+    "escalation_trigger": "If JJ's Day 1 and Day 5 emails to Peterson and Helle produce no response, Jeff escalates directly to Mike Gerdin. Jeff's framing: founder-to-second-generation-leader. Reference Russell Gerdin building Heartland from nothing, and what LHS is building at the interchange. Also escalate to Jeff immediately if any contact replies with a 'this needs to go higher' signal.",
+    "approach_flags": {
+      "jeff_should_enter": true,
+      "jeff_should_enter_rationale": "Mike Gerdin is a second-generation family CEO who started in the truck wash bay. He owns 20%+ of the company. Jeff's founder framing is the right register for this leader. Jeff should not cold-open — wait for JJ's ops-level outreach to either succeed or stall, then Jeff enters at the CEO/Chairman level.",
+      "video_outreach_appropriate": true,
+      "video_outreach_rationale": "Heartland is a publicly traded carrier going through a visible transformation (CFI integration, freight recession, driver losses). A personalized video from Jeff showing the LHS West Memphis site — 'this is what we're building next to your terminal' — would be highly differentiated. No other vendor is doing this.",
+      "linkedin_tagging_appropriate": true,
+      "linkedin_tagging_rationale": "Mike Gerdin and Robert Peterson both have LinkedIn profiles. A thought-leadership post from Jeff about driver infrastructure at the I-40/I-55 interchange, tagging Heartland Express leadership, creates awareness before or alongside direct outreach.",
+      "in_person_visit_appropriate": true,
+      "in_person_visit_rationale": "The West Memphis terminal is at 3400 Southland Dr, West Memphis, AR. If LHS Phase One is nearby, an in-person site visit invitation is extremely powerful. 'Come see what's being built next to your terminal.' This is a closing move, not an opening move — use after initial engagement.",
+      "calculator_demo_appropriate": true,
+      "calculator_demo_rationale": "Heartland is public, financially stressed, and laser-focused on debt reduction and OR improvement. The CapEx calculator showing $20K net exposure vs. $165K/space traditional terminal will resonate with their CFO and CEO. Include in Day 2 or follow-up sequence.",
+      "pricing_in_first_touch": true,
+      "pricing_in_first_touch_rationale": "Carrier model — always include pricing. Heartland's scale (4,500+ personnel) maps to Dedicated Proprietary. $100K initiation (80% refundable) + $395/month. The 80% refundable structure is critical to lead with given their debt-reduction posture."
+    },
+    "tone_profile": {
+      "company_tone": "Heartland Express projects a traditional, service-first, driver-centric identity. 'Best pay, best trucks, best experience.' Family-founded, operationally proud. They see themselves as elite. Messaging should validate that identity while pointing to the gap: your operation is elite, your interchange infrastructure should be too.",
+      "jj_variant": "Confident operational peer. JJ knows the interchange. JJ knows what drivers need. JJ isn't selling a product — JJ is extending a founding member seat to a carrier that belongs at the table. Tone: respectful, specific, no fluff. Reference real operational details (West Memphis terminal, CFI integration, fleet scale).",
+      "jeff_variant": "Founder-to-family-leader. Jeff speaks to Mike Gerdin as a builder speaking to a builder. Reference Russell Gerdin's legacy, Mike's 40+ years in the business, what it means to create something drivers remember. Tone: visionary but grounded. Not a sales pitch — a strategic invitation.",
+      "model_variant": "carrier"
+    }
+  },
+  "pre_send_flags": [
+    {
+      "flag_id": "F-001",
+      "type": "email_prefix_mismatch",
+      "who_or_what": "Robert Peterson (C-0001) — email is bpeterson@heartlandexpress.com but CSV first name is 'Robert.' The 'b' prefix suggests his name may be 'Bob Peterson' or 'B. Robert Peterson' or a different person entirely.",
+      "required_action": "LinkedIn-verify Robert Peterson's profile to confirm identity matches the email. Check if he goes by Bob/Robert/B. Peterson.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-002",
+      "type": "email_prefix_mismatch",
+      "who_or_what": "Benny Anderson (C-0004) — email is eanderson@heartlandexpress.com but CSV first name is 'Benny.' The 'e' prefix suggests a different first name or a different person.",
+      "required_action": "LinkedIn-verify Benny Anderson's profile. Confirm that eanderson@ belongs to this person. His name may be 'E. Benny Anderson' or the email may belong to a different Anderson.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-003",
+      "type": "missing_email",
+      "who_or_what": "Patrick Meilinger (C-0005) — no email in CSV. Joplin, MO-based Director of Ops, likely legacy CFI leadership.",
+      "required_action": "LinkedIn outreach to confirm current role and obtain email. Do not construct email by pattern. Meilinger may be the most strategically relevant contact if he managed CFI's West Memphis operations.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-004",
+      "type": "classification_risk",
+      "who_or_what": "James Clark (C-0006) — listed as CEO but Mike Gerdin is the confirmed Chairman/President/CEO per SEC filings, company website, Bloomberg, and all public sources. Clark's location (St. Petersburg, FL) and phone area code (313, Detroit) don't match any known Heartland office.",
+      "required_action": "LinkedIn-verify James Clark's profile. Determine if he is a subsidiary executive (Millis Transfer? Smith Transport?), a former CFI leader, or a Lusha data error. Do NOT contact as CEO of Heartland Express. If verified as subsidiary leader, reassess priority tier and angle.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-005",
+      "type": "duplicate_title",
+      "who_or_what": "Brent Helle (C-0002) and Casey Kuper (C-0003) both hold 'Senior Director of Operations.' Likely regional split (Helle = southern/mid-south based on 662 area code, Kuper = western based on Tacoma, WA).",
+      "required_action": "LinkedIn-verify both to confirm regional responsibilities. Determine which has oversight of West Memphis / Mid-South corridor operations. That person becomes the higher-priority contact.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-006",
+      "type": "missing_contact",
+      "who_or_what": "Mike Gerdin — confirmed Chairman/President/CEO. Not in the Lusha CSV. No email obtained.",
+      "required_action": "Gerdin is the ultimate decision-maker and owns 20%+ of the company. His email pattern is likely mgerdin@heartlandexpress.com based on company patterns, but DO NOT construct or use. Jeff needs a confirmed email or LinkedIn intro path before escalation touch.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-007",
+      "type": "missing_contact",
+      "who_or_what": "Chris Strain — confirmed CFO/VP Finance/Treasurer. Not in the Lusha CSV.",
+      "required_action": "Strain is the financial decision-maker. The CapEx calculator and 80% refundable structure need to reach him. Source email via Lusha or LinkedIn.",
+      "status": "open"
+    }
+  ],
+  "offer_pricing": {
+    "recommended_tier": "Dedicated Proprietary",
+    "pricing_notes": "Heartland Express operates 4,500+ personnel with a large-scale OTR truckload fleet. This is a clear Dedicated Proprietary candidate. $100,000 initiation (80% refundable) + $395/month ($13/day). The 80% refundable structure is the lead talking point given their debt-reduction posture and OR pressure. Net exposure: $20,000. Frame against their stated financial goals: this is not a cost, it's a nearly-refundable infrastructure reservation.",
+    "capex_comparison_notes": "Traditional 10-acre terminal: ~$15M (~$165K/space). LHS Dedicated Proprietary: $100K initiation, 80% refundable = $20K net exposure. 88% reduction in per-space capital risk. For Heartland specifically: they already sold three terminals via sale-leaseback in 2023 to raise capital. They are actively rationalizing their terminal footprint. LHS gives them driver infrastructure without terminal ownership burden."
+  },
+  "outreach": {
+    "stage": "pre_send",
+    "send_log": []
+  },
+  "engagement_history": [],
+  "chip_assessment": {
+    "priority": "high",
+    "standout_contact_id": "C-0002",
+    "key_risks": [
+      "Contact list is operations-heavy with no confirmed C-suite email. Mike Gerdin and Chris Strain are not in the CSV. The path to a founding member decision requires reaching the CEO or CFO, which means JJ's ops-level outreach must generate an internal referral upward, or Jeff must find a direct path to Gerdin.",
+      "James Clark CEO listing is likely a data error. If outreach goes to Clark as 'CEO' it will be embarrassing and waste a first impression.",
+      "Two email prefix mismatches (Peterson, Anderson) could mean emails go to the wrong person or bounce.",
+      "Heartland is publicly traded and in financial distress (OR > 100, $160M debt). The $100K initiation — even 80% refundable — may face procurement/board-level scrutiny that a private company wouldn't require.",
+      "Company is mid-integration of CFI. Decision-makers may be distracted, overwhelmed, or in 'no new commitments' mode until integration settles.",
+      "All ops contacts except Helle are based in Tacoma, WA or Joplin, MO — not West Memphis. The person with the most West Memphis relevance (Helle, based on 662 area code) needs to be confirmed as the southern corridor leader."
+    ],
+    "close_path": "1) Resolve all pre-send flags — especially the James Clark CEO issue, email prefix mismatches, and Mike Gerdin contact sourcing. 2) JJ opens with Brent Helle (most geographically relevant) and Robert Peterson (highest title with confirmed email). Lead with West Memphis terminal adjacency. 3) If Helle or Peterson engage, ask for internal warm intro to Mike Gerdin or the person who approves infrastructure partnerships. 4) Jeff enters at CEO level (Gerdin) once JJ has warmed the operations layer or if Day 5 silence triggers escalation. 5) Calculator demo and site visit invitation are closing tools — deploy after initial engagement. 6) Target: 20-minute call within 14 days of first touch.",
+    "company_intel_summary": "Heartland Express is a publicly traded (HTLD) truckload carrier founded in 1978, operating ~4,500 personnel under four brands. They are emerging from a brutal three-year freight recession with improving but still unprofitable margins. The CFI fleet was just integrated and rebranded into Heartland Express on December 31, 2025 — the largest operational change in the company's recent history. Critically, Heartland operates a terminal in West Memphis, AR at the I-40/I-55 interchange, making their drivers a natural constituency for LHS Phase One. The company is family-controlled by the Gerdin family, with CEO Mike Gerdin owning 20%+ of shares and having been with the company since 1983.",
+    "maverick_relevance": "Confirms high-value signal: large publicly traded OTR carriers with existing West Memphis terminal presence are the ideal founding member profile. Heartland's scale (Top 40 carrier, 4,500+ personnel) and geographic footprint validate the I-40/I-55 interchange as a high-density driver staging location. If Heartland converts, it establishes precedent for pitching other Top 100 carriers with Mid-South corridor exposure. Also surfaces a pattern: carriers in financial distress (OR > 100) may be paradoxically more receptive because they need retention tools that don't require traditional CapEx."
+  },
+  "trevor_feedback": {
+    "is_skip": false,
+    "skip_reason": "",
+    "filter_rule": "",
+    "skip_pattern_type": ""
+  },
+  "flags": [
+    "Public company — all outreach may be subject to higher scrutiny. Do not reference stock price, financial distress, or losses in any external communication.",
+    "Mike Gerdin is the real CEO. James Clark from CSV must be verified before any contact.",
+    "West Memphis terminal address: 3400 Southland Dr, West Memphis, AR 72301 — confirm proximity to LHS Phase One site."
+  ],
+  "next_actions": [
+    "Resolve F-001: LinkedIn-verify Robert Peterson email prefix mismatch",
+    "Resolve F-002: LinkedIn-verify Benny Anderson email prefix mismatch",
+    "Resolve F-003: Source Patrick Meilinger email via LinkedIn",
+    "Resolve F-004: LinkedIn-verify James Clark — determine actual role",
+    "Resolve F-005: LinkedIn-verify Helle vs Kuper regional responsibilities",
+    "Resolve F-006: Source Mike Gerdin confirmed email for Jeff escalation",
+    "Resolve F-007: Source Chris Strain (CFO) confirmed email",
+    "Confirm proximity of LHS Phase One site to 3400 Southland Dr, West Memphis, AR",
+    "Once flags resolved: JJ sends Day 1 emails to C-0001 (Peterson) and C-0002 (Helle)"
+  ],
+  "notes": [
+    "Heartland Express acquired CFI for $525M in Aug 2022. CFI U.S. operations fully integrated/rebranded to Heartland Express effective Dec 31, 2025.",
+    "CFI facilities retained post-integration: Joplin, MO (HQ), West Memphis, AR, Laredo, TX.",
+    "Millis Transfer and Smith Transport remain as separate subsidiary brands within the Heartland family.",
+    "Russell Gerdin founded Heartland Express in 1978. Retired as CEO in 2011 due to health. Son Mike Gerdin took over, having been with company since 1983.",
+    "Mike Gerdin compensation: ~$1.07M/year (below market for company size). Owns 20.34% of shares (~$146M).",
+    "Company sold three terminals via sale-leaseback in 2023 for ~$25M pretax gain. Terminal network is being rationalized.",
+    "Q4 2025: $19.4M loss including $19M impairment charge on CFI fleet consolidation. Adjusted OR 101.6 (improving from 107.1 in Q1 2025).",
+    "Company targeting debt-free by 2027. $159.8M remaining from 2022 acquisitions after $41.2M in 2025 payments.",
+    "Driver reviews on TruckersReport are significantly negative: slow trucks (63-64 mph), minimal amenities, poor mattresses, no privacy curtains, pay disputes, relay system frustration.",
+    "Heartland website messaging: 'best pay, best trucks, best experience' — creates a gap LHS can fill when the terminal experience doesn't match the promise."
+  ],
+  "timestamps": {
+    "created_at": "2026-03-03T00:00:00Z",
+    "updated_at": "2026-03-03T00:00:00Z"
+  }
+}
