@@ -7,24 +7,35 @@
   "ownership": {
     "lead": "Anj",
     "last_touched_by": "Geoffrey",
-    "last_touched_at": "2026-03-03T21:07:05.468Z"
+    "last_touched_at": "2026-03-04T06:00:00.000Z"
   },
   "definition": {
-    "title": "Resort on the Road / Life at LineHaul / One Home",
-    "objective": "Build Resort on the Road as THE dominant content pillar. Feed creative into GA #1 ad campaign for testing. Aspirational lifestyle positioning. Must feel premium, not pitchy.",
+    "title": "One Home: Resort on the Road",
+    "objective": "Position LineHaul Station as a nationwide living network for drivers through the One Home program. Build 'Resort on the Road' as THE dominant content pillar. Feed creative into GA #1 ad campaign for testing. Must feel premium, aspirational, not pitchy. Communicate lifestyle upgrade, financial advantage, and network concept.",
     "channel": "multi_channel",
-    "target_audience": "Truck drivers (primary — lifestyle aspiration + dignity), young/prospective drivers (mentorship track), trucker families, carriers evaluating driver retention",
-    "cadence": "ACTIVE NOW. First batch of lifestyle videos in production. GA #1 ad test imminent. Jeff viral short scripting next."
+    "target_audience": "Truck drivers (primary — lifestyle aspiration + dignity), young/prospective drivers (mentorship track, entrepreneurial mindset), trucker families, carriers evaluating driver retention, minimalist lifestyle drivers",
+    "cadence": "ACTIVE NOW. First batch of lifestyle videos in production. GA #1 ad test imminent. Jeff viral short scripting next. Sleeper Makeover sub-concept in development."
   },
   "content": {
     "drafts": [],
     "approved": [],
     "published": []
   },
-  "flags": [],
+  "flags": [
+    "branding_in_progress",
+    "needs_logo_design",
+    "new_renderings_pending"
+  ],
   "next_actions": [
-    "Continue active production",
-    "Mine content for 90-day plan deliverables"
+    "Continue active video production (Ad Version + Jeff Swenson Explainer)",
+    "Complete One Home logo and sub-brand design (Jeff + Mark)",
+    "Receive new high-fidelity renderings from Architect Ron",
+    "Build One Home Lifestyle Calculator landing page",
+    "Develop Sleeper Makeover program concept under One Home umbrella",
+    "Mine ad copy scripts for static post content and social captions",
+    "Create digital brochure / presentation deck",
+    "Test rendering filter processing for more lifelike imagery",
+    "Language audit: replace all instances of 'home base' with 'Home Hub'"
   ],
   "metrics": {
     "impressions": 0,
@@ -33,22 +44,22 @@
   },
   "timestamps": {
     "created_at": "2026-03-03T21:07:05.468Z",
-    "updated_at": "2026-03-03T21:07:05.468Z"
+    "updated_at": "2026-03-04T06:00:00.000Z"
   },
   "campaign_card": {
-    "target_audience": "Truck drivers (primary — lifestyle aspiration + dignity), young/prospective drivers (mentorship track), trucker families, carriers evaluating driver retention",
-    "campaign_name": "Resort on the Road / Life at LineHaul / One Home",
+    "target_audience": "Truck drivers (primary — lifestyle aspiration + dignity), young/prospective drivers (mentorship + entrepreneurial mindset), trucker families, carriers evaluating driver retention, minimalist lifestyle drivers",
+    "campaign_name": "One Home: Resort on the Road",
     "campaign_goal": {
       "memberships_per_week_target": 25
     },
     "key_messages": [
-      "Resort on the Road — aspirational lifestyle positioning for drivers",
-      "$13/day when you use it vs $50 apartment vs $110 hotel vs $65 truck stop",
-      "You already live on the road — LHS is your resort"
+      "One Home — a nationwide living network for drivers. Choose your Home Hub, and the entire LineHaul Station network becomes your home.",
+      "$13/day when you use it. Pay only for the days you need — no mortgage, no interest, no wasted rent on empty apartments.",
+      "Your sleeper is your bedroom. LineHaul is your home. Same comfort, same amenities, same experience — nationwide."
     ],
     "cta": {
       "text": "Sign Up",
-      "lead_capture_point": "LHS membership registration"
+      "lead_capture_point": "One Home Lifestyle Calculator landing page → membership registration"
     },
     "campaign_type": "mixed",
     "budget": {
@@ -56,7 +67,18 @@
       "weekly": 0,
       "currency": "USD"
     },
-    "creative_assets": []
+    "creative_assets": [
+      "Video: Commercial Ad Version (Artlist footage + renderings) — IN PRODUCTION",
+      "Video: Jeff Swenson Explainer Version (direct-to-camera) — IN PRODUCTION",
+      "Scripts: 4 Sora2 character video prompts (Young Builder, Reinvention Story, Minimalist, Young Woman Builder) — WRITTEN",
+      "Scripts: 2 x 12-second 'New Kind of Listing' Sora prompts — WRITTEN",
+      "Scripts: 5 voiceover styles (Driver, Younger Mentor, Calm Explainer, plus 2 additional) — WRITTEN",
+      "Images: Original architectural renderings — AVAILABLE",
+      "Images: New high-fidelity renderings from Architect Ron — PENDING",
+      "Landing Page: One Home Lifestyle Calculator — PLANNED",
+      "Deck: Digital brochure / presentation — PLANNED",
+      "Sub-concept: Sleeper Makeover program — IN DEVELOPMENT"
+    ]
   },
   "plan": {
     "time_window_days": 90,
@@ -70,7 +92,16 @@
       "focus": "metrics snapshot + next week prep"
     },
     "initiatives": [
-      "Long-form ads (Year of the Trucker format). Sora2 lifestyle videos. Viral shorts (Jeff mentorship). Financial math graphics. Ad campaign fee"
+      "Long-form ads (Year of the Trucker format)",
+      "Sora2 AI-generated lifestyle character videos (4 scripts ready)",
+      "Viral shorts (Jeff mentorship — 'If I Was 18 Again', 'You're Not Lost', 'Your First Business')",
+      "Financial math graphics ($13/day vs $50 apartment vs $110 hotel vs $65 truck stop)",
+      "GA #1 ad campaign feed and testing",
+      "One Home Lifestyle Calculator (web interactive tool)",
+      "Digital brochure / presentation deck",
+      "Sleeper Makeover program content",
+      "Podcast concept: The Trucking Blueprint / CDL Playbook",
+      "Rendering enhancement (AI filter processing for lifelike imagery)"
     ]
   },
   "reporting": {
@@ -80,12 +111,13 @@
     "original_id": 21,
     "category": "Campaign",
     "legacy_status": "In Production",
-    "description": "CONTENT ACTIVE. Dominant content pillar. Position LHS as aspirational — the place drivers deserve. Two tracks: Lifestyle Aspiration and Driver Dignity. Financial math: $13/day vs $50 apartment vs $110 hotel vs $65 truck stop.",
-    "strategic_purpose": "Build Resort on the Road as THE dominant content pillar. Feed creative into GA #1 ad campaign for testing. Aspirational lifestyle positioning. Must feel premium, not pitchy.",
-    "asset_links": "Resort on the Road Videos: New videos reviewed — Anj content plan active.\n10 Sora2 Video Prompts: Lifestyle testimonials ready to generate.\nViral Short Scripts: If I Was 18 Again, You're Not Lost, Your First Business.\nPodcast Concept: The Trucking Blueprint / CDL Playbook.",
-    "pre_approved_angles": "Resort on the Road. The Rig Carlton. $13/day financial comparison. Young driver mentorship. AI-generated resort experience visuals.",
-    "artlist_cost": "Sora2 prompts for AI video. Long-form ad production ongoing. Viral shorts need Jeff filming time.",
-    "repurposing": "Long-form ads (Year of the Trucker format). Sora2 lifestyle videos. Viral shorts (Jeff mentorship). Financial math graphics. Ad campaign feed. Podcast content.",
-    "timeline": "ACTIVE NOW. First batch of lifestyle videos in production. GA #1 ad test imminent. Jeff viral short scripting next."
+    "description": "CONTENT ACTIVE. Dominant content pillar. One Home is a nationwide living network for drivers — choose a Home Hub, and the entire LineHaul Station network becomes home. Same comfort, same amenities, same experience at every location. The only things tied to Home Hub: mailbox, personal vehicle parking, storage unit. Everything else is identical everywhere. Drivers pay only for the days they use, starting as low as 60 days/year and growing in any increment up to 365. No mortgage, no interest, fully refundable membership. Sleeper Makeover sub-concept brings bedroom customization (mattress, linens, pillows, decor, audio/video) under the One Home umbrella.",
+    "strategic_purpose": "Build 'Resort on the Road' and 'One Home' as THE dominant content pillar. Feed creative into GA #1 ad campaign for testing. Aspirational lifestyle positioning — premium, not pitchy. Communicate: lifestyle upgrade, financial advantage, network concept, flexible membership model. Position LHS as a nationwide resort-style living system for drivers.",
+    "asset_links": "DECKS & PRESENTATIONS:\n- Digital brochure (IN DEVELOPMENT) — One Home concept explainer, Home Hub system, nationwide network, lifestyle amenities, membership flexibility, financial comparison vs traditional housing. Branding: luxury apartment community aesthetic. Logo work underway (Jeff + Mark).\n\nVIDEOS:\n- Video 1: Commercial Ad Version (IN PRODUCTION) — Artlist footage + LHS renderings. Story: driver discovers 'One Home' listing on home search site. Transitions to commercial showing drivers at LHS locations, amenities, renderings. For social ads, paid campaigns, landing page.\n- Video 2: Jeff Swenson Explainer (IN PRODUCTION) — Direct-to-camera. Jeff explains One Home concept, Home Hub, flexible membership, lifestyle benefits. For website, social clips, educational content.\n- Sora2 Character Videos (SCRIPTS WRITTEN, 4 characters): The Young Builder (24M, skipped apartment, bought truck), The Reinvention Story (41M, left corporate, found peace), The Minimalist (32M, sold everything), The Young Woman Builder (23F, chose asset over apartment).\n- 12-Second Sora Prompt: 'New Kind of Listing' — driver in sleeper cab discovers new listing type on phone. Two versions written.\n- Voiceover Scripts (5 STYLES WRITTEN): The Driver (real, honest), Younger Mentor (conversational advice), Calm Practical Explainer, plus 2 additional styles.\n\nIMAGES / STATICS:\n- Original architectural renderings (AVAILABLE)\n- Rendering enhancement experiments (filter processing for lifelike look — SOME SUCCESS)\n- New high-fidelity renderings from Architect Ron (PENDING — updated One Home concept)\n\nSCRIPTS:\n- Jeff Swenson One Home positioning (recorded in campaign briefing)\n- Earlier Artlist video scripts (available for repurposing)\n- 10 Sora2 video prompts: lifestyle testimonials ready to generate\n- Viral short scripts: 'If I Was 18 Again', 'You're Not Lost', 'Your First Business'\n- Podcast concept: The Trucking Blueprint / CDL Playbook\n\nWEB / LANDING PAGE:\n- One Home Lifestyle Calculator (PLANNED) — interactive tool. User enters income, apartment cost, utilities, taxes. Compares to One Home membership. Lead capture form below. Purpose: education, conversion, driver lead generation.\n\nSLEEPER MAKEOVER PROGRAM:\n- Sub-concept under One Home umbrella. Customization services: mattress, mattress topper, linens, pillows, wall decor, audio, video. Available at any LHS location. Reinforces 'your sleeper is your bedroom' messaging.",
+    "pre_approved_angles": "One Home nationwide living network. Home Hub (NOT 'home base'). Resort on the Road. The Rig Carlton. $13/day financial comparison ($13 vs $50 apartment vs $110 hotel vs $65 truck stop). Pay only for days you use. Flexible membership growth (60 → 120 → 200 → 365 days). No mortgage, no interest. Fully refundable membership. Young driver entrepreneurship (skip the apartment, buy a truck). Reinvention / career change narrative. Minimalist lifestyle (sold everything). Sleeper Makeover. AI-generated resort experience visuals. 'Wherever the road takes you, you're already home.'",
+    "artlist_cost": "Sora2 prompts for AI character videos (4 scripts written). Long-form ad production ongoing (Artlist footage + renderings). Viral shorts need Jeff filming time. New renderings pending from Architect Ron. Logo/branding design work underway.",
+    "repurposing": "Long-form ads → social clips, reels, story cuts. Sora2 character videos → individual platform posts (Instagram reels, LinkedIn stories, Facebook video). Financial math → static graphics, carousel breakdowns. Voiceover scripts → audio snippets, caption copy, quote graphics. Jeff explainer → educational clips, podcast seed content. Rendering imagery → static posts, carousel tours, story backgrounds. Lifestyle Calculator → screenshot walkthroughs, before/after financial comparisons. Sleeper Makeover → before/after content, product showcase posts.",
+    "timeline": "ACTIVE NOW. Commercial ad version and Jeff explainer in production. Sora2 character scripts written and ready to generate. New renderings pending from Architect Ron. Logo/branding work underway. Lifestyle Calculator landing page planned. Sleeper Makeover concept in development.",
+    "language_rules": "ALWAYS use 'Home Hub' — NEVER use 'home base' or 'base' (sounds military/operational). The term is personal and network-oriented. Example: 'Choose your Home Hub — and the entire LineHaul Station network becomes your home.' Other approved terms: One Home, Home Hub, Home Address, Home Port, Home Location, Home Station."
   }
 }
