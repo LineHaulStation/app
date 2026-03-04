@@ -1,0 +1,406 @@
+{
+  "__path__": "/linehaul-station/carriers/CAR-0011.json",
+  "schema_version": "3.3",
+  "entity_type": "carrier",
+  "id": "CAR-0011",
+  "status": "target",
+  "metadata": {
+    "dossier_version": 1,
+    "source_csv_reference": "None — manual entry from JJ notes (name, phone, email only)",
+    "created_by": "Chip",
+    "github_path": "JSONS/CAR/CAR-0011.json"
+  },
+  "ownership": {
+    "assigned_to": "JJ",
+    "last_touched_by": "Chip",
+    "last_touched_at": "2026-03-04T00:00:00Z"
+  },
+  "profile": {
+    "company_name": "Williams Transportation Inc.",
+    "dba_names": [],
+    "website": "https://williamstransport.com",
+    "hq_city": "Gretna",
+    "hq_state": "NE",
+    "hq_address": "21757 Platteview Rd, Gretna, NE 68028",
+    "founded_year": 2016,
+    "employee_range": "11-50 (LinkedIn) / 85 trucks, 67 drivers (FMCSA 12/2025)",
+    "naics_code": "484121",
+    "sic_code": "4213",
+    "description": "Refrigerated truckload carrier founded 2016, family-owned and operated. 85 power units, 67 drivers (FMCSA MCS-150 updated 12/15/2025). 8.19M miles (2024). Long haul and regional, focusing on refrigerated goods — fresh produce, meat, refrigerated food, general freight. Serves 48 states with emphasis on west coast and Midwest lanes. Based in Gretna, NE (8 miles west of Omaha, behind the Flying J on Platteview Rd). Nebraska Trucking Association member. Auth. for hire, interstate, property. USDOT 2876952, MC-965561. Zero fatal crashes in 24 months. Driver OOS rate 0.4% (national average 6.67%) — exceptional safety. Vehicle OOS rate 12.9% (national average 22.26%) — well below average. 227 inspections in 24 months. Received PPP loan $150K-$350K from Security National Bank of Omaha. Cargo: general freight, fresh produce, meat, refrigerated food.",
+    "specialties": [
+      "Refrigerated Truckload (primary)",
+      "Fresh Produce",
+      "Meat / Protein",
+      "General Freight",
+      "Long Haul OTR",
+      "Regional",
+      "West Coast Lanes",
+      "Midwest Lanes"
+    ],
+    "operating_regions": [
+      "48 states",
+      "Emphasis: West Coast (California) and Midwest",
+      "HQ: Gretna, NE (Omaha metro)"
+    ],
+    "corridor_alignment_notes": "GEOGRAPHIC GAP. Gretna/Omaha sits on the I-80 corridor, ~600 miles north of the LHS Phase One site at the I-40/I-55 interchange in West Memphis, AR. Williams Transportation's primary lanes — Omaha to West Coast and Midwest — run I-80, not I-40. However: any Southeast-bound reefer loads from Omaha can route through Memphis, and the I-40/I-55 interchange is a natural junction for Midwest-to-Southeast and Midwest-to-Southwest freight. Williams trucks DO pass through the interchange on some lanes — but it's not their home territory. This is a Phase Two / network expansion relationship more than a Phase One founding member fit. The operator (Randy Williams) is the asset, not the geography."
+  },
+  "authority_id": "AUTH-0011",
+  "external_refs": {
+    "crm_id": "",
+    "carrier_pack_url": "",
+    "usdot": "2876952",
+    "mc_number": "MC-965561"
+  },
+  "classification": {
+    "model": "carrier",
+    "confidence": "high",
+    "naics_vs_description_conflict": false,
+    "disqualifiers": [],
+    "notes": "Clear carrier model. NAICS 484121, SIC 4213. 85 power units, asset-based, refrigerated truckload. Family-owned. No brokerage operations mentioned."
+  },
+  "fit_score": {
+    "total": 5.8,
+    "breakdown": {
+      "geography_corridor": 3.0,
+      "fleet_scale_model": 7.0,
+      "operating_history": 6.5,
+      "contact_quality": 7.0,
+      "strategic_signals": 7.5
+    },
+    "rationale": "GEOGRAPHY (3.0): Gretna/Omaha is on I-80, ~600 miles from the LHS Phase One site. Williams' primary lanes (Midwest/West Coast) run I-80, not I-40. Some Southeast-bound loads route through the I-40/I-55 interchange but it's not a core corridor for this fleet. Phase One geography is not aligned. Score reflects distance and lane mismatch. Not a zero because reefer trucks do cross I-40/I-55 on SE-bound loads. FLEET SCALE (7.0): 85 trucks puts Williams in Flex Proprietary territory (25-100 trucks). Refrigerated specialization adds value — reefer fleets have higher infrastructure needs (temperature-controlled staging, fuel for reefer units, maintenance). 8.19M miles in 2024 shows this fleet runs hard. Growing from zero to 85 trucks in 10 years demonstrates momentum. OPERATING HISTORY (6.5): Williams Transportation is only 10 years old (founded 2016). However, Randy Williams is a 30+ year trucking veteran who founded R&M Transportation in 1991, grew it to $64.5M combined revenue with Sortino, and sold to Roadrunner (NYSE: RRTS) for $24.4M + $5M earn-out in August 2012. He started over because he 'got bored.' The company is young but the operator is deeply proven. Score reflects both. CONTACT QUALITY (7.0): One contact — Randy Williams, the owner/CEO. Direct email provided (randy@williamstransport.com). Direct mobile provided (+1 402-210-3277). This is the decision-maker with zero gatekeeping. But only one contact = no multi-threading possible. If Randy says no, the path is closed. STRATEGIC SIGNALS (7.5): Randy Williams is an extraordinary operator. He built a refrigerated carrier to $64.5M revenue, sold it to a NYSE company for ~$29M, and started over from scratch at ~55 years old. 'Never heard anyone say a bad word about Randy' in Omaha trucking. Exceptional safety record (driver OOS 0.4% vs 6.67% national average). Nebraska Trucking Association member. Family-owned and operated. The kind of person who understands what LHS is building because he's built things himself. The signal weakness is geographic — no Memphis connection, no I-40 corridor presence."
+  },
+  "contacts": [
+    {
+      "contact_id": "C-0001",
+      "name": "Randy Williams",
+      "title": "Owner / CEO",
+      "email": "randy@williamstransport.com",
+      "email_confidence": "provided_directly",
+      "alt_email": null,
+      "phone": "+1 402-210-3277",
+      "phone_alt": null,
+      "linkedin_url": null,
+      "priority_tier": "tier1",
+      "priority_day": "day1",
+      "sender": "JJ",
+      "strategic_angle": "SOLE CONTACT. Randy Williams is the owner, CEO, and decision-maker. He's also the company's origin story. Previously founded R&M Transportation (1991), built it to $64.5M combined revenue with Sortino Transportation, sold to Roadrunner (NYSE: RRTS) for $24.4M + $5M earn-out in 2012. Started Williams Transportation in 2016 because he 'got bored.' Built back to 85 trucks in 10 years. Driver reviews describe him as personal, approachable — 'called the number and Randy Williams answered,' met drivers at the office, introduced them to his family. Known in Omaha trucking as a straight shooter. JJ approaches directly — Randy is not a corporate executive. He's a serial trucking entrepreneur who answers his own phone.",
+      "personality_read": "Serial entrepreneur. Built, sold, and rebuilt. Personal, approachable — drivers describe him as someone who meets you man-to-man, introduces you to his family, buys your lunch. Answers his own phone. Not a LinkedIn guy. Old school trucking operator with sophisticated business acumen (sold a company for $29M). Probably mid-60s. Doesn't need the money — he's doing this because he loves trucking.",
+      "influence_level": "decision_maker",
+      "communication_tone": "direct_personal",
+      "flags": [],
+      "enrichment": {
+        "status": "good",
+        "source": "manual_entry+web_research+fmcsa+truckersreport+news",
+        "enriched_at": "2026-03-04T00:00:00Z",
+        "linkedin_url": null,
+        "bio_summary": "Owner/CEO of Williams Transportation Inc. (2016-present, 85 trucks, refrigerated). Previously founded R&M Transportation (1991), grew to $64.5M combined revenue, sold to Roadrunner Transportation Systems (NYSE: RRTS) for $24.4M + $5M earn-out in August 2012. Nebraska Trucking Association member. Based in Gretna, NE. Known in Omaha trucking as a respected, personal operator. Williams Transportation lot is at the former R&M location on Platteview Rd.",
+        "career_highlights": [
+          "Founded R&M Transportation (1991) — refrigerated/dry van carrier",
+          "R&M + Sortino combined revenue $64.5M (2011)",
+          "Sold R&M + Sortino to Roadrunner (NYSE: RRTS) for $24.4M + $5M earn-out (Aug 2012)",
+          "Started Williams Transportation (2016) from scratch — 'got bored'",
+          "Built to 85 power units in 10 years",
+          "Nebraska Trucking Association member",
+          "Exceptional safety record: driver OOS 0.4% (nat'l avg 6.67%)"
+        ],
+        "signals": ["Serial entrepreneur — built and sold a trucking company for $29M", "Started over at ~55 because he loves the business", "Answers his own phone", "Drivers respect him universally", "Same Platteview Rd location as former R&M — deep roots"],
+        "communication_style": "direct_old_school",
+        "motivators": ["Building companies", "Driver relationships", "Independence", "Family business"],
+        "watchouts": ["He sold a $64.5M company for $29M — he doesn't need LHS, LHS needs him", "He'll evaluate this as an entrepreneur, not just a carrier", "Don't over-pitch — Randy has been pitched by everyone", "Geography is the honest objection — address it head-on"],
+        "likely_objections": ["My trucks don't run through West Memphis that often", "I'm in Omaha — your first facility is 600 miles away", "85 trucks — what's the right tier for my size?", "I sold one company already. What's the exit path on this membership?"],
+        "recommended_angle": [
+          "JJ direct: 'Randy — I know you built R&M to $64M and sold it. You started over because you love trucking. That's the same reason we're building flex-space truck terminals.'",
+          "Entrepreneur-to-entrepreneur: Frame LHS as infrastructure he would have wanted for R&M's fleet.",
+          "Honest geography: 'Phase One is West Memphis. Your trucks cross that interchange on SE-bound loads. But I want you to know what we're building because when the network expands, Omaha-to-West-Coast reefer fleets are exactly who this serves.'"
+        ],
+        "approach_summary": "Randy Williams is a proven trucking entrepreneur who built and sold a carrier for $29M. He's doing it again with Williams Transportation. He answers his own phone, meets drivers personally, and is universally respected in Omaha trucking. The honest assessment: his geography doesn't align strongly with LHS Phase One. But Randy Williams as a person — his entrepreneurial understanding, his operator credibility, his industry relationships — makes this a relationship worth building. JJ approaches honestly: Phase One geography isn't perfect for Williams, but the network vision and the product are designed for fleets exactly like his. If Randy gets it, he becomes an advocate. If the conversation doesn't fit right now, it's a relationship to maintain for network expansion."
+      },
+      "career_context": {
+        "tenure_estimate": "10 years at Williams Transportation, 30+ years in trucking",
+        "career_trajectory": "R&M Transportation founder (1991) → sold to Roadrunner (2012) → Williams Transportation founder (2016)",
+        "previous_companies": ["R&M Transportation (founder, sold 2012)", "Sortino Transportation (affiliated)"],
+        "industry_depth": "30+ years in refrigerated trucking"
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Self (owner)",
+        "internal_allies": null,
+        "budget_authority": "yes"
+      }
+    }
+  ],
+  "strategic_positioning": {
+    "win_thesis": "Williams Transportation is an 85-truck refrigerated carrier run by Randy Williams, a serial trucking entrepreneur who built R&M to $64.5M revenue and sold it to Roadrunner for ~$29M in 2012. He started over in 2016 because he loves trucking. The geography doesn't perfectly align with LHS Phase One — Omaha is 600 miles from West Memphis on the I-80 corridor. But Randy Williams is the kind of operator who understands infrastructure value propositions because he's BUILT things. He sold a company for $29M. He's not evaluating LHS as a truck stop membership — he's evaluating it as a business infrastructure decision. If Randy gets the vision, two things happen: (1) He becomes an advocate who talks about LHS to other operators in his network, and (2) when LHS expands beyond Phase One, Williams Transportation is already in the founding member conversation. This is a relationship investment, not a geography play.",
+    "pain_points": [
+      {
+        "pain": "Refrigerated fleet infrastructure on long-haul lanes",
+        "confidence": "high",
+        "detail": "Reefer trucks have higher infrastructure needs than dry van — fuel for reefer units, temperature monitoring, specialized maintenance. When Williams trucks are 600-1,000 miles from Gretna on a West Coast or Southeast run, the infrastructure options are truck stops. Flex-space truck terminals with reefer-capable staging change the equation — if the terminals are on Williams' lanes."
+      },
+      {
+        "pain": "Driver recruiting and retention at 85-truck scale",
+        "confidence": "high",
+        "detail": "Williams competes for reefer drivers against mega-fleets. Randy's personal, family-culture approach is his competitive advantage. Access to flex-space truck terminal infrastructure would extend that advantage: 'Join Williams — you get family culture AND access to terminal-quality facilities on the road.' The indeed reviews note Randy treats drivers well, but the company is small enough that every driver lost hurts."
+      },
+      {
+        "pain": "Competing against mega-carriers in refrigerated market",
+        "confidence": "medium",
+        "detail": "Randy built and sold a company to Roadrunner. He knows what it's like competing against corporate carriers with massive terminal networks. At 85 trucks, Williams can't build terminals. Flex-space truck terminal access gives him infrastructure reach without the capital commitment."
+      }
+    ],
+    "competitive_angle": "Randy Williams built a refrigerated carrier to $64.5M revenue and sold it to a NYSE-listed company. Then he started over because he loves trucking. He knows exactly what it costs to build infrastructure — and exactly what it means when you can't. LHS flex-space truck terminals give operators like Randy terminal-quality infrastructure without the capital commitment that only mega-carriers can afford. This is the shared-economy model for carriers who are too smart to build and too good to settle for truck stops.",
+    "leverage_points": [
+      "Randy Williams: serial entrepreneur, built and sold R&M for $29M. Understands infrastructure value.",
+      "85 trucks, growing — built from zero to 85 in 10 years. Momentum operator.",
+      "Exceptional safety: driver OOS 0.4% vs 6.67% national average.",
+      "Refrigerated specialist — higher infrastructure needs than dry van.",
+      "Family-owned, personal culture — 'never heard a bad word about Randy.'",
+      "Nebraska Trucking Association member.",
+      "Randy answers his own phone — zero gatekeeping, immediate access to decision-maker.",
+      "8.19M miles (2024) = fleet runs hard across 48 states.",
+      "Same Platteview Rd location as former R&M — deep Omaha roots.",
+      "Randy's network from R&M/Roadrunner days = industry connections."
+    ],
+    "objection_map": [
+      {
+        "objection": "My trucks don't run through West Memphis regularly — we're an I-80 carrier.",
+        "response": "Honest answer: Phase One is at the I-40/I-55 interchange, and your primary lanes are I-80. Your SE-bound loads do cross that junction, but it's not your home territory. I wanted you to see what we're building because you've built infrastructure before — you sold R&M for $29M. You understand what flex-space truck terminal access means for a fleet. As the network grows beyond Phase One, carriers running I-80 West Coast lanes are exactly who this serves. I'd rather build the relationship now than call you cold when we're ready for your corridors."
+      },
+      {
+        "objection": "85 trucks — what's this cost me?",
+        "response": "Flex Proprietary: reserved days at a tier rate, 80% refundable deposit, plus $13/day when you use it. Or Rental Access at $59/24 hours if you want to try it first with no commitment. For 85 trucks where some of your lanes cross the I-40/I-55 interchange, Rental Access might be the right entry point. No initiation fee. Pay only when your drivers use it."
+      },
+      {
+        "objection": "I sold one company already. What's the exit on this membership?",
+        "response": "80% of any initiation deposit is refundable. Flex Proprietary reserved days are refundable. Rental Access is pay-per-use with zero commitment. The structure is designed so you can engage at whatever level makes sense and adjust. You're not locked in. The refundability is the exit."
+      }
+    ]
+  },
+  "playbook": {
+    "first_touch": {
+      "channel": "phone",
+      "sender": "JJ",
+      "angle_summary": "JJ calls Randy directly. Randy is a phone guy — he answers his own phone, he meets drivers in person. Do NOT email first. Call. 'Randy — I'm JJ with LineHaul Station. I know you built R&M and sold it to Roadrunner. I want to tell you about something we're building for carriers and get your take.' This is a 5-minute phone conversation, not a pitch deck. If Randy's interested, follow up with email detail. If he's not, he'll tell you — and he'll remember the call.",
+      "tone": "Direct, honest, entrepreneur-to-entrepreneur. Randy doesn't need corporate polish. He needs someone who's straight with him. Acknowledge the geography gap upfront — it builds credibility. 'I'm not going to pretend Omaha is around the corner from West Memphis. But I wanted you to know what we're building because you've built things too.'"
+    },
+    "sequence_recommendation": [
+      {
+        "step": "pre_send",
+        "action": "No pre-send flags to resolve — email and phone provided directly. JJ reviews R&M/Roadrunner background before calling so the conversation is informed.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day1",
+        "action": "JJ calls Randy Williams +1 402-210-3277. Phone first, not email. Use DRAFT-001 talking points. If voicemail: leave a message referencing Williams Transportation and R&M background. Follow up with email (DRAFT-002) same day.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day2",
+        "action": "If Day 1 call connected: send follow-up email with detail (DRAFT-003). If voicemail: try again in afternoon.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day3",
+        "action": "No action. Let Randy sit with it. He's a thinker — he built two companies. Don't crowd him.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day5",
+        "action": "If no response: one more call attempt. If still silence, send brief text to mobile: 'Randy — JJ from LineHaul Station. Left you a voicemail earlier this week about what we're building for carriers. Worth 5 minutes when you have time.' Randy is a phone/text operator, not email.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day7plus",
+        "action": "If engaged: share Carrier Calculator for 85-truck reefer fleet. Discuss Flex Proprietary or Rental Access. If silent: hold in pipeline. Tag for reactivation when LHS announces network expansion or I-80 corridor plans. Randy is worth maintaining — his network and credibility have long-term value.",
+        "owner": "JJ"
+      }
+    ],
+    "escalation_trigger": "Jeff does NOT enter on this one unless Randy specifically asks for a founder-to-founder conversation. At 85 trucks with geographic distance, JJ handles this. If Randy engages enthusiastically and starts talking about network vision, fleet expansion, or brings up his R&M experience as a reason he understands what LHS is building — then Jeff joins the next call as a peer.",
+    "approach_flags": {
+      "jeff_should_enter": false,
+      "jeff_should_enter_rationale": "JJ handles. 85 trucks, geographic gap, single contact. Jeff reserved for local Memphis carriers and large-fleet opportunities. If Randy engages at founder-vision level, Jeff joins call two.",
+      "video_outreach_appropriate": false,
+      "video_outreach_rationale": "Randy is old school. Phone call, not video. If he engages, send video of the West Memphis site as a follow-up asset.",
+      "linkedin_tagging_appropriate": false,
+      "linkedin_tagging_rationale": "No LinkedIn profile found for Randy Williams at Williams Transportation. He's not on LinkedIn. Phone and email only.",
+      "in_person_visit_appropriate": false,
+      "in_person_visit_rationale": "Gretna, NE is ~600 miles from LHS Phase One. Not a drive-over opportunity like Memphis carriers. If Randy engages and wants to visit, invite him to the site. But don't plan a trip to Omaha for this.",
+      "calculator_demo_appropriate": true,
+      "calculator_demo_rationale": "Randy sold a company for $29M. He evaluates business cases. If he engages, the Carrier Calculator for an 85-truck reefer fleet at Flex Proprietary or Rental Access pricing will close the analysis quickly.",
+      "pricing_in_first_touch": false,
+      "pricing_in_first_touch_rationale": "First touch is phone — just introduce the concept. If Randy asks about pricing on the call (he will — he's a numbers guy), share Flex Proprietary and Rental Access verbally. Email follow-up includes pricing detail.",
+      "site_visit_invitation": true,
+      "site_visit_rationale": "If Randy engages, invite him to the West Memphis site. He's the kind of operator who needs to see it. But he's 600 miles away — this is an invitation, not an assumption."
+    },
+    "tone_profile": {
+      "company_tone": "Honest. Direct. Entrepreneur to entrepreneur. Acknowledge the geography gap — it builds trust. Reference Randy's R&M history — it shows you did your homework. Don't over-pitch. Randy has sold a company for $29M. He doesn't need a sales presentation. He needs someone who's straight with him about what this is and where it fits.",
+      "jj_variant": "'Randy — I'm JJ with LineHaul Station. I know your background with R&M and Roadrunner. I wanted to call you directly because we're building something I think you'd understand — flex-space truck terminals for carriers. Our first location is at the I-40/I-55 interchange in West Memphis. I'll be honest, that's not your primary corridor from Omaha. But your trucks cross that junction on SE-bound loads, and I wanted you to hear about what we're building from us directly. You've built carrier infrastructure before. I'd value your take.'",
+      "jeff_variant": "Reserved. If Randy engages at vision level, Jeff joins call two.",
+      "model_variant": "carrier"
+    }
+  },
+  "pre_send_flags": [
+    {
+      "flag_id": "F-001",
+      "type": "single_contact",
+      "who_or_what": "Only one contact for Williams Transportation — Randy Williams (owner/CEO)",
+      "detail": "No other contacts available from Lusha or research. Williams Transportation is an 85-truck family operation — Randy may be the only decision-maker, with family members handling operations. The TruckersReport threads mention dispatchers and family members at the office, but no names surfaced.",
+      "required_action": "If Randy engages, ask about key operational staff (fleet manager, dispatch lead, safety director) for future multi-threading. Low priority — Randy IS the decision at this company.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-002",
+      "type": "email_unverified",
+      "who_or_what": "randy@williamstransport.com — provided by JJ from direct contact, not from Lusha CSV",
+      "detail": "Email provided directly by JJ (presumably from a conversation or business card). No Lusha confidence rating available. First-name-at-domain pattern is consistent with small carrier operations.",
+      "required_action": "Treat as confirmed — JJ sourced directly. Phone is primary channel regardless.",
+      "status": "resolved"
+    },
+    {
+      "flag_id": "F-003",
+      "type": "geographic_gap",
+      "who_or_what": "Williams Transportation HQ in Gretna, NE — ~600 miles from LHS Phase One in West Memphis, AR",
+      "detail": "Primary lanes run I-80 (Omaha to West Coast/Midwest), not I-40/I-55. Some SE-bound reefer loads cross the I-40/I-55 interchange but it's not the core corridor. This is the primary risk factor for this target. Must be addressed honestly in outreach.",
+      "required_action": "Acknowledge in first touch. Do not oversell geographic fit. Position as relationship-building for network expansion + current SE-bound lane utility.",
+      "status": "open"
+    }
+  ],
+  "offer_pricing": {
+    "recommended_tier": "Flex Proprietary or Rental Access",
+    "pricing_notes": "85 trucks is below the 100-truck Dedicated Proprietary threshold. Flex Proprietary (reserved days × tier rate, 80% refundable deposit, + $13/day) is the standard match. However, given the geographic gap, Rental Access ($59/24 hours, no initiation, no commitment) may be the right entry point. Let Randy's trucks use LHS on SE-bound loads without commitment. If utilization proves the value, upgrade to Flex Proprietary. Randy is a business guy — he'll appreciate the low-risk entry. Do NOT push Dedicated Proprietary at 85 trucks with geographic distance.",
+    "capex_comparison_notes": "Randy built and sold a carrier. He understands terminal economics. The comparison for him: R&M probably leased terminal space at Platteview Rd (Williams still operates from the same location). He knows what fixed infrastructure costs. Flex-space truck terminal access at $59/day or Flex Proprietary is infrastructure without the lease — and he can use it only when his loads route through. No fixed cost when his trucks aren't in the corridor."
+  },
+  "engagement": {
+    "stage": "target",
+    "events": [],
+    "last_outreach_at": null,
+    "next_step": "JJ calls Randy Williams +1 402-210-3277. Phone first. Reference R&M/Roadrunner background. Be honest about geography. Ask for his take."
+  },
+  "outreach": {
+    "stage": "pre_send",
+    "sequence_plan": [
+      {
+        "day": "pre_send",
+        "actions": [
+          "JJ reviews R&M/Roadrunner background (sold Aug 2012 for $24.4M + $5M earn-out, $64.5M combined revenue)",
+          "No data flags to resolve — phone and email provided directly"
+        ]
+      },
+      {
+        "day": "day1",
+        "actions": [
+          "JJ calls Randy Williams +1 402-210-3277. DRAFT-001 talking points.",
+          "Follow up same day with email DRAFT-002 if call connects. If voicemail, send email anyway."
+        ]
+      },
+      {
+        "day": "day2",
+        "actions": [
+          "If call connected: send detailed follow-up email DRAFT-003.",
+          "If voicemail: try call again afternoon."
+        ]
+      },
+      {
+        "day": "day3",
+        "actions": [
+          "No action. Let Randy sit with it."
+        ]
+      },
+      {
+        "day": "day5",
+        "actions": [
+          "One more call attempt. If still silence, text mobile.",
+          "Text: 'Randy — JJ from LineHaul Station. Left you a voicemail about what we're building for carriers. Worth 5 minutes when you have time.'"
+        ]
+      },
+      {
+        "day": "day7plus",
+        "actions": [
+          "If engaged: Carrier Calculator for 85-truck reefer fleet. Flex Proprietary or Rental Access.",
+          "If silent: hold in pipeline. Tag for reactivation on network expansion / I-80 corridor announcements."
+        ]
+      }
+    ],
+    "drafts": [
+      {
+        "draft_id": "DRAFT-001",
+        "contact_id": "C-0001",
+        "model": "carrier",
+        "sender": "JJ",
+        "day": "day1",
+        "subject": null,
+        "body": "PHONE CALL TALKING POINTS — Randy Williams, Owner/CEO\n\nOpening: 'Randy — I'm JJ with LineHaul Station. I know your background — you built R&M, sold it to Roadrunner, and started Williams Transportation from scratch. I wanted to call you directly because we're building something I think you'd understand.'\n\nPitch: 'We're building a network of flex-space truck terminals for carriers — starting at the I-40/I-55 interchange in West Memphis. Not truck stops. Shared-access terminal infrastructure — driver staging, maintenance, truck wash, secure reefer parking — that carriers can access without building or leasing fixed facilities.'\n\nHonest geography: 'I'll be straight with you — Omaha to West Memphis isn't around the corner. Your primary lanes are I-80. But your SE-bound loads cross that interchange, and I wanted you to hear about this from us directly. You've built carrier infrastructure before. I'd value your perspective.'\n\nIf he asks about pricing: 'For 85 trucks, Flex Proprietary or Rental Access. Rental is $59 per 24 hours, no initiation, no commitment. Your drivers use it when they're in the corridor. Flex Proprietary is reserved days with an 80% refundable deposit plus $13/day.'\n\nIf he's interested: 'Can I send you a follow-up email with the details? And I'd love 20 minutes to walk you through what the facility looks like.'\n\nIf he's not: 'Completely understand. If the network expands to corridors closer to your lanes, I'll reach back out. Appreciate your time, Randy.'",
+        "hook_summary": "R&M background — entrepreneur who understands infrastructure value",
+        "ask": "5 minutes on the phone + permission to send follow-up email",
+        "notes": "PHONE FIRST. Randy answers his own phone. He's old school. Do NOT email before calling. The R&M reference shows you did homework. The geography honesty builds trust. If he says no, end gracefully — the relationship is worth more than the push."
+      },
+      {
+        "draft_id": "DRAFT-002",
+        "contact_id": "C-0001",
+        "model": "carrier",
+        "sender": "JJ",
+        "day": "day1",
+        "subject": "Williams Transportation — flex-space truck terminals for reefer carriers",
+        "body": "Randy —\n\nGood talking with you. Here's the overview on what we're building.\n\nLineHaul Station is a network of flex-space truck terminals — starting at the I-40/I-55 interchange in West Memphis, the busiest freight junction in the Mid-South. These are shared-access terminal facilities where carriers get driver staging, professional maintenance, truck wash, and secure parking — including reefer-capable equipment staging — without building or leasing fixed infrastructure.\n\nFor an 85-truck refrigerated fleet running 48 states, the value is simple: terminal-quality operations at key interchanges, available when your loads route through. No fixed lease. No construction. Access when you need it.\n\nFor Williams, the right entry point is probably Rental Access — $59 per 24 hours, no initiation, no commitment. Your drivers use it when they're running through the corridor. If utilization proves the value, Flex Proprietary gives you reserved access at $13/day with an 80% refundable deposit.\n\nI know you built R&M from the ground up and understand what infrastructure costs. This is the model that gives 85-truck carriers access to what only mega-fleets can build.\n\nWorth 20 minutes to walk through the details?\n\nJJ",
+        "hook_summary": "Follow-up to Day 1 phone call — reefer-specific, Rental Access entry point",
+        "ask": "20 minutes",
+        "notes": "Send same day as phone call, whether call connected or went to voicemail. If voicemail, adjust opening: 'Randy — JJ from LineHaul Station. I left you a voicemail today. Here's the overview on what I called about.' Keep Rental Access as lead pricing — lower friction for a geographically distant carrier."
+      },
+      {
+        "draft_id": "DRAFT-003",
+        "contact_id": "C-0001",
+        "model": "carrier",
+        "sender": "JJ",
+        "day": "day5",
+        "subject": "Following up — flex-space truck terminals",
+        "body": "Randy —\n\nFollowing up from my call last week. Flex-space truck terminals for carriers at the I-40/I-55 interchange. $59/day Rental Access for your reefer fleet — no initiation, no commitment.\n\nYou built two trucking companies. This is infrastructure built for operators like you.\n\nWorth a quick call?\n\nJJ",
+        "hook_summary": "Day 5 follow-up — brief, direct, Randy's style",
+        "ask": "Quick call",
+        "notes": "Short format. Randy doesn't need paragraphs. He needs directness. This is the last email push before pipeline hold."
+      }
+    ],
+    "send_log": []
+  },
+  "chip_assessment": {
+    "priority": "medium",
+    "standout_contact_id": "C-0001",
+    "key_risks": [
+      "GEOGRAPHY IS THE GAP: Omaha/Gretna on I-80 is ~600 miles from LHS Phase One at I-40/I-55. Williams' primary lanes (West Coast, Midwest) don't naturally route through West Memphis. Some SE-bound loads do, but it's not the core corridor. This is honestly a Phase Two / network expansion relationship more than a Phase One founding member.",
+      "SINGLE CONTACT: Only Randy Williams. No multi-threading possible. If Randy says no, the path is closed. But at an 85-truck family carrier, Randy IS the only decision-maker — so this is a feature, not a bug.",
+      "FLEET SIZE BELOW DEDICATED PROPRIETARY: 85 trucks = Flex Proprietary or Rental Access. Lower revenue per carrier. But Rental Access ($59/day) as an entry point is zero-commitment and proves utilization before upgrading.",
+      "YOUNG COMPANY: Founded 2016 — only 10 years. But Randy Williams has 30+ years of experience. The company is young; the operator is proven."
+    ],
+    "close_path": "1) JJ calls Randy Day 1 — phone first, reference R&M background, be honest about geography. 2) Follow up with email same day. 3) If Randy engages: Carrier Calculator for 85-truck reefer fleet, lead with Rental Access entry point. 4) If Randy doesn't bite on Phase One but appreciates the concept: hold relationship, tag for network expansion outreach. 5) If Randy engages enthusiastically at vision level: Jeff joins call two. 6) Long game: Randy Williams knows every reefer operator in the Midwest. Even if Williams Transportation doesn't become a member right now, Randy's endorsement of the concept to his network has value.",
+    "company_intel_summary": "Williams Transportation is an 85-truck refrigerated carrier based in Gretna, NE, founded in 2016 by Randy Williams. Randy previously built R&M Transportation (1991), grew it to $64.5M combined revenue, and sold to Roadrunner (NYSE: RRTS) for $24.4M + $5M earn-out in 2012. He started over because he 'got bored.' Exceptional safety record (driver OOS 0.4% vs 6.67% national average). Geographic fit with LHS Phase One is weak — Omaha is 600 miles from West Memphis on the I-80 corridor. But Randy Williams as an operator and industry voice makes this a relationship worth building for the long term.",
+    "maverick_relevance": "Randy Williams is not a Phase One founding member play. He's a network play. The man built a carrier to $64.5M and sold it to a NYSE company. He started over from scratch at ~55 because he loves trucking. He knows every refrigerated operator in the Midwest. If Randy Williams tells three other carrier owners that LHS is legitimate, that's worth more than his membership revenue. The honest play: build the relationship, be transparent about geography, earn his respect. If LHS announces I-80 corridor expansion or a Midwest location, Randy Williams is the first call."
+  },
+  "trevor_feedback": {
+    "is_skip": false,
+    "skip_reason": "",
+    "filter_rule": "",
+    "skip_pattern_type": ""
+  },
+  "flags": [],
+  "next_actions": [
+    "JJ calls Randy Williams +1 402-210-3277 — phone first, not email",
+    "Review R&M/Roadrunner background before calling",
+    "Be honest about geography gap — builds credibility with a straight-shooter",
+    "Lead with Rental Access ($59/day) as entry point, not Flex Proprietary",
+    "If Randy engages at vision level: Jeff joins call two",
+    "If Randy passes: hold in pipeline, tag for network expansion outreach",
+    "Long-term: Randy's endorsement to his network has outsized value"
+  ],
+  "rep_notes": [],
+  "notes": [
+    {
+      "id": "N-001",
+      "author": "Chip",
+      "timestamp": "2026-03-04T00:00:00Z",
+      "content": "Dossier built from minimal input — name, phone, email only. No Lusha CSV. All company intel sourced from FMCSA, LinkedIn, TruckersReport, FleetOwner, Logistics Management, ZoomInfo, NTA directory, CarrierSource. Randy Williams' R&M/Roadrunner history is the key differentiator — transforms this from a small Nebraska carrier into a proven serial entrepreneur worth a relationship."
+    }
+  ],
+  "timestamps": {
+    "created_at": "2026-03-04T00:00:00Z",
+    "updated_at": "2026-03-04T00:00:00Z"
+  }
+}
