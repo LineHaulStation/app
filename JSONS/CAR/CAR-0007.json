@@ -1,0 +1,986 @@
+{
+  "__path__": "/linehaul-station/carriers/CAR-0007.json",
+  "schema_version": "3.3",
+  "entity_type": "carrier",
+  "id": "CAR-0007",
+  "status": "target",
+  "metadata": {
+    "dossier_version": 1,
+    "source_csv_reference": "PAM_Transport.csv (Lusha export, 2026-02-17)",
+    "created_by": "Chip",
+    "github_path": "JSONS/CAR/CAR-0007.json"
+  },
+  "ownership": {
+    "assigned_to": "JJ",
+    "last_touched_by": "Chip",
+    "last_touched_at": "2026-03-04T00:00:00Z"
+  },
+  "profile": {
+    "company_name": "PAM Transport, Inc. (subsidiary of PAMT Corp)",
+    "website": "https://pamtransport.com",
+    "hq_city": "Tontitown",
+    "hq_state": "AR",
+    "founded_year": 1980,
+    "employee_range": "1,001-5,000 (Lusha) / 2,049 trucks + 2,091 drivers (FMCSA 2024) / 2,222 trucks including 519 owner-operators (SEC filing, end 2024)",
+    "naics_code": "484121",
+    "sic_code": "4213",
+    "description": "Major OTR dry van truckload carrier headquartered in Tontitown, AR (NW Arkansas). Founded 1980 by Paul Allen Maestri as a 5-truck operation, now operating 2,200+ trucks and 6,000+ trailers. Publicly traded as PAMT Corp (NASDAQ: PAMT). Majority owned (73%+) by Moroun family trusts — Matthew T. Moroun serves as Chairman (also Chairman of Universal Logistics Holdings, NASDAQ: ULH). Services: nationwide dry van truckload, expedited truckload, intermodal, logistics, and cross-border Mexico/Canada. Dominant #1 US carrier presence at Port of Laredo with 300+ border crossings/day. CTPAT Tier II certified. Fleet: Peterbilt, Freightliner, and International tractors with average age of 18 months. Subsidiaries include Met Express, Choctaw Express, P.A.M. Cartage Carriers, McNeill Trucking, East Coast Transport & Logistics, Metropolitan (NY). CCJ Top 250 #58. Revenue ~$600M annual (declining — $150M/quarter in 2025). CRITICAL: Company is in financial distress — three consecutive quarterly net losses through Q3 2025, TL operating ratio hit 112.5% in Q2 2025. CEO Joe Vitiritto resigned June 2025; Lance K. Stewart (former CFO, with PAM since 1989) promoted to President/CEO August 2025. Company conducting national search for operations leader. USDOT 179752.",
+    "specialties": [
+      "Dry Van Truckload",
+      "Expedited Truckload",
+      "Intermodal",
+      "Logistics / Brokerage",
+      "Mexico Cross-Border (Laredo & El Paso gateways)",
+      "Canada Cross-Border (Ontario & Quebec)",
+      "Automotive Parts",
+      "General Commodities",
+      "CDL Training Program"
+    ],
+    "operating_regions": [
+      "Continental United States",
+      "Mexico (Laredo & El Paso gateways)",
+      "Canada (Ontario & Quebec)",
+      "Arkansas (HQ)",
+      "Nationwide OTR"
+    ],
+    "corridor_alignment_notes": "Tontitown AR is in NW Arkansas on I-49, roughly 280 miles NW of West Memphis via I-40. PAM's OTR fleet runs nationwide, and the I-40 corridor through Arkansas (Little Rock to West Memphis) is a natural east-west artery. Their Laredo/El Paso cross-border traffic likely runs I-40 through Memphis and West Memphis on return legs. The sheer fleet size (2,200+ trucks running nationwide) means significant daily truck volume through the I-40/I-55 interchange regardless of HQ location."
+  },
+  "authority_id": "AUTH-0007",
+  "external_refs": {
+    "crm_id": "",
+    "carrier_pack_url": "",
+    "sec_ticker": "PAMT (NASDAQ)",
+    "usdot": "179752"
+  },
+  "classification": {
+    "model": "carrier",
+    "confidence": "high",
+    "naics_vs_description_conflict": false,
+    "disqualifiers": [],
+    "notes": "Clear carrier model with logistics division. NAICS 484121 (General Freight Trucking, Long-Distance, Truckload) matches description. Primary business is asset-based dry van truckload with 2,200+ trucks. Logistics division provides asset/non-asset brokerage but the company is overwhelmingly an asset-based carrier. Publicly traded — adds complexity to decision-making (board approval may be required for membership-level commitments). Moroun family controls 73%+ of shares."
+  },
+  "fit_score": {
+    "total": 7.8,
+    "breakdown": {
+      "geography_corridor": 7.0,
+      "fleet_scale_model": 9.5,
+      "operating_history": 9.0,
+      "contact_quality": 6.5,
+      "strategic_signals": 7.0
+    },
+    "rationale": "GEOGRAPHY (7.0): Tontitown AR is NW Arkansas — roughly 280 miles from West Memphis via I-40. Not in the immediate LHS target geography, but AR is a target state and I-40 runs the full width of the state. With 2,200+ OTR trucks running nationwide, PAM has significant daily truck volume through the I-40/I-55 interchange. Their Laredo cross-border traffic routes through the Mid-South corridor. Geography score reflects 'fleet runs through it' vs. 'headquartered near it.' FLEET SCALE (9.5): 2,200+ trucks, 6,000+ trailers, 2,400+ drivers. This is a Top 60 carrier in the US. Dry van OTR with expedited capability. Average truck age 18 months. Scale is perfect for Dedicated Proprietary and potentially multi-space commitment. The sheer fleet size means hundreds of trucks in the LHS corridor daily. OPERATING HISTORY (9.0): Founded 1980 — 45+ years in business. Grew from 5 trucks to 2,200+. Multiple acquisitions (McNeill, East Coast T&L, Metropolitan). Public since 1986. Deep institutional knowledge despite recent leadership turnover. CONTACT QUALITY (6.5): 13 unique contacts in CSV, mostly Director-level ops and HR. COO is Mexico-based. No C-suite US contacts in CSV — missing CEO Lance Stewart (new Aug 2025), Chairman Matthew Moroun, CFO/Treasurer Daniel Kleine. Multiple duplicate entries and email format anomalies (truncated prefixes). Several contacts have dual-domain emails (pamtransport.com + pamt.com). Good operational depth but weak executive access. STRATEGIC SIGNALS (7.0): Publicly traded adds decision complexity but also credibility. Moroun family (73%+ ownership) also controls Universal Logistics Holdings — potential two-carrier pathway. Company is in financial distress (3+ quarters of losses, 112.5% OR) — CapEx efficiency message could resonate strongly, but also means leadership is distracted and cash-constrained. New CEO just installed. National search for operations leader underway. Timing is uncertain: the new CEO may welcome infrastructure efficiency, or may be too focused on stabilization to consider new commitments."
+  },
+  "contacts": [
+    {
+      "contact_id": "C-0001",
+      "name": "Fernando Gonzalez",
+      "title": "Chief Operating Officer",
+      "email": "fernando.gonzalez@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": "gonzf@pamt.com",
+      "phone": "+52 81 8349 9302",
+      "linkedin_url": "https://www.linkedin.com/in/fernando-gonzalez-8a8b871a",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "Highest-ranking contact in CSV. COO owns operational infrastructure decisions. However, based in Mexico City — likely oversees Mexico/cross-border operations specifically rather than US trucking operations. Verify scope on LinkedIn before sending. If US-scope COO, lead with fleet infrastructure at the I-40 interchange. If Mexico-focused, he's still relevant but may not own the US terminal decision.",
+      "personality_read": "International executive. Dual domain emails suggest he operates across both US and Mexico entities. Mexico City base + Mexico phone numbers indicate cross-border focus.",
+      "influence_level": "decision_maker",
+      "communication_tone": "executive",
+      "flags": ["dual_domain", "mexico_based_coo"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/fernando-gonzalez-8a8b871a",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["Mexico City based", "Dual domain (pamtransport.com + pamt.com)"],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": ["May be Mexico ops focused, not US infrastructure"],
+        "likely_objections": [],
+        "recommended_angle": ["Cross-border fleet staging at I-40 interchange", "Driver infrastructure for Mexico-bound and return-leg drivers"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Lance Stewart (CEO)",
+        "internal_allies": null,
+        "budget_authority": "likely"
+      }
+    },
+    {
+      "contact_id": "C-0002",
+      "name": "Jordan Claytor",
+      "title": "Senior Director of U.S. Trucking Operations",
+      "email": "jordan.claytor@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 479-659-2523",
+      "linkedin_url": "https://www.linkedin.com/in/jordan-claytor-679a58b1",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "ANCHOR CONTACT. Title explicitly says 'U.S. Trucking Operations' — this is the person who owns domestic fleet operations, routing, and infrastructure decisions for the core trucking business. If the COO is Mexico-focused, Claytor is effectively the operational decision-maker for US-side trucking. Lead with: 'Your OTR fleet is running I-40 through West Memphis every day. Here's what we're building at the interchange.'",
+      "personality_read": "Senior Director title at a 2,200-truck carrier suggests this is a high-capacity operational leader. Cave Springs, AR (NW Arkansas near Bentonville).",
+      "influence_level": "decision_maker",
+      "communication_tone": "operational",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/jordan-claytor-679a58b1",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["US Trucking Operations scope", "Senior Director = high autonomy"],
+        "communication_style": null,
+        "motivators": ["Fleet efficiency", "Driver productivity", "Operational infrastructure"],
+        "watchouts": [],
+        "likely_objections": ["We have nationwide access to truck stops already", "What's the coverage beyond West Memphis"],
+        "recommended_angle": ["I-40 interchange infrastructure for OTR fleet", "Driver staging and relay potential", "Purpose-built vs. truck stop"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Fernando Gonzalez (COO) or Lance Stewart (CEO)",
+        "internal_allies": "Cole Fritschen (Dir OTR Ops), Chris Mayes (Dir Ops)",
+        "budget_authority": "unknown"
+      }
+    },
+    {
+      "contact_id": "C-0003",
+      "name": "Cole Fritschen",
+      "title": "Director of OTR Operations",
+      "email": "cole.fritschen@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": "fritc@pamt.com",
+      "phone": "+1 501-529-2371",
+      "linkedin_url": "https://www.linkedin.com/in/cole-fritschen-04ba671b5",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "Director of OTR Operations — directly manages the over-the-road trucking that is PAM's core business. This person lives and breathes the daily reality of where drivers park, stage, and rest. Lead with the driver experience angle: 'Your OTR drivers deserve better than a truck stop lot. Here's what purpose-built looks like.' Pair with Claytor for a two-touch on Day 1.",
+      "personality_read": "501 area code (Little Rock / Central AR) — may manage operations from a central location rather than HQ. OTR-specific focus means high operational detail orientation.",
+      "influence_level": "influencer",
+      "communication_tone": "operational",
+      "flags": ["dual_domain"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/cole-fritschen-04ba671b5",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["OTR-specific role", "501 area code = Central Arkansas"],
+        "communication_style": null,
+        "motivators": ["Driver productivity", "OTR efficiency", "Fleet utilization"],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": ["OTR driver staging at I-40 interchange", "Purpose-built infrastructure vs truck stops"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Jordan Claytor (Sr Dir US Trucking Ops)",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0004",
+      "name": "Chris Adams",
+      "title": "Vice President of Logistics / Associate Vice President of Strategic Planning",
+      "email": "chris.adams@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 479-502-1870",
+      "linkedin_url": null,
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "Appears twice in CSV with two different titles (VP Logistics + AVP Strategic Planning), two different phone numbers, and two different LinkedIn profiles — but same email. Likely holds dual role or title changed. The 'Strategic Planning' angle is interesting: if he's involved in long-term infrastructure planning, LHS fits directly into that conversation. The Logistics title suggests he may manage the brokerage/non-asset side. Verify role before sending.",
+      "personality_read": "Dual titles suggest high-trust generalist. 323 area code on second entry is Los Angeles — may have relocated to AR from CA. Tontitown + Fayetteville listings suggest HQ-based.",
+      "influence_level": "influencer",
+      "communication_tone": null,
+      "flags": ["duplicate_csv_entry", "dual_titles", "dual_phone_numbers"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": null,
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["Dual role: Logistics + Strategic Planning"],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": ["Verify which title is current before sending"],
+        "likely_objections": [],
+        "recommended_angle": ["Strategic infrastructure planning", "Logistics competitive differentiation"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": "Cortney Parrott (VP Logistics)",
+        "budget_authority": "unknown"
+      }
+    },
+    {
+      "contact_id": "C-0005",
+      "name": "Cortney Parrott",
+      "title": "Vice President of Logistics",
+      "email": "cortney.parrott@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 501-691-3360",
+      "linkedin_url": "https://www.linkedin.com/in/cortney-parrott-530a9054",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "VP Logistics — same title as Chris Adams. PAM may have two logistics VPs covering different divisions or regions. Verify on LinkedIn. If Parrott owns the non-asset/brokerage logistics division, the angle shifts: 'Give your carrier partners access to purpose-built infrastructure. Differentiate your logistics offering.'",
+      "personality_read": "501 area code (Central AR). Fayetteville-based per CSV.",
+      "influence_level": "influencer",
+      "communication_tone": null,
+      "flags": ["duplicate_title_with_C-0004"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/cortney-parrott-530a9054",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": [],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": "Chris Adams (VP Logistics / AVP Strategic Planning)",
+        "budget_authority": "unknown"
+      }
+    },
+    {
+      "contact_id": "C-0006",
+      "name": "Shane Barnes",
+      "title": "Vice President of Maintenance",
+      "email": "shane.barnes@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": "barns@pamt.com",
+      "phone": "+1 479-228-2637",
+      "linkedin_url": "https://www.linkedin.com/in/shane-barnes-268a7976",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "VP Maintenance for a 2,200-truck fleet — this person owns equipment uptime across the entire network. LHS Fleet Maintenance Centers are a direct value proposition: 'What does it cost you when a truck is down 200 miles from the nearest PAM shop? What if there was a full-service maintenance center at the I-40 interchange your drivers already use?' The maintenance angle is highly specific and differentiated.",
+      "personality_read": "Gravette, AR (far NW corner of the state). VP-level maintenance at a major carrier suggests deep technical and operational expertise.",
+      "influence_level": "influencer",
+      "communication_tone": "technical",
+      "flags": ["dual_domain"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/shane-barnes-268a7976",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": "technical",
+        "motivators": ["Equipment uptime", "Maintenance cost reduction", "Fleet reliability"],
+        "watchouts": [],
+        "likely_objections": ["We have our own maintenance network", "What certifications do LHS mechanics hold"],
+        "recommended_angle": ["Fleet Maintenance Center at I-40", "Downtime cost reduction away from home shops", "Maintenance network extension"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Jordan Claytor or COO",
+        "internal_allies": null,
+        "budget_authority": "departmental"
+      }
+    },
+    {
+      "contact_id": "C-0007",
+      "name": "Gary Kirby",
+      "title": "Vice President of Driver Resources",
+      "email": "gary.kirby@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 479-263-2249",
+      "linkedin_url": "https://www.linkedin.com/in/gary-kirby-5827378",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "VP Driver Resources — the title itself tells the story. This isn't 'HR' — it's 'Driver Resources,' which means PAM thinks about drivers as a strategic resource to be invested in, not just managed. Perfect for the Recruit & Retain pitch: 'You already think of drivers as a resource worth investing in. LHS is the infrastructure that proves it. $13/day gives your drivers a private club, showers, maintenance, and secure parking instead of truck stop lots.'",
+      "personality_read": "Springdale, AR. Title suggests driver-centric philosophy. Likely a champion for driver quality-of-life investments.",
+      "influence_level": "influencer",
+      "communication_tone": "relationship",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/gary-kirby-5827378",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["'Driver Resources' title = driver-centric culture"],
+        "communication_style": null,
+        "motivators": ["Driver retention", "Driver satisfaction", "Recruiting differentiation"],
+        "watchouts": [],
+        "likely_objections": ["We already invest heavily in drivers", "What do drivers actually say about this"],
+        "recommended_angle": ["Recruit & Retain", "Driver quality-of-life infrastructure", "Retention ROI at $13/day"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": "Tyler Majors (VP HR), Chelsea Wood (Dir Recruiting)",
+        "budget_authority": "departmental"
+      }
+    },
+    {
+      "contact_id": "C-0008",
+      "name": "Tyler Majors",
+      "title": "Vice President of Human Resources",
+      "email": "majot@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 479-263-7060",
+      "linkedin_url": "https://www.linkedin.com/in/tyler-majors-0aa68516",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "VP HR — owns the people strategy for a 2,400+ driver workforce. The cost of driver turnover at PAM's scale is massive. Recruit & Retain angle: show the per-driver math. If LHS reduces turnover by even 1-2%, the ROI at PAM's scale is enormous.",
+      "personality_read": "Bentonville, AR (Walmart HQ area). VP HR for a publicly traded carrier suggests corporate HR sophistication.",
+      "influence_level": "influencer",
+      "communication_tone": "strategic_hr",
+      "flags": ["email_format_anomaly"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/tyler-majors-0aa68516",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": ["Retention math at scale", "Turnover cost per driver × 2,400 drivers"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": "Gary Kirby (VP Driver Resources), Chelsea Wood (Dir Recruiting), Holly Wright (Dir HR)",
+        "budget_authority": "departmental"
+      }
+    },
+    {
+      "contact_id": "C-0009",
+      "name": "Ava Robinson",
+      "title": "Director of Pricing and Network Design",
+      "email": "ava.robinson@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 870-918-6290",
+      "linkedin_url": "https://www.linkedin.com/in/ava-robinson-510586b1",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "Director of Pricing and Network Design — this is a strategic operations role that designs the network PAM's fleet runs. She understands lane economics, driver staging, and how infrastructure affects the cost model. The LHS value proposition maps directly to network design: adding a node at the I-40/I-55 interchange changes staging economics for every lane that runs through it. This is an analytical conversation about network optimization.",
+      "personality_read": "870 area code is eastern/southern AR. Fayetteville-based. Pricing + Network Design title suggests analytical, data-driven.",
+      "influence_level": "influencer",
+      "communication_tone": "analytical",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/ava-robinson-510586b1",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["Network Design role = understands infrastructure-to-lane economics"],
+        "communication_style": "analytical",
+        "motivators": ["Network efficiency", "Lane optimization", "Cost-per-mile reduction"],
+        "watchouts": [],
+        "likely_objections": ["Show me the lane-level impact data"],
+        "recommended_angle": ["Network node addition at I-40/I-55", "Lane economics and staging cost reduction", "Driver Hours-of-Service optimization through relay staging"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0010",
+      "name": "Malea Mcelyea",
+      "title": "Vice President of Safety and Compliance",
+      "email": "malea.mcelyea@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": null,
+      "linkedin_url": "https://www.linkedin.com/in/maleamcelyea",
+      "priority_tier": "tier3",
+      "sender": "JJ",
+      "strategic_angle": "VP Safety and Compliance — driver fatigue, HOS compliance, and safe parking are all within her domain. LHS provides secure gated parking, proper rest facilities, and infrastructure that supports compliance. Light-touch awareness send: 'Purpose-built infrastructure that supports your safety culture.'",
+      "personality_read": null,
+      "influence_level": "influencer",
+      "communication_tone": null,
+      "flags": ["missing_phone"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/maleamcelyea",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": ["Driver safety", "HOS compliance", "Secure parking"],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": ["Safe parking", "HOS compliance support", "Driver fatigue reduction"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0011",
+      "name": "Cookie Mingin",
+      "title": "Vice President",
+      "email": "cookie.mingin@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": "mingg@pamt.com",
+      "phone": "+1 856-362-1789",
+      "linkedin_url": "https://www.linkedin.com/in/cookie-mingin-21023726",
+      "priority_tier": "tier3",
+      "sender": "JJ",
+      "strategic_angle": "VP with General Management department tag. 856 area code is southern New Jersey — may manage Northeast operations (PAM acquired Metropolitan, a NY carrier). Title is generic 'Vice President' with no functional specification. Verify on LinkedIn what this person actually manages before sending.",
+      "personality_read": "NJ area code + no city in CSV suggests remote or regional role.",
+      "influence_level": "unknown",
+      "communication_tone": null,
+      "flags": ["dual_domain", "vague_title", "geographic_anomaly"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/cookie-mingin-21023726",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["856 area code = NJ, possible NE regional role"],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": ["Verify actual function before sending"],
+        "likely_objections": [],
+        "recommended_angle": [],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "unknown",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "unknown"
+      }
+    },
+    {
+      "contact_id": "C-0012",
+      "name": "Chelsea Wood",
+      "title": "Director of Recruiting",
+      "email": "chelsea.wood@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 479-366-5103",
+      "linkedin_url": "https://www.linkedin.com/in/chelsea-wood-3704051b6",
+      "priority_tier": "tier3",
+      "sender": "JJ",
+      "strategic_angle": "Director of Recruiting — owns the front-end of the driver pipeline. LHS as a recruiting differentiator: 'What if your recruiting pitch included access to a national private terminal network?' Pairs with Gary Kirby (VP Driver Resources) and Tyler Majors (VP HR) for a multi-touch HR campaign.",
+      "personality_read": "432 area code (Midland/Odessa TX) as secondary phone — may have West Texas or oil patch recruiting connections.",
+      "influence_level": "informational",
+      "communication_tone": null,
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/chelsea-wood-3704051b6",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": ["Driver recruiting pipeline", "Competitive recruiting tools"],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": ["Recruiting differentiator", "LHS as a recruiting tool"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "informational",
+        "reports_to": "Tyler Majors (VP HR) or Gary Kirby (VP Driver Resources)",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0013",
+      "name": "Chris Mayes",
+      "title": "Director of Operations",
+      "email": "chris.mayes@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": "mayec@pamt.com",
+      "phone": "+1 870-623-4139",
+      "linkedin_url": "https://www.linkedin.com/in/chris-mayes-b19749383",
+      "priority_tier": "tier3",
+      "sender": "JJ",
+      "strategic_angle": "Director of Operations. Appears twice in CSV with two different LinkedIn URLs and two different cities (Springdale vs. Lowell — both NW AR). Same email and phone. Likely data duplication. Operational level contact — good for Day 3 awareness. 870 area code is eastern AR.",
+      "personality_read": null,
+      "influence_level": "informational",
+      "communication_tone": "operational",
+      "flags": ["duplicate_csv_entry", "dual_linkedin_profiles", "dual_domain"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/chris-mayes-b19749383",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": [],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "informational",
+        "reports_to": "Jordan Claytor (Sr Dir US Trucking Ops)",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-SKIP-001",
+      "name": "Holly Wright",
+      "title": "Director of Human Resources",
+      "email": "holly.wright@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": "wrigh@pamt.com",
+      "phone": "+1 479-361-5571",
+      "linkedin_url": "https://www.linkedin.com/in/holly-wright-92923bb5",
+      "priority_tier": "skip",
+      "sender": null,
+      "strategic_angle": "Director of HR — reports up through Tyler Majors (VP HR). Not in the decision chain for infrastructure investment. Skip unless HR campaign warrants tertiary touch.",
+      "personality_read": null,
+      "influence_level": "informational",
+      "communication_tone": null,
+      "flags": ["dual_domain", "email_format_anomaly"],
+      "enrichment": { "status": "pending" },
+      "career_context": {},
+      "decision_dynamics": { "influence_level": "informational", "reports_to": "Tyler Majors (VP HR)" }
+    },
+    {
+      "contact_id": "C-SKIP-002",
+      "name": "Tacker O'Halloran",
+      "title": "Director of Operations",
+      "email": "tacker.ohalloran@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 479-236-2487",
+      "linkedin_url": "https://www.linkedin.com/in/tacker-o-halloran",
+      "priority_tier": "skip",
+      "sender": null,
+      "strategic_angle": "Director of Operations — same title as Chris Mayes. Multiple Dir Ops contacts suggest divisional structure. Skip for initial outreach; activate if Claytor or Fritschen respond and refer.",
+      "personality_read": null,
+      "influence_level": "informational",
+      "communication_tone": null,
+      "flags": [],
+      "enrichment": { "status": "pending" },
+      "career_context": {},
+      "decision_dynamics": { "influence_level": "informational" }
+    },
+    {
+      "contact_id": "C-SKIP-003",
+      "name": "Mitzi Goodman",
+      "title": "Director of Risk Management",
+      "email": "mitzi.goodman@pamtransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 479-856-1270",
+      "linkedin_url": "https://www.linkedin.com/in/mitzi-goodman-09866750",
+      "priority_tier": "skip",
+      "sender": null,
+      "strategic_angle": "Risk Management — insurance, claims, liability. Not in the infrastructure decision chain. Skip unless safety/risk angle becomes primary.",
+      "personality_read": null,
+      "influence_level": "informational",
+      "communication_tone": null,
+      "flags": [],
+      "enrichment": { "status": "pending" },
+      "career_context": {},
+      "decision_dynamics": { "influence_level": "informational" }
+    },
+    {
+      "contact_id": "C-SKIP-004",
+      "name": "Jonathan López",
+      "title": "Director of Operations (Mexico)",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+52 614 253 5858",
+      "linkedin_url": "https://www.linkedin.com/in/jonathan-lópez-204393114",
+      "priority_tier": "skip",
+      "sender": null,
+      "strategic_angle": "Mexico-based Director of Operations. Based in Monterrey. No email in CSV. Not relevant for US-based LHS infrastructure decision.",
+      "personality_read": null,
+      "influence_level": "informational",
+      "communication_tone": null,
+      "flags": ["missing_email", "mexico_based"],
+      "enrichment": { "status": "pending" },
+      "career_context": {},
+      "decision_dynamics": { "influence_level": "informational" }
+    }
+  ],
+  "strategic_positioning": {
+    "win_thesis": "PAM Transport is a 2,200-truck OTR carrier in financial distress — posting losses every quarter with a 112.5% operating ratio. Their fleet runs nationwide and absolutely traverses the I-40/I-55 interchange daily, especially Laredo cross-border return-leg traffic. The new CEO (Lance Stewart, Aug 2025) is a 35-year PAM veteran being asked to stabilize the company. LHS offers infrastructure access at a fraction of terminal construction cost — a CapEx efficiency story that resonates when every dollar is scrutinized. The challenge: a company in financial distress may not have the bandwidth or budget for new commitments. The opportunity: if LHS can demonstrate cost reduction vs. current infrastructure spend, PAM is a carrier that needs to do more with less right now.",
+    "pain_points": [
+      {
+        "pain": "Financial distress — consecutive quarterly losses",
+        "confidence": "confirmed",
+        "detail": "PAMT Corp has posted net losses for 3+ consecutive quarters. TL operating ratio hit 112.5% in Q2 2025. Revenue declining ~17% YoY. The company is burning cash and looking for efficiency. Any new commitment must show clear cost reduction or revenue protection."
+      },
+      {
+        "pain": "Leadership instability",
+        "confidence": "confirmed",
+        "detail": "CEO Vitiritto resigned June 2025. Moroun served as interim CEO for 6 weeks. Lance Stewart promoted to CEO Aug 2025. Company is conducting national search for operations leader. Decision-making is in flux."
+      },
+      {
+        "pain": "Driver costs at 2,400-driver scale",
+        "confidence": "high",
+        "detail": "PAM operates 2,400+ drivers. At industry average turnover rates (~90%+ for large OTR carriers), PAM is replacing 2,000+ drivers per year. At $8,500+ per driver turnover cost, that's potentially $17M+ annually in turnover friction. Any retention improvement at this scale has massive ROI."
+      },
+      {
+        "pain": "Nationwide OTR fleet needs infrastructure everywhere",
+        "confidence": "high",
+        "detail": "2,200+ trucks running nationwide with Laredo/El Paso cross-border operations. Drivers need rest, maintenance, and staging in corridors where PAM has no terminal. Truck stop dependency is the default — and it's expensive, unsafe, and degrading."
+      },
+      {
+        "pain": "Equipment maintenance away from home base",
+        "confidence": "medium",
+        "detail": "Average truck age of 18 months means relatively new equipment, but 2,200+ trucks running nationwide still means breakdowns, scheduled maintenance, and inspections needed far from NW Arkansas. VP Maintenance (Shane Barnes) owns this problem."
+      }
+    ],
+    "competitive_angle": "PAM is being squeezed: revenue declining, costs up, talent hard to find. Every competitor is facing the same headwinds. LHS offers PAM something no competitor has: purpose-built infrastructure for their drivers at the busiest freight interchange in America — for $13/day instead of millions in terminal construction. When you're running a 112% operating ratio, you need infrastructure efficiency, not infrastructure investment. LHS is the only option that provides terminal-quality access at operating-expense pricing.",
+    "leverage_points": [
+      "2,200+ trucks running nationwide = massive daily volume through I-40/I-55 interchange",
+      "Laredo cross-border return-leg traffic routes through Mid-South corridor",
+      "Financial distress makes CapEx-efficient infrastructure compelling",
+      "New CEO (35-year veteran) needs quick wins to stabilize operations",
+      "Company actively searching for operations leader — LHS could be part of operational improvement narrative",
+      "'Driver Resources' as a VP title shows philosophical alignment with driver investment",
+      "Moroun family also controls Universal Logistics Holdings — potential dual-carrier pathway",
+      "18-month average truck age shows commitment to equipment quality — LHS is the facility equivalent",
+      "Multiple safety/compliance contacts suggest strong safety culture — LHS supports that",
+      "Publicly traded = press release potential if they become a founding member"
+    ],
+    "objection_map": [
+      {
+        "objection": "We can't commit capital right now — we're losing money every quarter",
+        "response": "That's exactly why LHS makes sense now. You're not building a terminal — you're accessing one. $100K initiation, 80% refundable. Your net exposure is $20K. Compare that to what you're spending on driver turnover alone. The Finance Option ($10K/month × 12) spreads it further. And the $13/day operating cost? Your drivers are already spending that at truck stops — LHS just makes it purpose-built."
+      },
+      {
+        "objection": "We're in leadership transition — not the right time for new initiatives",
+        "response": "Lance has been with PAM since 1989. He knows the fleet, the corridors, and the cost structure better than anyone. A founding membership in LHS is exactly the kind of operational efficiency a new CEO can point to — doing more with less, investing in drivers, and reducing infrastructure cost. It's a quick win, not a heavy lift."
+      },
+      {
+        "objection": "We run nationwide — West Memphis is just one interchange",
+        "response": "It's the interchange. I-40 meets I-55 — the busiest freight crossroads in the Mid-South. Your Laredo return-leg traffic flows right through it. Your OTR drivers stage there already. Phase One is West Memphis. The network expands from there. And with 2,200 trucks, you'll have dozens of drivers using it daily from Day One."
+      },
+      {
+        "objection": "We need to see data before committing anything",
+        "response": "We'll run the Carrier Calculator on your fleet. 2,200 trucks, your top lanes, your driver staging patterns. We'll show you exactly how many truck-days per month PAM would use the West Memphis facility and what it costs you per stop vs. what you're paying now. It's a math conversation, not a sales pitch."
+      }
+    ]
+  },
+  "playbook": {
+    "first_touch": {
+      "channel": "email",
+      "sender": "JJ to Claytor (Sr Dir US Trucking Ops) and Fritschen (Dir OTR Ops). Jeff reserved for CEO Lance Stewart or Chairman Matthew Moroun if sourced.",
+      "angle_summary": "JJ opens with OTR infrastructure at the I-40/I-55 interchange PAM's fleet already uses daily. Emphasize CapEx efficiency given PAM's current financial pressure. The message: this is infrastructure access, not infrastructure investment.",
+      "tone": "Direct, operationally specific, financially aware. Don't pretend you don't know they're under pressure. Acknowledge the market reality and position LHS as the kind of efficiency play a 112% OR demands."
+    },
+    "sequence_recommendation": [
+      {
+        "step": "pre_send",
+        "action": "Source Lance Stewart (CEO) and Matthew Moroun (Chairman) contact info. Verify Fernando Gonzalez scope (US vs. Mexico COO). Verify Tyler Majors email format (majot@ looks truncated). Resolve Chris Adams dual-title question. Resolve Cortney Parrott vs. Chris Adams VP Logistics overlap. Verify Cookie Mingin's actual function.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day1",
+        "action": "JJ emails Jordan Claytor (Sr Dir US Trucking Ops) and Cole Fritschen (Dir OTR Ops) — operational infrastructure angle at I-40 interchange. If Gonzalez is confirmed US-scope COO, add him to Day 1.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day2",
+        "action": "JJ emails Shane Barnes (VP Maintenance) — Fleet Maintenance Center angle. JJ emails Gary Kirby (VP Driver Resources) — Recruit & Retain angle. JJ emails Ava Robinson (Dir Pricing & Network Design) — network optimization angle.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day3",
+        "action": "JJ emails Tyler Majors (VP HR) — retention math at scale. Light touch to Chris Adams if strategic planning role confirmed.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day5",
+        "action": "Follow up Day 1 non-responses. If Claytor/Fritschen silent, try COO Gonzalez. If all ops contacts silent, Jeff reaches out to Lance Stewart (CEO) directly if sourced.",
+        "owner": "JJ + Jeff"
+      },
+      {
+        "step": "day7plus",
+        "action": "If engagement: schedule call, offer Carrier Calculator demo, propose site tour. If silence: try Moroun pathway through Universal Logistics connections. Consider whether PAM's financial distress makes timing wrong — may need to hold and re-engage when market improves.",
+        "owner": "JJ + Jeff"
+      }
+    ],
+    "escalation_trigger": "If all Dir/VP-level contacts are silent by Day 5, Jeff reaches out to Lance Stewart (CEO) directly. If Stewart was reachable and interested, entire approach pivots through the CEO. If PAM is simply too distracted by financial stabilization, mark as 'hold' and re-engage in 90 days.",
+    "approach_flags": {
+      "jeff_should_enter": true,
+      "jeff_should_enter_rationale": "Jeff is reserved for CEO Lance Stewart or Chairman Matthew Moroun. PAM is publicly traded and Moroun-family-controlled — Jeff as a founder/principal is the appropriate level for that conversation. Moroun also controls Universal Logistics Holdings, which opens a second carrier pathway.",
+      "video_outreach_appropriate": true,
+      "video_outreach_rationale": "A video from Jeff showing the West Memphis site with I-40 visible — 'Your trucks run right past here every day' — would be compelling for an OTR carrier.",
+      "linkedin_tagging_appropriate": true,
+      "linkedin_tagging_rationale": "PAM has active LinkedIn presence. Claytor, Kirby, and Robinson are likely active. Jeff should connect with Stewart and Moroun.",
+      "in_person_visit_appropriate": false,
+      "in_person_visit_rationale": "Tontitown AR is 280 miles from West Memphis. Not a quick pop-in. Better to invite them to the site if they engage.",
+      "calculator_demo_appropriate": true,
+      "calculator_demo_rationale": "Critical for PAM. With 2,200 trucks and financial pressure, they need to see the math — truck-days, per-stop cost, vs. current spend. Robinson (Pricing & Network Design) would be the ideal audience for a calculator demo.",
+      "pricing_in_first_touch": true,
+      "pricing_in_first_touch_rationale": "Carrier model. Include Dedicated Proprietary structure. But given financial distress, also mention Finance Option ($10K/mo × 12) in the first touch as an alternative. Don't make them ask about cash flow options.",
+      "financial_distress_acknowledged": true,
+      "financial_distress_handling": "Do NOT pretend you don't know they're under pressure — it's public information. But do NOT lead with it or make it the frame. Instead, position LHS as a tool for the kind of operational efficiency that every carrier needs right now, and that PAM needs more than most. The message: 'Smart infrastructure investment during tough markets is how you come out ahead when the cycle turns.'"
+    },
+    "tone_profile": {
+      "company_tone": "Respectful of their 45-year history and current challenges. PAM is a storied carrier going through a hard cycle. Don't sell them a dream — sell them a math problem they can solve.",
+      "jj_variant": "Direct, operational, financially aware. 'I know the market is tough. Here's something that makes your fleet more efficient for $13/day.' Reference their OTR lanes, Laredo corridor, and fleet scale specifically.",
+      "jeff_variant": "CEO-to-CEO if Stewart sourced. Builder to operator: 'PAM has run this corridor for 45 years. We're building the infrastructure your drivers have always needed at the I-40 interchange.' For Moroun: industry-level conversation about infrastructure investment across the Moroun family of companies.",
+      "model_variant": "carrier"
+    }
+  },
+  "pre_send_flags": [
+    {
+      "flag_id": "F-001",
+      "type": "missing_contact",
+      "who_or_what": "Lance K. Stewart — President & CEO (promoted Aug 2025, with PAM since 1989)",
+      "detail": "CRITICAL GAP. New CEO is not in the CSV. Stewart was CFO/Treasurer before promotion. 35-year PAM veteran. He is the operational decision-maker and the person Jeff should speak with. Must be sourced before Jeff escalation is possible.",
+      "required_action": "Source Lance Stewart email and phone via LinkedIn, Lusha lookup, or PAM corporate line (479-361-9111)",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-002",
+      "type": "missing_contact",
+      "who_or_what": "Matthew T. Moroun — Chairman of the Board (since 2007), majority owner (73%+ of shares)",
+      "detail": "Moroun family controls PAM and also controls Universal Logistics Holdings (NASDAQ: ULH). Matthew Moroun is the ultimate decision-maker. Also served as interim CEO twice (2020, mid-2025). Not in CSV.",
+      "required_action": "Source Matthew Moroun contact info. May not be directly reachable — approach through Stewart. Note: Moroun is based in Michigan (CenTra, Inc. HQ), not Arkansas.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-003",
+      "type": "missing_contact",
+      "who_or_what": "Daniel C. Kleine — SVP of Finance & Treasurer (interim CFO since Aug 2025)",
+      "detail": "New finance leader. With PAM since 2023. CFO role is open — Kleine is serving in interim capacity. Relevant for CapEx conversation.",
+      "required_action": "Source via Lusha or LinkedIn. Lower priority than Stewart/Moroun.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-004",
+      "type": "classification_risk",
+      "who_or_what": "Fernando Gonzalez (C-0001) — COO, Mexico City based",
+      "detail": "COO is the highest-ranking contact in CSV, but is based in Mexico City with Mexico phone numbers. May be COO of Mexico operations specifically (PAM is #1 at Laredo border crossing). If Mexico-scope only, he is not the right person for US infrastructure decisions. If US-scope COO who happens to be in Mexico, he's critical.",
+      "required_action": "LinkedIn-verify Gonzalez's scope. Check if title is 'COO' of PAM Transport overall or of the Mexico/cross-border division.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-005",
+      "type": "email_format_anomaly",
+      "who_or_what": "Tyler Majors (C-0008) — email is majot@pamtransport.com",
+      "detail": "Email prefix 'majot' appears truncated — standard pattern would be 'tyler.majors@' (used by most PAM contacts) or 'major@pamt.com'. The Lusha confidence is A+ but the format doesn't match the company pattern. May be a legacy short-form email or a data error.",
+      "required_action": "Verify email via LinkedIn or cross-reference. Consider sending to both majot@pamtransport.com and tyler.majors@pamtransport.com if uncertain.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-006",
+      "type": "duplicate_csv_entry",
+      "who_or_what": "Chris Adams (C-0004) — appears twice: VP Logistics (Tontitown) and AVP Strategic Planning (Fayetteville)",
+      "detail": "Same email, different titles, different phone numbers, different LinkedIn URLs. Likely holds or held dual roles. The two LinkedIn profiles may indicate a role change not yet updated in one profile.",
+      "required_action": "Verify current title on LinkedIn. Send to one entry only with the confirmed title.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-007",
+      "type": "duplicate_csv_entry",
+      "who_or_what": "Chris Mayes (C-0013) — appears twice: Dir of Ops in Springdale and Lowell",
+      "detail": "Same email, same phone, different LinkedIn URLs, different cities (both NW AR). Pure data duplication. Send once.",
+      "required_action": "Verify which LinkedIn is current. Send once only.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-008",
+      "type": "duplicate_title",
+      "who_or_what": "Chris Adams (C-0004) and Cortney Parrott (C-0005) — both VP of Logistics",
+      "detail": "Two contacts share the VP Logistics title. May indicate divisional split (asset vs. non-asset logistics), regional split, or title change. Verify before sending to both.",
+      "required_action": "LinkedIn-verify both. Determine if they manage different divisions. Send to the one most relevant to carrier operations first.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-009",
+      "type": "dual_domain",
+      "who_or_what": "Multiple contacts have both pamtransport.com and pamt.com emails",
+      "detail": "Gonzalez, Wright, Barnes, Fritschen, Mayes, and Mingin all have dual-domain emails. pamtransport.com appears to be the primary/marketing domain; pamt.com is the legacy/operational domain. Both likely deliver. Use pamtransport.com as primary.",
+      "required_action": "Use pamtransport.com addresses for all outreach. Note pamt.com as fallback.",
+      "status": "resolved"
+    },
+    {
+      "flag_id": "F-010",
+      "type": "email_format_anomaly",
+      "who_or_what": "Holly Wright (C-SKIP-001) — primary email is wrigh@pamt.com",
+      "detail": "Primary email prefix 'wrigh' appears truncated. Alt email holly.wright@pamtransport.com follows standard pattern. Use the alt email if contact is activated.",
+      "required_action": "Use holly.wright@pamtransport.com if activated. Ignore wrigh@pamt.com as likely truncated.",
+      "status": "resolved"
+    }
+  ],
+  "offer_pricing": {
+    "recommended_tier": "Dedicated Proprietary (with Finance Option prominently offered)",
+    "pricing_notes": "2,200+ truck fleet clearly qualifies for Dedicated Proprietary ($100K initiation, 80% refundable, + $13/day). However, given PAM's current financial distress (3+ consecutive quarterly losses, 112% OR), the Finance Option ($10K/mo × 12 + $13/day) should be prominently presented as an alternative in all communications. Do NOT lead with the $100K number in isolation — always pair it with '80% refundable = $20K net exposure' and offer the Finance Option immediately. For a publicly traded company posting losses, any capital commitment will face board scrutiny. The math must be airtight.",
+    "capex_comparison_notes": "PAM runs 2,200+ trucks nationwide but does not own terminal infrastructure — they rely on truck stops and shipper/receiver facilities. Traditional terminal: $165K/space new, $130K/space existing. LHS: $100K, 80% refundable = $20K net exposure = 88% reduction. For PAM specifically: they don't currently own terminals, so the comparison isn't 'our terminals vs. yours' — it's 'no terminal access vs. purpose-built terminal access at $13/day.' That's a different pitch than carriers who already have terminals. The ROI is: what does truck stop dependency cost you in driver turnover, maintenance delays, and HOS violations?"
+  },
+  "engagement": {
+    "stage": "target",
+    "events": [],
+    "last_outreach_at": null,
+    "next_step": "Resolve pre-send flags. Priority: source Lance Stewart (CEO) contact info, verify Gonzalez COO scope, verify Majors email format."
+  },
+  "chip_assessment": {
+    "priority": "high",
+    "standout_contact_id": "C-0002",
+    "key_risks": [
+      "FINANCIAL DISTRESS: Three consecutive quarterly net losses, 112.5% TL operating ratio in Q2 2025, revenue declining 17% YoY. PAM may not have budget bandwidth for new commitments even at $13/day.",
+      "LEADERSHIP INSTABILITY: CEO resigned June 2025. New CEO installed Aug 2025. National search for operations leader underway. Company is in transition — decision-making may be frozen or delayed.",
+      "PUBLIC COMPANY: PAMT Corp trades on NASDAQ. Board approval likely required for membership-level commitment. Moroun family controls 73%+ of shares — Matthew Moroun is the de facto decision-maker but is not in the CSV and may not be directly reachable.",
+      "CEO AND CHAIRMAN NOT IN CSV: Lance Stewart (CEO since Aug 2025) and Matthew Moroun (Chairman) are missing. Without C-suite access, the conversation stays at VP/Director level and may not reach decision authority.",
+      "COO IS MEXICO-BASED: Fernando Gonzalez (COO) is in Mexico City. May not have US infrastructure decision authority. If his scope is Mexico ops, there's a gap between Director-level contacts and the C-suite.",
+      "OPERATIONS LEADER SEARCH: PAM is actively searching for a new head of operations. Whoever fills that role will likely own the infrastructure decision. Timing risk: engaging now vs. waiting for the new ops leader."
+    ],
+    "close_path": "1) Source Lance Stewart (CEO) and Daniel Kleine (CFO) contact info — this is the priority gate. 2) Verify Gonzalez scope. 3) JJ opens Day 1 to Claytor (Sr Dir US Trucking Ops) and Fritschen (Dir OTR Ops) with I-40 infrastructure angle. 4) Day 2: Barnes (VP Maintenance) with Fleet Maintenance angle, Kirby (VP Driver Resources) with Recruit & Retain, Robinson (Dir Pricing/Network Design) with network optimization. 5) Day 3: Majors (VP HR) with retention math at 2,400-driver scale. 6) Day 5: Jeff to Stewart if sourced — CEO-to-founder, operational efficiency in a tough market. 7) Calculator demo for Robinson and Barnes showing lane-level impact. 8) If Stewart engages, push for 20-minute call. Offer Finance Option prominently. 9) Moroun family Universal Logistics connection is a long-term play — if PAM converts, Universal is the next conversation. 10) Target: 20-minute call within 21 days. Longer timeline than typical given leadership transition.",
+    "company_intel_summary": "PAM Transport is a 2,200-truck OTR dry van carrier founded in 1980 in Tontitown, AR — the #1 US carrier at the Laredo border crossing with 300+ daily crossings into Mexico. Now publicly traded as PAMT Corp (NASDAQ: PAMT) and controlled by the Moroun family (73%+ ownership, also controls Universal Logistics Holdings). The company is in significant financial distress: three consecutive quarterly net losses, 112.5% TL operating ratio, and revenue declining 17% YoY. Leadership is in transition — new CEO Lance Stewart (35-year PAM veteran, former CFO) installed August 2025, and the company is conducting a national search for an operations leader.",
+    "maverick_relevance": "PAM's Moroun family ownership creates a two-carrier pathway: PAM Transport (2,200 trucks, NASDAQ: PAMT) and Universal Logistics Holdings (NASDAQ: ULH, a $5B+ logistics company). If Jeff builds a relationship with Matthew Moroun through the PAM engagement, Universal becomes accessible. This is a carrier sale that could unlock a conglomerate relationship. Additionally, PAM as a publicly traded founding member provides press release and investor relations visibility that private carriers cannot — 'PAMT Corp announces founding membership in LineHaul Station network' is a headline that reaches Wall Street analysts covering the truckload sector."
+  },
+  "trevor_feedback": {
+    "is_skip": false,
+    "skip_reason": "",
+    "filter_rule": "",
+    "skip_pattern_type": ""
+  },
+  "outreach_assets": {
+    "email_sequences": []
+  },
+  "flags": [],
+  "next_actions": [
+    "Source Lance K. Stewart (CEO) email and phone — #1 priority",
+    "Verify Fernando Gonzalez COO scope (US-wide vs. Mexico division) via LinkedIn",
+    "Verify Tyler Majors email format (majot@ vs tyler.majors@)",
+    "Resolve Chris Adams dual-title (VP Logistics vs AVP Strategic Planning)",
+    "Resolve Chris Adams vs Cortney Parrott VP Logistics overlap",
+    "Verify Chris Mayes duplicate LinkedIn profiles",
+    "Source Daniel Kleine (interim CFO) contact info",
+    "Jeff connect with Lance Stewart on LinkedIn",
+    "Once flags resolved: generate Day 1 email sequences"
+  ],
+  "notes": [],
+  "rep_notes": [],
+  "timestamps": {
+    "created_at": "2026-03-04T00:00:00Z",
+    "updated_at": "2026-03-04T00:00:00Z"
+  }
+}
