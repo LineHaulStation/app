@@ -1,0 +1,774 @@
+{
+  "__path__": "/linehaul-station/carriers/CAR-0006.json",
+  "schema_version": "3.3",
+  "entity_type": "carrier",
+  "id": "CAR-0006",
+  "status": "target",
+  "metadata": {
+    "dossier_version": 1,
+    "source_csv_reference": "Titan_Transfer.csv (Lusha export, 2026-02-16)",
+    "created_by": "Chip",
+    "github_path": "JSONS/CAR/CAR-0006.json"
+  },
+  "ownership": {
+    "assigned_to": "JJ",
+    "last_touched_by": "Chip",
+    "last_touched_at": "2026-03-04T00:00:00Z"
+  },
+  "profile": {
+    "company_name": "Titan Transfer, Inc.",
+    "website": "https://titantransferinc.com",
+    "hq_city": "Shelbyville",
+    "hq_state": "TN",
+    "founded_year": 2000,
+    "employee_range": "201-500 (Lusha) / 583 trucks + 562 drivers (FMCSA 2023)",
+    "naics_code": "484121",
+    "sic_code": "4213",
+    "description": "Mid-sized OTR truckload carrier headquartered in Shelbyville, TN (~50 miles SE of Nashville). Company-owned fleet of 583 trucks running general freight, metals, building materials, chemicals, beverages, paper products, and HAZMAT across the continental US. Founded December 2000 by Tommy Hodges (past ATA Chairman) as companion to Goggin Warehousing. Fleet runs top-of-the-line Kenworth and Freightliner tractors with average age under 3 years. Sister companies include Goggin Warehousing LLC, Titan Transfer Logistics Inc., and S&M Warehousing — providing full supply chain solutions including logistics, warehousing, cross-docking. Locations in TN, MS, AL, MD, OH, FL, KY, AZ, MO, WI, IL, PA. Revenue ~$85.8M. USDOT 845505. Multiple ATA and TTA safety awards. Phillip Edwards serves as President (since 2001). CDL training school on-site.",
+    "specialties": [
+      "OTR Truckload",
+      "General Freight",
+      "Metal/Sheets/Coils/Rolls",
+      "Building Materials",
+      "Chemicals",
+      "HAZMAT",
+      "Beverages",
+      "Paper Products",
+      "Power Only",
+      "Full Truckload",
+      "Last Mile",
+      "Warehousing (sister company)",
+      "Cross-Docking (sister company)",
+      "CDL Training School"
+    ],
+    "operating_regions": [
+      "Tennessee",
+      "Mississippi",
+      "Alabama",
+      "Maryland",
+      "Ohio",
+      "Florida",
+      "Kentucky",
+      "Arizona",
+      "Missouri",
+      "Wisconsin",
+      "Illinois",
+      "Pennsylvania",
+      "Indiana"
+    ],
+    "corridor_alignment_notes": "Shelbyville TN is ~50 miles SE of Nashville on US-231. Jackson TN location (VP Western Region based there) sits directly on I-40, ~80 miles east of West Memphis. Corridors run through TN/MS/AL/KY/MO — deep LHS target geography. The I-40 corridor from Nashville through Jackson to Memphis is a natural lane for their OTR fleet."
+  },
+  "authority_id": "AUTH-0006",
+  "external_refs": {
+    "crm_id": "",
+    "carrier_pack_url": ""
+  },
+  "classification": {
+    "model": "carrier",
+    "confidence": "high",
+    "naics_vs_description_conflict": false,
+    "disqualifiers": [],
+    "notes": "Clear carrier model. NAICS 484121 (General Freight Trucking, Long-Distance, Truckload) matches description exactly. Company-owned fleet of 583 trucks. OTR truckload operations. Sister companies provide warehousing/logistics but Titan Transfer itself is pure asset-based carrier. No broker component identified."
+  },
+  "fit_score": {
+    "total": 8.7,
+    "breakdown": {
+      "geography_corridor": 9.0,
+      "fleet_scale_model": 8.5,
+      "operating_history": 9.0,
+      "contact_quality": 7.5,
+      "strategic_signals": 9.5
+    },
+    "rationale": "GEOGRAPHY (9.0): Shelbyville TN is deep in LHS target territory, ~50 miles SE of Nashville. Jackson TN location sits directly on I-40, ~80 miles east of West Memphis. Operations span TN/MS/AL/KY/MO — the LHS heartland. Not headquartered at the I-40/I-55 interchange itself, but their OTR fleet absolutely runs these corridors. FLEET SCALE (8.5): 583 trucks, 562 drivers per FMCSA. Company-owned fleet with average truck age under 3 years (Kenworth/Freightliner). OTR truckload with HAZMAT capability. Perfect scale for Dedicated Proprietary — large enough to commit, not so large that decision-making is glacial. OPERATING HISTORY (9.0): Founded December 2000 (25+ years). But Tommy Hodges' trucking career dates to 1965 — 60+ years of industry experience. Built and sold Goggin Truck Line (500 trucks, 44 terminals, 11 states) to Old Dominion in 1998. Started Titan immediately after. This is a seasoned operator with deep institutional knowledge. CONTACT QUALITY (7.5): 8 unique contacts across HR, Ops, Finance, Sales, Customer Service, and executive leadership. 7 of 8 have A+ emails. Chairman (Hodges) email unconfirmed. SVP Jon Wildish has MBA/CRM/MCRS credentials. Critical gap: Phillip Edwards (President since 2001) is NOT in the CSV. Two HR contacts may represent duplicate coverage. Overall strong but missing the #2 decision-maker. STRATEGIC SIGNALS (9.5): Tommy Hodges is a PAST CHAIRMAN OF THE AMERICAN TRUCKING ASSOCIATIONS (2010). This is not an ordinary carrier contact — this is one of the most connected and respected leaders in the entire US trucking industry. His ATA platform was highway infrastructure reauthorization — literally the problem LHS addresses. Phillip Edwards was TTA Chairman (2011-2012). Both are deeply embedded in industry advocacy organizations. Vietnam veteran. Family of companies. Shelbyville roots. Multiple safety awards. This carrier's leadership is uniquely aligned with the LHS mission. Jeff-to-Tommy is a peer conversation at the highest level."
+  },
+  "contacts": [
+    {
+      "contact_id": "C-0001",
+      "name": "Steven Thompson",
+      "title": "Vice President of Operations",
+      "email": "sthompson@titantransferinc.com",
+      "email_confidence": "unconfirmed",
+      "alt_email": null,
+      "phone": "+1 931-842-0349",
+      "linkedin_url": "https://www.linkedin.com/in/steven-thompson-96a49948",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "Infrastructure and fleet operations. VP Ops owns the terminal footprint, driver staging, and asset utilization decisions. Lead with West Memphis terminal adjacency to their Jackson TN and Shelbyville corridors. Frame as purpose-built infrastructure for their OTR drivers running I-40.",
+      "personality_read": null,
+      "influence_level": "decision_maker",
+      "communication_tone": "operational",
+      "flags": ["unconfirmed_email"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/steven-thompson-96a49948",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": [],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Jon Wildish (SVP) or Phillip Edwards (President)",
+        "internal_allies": null,
+        "budget_authority": "unknown"
+      }
+    },
+    {
+      "contact_id": "C-0002",
+      "name": "Jon Wildish",
+      "title": "Senior Vice President",
+      "email": "jwildish@titantransferinc.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 931-205-2052",
+      "linkedin_url": "https://www.linkedin.com/in/jon-wildish-mba-crm-mcrs-77a2327",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "Senior executive with MBA and professional certifications (CRM, MCRS). Likely the #2 or #3 decision-maker after Edwards and Hodges. Approach with strategic infrastructure value — how LHS expands Titan's terminal footprint without capital commitment. This is a business case conversation, not a feature pitch.",
+      "personality_read": "Credentialed professional. MBA + CRM + MCRS suggests analytical, process-oriented, metrics-driven. Likely responds to structured business cases over emotional appeals.",
+      "influence_level": "decision_maker",
+      "communication_tone": "analytical",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/jon-wildish-mba-crm-mcrs-77a2327",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["MBA", "CRM certification", "MCRS certification"],
+        "communication_style": "analytical",
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": ["Business case with ROI math", "Terminal cost comparison", "Strategic infrastructure expansion"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Phillip Edwards (President) / Tommy Hodges (Chairman)",
+        "internal_allies": null,
+        "budget_authority": "unknown"
+      }
+    },
+    {
+      "contact_id": "C-0003",
+      "name": "Tommy Hodges",
+      "title": "Chairman",
+      "email": "thodges@titantransferinc.com",
+      "email_confidence": "unconfirmed",
+      "alt_email": null,
+      "phone": "+1 931-685-9583",
+      "linkedin_url": "https://www.linkedin.com/in/tommy-hodges-a4947870",
+      "priority_tier": "tier1",
+      "sender": "Jeff",
+      "strategic_angle": "FOUNDER-TO-FOUNDER. Tommy Hodges is a past ATA Chairman (2010), Vietnam veteran, and 60-year trucking industry veteran. His career started as a dock worker in 1965. He built Goggin Truck Line to 500 trucks and 44 terminals before selling to Old Dominion in 1998. His ATA platform was highway infrastructure reauthorization — the exact problem LHS solves. Jeff approaches as a peer: visionary to visionary, builder to builder. This is the highest-value contact in the pipeline. Do NOT have JJ cold-open. Jeff only.",
+      "personality_read": "Industry statesman. Builder mentality — started on a dock, built empires, sold one, started again because he couldn't retire. Cares deeply about employees and the industry. 'Give every person his say, no person his way.' Values loyalty, straight talk, and action. Not a corporate suit — a trucker who became a leader.",
+      "influence_level": "decision_maker",
+      "communication_tone": "peer_visionary",
+      "flags": ["unconfirmed_email"],
+      "enrichment": {
+        "status": "partial",
+        "source": "lusha",
+        "enriched_at": "2026-03-04T00:00:00Z",
+        "linkedin_url": "https://www.linkedin.com/in/tommy-hodges-a4947870",
+        "bio_summary": "60-year trucking industry veteran. Career began 1965 as dock worker at Tennessee Carolina Transportation. Vietnam veteran. Built Goggin Truck Line from 11 trucks (1984) to ~500 trucks, 44 terminals, 11 states. Sold to Old Dominion Freight Line in 1998. Founded Titan Transfer in 2000. Served as 65th Chairman of American Trucking Associations (2010). Past Chairman of Tennessee Trucking Association (two terms). President of Tennessee Trucking Foundation. Serves on executive committee of SMC3. Controls family of companies: Titan Transfer, Goggin Warehousing, HEC Leasing, Titan Transfer Logistics, S&M Transportation and Warehousing.",
+        "career_highlights": [
+          "Past Chairman, American Trucking Associations (2010)",
+          "Built Goggin Truck Line to 500 trucks / 44 terminals / 11 states",
+          "Sold Goggin Truck Line to Old Dominion Freight Line (1998)",
+          "Founded Titan Transfer Inc. (2000)",
+          "Past Chairman, Tennessee Trucking Association (two terms)",
+          "Vietnam veteran",
+          "Career began 1965 as dock worker"
+        ],
+        "signals": ["Builder/founder mentality", "Industry statesman", "Values employees deeply", "Cannot stay retired", "Straight talker", "Infrastructure advocate"],
+        "communication_style": "direct",
+        "motivators": ["Industry improvement", "Employee welfare", "Infrastructure investment", "Building things that last"],
+        "watchouts": ["Do not patronize — he has more industry experience than anyone", "Do not pitch — have a peer conversation", "Respect the legacy — 60 years in trucking"],
+        "likely_objections": ["We already have our own terminals", "We're private and don't need outside infrastructure", "What's the long-term commitment look like"],
+        "recommended_angle": [
+          "Jeff founder-to-founder: 'You built terminals. I'm building the next generation of them.'",
+          "Infrastructure reauthorization alignment — his ATA platform IS the LHS mission",
+          "His employees and drivers benefit directly — appeal to the man who started over because he worried about his people"
+        ],
+        "approach_summary": "Tommy Hodges is an industry legend — past ATA Chairman, Vietnam vet, built and sold a 500-truck LTL carrier, then founded Titan Transfer because he couldn't walk away from the people and the industry. Jeff approaches as a peer builder: 'You've spent 60 years building this industry. I've spent 40 years building infrastructure. Here's what we're doing at the I-40 interchange your drivers already use.' Lead with the vision, not the product. Reference his ATA infrastructure platform. Appeal to his lifelong commitment to driver welfare and industry improvement. This is the single most valuable relationship in the pipeline."
+      },
+      "career_context": {
+        "tenure_estimate": "Founder/owner since 2000 (25+ years)",
+        "career_trajectory": "Dock worker → driver → dispatcher → salesman → sales manager → terminal manager → VP Sales → President → Owner/Chairman",
+        "previous_companies": ["Tennessee Carolina Transportation", "Spector Freight Systems", "Goggin Truck Line (built and sold to Old Dominion)"],
+        "industry_depth": "60+ years. One of the deepest resumes in US trucking."
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Board (controlling owner)",
+        "internal_allies": "Phillip Edwards (President, hand-picked by Hodges)",
+        "budget_authority": "yes"
+      }
+    },
+    {
+      "contact_id": "C-0004",
+      "name": "Ashton Storey",
+      "title": "Chief Financial Officer, Vice President of Finance",
+      "email": "astorey@titantransferinc.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 931-652-4654",
+      "linkedin_url": "https://www.linkedin.com/in/ashton-storey-cpa-47284482",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "CFO/CPA — pure financial decision-maker. Lead with CapEx comparison: $165K/space for a new terminal vs. $100K with 80% refundable = $20K net exposure. Compare to Titan's existing terminal costs across 11+ states. Frame as: 'What if you could add terminal access in West Memphis for $13/day instead of building?' Zero-CapEx-risk pitch for a finance mind.",
+      "personality_read": "CPA credential suggests precision, risk-awareness, and numbers-first decision-making. Based in Nashville, not Shelbyville — may work remotely or from a Nashville office.",
+      "influence_level": "decision_maker",
+      "communication_tone": "analytical",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/ashton-storey-cpa-47284482",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["CPA", "Dual title CFO/VP Finance"],
+        "communication_style": "analytical",
+        "motivators": ["Cost control", "Capital efficiency", "Risk management"],
+        "watchouts": ["Don't lead with vision — lead with math", "Respect the CPA precision"],
+        "likely_objections": ["What's the total commitment", "What happens to the 80% refundable", "Show me the per-mile cost reduction"],
+        "recommended_angle": ["Terminal economics comparison", "80% refundable structure", "$13/day vs. building a terminal"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Jon Wildish (SVP) / Phillip Edwards (President)",
+        "internal_allies": null,
+        "budget_authority": "yes"
+      }
+    },
+    {
+      "contact_id": "C-0005",
+      "name": "Adam Saner",
+      "title": "Vice President of Human Resources and Recruiting",
+      "email": "asaner@titantransferinc.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 229-375-9056",
+      "linkedin_url": "https://www.linkedin.com/in/adam-saner-409315b2",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "Owns driver recruiting AND retention. Dual-function title is the dream contact for the Recruit & Retain pitch. Lead with: driver turnover costs $8,500+/year per driver. LHS membership costs $13/day and gives your drivers a private club, showers, kitchen, secure parking — a tangible benefit that differentiates Titan in recruiting conversations. 'What if your recruiting pitch included access to a national private terminal network?'",
+      "personality_read": null,
+      "influence_level": "influencer",
+      "communication_tone": "relationship",
+      "flags": ["geographic_anomaly"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/adam-saner-409315b2",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": ["Driver recruiting", "Retention", "Turnover cost reduction"],
+        "watchouts": [],
+        "likely_objections": ["Drivers won't use it", "We already provide benefits"],
+        "recommended_angle": ["Recruiting differentiator", "Retention ROI", "Driver quality-of-life"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": "Donna Mooney (VP HR)",
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0006",
+      "name": "Burley Foley",
+      "title": "Vice President Marketing / Vice President",
+      "email": "bfoley@titantransferinc.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 606-528-5420",
+      "linkedin_url": "https://www.linkedin.com/in/burley-foley-86468811b",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "VP Marketing with a secondary General Management listing. Appears twice in CSV — once as VP Marketing (Knoxville) and once as VP (Corbin, KY) with different LinkedIn URLs. Likely dual role or regional manager. 606 area code is southeastern Kentucky (Corbin area). May manage KY/TN border operations. Marketing angle: LHS as a story Titan can tell to customers and drivers — partnership with cutting-edge infrastructure.",
+      "personality_read": null,
+      "influence_level": "influencer",
+      "communication_tone": null,
+      "flags": ["duplicate_csv_entry", "dual_linkedin_profiles"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/burley-foley-86468811b",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": [],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "unknown"
+      }
+    },
+    {
+      "contact_id": "C-0007",
+      "name": "Jeffrey Lorino",
+      "title": "Vice President of Sales and Operations",
+      "email": "jlorino@titantransferinc.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": null,
+      "linkedin_url": "https://www.linkedin.com/in/jeffrey-lorino-8a494a29a",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "Dual Sales + Ops title from Wisconsin office. Service differentiation angle: LHS gives Titan a tangible infrastructure story for customer conversations. Also understands the operational side — driver staging, relay potential, equipment utilization. Based in Franklin, WI — runs the northern region.",
+      "personality_read": null,
+      "influence_level": "influencer",
+      "communication_tone": null,
+      "flags": ["missing_phone"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/jeffrey-lorino-8a494a29a",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": [],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "unknown"
+      }
+    },
+    {
+      "contact_id": "C-0008",
+      "name": "Russ Parker",
+      "title": "Vice President of Western Region",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 731-616-0740",
+      "linkedin_url": "https://www.linkedin.com/in/russ-parker-956a934",
+      "priority_tier": "tier2",
+      "sender": "JJ",
+      "strategic_angle": "GEOGRAPHIC GOLDMINE. Based in Jackson, TN — directly on I-40, roughly 80 miles east of West Memphis. 731 area code confirms West Tennessee. As VP Western Region, he likely manages the corridor that runs through the LHS Phase One location. His drivers are already on the I-40 interchange. Lead with: 'Your Western Region drivers are running I-40 through West Memphis every week. Here's what we're building there.'",
+      "personality_read": null,
+      "influence_level": "influencer",
+      "communication_tone": null,
+      "flags": ["missing_email"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/russ-parker-956a934",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["Jackson TN = I-40 corridor", "731 area code = West Tennessee"],
+        "communication_style": null,
+        "motivators": ["Regional operations efficiency", "Driver support on I-40 corridor"],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": ["West Memphis adjacency to his region", "Driver staging on I-40", "Regional operational footprint expansion"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Steven Thompson (VP Ops) or Jon Wildish (SVP)",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0009",
+      "name": "Donna Mooney",
+      "title": "Vice President of Human Resources",
+      "email": "dmooney@titantransferinc.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 931-488-0300",
+      "linkedin_url": "https://www.linkedin.com/in/donna-mooney-3239413b",
+      "priority_tier": "tier3",
+      "sender": "JJ",
+      "strategic_angle": "VP HR — likely overlaps with Adam Saner (VP HR & Recruiting). Verify on LinkedIn which is current. If both active, Saner owns recruiting and Mooney owns HR/retention. Mooney gets the driver quality-of-life angle: 'What would it mean for retention if your drivers had access to a private club with showers, kitchen, and secure parking instead of truck stop lots?'",
+      "personality_read": null,
+      "influence_level": "influencer",
+      "communication_tone": null,
+      "flags": ["duplicate_title_with_C-0005"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/donna-mooney-3239413b",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": [],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": "Adam Saner (VP HR & Recruiting)",
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0010",
+      "name": "Lorrie Gunn",
+      "title": "Vice President of Customer Service",
+      "email": "lgunn@titantransferinc.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 931-607-6478",
+      "linkedin_url": "https://www.linkedin.com/in/lorrie-gunn-26aa924",
+      "priority_tier": "tier3",
+      "sender": "JJ",
+      "strategic_angle": "VP Customer Service — not in the core decision chain for infrastructure investment, but understands the customer-facing value of driver quality and reliability. Light-touch awareness send. 'When your drivers are rested and your equipment is maintained, your customers see the difference.'",
+      "personality_read": null,
+      "influence_level": "informational",
+      "communication_tone": null,
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/lorrie-gunn-26aa924",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": [],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": [],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "informational",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    }
+  ],
+  "strategic_positioning": {
+    "win_thesis": "Tommy Hodges spent his ATA chairmanship advocating for highway infrastructure investment — the exact mission LineHaul Station is executing. Titan's OTR fleet runs the I-40 corridor through West Tennessee, and their VP Western Region is based in Jackson, TN (80 miles from West Memphis). LHS Phase One delivers purpose-built infrastructure at the interchange Titan's drivers already use, from a fellow builder Hodges can respect as a peer.",
+    "pain_points": [
+      {
+        "pain": "Multi-state terminal footprint costs",
+        "confidence": "high",
+        "detail": "Titan operates locations in 11+ states. Each location requires capital for parking, maintenance, driver facilities. At $165K/space for new terminals, expanding this footprint is capital-intensive. LHS offers terminal access at $100K (80% refundable) per space."
+      },
+      {
+        "pain": "Driver retention and recruiting competition",
+        "confidence": "high",
+        "detail": "Titan has a CDL training school and actively recruits. TruckersReport reviews mention complaints about pay structure, load planning, and detention time — consistent with industry-wide driver frustration. VP HR & Recruiting and VP HR are both dedicated to this problem."
+      },
+      {
+        "pain": "Driver quality-of-life on the road",
+        "confidence": "high",
+        "detail": "Titan already invests in driver lounges, showers, kitchens, and courtesy cars at their own terminals. They understand the value of driver amenities. LHS extends this philosophy to locations where Titan doesn't have their own terminal."
+      },
+      {
+        "pain": "Fleet maintenance away from home terminals",
+        "confidence": "medium",
+        "detail": "With a fleet of 583 trucks running OTR across 11+ states, maintenance away from the Shelbyville HQ shop is a logistics challenge. LHS Fleet Maintenance Centers provide high-quality maintenance at network locations."
+      },
+      {
+        "pain": "Freight recession pressure on margins",
+        "confidence": "medium",
+        "detail": "As a mid-sized truckload carrier in the current freight market, Titan faces the same margin compression affecting the entire industry. LHS offers infrastructure access at a fraction of the cost of owned terminals — a CapEx efficiency story."
+      }
+    ],
+    "competitive_angle": "Titan already builds driver amenities (lounges, showers, kitchens, courtesy cars) at their own terminals — they're philosophically aligned with the LHS model. The difference: LHS delivers these amenities at scale, in locations Titan doesn't own, at $13/day instead of millions in terminal development. For a carrier that already believes in treating drivers well, LHS is the network extension of a philosophy they already practice.",
+    "leverage_points": [
+      "Tommy Hodges' ATA infrastructure advocacy platform directly aligns with LHS mission",
+      "Titan already invests in driver amenities at owned terminals — LHS extends this philosophy nationally",
+      "Jackson TN (VP Western Region) is on I-40, 80 miles from West Memphis Phase One",
+      "583-truck fleet is perfect Dedicated Proprietary scale",
+      "Multiple ATA/TTA safety awards demonstrate commitment to driver welfare",
+      "Family of companies (warehousing + logistics + trucking) shows strategic thinking about infrastructure",
+      "Hodges sold a 500-truck company to Old Dominion — he understands large-scale infrastructure deals",
+      "Average truck age under 3 years shows commitment to quality — LHS is the terminal equivalent"
+    ],
+    "objection_map": [
+      {
+        "objection": "We already have our own terminals across 11 states",
+        "response": "Exactly — you know better than anyone what it costs to build and maintain a terminal. LHS doesn't replace your terminals. It extends your network to locations where building your own doesn't pencil. West Memphis is the first — your Western Region drivers are already running I-40 through there."
+      },
+      {
+        "objection": "We're private and prefer to keep things in-house",
+        "response": "You built Goggin Truck Line to 500 trucks on your own, then made a strategic decision to work with Old Dominion. LHS is the same kind of strategic thinking — shared infrastructure that reduces per-space capital risk by 88% while maintaining proprietary access."
+      },
+      {
+        "objection": "What does $100K really get us?",
+        "response": "Dedicated Proprietary membership. 80% refundable — so your net exposure is $20K. Compare that to $165K/space for a new terminal, or $130K for an existing one that's 43 years old and needs renovation. You get a private Driver's Club, Fleet Maintenance Center, Truck Wash, Cross Dock, and secure gated parking. At $13/day."
+      },
+      {
+        "objection": "Our drivers already have good facilities at our HQ",
+        "response": "They do — your Shelbyville HQ has a great setup. But what about when they're 200 miles away in West Memphis, or 400 miles out on I-40? LHS gives your drivers the same quality of facility everywhere they go. The drivers you already treat well at home now get that treatment on the road."
+      }
+    ]
+  },
+  "playbook": {
+    "first_touch": {
+      "channel": "email",
+      "sender": "JJ to Thompson (VP Ops) and Wildish (SVP). Jeff to Hodges (Chairman).",
+      "angle_summary": "JJ opens with operational infrastructure at the I-40 interchange Titan's Western Region drivers already use. Jeff opens to Hodges as a peer builder — infrastructure visionary to infrastructure advocate.",
+      "tone": "Direct, specific, respectful of their existing terminal investment. Not 'you need this' — 'here's what we're building where your drivers already are.'"
+    },
+    "sequence_recommendation": [
+      {
+        "step": "pre_send",
+        "action": "Resolve all flags: verify Thompson and Hodges email confidence via LinkedIn. Confirm Saner vs Mooney HR title split. Find Russ Parker email. Source Phillip Edwards (President) contact info — critical missing contact.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day1",
+        "action": "JJ emails Steven Thompson (VP Ops) and Jon Wildish (SVP) — infrastructure angle. Jeff emails Tommy Hodges — founder-to-founder, infrastructure vision.",
+        "owner": "JJ + Jeff"
+      },
+      {
+        "step": "day2",
+        "action": "JJ emails Ashton Storey (CFO) — CapEx math and terminal economics. JJ emails Adam Saner (VP HR & Recruiting) — Recruit & Retain angle.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day3",
+        "action": "JJ emails Russ Parker (VP Western Region) if email confirmed — West Memphis geographic adjacency. Light touch to Jeffrey Lorino (VP Sales & Ops) — service differentiation.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day5",
+        "action": "Follow up Day 1 non-responses. If Thompson/Wildish silent, Jeff escalates to Hodges with direct ask. If Hodges engaged, ask for internal warm intro to Phillip Edwards.",
+        "owner": "JJ + Jeff"
+      },
+      {
+        "step": "day7plus",
+        "action": "If engagement: schedule call, offer site visit to West Memphis. If silence: try Phillip Edwards directly (if sourced), or approach through TTA network connection.",
+        "owner": "JJ + Jeff"
+      }
+    ],
+    "escalation_trigger": "If JJ's Day 1 emails to Thompson and Wildish get no response by Day 5, Jeff activates Hodges outreach. If Hodges engages, pivot entire approach through the Chairman.",
+    "approach_flags": {
+      "jeff_should_enter": true,
+      "jeff_should_enter_rationale": "Tommy Hodges is a past ATA Chairman and 60-year industry veteran. Jeff is the ONLY appropriate sender. Founder-to-founder, builder-to-builder. This is the most valuable peer conversation in the pipeline.",
+      "video_outreach_appropriate": true,
+      "video_outreach_rationale": "Hodges is a relationship-driven, old-school industry leader. A video from Jeff showing the West Memphis site, walking the interchange, pointing out where Titan's drivers already park — this would resonate deeply.",
+      "linkedin_tagging_appropriate": true,
+      "linkedin_tagging_rationale": "Hodges and Edwards are both active in TTA/ATA circles. Jeff should connect on LinkedIn before or concurrent with email outreach.",
+      "in_person_visit_appropriate": true,
+      "in_person_visit_rationale": "Shelbyville is 50 miles from Nashville. West Memphis is ~200 miles from Shelbyville. A visit to their HQ or an invitation to the West Memphis site is highly appropriate. Hodges is a hands-on builder who would want to see it.",
+      "calculator_demo_appropriate": true,
+      "calculator_demo_rationale": "Ashton Storey (CFO/CPA) will want to see the terminal economics comparison. Carrier Calculator showing 583-truck fleet cost modeling.",
+      "pricing_in_first_touch": true,
+      "pricing_in_first_touch_rationale": "Carrier model. Include the Dedicated Proprietary structure in JJ's emails. Hodges/Edwards will want to know the numbers. $100K, 80% refundable, $13/day."
+    },
+    "tone_profile": {
+      "company_tone": "Respectful of their legacy. Titan is a well-run, safety-award-winning, driver-invested carrier led by an industry legend. Do not approach as if they have a problem to fix — approach as if they have a philosophy to extend.",
+      "jj_variant": "Direct, operational, specific. 'Your Western Region is running I-40 through West Memphis. Here's what we're building there.' Lead with geographic relevance and infrastructure specifics.",
+      "jeff_variant": "Peer visionary. Builder-to-builder. 'You've spent 60 years building this industry. You advocated for infrastructure at ATA. I've spent 40 years building projects. Here's what we're doing.' Reference his legacy. Respect the statesman.",
+      "model_variant": "carrier"
+    }
+  },
+  "pre_send_flags": [
+    {
+      "flag_id": "F-001",
+      "type": "unconfirmed_email",
+      "who_or_what": "Steven Thompson (C-0001) — VP Operations",
+      "detail": "Lusha CSV did not list an email confidence score for Thompson. Email pattern (sthompson@) matches company format. Verify via LinkedIn or company directory before sending.",
+      "required_action": "LinkedIn-verify email before Day 1 send",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-002",
+      "type": "unconfirmed_email",
+      "who_or_what": "Tommy Hodges (C-0003) — Chairman",
+      "detail": "Lusha CSV did not list email confidence for Hodges. Email (thodges@) matches company format. Multiple third-party sources partially confirm. Verify before Jeff sends.",
+      "required_action": "LinkedIn-verify or confirm through company contact before Jeff outreach",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-003",
+      "type": "missing_email",
+      "who_or_what": "Russ Parker (C-0008) — VP Western Region",
+      "detail": "No email in Lusha CSV. Parker is based in Jackson, TN — directly on I-40, 80 miles from West Memphis. He is geographically the most relevant operational contact. Must source email before Day 3.",
+      "required_action": "Source email via LinkedIn, company directory, or cold call to Titan main line (931-684-0255)",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-004",
+      "type": "missing_contact",
+      "who_or_what": "Phillip Edwards — President of Titan Transfer (since 2001)",
+      "detail": "CRITICAL GAP. Phillip Edwards is the day-to-day operational leader. MTSU Finance grad. Past TTA Chairman (2011-2012). He has led the company for 25 years under Hodges. Not in the CSV at all. Must be sourced independently.",
+      "required_action": "Source Phillip Edwards email and phone via LinkedIn, Lusha lookup, or company main line. Add to contacts as tier1.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-005",
+      "type": "duplicate_title",
+      "who_or_what": "Adam Saner (C-0005) VP HR & Recruiting vs. Donna Mooney (C-0009) VP HR",
+      "detail": "Two VP-level HR contacts. Saner's title includes 'Recruiting' — likely owns driver recruitment specifically. Mooney's title is general HR. They may be co-functional with different scopes, or one may have been promoted/replaced. Verify on LinkedIn which is current and who owns what.",
+      "required_action": "LinkedIn-verify both. Determine scope split. Send to the one who owns driver recruiting first (likely Saner).",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-006",
+      "type": "duplicate_csv_entry",
+      "who_or_what": "Burley Foley (C-0006) — appears twice in CSV",
+      "detail": "Row 2: VP Marketing, Knoxville, LinkedIn /burley-foley-86468811b. Row 9: VP, Corbin KY, LinkedIn /burley-foley-80576a80. Same email (bfoley@). Two different LinkedIn profiles. May indicate a role change, regional assignment, or data duplication. 606 area code is southeastern KY (Corbin area).",
+      "required_action": "Determine which LinkedIn is current. Verify current title and location. Send to one entry only.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-007",
+      "type": "missing_phone",
+      "who_or_what": "Jeffrey Lorino (C-0007) — VP Sales and Operations",
+      "detail": "No phone number in CSV. Based in Franklin, WI. Email confirmed A+. Phone not critical for email outreach but note for follow-up call capability.",
+      "required_action": "Source phone via LinkedIn or company directory if needed for Day 5 follow-up call.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-008",
+      "type": "geographic_anomaly",
+      "who_or_what": "Adam Saner (C-0005) — 229 area code",
+      "detail": "229 area code is South Georgia (Albany/Valdosta area), not Tennessee. Saner is listed as Shelbyville. May indicate a personal mobile number from a previous location, or he may work remotely. Not a blocker but worth noting for geographic context.",
+      "required_action": "Note only. No action required.",
+      "status": "resolved"
+    }
+  ],
+  "offer_pricing": {
+    "recommended_tier": "Dedicated Proprietary",
+    "pricing_notes": "583-truck fleet is well above the 100+ threshold for Dedicated Proprietary. $100,000 initiation (80% refundable) + $13/day member dues. Titan operates their own terminals — frame as supplemental network access, not replacement. For Storey (CFO): net exposure is $20K after 80% refundable vs. $165K/space for new terminal construction. Finance Option ($10K/mo × 12) available if cash flow timing is a concern during freight recession.",
+    "capex_comparison_notes": "Titan operates 11+ state terminal footprint. At $165K/space for new construction or $130K for existing acquisition + renovation, each terminal location represents millions in capital. LHS Dedicated Proprietary: $100K per space, 80% refundable = $20K net exposure. 88% reduction in per-space capital risk. For a carrier already building driver amenities (lounges, showers, kitchens), LHS delivers the same philosophy at network scale without the capital."
+  },
+  "engagement": {
+    "stage": "target",
+    "events": [],
+    "last_outreach_at": null,
+    "next_step": "Resolve pre-send flags. Priority: source Phillip Edwards contact, verify Thompson/Hodges emails, source Parker email."
+  },
+  "chip_assessment": {
+    "priority": "high",
+    "standout_contact_id": "C-0003",
+    "key_risks": [
+      "Phillip Edwards (President) is NOT in the contact list — he's the day-to-day decision-maker for 25 years. Must be sourced before outreach.",
+      "Tommy Hodges email is unconfirmed. Jeff cannot send to an unverified address for the most valuable contact in the pipeline.",
+      "Russ Parker (VP Western Region, Jackson TN — the most geographically relevant ops contact) has no email.",
+      "Two HR VPs may indicate organizational change — verify which is current before sending.",
+      "Titan already invests in driver facilities at their own terminals. The objection 'we already do this ourselves' is real. Must frame as network extension, not replacement."
+    ],
+    "close_path": "1) Resolve all pre-send flags — especially source Phillip Edwards and verify Hodges email. 2) JJ opens Day 1 to Thompson (VP Ops) and Wildish (SVP) with I-40/West Memphis infrastructure angle. Jeff opens to Hodges — builder-to-builder, infrastructure vision aligned with his ATA platform. 3) Day 2: JJ sends to Storey (CFO) with terminal economics math and to Saner (VP HR/Recruiting) with Recruit & Retain angle. 4) If Hodges engages, ask for warm intro to Phillip Edwards. 5) Offer site visit to West Memphis — Hodges is a hands-on builder who will want to see it. 6) Calculator demo for Storey showing 583-truck fleet economics. 7) Target: 20-minute call within 14 days, site visit within 30.",
+    "company_intel_summary": "Titan Transfer is a 583-truck OTR truckload carrier headquartered in Shelbyville, TN, founded in 2000 by Tommy Hodges — a 60-year trucking industry veteran and past Chairman of the American Trucking Associations. The company runs general freight, metals, chemicals, and HAZMAT across 11+ states with top-of-the-line equipment (average truck age under 3 years) and multiple ATA/TTA safety awards. Hodges' ATA platform was highway infrastructure investment — directly aligned with the LHS mission. The Jackson, TN office (VP Western Region) sits on I-40, 80 miles east of the West Memphis Phase One site.",
+    "maverick_relevance": "Titan Transfer represents a unique strategic opportunity beyond membership revenue. Tommy Hodges' industry influence (past ATA Chairman, TTA Chairman, SMC3 board) means a Titan endorsement carries outsized weight across the entire carrier ecosystem. Landing this carrier could catalyze industry credibility for LHS. Additionally, Titan's sister companies (Goggin Warehousing, Titan Logistics) represent potential cross-sell into warehousing/logistics integration."
+  },
+  "trevor_feedback": {
+    "is_skip": false,
+    "skip_reason": "",
+    "filter_rule": "",
+    "skip_pattern_type": ""
+  },
+  "outreach_assets": {
+    "email_sequences": []
+  },
+  "flags": [],
+  "next_actions": [
+    "Source Phillip Edwards (President) contact information — Lusha lookup, LinkedIn, or call Titan main line (931-684-0255)",
+    "Verify Steven Thompson and Tommy Hodges email confidence via LinkedIn",
+    "Source Russ Parker email",
+    "LinkedIn-verify Adam Saner vs Donna Mooney HR scope split",
+    "LinkedIn-verify Burley Foley current title and which profile is active",
+    "Jeff connect with Tommy Hodges on LinkedIn before or concurrent with email outreach",
+    "Once flags resolved: generate Day 1 email sequences and begin outreach"
+  ],
+  "notes": [],
+  "rep_notes": [],
+  "timestamps": {
+    "created_at": "2026-03-04T00:00:00Z",
+    "updated_at": "2026-03-04T00:00:00Z"
+  }
+}
