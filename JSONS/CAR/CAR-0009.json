@@ -1,0 +1,852 @@
+{
+  "__path__": "/linehaul-station/carriers/CAR-0009.json",
+  "schema_version": "3.3",
+  "entity_type": "carrier",
+  "id": "CAR-0009",
+  "status": "target",
+  "metadata": {
+    "dossier_version": 1,
+    "source_csv_reference": "Covenant_Logistics.csv (Lusha export, 2024-12-10 / 2026-02-17)",
+    "created_by": "Chip",
+    "github_path": "JSONS/CAR/CAR-0009.json"
+  },
+  "ownership": {
+    "assigned_to": "JJ",
+    "last_touched_by": "Chip",
+    "last_touched_at": "2026-03-04T00:00:00Z"
+  },
+  "profile": {
+    "company_name": "Covenant Logistics Group, Inc.",
+    "dba_names": ["Covenant Transport", "Covenant Logistics"],
+    "ticker": "CVLG",
+    "exchange": "NYSE",
+    "website": "https://covenantlogistics.com",
+    "hq_city": "Chattanooga",
+    "hq_state": "TN",
+    "hq_address": "400 Birmingham Hwy, Chattanooga, TN 37419",
+    "founded_year": 1986,
+    "employee_range": "1,001-5,000 (Lusha) / 2,500+ trucks (Covenant alone) / 3,000+ trucks with sister companies",
+    "naics_code": "484121",
+    "sic_code": "4213",
+    "description": "Covenant Logistics Group (NYSE: CVLG) is one of America's premier truckload carriers, founded in 1986 by David and Jacqueline Parker with 25 trucks and 50 trailers in Chattanooga, Tennessee. Today the enterprise operates 3,000+ trucks and 7,000+ trailers through Covenant and its sister companies: Southern Refrigerated Transport (Texarkana, AR), Star Transportation (La Vergne, TN), Landair Transportation (Greeneville, TN), AAT Carriers, and Lew Thompson & Son Trucking (Northern AR). Full-year 2025 revenue of $1.16 billion across four segments: Expedited (high-service, temperature-controlled, team-driver long-haul), Dedicated Contract Carriage (3-5 year committed capacity), Managed Freight (brokerage + transportation management), and Warehousing. Also acquired Star Logistics Solutions (~$130M revenue truckload brokerage) in Q4 2025. Shared terminals in Chattanooga, Hutchins TX, Pomona CA, Texarkana AR, La Vergne TN, Allentown PA, and additional locations. Affiliated company Transport Enterprise Leasing (TEL) provides equipment sales/leasing to the trucking industry. Values-based corporate culture rooted in founders' faith — company name derives from David Parker's 'covenant with God' to run the business the right way. Fleet average tractor age: 23 months. Team drivers average 5,200-5,600 miles/week on expedited runs.",
+    "specialties": [
+      "Expedited Truckload (temperature-controlled, team-driver)",
+      "Dedicated Contract Carriage",
+      "Managed Freight / Brokerage",
+      "Warehousing / Distribution Center Management",
+      "Regional Truckload",
+      "Live Haul / Poultry Transport (Lew Thompson)",
+      "Government/Military (AAT Carriers)",
+      "Capacity Solutions",
+      "Equipment Leasing (TEL affiliate)"
+    ],
+    "operating_regions": [
+      "All 50 states",
+      "Primary terminals: Chattanooga TN, Hutchins TX, Pomona CA, Texarkana AR, La Vergne TN, Allentown PA",
+      "Sister company SRT based in Texarkana AR",
+      "Lew Thompson based in Northern Arkansas"
+    ],
+    "corridor_alignment_notes": "Covenant's Chattanooga HQ is ~340 miles east of West Memphis on I-24/I-40. No dedicated Memphis terminal exists, but the I-40 corridor from Chattanooga through Nashville to Memphis/West Memphis is the natural east-west highway for their Tennessee-based fleet. Sister company Southern Refrigerated Transport in Texarkana, AR and Lew Thompson in Northern AR both generate traffic through the Mid-South corridor. Team drivers averaging 5,200+ miles/week are running coast-to-coast through the I-40/I-55 interchange routinely. With 3,000+ trucks nationwide, significant daily volume passes through West Memphis whether or not Covenant has a terminal there — and that's precisely the point: LHS provides terminal-quality infrastructure at an interchange where Covenant has high traffic but no facility."
+  },
+  "authority_id": "AUTH-0009",
+  "external_refs": {
+    "crm_id": "",
+    "carrier_pack_url": "",
+    "usdot_primary": "273818",
+    "usdot_solutions": "2224414",
+    "mc_number": "168849"
+  },
+  "classification": {
+    "model": "carrier",
+    "confidence": "high",
+    "naics_vs_description_conflict": false,
+    "disqualifiers": [],
+    "notes": "Clear carrier model. $1.16B revenue, 3,000+ trucks, four operating segments all asset-based or asset-light logistics. Managed Freight segment includes brokerage, but this is a complement to the core asset-based truckload business. NAICS 484121 matches. Public company (NYSE: CVLG). Classify as CARRIER, not hybrid."
+  },
+  "fit_score": {
+    "total": 8.5,
+    "breakdown": {
+      "geography_corridor": 7.0,
+      "fleet_scale_model": 10.0,
+      "operating_history": 9.5,
+      "contact_quality": 7.5,
+      "strategic_signals": 8.5
+    },
+    "rationale": "GEOGRAPHY (7.0): Chattanooga TN is 340 miles east of West Memphis — not in the immediate LHS geography but firmly in Tennessee. I-40 runs from Chattanooga through Nashville to Memphis, the natural east-west artery for their TN-based fleet. Sister companies SRT (Texarkana AR) and Lew Thompson (Northern AR) generate additional Mid-South corridor traffic. No Memphis terminal, but 3,000+ trucks running all 50 states means significant daily volume through the I-40/I-55 interchange. Score reflects 'massive fleet volume through the corridor' offset by 'not headquartered nearby.' FLEET SCALE (10.0): PERFECT SCORE. 3,000+ trucks, 7,000+ trailers across the Covenant family. 2,500+ trucks under Covenant alone. This is a Top 25 US carrier with $1.16B revenue. Team drivers averaging 5,200+ miles/week. Multiple equipment types: dry van, temperature-controlled, specialty. This fleet is exactly the scale LHS Phase One is designed for. Multi-space Dedicated Proprietary candidate. OPERATING HISTORY (9.5): Founded 1986 — 39 years. Built from 25 trucks to $1.16B enterprise. Multiple successful acquisitions (Landair 2018, AAT, Lew Thompson 2023, Sims Transport 2024, Star Logistics 2025). NYSE-listed. Transferred listing from NASDAQ to NYSE in 2024. The Parker family has built a trucking dynasty. CONTACT QUALITY (7.5): 15 contacts in CSV with strong VP/C-suite mix. 8 have A+ confirmed emails. However: David Parker (Chairman/CEO) NOT in CSV, Tripp Grant (CFO) NOT in CSV. Two contacts listed as 'CEO' (Mahaney and Loomer) appear to be subsidiary/former roles, not current Covenant CEO. Paul Bunn (President/COO) is the key contact WITH confirmed email. Multiple contacts missing emails. STRATEGIC SIGNALS (8.5): NYSE public company = credibility but also decision complexity (board approval, public disclosure). Values-based culture = philosophical alignment with LHS mission of elevating driver quality-of-life. David Parker's covenant was to run the business 'the right way' — investing in driver infrastructure IS running it the right way. Q4 2025 showed impairment charges and a GAAP loss, and 2026 priority is deleveraging — capital commitment may face scrutiny. But: Covenant is winning business at better rates (Parker Q4 call), and $1.16B revenue means $100K is a rounding error. The faith-based culture and driver-first philosophy create a natural bridge to LHS values."
+  },
+  "contacts": [
+    {
+      "contact_id": "C-0001",
+      "name": "Paul Bunn",
+      "title": "President and Chief Operating Officer",
+      "email": "pbunn@covenantlogistics.com",
+      "email_confidence": "A+",
+      "alt_email": "paul.bunn@covenanttransport.com",
+      "phone": "+1 423-413-3895",
+      "phone_alt": "+1 423-463-3339",
+      "linkedin_url": "https://www.linkedin.com/in/paul-bunn-71a00219",
+      "priority_tier": "tier1",
+      "priority_day": "day1",
+      "sender": "JJ",
+      "strategic_angle": "ANCHOR CONTACT. Paul Bunn is the President and COO — the #2 executive at a $1.16B NYSE carrier, running day-to-day operations under David Parker. He was promoted from COO to President in January 2023. He was on the Q4 2025 earnings call alongside Parker and Grant. Bunn owns the operational decision to invest in driver infrastructure. Lead with: operational infrastructure at the I-40/I-55 interchange for their national fleet. Paul runs the fleet. Paul decides where infrastructure dollars go. This is JJ's primary conversation.",
+      "personality_read": "Chattanooga-based. Former COO promoted to President — earned through operational execution. Likely detail-oriented, analytically rigorous given the public company environment. Mid-40s. Part of the 'next generation' of Covenant leadership that Parker is cultivating.",
+      "influence_level": "decision_maker",
+      "communication_tone": "professional_operational",
+      "flags": [],
+      "enrichment": {
+        "status": "partial",
+        "source": "lusha+sec+news",
+        "enriched_at": "2026-03-04T00:00:00Z",
+        "linkedin_url": "https://www.linkedin.com/in/paul-bunn-71a00219",
+        "bio_summary": "President & COO of Covenant Logistics Group (NYSE: CVLG). Promoted from COO to President Jan 2023. Part of the leadership transition from founder David Parker to the next generation. Joined Covenant from the Landair acquisition side, rose through operational leadership.",
+        "career_highlights": ["Promoted to President Jan 2023", "Former COO", "On Q4 2025 earnings call"],
+        "signals": ["Key to post-Parker succession", "Operational leader"],
+        "communication_style": "professional",
+        "motivators": ["Operational efficiency", "Fleet optimization", "Succession readiness"],
+        "watchouts": ["Public company President = formal decision process", "Must make business case that survives board/analyst scrutiny"],
+        "likely_objections": ["Need to see ROI data for our fleet specifically", "2026 priority is deleveraging, not new commitments", "How does this scale beyond one location"],
+        "recommended_angle": ["Operational infrastructure at the most critical freight interchange in America", "Driver quality-of-life aligns with Covenant's values-based culture", "Founding member status = competitive positioning for a Top 25 carrier"],
+        "approach_summary": "Paul Bunn is the operating leader of a $1.16B carrier. He needs a business case, not a pitch. JJ leads with fleet data: 'With 3,000+ trucks running all 50 states, how many go through the I-40/I-55 interchange daily? What does truck stop dependency cost per driver per year? Here's what purpose-built infrastructure at that interchange looks like.' Keep it analytical, keep it operational, keep it specific to Covenant's fleet patterns."
+      },
+      "career_context": {
+        "tenure_estimate": "~8+ years (came through Landair acquisition 2018, promoted to COO, then President)",
+        "career_trajectory": "Landair → Covenant COO → Covenant President",
+        "previous_companies": ["Landair Holdings"],
+        "industry_depth": "Deep trucking operations"
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "David Parker (Chairman/CEO)",
+        "internal_allies": "Dustin Koehl (COO), Tripp Grant (CFO)",
+        "budget_authority": "yes_with_board"
+      }
+    },
+    {
+      "contact_id": "C-0002",
+      "name": "Dustin Koehl",
+      "title": "Chief Operating Officer",
+      "email": "dkoehl@covenantlogistics.com",
+      "email_confidence": "unconfirmed",
+      "alt_email": null,
+      "phone": "+1 865-776-5178",
+      "linkedin_url": "https://www.linkedin.com/in/dustin-a-koehl-37068b1a",
+      "priority_tier": "tier1",
+      "priority_day": "day1",
+      "sender": "JJ",
+      "strategic_angle": "COO — owns operational execution beneath Bunn. Was on the Q4 2025 earnings call. Koehl is the infrastructure decision-maker at the operational level. If Bunn is the 'approve it' person, Koehl is the 'build the case for it' person. Lead with fleet routing data through the I-40/I-55 interchange and driver staging patterns.",
+      "personality_read": "Chattanooga-based. 865 area code = Knoxville TN origin. COO at a $1.16B carrier = operationally intense role.",
+      "influence_level": "decision_maker",
+      "communication_tone": "operational",
+      "flags": ["unconfirmed_email"],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha",
+        "enriched_at": "2026-03-04T00:00:00Z",
+        "linkedin_url": "https://www.linkedin.com/in/dustin-a-koehl-37068b1a",
+        "bio_summary": "COO at Covenant Logistics Group. On Q4 2025 earnings call. Reports to Paul Bunn (President).",
+        "career_highlights": [],
+        "signals": ["On earnings calls = public-facing executive"],
+        "communication_style": "operational",
+        "motivators": ["Fleet efficiency", "Cost reduction", "Operational execution"],
+        "watchouts": ["COO at this scale = buried in daily operations, may be hard to reach cold"],
+        "likely_objections": ["We don't have a Memphis terminal for a reason — our fleet is routed differently", "How does this integrate with our existing terminal network"],
+        "recommended_angle": ["Fleet routing through I-40/I-55 — data-driven case", "Driver staging and HOS optimization at the interchange", "Complement to existing terminal network, not replacement"],
+        "approach_summary": "Dustin Koehl is the operational execution engine. JJ approaches with operational specifics: routing data, driver staging patterns, HOS optimization at the I-40/I-55 interchange. This is a COO conversation — show him how LHS fits into Covenant's existing operational model."
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Paul Bunn (President)",
+        "internal_allies": null,
+        "budget_authority": "departmental"
+      }
+    },
+    {
+      "contact_id": "C-0003",
+      "name": "Eric Johnson",
+      "title": "Senior Vice President of Operations",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 423-470-6946",
+      "linkedin_url": "https://www.linkedin.com/in/eric-ej-johnson-b2407913",
+      "priority_tier": "tier1",
+      "priority_day": "day2",
+      "sender": "JJ",
+      "strategic_angle": "SVP Operations — senior ops leader beneath the C-suite. Greeneville TN = Landair legacy territory (Landair was based in Greeneville). May have come through the Landair acquisition and lead dedicated/warehousing operations. Infrastructure angle: driver facilities for the dedicated fleet.",
+      "personality_read": "Greeneville TN. 423 area code = East TN. SVP Ops at C-suite seniority level per Lusha.",
+      "influence_level": "influencer",
+      "communication_tone": "operational",
+      "flags": ["missing_email"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/eric-ej-johnson-b2407913",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["Greeneville = Landair/Lew Thompson territory"],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": ["Dedicated fleet driver infrastructure"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Paul Bunn / Dustin Koehl",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0004",
+      "name": "Patrick Childs",
+      "title": "Vice President of Strategic Operations",
+      "email": "pchilds@covenantlogistics.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 865-599-9655",
+      "linkedin_url": "https://www.linkedin.com/in/patrickchilds",
+      "priority_tier": "tier1",
+      "priority_day": "day1",
+      "sender": "JJ",
+      "strategic_angle": "VP STRATEGIC Operations — the word 'strategic' matters. This isn't day-to-day ops; this is strategic infrastructure, network optimization, and long-term planning. LHS IS a strategic operations conversation. Patrick Childs may be the single best-fit contact in this CSV for the LHS pitch. Lead with: 'Patrick — LHS Phase One is purpose-built carrier infrastructure at the I-40/I-55 interchange. For a fleet of 3,000+ trucks, this is a strategic infrastructure question. 20 minutes?'",
+      "personality_read": "Chattanooga-based. 865 area code = Knoxville TN origin. VP of Strategic Ops = analytical, forward-thinking, network-level perspective.",
+      "influence_level": "influencer",
+      "communication_tone": "strategic_analytical",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha",
+        "enriched_at": "2026-03-04T00:00:00Z",
+        "linkedin_url": "https://www.linkedin.com/in/patrickchilds",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["'Strategic Operations' = long-term planning role"],
+        "communication_style": "analytical",
+        "motivators": ["Network optimization", "Strategic infrastructure", "Operational efficiency"],
+        "watchouts": [],
+        "likely_objections": ["Need to model the ROI across our network before recommending"],
+        "recommended_angle": ["Strategic infrastructure at the most critical freight interchange in America", "Network optimization: LHS as a node in Covenant's terminal strategy", "Founding member = first-mover advantage in carrier infrastructure"],
+        "approach_summary": "Patrick Childs' title literally contains the word 'Strategic.' LHS is strategic infrastructure. This is a natural fit. JJ leads with the network-level case: how does a purpose-built facility at the I-40/I-55 interchange improve Covenant's strategic operations across the network?"
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Paul Bunn / Dustin Koehl",
+        "internal_allies": null,
+        "budget_authority": "recommender"
+      }
+    },
+    {
+      "contact_id": "C-0005",
+      "name": "Will Acker",
+      "title": "Vice President of Operations",
+      "email": "wacker@covenantlogistics.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 205-305-3710",
+      "phone_alt": "+1 850-766-8921",
+      "linkedin_url": "https://www.linkedin.com/in/will-acker-848a753",
+      "priority_tier": "tier2",
+      "priority_day": "day2",
+      "sender": "JJ",
+      "strategic_angle": "VP Operations — operational counterpart or regional VP beneath Koehl/Bunn. 205 area code = Birmingham AL, 850 = Pensacola FL. May oversee southern/Gulf operations. Day-to-day fleet operations angle. Secondary send behind Childs and Bunn.",
+      "personality_read": "Chattanooga-listed but Alabama/Florida phone numbers. Likely relocated or oversees southern region.",
+      "influence_level": "influencer",
+      "communication_tone": "operational",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha",
+        "enriched_at": "2026-03-04T00:00:00Z"
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Eric Johnson (SVP Ops) or Dustin Koehl (COO)",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0006",
+      "name": "Edward Kern",
+      "title": "Vice President of Pricing and Network Strategy",
+      "email": "ekern@covenanttransport.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 423-240-3330",
+      "linkedin_url": "https://www.linkedin.com/in/edward-kern-1b287a8",
+      "priority_tier": "tier2",
+      "priority_day": "day2",
+      "sender": "JJ",
+      "strategic_angle": "VP Pricing and NETWORK STRATEGY. Another 'strategy' title. Kern owns how Covenant prices its services and designs its network. LHS changes the network calculus: if Covenant has a purpose-built facility at I-40/I-55, that changes routing, driver HOS planning, and network design. This is a data conversation: 'Ed — how many of your 3,000+ trucks pass through the I-40/I-55 interchange per week? What does that traffic pattern look like if there's a purpose-built facility there?'",
+      "personality_read": "Chattanooga. 423 area code. Pricing and network = analytical, data-driven.",
+      "influence_level": "influencer",
+      "communication_tone": "analytical",
+      "flags": ["dual_domain"],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha",
+        "enriched_at": "2026-03-04T00:00:00Z"
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Paul Bunn / Patrick Childs",
+        "internal_allies": null,
+        "budget_authority": "recommender"
+      }
+    },
+    {
+      "contact_id": "C-0007",
+      "name": "Jarrod Ricker",
+      "title": "Vice President of Logistics Engineering",
+      "email": "jricker@covenantlogistics.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 423-329-6359",
+      "linkedin_url": "https://www.linkedin.com/in/jarrod-ricker-83676595",
+      "priority_tier": "tier2",
+      "priority_day": "day2",
+      "sender": "JJ",
+      "strategic_angle": "VP Logistics Engineering — designs the logistics solutions for customers. LHS angle: 'How does a purpose-built facility at the I-40/I-55 interchange change what you can engineer for your customers?' This is a service differentiation conversation, not an infrastructure conversation.",
+      "personality_read": "Spring Hill TN (south of Nashville, near Landair's La Vergne location). 423 = Chattanooga area. Engineering/logistics background.",
+      "influence_level": "influencer",
+      "communication_tone": "technical",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha",
+        "enriched_at": "2026-03-04T00:00:00Z"
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0008",
+      "name": "Joey Ballard",
+      "title": "Executive Vice President of People and Safety",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 423-783-1381",
+      "phone_alt": "+1 423-620-9574",
+      "linkedin_url": "https://www.linkedin.com/in/joey-ballard-893a3b2b5",
+      "priority_tier": "tier1",
+      "priority_day": "day2",
+      "sender": "JJ",
+      "strategic_angle": "EVP of PEOPLE AND SAFETY. At Covenant, 'People' isn't HR — it's the values-based culture. Joey Ballard owns driver welfare, safety culture, and the human side of 3,000+ trucks. LHS is DIRECTLY in his wheelhouse: purpose-built driver infrastructure that elevates quality-of-life. The pitch: 'Joey — Covenant's culture is about treating people the right way. LHS is infrastructure built with that same philosophy. Your drivers deserve better than truck stops.' This is the values conversation that may resonate more than any ROI model.",
+      "personality_read": "Greeneville TN = Landair territory. EVP-level title = C-suite adjacent. 'People and Safety' = cultural leader, not just HR administration.",
+      "influence_level": "decision_maker",
+      "communication_tone": "relational_values",
+      "flags": ["missing_email"],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha",
+        "enriched_at": "2026-03-04T00:00:00Z",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["'People and Safety' title = values-driven culture role", "EVP level = senior executive"],
+        "communication_style": "relational",
+        "motivators": ["Driver welfare", "Safety culture", "Values alignment"],
+        "watchouts": [],
+        "likely_objections": ["How does LHS improve our safety metrics", "We already invest heavily in driver facilities at Chattanooga campus"],
+        "recommended_angle": ["LHS extends Covenant's values-based driver culture to the road", "Purpose-built infrastructure = safer, healthier stops than truck stops", "Recruit & Retain: founding member story as hiring differentiator"],
+        "approach_summary": "Joey Ballard is the conscience of Covenant's fleet. David Parker built the company on a covenant to do things the right way. Ballard executes that vision for 3,000+ drivers. LHS is the physical manifestation of that philosophy: infrastructure built for drivers, not for truck stops. JJ leads with values alignment, not ROI."
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "David Parker / Paul Bunn",
+        "internal_allies": null,
+        "budget_authority": "yes_for_people_programs"
+      }
+    },
+    {
+      "contact_id": "C-0009",
+      "name": "Matt Duncan",
+      "title": "Vice President of Enterprise Driver Recruiting and Talent Acquisition",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 423-329-5667",
+      "linkedin_url": "https://www.linkedin.com/in/matt-duncan-398a9a9",
+      "priority_tier": "tier2",
+      "priority_day": "day3",
+      "sender": "JJ",
+      "strategic_angle": "VP Enterprise Driver Recruiting — he fills 3,000+ trucks. If LHS founding membership becomes a recruiting tool ('Join Covenant — your drivers get access to purpose-built facilities'), Matt Duncan is the person who puts that in every recruiting ad. Recruit & Retain angle. Day 3 awareness send.",
+      "personality_read": "Greeneville TN. Recruiting/talent acquisition focus.",
+      "influence_level": "influencer",
+      "communication_tone": "recruiting",
+      "flags": ["missing_email"],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha"
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Joey Ballard (EVP People & Safety)",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0010",
+      "name": "Matt McLelland",
+      "title": "Vice President of Sustainability and Innovation",
+      "email": "mmclelland@covenantlogistics.com",
+      "email_confidence": "A+",
+      "alt_email": "mmclelland@covenanttransport.com",
+      "phone": "+1 423-821-8995",
+      "linkedin_url": "https://www.linkedin.com/in/mattmclelland",
+      "priority_tier": "tier2",
+      "priority_day": "day3",
+      "sender": "JJ",
+      "strategic_angle": "VP Sustainability and Innovation. LHS has a sustainability angle: purpose-built facilities reduce idle time, optimize HOS, decrease unnecessary miles. If Covenant has ESG/sustainability reporting (public company), LHS founding membership supports that narrative. Also: 'innovation' in title = open to new concepts.",
+      "personality_read": "Lookout Mountain TN (affluent Chattanooga suburb). Sustainability/Innovation = forward-thinking.",
+      "influence_level": "influencer",
+      "communication_tone": "strategic",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha"
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0011",
+      "name": "Maher Farah",
+      "title": "Vice President of Strategic Sales",
+      "email": "mfarah@covenantlogistics.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 810-210-9616",
+      "linkedin_url": "https://www.linkedin.com/in/maherfarah",
+      "priority_tier": "tier2",
+      "priority_day": "day2",
+      "sender": "JJ",
+      "strategic_angle": "VP Strategic Sales — sells Covenant's services to shippers. LHS angle: service differentiation. 'Maher — when you're in a competitive bid, what if you could say: our drivers have access to purpose-built terminal infrastructure at the busiest freight interchange in America? That's a story no other carrier can tell.' Sales differentiation conversation.",
+      "personality_read": "Detroit, MI. 810 area code = Flint/metro Detroit. Sales-oriented, competitive.",
+      "influence_level": "influencer",
+      "communication_tone": "sales",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha"
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0012",
+      "name": "Misti Olszewski",
+      "title": "Vice President of Enterprise Safety",
+      "email": "molszewski@covenantlogistics.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 423-619-1045",
+      "linkedin_url": "https://www.linkedin.com/in/mistiolszewski",
+      "priority_tier": "tier3",
+      "priority_day": "day3",
+      "sender": "JJ",
+      "strategic_angle": "VP Enterprise Safety — safety culture leader. LHS angle: safer rest stops = safer drivers = lower insurance costs. Given Covenant's Q4 2025 elevated insurance expense ($11.6M claims settlement), safety infrastructure is a live issue. Light touch Day 3.",
+      "personality_read": "Chattanooga. Safety-focused.",
+      "influence_level": "influencer",
+      "communication_tone": "safety",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha"
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Joey Ballard (EVP People & Safety)",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0013",
+      "name": "Ashley Brown",
+      "title": "Vice President of Continuous Improvement and Project Management",
+      "email": "abrown@covenantlogistics.com",
+      "email_confidence": "A+",
+      "alt_email": null,
+      "phone": "+1 423-463-3205",
+      "linkedin_url": "https://www.linkedin.com/in/ashley-brown-mba-mbt",
+      "priority_tier": "tier3",
+      "priority_day": "skip",
+      "sender": null,
+      "strategic_angle": "VP CI and Project Management — internal process improvement. Not a direct LHS decision-maker but could be the person who evaluates and implements if leadership says yes. Hold for later engagement.",
+      "personality_read": "Chattanooga. MBA, MBT (Master of Business Technology). Process-oriented, analytical.",
+      "influence_level": "supporter",
+      "communication_tone": "analytical",
+      "flags": [],
+      "enrichment": {
+        "status": "pending",
+        "source": "lusha"
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "supporter",
+        "reports_to": null,
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0014",
+      "name": "Michael Mahaney",
+      "title": "CEO, President (Lusha CSV) — LIKELY SUBSIDIARY ROLE",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 352-630-9331",
+      "linkedin_url": "https://www.linkedin.com/in/michael-mahaney-6699476a",
+      "priority_tier": "skip",
+      "priority_day": "skip",
+      "sender": null,
+      "strategic_angle": "SKIP FOR NOW. Lusha lists as CEO/President at Covenant, but other sources identify him as 'CEO/President/Owner Mahaney Logistics, Inc.' — a separate entity. 352 area code = Central Florida. Not in the Covenant Logistics SEC filings or earnings calls. Likely a subsidiary, affiliated, or former role. Do not send until verified.",
+      "personality_read": "Florida-based. If Mahaney Logistics is a Covenant subsidiary/affiliate, may be relevant. If separate entity, Lusha data is incorrect.",
+      "influence_level": "unknown",
+      "communication_tone": null,
+      "flags": ["classification_risk"],
+      "enrichment": {
+        "status": "pending",
+        "source": null
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "unknown",
+        "reports_to": "unknown",
+        "internal_allies": null,
+        "budget_authority": "unknown"
+      }
+    },
+    {
+      "contact_id": "C-0015",
+      "name": "Scott Loomer",
+      "title": "CEO (Lusha CSV) — LIKELY SUBSIDIARY ROLE",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 570-578-9424",
+      "linkedin_url": "https://www.linkedin.com/in/scott-loomer-ba33128",
+      "priority_tier": "skip",
+      "priority_day": "skip",
+      "sender": null,
+      "strategic_angle": "SKIP FOR NOW. Lusha lists as CEO at Covenant from Kingston PA (570 area code = northeastern PA). LinkedIn shows 'C.E.O. at Covenant.' May be CEO of a Covenant subsidiary — possibly AAT Carriers (government/military, Allentown PA terminal). Not in SEC filings or earnings calls. David Parker is the confirmed Chairman/CEO of Covenant Logistics Group. Do not send until role verified.",
+      "personality_read": "Pennsylvania-based. If AAT Carriers CEO, relevant for military/government trucking but not primary LHS decision-maker.",
+      "influence_level": "unknown",
+      "communication_tone": null,
+      "flags": ["classification_risk"],
+      "enrichment": {
+        "status": "pending",
+        "source": null
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "unknown",
+        "reports_to": "unknown",
+        "internal_allies": null,
+        "budget_authority": "unknown"
+      }
+    }
+  ],
+  "strategic_positioning": {
+    "win_thesis": "Covenant Logistics is a $1.16 billion, NYSE-listed Tennessee carrier running 3,000+ trucks across all 50 states — founded on a values-based culture that literally derives from a 'covenant to do things the right way.' Their Expedited team drivers average 5,200+ miles/week coast-to-coast; their Dedicated fleets run committed routes. A significant percentage of this traffic transits the I-40/I-55 interchange daily. Covenant has terminals in Chattanooga, Hutchins TX, Texarkana AR, La Vergne TN, Allentown PA, and Pomona CA — but NOT in the Memphis/West Memphis corridor, the busiest freight interchange in America. LHS Phase One fills that gap. The values alignment is striking: David Parker's covenant was to treat people right and run the business with integrity. LHS is purpose-built infrastructure that treats drivers the way they deserve to be treated. If Covenant becomes a founding member, the story writes itself: 'The carrier that was founded on a covenant to do things the right way joined the infrastructure company that was built on the same principle.'",
+    "pain_points": [
+      {
+        "pain": "No Memphis/West Memphis terminal despite massive daily traffic through the interchange",
+        "confidence": "high",
+        "detail": "Covenant has shared terminals in Chattanooga, Hutchins TX, Texarkana AR, La Vergne TN, Allentown PA, and Pomona CA. Wikipedia notes they sold their California terminal. But the I-40/I-55 interchange in West Memphis — the busiest freight crossroads in America — has no Covenant facility. With 3,000+ trucks running all 50 states, hundreds of Covenant trucks pass through this interchange daily with nowhere to stop except truck stops."
+      },
+      {
+        "pain": "Q4 2025 elevated insurance expense — $11.6M claims settlement, $19.4M impairment charges",
+        "confidence": "confirmed",
+        "detail": "Q4 2025 included $11.6M in insurance claims costs from an auto liability settlement, plus a disclosed legal matter from a 2025 third-party accident with five fatalities. Insurance/safety costs are a board-level concern. Better driver infrastructure = better-rested drivers = fewer incidents = lower insurance costs."
+      },
+      {
+        "pain": "Driver recruiting and retention at 3,000+ truck scale",
+        "confidence": "high",
+        "detail": "Covenant has a VP of Enterprise Driver Recruiting (Matt Duncan) and an EVP of People & Safety (Joey Ballard). They invest in state-of-the-art orientation facilities in Chattanooga. The industry-wide driver shortage means Covenant must differentiate on quality-of-life. LHS founding membership = a recruiting story no competitor can match."
+      },
+      {
+        "pain": "2026 priority is deleveraging — net indebtedness rose to $296M, selling excess equipment",
+        "confidence": "confirmed",
+        "detail": "CFO Tripp Grant stated 2026 priority is using equipment sale proceeds to pay down debt. Net indebtedness increased $76.7M in 2025. Fewer new tractors in 2026. Capital allocation is under scrutiny. Any new commitment needs a clear business case — but $100K (80% refundable) at $1.16B revenue is immaterial to the balance sheet."
+      },
+      {
+        "pain": "Overcapacity and margin pressure in truckload market",
+        "confidence": "confirmed",
+        "detail": "David Parker noted 'prolonged period of overcapacity and muted demand' in Q3 2025 earnings call. Q4 2025 adjusted operating ratio of 96% (GAAP 108.2%). Revenue growing but margins compressed. Any tool that reduces costs or differentiates service matters in this environment."
+      }
+    ],
+    "competitive_angle": "Covenant is one of the most values-driven carriers in America. David Parker literally named the company after his covenant with God. That values story is powerful — and it extends to how they treat their drivers. But when those drivers are 500 miles from Chattanooga, parked at a truck stop in West Memphis, the values story stops at the truck stop door. LHS extends Covenant's values to the road: purpose-built, driver-first infrastructure at the busiest freight interchange in America. For a carrier that prides itself on treating people the right way, LHS is the infrastructure that proves it.",
+    "leverage_points": [
+      "Values-based culture ('covenant to do things the right way') creates natural philosophical alignment with LHS mission",
+      "$1.16B revenue, NYSE-listed = credibility and validation if they become founding members",
+      "3,000+ trucks, 7,000+ trailers = massive daily volume through I-40/I-55",
+      "No Memphis/West Memphis terminal = LHS fills a gap in their network",
+      "Sister companies in Arkansas (SRT Texarkana, Lew Thompson Northern AR) add Mid-South corridor relevance",
+      "Team drivers averaging 5,200+ miles/week = the exact driver demographic that needs quality infrastructure",
+      "State-of-the-art Chattanooga campus shows willingness to invest in driver facilities",
+      "Paul Bunn (President/COO) has A+ confirmed email — direct access to the #2 executive",
+      "Winning business at better rates (Parker Q4 call) = confidence returning to capital allocation",
+      "Transport Enterprise Leasing (TEL) affiliate = potential LHS equipment services synergy",
+      "Recent acquisitions (Star Logistics Solutions, Lew Thompson, Sims Transport) = appetite for strategic growth",
+      "David Parker publicly optimistic about Trump administration trucking policies = industry confidence"
+    ],
+    "objection_map": [
+      {
+        "objection": "We're focused on deleveraging in 2026 — not taking on new commitments",
+        "response": "$100K with 80% refundable = $20K net exposure. At $1.16B revenue, that's 0.002% of annual revenue. The Finance Option ($10K/mo × 12) doesn't touch your debt-to-cap ratio. And this isn't a cost — it's an operational efficiency tool. Show me what truck stop dependency costs per driver per year in lost HOS time, maintenance delays, and safety incidents. The math works in your favor."
+      },
+      {
+        "objection": "We don't have a Memphis terminal for a reason — our network doesn't need one",
+        "response": "Your network runs through Memphis whether you have a terminal there or not. How many of your 3,000+ trucks pass through the I-40/I-55 interchange this week? LHS isn't asking you to build a terminal — it's giving you terminal-quality infrastructure at an interchange you already use, for $13/day. You don't need to own it. You just need access."
+      },
+      {
+        "objection": "We're a public company — we can't commit without board-level diligence",
+        "response": "Understood. The founding member commitment is $100K initiation with 80% refundable — a controlled, reversible pilot. Below any material commitment threshold for a $1.16B enterprise. We're happy to present to your leadership team with full fleet data modeling. Paul, David, and Tripp should all see the Carrier Calculator results before any decision."
+      },
+      {
+        "objection": "We already invest heavily in driver facilities at our Chattanooga campus",
+        "response": "That's exactly why LHS makes sense for Covenant. You've already proven you believe in purpose-built driver infrastructure — you built it in Chattanooga. Now extend that standard to the busiest freight interchange in America, 340 miles down I-40. Your drivers get the same Covenant-quality experience at the I-40/I-55 interchange that they get at your campus."
+      }
+    ]
+  },
+  "playbook": {
+    "first_touch": {
+      "channel": "email",
+      "sender": "JJ to Paul Bunn (President/COO), Dustin Koehl (COO), and Patrick Childs (VP Strategic Ops). Jeff reserved for David Parker if/when sourced.",
+      "angle_summary": "This is a strategic infrastructure conversation with a $1.16B public carrier. JJ leads with data: fleet volume through the I-40/I-55 interchange, operational infrastructure gap, driver quality-of-life alignment with Covenant's values-based culture. No hard sell — this is a consultative conversation with a sophisticated operator. Jeff enters only at the David Parker level if an introduction or escalation is appropriate.",
+      "tone": "Professional, data-driven, values-aligned. Reference Covenant's culture by name. 'David Parker built Covenant on a covenant to do things the right way. LHS is infrastructure built on the same principle.' Be specific about fleet scale, corridor relevance, and operational ROI. This audience is SEC-filing-literate — no generic pitches."
+    },
+    "sequence_recommendation": [
+      {
+        "step": "pre_send",
+        "action": "Source David Parker (Chairman/CEO) contact info — NOT in CSV. Source Tripp Grant (CFO) contact info — NOT in CSV. Source Joey Ballard email. Source Eric Johnson email. Source Matt Duncan email. Verify Koehl email confidence. Verify Mahaney and Loomer roles (subsidiary CEOs vs. Covenant Logistics Group). Map dual domains: covenantlogistics.com vs covenanttransport.com.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day1",
+        "action": "JJ emails Paul Bunn — strategic infrastructure at I-40/I-55, operational ROI, values alignment. JJ emails Dustin Koehl — operational infrastructure, fleet routing, driver staging. JJ emails Patrick Childs — strategic operations perspective, network optimization. If David Parker sourced: Jeff emails Parker — founder-to-founder, values alignment, infrastructure vision.",
+        "owner": "JJ + Jeff (if Parker sourced)"
+      },
+      {
+        "step": "day2",
+        "action": "JJ emails Edward Kern — pricing/network strategy angle (how does LHS change network design). JJ emails Maher Farah — sales differentiation angle. JJ emails Will Acker — operational VP, secondary ops thread. If Joey Ballard email sourced: JJ emails Ballard — People & Safety, values alignment, driver quality-of-life.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day3",
+        "action": "JJ emails Matt McLelland — sustainability/innovation angle. JJ emails Misti Olszewski — safety angle (safer rest = fewer incidents). JJ emails Matt Duncan — recruiting/retention tool if email sourced.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day5",
+        "action": "Follow up Day 1 no-responses. Phone call to Paul Bunn (two phone numbers available). If JJ's Day 1 to Bunn/Koehl gets silence: Jeff escalates to David Parker.",
+        "owner": "JJ + Jeff"
+      },
+      {
+        "step": "day7plus",
+        "action": "If engagement from any contact: schedule video presentation with fleet data modeling (Carrier Calculator). Offer virtual site tour of West Memphis location. If Bunn or Parker engage: propose in-person meeting at Covenant's Chattanooga campus or at the LHS West Memphis site. If silence across all threads: hold 90 days and re-engage with Phase One construction milestone updates.",
+        "owner": "JJ + Jeff"
+      }
+    ],
+    "escalation_trigger": "If JJ's Day 1 emails to Bunn, Koehl, and Childs all go unanswered by Day 5, Jeff activates David Parker outreach (if sourced). If Parker not sourced, JJ follows up by phone to Bunn. At a public company of this size, 15 contacts provides significant multi-threading — work the VP network if the C-suite doesn't respond.",
+    "approach_flags": {
+      "jeff_should_enter": true,
+      "jeff_should_enter_rationale": "David Parker is the Chairman/CEO and founder. He built Covenant on a values-based vision. Jeff approaches Parker as a peer: founder-to-founder, builder-to-builder. Parker is a keynote speaker, industry thought leader, FreightWaves regular. Jeff should reference the values alignment and the infrastructure vision.",
+      "video_outreach_appropriate": true,
+      "video_outreach_rationale": "Professional video walkthrough of LHS West Memphis site with data overlay: 'This is the I-40/I-55 interchange — X thousand trucks per day. Here's what we're building for carriers like Covenant.'",
+      "linkedin_tagging_appropriate": true,
+      "linkedin_tagging_rationale": "David Parker is active on LinkedIn and publicly visible. Jeff should connect. Paul Bunn has LinkedIn profile.",
+      "in_person_visit_appropriate": true,
+      "in_person_visit_rationale": "Chattanooga campus is 340 miles from West Memphis — a day trip. Alternatively, invite Bunn/Parker to the LHS site. But first establish email/phone engagement before proposing in-person.",
+      "calculator_demo_appropriate": true,
+      "calculator_demo_rationale": "CRITICAL. A $1.16B public carrier needs data, not stories. The Carrier Calculator showing 3,000-truck fleet economics through the I-40/I-55 interchange is the centerpiece of any serious conversation. Target Edward Kern (VP Pricing/Network Strategy) or Patrick Childs (VP Strategic Ops) as the Calculator demo audience.",
+      "pricing_in_first_touch": true,
+      "pricing_in_first_touch_rationale": "Carrier model. Include Dedicated Proprietary pricing. At 3,000+ trucks, this is potentially a multi-space founding member commitment. Lead with: $100K initiation (80% refundable) + $13/day per space. For a fleet this size, discuss 3-5 space initial commitment.",
+      "site_visit_invitation": true,
+      "site_visit_rationale": "Invite Paul Bunn or David Parker to the West Memphis site. Offer to fly them in or meet at the site. A 340-mile drive from Chattanooga or a short flight into Memphis."
+    },
+    "tone_profile": {
+      "company_tone": "Values-aligned, data-driven, respectful of scale. Covenant is a faith-based, values-driven company that also happens to be a $1.16B NYSE-listed enterprise. The tone must honor both: reference the covenant, the culture, the driver-first philosophy, while also delivering business-case-quality analysis. Never condescend. Never pitch below their level. This is a Top 25 US carrier — they've seen every pitch.",
+      "jj_variant": "Professional, data-forward, specific. 'Paul — Covenant runs 3,000+ trucks across all 50 states. A significant portion of that fleet transits the I-40/I-55 interchange daily — the busiest freight crossroads in America. We're building purpose-built carrier infrastructure at that interchange. For a fleet of your scale, this is a strategic operations conversation. Can I show you the data? 20 minutes.'",
+      "jeff_variant": "Founder-to-founder with David Parker. 'David — you started Covenant with 25 trucks and a covenant to do things the right way. 39 years later, 3,000 trucks. I'm building infrastructure with the same conviction: purpose-built, driver-first, at the busiest interchange in America. I'd like to show you what we're building and see if Covenant belongs at the founding table.'",
+      "model_variant": "carrier"
+    }
+  },
+  "pre_send_flags": [
+    {
+      "flag_id": "F-001",
+      "type": "missing_contact",
+      "who_or_what": "David R. Parker — Chairman and Chief Executive Officer",
+      "detail": "The FOUNDER and CEO of Covenant Logistics Group is NOT in the CSV. Parker remains Chairman/CEO, is on every earnings call, speaks at FreightWaves F3, and is the ultimate decision-maker. Based in Ringgold, GA (just south of Chattanooga). This is the single most critical missing contact. Jeff cannot approach Covenant without Parker access.",
+      "required_action": "Source David Parker email and phone. RocketReach shows d******@covenantlogistics.com. LinkedIn: /david-parker-4b1a9638/. Must be sourced before Jeff can engage.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-002",
+      "type": "missing_contact",
+      "who_or_what": "Tripp Grant — Chief Financial Officer",
+      "detail": "CFO not in CSV. Grant is on every earnings call, controls capital allocation, and stated 2026 priority is deleveraging. Any investment conversation must pass his desk. Critical for ROI/CapEx modeling.",
+      "required_action": "Source Tripp Grant email and phone via LinkedIn or SEC filings.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-003",
+      "type": "missing_email",
+      "who_or_what": "Eric Johnson (C-0003) — SVP Operations",
+      "detail": "No email in CSV. SVP-level operations leader. Greeneville TN location suggests Landair legacy leadership.",
+      "required_action": "Source email via LinkedIn.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-004",
+      "type": "missing_email",
+      "who_or_what": "Joey Ballard (C-0008) — EVP People and Safety",
+      "detail": "No email in CSV. EVP-level executive who owns driver welfare and safety culture — the most values-aligned contact in the CSV. Two phone numbers available.",
+      "required_action": "Source email via LinkedIn or company directory.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-005",
+      "type": "missing_email",
+      "who_or_what": "Matt Duncan (C-0009) — VP Enterprise Driver Recruiting",
+      "detail": "No email in CSV. Important for the Recruit & Retain angle but lower priority than C-suite gaps.",
+      "required_action": "Source email via LinkedIn.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-006",
+      "type": "classification_risk",
+      "who_or_what": "Michael Mahaney (C-0014) — listed as CEO/President",
+      "detail": "Lusha CSV lists Mahaney as CEO/President at Covenant from Florida (352 area code). Other sources identify him as 'CEO/President/Owner Mahaney Logistics, Inc.' — a separate entity. Not in SEC filings. Likely a subsidiary owner, affiliated operator, or Lusha misclassification. DO NOT send outreach until role verified.",
+      "required_action": "LinkedIn-verify. If Mahaney Logistics is a Covenant subsidiary, he may be relevant. If separate entity, remove from contact list.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-007",
+      "type": "classification_risk",
+      "who_or_what": "Scott Loomer (C-0015) — listed as CEO",
+      "detail": "Lusha CSV lists Loomer as CEO at Covenant from Kingston PA (570 area code). LinkedIn shows 'C.E.O. at Covenant.' May be CEO of a Covenant subsidiary (possibly AAT Carriers, which is based near Allentown PA). Not in SEC filings. David Parker is the confirmed CVLG Chairman/CEO. DO NOT send outreach until role verified.",
+      "required_action": "LinkedIn-verify. If subsidiary CEO, assess relevance. If misclassified, remove.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-008",
+      "type": "dual_domain",
+      "who_or_what": "covenantlogistics.com vs. covenanttransport.com",
+      "detail": "Company rebranded from Covenant Transport to Covenant Logistics in 2021. Both email domains appear active. Edward Kern's email uses covenanttransport.com while most others use covenantlogistics.com. Matt McLelland has both. Use covenantlogistics.com as primary for all outreach.",
+      "required_action": "Use covenantlogistics.com as primary. Note legacy domain as fallback.",
+      "status": "resolved"
+    },
+    {
+      "flag_id": "F-009",
+      "type": "unconfirmed_email",
+      "who_or_what": "Dustin Koehl (C-0002) — COO",
+      "detail": "Lusha CSV shows email dkoehl@covenantlogistics.com but did NOT assign a confidence rating (earlier export date 2024-12-10 vs 2026-02-17 for others). Verify before Day 1 send.",
+      "required_action": "LinkedIn-verify or cross-reference email pattern.",
+      "status": "open"
+    }
+  ],
+  "offer_pricing": {
+    "recommended_tier": "Dedicated Proprietary (multi-space)",
+    "pricing_notes": "3,000+ truck fleet is the definitive Dedicated Proprietary target — potentially the largest founding member candidate in the pipeline. At this fleet scale, discuss multi-space commitment: 3-5 founding member spaces at $100K each (80% refundable per space) + $13/day per space. Total commitment: $300K-$500K with 80% refundable = $60K-$100K net exposure. At $1.16B revenue, even $500K is 0.04% of annual revenue — well below any material commitment threshold. Finance Option available ($10K/mo × 12 per space) but unlikely needed at this revenue scale. Frame as founding member at the flagship level — Covenant would be the anchor tenant that defines Phase One.",
+    "capex_comparison_notes": "Covenant invested in a state-of-the-art training center, orientation campus, and driver facilities in Chattanooga. They understand the cost of purpose-built driver infrastructure. Traditional terminal: $165K/space. LHS Dedicated Proprietary: $100K/space, 80% refundable = $20K net per space. For a fleet that doesn't have a Memphis terminal despite massive corridor traffic, LHS offers terminal-quality access at a fraction of build cost. CapEx comparison for Tripp Grant (CFO): 5 spaces × $100K = $500K, 80% refundable = $100K net exposure + $13/day/space × 365 = $23,725/yr. Total Year 1: ~$124K. Compare: building a 5-space terminal from scratch = $825K+. Net savings: $700K+ with zero construction risk."
+  },
+  "engagement": {
+    "stage": "target",
+    "events": [],
+    "last_outreach_at": null,
+    "next_step": "Source David Parker and Tripp Grant contact info. Source missing emails for Johnson, Ballard, Duncan. Verify Koehl email. Resolve Mahaney/Loomer subsidiary questions. Then Day 1: JJ to Bunn + Koehl + Childs."
+  },
+  "chip_assessment": {
+    "priority": "high",
+    "standout_contact_id": "C-0001",
+    "key_risks": [
+      "DAVID PARKER NOT IN CSV: The founder/Chairman/CEO — the ultimate decision-maker at a company literally named after his covenant — is missing from the contact list. Jeff cannot effectively approach Covenant without Parker access. This is Flag #1.",
+      "CFO NOT IN CSV: Tripp Grant controls capital allocation and has publicly stated 2026 priority is deleveraging. Any investment conversation requires his buy-in.",
+      "PUBLIC COMPANY COMPLEXITY: NYSE-listed means board oversight, public disclosure requirements, and formal decision processes. $100K is immaterial, but the founding member story could require disclosure if Covenant wants to publicize it.",
+      "DELEVERAGING PRIORITY: Net indebtedness rose $76.7M in 2025 to $296M. 2026 focus is selling equipment and paying debt. New capital commitments face scrutiny — though $100K at $1.16B revenue is immaterial.",
+      "Q4 2025 GAAP LOSS: $18.3M net loss driven by impairments and insurance settlements. Optics of adding a new expenditure in a loss quarter may be challenging internally.",
+      "GEOGRAPHIC DISTANCE: Chattanooga is 340 miles from West Memphis. Not a home-field carrier. The pitch relies on 'your fleet transits the corridor' rather than 'you're right here.'",
+      "TWO UNKNOWN CEOs: Mahaney and Loomer listed as CEO in CSV but appear to be subsidiary/affiliated roles. Sending to the wrong person as 'CEO' when David Parker is the actual CEO would be embarrassing.",
+      "15 CONTACTS = MULTI-THREADING ADVANTAGE: With 15 contacts across ops, strategy, sales, safety, recruiting, and innovation, there are multiple entry points. If the C-suite doesn't respond, VP-level engagement can build internal advocacy."
+    ],
+    "close_path": "1) Source David Parker and Tripp Grant contacts — #1 priority. 2) Resolve Mahaney/Loomer roles. Source missing emails. 3) Day 1: JJ emails Bunn (President), Koehl (COO), and Childs (VP Strategic Ops) with I-40/I-55 infrastructure case and values alignment message. 4) Day 2: JJ emails Kern (Network Strategy), Farah (Sales), Acker (Ops), and Ballard (People & Safety) if emails sourced. 5) Day 5: Phone follow-up to Bunn. Jeff emails Parker if sourced. 6) If Bunn or Parker engages: schedule Carrier Calculator demo with Kern and Childs in the room. Model 3,000-truck fleet through I-40/I-55 interchange. 7) Propose multi-space Dedicated Proprietary as anchor founding member. 8) If David Parker engages directly: this becomes a Jeff-to-Parker relationship, founder-to-founder, values-aligned infrastructure conversation. Parker could decide in one meeting — he's the founder and chairman.",
+    "company_intel_summary": "Covenant Logistics Group (NYSE: CVLG) is a $1.16B Chattanooga-based carrier operating 3,000+ trucks and 7,000+ trailers across all 50 states, with sister companies in Arkansas and Tennessee. Founded in 1986 by David and Jacqueline Parker with 25 trucks and a values-based culture rooted in faith. Four operating segments: Expedited, Dedicated, Managed Freight, and Warehousing. Currently navigating margin pressure (Q4 2025 GAAP loss from impairments and insurance) with 2026 focused on deleveraging, but revenue growing to all-time highs and winning business at better rates. The company invests heavily in driver infrastructure (state-of-the-art Chattanooga campus) but has no Memphis/West Memphis terminal despite massive fleet volume through the corridor.",
+    "maverick_relevance": "Covenant Logistics is the highest-profile Tennessee carrier in the pipeline. If they become a founding member, the story is enormous: a $1.16B NYSE carrier — Top 25 in America — anchoring LHS Phase One. This validates the entire concept at the institutional level. For Jeff's conversations with Wall Street, with other carriers, with the press: 'Covenant Logistics is a founding member' changes every subsequent conversation. David Parker is an industry figure — keynote speakers at FreightWaves, quoted in every trucking publication. His endorsement of LHS would be the single most valuable validation in the pipeline. Additionally: the faith-based culture creates a unique alignment. Parker's covenant was to do things the right way. LHS is infrastructure built on the same principle. This isn't just a business transaction — it's a shared mission."
+  },
+  "trevor_feedback": {
+    "is_skip": false,
+    "skip_reason": "",
+    "filter_rule": "",
+    "skip_pattern_type": ""
+  },
+  "outreach_assets": {
+    "email_sequences": []
+  },
+  "flags": [],
+  "next_actions": [
+    "SOURCE DAVID PARKER contact info (Chairman/CEO) — critical path item",
+    "Source Tripp Grant (CFO) contact info",
+    "Source Joey Ballard email (EVP People & Safety)",
+    "Source Eric Johnson email (SVP Operations)",
+    "Source Matt Duncan email (VP Driver Recruiting)",
+    "Verify Dustin Koehl email confidence",
+    "LinkedIn-verify Michael Mahaney — Covenant subsidiary CEO or separate entity?",
+    "LinkedIn-verify Scott Loomer — Covenant subsidiary CEO or misclassification?",
+    "Jeff connect with David Parker on LinkedIn",
+    "JJ connect with Paul Bunn on LinkedIn",
+    "Once flags resolved: Day 1 emails to Bunn + Koehl + Childs",
+    "Prepare Carrier Calculator model for 3,000-truck fleet"
+  ],
+  "rep_notes": [],
+  "notes": [],
+  "timestamps": {
+    "created_at": "2026-03-04T00:00:00Z",
+    "updated_at": "2026-03-04T00:00:00Z"
+  }
+}
