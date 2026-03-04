@@ -1,0 +1,139 @@
+{
+  "__path__": "/linehaul-station/drivers/DRV-25DFA2-2601-01.json",
+  "schema_version": "2.0",
+  "entity_type": "driver",
+  "id": "DRV-25DFA2-2601-01",
+  "status": "prospect",
+  "portal_identity": {
+    "handle": "",
+    "display_name": "Michael Meyer",
+    "profile_photo_asset_id": "",
+    "avatar_asset_id": "",
+    "member_no": "DRV-25DFA2-2601-01",
+    "portal_status": "invited",
+    "invite_link_hash": "",
+    "joined_at": ""
+  },
+  "credibility": {
+    "verified_member": false,
+    "verified_at": null,
+    "code_of_conduct": {
+      "accepted": false,
+      "accepted_at": null,
+      "version": ""
+    },
+    "membership_standing": "good"
+  },
+  "ownership": {
+    "assigned_to": "",
+    "last_touched_by": "lulu_import",
+    "last_touched_at": "2026-03-03T23:42:31Z"
+  },
+  "origin": {
+    "source": "member_signup",
+    "source_carrier_id": null,
+    "automator_contact_id": "nyK6vK9YbhvAWdDdtbFR",
+    "raw_tags": [
+      "lead - new lead",
+      "owner operator",
+      "invited1"
+    ]
+  },
+  "visibility": {
+    "scope": "public_member",
+    "allowed_carrier_ids": []
+  },
+  "authority_id": null,
+  "employment": {
+    "carrier_id": null,
+    "carrier_name": "Meyer trucking",
+    "type": "owner_operator"
+  },
+  "profile": {
+    "legal_name": "",
+    "dba": "Meyer trucking",
+    "phone": "+15026502845",
+    "email": "meyertrucking69@outlook.com",
+    "domicile": ""
+  },
+  "private_profile": {
+    "cdl_number": "",
+    "cdl_state": "",
+    "identity_verification": {
+      "dob_on_file": false,
+      "ssn_last4_on_file": false,
+      "verified_via": null,
+      "verified_at": null
+    }
+  },
+  "professional_profile": {
+    "years_experience": null,
+    "equipment_types": [],
+    "route_experience": [],
+    "certifications": [],
+    "bio_120": ""
+  },
+  "skills_self_reported": {
+    "scale": {
+      "min": 1,
+      "max": 5
+    },
+    "updated_at": null,
+    "ratings": {
+      "dry_van": null,
+      "reefer": null,
+      "flatbed": null,
+      "tanker": null,
+      "night_driving": null,
+      "weather_conditions": null,
+      "urban_tight_docks": null,
+      "long_haul_endurance": null,
+      "drop_hook": null,
+      "yard_moves": null,
+      "terminal_operations": null,
+      "linehaul_familiarity": null,
+      "time_management": null,
+      "communication": null,
+      "safety_mindset": null,
+      "facility_respect": null
+    }
+  },
+  "intent": {
+    "open_to_opportunities": false,
+    "preferred_work_styles": []
+  },
+  "pipeline": {
+    "stage": "contacted",
+    "entered_stage_at": "2026-01-14T22:05:18Z",
+    "source": "automator_csv",
+    "referral_id": ""
+  },
+  "financials": {
+    "target_rpm": 0,
+    "current_rpm": 0,
+    "weekly_revenue_target": 0,
+    "settlement_frequency": "weekly",
+    "calculator_scenarios": []
+  },
+  "compliance": {
+    "insurance_verified": false,
+    "authority_active": false,
+    "safety_rating": "",
+    "last_compliance_check": ""
+  },
+  "flags": [
+    "invited1"
+  ],
+  "next_actions": [],
+  "notes": [],
+  "metrics": {
+    "loads_completed": 0,
+    "on_time_pct": 0,
+    "avg_rpm_actual": 0,
+    "revenue_mtd": 0
+  },
+  "timestamps": {
+    "created_at": "2026-01-14T22:05:18Z",
+    "updated_at": "2026-03-03T23:42:31Z"
+  }
+}
