@@ -1,0 +1,487 @@
+{
+  "__path__": "/linehaul-station/carriers/CAR-0008.json",
+  "schema_version": "3.3",
+  "entity_type": "carrier",
+  "id": "CAR-0008",
+  "status": "target",
+  "metadata": {
+    "dossier_version": 1,
+    "source_csv_reference": "Mid_South_Transport.csv (Lusha export, 2024-12-16 / 2026-02-16)",
+    "created_by": "Chip",
+    "github_path": "JSONS/CAR/CAR-0008.json"
+  },
+  "ownership": {
+    "assigned_to": "JJ",
+    "last_touched_by": "Chip",
+    "last_touched_at": "2026-03-04T00:00:00Z"
+  },
+  "profile": {
+    "company_name": "Mid South Transport, Inc.",
+    "website": "https://midsouthtransport.com",
+    "hq_city": "Memphis",
+    "hq_state": "TN",
+    "founded_year": 1982,
+    "employee_range": "201-500 (Lusha) / 110 trucks + 100 drivers (FMCSA) / 125 drivers referenced in 2021 news",
+    "naics_code": "484121",
+    "sic_code": "4213",
+    "description": "Memphis-headquartered truckload carrier and warehousing company established 1982. Fleet of 110+ power units (Cascadia Freightliners, average ~5 years old) running throughout MidSouth, Southeast, Southwest, Northeast, Midwest, California, and Ontario/Canada. HQ at 2765 Profit Drive, Memphis, TN 38132 — directly in the Memphis logistics corridor near the airport and I-55. Distribution centers in Memphis, TN and Smyrna, TN (near Nashville). U.S. Customs Class 3 bonded carrier. SmartWay Transport Partner. C-TPAT certified. Services: full truckload, warehousing (100K sq ft), distribution, re-packaging, re-labeling, order pick-and-pull, brokerage division. Serves automotive parts, retail, electronics, raw materials for manufacturing. Revenue ~$15M (D&B). USDOT 286319 / MC 168849. HAZMAT certified. Irregular route truck line serving 48 states and Canada. This is a LOCAL MEMPHIS carrier — their trucks originate from the Memphis logistics hub every day.",
+    "specialties": [
+      "Full Truckload (dry van)",
+      "Warehousing (100K sq ft, customs bonded)",
+      "Distribution / Cross-Docking",
+      "Re-packaging / Re-labeling",
+      "Order Pick and Pull",
+      "Brokerage Division",
+      "HAZMAT",
+      "U.S. Customs Bonded (Class 3)",
+      "C-TPAT Certified",
+      "SmartWay Partner",
+      "Container Freight Station"
+    ],
+    "operating_regions": [
+      "MidSouth (TN, MS, AR, AL, KY)",
+      "Southeast",
+      "Southwest",
+      "Northeast",
+      "Midwest",
+      "California",
+      "Ontario, Canada"
+    ],
+    "corridor_alignment_notes": "MAXIMUM GEOGRAPHIC ALIGNMENT. Mid South Transport is headquartered in Memphis, TN — the same metro area as the LHS Phase One site in West Memphis, AR. Their HQ at 2765 Profit Drive is approximately 15 miles from the I-40/I-55 interchange. Every truck in their 110-unit fleet originates from or returns to Memphis. Their drivers live in the Memphis metro (901 area codes across all contacts, including Hernando MS and Millington TN — both Memphis suburbs). The West Memphis LHS facility would literally be part of their daily operations. Distribution centers in Memphis and Smyrna (Nashville) — both directly on the I-40 corridor. This is not 'their trucks pass through' — this is 'their trucks live here.'"
+  },
+  "authority_id": "AUTH-0008",
+  "external_refs": {
+    "crm_id": "",
+    "carrier_pack_url": "",
+    "usdot": "286319",
+    "mc_number": "168849"
+  },
+  "classification": {
+    "model": "carrier",
+    "confidence": "high",
+    "naics_vs_description_conflict": false,
+    "disqualifiers": [],
+    "notes": "Clear carrier model with warehousing and brokerage divisions. NAICS 484121 matches. Primary business is asset-based truckload with 110+ trucks. Warehousing and brokerage are complementary divisions, not the core. Description confirms 'fleet of over 100 power units' — asset-based carrier."
+  },
+  "fit_score": {
+    "total": 8.9,
+    "breakdown": {
+      "geography_corridor": 10.0,
+      "fleet_scale_model": 7.5,
+      "operating_history": 8.5,
+      "contact_quality": 8.0,
+      "strategic_signals": 10.0
+    },
+    "rationale": "GEOGRAPHY (10.0): PERFECT SCORE. Mid South Transport is headquartered in Memphis, TN — 15 miles from the LHS Phase One site at the I-40/I-55 interchange in West Memphis. Every truck in their fleet starts and ends in Memphis. Their drivers live here. Their distribution center is here. This is as close to a home-field carrier as it gets. The only way to score higher would be if they were headquartered in West Memphis itself. FLEET SCALE (7.5): 110 trucks, 100 drivers per FMCSA. Right at the boundary of Flex Proprietary (25-100) and Dedicated Proprietary (100+). At 110 trucks, Dedicated Proprietary is technically appropriate, but Flex Proprietary may be a better initial entry given revenue of ~$15M. The fleet is Freightliner Cascadias with e-logs, Qualcomm, APUs, transponders — modern equipment. Drivers average 2,500 miles/week. OPERATING HISTORY (8.5): Founded 1982 — 43+ years in Memphis. Ronnie Lancaster has been with the company since 1986 (39 years). This is a deeply rooted Memphis institution. Customs bonded since early days. Multiple industry certifications (SmartWay, C-TPAT, Customs Class 3). Strong safety record. CONTACT QUALITY (8.0): 4 contacts but they're the right 4: President, EVP, VP, and a second President-level contact. Direct C-suite access in a 4-person CSV is excellent. All 901 area codes. Kent Long's email is confirmed on the company website. Two emails (Lancaster, Kennedy) lack Lusha confidence scores but are confirmed via other sources. EVP Shinault has no email. Missing: Michael Heath (CEO per TheOrg) and a CFO. STRATEGIC SIGNALS (10.0): PERFECT SCORE. This carrier IS the LHS Phase One story. A Memphis-headquartered carrier whose entire fleet operates from the exact market LHS Phase One serves. If Mid South Transport becomes a founding member, it validates the entire West Memphis thesis — a local carrier saying 'this is exactly what we need, right where we are.' Every subsequent carrier pitch can reference this. Additionally: Ronnie Lancaster (President) is a 39-year Memphis trucking veteran AND a retired Reserve Deputy Sheriff (Shelby County, 30 years) — deeply embedded in the Memphis community. The 'Memphis trucking family' connection is real."
+  },
+  "contacts": [
+    {
+      "contact_id": "C-0001",
+      "name": "Kent Long",
+      "title": "President / COO",
+      "email": "kentl@midsouthtransport.com",
+      "email_confidence": "confirmed_website",
+      "alt_email": null,
+      "phone": "+1 901-486-4077",
+      "phone_alt": "+1 901-332-8600 ext. 105",
+      "linkedin_url": "https://www.linkedin.com/in/kent-long-b4b0a5116",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "ANCHOR CONTACT. Kent Long is listed as President in the Lusha CSV and his email is published on the company contact page. Other sources list him as COO — title may have evolved. His LinkedIn confirms: 'Currently President of Mid South Transport. We are a full truckload carrier based in Memphis TN. We currently operate over 100 power units, we also have a brokerage division and operate a 100K square foot warehouse.' He IS the operating leader. Lead with: 'Kent — you're running 100+ trucks out of Memphis every day. We're building something 15 miles west of your yard at the I-40/I-55 interchange. 20 minutes this week?' This is a neighbor-to-neighbor conversation.",
+      "personality_read": "Millington, TN (north Memphis suburb). LinkedIn shows personal posts about family and faith alongside business. Approachable, community-oriented, hands-on operator. Likely knows every driver by name at 100-truck scale.",
+      "influence_level": "decision_maker",
+      "communication_tone": "direct_relational",
+      "flags": [],
+      "enrichment": {
+        "status": "partial",
+        "source": "lusha+website+linkedin",
+        "enriched_at": "2026-03-04T00:00:00Z",
+        "linkedin_url": "https://www.linkedin.com/in/kent-long-b4b0a5116",
+        "bio_summary": "President/COO of Mid South Transport. Memphis-based operator running 100+ trucks, brokerage division, and 100K sq ft warehouse. Based in Millington, TN.",
+        "career_highlights": [],
+        "signals": ["Hands-on operator at mid-size carrier", "Memphis native/resident", "Published on company contact page"],
+        "communication_style": "direct",
+        "motivators": ["Fleet efficiency", "Driver satisfaction", "Memphis community"],
+        "watchouts": ["Mid-size carrier President = wears many hats, may be hard to reach", "Likely skeptical of outside sales pitches"],
+        "likely_objections": ["We're right here in Memphis, we don't need a terminal in West Memphis", "Our drivers come home every night, they don't need truck stop alternatives", "We're a $15M company, $100K is a big number"],
+        "recommended_angle": ["Neighbor pitch: 'We're building 15 miles from your yard'", "Driver staging for OTR runs originating from Memphis", "Warehousing/cross-dock synergy with LHS Cross Dock facility"],
+        "approach_summary": "Kent is the operational heart of Mid South Transport. He runs a tight ship with 100+ trucks out of Memphis. The pitch isn't 'your drivers need a place to rest' — at 100 trucks many of his OTR drivers DO come home to Memphis. The pitch is: 'LHS is a professional infrastructure extension of your Memphis operation — maintenance, truck wash, cross-dock, and a home for your drivers when they're NOT in Memphis. And for the runs that do stage through West Memphis, your drivers get a private club instead of a truck stop.' Keep it local, keep it real."
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": "Deep Memphis trucking operator"
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Michael Heath (CEO per TheOrg) and/or Ronnie Lancaster (President/Owner)",
+        "internal_allies": null,
+        "budget_authority": "yes"
+      }
+    },
+    {
+      "contact_id": "C-0002",
+      "name": "Ronnie Lancaster",
+      "title": "President / Owner",
+      "email": "ronl@midsouthtransport.com",
+      "email_confidence": "unconfirmed",
+      "alt_email": null,
+      "phone": "+1 901-508-9503",
+      "linkedin_url": "https://www.linkedin.com/in/ronaldelancaster",
+      "priority_tier": "tier1",
+      "sender": "Jeff",
+      "strategic_angle": "FOUNDER-LEVEL CONTACT. Ronnie Lancaster has been with Mid South Transport since 1986 — 39 years. He's listed as President and is likely the owner or co-owner. University of Memphis graduate. Also served as Reserve Deputy Sheriff for Shelby County for 30 years (retired as Reserve Chief). This is a Memphis institution embedded in a Memphis institution. Jeff approaches as a peer builder: 'You've been running trucks out of Memphis for nearly 40 years. I've spent 40 years building projects. Here's what we're building in your backyard.' Lancaster is the relationship. Long is the operations.",
+      "personality_read": "39 years at one company. 30 years as a Reserve Deputy Sheriff. University of Memphis. This is a deeply rooted Memphis man — loyal, community-focused, law enforcement discipline, long-term thinker. Not a corporate executive; a Memphis trucking lifer.",
+      "influence_level": "decision_maker",
+      "communication_tone": "peer_relational",
+      "flags": ["unconfirmed_email", "dual_president_title"],
+      "enrichment": {
+        "status": "partial",
+        "source": "lusha+linkedin+news",
+        "enriched_at": "2026-03-04T00:00:00Z",
+        "linkedin_url": "https://www.linkedin.com/in/ronaldelancaster",
+        "bio_summary": "President of Mid South Transport since 1986 (39 years). University of Memphis graduate. Retired Reserve Chief, Shelby County Sheriff's Office (30 years of service, 1981-2011). Memphis native. Deeply embedded in Memphis trucking and law enforcement communities.",
+        "career_highlights": [
+          "39 years at Mid South Transport (since 1986)",
+          "Retired Reserve Chief, Shelby County Sheriff's Office (30 years)",
+          "University of Memphis graduate"
+        ],
+        "signals": ["Extreme tenure = loyalty and stability", "Law enforcement background = discipline and community service", "Memphis lifer"],
+        "communication_style": "direct",
+        "motivators": ["Memphis community", "Company legacy", "Employee welfare", "Long-term stability"],
+        "watchouts": ["Do NOT hard-sell a 39-year Memphis veteran", "Respect the legacy and the tenure", "He's seen every pitch and every trend come and go"],
+        "likely_objections": ["We've been doing fine for 43 years without this", "West Memphis isn't Memphis", "What happens if LHS doesn't work out"],
+        "recommended_angle": [
+          "Jeff founder-to-founder: 'You built this company in Memphis. I'm building infrastructure for Memphis carriers like yours.'",
+          "Community angle: 'This is a Memphis project for Memphis companies.'",
+          "Legacy angle: 'You've invested 40 years in this company. LHS invests in making Memphis the freight infrastructure capital of the Mid-South.'"
+        ],
+        "approach_summary": "Ronnie Lancaster is Mid South Transport. 39 years. He likely remembers when they had 10 trucks. Jeff approaches with respect for the legacy, references the Memphis community connection, and frames LHS as something built FOR Memphis carriers — not sold TO them. This is not a pitch. It's an invitation from one builder to another."
+      },
+      "career_context": {
+        "tenure_estimate": "39 years (1986-present)",
+        "career_trajectory": "Joined 4 years after founding → rose to President/Owner",
+        "previous_companies": ["Shelby County Sheriff's Office (Reserve, 30 years concurrent)"],
+        "industry_depth": "39+ years in Memphis trucking"
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Board / self (likely owner or co-owner)",
+        "internal_allies": "Kent Long (President/COO)",
+        "budget_authority": "yes"
+      }
+    },
+    {
+      "contact_id": "C-0003",
+      "name": "Bill Shinault",
+      "title": "Executive Vice President",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 901-379-1641",
+      "phone_alt": "+1 901-246-4144",
+      "linkedin_url": "https://www.linkedin.com/in/bill-shinault-2b16349",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "EVP — likely the #3 executive behind Lancaster and Long. Based in Hernando, MS — that's DeSoto County, directly across the state line from Memphis, and geographically even closer to West Memphis than Memphis proper. His daily commute may cross the Mississippi River corridor. EVP at a 110-truck carrier = major operational authority. The pitch: same infrastructure angle as Long, but acknowledge the DeSoto County / North Mississippi connection.",
+      "personality_read": "Hernando, MS (Memphis suburb). EVP at a Memphis carrier. Two phone numbers suggest high availability. Listed as colleague of Lancaster and Long on multiple sources.",
+      "influence_level": "decision_maker",
+      "communication_tone": null,
+      "flags": ["missing_email"],
+      "enrichment": {
+        "status": "pending",
+        "source": null,
+        "enriched_at": null,
+        "linkedin_url": "https://www.linkedin.com/in/bill-shinault-2b16349",
+        "bio_summary": null,
+        "career_highlights": [],
+        "signals": ["Hernando MS = DeSoto County, Memphis metro", "EVP = top 3 executive"],
+        "communication_style": null,
+        "motivators": [],
+        "watchouts": [],
+        "likely_objections": [],
+        "recommended_angle": ["Same as Long but with DeSoto County geographic proximity"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Ronnie Lancaster / Kent Long",
+        "internal_allies": null,
+        "budget_authority": "likely"
+      }
+    },
+    {
+      "contact_id": "C-0004",
+      "name": "Ron Kennedy",
+      "title": "Vice President / VP of Operations",
+      "email": "ronk@midsouthtransport.com",
+      "email_confidence": "unconfirmed",
+      "alt_email": null,
+      "phone": "+1 901-262-9239",
+      "linkedin_url": "https://www.linkedin.com/in/ron-kennedy-158585103",
+      "priority_tier": "tier1",
+      "sender": "JJ",
+      "strategic_angle": "VP of Operations (confirmed via 2021 news article where he's quoted as 'VP of Operations Ronnie Kennedy'). CSV lists him as VP. He owns the day-to-day fleet operations. Lead with specific operational value: 'Ron — your drivers are averaging 2,500 miles/week out of Memphis. When they stage through the I-40/I-55 interchange heading west, here's what they'll have access to.' This is the operational detail conversation — driver routing, staging, maintenance access.",
+      "personality_read": "Memphis-based. Quoted in local news about driver shortages. Operations-focused, understands the daily grind of running trucks.",
+      "influence_level": "decision_maker",
+      "communication_tone": "operational",
+      "flags": ["unconfirmed_email"],
+      "enrichment": {
+        "status": "partial",
+        "source": "lusha+news",
+        "enriched_at": "2026-03-04T00:00:00Z",
+        "linkedin_url": "https://www.linkedin.com/in/ron-kennedy-158585103",
+        "bio_summary": "VP of Operations at Mid South Transport. Memphis-based. Quoted in 2021 LocalMemphis news story about driver shortages and hiring challenges.",
+        "career_highlights": [],
+        "signals": ["Quoted in local press = public-facing executive", "Operations focused"],
+        "communication_style": "operational",
+        "motivators": ["Driver hiring", "Driver retention", "Fleet efficiency"],
+        "watchouts": [],
+        "likely_objections": ["Our drivers come home to Memphis — they don't need a West Memphis facility", "We can't spare the budget right now"],
+        "recommended_angle": ["Operational: staging, maintenance, driver amenities at I-40 interchange", "Driver hiring/retention tool (he's publicly spoken about shortages)"],
+        "approach_summary": null
+      },
+      "career_context": {
+        "tenure_estimate": null,
+        "career_trajectory": null,
+        "previous_companies": [],
+        "industry_depth": null
+      },
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Kent Long",
+        "internal_allies": null,
+        "budget_authority": "departmental"
+      }
+    }
+  ],
+  "strategic_positioning": {
+    "win_thesis": "Mid South Transport IS the LHS Phase One story. A 43-year-old, 110-truck Memphis carrier whose entire fleet originates from the Memphis logistics hub, 15 miles from the West Memphis LHS site. Their President has been here for 39 years. Their VP Ops has been quoted in local news about driver shortages. They are SmartWay, C-TPAT, and Customs bonded — a professional, established operation that would validate the LHS West Memphis thesis from Day One. If Mid South Transport becomes a founding member, every subsequent carrier pitch starts with: 'The Memphis carriers are already in.'",
+    "pain_points": [
+      {
+        "pain": "Driver shortage and hiring competition in Memphis market",
+        "confidence": "confirmed",
+        "detail": "Ron Kennedy (VP Ops) and Ronnie Lancaster (President) were quoted in 2021 Memphis news about acute driver shortages. Lancaster said they had 125 drivers but could hire 300. Kennedy noted 'we are not where we want to be.' The Memphis market has fierce competition for CDL drivers — FedEx, XPO, Yellow (now defunct), and dozens of carriers all compete for the same labor pool."
+      },
+      {
+        "pain": "OTR driver quality-of-life away from Memphis",
+        "confidence": "high",
+        "detail": "Drivers average 2,500 miles/week — they're running OTR, not local delivery. When they're 500 miles from Memphis, they're at truck stops. LHS extends the quality of their Memphis home base to the road."
+      },
+      {
+        "pain": "Fleet maintenance away from Profit Drive yard",
+        "confidence": "medium",
+        "detail": "110-truck fleet with a full shop at HQ. But when trucks are 500 miles out on I-40 heading west, maintenance means a TA/Petro or worse. LHS Fleet Maintenance Center at the I-40 interchange provides professional maintenance in the corridor."
+      },
+      {
+        "pain": "Mid-size carrier competing against mega-fleets for customers",
+        "confidence": "medium",
+        "detail": "At ~$15M revenue and 110 trucks, Mid South competes against carriers 10-100x their size. Founding membership in LHS gives them a story: 'We offer our drivers access to purpose-built terminal infrastructure — something most carriers our size can't.' Competitive differentiation."
+      }
+    ],
+    "competitive_angle": "Mid South Transport has been a Memphis trucking pillar for 43 years. They've survived every cycle. But the Memphis market is getting more competitive — for drivers AND customers. LHS gives a 110-truck carrier access to infrastructure that only mega-fleets can afford to build. The founding member story: 'We were the first Memphis carrier to see what LineHaul Station means for our drivers and our customers.' That's a competitive advantage money can't buy.",
+    "leverage_points": [
+      "Memphis HQ — 15 miles from LHS Phase One. This is the local champion opportunity.",
+      "43-year operating history in Memphis. Institutional credibility.",
+      "Ronnie Lancaster: 39 years at the company + 30 years Shelby County law enforcement. Memphis royalty.",
+      "Ron Kennedy publicly quoted about driver shortage pain — LHS directly addresses recruiting/retention.",
+      "All 901 area codes — every contact is Memphis metro. This is a Memphis family business.",
+      "Customs bonded, C-TPAT, SmartWay — professional certifications show operational sophistication.",
+      "Warehousing + trucking + brokerage = multi-service operator who understands infrastructure value.",
+      "Distribution centers in Memphis AND Smyrna (Nashville) — both on I-40 corridor.",
+      "Cascadia Freightliners with APUs, e-logs, in-cab scanners — modern fleet investment.",
+      "110 trucks = right at Dedicated Proprietary threshold. Can be a flagship mid-size founding member."
+    ],
+    "objection_map": [
+      {
+        "objection": "Our drivers come home to Memphis — they don't need a West Memphis facility",
+        "response": "Some of your drivers are home every night. But the ones running 2,500 miles/week OTR? They're staging through West Memphis heading west on I-40 or south on I-55. And even for the ones who are home — wouldn't you rather they stage at a private facility 15 minutes from your yard instead of a truck stop? Truck wash, maintenance, cross-dock, all at the I-40 interchange."
+      },
+      {
+        "objection": "We're a $15M company — $100K is a big number for us",
+        "response": "I hear that. Two things: first, 80% is refundable — so your actual exposure is $20K. Second, the Finance Option spreads it to $10K/month for 12 months. But let me give you the real number: at 110 trucks, even one prevented breakdown on the road saves you $5K-10K in tow and emergency repair costs. LHS Fleet Maintenance at the interchange pays for itself. And the Flex Proprietary option (reserved days × tier rate) may be an even better fit if you want to start smaller."
+      },
+      {
+        "objection": "West Memphis isn't Memphis — our yard is on Profit Drive",
+        "response": "West Memphis is 15 minutes from Profit Drive across the bridge. Your drivers already know the interchange. LHS isn't replacing your yard — it's extending it to the interstate. Think of it as your west-side facility: truck wash, maintenance, cross-dock, driver amenities, all at the I-40/I-55 interchange where your OTR fleet stages every day."
+      },
+      {
+        "objection": "We've been doing fine for 43 years without this",
+        "response": "You have — and that's exactly why we want you at the table. LHS is being built for carriers like Mid South Transport — the ones who've been doing this for decades and know what good infrastructure looks like. The carriers who become founding members shape what this facility becomes. Your 43 years of Memphis trucking knowledge is exactly the voice we need."
+      }
+    ]
+  },
+  "playbook": {
+    "first_touch": {
+      "channel": "email + phone",
+      "sender": "JJ to Kent Long (President/COO) and Ron Kennedy (VP Ops). Jeff to Ronnie Lancaster (President/Owner).",
+      "angle_summary": "This is a local conversation, not a cold pitch. JJ and Jeff are building something 15 minutes from their yard. The message: 'We're your new neighbors, and we built this for carriers like you.' Phone follow-up is appropriate here — this is a Memphis-to-Memphis call, not a cold outreach from somewhere else.",
+      "tone": "Neighborly, specific, Memphis-proud. Reference Profit Drive, the I-40 interchange, the Memphis logistics market. This should feel like someone from down the road introducing themselves, not a corporate sales pitch."
+    },
+    "sequence_recommendation": [
+      {
+        "step": "pre_send",
+        "action": "Source Bill Shinault email. Verify Lancaster and Kennedy email confidence. Source Michael Heath (CEO per TheOrg) contact info if he's a current executive. LinkedIn-verify Kent Long's current title (President vs COO).",
+        "owner": "JJ"
+      },
+      {
+        "step": "day1",
+        "action": "JJ emails Kent Long — neighbor pitch, I-40 interchange, 15 minutes from your yard. JJ emails Ron Kennedy — operational infrastructure, driver staging, maintenance. Jeff emails Ronnie Lancaster — builder-to-builder, Memphis legacy, invitation to the table. Phone follow-up same day if possible — this is local.",
+        "owner": "JJ + Jeff"
+      },
+      {
+        "step": "day2",
+        "action": "JJ calls Kent Long at office (901-332-8600 ext. 105). JJ emails Bill Shinault if email sourced — EVP, Hernando MS, geographic proximity angle.",
+        "owner": "JJ"
+      },
+      {
+        "step": "day3",
+        "action": "If no email response: JJ calls Ron Kennedy mobile. Jeff calls Ronnie Lancaster mobile. This is a 4-person company leadership — persistence is appropriate, aggressive tactics are not.",
+        "owner": "JJ + Jeff"
+      },
+      {
+        "step": "day5",
+        "action": "If no response to any channel: drop by Profit Drive. Seriously. This is a Memphis carrier 15 miles away. A site visit invitation hand-delivered is more appropriate than another email. Bring the site plans.",
+        "owner": "Jeff + JJ"
+      },
+      {
+        "step": "day7plus",
+        "action": "If engaged: schedule site visit to West Memphis. Offer Carrier Calculator demo showing 110-truck fleet economics. If interested but cautious: suggest Flex Proprietary (reserved days) as a lower-commitment entry point. If no interest: maintain relationship — this carrier is too local to lose. Re-engage when Phase One construction is visible.",
+        "owner": "JJ + Jeff"
+      }
+    ],
+    "escalation_trigger": "At a 110-truck Memphis carrier with 4 executives, traditional 'escalation' doesn't apply. If the President doesn't respond, you walk over and shake hands. Jeff and JJ should treat this like a local business relationship, not a sales funnel.",
+    "approach_flags": {
+      "jeff_should_enter": true,
+      "jeff_should_enter_rationale": "Ronnie Lancaster is a 39-year Memphis trucking veteran and retired Reserve Chief Deputy. Jeff approaches as a peer — builder to builder, Memphis neighbor to Memphis neighbor. This is Jeff's conversation from Day 1.",
+      "video_outreach_appropriate": true,
+      "video_outreach_rationale": "A video from the LHS West Memphis site pointing back toward Memphis: 'That's Profit Drive right over there' — would be incredibly compelling for a carrier 15 miles away.",
+      "linkedin_tagging_appropriate": true,
+      "linkedin_tagging_rationale": "Long and Lancaster both have LinkedIn profiles. Jeff should connect personally.",
+      "in_person_visit_appropriate": true,
+      "in_person_visit_rationale": "ABSOLUTELY. 2765 Profit Drive is 15 miles from the LHS site. This is not 'should we visit' — it's 'when do we visit.' Bring the site plans, the rendering, and an invitation to drive over to West Memphis and walk the site.",
+      "calculator_demo_appropriate": true,
+      "calculator_demo_rationale": "110-truck fleet. Show the Flex vs. Dedicated comparison. At this fleet size, Flex Proprietary may be the right entry point.",
+      "pricing_in_first_touch": true,
+      "pricing_in_first_touch_rationale": "Carrier model. Include pricing but lead with Flex Proprietary as well as Dedicated. For a ~$15M revenue carrier, Flex may feel more accessible. Mention the Finance Option for Dedicated.",
+      "site_visit_invitation": true,
+      "site_visit_rationale": "Invite them to drive over to West Memphis (15 minutes) and walk the site. This is the highest-value action for a local carrier. Seeing is believing."
+    },
+    "tone_profile": {
+      "company_tone": "Memphis neighbor. Local pride. 'We're building this for Memphis' energy. Do NOT pitch Mid South Transport like an outsider selling a product — pitch like a neighbor sharing plans. Reference Profit Drive, the bridge, the interchange, the Memphis logistics community.",
+      "jj_variant": "Direct, local, operational. 'Kent — I'm JJ Swenson with LineHaul Station. We're building a purpose-built carrier facility at the I-40/I-55 interchange in West Memphis. You're 15 minutes away. Can we show you what we're doing?' Memphis-familiar language.",
+      "jeff_variant": "Peer builder. Memphis community. 'Ronnie — you've been running trucks out of Memphis for 39 years. I've been building projects for 40. We're putting something in West Memphis that I think you need to see. When can we meet?' Personal, respectful, invitation-based.",
+      "model_variant": "carrier"
+    }
+  },
+  "pre_send_flags": [
+    {
+      "flag_id": "F-001",
+      "type": "missing_email",
+      "who_or_what": "Bill Shinault (C-0003) — Executive Vice President",
+      "detail": "No email in Lusha CSV. Hernando, MS based. As EVP he's a critical decision-maker. Company email pattern is first initial + last initial @ midsouthtransport.com (kentl, ronl, ronk). Expected: bills@midsouthtransport.com. DO NOT construct — source via LinkedIn or company main line.",
+      "required_action": "Source email via LinkedIn or call Mid South Transport main line (901-332-8600)",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-002",
+      "type": "unconfirmed_email",
+      "who_or_what": "Ronnie Lancaster (C-0002) — President",
+      "detail": "Lusha CSV did not list email confidence for Lancaster. Email ronl@ follows company pattern. ZoomInfo partially confirms r***@midsouthtransport.com. RocketReach shows a Gmail address. Company website does NOT list Lancaster on the contact page (only Long, Allison, Chism, Manus). May indicate he's less operationally active day-to-day or serves in an ownership/advisory capacity.",
+      "required_action": "Verify email via LinkedIn. Note: Lancaster may be semi-retired or in an ownership role — Long may be the day-to-day operator.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-003",
+      "type": "unconfirmed_email",
+      "who_or_what": "Ron Kennedy (C-0004) — VP / VP Operations",
+      "detail": "Lusha CSV did not list email confidence for Kennedy. Email ronk@ follows company pattern. Title listed as 'Vice President' in CSV but confirmed as 'VP of Operations' in 2021 local news article.",
+      "required_action": "LinkedIn-verify email and current title before Day 1 send",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-004",
+      "type": "dual_president_title",
+      "who_or_what": "Kent Long (C-0001) and Ronnie Lancaster (C-0002) both listed as President",
+      "detail": "CSV lists both as 'President.' Other sources list Long as COO and Lancaster as President. TheOrg shows Michael Heath as CEO and Long as COO. LinkedIn has Long as 'President.' This is likely: Lancaster = Owner/Chairman-equivalent, Long = operating President/COO who runs daily operations. Need to verify roles before assigning sender strategy.",
+      "required_action": "LinkedIn-verify both. Determine who is the day-to-day decision-maker vs. ownership/strategic role. Both get Day 1 outreach regardless.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-005",
+      "type": "missing_contact",
+      "who_or_what": "Michael Heath — CEO per TheOrg",
+      "detail": "TheOrg lists Michael Heath as CEO with Kent Long as COO reporting to him. If Heath is the actual CEO, he's a critical missing contact. However, this may be outdated data or an inactive listing. Company website only lists Long, Allison, Chism, and Manus. Verify if Heath is current.",
+      "required_action": "Verify Michael Heath's role via LinkedIn or company main line. If current CEO, source contact info.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-006",
+      "type": "missing_contact",
+      "who_or_what": "CFO or Controller",
+      "detail": "No finance contact in CSV. For pricing and CapEx conversations, need a finance decision-maker. At a 110-truck carrier, the President may also handle finance — or there may be a controller/bookkeeper. Lower priority but note for later.",
+      "required_action": "Source if needed during engagement. Not required for initial outreach.",
+      "status": "open"
+    }
+  ],
+  "offer_pricing": {
+    "recommended_tier": "Dedicated Proprietary (with Flex Proprietary as alternative entry)",
+    "pricing_notes": "110 trucks puts Mid South right at the Dedicated Proprietary threshold (100+ trucks). However, at ~$15M revenue, the $100K initiation may feel significant. Two-track approach: 1) Lead with Dedicated Proprietary ($100K, 80% refundable = $20K net, $13/day) as the flagship offer — founding member, proprietary access, full benefits. 2) Offer Flex Proprietary (reserved days × tier rate, 80% refundable + $13/day) as an alternative if they want to start smaller and scale. 3) Finance Option ($10K/mo × 12) available for Dedicated if cash flow timing matters. For a local Memphis carrier, the value proposition is different: they don't need rest facilities for long-haul drivers (many come home). They need truck wash, maintenance, cross-dock, and infrastructure that extends their Profit Drive yard westward. Price accordingly.",
+    "capex_comparison_notes": "Mid South already operates distribution centers in Memphis and Smyrna. They understand the cost of facility maintenance, lease, and operation. LHS comparison: instead of leasing or building a second Memphis-area yard with truck wash, maintenance, and cross-dock capability, access LHS at the I-40 interchange for $100K (80% refundable) + $13/day. The cross-dock capability alone may be worth the membership for a carrier with warehousing operations."
+  },
+  "engagement": {
+    "stage": "target",
+    "events": [],
+    "last_outreach_at": null,
+    "next_step": "Resolve pre-send flags. Source Shinault email. Verify Lancaster/Kennedy emails. Clarify Long vs Lancaster roles. Then Day 1: JJ to Long + Kennedy, Jeff to Lancaster."
+  },
+  "chip_assessment": {
+    "priority": "high",
+    "standout_contact_id": "C-0001",
+    "key_risks": [
+      "DUAL PRESIDENT TITLES: Both Long and Lancaster listed as President. Need to clarify who is the operating decision-maker vs. ownership role before outreach to avoid confusion or stepping on toes.",
+      "MICHAEL HEATH CEO: TheOrg lists a CEO not in the CSV. If Heath is the actual CEO, the dossier is missing the top decision-maker. Verify before outreach.",
+      "REVENUE SCALE: At ~$15M revenue, $100K commitment is ~0.7% of annual revenue. Not trivial. Flex Proprietary or Finance Option may be necessary entry points.",
+      "LOCAL CARRIER OBJECTION: 'Our drivers come home to Memphis' is a real objection. The pitch needs to focus on OTR staging, maintenance, truck wash, and cross-dock value — not rest facilities for tired long-haul drivers.",
+      "SMALL CONTACT LIST: Only 4 contacts. Limited ability to multi-thread. If Long and Lancaster both say no, there's nowhere else to go within the org.",
+      "EMAIL CONFIDENCE: 3 of 4 contacts have unconfirmed emails or no email at all. Company website only lists Long's email. Phone outreach may be more effective than email for this carrier."
+    ],
+    "close_path": "1) Resolve pre-send flags — verify emails, clarify roles, check Michael Heath. 2) JJ emails Long and Kennedy Day 1 — neighbor pitch, I-40 interchange, 15 minutes from Profit Drive. Jeff emails Lancaster — builder-to-builder, Memphis legacy invitation. 3) Phone follow-up same day or Day 2 — this is local, phones work. 4) Day 5: if no response, Jeff and JJ drive to 2765 Profit Drive with site plans and a handshake. 5) Offer site visit: 'Drive over to West Memphis with us. 15 minutes. See what we're building.' 6) Calculator demo showing 110-truck economics — Flex vs. Dedicated comparison. 7) Target: in-person meeting within 10 days. This is a local carrier. The timeline is compressed because the proximity is real.",
+    "company_intel_summary": "Mid South Transport is a 110-truck Memphis carrier founded in 1982, headquartered at 2765 Profit Drive — 15 miles from the LHS Phase One site at the I-40/I-55 interchange in West Memphis. Ronnie Lancaster (President, 39-year tenure) and Kent Long (President/COO) lead operations. The company runs OTR truckload, warehousing, distribution, and brokerage across 48 states and Canada, with customs bonding and C-TPAT certification. This is the local champion opportunity: a Memphis carrier that validates the West Memphis thesis from Day One.",
+    "maverick_relevance": "Mid South Transport is not the biggest or most famous carrier in the pipeline. But it may be the most strategically important for Phase One validation. When Jeff pitches IMC Logistics or Heartland Express, he can say: 'The Memphis carriers are already at the table. Mid South Transport, 43 years on Profit Drive, is a founding member.' That local validation is worth more than any fleet size. Additionally, Mid South's warehousing and customs bonding capabilities create potential synergy with LHS Cross Dock operations — there may be a services partnership opportunity beyond just membership."
+  },
+  "trevor_feedback": {
+    "is_skip": false,
+    "skip_reason": "",
+    "filter_rule": "",
+    "skip_pattern_type": ""
+  },
+  "outreach_assets": {
+    "email_sequences": []
+  },
+  "flags": [],
+  "next_actions": [
+    "Source Bill Shinault email via LinkedIn or company main line (901-332-8600)",
+    "Verify Ronnie Lancaster email (ronl@midsouthtransport.com) via LinkedIn",
+    "Verify Ron Kennedy email (ronk@midsouthtransport.com) via LinkedIn",
+    "Clarify Long vs Lancaster roles — who is day-to-day operator vs. owner",
+    "Verify Michael Heath CEO status (TheOrg listing may be outdated)",
+    "Jeff connect with Ronnie Lancaster on LinkedIn",
+    "JJ connect with Kent Long on LinkedIn",
+    "Once flags resolved: Day 1 emails + phone follow-up same day",
+    "Plan in-person visit to 2765 Profit Drive within first week of outreach"
+  ],
+  "notes": [],
+  "rep_notes": [],
+  "timestamps": {
+    "created_at": "2026-03-04T00:00:00Z",
+    "updated_at": "2026-03-04T00:00:00Z"
+  }
+}
