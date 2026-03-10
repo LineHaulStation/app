@@ -1,0 +1,549 @@
+{
+  "__path__": "/linehaul-station/campaigns/CMP-0001-BootsWalker.json",
+  "schema_version": "2.0",
+  "entity_type": "campaign",
+  "id": "CMP-0001",
+  "status": "active",
+
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "AngBot",
+    "last_touched_at": "2026-03-10T00:00:00Z"
+  },
+
+  "campaign_card": {
+    "target_audience": {
+      "segment": "drivers",
+      "details": "Professional truck drivers across the US. Broad reach targeting existing trucking Facebook/Instagram/TikTok page audiences and new followers — an estimated 6M+ driver-community followers spread across ~100 trucking-related social pages. Targeting drivers who value professionalism and are frustrated by the state of the industry. Platform-specific: Facebook (primary for existing trucker audiences), TikTok (growth / viral), Instagram (visual brand building)."
+    },
+    "campaign_name": "Boots Walker",
+    "campaign_goal": {
+      "primary_goal": "Build a driver-community following at scale by producing recurring, highly shareable Boots Walker character content that earns attention, drives outlier signups, and sends a market signal that LineHaul Station has authentic driver alignment. Long-term target: 500,000 engaged driver members/followers.",
+      "memberships_per_week_target": null
+    },
+    "key_messages": [
+      "Boots Walker says what professional drivers are already thinking.",
+      "LineHaul Station is building a better way of life for drivers — respect, standards, and real solutions.",
+      "The industry lost its professionalism. We're bringing it back."
+    ],
+    "cta": {
+      "text": "Join the Outlier Network. Follow Boots Walker.",
+      "lead_capture_point": "LineHaul Station driver outlier signup — URL TBD"
+    },
+    "campaign_type": "organic",
+    "budget": {
+      "planned_total": null,
+      "planned_weekly": null,
+      "currency": "USD",
+      "notes": "Organic content engine. Budget TBD — production costs per asset to be confirmed. Paid boost layer to be added as separate initiative when ready."
+    },
+    "creative_assets": [
+      {
+        "asset_type": "video",
+        "title": "Flip Flops Scene",
+        "link": "",
+        "notes": "Boots calls out improper footwear. Hands driver a pair of boots. Original proof-of-concept piece."
+      },
+      {
+        "asset_type": "video",
+        "title": "Empty Trailer / Freight Theft Scene",
+        "link": "",
+        "notes": "Boots catches thieves cutting a trailer lock. 'Not today, boys.' Classic reveal format."
+      },
+      {
+        "asset_type": "video",
+        "title": "Chili Dog Scene",
+        "link": "",
+        "notes": "Boots calls out driver eating disgusting chili dog. Slides real meal across table. 'You deserve better.'"
+      },
+      {
+        "asset_type": "video",
+        "title": "12 Days of Trucking — Guitar Solo Cameo",
+        "link": "",
+        "notes": "Boots Walker cameo as the final guitar solo. Cross-campaign appearance format proven."
+      }
+    ]
+  },
+
+  "plan": {
+    "strategic_context": "Boots Walker is LineHaul Station's primary brand character and cultural content engine. The campaign exists to attract truck drivers into the LineHaul Station orbit by producing humorous, relatable, and shareable content that exposes real trucking absurdities while signaling that LineHaul Station understands and respects the professional driver community. The character functions as a comedic intermediary: calling out what's wrong, modeling what's right, and making LineHaul Station's values feel real and earned rather than corporate. Every Boots Walker piece is a brand signal to the industry. At scale, a large driver following demonstrates to carriers, fleets, and shippers that LineHaul Station has authentic community alignment and a real driver network ready to operate.",
+    "organic_plan_90_day": {
+      "start_date": "2026-03-10",
+      "end_date": "2026-06-07",
+      "plan_link": "",
+      "weekly_focus_notes": "Minimum 1 Boots Walker piece per week. Establish 52-week evergreen engine. Prioritize: (1) building backlog of ready-to-post gag scripts, (2) seasonal variants for Q2 holidays, (3) first Little Booty appearance, (4) at least one song parody concept in production."
+    },
+    "channels": [
+      "Facebook",
+      "Instagram",
+      "TikTok"
+    ],
+    "initiatives": [
+      {
+        "initiative_type": "ugc",
+        "title": "Boots Walker Asset Kit — Transparent Background / GIF / Still Pack",
+        "owner": "Anj / Creative",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Commission transparent background PNG of Boots Walker character in multiple poses",
+          "Build still-image and GIF asset kit for agent + creator use",
+          "Document usage guidelines so any creator can make on-brand Boots Walker content"
+        ],
+        "notes": "Critical for scalability. Agents and creators need ready-made Boots assets to remix, post, and extend without going back to original creators each time."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Boots Walker Evergreen Gag Backlog",
+        "owner": "Anj",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Compile approved gag scripts into a production queue — target 52 minimum",
+          "Categorize by pillar: Bad Habits / Industry Bullshit / Rookie Mistakes / Boots the Legend / Cameo",
+          "Flag seasonal priority pieces for Q2 immediately"
+        ],
+        "notes": "Goal is 52 evergreen pieces + seasonal variants. Long-term aspiration: 365-gag daily concept library."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Little Booty Supporting Character Launch",
+        "owner": "Anj / JJ",
+        "status": "conceptual",
+        "budget_allocated": null,
+        "next_actions": [
+          "Finalize Little Booty cartoon character design (JJ has early sketches)",
+          "Write 3 pilot scripts pairing Boots + Little Booty",
+          "Test audience reaction before committing to recurring format"
+        ],
+        "notes": "Little Booty is the impulsive, blunt cartoon foil to Boots Walker's calm authority. Scrappy-Doo dynamic. Lets the harder joke land without compromising Boots's dignity. Handle carefully — keep Little Booty clearly subordinate and funny, never mean."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Seasonal Boots Walker Calendar",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Map Boots Walker seasonal moments to calendar year",
+          "Prioritize Q2: Easter Bunny, Memorial Day, Uncle Sam / 4th of July",
+          "Queue scripts and costume briefs 4 weeks before each date"
+        ],
+        "notes": "Seasonal events: Easter Bunny (April), Memorial Day patriotic (May), Uncle Sam 4th of July, Labor Day, Halloween character disguises, Trucksgiving, 12 Days of Trucking / Christmas."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Boots Walker Cross-Campaign Cameo Strategy",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Identify upcoming LineHaul Station campaigns where a Boots Walker cameo would land",
+          "Build first cameo into One Home or You're the Trucker",
+          "Hot tub / poolside scene concept — draft script"
+        ],
+        "notes": "Cameos make Boots feel omnipresent across the LineHaul Station universe. The goal: every campaign has a moment where Boots can show up. Connects the brand universe."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Song Parody Content",
+        "owner": "Anj",
+        "status": "conceptual",
+        "budget_allocated": null,
+        "next_actions": [
+          "Develop Kenny Chesney tractor parody concept (semi-tractor angle)",
+          "Write parody lyrics and scout production approach",
+          "Identify 2 additional song parody opportunities from trucking culture"
+        ],
+        "notes": "Song parodies are high-shareability content. Huge on social. Keep them rooted in trucking truth. Do not produce generic parodies that could belong to any industry."
+      },
+      {
+        "initiative_type": "influencer",
+        "title": "Trucking Influencer Engagement — Boots Walker Awareness",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Map key trucking influencers (Trucker OG, Trucker Curtis, etc.)",
+          "Develop engagement + organic seeding plan for Boots Walker content",
+          "Identify whether any influencers are candidates for Boots Walker crossover content"
+        ],
+        "notes": "Trucking influencer pages collectively reach 6M+ followers. Our angle: we are creating higher-quality, character-driven content than they are. Do not chase them — position Boots Walker as the better product."
+      }
+    ],
+    "weekly_cadence": {
+      "monday_review": {
+        "required": true,
+        "agenda": [
+          "Review organic plan for the week",
+          "Review engagement plan for the week",
+          "Confirm Boots Walker content to publish this week",
+          "Confirm seasonal or cameo pieces in production",
+          "Review last week's numbers"
+        ],
+        "notes": ""
+      },
+      "friday_report": {
+        "required": true,
+        "report_format": "visual",
+        "source_tool": "Later or native platform analytics",
+        "notes": ""
+      }
+    }
+  },
+
+  "execution": {
+    "content_queue": [
+      {
+        "content_id": "CNT-001",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "LOOK OUT — IT'S BOOTS WALKER. [Scene: Driver sneaks out of cab holding yellow jug. Looks around. Tosses it toward dumpster. Camera pans. Boots Walker is standing next to the dumpster. Looks down at the jug. Looks up at driver. Long pause.] Boots: 'You drop something?' [Driver walks over and picks it up quietly. Boots hands him a truck stop bathroom key.] Driver: 'Yes sir.'",
+        "asset_links": [],
+        "cta": "Follow for more. LineHaul Station — where professionals belong.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-002",
+        "channel": "TikTok",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "LOOK OUT — IT'S BOOTS WALKER. [Scene: Truck stop bathroom. Driver has foot in the sink.] [Boots walks in. Looks at the sink. Looks at the driver.] Boots: 'That where you brush your teeth too?' [Driver slowly removes foot. Boots nods and exits.]",
+        "asset_links": [],
+        "cta": "Follow Boots Walker. More where that came from.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-003",
+        "channel": "Instagram",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "LOOK OUT — IT'S BOOTS WALKER. [Scene: Parking lot. Driver grilling with massive curry pot. Other drivers visibly suffering.] [Boots walks up. Pauses. Sniffs.] Boots: 'You cooking… or fumigating?' [Driver sheepishly closes the pot lid.]",
+        "asset_links": [],
+        "cta": "Tag a driver who needs Boots Walker. 👇",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-004",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "LOOK OUT — IT'S BOOTS WALKER. [Scene: Shipping facility. Sign reads: NO PUBLIC RESTROOM. Driver begging dock manager.] [Boots walks up. Reads sign. Turns to dock manager. Long pause.] Boots: 'You want your freight moved or not?' [Cut to: sign now reads DRIVERS WELCOME. Driver cheers.]",
+        "asset_links": [],
+        "cta": "LineHaul Station. Built for drivers.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-005",
+        "channel": "TikTok",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "LOOK OUT — IT'S BOOTS WALKER. [Scene: Driver filming TikTok, complaining about CDL rules.] [Boots walks into frame. Driver freezes.] Boots: 'Internet don't make you a trucker.' [Driver stops recording. Boots walks off. Driver stares at phone.]",
+        "asset_links": [],
+        "cta": "Follow the real voice of trucking. 🥾",
+        "status": "draft"
+      }
+    ],
+    "engagement_plan": {
+      "weekly_targets": "Engage with 5-10 trucking community posts per week. Comment as brand voice where Boots Walker content fits naturally. Do not chase influencers — let content speak.",
+      "influencers_to_engage": [],
+      "notes": "Priority is organic content quality and volume. Engagement layer activates once 52-piece backlog is established."
+    }
+  },
+
+  "character_system": {
+    "name": "Boots Walker",
+    "archetype": "Old-school trucking hero. Mythic enforcer of standards. Deadpan folk legend. The sheriff of trucking respect.",
+    "superpower": "Commands instant respect. Even bad actors stop and straighten up the moment Boots Walker appears.",
+    "visual_basis": "Stylized caricature inspired by Jeff Swinson. Throwback Americana trucking aesthetic. Strong silhouette. Boots-first iconography.",
+    "tone": "Calm. Authoritative. Deadpan. Corrective but never cruel. Speaks briefly. Means it.",
+    "rules": {
+      "always": [
+        "Enter the scene with immediate authority",
+        "Speak in short, memorable lines",
+        "Let the visual setup do the heavy lifting",
+        "Correct — do not lecture",
+        "Leave the scene better than he found it",
+        "Feel timeless and slightly larger than life"
+      ],
+      "never": [
+        "Ramble",
+        "Yell",
+        "Be cruel or petty",
+        "Sound like a corporate training video",
+        "Say more than needed",
+        "Break the mythic calm"
+      ]
+    },
+    "content_pillars": {
+      "pillar_1_bad_habits": "Gross, disrespectful, or lazy driver behavior. Urine jugs, foot washing, hygiene, trash, open fly, shower-skipping. Crowd favorite — truckers hate this as much as we do.",
+      "pillar_2_industry_bullshit": "Shady mechanics, no-restroom policies, bad ELDs, freight theft, lot lizards, drug dealers at the door, DOT nonsense. Boots is the driver's champion.",
+      "pillar_3_rookie_mistakes": "New driver errors. Wrong parking, skipping pre-trip, GPS failures, blocking fuel island. Big brother tone — corrects without shaming.",
+      "pillar_4_boots_the_legend": "Mythology content. Boots shows up unexpectedly. Drivers go quiet. Nobody knows his full story. Builds the legend.",
+      "pillar_5_cameos": "Boots appears in other LineHaul Station campaign worlds — Real Housewives parody, You're the Trucker, One Home, holiday specials, hot tub scenes. Makes the universe feel connected."
+    },
+    "hook_mechanic": "LOOK OUT — IT'S BOOTS WALKER. Pattern interrupt. Scroll stop. Creates anticipation before the correction lands.",
+    "structure": "Problem appears → Boots notices → Boots enters with minimal words → Bad actor or rookie self-corrects → Audience gets the joke and the standard. 20-40 seconds. No exposition needed.",
+    "supporting_character": {
+      "name": "Little Booty",
+      "status": "conceptual",
+      "description": "Cartoon boot sidekick. Impulsive, blunt, emotionally loud. Says the harsher version of what Boots is thinking. Boots reins him in.",
+      "function": "Comic foil. Allows stronger jokes without compromising Boots Walker's dignity. Scrappy-Doo energy paired against seasoned restraint.",
+      "origin": "Developed in conversation between Jeff and JJ. Early character sketches exist with JJ."
+    },
+    "brand_connection": "Every Boots Walker piece communicates — without saying it directly — that LineHaul Station understands trucking culture, respects professional drivers, and is building a better way.",
+    "external_tagline": "Boots Walker says what professional drivers are already thinking."
+  },
+
+  "creative_brief": {
+    "brief_summary": "Create short, punchy Boots Walker content that exposes recognizable trucking absurdities through humor, restores standards through understatement, and positions LineHaul Station as the cultural ally of professional truck drivers.",
+    "preferred_structure": [
+      "Problem appears in recognizable trucking context",
+      "Boots Walker observes silently",
+      "Boots intervenes with minimal words or a look",
+      "The situation corrects itself",
+      "Payoff lands — audience gets it immediately"
+    ],
+    "must_have": [
+      "Recognizable trucking truth in the setup",
+      "Strong visual before Boots speaks",
+      "Short, quotable Boots line",
+      "Respect for the driver audience — we are not laughing at them, we are laughing with them",
+      "Cultural fluency — must only work in trucking"
+    ],
+    "must_avoid": [
+      "Overwritten scripts",
+      "Mean-spirited humiliation",
+      "Generic humor that could belong to any industry",
+      "Preachy moralizing",
+      "Boots talking too much",
+      "Jokes that require trucking knowledge to explain"
+    ],
+    "acceptable_asset_types": [
+      "Video sketch scripts (20-40 sec)",
+      "Still image compositions",
+      "Reaction GIFs",
+      "Transparent background character PNGs (multiple poses)",
+      "Social tiles",
+      "Seasonal costume variants",
+      "Cameo insert clips",
+      "Song parody scripts",
+      "Merchandise-style art",
+      "Little Booty animation stubs"
+    ],
+    "tone_reference": "Far Side for trucking. Leave It to Beaver big-brother correction. Most Interesting Man in the World mythic presence. Smokey Bear quiet authority."
+  },
+
+  "gag_backlog": {
+    "status": "building",
+    "notes": "Target 52 approved, ready-to-produce scripts minimum. Long-term: 365-gag evergreen library. Scripts below are queued for review and production scheduling.",
+    "approved_scripts": [
+      {
+        "gag_id": "GAG-001",
+        "title": "The Jug Toss",
+        "pillar": "bad_habits",
+        "script": "Driver sneaks from cab with yellow jug. Tosses toward dumpster. Boots is standing there. Boots looks down. Looks up. 'You drop something?' Driver picks it up. Boots hands him a bathroom key."
+      },
+      {
+        "gag_id": "GAG-002",
+        "title": "Sink Foot Bath",
+        "pillar": "bad_habits",
+        "script": "Truck stop bathroom. Driver washing foot in sink. Boots enters. Looks at sink. Looks at driver. 'That where you brush your teeth too?' Driver removes foot slowly."
+      },
+      {
+        "gag_id": "GAG-003",
+        "title": "The Curry Lot",
+        "pillar": "bad_habits",
+        "script": "Parking lot. Massive curry pot steaming. Drivers gagging. Boots walks up. Sniffs. 'You cooking… or fumigating?' Driver closes pot lid."
+      },
+      {
+        "gag_id": "GAG-004",
+        "title": "No Restroom Sign",
+        "pillar": "industry_bullshit",
+        "script": "Sign: NO PUBLIC RESTROOM. Driver begging dock manager. Boots reads sign. Turns to dock manager. 'You want your freight moved or not?' Cut to sign reading: DRIVERS WELCOME."
+      },
+      {
+        "gag_id": "GAG-005",
+        "title": "The Mechanic Upsell",
+        "pillar": "industry_bullshit",
+        "script": "Boots intentionally loosens a small hose. Mechanic inspects. 'You need a whole new engine.' Boots reaches under and hand-tightens the hose. 'Fixed.' Mechanic stares."
+      },
+      {
+        "gag_id": "GAG-006",
+        "title": "Lot Lizard Removal",
+        "pillar": "industry_bullshit",
+        "script": "Guy approaches driver cab to knock. Boots' hand grabs his arm from the dark. 'Don't knock on that door.' Guy turns around. It's Boots Walker. Guy leaves immediately."
+      },
+      {
+        "gag_id": "GAG-007",
+        "title": "The Drug Knock",
+        "pillar": "industry_bullshit",
+        "script": "Middle of the night. Guy approaches with knock-knock pattern. Boots steps from shadow. 'Wrong stop.' Guy disappears. Boots nods. Walks on."
+      },
+      {
+        "gag_id": "GAG-008",
+        "title": "The Internet Trucker",
+        "pillar": "industry_bullshit",
+        "script": "Driver filming TikTok: 'Yesterday I had my CDL, today I don't — this is ridiculous—' Boots walks into frame. 'Internet don't make you a trucker.' Driver stops recording."
+      },
+      {
+        "gag_id": "GAG-009",
+        "title": "Two Hour Bathroom",
+        "pillar": "bad_habits",
+        "script": "Driver on toilet scrolling phone. Boots knocks. 'You dispatching freight in there?' Driver: 'No sir.' Boots: 'Then move it along.'"
+      },
+      {
+        "gag_id": "GAG-010",
+        "title": "The Parking Job",
+        "pillar": "rookie_mistakes",
+        "script": "Driver parked sideways across four spots. Boots looks at the truck. Looks at the driver. 'You parking… or landing an airplane?'"
+      },
+      {
+        "gag_id": "GAG-011",
+        "title": "The Pajama Driver",
+        "pillar": "bad_habits",
+        "script": "Driver walks into truck stop in full pajamas. Boots: 'You driving freight… or going to bed?'"
+      },
+      {
+        "gag_id": "GAG-012",
+        "title": "The Air Freshener Truck",
+        "pillar": "bad_habits",
+        "script": "Cab has 12 air fresheners hanging. Boots looks at them. 'Or… take a shower.'"
+      },
+      {
+        "gag_id": "GAG-013",
+        "title": "The Skipped Pre-Trip",
+        "pillar": "rookie_mistakes",
+        "script": "Driver about to pull out without pre-trip. Boots steps in front of the truck. 'Hope you inspected your luck.'"
+      },
+      {
+        "gag_id": "GAG-014",
+        "title": "The Fuel Island Napper",
+        "pillar": "bad_habits",
+        "script": "Driver parked at pump watching Netflix. Boots knocks on window. 'Fuel island ain't a campground.'"
+      },
+      {
+        "gag_id": "GAG-015",
+        "title": "The Dirty Windshield",
+        "pillar": "bad_habits",
+        "script": "Boots looks at filthy windshield. Takes finger. Writes WASH ME. Walks off."
+      },
+      {
+        "gag_id": "GAG-016",
+        "title": "Boots the Legend",
+        "pillar": "boots_the_legend",
+        "script": "Driver 1: 'You ever meet Boots Walker?' Driver 2: 'Nah.' Boots walks behind them. Both drivers stand up instantly without looking. Driver 2 whispers: 'I think that was him.'"
+      },
+      {
+        "gag_id": "GAG-017",
+        "title": "The Hood Kitchen",
+        "pillar": "bad_habits",
+        "script": "Driver cooking bacon on truck hood. Boots walks up. 'You cooking breakfast… or rebuilding the engine?'"
+      },
+      {
+        "gag_id": "GAG-018",
+        "title": "The Feces Bag",
+        "pillar": "bad_habits",
+        "script": "Driver sneaking toward dumpster with bag. Boots steps out from behind dumpster. Hands him a portable toilet kit. 'Better way.' No other words."
+      },
+      {
+        "gag_id": "GAG-019",
+        "title": "Chili Dog Upgrade",
+        "pillar": "bad_habits",
+        "script": "Driver mid-bite on dripping disgusting chili dog. Boots watches. Driver pauses. Boots slides a real meal across the table. 'You deserve better.'"
+      },
+      {
+        "gag_id": "GAG-020",
+        "title": "The Flip Flop Followup",
+        "pillar": "bad_habits",
+        "script": "Driver now wearing boots — proud. Boots nods approvingly. Then looks down. Driver is wearing gym shorts and socks with the boots. Boots: 'One step at a time.'"
+      },
+      {
+        "gag_id": "GAG-021",
+        "title": "The Open Fly",
+        "pillar": "bad_habits",
+        "script": "Driver walking around with zipper wide open. Boots taps shoulder. Points quietly downward. Driver looks in horror. Boots: 'Respect starts with details.'"
+      },
+      {
+        "gag_id": "GAG-022",
+        "title": "The Rookie Welcome",
+        "pillar": "rookie_mistakes",
+        "script": "Young rookie driver, nervous. Boots walks up. 'You new?' Driver nods. Boots hands him a pair of boots. 'Act like a professional… you'll become one.'"
+      },
+      {
+        "gag_id": "GAG-023",
+        "title": "The ELD Spinner",
+        "pillar": "industry_bullshit",
+        "script": "Driver messing with ELD the way they used to spin speedometers. Boots appears behind him in the mirror. Driver freezes. Boots: 'Not that kind of log.'"
+      },
+      {
+        "gag_id": "GAG-024",
+        "title": "Snow Chains",
+        "pillar": "rookie_mistakes",
+        "script": "Driver pulling out in snow without chains. Boots tosses a chain set through the window. 'Winter showed up.'"
+      },
+      {
+        "gag_id": "GAG-025",
+        "title": "Boots at the Hot Tub",
+        "pillar": "cameo",
+        "script": "Boots Walker in hot tub at LineHaul Station pool. Waterfall going. Someone off-camera: 'Don't truckers have trouble meeting people?' Boots looks at camera. Three lady truckers sit down with drinks. Boots: 'I don't know what everybody's problem is.' [LineHaul Station logo.] 'Women love truckers.'"
+      }
+    ]
+  },
+
+  "seasonal_calendar": {
+    "notes": "Boots Walker must be in rotation 52 weeks per year. Seasonal variants are required touchpoints.",
+    "events": [
+      { "event": "Easter", "concept": "Boots dressed as Easter Bunny. Handing out boots instead of eggs." },
+      { "event": "Memorial Day", "concept": "Boots salutes fallen drivers. Respectful, sincere. No comedy." },
+      { "event": "4th of July", "concept": "Uncle Sam Boots. 'I WANT YOU — to act like a professional.'" },
+      { "event": "Labor Day", "concept": "TBD — trucking labor angle. Boots represents the workers who make it move." },
+      { "event": "Halloween", "concept": "Boots in various character costumes — Smokey Bear, old cowboy, DOT officer. Boots dressed as lot lizard / surprise reveal concept." },
+      { "event": "Thanksgiving / Trucksgiving", "concept": "Boots delivers Thanksgiving freight like he owns the holiday." },
+      { "event": "Christmas / 12 Days of Trucking", "concept": "Guitar solo cameo established. Build on it. Santa Boots delivering loads." },
+      { "event": "President's Day", "concept": "Abe Lincoln or George Washington variant — Boots as founding father of trucking respect." },
+      { "event": "New Year", "concept": "Year of the Trucker / standard-bearer opening statement for the year." }
+    ]
+  },
+
+  "reporting": {
+    "weekly_reports": []
+  },
+
+  "flags": [
+    "Asset kit (transparent PNG / GIF / still) not yet produced — blocks creator scalability",
+    "Lead capture URL for driver outlier signup not yet confirmed — needed before CTA is live",
+    "Little Booty character design in progress with JJ — follow up",
+    "Production budget per asset TBD — needed to schedule backlog properly",
+    "Song parody production approach TBD"
+  ],
+
+  "next_actions": [
+    "Confirm driver outlier signup URL for CTA",
+    "Commission Boots Walker transparent background asset kit (multi-pose PNG + GIF)",
+    "Schedule first 5 CNT scripts into Later or equivalent",
+    "Set up Monday review cadence for this campaign",
+    "Follow up with JJ on Little Booty character sketches",
+    "Begin 52-week gag backlog review — flag which GAGs are production-ready now",
+    "Map Q2 seasonal pieces to production timeline"
+  ],
+
+  "notes": [
+    "Boots Walker is a character-based cultural content engine, not a single campaign. It is designed to run 52 weeks per year indefinitely.",
+    "The character's core mechanic: commands respect without asking for it. Even the villain apologizes when Boots Walker walks in.",
+    "Visual basis is a stylized caricature of Jeff Swinson with throwback Americana trucking aesthetics.",
+    "The scroll-stop hook is: LOOK OUT — IT'S BOOTS WALKER. Use it. It works.",
+    "Little Booty is the Scrappy-Doo foil. Boots stays calm. Little Booty says the louder version. Do not let Little Booty overshadow Boots.",
+    "Cameo strategy: Boots should eventually appear in every LineHaul Station campaign universe at least once.",
+    "The long-term vision: Boots becomes so recognizable that drivers say 'Boots wouldn't allow that' without prompting.",
+    "Comparison points for tone: Far Side for trucking. Smokey Bear for standards. Most Interesting Man in the World for mystique.",
+    "This campaign's business function: attract drivers into the LineHaul Station orbit as outliers and members, signaling to the industry that LHS has real driver network depth.",
+    "500,000 engaged driver followers/members is the long-range market signal target."
+  ],
+
+  "timestamps": {
+    "created_at": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-03-10T00:00:00Z"
+  }
+}
