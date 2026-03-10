@@ -1,0 +1,400 @@
+{
+  "__path__": "/linehaul-station/campaigns/CMP-0006-TruckerTuesdays.json",
+  "schema_version": "2.0",
+  "entity_type": "campaign",
+  "id": "CMP-0006",
+  "status": "active",
+
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "AngBot",
+    "last_touched_at": "2026-03-10T00:00:00Z"
+  },
+
+  "campaign_card": {
+    "target_audience": {
+      "segment": "drivers",
+      "details": "Professional truck drivers on Facebook. Primary goal: awareness and tune-in for the weekly Facebook Live event. Secondary goal: conversion to Outriders Drivers Club free membership. Drivers who are opinionated about the industry, skeptical of marketing, and respond to authenticity and insider access. The positioning deliberately challenges drivers who think they already understand trucking — the hook works on anyone with an opinion about the industry who has not yet heard what Jeff is building. New audience growth beyond existing followers. Broad Facebook reach, US national."
+    },
+    "campaign_name": "Trucker Tuesdays with Jeff Swenson",
+    "campaign_goal": {
+      "primary_goal": "Build a recurring weekly audience for Jeff Swenson's Facebook Live show and convert viewers into Outriders Drivers Club free members. Position Jeff as a founder-level authority on the future of trucking infrastructure — not a trucker content creator.",
+      "memberships_per_week_target": null
+    },
+    "key_messages": [
+      "You don't know 'what the truck's going on' until you've heard the bold new plan from Jeff Swenson, Founder & CEO of LineHaul Station.",
+      "Tune in for Trucker Tuesdays and take your seat at the founder's table as Jeff shares bold new ideas and real infrastructure that will change how you think about the future of trucking.",
+      "This isn't another trucker show — it's a founder building new infrastructure live, and drivers get a real voice in what comes next through the Outriders Drivers Club."
+    ],
+    "cta": {
+      "text": "Tune in live — Trucker Tuesdays with Jeff Swenson. Every Tuesday at 6PM.",
+      "lead_capture_point": "Facebook Live — LineHaul Station page. Secondary CTA: Outriders Drivers Club free membership link (TBD — not yet confirmed)."
+    },
+    "campaign_type": "mixed",
+    "budget": {
+      "planned_total": null,
+      "planned_weekly": null,
+      "currency": "USD",
+      "notes": "Organic weekly promo posts at no cost. Optional paid Facebook boost on high-performing episode clips — test $50–100 per boost before committing to recurring spend. Creative production: near-zero (static graphics only, produced by Anj)."
+    },
+    "creative_assets": [
+      {
+        "asset_type": "image",
+        "title": "Trucker Tuesdays — Main Weekly Promo Graphic (Square)",
+        "link": "",
+        "notes": "APPROVED. Square format. Features Jeff with ghosted truckers-watching-the-show background. Trucker Tuesdays with Jeff Swenson logo lockup. Chrome and carbon fiber palette. Fuel orange accents. Bottom bar: Facebook Live icon + blank date/time field (Anj swaps weekly) + Tune In Live indicator. This is the weekly announcement template — only the date/time field changes each week. Do not redesign week to week."
+      },
+      {
+        "asset_type": "image",
+        "title": "Trucker Tuesdays — Pull Quote Graphic (Square, Evergreen)",
+        "link": "",
+        "notes": "IN PRODUCTION. News/editorial style. Layout: Trucker Tuesdays logo across top full width. Jeff image left 40% (chest-up, no laptop, natural expression). Pull-quote block right 60% with ghost LHS network map at very low opacity. Pull quote text: 'You don't know what the truck's going on until you've heard the bold new plan.' Attribution below: Jeff Swenson, Founder & CEO, LineHaul Station. Supporting line: 'On Trucker Tuesdays, Jeff invites drivers to the founder's table to share bold new ideas and real infrastructure that will change how you think about the future of trucking.' Bottom: Facebook Live | Tuesdays. NO date/time slot — this is an evergreen authority piece, not an episode promo. Once complete: use as introduction post, pin to top of Facebook page, and repurpose on LinkedIn."
+      },
+      {
+        "asset_type": "image",
+        "title": "Trucker Tuesdays — Clean Chrome Alternate (Square)",
+        "link": "",
+        "notes": "DONE. Clean chrome and carbon fiber only, no truckers-watching background. Jeff image centered and crisp. Same logo lockup. Use for variety rotation or when episode tone calls for more formal/premium treatment."
+      }
+    ]
+  },
+
+  "show_identity": {
+    "show_name": "Trucker Tuesdays with Jeff Swenson",
+    "format": "Facebook Live",
+    "schedule": "Every Tuesday at 6:00 PM",
+    "platform": "Facebook — LineHaul Station page",
+    "host": "Jeff Swenson, Founder & CEO, LineHaul Station",
+
+    "positioning_statement": "Trucker Tuesdays is not a trucking content show. It is a founder-level briefing for drivers — Jeff Swenson opening the playbook on how trucking infrastructure is being rebuilt, in real time, and talking directly to the people it is being built for.",
+
+    "tagline_primary": "Not your average trucker show.",
+    "tagline_secondary": "Trucking rebuilt — live.",
+
+    "approved_hook": "You don't know 'what the truck's going on' until you've heard the bold new plan from Jeff Swenson, Founder & CEO of LineHaul Station.",
+
+    "approved_full_description": "You don't know 'what the truck's going on' until you've heard the bold new plan from Jeff Swenson, Founder & CEO of LineHaul Station. Tune in for Trucker Tuesdays and take your seat at the founder's table as Jeff shares bold new ideas and real infrastructure that will change how you think about the future of trucking.",
+
+    "approved_formal_description": "Trucker Tuesdays with Jeff Swenson is not industry commentary — it's a founder opening the playbook on how trucking is being rebuilt in real time. Jeff Swenson, Founder & CEO of LineHaul Station, shares bold new ideas, flex-based terminal infrastructure, and a fundamentally different vision for the future of trucking — explained directly to drivers while it's being built. This is your chance to sit at the founder's table, understand the ideas behind the decisions, and hear what's coming before forming another opinion about the industry.",
+
+    "approved_pull_quote": "You don't know what the truck's going on until you've heard the bold new plan.",
+    "pull_quote_attribution": "Jeff Swenson, Founder & CEO, LineHaul Station",
+    "pull_quote_supporting_line": "On Trucker Tuesdays, Jeff invites drivers to the founder's table to share bold new ideas and real infrastructure that will change how you think about the future of trucking.",
+
+    "approved_linkedin_variant": "You don't understand where trucking is headed until you've heard what's being built. — Jeff Swenson, Founder & CEO, LineHaul Station",
+
+    "what_this_show_is": [
+      "A founder-level briefing for drivers — not a talk show, not entertainment",
+      "Jeff Swenson building real infrastructure live and explaining it directly to drivers",
+      "New information — not recycled industry opinions or hot takes",
+      "Access to decisions before they are final",
+      "A direct bridge to the Outriders Drivers Club and driver participation in what is being built"
+    ],
+
+    "what_this_show_is_not": [
+      "Another trucker content show",
+      "Industry gossip or recycled commentary",
+      "Entertainment-first content",
+      "A sales pitch dressed as a show",
+      "The same opinions every other trucking voice is sharing"
+    ],
+
+    "core_themes": [
+      {
+        "theme": "Inside the Build",
+        "description": "How LineHaul Station infrastructure is actually planned, financed, and rolled out — explained to drivers before anyone else hears it."
+      },
+      {
+        "theme": "The New Trucking Model",
+        "description": "Why the old model does not scale and what replaces it: flex-based terminals, hub-and-spoke relay, driver-first infrastructure."
+      },
+      {
+        "theme": "Driver-First, Not Driver-Marketed",
+        "description": "Decisions explained directly to drivers — not filtered through PR, media, or marketing language."
+      },
+      {
+        "theme": "Your Voice Matters Early",
+        "description": "Driver feedback while decisions are still being shaped, not after rollout."
+      },
+      {
+        "theme": "Outriders Is a Seat, Not a Perk",
+        "description": "The Outriders Drivers Club as active participation in a new infrastructure model — not a loyalty program or promotional club."
+      }
+    ],
+
+    "outriders_tie_in": {
+      "program_name": "Outriders Drivers Club",
+      "membership_type": "Free",
+      "show_connection": "Trucker Tuesdays earns trust. Outriders captures the member. Every episode should include one soft CTA toward Outriders — not a pitch, a door. Jeff mentions it once per episode, naturally. Anj includes it once per caption.",
+      "approved_cta_line": "Want more than just the show? Join the Outriders Drivers Club — free membership, real access.",
+      "lead_capture_link": "TBD — free membership URL not yet confirmed. FLAG: must be live before any content posts."
+    }
+  },
+
+  "visual_identity": {
+    "logo_status": "LOCKED — approved in production. Do not modify.",
+    "primary_palette": "Chrome, carbon fiber, fuel orange (bright orange with burnt undertones, warm highlights, subtle shadows).",
+    "jeff_image_rule": "USE JEFF'S ACTUAL PHOTO ONLY. Do not AI-redraw, animate, alter facial features, or modify his expression. Crop chest-up or waist-up depending on layout. He should appear natural, approachable, and confident. If a new photo is needed, take a new photo — do not generate one.",
+    "background_variants": [
+      {
+        "variant": "Truckers-Watching Scene (ghosted)",
+        "use": "Main weekly promo graphic. Shows multiple drivers watching the show in different contexts — truck cab at night, truck stop, waiting at a shipper. Ghosted/low opacity behind Jeff."
+      },
+      {
+        "variant": "Ghost LHS Network Map",
+        "use": "Pull-quote and authority graphics. LHS national freight network map at very low opacity. Reinforces the infrastructure narrative visually."
+      },
+      {
+        "variant": "Clean Carbon Fiber Only",
+        "use": "Alternate/formal version. No scene, no map. Chrome and carbon fiber only. Use when episode tone is more serious or premium."
+      }
+    ],
+    "bottom_bar_spec": {
+      "elements": ["Facebook Live icon", "Blank date/time field — Anj updates weekly", "Tune In Live indicator"],
+      "rule": "The weekly promo graphic bottom bar has a blank date/time field. Anj fills in the correct date and time each week. The template does not change. Only the field content changes."
+    },
+    "layout_variants": {
+      "weekly_promo": "Square. Truckers-watching background ghosted. Logo top. Jeff centered. Bottom bar with date/time. Used every week as the tune-in announcement post.",
+      "pull_quote": "Square. News/editorial style. Logo full width top. Jeff left 40% (chest-up). Pull-quote block right 60% with ghost map at very low opacity. No date/time slot — evergreen. Pin this to Facebook page.",
+      "clean_chrome": "Square. Carbon fiber only, no background scene. Jeff crisp and centered. Same logo. Alternate or formal use."
+    }
+  },
+
+  "copy_vault": {
+    "hook_locked": "You don't know 'what the truck's going on' until you've heard the bold new plan from Jeff Swenson, Founder & CEO of LineHaul Station.",
+    "full_description_locked": "You don't know 'what the truck's going on' until you've heard the bold new plan from Jeff Swenson, Founder & CEO of LineHaul Station. Tune in for Trucker Tuesdays and take your seat at the founder's table as Jeff shares bold new ideas and real infrastructure that will change how you think about the future of trucking.",
+    "pull_quote_locked": "You don't know what the truck's going on until you've heard the bold new plan.",
+    "tagline_locked": "Not your average trucker show.",
+    "outriders_cta_locked": "Want more than just the show? Join the Outriders Drivers Club — free membership, real access.",
+    "linkedin_variant_locked": "You don't understand where trucking is headed until you've heard what's being built.",
+    "authority_bullets": [
+      "Founder-level insight, not industry noise",
+      "Real infrastructure, not theory",
+      "Drivers involved before decisions are final",
+      "A new model for trucking — explained clearly"
+    ],
+    "weekly_caption_templates": [
+      {
+        "template_id": "CAP-001",
+        "use_case": "Standard weekly promo post",
+        "copy": "You don't know 'what the truck's going on' until you've heard the bold new plan from Jeff Swenson, Founder & CEO of LineHaul Station.\n\nTune in for Trucker Tuesdays — TUESDAY AT 6PM — and take your seat at the founder's table as Jeff shares bold new ideas and real infrastructure that will change how you think about the future of trucking.\n\n🔴 Facebook Live | LineHaul Station\n📅 Every Tuesday at 6PM\n\nWant more than just the show? Join the Outriders Drivers Club — free membership, real access. [LINK]"
+      },
+      {
+        "template_id": "CAP-002",
+        "use_case": "Episode-specific promo — insert topic in brackets",
+        "copy": "This Tuesday, Jeff Swenson is talking about [EPISODE TOPIC].\n\nNot a trend piece. Not hot takes. A founder explaining how this actually affects the infrastructure being built — and what it means for drivers.\n\nTrucker Tuesdays. Tuesday at 6PM. Facebook Live.\n\nTake your seat at the founder's table. [LINK TO PAGE]"
+      },
+      {
+        "template_id": "CAP-003",
+        "use_case": "Post-show clip caption — insert takeaway in brackets",
+        "copy": "In case you missed it — here's the moment from this week's Trucker Tuesdays where Jeff broke down [ONE-LINE EPISODE TAKEAWAY].\n\nNew episodes every Tuesday at 6PM on Facebook Live.\n\nWant to stay in the conversation? Join the Outriders Drivers Club — free. [LINK]"
+      },
+      {
+        "template_id": "CAP-004",
+        "use_case": "Pull-quote authority post — evergreen, for pinned post and periodic reposts",
+        "copy": "\"You don't know what the truck's going on until you've heard the bold new plan.\"\n— Jeff Swenson, Founder & CEO, LineHaul Station\n\nOn Trucker Tuesdays, Jeff invites drivers to the founder's table to share bold new ideas and real infrastructure that will change how you think about the future of trucking.\n\nEvery Tuesday at 6PM. Facebook Live. Free to watch.\n\nJoin the Outriders Drivers Club and get more than just the show. [LINK]"
+      }
+    ]
+  },
+
+  "plan": {
+    "strategic_context": "Trucker Tuesdays is the most direct and human touchpoint in the entire LineHaul Station marketing ecosystem. Every other campaign builds the brand at scale — OneHome, Modern Day Pony Express, Memphis, Boots Walker. Trucker Tuesdays is Jeff speaking directly, weekly, live. The strategic job is twofold: (1) build a recurring driver audience who trusts Jeff's perspective on the industry, and (2) convert that audience into Outriders Drivers Club members with an ongoing relationship to LineHaul Station. The show must never drift into trucker content creator territory. Jeff is a founder, not a host. The content is insider access, not entertainment. The pull-quote graphic is the authority signal that sets this tone before anyone ever presses play. The visual identity is locked and premium — chrome, carbon fiber, fuel orange. The weekly promo graphic is a template, not a new design each episode. Consistency builds the brand. Jeff's real value is in the comments and conversations — that is where credibility is earned and where skeptical drivers become members.",
+    "organic_plan_90_day": {
+      "start_date": "2026-03-10",
+      "end_date": "2026-06-07",
+      "plan_link": "",
+      "weekly_focus_notes": "Weeks 1–4: Establish the weekly rhythm. Promo post Monday or Tuesday morning. Live Tuesday at 6PM. Clip posted Wednesday. Weeks 5–8: Rotate pull-quote graphic into the mix. Test which creative (promo vs pull-quote) drives more tune-ins. Weeks 9–12: Tie individual episodes to broader campaign narratives — Memphis launch, OneHome, Pony Express. Begin light paid boost on highest-performing episode clips."
+    },
+    "channels": ["Facebook"],
+    "initiatives": [
+      {
+        "initiative_type": "other",
+        "title": "Weekly Promo Post Cadence",
+        "owner": "Anj",
+        "status": "active",
+        "budget_allocated": null,
+        "next_actions": [
+          "Post promo graphic Monday morning or Tuesday morning before the 6PM live",
+          "Update date and time in the bottom bar field each week — no other changes to the graphic",
+          "Use CAP-001 or CAP-002 as caption depending on whether episode has a specific topic",
+          "Include Outriders CTA as the final line of every caption — one line only",
+          "Post episode clip or recap by Wednesday each week"
+        ],
+        "notes": "The weekly promo is a template. Consistent look builds brand recognition over time. The caption is where the weekly variation lives, not the graphic."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Pull Quote Graphic — Final Production",
+        "owner": "Anj",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Produce square pull-quote graphic per visual_identity.layout_variants.pull_quote spec",
+          "Use approved pull-quote copy and attribution from copy_vault",
+          "Ghost LHS network map at very low opacity as background",
+          "No date/time field — this is evergreen",
+          "Once final: post as CNT-002, pin to top of Facebook page, repurpose for LinkedIn"
+        ],
+        "notes": "This is the single most important static asset in this campaign. It signals authority before any driver watches a single episode. Worth the time to get right."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Post-Show Clip Workflow",
+        "owner": "Anj / Jeff",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Establish clip selection workflow: who pulls it, what turnaround (target: same day or by Wednesday)",
+          "Clip the strongest 60–90 second moment from each live",
+          "Post as Facebook reel or video post",
+          "Use CAP-003 as caption template",
+          "Clips extend episode life and drive algorithm reach beyond live viewers — this is not optional"
+        ],
+        "notes": "Facebook Live streams have limited organic reach after the live ends. The clip is what builds the archive and extends weekly reach. Over time, the clip library becomes the best recruitment tool for new viewers."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Outriders Drivers Club Integration",
+        "owner": "Anj / Jeff",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Confirm Outriders free membership URL — BLOCKER: no CTA can go live without this",
+          "Add Outriders CTA as final line of every episode caption (once)",
+          "Jeff mentions Outriders once per episode naturally — not as a pitch",
+          "Track weekly Outriders sign-ups attributable to the show"
+        ],
+        "notes": "One mention per post, one mention per episode. The show earns the trust. The club captures the member. More than one mention per post feels like a sales pitch."
+      },
+      {
+        "initiative_type": "ads",
+        "title": "Paid Facebook Boost — Episode Clips",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Wait for organic baseline — do not boost before Week 6",
+          "Identify first clip with strong organic engagement",
+          "Boost to: professional drivers, trucking industry, US national",
+          "Test $50–100 per boost before committing to recurring spend",
+          "Boost clips only — not promo graphics"
+        ],
+        "notes": "Boosting a clip with existing organic engagement is significantly more efficient than boosting a cold promo post. Paid activates after proof of concept is established organically."
+      }
+    ],
+    "weekly_cadence": {
+      "monday_review": {
+        "required": true,
+        "agenda": [
+          "Confirm episode topic for Tuesday",
+          "Confirm date/time is updated in promo graphic",
+          "Confirm promo post is scheduled",
+          "Review last week: live peak viewers, replay views, clip reach, Outriders sign-ups",
+          "Flag any comments or questions from last week's live that Jeff should address this week"
+        ],
+        "notes": ""
+      },
+      "friday_report": {
+        "required": true,
+        "report_format": "visual",
+        "source_tool": "Facebook native analytics",
+        "notes": "Key metrics: live peak viewers, total live viewers, replay views, clip reach, promo post engagement rate, Outriders CTA clicks, new page follows."
+      }
+    }
+  },
+
+  "execution": {
+    "content_queue": [
+      {
+        "content_id": "CNT-001",
+        "channel": "Facebook",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "Use CAP-001 from copy_vault. Attach main promo graphic with date/time updated for first episode. This is the launch announcement post.",
+        "asset_links": ["Trucker Tuesdays Main Promo Graphic — date/time field populated for first episode"],
+        "cta": "Tune in live — Facebook Live, Tuesday at 6PM. Outriders Drivers Club link.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-002",
+        "channel": "Facebook",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "Use CAP-004 from copy_vault (pull-quote authority post). Attach pull-quote graphic when finalized. PIN THIS POST to the top of the LineHaul Station Facebook page — it is the evergreen show introduction.",
+        "asset_links": ["Trucker Tuesdays Pull Quote Graphic (in production)"],
+        "cta": "Join Outriders Drivers Club — free. [LINK]",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-003",
+        "channel": "Facebook",
+        "type": "post",
+        "publish_date": "RECURRING — every Tuesday morning",
+        "caption_or_script": "Weekly promo template. Use CAP-001 or CAP-002. Update date/time in graphic only. Reuse same graphic template every week.",
+        "asset_links": ["Weekly promo graphic template"],
+        "cta": "Tune in live — Tuesday at 6PM. Outriders link.",
+        "status": "recurring"
+      },
+      {
+        "content_id": "CNT-004",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "RECURRING — every Wednesday after the live",
+        "caption_or_script": "Post-show clip. Use CAP-003. 60–90 seconds. Strongest moment from the live. Insert episode takeaway in brackets.",
+        "asset_links": ["Episode clip pulled from Facebook Live replay"],
+        "cta": "New episodes every Tuesday at 6PM. Join Outriders. [LINK]",
+        "status": "recurring"
+      }
+    ],
+    "engagement_plan": {
+      "weekly_targets": "During the live: Jeff responds to comments in real time — this is the whole point. After the live: Anj or Jeff responds to top 10 comments within 24 hours. Prioritize questions and skeptical comments over reactions — those are the conversion opportunities. Tag drivers who leave substantive comments for Outriders follow-up.",
+      "influencers_to_engage": [],
+      "notes": "The comment section during and after the live is as important as the show itself. A founder who engages honestly with hard questions is what makes this different from every other trucking show. Do not let comments go cold. Critical comments are the most valuable — a confident, thoughtful response to a skeptic in public is worth more than a dozen promo posts."
+    }
+  },
+
+  "reporting": {
+    "weekly_reports": []
+  },
+
+  "cross_campaign_connections": {
+    "CMP-0001_BootsWalker": "Boots Walker and Trucker Tuesdays both serve the driver community but in very different registers — Boots is humor and culture, Trucker Tuesdays is authority and insider access. Do not merge the two in the same post. Boots can reference the show in character, but keep the brand voices cleanly separated.",
+    "CMP-0003_OneHome": "Trucker Tuesdays is an ideal organic channel for OneHome education. Jeff can explain the OneHome concept live, walk through the financial math, and take driver questions in real time. OneHome-specific episodes should be promoted through CMP-0003 as major content moments.",
+    "CMP-0005_WestMemphis": "Trucker Tuesdays episodes focused on the Memphis launch or the national network are crossover events with CMP-0005. These are not regular Tuesday posts — they are live briefings about the location launch and should be promoted accordingly across both campaigns."
+  },
+
+  "flags": [
+    "Outriders Drivers Club free membership URL is NOT yet confirmed — no CTA can go live until this link exists",
+    "Pull-quote graphic is in production — needed before CNT-002 can be scheduled or page can be pinned",
+    "First episode date is not yet confirmed — confirm before scheduling any content",
+    "Jeff's photo must NOT be AI-redrawn, animated, or altered — use the actual uploaded photo as-is",
+    "Post-show clip workflow is not yet established — assign ownership and turnaround time before launch",
+    "Weekly promo graphic template is approved — do not redesign week to week, update date/time field only"
+  ],
+
+  "next_actions": [
+    "Confirm first Trucker Tuesdays episode date and topic",
+    "Confirm Outriders Drivers Club free membership URL — hard blocker",
+    "Finalize pull-quote graphic (news/editorial layout per spec)",
+    "Update promo graphic with correct date/time for first episode",
+    "Schedule CNT-001 (launch promo post) for Monday or Tuesday morning before first episode",
+    "Schedule CNT-002 (pull-quote authority post) same week as launch — pin to top of Facebook page",
+    "Assign post-show clip workflow: who pulls, who posts, turnaround target",
+    "Jeff records one 30-second show open that matches the approved positioning language"
+  ],
+
+  "notes": [
+    "Jeff is a founder, not a host. Every design, copy, and content decision should reinforce that framing. The moment this looks like a trucker content show, the positioning is broken.",
+    "The pull-quote graphic is the most important single asset in this campaign — it sets the authority tone before anyone watches a single episode. Worth the time to get right.",
+    "The weekly promo graphic is a template, not a new design each episode. Consistency is the brand-building mechanism. Only the date/time field changes.",
+    "The approved hook — 'You don't know what the truck's going on until you've heard the bold new plan' — is locked. Do not rewrite it week to week. Let it become a recognizable signature line.",
+    "The Outriders CTA appears exactly once in every post and once per live episode. More than once is a pitch. Once is an invitation.",
+    "Skeptical and critical comments in the live are the highest-value engagement opportunities in this campaign. Jeff engaging honestly with hard questions in public is more persuasive than any promo graphic.",
+    "For LinkedIn use or formal placements where the pun may not land, use the approved variant: 'You don't understand where trucking is headed until you've heard what's being built.'"
+  ],
+
+  "timestamps": {
+    "created_at": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-03-10T00:00:00Z"
+  }
+}
