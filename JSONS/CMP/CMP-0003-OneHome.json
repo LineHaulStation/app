@@ -1,0 +1,467 @@
+{
+  "__path__": "/linehaul-station/campaigns/CMP-0003-OneHome.json",
+  "schema_version": "2.0",
+  "entity_type": "campaign",
+  "id": "CMP-0003",
+  "status": "active",
+
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "AngBot",
+    "last_touched_at": "2026-03-10T00:00:00Z"
+  },
+
+  "campaign_card": {
+    "target_audience": {
+      "segment": "drivers",
+      "details": "Professional truck drivers seeking a better lifestyle on the road. Drivers who are currently paying for a home or apartment they rarely use and spending the majority of their time on the road. Drivers who feel underserved by current options — truck stops, gravel lots, side-of-road parking. Also: drivers interested in financial efficiency and lifestyle upgrades. Primary platform: Facebook and Instagram. Secondary: TikTok. National reach; Home Hub conversion tied to Memphis as first available location."
+    },
+    "campaign_name": "OneHome",
+    "campaign_goal": {
+      "primary_goal": "Establish OneHome as the first and only nationwide home network built exclusively for professional truck drivers. Drive driver awareness, emotional connection, and membership signups — positioning OneHome as the obvious alternative to traditional housing for drivers who live life on the road.",
+      "memberships_per_week_target": null
+    },
+    "key_messages": [
+      "OneHome is the first nationwide home network designed specifically for professional truck drivers — resort-quality living, everywhere the road takes you.",
+      "Stop paying for a home you rarely use. OneHome lets you pay only for the days you need, and grow your membership as the network grows.",
+      "From truck stops and gravel lots to private club-level living — a mountain of value at a fraction of what you'd expect."
+    ],
+    "cta": {
+      "text": "Discover OneHome. Everywhere the road takes you.",
+      "lead_capture_point": "OneHome landing page — URL TBD (lander rebuild in progress)"
+    },
+    "campaign_type": "mixed",
+    "budget": {
+      "planned_total": null,
+      "planned_weekly": null,
+      "currency": "USD",
+      "notes": "Organic content first. Paid social TBD once assets are ready and lander is live. Brand package production, video production, and rendering enhancement costs TBD."
+    },
+    "creative_assets": [
+      {
+        "asset_type": "brand_package",
+        "title": "OneHome Brand Package",
+        "link": "",
+        "notes": "In development. Deep burgundy / dark red as primary brand color — visually distinct from LHS gray-blue and orange. Carbon-fiber texture as base layer. Chrome warm accents. Old-school authentic paper tear as reveal mechanic. Logo finalized. Tagline locked: Everywhere the Road Takes You. Responsible: Anj + Mark + Jeff."
+      },
+      {
+        "asset_type": "video",
+        "title": "OneHome Primary Commercial — Ad Version",
+        "link": "",
+        "notes": "In production. Artlist-sourced footage + architectural renderings. Story concept: driver browsing a home search website discovers a new type of listing — OneHome by LineHaul Station. Transitions into commercial-style lifestyle visuals of LHS locations and amenities. Designed for paid social and landing page."
+      },
+      {
+        "asset_type": "video",
+        "title": "Jeff Swinson OneHome Explainer",
+        "link": "",
+        "notes": "In production. Direct-to-camera. Jeff explains the OneHome concept, Home Hub, flexible membership structure, and lifestyle benefits. For website, social clips, and educational content."
+      },
+      {
+        "asset_type": "image",
+        "title": "OneHome Architectural Renderings — Original Set",
+        "link": "",
+        "notes": "Existing. Available but not campaign-ready. May be run through filters/AI enhancement to appear more lifelike. New high-fidelity renderings from architect Ron are in development based on the updated OneHome concept."
+      },
+      {
+        "asset_type": "image",
+        "title": "OneHome Architectural Renderings — High Fidelity (New)",
+        "link": "",
+        "notes": "In development. Architect Ron producing updated full-fidelity renderings reflecting the new OneHome look. These will become the primary imagery for the campaign once complete."
+      },
+      {
+        "asset_type": "document",
+        "title": "OneHome Digital Brochure",
+        "link": "",
+        "notes": "In development. Copy finalized. Covers: what OneHome is, Home Hub concept, nationwide network, amenities (Craft Kitchen, Sky Deck, Digital Den, Fitness Studio, Laundry, Gear Shop), Sleeper Makeover, financial comparison, savings example, and CTA. PDF/digital format for distribution post-outreach."
+      },
+      {
+        "asset_type": "document",
+        "title": "OneHome Brochure — Approved Copy",
+        "link": "",
+        "notes": "Copy locked and cleaned. Key lines include: 'Truck doesn't fit in the driveway. Can't live out of some truck stop lot.' / 'OneHome is the first nationwide home network designed specifically for professional truck drivers.' / 'For a lot LESS MONEY you can have a FAR SUPERIOR experience.' / 'The math might surprise you — drivers spending $2,000-$2,500/month could save over $1,200/month on a 60-day plan.' Full copy stored separately."
+      }
+    ]
+  },
+
+  "plan": {
+    "strategic_context": "OneHome is LineHaul Station's driver-facing lifestyle program — one of three primary sub-brands within the LHS ecosystem alongside FlexSpace (carrier/fleet program) and the Freight Relay program (TBD brand name). Where FlexSpace speaks to carriers and operators, OneHome speaks directly to the driver and their personal quality of life. The campaign's emotional premise is a genuine rags-to-riches lifestyle upgrade: from truck stops, gravel lots, and side-of-road parking to private, gated, resort-quality living that travels with the driver across the network. The financial premise is equally strong — drivers are paying for 365 days of a home they rarely use, while OneHome lets them pay only for days they actually need, grow incrementally, and access a fully refundable membership position. The campaign must communicate both the lifestyle aspiration and the financial intelligence simultaneously. The visual identity (deep red / carbon-fiber / paper-tear reveal) signals that this is something new and premium, distinctly separated from the main LHS palette. The tagline — Everywhere the Road Takes You — anchors the nationwide network concept and the emotional promise of home.",
+    "organic_plan_90_day": {
+      "start_date": "2026-03-10",
+      "end_date": "2026-06-07",
+      "plan_link": "",
+      "weekly_focus_notes": "Phase 1 (Weeks 1–3): Brand package finalization, rendering completion, reel production. No publishing until assets are campaign-ready. Phase 2 (Weeks 4–6): Launch reveal reels and hook content. Lead with social scroll-stoppers before the brochure/explainer. Phase 3 (Weeks 7–12): Push Jeff Swinson explainer, financial savings messaging, and OneHome Lifestyle Calculator lander. Begin conversion push."
+    },
+    "channels": [
+      "Facebook",
+      "Instagram",
+      "TikTok"
+    ],
+    "initiatives": [
+      {
+        "initiative_type": "other",
+        "title": "OneHome Brand Package Finalization",
+        "owner": "Anj / Mark / Jeff",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Finalize OneHome logo in all formats",
+          "Lock color palette: deep burgundy/dark red, carbon-fiber texture, chrome warm accents",
+          "Finalize paper-tear reveal graphic element for use across video and statics",
+          "Produce brand guide for internal use and creator handoff"
+        ],
+        "notes": "Deep red is the visual differentiator from main LHS brand palette. Every OneHome asset should read instantly as OneHome-branded, not generic LHS. Jeff and Anj aligned on direction as of Friday meeting."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Reveal Reels — Carbon Fiber Tear Series",
+        "owner": "Anj",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Produce reveal reel template: carbon fiber layer shakes → authentic paper tear → amenity or lifestyle visual revealed underneath",
+          "Create one reel per amenity: Craft Kitchen, Sky Deck, Digital Den, Fitness Studio, Laundry, Gear Shop",
+          "Produce 3–5 second hook reels with CTA: 'Sign up now — OneHome'",
+          "Export all at 9:16 for Instagram/TikTok reels"
+        ],
+        "notes": "The tear-reveal mechanic is the visual signature of the campaign. The dark red carbon-fiber layer builds intrigue, the paper tear is the scroll-stopper, the rich amenity image underneath is the payoff. This format should feel premium, not gimmicky."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Rendering Enhancement — Lifelike Asset Production",
+        "owner": "Anj / Ron (Architect)",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Run existing renderings through AI enhancement / filter workflow to increase photorealism",
+          "Receive new high-fidelity renderings from architect Ron",
+          "Select hero images for brochure, social, and lander use",
+          "Ensure final images reflect the deep red / warm chrome OneHome aesthetic"
+        ],
+        "notes": "The campaign visuals live or die on the quality of the imagery. New renderings from Ron are priority — do not launch primary campaign content with old rendering quality if avoidable."
+      },
+      {
+        "initiative_type": "other",
+        "title": "OneHome Landing Page & Lifestyle Calculator",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Design landing page wireframe: mobile-first, OneHome brand aesthetic",
+          "Build OneHome Lifestyle Calculator (inputs: income, housing costs, utilities, taxes — output: OneHome savings comparison)",
+          "Place lead capture form below calculator",
+          "Evaluate Base44 build vs. manual build — OneHome may justify its own Base44 app environment",
+          "Explore prompt-driven landing page generation workflow for future campaigns"
+        ],
+        "notes": "The Lifestyle Calculator is the financial proof point for the campaign. It makes the savings real and personal. The savings example for the brochure: drivers spending ~$2,400/month on housing could save over $1,200/month on a 60-day OneHome plan. Calculator must be live before conversion push begins."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Digital Brochure Production",
+        "owner": "Anj / Mark",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Lay out brochure using finalized brand package and approved copy",
+          "Incorporate new high-fidelity renderings when available",
+          "Include: intro concept, Home Hub explanation, amenity descriptions, location network map, savings example, CTA",
+          "Produce in both digital interactive format and PDF"
+        ],
+        "notes": "Brochure is a post-awareness asset — delivered after the social hook or outreach call has already introduced the concept. Copy is approved and locked. Design is pending brand package completion."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Sleeper Makeover Sub-Program",
+        "owner": "Anj / Jeff",
+        "status": "concept",
+        "budget_allocated": null,
+        "next_actions": [
+          "Define Sleeper Makeover offering: mattress upgrade, topper, linens, pillows, décor, AV",
+          "Determine pricing model and how it layers into the OneHome membership",
+          "Produce content showing what a makeover sleeper looks like vs. standard",
+          "Develop as OneHome sub-program content in brochure and social"
+        ],
+        "notes": "The Sleeper Makeover bridges the OneHome concept to the cab. The sleeper IS the bedroom in the OneHome model. Making it extraordinary reinforces that OneHome is a complete lifestyle system, not just parking and amenities. Can be available at any LHS location."
+      },
+      {
+        "initiative_type": "ads",
+        "title": "Paid Social — Driver Acquisition",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Define targeting: professional drivers, Facebook/Instagram, trucking interest audiences",
+          "Select 1–2 strongest reveal reels for paid boost",
+          "Set OneHome lander as destination — do not run paid before lander is live",
+          "Flag if ad manager or agency needed"
+        ],
+        "notes": "Paid activates in Phase 3 only — after organic content has established the brand and the lander is live. The scroll-stop hook ('Imagine if the next time you searched for a home, there was a new type of listing — built just for truck drivers') is the strongest paid opener."
+      }
+    ],
+    "weekly_cadence": {
+      "monday_review": {
+        "required": true,
+        "agenda": [
+          "Review organic plan for the week",
+          "Review engagement plan for the week",
+          "Confirm content to publish this week",
+          "Check rendering and brand package production status",
+          "Review last week's numbers"
+        ],
+        "notes": ""
+      },
+      "friday_report": {
+        "required": true,
+        "report_format": "visual",
+        "source_tool": "Later or native platform analytics",
+        "notes": ""
+      }
+    }
+  },
+
+  "program_architecture": {
+    "program_name": "OneHome",
+    "parent_brand": "LineHaul Station",
+    "sub_brand_status": "active sub-brand",
+    "tagline": "Everywhere the Road Takes You.",
+    "one_line_description": "A private, resort-style home network built exclusively for professional truck drivers.",
+    "scroll_stop_hook": "Imagine if the next time you searched for a home, there was a new type of listing — built just for truck drivers.",
+    "rags_to_riches_line": "From truck stops and gravel lots to private club-level living — at a fraction of the cost you'd expect.",
+    "financial_hook": "Stop paying for a home you rarely see. With OneHome, you pay only for the days you use.",
+
+    "home_hub_concept": {
+      "definition": "The Home Hub is the driver's primary location within the LineHaul Station network. It is their personal anchor point. NOTE: Do NOT use the phrase 'home base' — the military connotation is off-brand. The correct term is Home Hub.",
+      "what_makes_it_personal": [
+        "Mailbox — driver's mailing address",
+        "Personal vehicle parking (covered or garage space)",
+        "Personal storage unit"
+      ],
+      "what_it_is_not": "The Home Hub is not the only place a driver feels at home. Every LHS location delivers the same experience. The Home Hub is simply where the personal items live."
+    },
+
+    "network_experience": {
+      "concept": "Every LineHaul Station location delivers an identical high-quality experience. Same amenities. Same design. Same atmosphere. Same quality. Drivers feel at home at any location in the network, not just their Home Hub.",
+      "experience_standard": "Resort-style, private, gated, club-level living. Better than any home or apartment they've had. The lighting is right. The atmosphere is peaceful. The amenities are exceptional.",
+      "comparison_to_current_options": [
+        "Truck stops",
+        "Gravel lots",
+        "Side-of-road parking",
+        "Apartment or condo they rarely use",
+        "Home they can't park their truck at"
+      ]
+    },
+
+    "membership_model": {
+      "concept": "Drivers pay only for the days they plan to use within the network. They start with a small number of days and increase at any time, in any increment.",
+      "flexibility": "Start at 60 days/year. Add more whenever ready. Grow incrementally as the network expands and usage increases naturally.",
+      "typical_trajectory": "Many drivers will likely reach 200–250 days/year over time as the network grows nationwide.",
+      "financial_advantage": "No mortgage. No interest. No paying for 365 days when you only use 60. The membership fee is refundable (less transfer fee) — it builds like equity, not like rent.",
+      "comparison": "A $150,000 home requires $150,000 cash or a financed mortgage with ongoing interest. OneHome lets drivers build their membership incrementally, paying only for what they add, with no interest on unused days.",
+      "savings_example": "Drivers spending approximately $2,400/month on housing expenses could save over $1,200/month by switching to a OneHome 60-day plan."
+    },
+
+    "amenities": [
+      {
+        "name": "Craft Kitchen",
+        "sub_label": "great food - inventive drinks - snacks",
+        "copy": "A real kitchen for real meals. The Craft Kitchen gives you a clean, modern space to eat better and live better. Your days of eating whatever is under the heat lamp are over!"
+      },
+      {
+        "name": "Sky Deck",
+        "sub_label": "games - firepit - gardens - relaxation",
+        "copy": "Kick back and take it all in. The Sky Deck is your open-air escape — perfect for relaxing, socializing, playing games, and enjoying a quiet space above the roar of the road."
+      },
+      {
+        "name": "Digital Den",
+        "sub_label": "games - billiards - trap & skeet - more!",
+        "copy": "Unwind after a long day behind the wheel. An experiential center built for downtime, with games, entertainment, and a place to hang out with fellow drivers — or simply enjoy yourself on your own private screen."
+      },
+      {
+        "name": "Fitness Studio",
+        "sub_label": "cardio - weights - showers - lockers",
+        "copy": "Stay strong on the road. The Fitness Studio gives you everything you need to move, stretch, and recharge so you feel your best mile after mile."
+      },
+      {
+        "name": "Laundry & More",
+        "sub_label": "washers - dryers - daily essentials",
+        "copy": "Clean clothes made easy. There's nothing better than feeling fresh and clean out on the road. Our modern laundry facilities give you everything you need to look your absolute best!"
+      },
+      {
+        "name": "Gear Shop",
+        "sub_label": "logo apparel - accessories - gifts",
+        "copy": "Everything a driver needs, right where you need it. It's all about convenience paired with quality and value. We're stocked with essentials, upgrades, and everyday items for life on the road."
+      }
+    ],
+
+    "sleeper_makeover": {
+      "concept": "In the OneHome lifestyle, the truck sleeper IS the bedroom. LineHaul Station can upgrade that experience through the Sleeper Makeover program.",
+      "available_upgrades": [
+        "Premium mattress",
+        "Mattress topper",
+        "High-quality linens and bedding",
+        "Comfortable pillows",
+        "Interior décor",
+        "Audio / entertainment upgrades"
+      ],
+      "available_at": "Any LineHaul Station location",
+      "names_in_consideration": ["Sleeper Makeover", "Sleeper Customization", "Sleeper Upgrade Program"],
+      "preferred_name": "Sleeper Makeover"
+    },
+
+    "network_locations": [
+      "San Antonio", "El Paso", "Houston", "Dallas", "Mobile", "Jackson", "Memphis",
+      "Knoxville", "Charlotte", "Atlanta", "Wilmington", "Richmond", "Carlisle",
+      "Cleveland", "Detroit", "Chicago", "Kansas City", "Omaha", "Oklahoma City",
+      "Albuquerque", "Denver", "Salt Lake City", "Phoenix", "Los Angeles", "Kingman",
+      "Las Vegas", "San Francisco", "Portland", "Seattle", "Butte", "Dickinson",
+      "Minneapolis", "Indianapolis", "Philadelphia", "Savannah", "Tampa", "Nashville", "St. Louis"
+    ],
+
+    "brand_within_lhs_ecosystem": {
+      "lhs_programs": [
+        {
+          "program": "OneHome",
+          "audience": "Drivers",
+          "purpose": "Nationwide lifestyle home network for drivers"
+        },
+        {
+          "program": "FlexSpace",
+          "audience": "Carriers, brokers, private fleets",
+          "purpose": "Flexible terminal access program for freight operations"
+        },
+        {
+          "program": "Freight Relay Program",
+          "audience": "Forward-thinking carriers and operators",
+          "purpose": "Operational efficiency through hub-based relay freight movement",
+          "brand_name_status": "TBD — candidates include RapidRelay, RelayExpress, FreightRelay, RelayOne"
+        }
+      ],
+      "lhs_one_liner": "LineHaul Station is a full-service, member-only truck terminal network serving the industry through three programs: OneHome for drivers, FlexSpace for fleets, and [Relay Program] for freight movement."
+    }
+  },
+
+  "visual_identity": {
+    "primary_color": "Deep burgundy / dark red",
+    "textures": ["Carbon fiber base layer", "Warm chrome accents"],
+    "signature_mechanic": "Paper-tear reveal — carbon fiber dark red surface shakes/vibrates, then tears away with an authentic old-school paper rip to reveal rich amenity or lifestyle imagery underneath",
+    "palette_distinction": "Deep red differentiates OneHome from primary LHS palette (gray-blue and orange). Any OneHome asset should read instantly as OneHome-branded.",
+    "typography": "Industrial sans-serif mixed with warm premium display treatment. Strong hierarchy: LineHaul Station (primary), OneHome (sub-brand).",
+    "imagery_direction": "Rich, lush, vibrant renderings and lifestyle photography. High contrast against the dark red base. The reveal should feel like a genuine upgrade being unwrapped.",
+    "tone": "Upscale. Private. Resort-quality. Aspirational but real. Never cheesy. Never corporate. This is for drivers — it needs to feel earned and authentic."
+  },
+
+  "campaign_summary_jeff_swinson": "The LineHaul Station OneHome program is designed to give drivers a true sense of home while living life on the road. Rather than referring to a 'home base,' the concept centers around a Home Hub — the driver's primary location within the LineHaul Station network. At their Home Hub, drivers may have a mailbox, personal vehicle parking, and a storage unit. However, the broader concept of OneHome is that every LineHaul Station location delivers the same high-quality experience, so wherever a driver travels within the network, it still feels like home. As the network expands across the country, each location will offer the same amenities, design standards, and atmosphere — resort-style, private, and comfortable. In this lifestyle model, the sleeper cab of the truck becomes the driver's bedroom, and LineHaul Station can enhance that experience through the Sleeper Makeover program. The financial advantage is equally compelling: traditional home ownership requires paying for 365 days of housing whether the home is used or not. OneHome allows drivers to pay only for the days they actually plan to use, start small, and grow their membership incrementally as the network expands. Many drivers will likely reach 200–250 days per year over time. Each increase adds to a refundable membership position — no interest, no mortgage, no unused days. The goal of OneHome is to provide drivers with a nationwide home network that is flexible, financially efficient, and dramatically more comfortable than any option currently available on the road.",
+
+  "execution": {
+    "content_queue": [
+      {
+        "content_id": "CNT-001",
+        "channel": "Instagram",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "HOOK: Carbon fiber dark red surface shakes. Paper tears. Craft Kitchen revealed. VO or text: 'Your days of eating under the heat lamp are over.' CTA: OneHome. Everywhere the road takes you. Sign up now.",
+        "asset_links": [],
+        "cta": "Link in bio — OneHome. Everywhere the road takes you.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-002",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "HOOK: 'Imagine if the next time you searched for a home, there was a new type of listing — built just for truck drivers.' Cut to: OneHome branding, amenity visuals, lifestyle shots. End card: OneHome. Everywhere the road takes you.",
+        "asset_links": [],
+        "cta": "Discover OneHome — linehaulstation.com/onehome",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-003",
+        "channel": "Instagram",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "HOOK: Carbon fiber tear reveals Sky Deck. VO: 'Kick back. Take it all in. Above the roar of the road.' Text: OneHome. Everywhere the road takes you.",
+        "asset_links": [],
+        "cta": "OneHome — sign up now.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-004",
+        "channel": "TikTok",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "HOOK: 'You've been paying for a home you barely see.' Fast cuts: truck stop → gravel lot → OneHome pool/spa → amenities → driver relaxing. Text: For a lot LESS MONEY — a FAR SUPERIOR experience. OneHome.",
+        "asset_links": [],
+        "cta": "Tag a driver who deserves this. 👇",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-005",
+        "channel": "Facebook",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "The math might surprise you. Many drivers spend $2,000–$2,500 per month maintaining a home they barely use. By switching to a OneHome 60-day membership, drivers in that range could save over $1,200 every month — while upgrading their lifestyle on the road. You will love how the numbers add up. OneHome. Everywhere the road takes you.",
+        "asset_links": [],
+        "cta": "See your savings — OneHome Lifestyle Calculator. Link in bio.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-006",
+        "channel": "Instagram",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "Jeff Swinson explainer clip. Jeff explains Home Hub, flexible membership, and what OneHome actually costs. Keep under 60 seconds. Backed by amenity B-roll.",
+        "asset_links": [],
+        "cta": "OneHome. Start with the days you need. Grow whenever you're ready.",
+        "status": "draft"
+      }
+    ],
+    "engagement_plan": {
+      "weekly_targets": "Engage with trucking community posts on Facebook/Instagram 5–10 times per week. Focus on driver lifestyle conversations, housing complaints, road life discussions. Do not pitch — let content speak.",
+      "influencers_to_engage": [],
+      "notes": "Boots Walker cross-promotion opportunity: Boots Walker cameos at OneHome pool or amenity area reinforce both campaigns simultaneously. Flag for CMP-0001 coordination."
+    }
+  },
+
+  "reporting": {
+    "weekly_reports": []
+  },
+
+  "flags": [
+    "NO ASSETS READY FOR 90-DAY CALENDAR — all creative is work in progress as of campaign creation date",
+    "Brand package not yet finalized — nothing publishes until brand package is locked",
+    "High-fidelity renderings from architect Ron not yet delivered — needed before primary content launch",
+    "OneHome landing page and Lifestyle Calculator not yet built — paid campaign cannot launch without this",
+    "Do NOT use the phrase 'home base' anywhere in OneHome content — use 'Home Hub' only",
+    "Sleeper Makeover program not yet fully defined — pricing model and offering TBD",
+    "Freight Relay program brand name TBD — affects how the three-program LHS ecosystem is described publicly",
+    "Boots Walker / OneHome cameo crossover opportunity — coordinate with CMP-0001"
+  ],
+
+  "next_actions": [
+    "Finalize OneHome brand package: logo, color system, carbon-fiber tear template",
+    "Receive and review new renderings from architect Ron",
+    "Run existing renderings through AI enhancement workflow",
+    "Produce first set of reveal reels once brand package is locked",
+    "Build OneHome landing page wireframe and begin Lifestyle Calculator development",
+    "Confirm OneHome lander URL and lead capture form setup",
+    "Record Jeff Swinson explainer video",
+    "Define Sleeper Makeover program scope and pricing",
+    "Coordinate with CMP-0001 (Boots Walker) on OneHome pool/amenity cameo opportunity"
+  ],
+
+  "notes": [
+    "OneHome is a sub-brand within the LHS ecosystem — always present as LineHaul Station / OneHome, never standalone. LHS is always the headline.",
+    "NEVER use 'home base' — the military inference is off-brand. Always 'Home Hub'.",
+    "The visual signature is the carbon-fiber tear-reveal. This mechanic should be treated as the OneHome brand moment the same way the scroll-stop hook works for Boots Walker.",
+    "The rags-to-riches framing is intentional and powerful — from gravel lots and truck stops to private club-level living — but it must always be paired with 'at a fraction of the cost you'd expect' to prevent sticker shock.",
+    "The Lifestyle Calculator is the most important conversion tool in this campaign. It makes the financial case personal and tangible. Do not launch the conversion push without it.",
+    "The brochure is a post-awareness asset — deliver it after the social hook or outreach call has already introduced the concept, not as a cold first impression.",
+    "OneHome may eventually justify its own Base44 build environment — flag for future development planning.",
+    "The scroll-stop social hook is: 'Imagine if the next time you searched for a home, there was a new type of listing — built just for truck drivers.' Use this as the primary opener for paid and organic content.",
+    "Boots Walker cameo at OneHome pool or amenity area would connect both campaigns and reinforce that LHS is a unified brand universe."
+  ],
+
+  "timestamps": {
+    "created_at": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-03-10T00:00:00Z"
+  }
+}
