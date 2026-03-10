@@ -1,0 +1,441 @@
+{
+  "__path__": "/linehaul-station/campaigns/CMP-0007-RealHousewivesOfTrucking.json",
+  "schema_version": "2.0",
+  "entity_type": "campaign",
+  "id": "CMP-0007",
+  "status": "active",
+
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "AngBot",
+    "last_touched_at": "2026-03-10T00:00:00Z"
+  },
+
+  "campaign_card": {
+    "target_audience": {
+      "segment": "drivers",
+      "details": "PRIMARY: Spouses and significant others of professional truck drivers — predominantly women, but inclusive of any partner whose driver is on the road. Platform-first on Facebook and Instagram. Ages skew 28–55. Reachable through: (1) trucking influencer page audiences via LeadEnforce — approximately 100 high-traffic pages where spouse engagement is equal to or higher than driver engagement; (2) targeted demographic ads skewed toward women in trucking-adjacent households; (3) organic sharing through trucking family communities. SECONDARY: Male truck drivers who discover the campaign through spouse sharing or organic trucking community reach — the humor works on both audiences. NOTE: This is a SUPPLEMENTAL campaign. It does not replace core driver-facing advertising (CMP-0001, CMP-0003, CMP-0005, CMP-0006). It expands reach into an audience no other trucking brand is targeting."
+    },
+    "campaign_name": "Real Housewives of Trucking",
+    "campaign_goal": {
+      "primary_goal": "Turn trucking spouses into raving fans of LineHaul Station by reaching them through humor and relatable storytelling — converting spouse attention into Outriders Drivers Club signups, driver referrals, and long-term household-level loyalty to the LHS brand.",
+      "memberships_per_week_target": null
+    },
+    "key_messages": [
+      "LineHaul Station gets it — the driver's spouse is part of the community too. The Outriders Club is for both.",
+      "Behind every good trucker is someone making sure they're treated right. Real Housewives of Trucking is for them.",
+      "This show fails because trucker wives are too nice. (And that's exactly the point.)"
+    ],
+    "cta": {
+      "text": "Join the Outriders Insider List — or send your driver the invite.",
+      "lead_capture_point": "Real Housewives of Trucking landing page — URL TBD. Simple interest form: name + email + optional driver info. No membership form, no CDL required, no profile setup. This is a fan/insider list, not a membership application."
+    },
+    "campaign_type": "mixed",
+    "budget": {
+      "planned_total": null,
+      "planned_weekly": 140,
+      "currency": "USD",
+      "notes": "Baseline: $20/day targeted ad spend on Facebook and Instagram. Audience targeting: women in trucking households, followers of major trucking influencer pages (LeadEnforce targeting). This is a test-and-scale budget — start at $20/day, evaluate laugh rate and CTR, scale based on performance. Organic content runs in parallel at no cost. Merch (on-demand printing via Tom's Sport) generates revenue; no inventory cost."
+    },
+    "creative_assets": [
+      {
+        "asset_type": "video",
+        "title": "Real Housewives of Trucking — Episode 1 (Original)",
+        "link": "Available on YouTube",
+        "notes": "The original spoof video. Premise: the show fails because trucker wives are too nice. Featuring Bethany and Big Dumper Jones. 30% laugh reaction rate on Facebook — strong signal. This is the anchor asset. All subsequent episodes build from this foundation."
+      },
+      {
+        "asset_type": "image",
+        "title": "Real Housewives of Trucking — Static Ads (Bethany + Big Dumper Jones Series)",
+        "link": "",
+        "notes": "Four static ads produced. Featuring the Bethany and Big Dumper Jones characters. Available for use in paid and organic campaigns. These are the character-anchor statics."
+      },
+      {
+        "asset_type": "concept",
+        "title": "Real Housewives of Trucking — Apparel Line",
+        "link": "",
+        "notes": "On-demand printing via Tom's Sport (one shirt at a time, no inventory). Primary design concept: subtle logo front, bold statement back. Target: women want to wear it because it's cute and funny — must achieve 'oh my God I love this shirt' reaction. Jeff has early mockup designs (misplaced — Anj to locate). AI mockup approach: generate shirt design in ChatGPT, composite onto a female model for static ad use. Designs include: Real Housewives of Trucking (primary), Driver Support Crew, Logistics Queen, Outriders Support Crew. Branding rule: LineHaul Station must always appear on the garment. Sub-brand is Real Housewives of Trucking, parent is always LHS."
+      },
+      {
+        "asset_type": "concept",
+        "title": "Trucker Wife Confessionals — Short-Form Video Series",
+        "link": "",
+        "notes": "Reality TV confessional-cam style. 15–30 seconds. Single wife to camera, deadpan delivery. Examples: 'My husband says he chooses his routes… but I know the truth.' / 'If he's stressed when he gets home… I start asking questions.' Bravo-style format. High shareability in trucking Facebook groups. No production budget required — iPhone in good light is sufficient."
+      },
+      {
+        "asset_type": "concept",
+        "title": "Insider Badge — Outriders Support Crew",
+        "link": "",
+        "notes": "A shareable digital graphic badge. Distributed via email after signup. 'Official Outriders Support Crew' or similar. Makes spouses feel like insiders. Small thing, high social value."
+      }
+    ]
+  },
+
+  "plan": {
+    "strategic_context": "The Real Housewives of Trucking campaign targets a blind spot in every trucking brand's marketing strategy: the driver's spouse. In most trucking households the spouse functions as a part-time dispatcher, safety monitor, morale manager, and logistics advisor — and in many households, the spouse is the primary decision-maker on career choices, company selection, and quality-of-life standards. No trucking brand is marketing to this audience with intention. LHS is first. The campaign works through humor and identity — not information delivery. The goal is to make trucking spouses feel seen, understood, and amused, and to connect that feeling to LineHaul Station and the Outriders Drivers Club. The 30% laugh reaction rate on the original Episode 1 video is the key signal: this audience is ready to engage with content that feels made for them. The episodic series format creates return viewership. The Outriders integration creates conversion. The merch creates identity and organic sharing. The LeadEnforce / influencer targeting strategy is the distribution unlock — trucking influencer pages have substantial spouse audiences who are more receptive, less cynical, and more likely to share positive content than drivers themselves. This campaign is supplemental, not competitive with core driver campaigns. It expands the household, not just the driver.",
+    "organic_plan_90_day": {
+      "start_date": "2026-03-10",
+      "end_date": "2026-06-07",
+      "plan_link": "",
+      "weekly_focus_notes": "Phase 1 (Weeks 1–3): Distribute Episode 1 broadly. Begin LeadEnforce targeting on trucking influencer pages. Launch landing page with simple interest form. Seed apparel mockup content on Instagram. Phase 2 (Weeks 4–8): Launch Episode 2 and begin weekly cadence. One new episode per week. Interleave Confessional-style clips between episodes. Begin Outriders CTA push tied to episode themes. Phase 3 (Weeks 9–12): Full 12-episode series in market. Apparel drops as social content. Outriders spousal event concept introduced if Memphis is live."
+    },
+    "channels": [
+      "Facebook",
+      "Instagram"
+    ],
+    "initiatives": [
+      {
+        "initiative_type": "ads",
+        "title": "LeadEnforce / Influencer Audience Targeting",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": 20,
+        "next_actions": [
+          "Identify top 100 trucking influencer Facebook and Instagram pages for audience targeting",
+          "Configure LeadEnforce targeting toward female audience segment within those pages",
+          "Launch with Episode 1 video as the primary ad creative",
+          "Monitor laugh rate, shares, and landing page clicks weekly",
+          "Scale budget based on CPL (cost per lead) performance"
+        ],
+        "notes": "The insight here is that the dedicated trucker wives groups are small (~8,000 total members across Facebook), but major trucking influencer pages have large spouse audiences embedded in them. Targeting the follower base of those influencer pages — skewed toward women — is where the real audience lives. $20/day is a test. If CPL is strong, scale to $50–100/day."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Landing Page — Real Housewives of Trucking Interest Form",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Build simple landing page — not a membership page, a fan/insider page",
+          "Headline: Real Housewives of Trucking",
+          "Subheadline: Because somebody has to make sure the driver is taken care of.",
+          "Form fields: Name, Email, (optional) My driver's name, My driver's email",
+          "CTA button: Send My Driver The Invite",
+          "Configure two triggered emails: (1) Welcome email to wife with Episode 1, merch teaser, and insider badge; (2) Driver invite email: 'Your spouse thinks you should see this' — link to Outriders signup",
+          "Evaluate Base44 vs. simple form tool"
+        ],
+        "notes": "This is a low-friction fan list, NOT a membership form. No CDL required, no profile, no member number. Spouses are captured in the database and linked to the driver if/when the driver signs up as a member. The magic is the driver email: 'Your spouse thinks you should join the Outriders Club' has very high open probability. Keep the form simple — name and email is enough."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Episodic Video Series — 12–15 Episodes",
+        "owner": "Anj / Jeff",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Lock Episode 2 concept from episode_backlog below",
+          "Establish recurring characters from Episode 1 (Bethany, Big Dumper Jones, others TBD)",
+          "Define loose production format: 30–90 second social videos, confessional cam + scene format",
+          "Set weekly release cadence (align with Tuesday content week if possible)",
+          "Build 4-episode buffer before launching the series publicly"
+        ],
+        "notes": "The series must feel like something people need to come back for. Think Golden Bachelor energy — you cannot miss tonight's episode. The humor is warm, not mean. These wives help each other. They are not backstabbing or dramatic — the inversion of typical reality TV is the joke. The audience must feel proud to be a trucker wife, not mocked. Boots Walker cameo opportunity: Boots appears in one episode. He gets called to handle a truck stop situation by the housewives. Coordinate with CMP-0001."
+      },
+      {
+        "initiative_type": "ugc",
+        "title": "Apparel Line — On-Demand Merch",
+        "owner": "Anj / Jeff",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Locate Jeff's early apparel mockup designs (misplaced — check previous Anj chat history)",
+          "Use AI (ChatGPT) to generate shirt design concepts, then composite onto female model for static ad",
+          "Designs to produce: Real Housewives of Trucking (primary), Driver Support Crew, Logistics Queen, Outriders Support Crew",
+          "Set up on-demand printing with Tom's Sport (single-unit printing, no inventory)",
+          "Launch apparel mockup as Instagram static content first — test engagement before production",
+          "Branding rule: LineHaul Station branding must appear on every garment"
+        ],
+        "notes": "The shirt must make women say 'oh my God I love this.' That is the bar. Cute + funny + proud. Subtle front logo, bold statement on back. The static ad of the shirt on a model is more important than the shirt itself in Phase 1 — it generates content and tests demand before any production commitment."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Outriders Spousal Events — Live and Virtual",
+        "owner": "Jeff / Anj",
+        "status": "concept",
+        "budget_allocated": null,
+        "next_actions": [
+          "Define event concept: couple events where drivers and spouses attend together, plus spouse-only events for when the driver is on the road",
+          "Model after EO / YPO spousal event structure: members-only meetings + couple events + spouse-specific events",
+          "Memphis launch is the natural first live event — spouses in the Memphis area whose drivers are Outriders members",
+          "Virtual events can precede live events and test interest with lower barrier"
+        ],
+        "notes": "The event concept is powerful for Memphis specifically: Outriders members may be on the road, but their spouses are in Memphis. A spouse event at the Memphis location — even before full opening — builds community and loyalty while the facility is still new. This is where the Real Housewives of Trucking audience converts from fans to members of the actual community. Coordinate with CMP-0005 (West Memphis) for timing."
+      }
+    ],
+    "weekly_cadence": {
+      "monday_review": {
+        "required": true,
+        "agenda": [
+          "Review this week's episode or content release",
+          "Check paid ad performance: laugh rate, shares, landing page CTR, form submissions",
+          "Confirm LeadEnforce targeting is delivering to the right audience",
+          "Review driver invite email open rates from the previous week's spouse signups",
+          "Check apparel mockup engagement if live"
+        ],
+        "notes": ""
+      },
+      "friday_report": {
+        "required": true,
+        "report_format": "visual",
+        "source_tool": "Facebook native analytics + Instagram Insights + LeadEnforce reporting",
+        "notes": "Track: laugh rate (target 25%+), shares, landing page visits, interest form submissions, driver invite emails sent, Outriders signups attributable to RHOT funnel."
+      }
+    }
+  },
+
+  "show_identity": {
+    "series_name": "Real Housewives of Trucking",
+    "parent_brand": "LineHaul Station",
+    "format": "Short-form episodic social video series",
+    "episode_length": "30–90 seconds per episode",
+    "release_cadence": "Weekly",
+    "target_run": "12–15 episodes (spring or fall series format)",
+    "tone": "Warm, funny, proud — NOT mean, dramatic, or backstabbing. The inversion of typical reality TV is the joke. These wives help each other and support their drivers. They are united, not rival.",
+    "premise": "The Real Housewives of Trucking keeps getting cancelled because trucker wives are too nice. But that doesn't stop them from having opinions about parking, truck stops, dispatchers, and what happens when their driver finally joins LineHaul Station.",
+    "characters": {
+      "established": [
+        {
+          "name": "Bethany",
+          "notes": "Featured in Episode 1 and the four static ads. Character anchor. Recurring across the series."
+        },
+        {
+          "name": "Big Dumper Jones",
+          "notes": "Featured in Episode 1 and the four static ads. Her driver. The namesake husband. Recurring reference."
+        }
+      ],
+      "to_develop": [
+        "Additional housewife characters — each with a different trucking wife situation: long-haul, regional, owner-operator spouse, female driver with supportive husband",
+        "Boots Walker cameo — Boots is called to handle a situation. Gets summoned by the housewives. Deadpan appearance. Coordinates with CMP-0001."
+      ]
+    },
+
+    "episode_backlog": [
+      {
+        "episode_id": "RHOT-001",
+        "title": "The Pilot — Too Nice to Film",
+        "status": "produced",
+        "premise": "The show keeps getting cancelled because trucker wives are too nice. Bethany can't bring herself to say anything mean about anyone. The producer is frustrated. Big Dumper Jones gets a mention.",
+        "notes": "Original video. Available on YouTube. 30% laugh rate. This is the anchor."
+      },
+      {
+        "episode_id": "RHOT-002",
+        "title": "The Parking Situation",
+        "status": "planned",
+        "premise": "Three wives are talking. Wife 1: 'My husband slept behind a Walmart again.' Wife 2: 'Mine parked on an on-ramp.' Wife 3: 'Mine joined LineHaul Station and now he sleeps like a king.' Bethany nods sympathetically. End card: Real Housewives of Trucking — because parking matters.",
+        "notes": "Direct OneHome / LHS lifestyle hook. Simple to produce. High relatability."
+      },
+      {
+        "episode_id": "RHOT-003",
+        "title": "The Stress Test",
+        "status": "planned",
+        "premise": "Wife interview style. 'You can tell when a driver works with the wrong people.' Cut to two scenes: Driver 1 — stressed, yelling about dispatch. Driver 2 — relaxed, talking about the Outriders Club. Wife: 'Happy driver. Happy house.' End card: Real Housewives of Trucking.",
+        "notes": "Emotional hook for the spouse audience. The 'happy driver, happy house' line is the keeper."
+      },
+      {
+        "episode_id": "RHOT-004",
+        "title": "Truck Stop Intelligence Network",
+        "status": "planned",
+        "premise": "Wives texting in a group chat. Texts appear on screen: Bethany: 'Anyone know safe parking near Memphis?' Lisa: 'LineHaul Station.' Karen: 'Outriders Club.' Voiceover: 'The wives already know.' End with Outriders CTA.",
+        "notes": "Group chat format is highly shareable and replicable. The 'wives already know' line is excellent."
+      },
+      {
+        "episode_id": "RHOT-005",
+        "title": "Driver Evaluation",
+        "status": "planned",
+        "premise": "Wife interviewing her husband with serious questions. 'Where did you park last night?' 'Did dispatch yell at you?' 'Do you have an Outriders membership?' Husband fails every question. Wife: 'We need to talk.' End card: Join Outriders — linehaulstation.com",
+        "notes": "Very strong CTA episode. The 'we need to talk' line lands because it's earned. Outriders signup is the natural next step."
+      },
+      {
+        "episode_id": "RHOT-006",
+        "title": "The Real Boss",
+        "status": "planned",
+        "premise": "Driver talking big: 'I make my own decisions.' Cut to wife holding phone, showing him the Outriders signup page. Driver: '…yes ma'am.' End card: Real Housewives of Trucking — who's really running logistics?",
+        "notes": "Classic format. Short, punchy, shareable by both audiences — drivers and wives."
+      },
+      {
+        "episode_id": "RHOT-007",
+        "title": "The Confessional — Safe Parking",
+        "status": "planned",
+        "premise": "Confessional cam. One wife. Deadpan. 'My husband says he parks wherever is convenient. Last Tuesday that was a Taco Bell parking lot. In December.' Long pause. 'We've since had a conversation.' End card: LineHaul Station. Safe parking. Always.",
+        "notes": "Confessional cam format — fast to produce, high shareability, very repeatable. This format can run between full episodes as filler content."
+      },
+      {
+        "episode_id": "RHOT-008",
+        "title": "The Confessional — Dispatch",
+        "status": "planned",
+        "premise": "Confessional cam. 'My husband's dispatcher stresses me out.' Pause. 'I have never met this person.' Pause. 'I have opinions.' End card: Real Housewives of Trucking.",
+        "notes": "No mention of LHS needed — pure brand affinity play. This one will be extremely shared."
+      },
+      {
+        "episode_id": "RHOT-009",
+        "title": "Boots Walker Cameo",
+        "status": "planned",
+        "premise": "The housewives summon Boots Walker to handle a situation at the truck stop — a guy who left a mess, a bad-actor dispatcher, or something similarly egregious. Boots arrives. Says nothing. Situation resolves itself. Housewives nod approvingly. End card: Boots Walker. Real Housewives of Trucking. LineHaul Station.",
+        "notes": "COORDINATE WITH CMP-0001 (Boots Walker). The Boots cameo in a RHOT episode is a high-engagement crossover moment. Must be deadpan. Boots does not react to the housewives — he simply corrects the situation."
+      },
+      {
+        "episode_id": "RHOT-010",
+        "title": "The Membership Intervention",
+        "status": "planned",
+        "premise": "Group of wives in living room. One wife's husband has not joined Outriders. The others stage a gentle 'intervention.' Everyone is extremely nice. 'We just think you deserve better parking.' 'We researched it for you.' 'Here's the link, sweetie.' End card: Outriders Club. Free. Because your wife will sign you up anyway.",
+        "notes": "Directly converts to Outriders. The 'because your wife will sign you up anyway' line is perfect. Include link in the post."
+      },
+      {
+        "episode_id": "RHOT-011",
+        "title": "Reunion Special — Season Finale",
+        "status": "planned",
+        "premise": "All housewife characters together. Host asks: 'What's changed this season?' Everyone's driver has joined Outriders. Big Dumper Jones shows up at the end in an Outriders shirt. Standing ovation. End card: Real Housewives of Trucking — Season 2 coming. Because trucker wives deserve a second season.",
+        "notes": "Season finale. Sets up for continuation. Big Dumper Jones in-person appearance if possible. Use this episode to announce Season 2 and grow the list."
+      },
+      {
+        "episode_id": "RHOT-012",
+        "title": "The Shirt Episode",
+        "status": "planned",
+        "premise": "Bethany gets her Real Housewives of Trucking shirt. Shows it off. The other wives want one. End card: Get yours — [merch link]. LineHaul Station.",
+        "notes": "Merch drop episode. Pairs with the apparel launch. The shirt is the product; the episode is the ad."
+      }
+    ]
+  },
+
+  "membership_and_funnel_architecture": {
+    "model": "EO / YPO spousal structure",
+    "member_definition": "CDL-holding driver. Signs membership agreement. Gets member number. Sets up Outriders profile.",
+    "spouse_definition": "Partner of a member. NOT a dues-paying member. NOT required to have CDL. Captured in LHS database and linked to the member account. Eligible for couple events and spouse-specific events. Does not have independent member profile.",
+    "interest_list": {
+      "description": "The Real Housewives of Trucking funnel captures spouses as an interest/fan list BEFORE the driver signs up as a member. This is not a membership application.",
+      "form_fields": [
+        "Your name (required)",
+        "Your email (required)",
+        "Your driver's name (optional)",
+        "Your driver's email (optional)"
+      ],
+      "cta_button": "Send My Driver The Invite",
+      "post_submit_flow": {
+        "email_to_spouse": {
+          "subject": "Welcome to the Real Housewives of Trucking",
+          "content": "Welcome email + Episode 1 link + merch teaser + insider badge graphic + Outriders Club intro (soft, not salesy)"
+        },
+        "email_to_driver": {
+          "subject": "Your spouse thinks you should see this",
+          "content": "Short, warm, slightly funny. 'Your spouse just joined the Real Housewives of Trucking insider list. Apparently there are some thoughts about your parking situation. Watch this → [Episode 1 link]. Then: Join Outriders → [URL].'"
+        }
+      }
+    },
+    "event_model": {
+      "member_only_events": "Outriders members only — drivers",
+      "couple_events": "Members + their spouses — both attend",
+      "spouse_events": "Spouses only — for when the driver is on the road. Particularly relevant for Memphis where drivers are Outriders members but physically away.",
+      "name_tags": "Both member and spouse get name tags at in-person events. The spouse is not a member but they are part of the community.",
+      "first_event_target": "Memphis location — spouse event before or at grand opening. Drivers may be on the road; spouses in the Memphis area can attend independently."
+    },
+    "critical_note": "Do NOT sign up non-CDL, non-driver people as Outriders members. The interest list and the membership form are two different things. The interest list is low-friction fan capture. The membership is a CDL-verified, agreement-signed driver. These are not the same funnel. Honorary/industry memberships are possible by special invite only."
+  },
+
+  "execution": {
+    "content_queue": [
+      {
+        "content_id": "CNT-001",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "The show that keeps getting cancelled because trucker wives are too nice. Real Housewives of Trucking — Episode 1. Watch it. Share it with a trucker wife who gets it. [Episode 1 YouTube link] And if you're married to a driver who deserves better — tell him about the Outriders Club. [URL]",
+        "asset_links": ["Episode 1 — original video"],
+        "cta": "Tag a trucker wife. Join Outriders free — [URL]",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-002",
+        "channel": "Instagram",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "She's not dramatic. She just has very specific opinions about truck stop parking. Real Housewives of Trucking — the series. New episodes dropping weekly. Tag someone who needs to see this.",
+        "asset_links": ["Bethany static ad — one of the four existing character statics"],
+        "cta": "Join the insider list — [landing page URL]",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-003",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "Episode 2: The Parking Situation. Some drivers park behind Walmart. Some park on on-ramps. Some joined LineHaul Station. The wives have feelings about this.",
+        "asset_links": ["RHOT Episode 2 — The Parking Situation (in production)"],
+        "cta": "Real Housewives of Trucking. Because parking matters. [Outriders URL]",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-004",
+        "channel": "Instagram",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "The Real Housewives of Trucking shirt. Because somebody has to run logistics. Available now — on demand. [Merch link] LineHaul Station.",
+        "asset_links": ["Apparel mockup — Real Housewives of Trucking shirt on female model (AI generated)"],
+        "cta": "Get yours — [merch URL]",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-005",
+        "channel": "Facebook",
+        "type": "post",
+        "publish_date": "Every 3–4 episodes",
+        "caption_or_script": "If your driver is on the road and you want to make sure they have the best experience possible — this is for you. Join the Outriders Insider List. We'll even send your driver the invite. [Landing page URL] Real Housewives of Trucking — the show. Outriders Drivers Club — the community.",
+        "asset_links": ["RHOT series promo graphic or insider badge visual"],
+        "cta": "Join free. Send your driver the invite — [URL]",
+        "status": "draft"
+      }
+    ],
+    "engagement_plan": {
+      "weekly_targets": "Respond to every comment on RHOT content within 24 hours. This audience — trucker wives — is warmer, less cynical, and more responsive than the driver audience. Personal replies from the LHS account go a long way. Watch for group shares and organic tagging — amplify by commenting when the content is shared in trucking groups.",
+      "influencers_to_engage": [],
+      "notes": "Trucking wives who comment positively on RHOT content are potential UGC creators. If a wife shares the content with a personal story in the comments, engage warmly and consider DM-ing to ask if she'd want to appear in a Confessional episode. The confessional format is easy enough that real wives could self-produce. UGC from actual trucking spouses would be the highest-trust content this campaign can generate."
+    }
+  },
+
+  "reporting": {
+    "weekly_reports": []
+  },
+
+  "cross_campaign_connections": {
+    "CMP-0001_BootsWalker": "Boots Walker cameo in RHOT Episode 9 is a planned crossover. The housewives summon Boots to handle a situation. Must be coordinated with CMP-0001 to ensure character consistency — Boots is deadpan, never reacts theatrically. This is the highest-potential crossover moment in the entire campaign ecosystem.",
+    "CMP-0003_OneHome": "RHOT directly supports OneHome driver acquisition by making the spouse a believer first. 'Happy driver, happy house' and 'parking situation' episodes directly seed the OneHome message. Wives who join the interest list should receive OneHome program information in the email nurture sequence.",
+    "CMP-0005_WestMemphis": "The Memphis spousal event concept is the first live conversion of the RHOT audience into real-world Outriders community members. Wives of Memphis-area Outriders members attending a live event at the location is a landmark moment for both campaigns. Coordinate timing.",
+    "CMP-0006_TruckerTuesdays": "Trucker Tuesdays and RHOT target adjacent but different audiences. Wives who discover LHS through RHOT may tune into Trucker Tuesdays, and vice versa. Cross-promote: 'Your driver is watching Trucker Tuesdays. Are you watching Real Housewives of Trucking?'"
+  },
+
+  "flags": [
+    "Landing page not yet built — needed before paid campaign can drive traffic anywhere meaningful",
+    "Driver invite email sequence not yet written or configured — this is the highest-ROI single piece of copy in the campaign",
+    "Jeff's early apparel mockup designs are missing — Anj to locate in previous chat history or recreate via AI",
+    "Tom's Sport on-demand printing setup not confirmed — confirm before apparel is marketed",
+    "LeadEnforce targeting setup not yet configured — identify the top 100 trucking influencer pages before launch",
+    "Outriders Drivers Club URL must be confirmed before any RHOT CTA goes live",
+    "Episode 2 not yet produced — need a 4-episode buffer before launching the series as weekly content",
+    "Spouse-member database linking logic needs to be defined with the app/Automator team — how does a spouse interest form submission get linked to the member account when the driver signs up later?"
+  ],
+
+  "next_actions": [
+    "Build RHOT landing page — simple interest form, fun headline, two-email triggered sequence",
+    "Write driver invite email: 'Your spouse thinks you should see this' — this is the most important single piece of copy in the campaign",
+    "Locate or recreate Jeff's apparel mockup designs; generate AI shirt mockups on female model for Instagram content",
+    "Confirm Tom's Sport on-demand printing setup",
+    "Identify top 100 trucking influencer pages for LeadEnforce targeting; configure $20/day test campaign with Episode 1 as creative",
+    "Produce RHOT Episode 2 (The Parking Situation) — this is the first step toward the weekly series cadence",
+    "Produce 2 Confessional-style clips (RHOT-007, RHOT-008) as fast-turnaround filler content",
+    "Brief the Boots Walker cameo concept to CMP-0001 production plan"
+  ],
+
+  "notes": [
+    "The 30% laugh reaction rate on Episode 1 is the most important data point in this campaign. It says: the format works, the audience gets it, and the humor lands. Do not abandon or significantly alter the tone that generated this reaction.",
+    "This campaign is SUPPLEMENTAL. It does not compete with or replace core driver advertising. It expands the household. Budget and effort should reflect that priority.",
+    "The driver invite email ('your spouse thinks you should join') has the highest predicted open rate of any email in the LHS marketing system. It should be treated as a major asset and written with as much care as any campaign headline.",
+    "Trucker wives in the comments of trucking influencer pages are MORE receptive, MORE heartfelt, and LESS cynical than the driver audience. They want change. They want their husbands to have better experiences. This campaign meets them exactly where they are.",
+    "The Boots Walker cameo in RHOT must be protected from becoming gimmicky. Boots arrives, fixes the problem, leaves. No speech, no explanation. The housewives nod. That is the entire joke.",
+    "The confessional cam format is the most repeatable, lowest-production, highest-shareability content type in the series. Build 6–8 confessionals to have in reserve before the series launches — they can drop between full episodes to maintain weekly cadence without full production every week.",
+    "The apparel must pass the 'I genuinely want to wear this' test. Not cute-in-spite-of-the-branding. Cute BECAUSE of the branding. The Real Housewives of Trucking name does the work — the design just needs to carry it well."
+  ],
+
+  "timestamps": {
+    "created_at": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-03-10T00:00:00Z"
+  }
+}
