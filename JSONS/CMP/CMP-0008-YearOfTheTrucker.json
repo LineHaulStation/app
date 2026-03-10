@@ -1,0 +1,381 @@
+{
+  "__path__": "/linehaul-station/campaigns/CMP-0008-YearOfTheTrucker.json",
+  "schema_version": "2.0",
+  "entity_type": "campaign",
+  "id": "CMP-0008",
+  "status": "active",
+
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "AngBot",
+    "last_touched_at": "2026-03-10T00:00:00Z"
+  },
+
+  "campaign_card": {
+    "target_audience": {
+      "segment": "drivers",
+      "details": "PRIMARY: Professional truck drivers — particularly experienced long-haul and regional drivers who feel the industry has declined over the past five decades. Drivers nostalgic for the 1960s–70s trucking culture (the 70s specifically, as deregulation hit in the 80s and that is where the decline began). Drivers who feel ignored, underpaid, over-regulated, and undervalued by carriers and the industry at large. SECONDARY: Younger drivers being recruited into trucking who need to see a compelling vision of what the profession can be — the campaign speaks to making trucking attractive again to the next generation, not just nostalgic for veterans. Drivers considering leaving the industry who might stay if conditions improved. Industry observers and carrier-adjacent audiences who respect pro-driver positioning. Platforms: Facebook (primary — older driver demographic, high nostalgia/pride community activity), Instagram, TikTok (younger driver recruitment angle). The campaign is emotionally charged and should reach drivers where they are most likely to share and engage — Facebook trucking communities, groups, and comment threads where the 'old days were better' sentiment is strongest. G-Man (Jeff McCuskey) is the recommended voice for founder-advocacy content. Jeff Swenson appears as the builder/architect but G-Man's third-party advocacy makes the founder story land more credibly. NOTE: Throughout all campaign materials — G-Man = Jeff McCuskey. Jeff = Jeff Swenson."
+    },
+    "campaign_name": "Year of the Trucker",
+    "campaign_goal": {
+      "primary_goal": "Establish LineHaul Station as the company that is actively working to restore pride, opportunity, and quality of life to the trucking profession — driving driver awareness, Outriders Drivers Club enrollment, and emotional alignment with the LHS brand through cultural celebration and forward-looking narrative.",
+      "memberships_per_week_target": null
+    },
+    "key_messages": [
+      "You're out there working hard. What you don't know is someone's working hard for you — LineHaul Station is building a new system designed specifically to make trucking great again for drivers.",
+      "The industry changed after deregulation and hasn't looked back. It's been five decades. This is the year the paradigm shifts back in the driver's favor.",
+      "This is your year. The pride, the culture, the respect — it's coming back. And it starts in Memphis."
+    ],
+    "cta": {
+      "text": "Join the Outriders Drivers Club — free. Be part of what's coming.",
+      "lead_capture_point": "Year of the Trucker landing page — currently live and confirmed as the top-performing ad and landing page in the LHS campaign portfolio. URL TBD for current version. New spring series will refresh the lander."
+    },
+    "campaign_type": "mixed",
+    "budget": {
+      "planned_total": null,
+      "planned_weekly": null,
+      "currency": "USD",
+      "notes": "Paid campaign already running and confirmed as top performer. Current video + static ads are live. Spring series refresh will expand the asset base. Budget to scale as new video content is produced. Paid targeting: male truck drivers, trucking communities, Facebook groups with high nostalgia/pride sentiment."
+    },
+    "creative_assets": [
+      {
+        "asset_type": "video",
+        "title": "Year of the Trucker — Long-Form Video (Produced, Live)",
+        "link": "",
+        "notes": "Primary campaign video. Premise: 'You're the trucker. While you're out there working hard, what you don't know is someone's working hard for you.' Introduces Jeff Swenson and LineHaul Station as the system being built for drivers. Confirmed as top-performing ad. APPROVED AND LIVE."
+      },
+      {
+        "asset_type": "video",
+        "title": "Year of the Trucker — Short-Form CTA Video (Produced, Live)",
+        "link": "",
+        "notes": "CTA cutdown of the long-form video. Optimized for conversion. APPROVED AND LIVE."
+      },
+      {
+        "asset_type": "image",
+        "title": "Year of the Trucker — Static CTA Images (Produced, Live)",
+        "link": "",
+        "notes": "Multiple static ad images. Driver-focused. Call to action. APPROVED AND LIVE."
+      },
+      {
+        "asset_type": "document",
+        "title": "Year of the Trucker — Campaign Script",
+        "link": "",
+        "notes": "Script for the original Year of the Trucker video. Includes voiceover, messaging, and narrative arc. Source document for all derivative content."
+      },
+      {
+        "asset_type": "document",
+        "title": "Year of the Trucker — Song Lyrics",
+        "link": "",
+        "notes": "Lyrics for the campaign song. Supporting asset for the video and audio identity of the campaign."
+      },
+      {
+        "asset_type": "lander",
+        "title": "Year of the Trucker — Landing Page (Live, Top Performer)",
+        "link": "",
+        "notes": "Current lander is live and confirmed as the top-performing conversion asset across all LHS campaigns to date. Standard lander format. Will be refreshed for the spring series launch. Do not take down or significantly modify the current version until the spring refresh is ready."
+      },
+      {
+        "asset_type": "concept",
+        "title": "Year of the Trucker — Spring Video Series (In Development)",
+        "link": "",
+        "notes": "New episodic series expanding the Year of the Trucker narrative. 6-episode arc planned (see episode_backlog). Launches spring 2026. Amplifies and expands the core message beyond the original two videos."
+      }
+    ]
+  },
+
+  "plan": {
+    "strategic_context": "Year of the Trucker is the most emotionally resonant campaign in the LineHaul Station portfolio and the current top-performing conversion asset. It succeeds because it addresses a real and deeply felt truth in the trucking industry: drivers have been ignored, underpaid, and disrespected for five decades since deregulation, and nothing has fundamentally shifted in their favor. The campaign does not pretend the problem doesn't exist — it acknowledges it, honors the history, and positions LineHaul Station as the first meaningful change. The strategic insight at the core of this campaign is that Jeff's story is more powerful when told about him rather than by him. G-Man's observation during the briefing was correct: talking about someone else removes the self-promotion awkwardness and lets the advocacy feel genuine. The campaign works because it is culturally aligned — it speaks in the language of trucker pride and nostalgia, not in the language of corporate logistics. The spring series expansion takes this foundation and builds an episodic narrative that moves the driver audience from emotional recognition ('this campaign gets me') to active belief ('LineHaul Station is actually doing something different') to conversion ('I'm joining Outriders'). The evergreen nature of this campaign means it can run indefinitely as a brand-identity pillar — not a time-boxed promotion. It is the emotional backbone of everything LHS does for drivers.",
+    "organic_plan_90_day": {
+      "start_date": "2026-03-10",
+      "end_date": "2026-06-07",
+      "plan_link": "",
+      "weekly_focus_notes": "Phase 1 (Weeks 1–3): Continue running existing assets. Do not disrupt what is already working. Begin producing spring series episodes. Phase 2 (Weeks 4–6): Launch Episode 1 of spring series. Refresh lander to match new episode arc. Phase 3 (Weeks 7–12): Weekly episode cadence. Each episode expands the narrative. Outriders CTA tied to each episode theme."
+    },
+    "channels": [
+      "Facebook",
+      "Instagram",
+      "TikTok"
+    ],
+    "initiatives": [
+      {
+        "initiative_type": "other",
+        "title": "Spring Series — Year of the Trucker Episode Arc",
+        "owner": "Anj / Jeff / G-Man",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Lock Episode 1 concept from episode_backlog",
+          "Write Episode 1 script using the narrative framework established in the original video",
+          "Confirm Jeff voiceover or on-camera format for the series",
+          "Produce Episode 1 before launching — build 2-episode buffer before weekly cadence",
+          "Refresh lander to match spring series launch"
+        ],
+        "notes": "The spring series expands the core narrative beyond the origin story. Each episode should feel like a chapter of the same larger story — not a standalone piece. The emotional arc moves from recognition (you've been ignored) to understanding (here's why it changed) to vision (here's what's being built) to invitation (here's your place in it)."
+      },
+      {
+        "initiative_type": "ads",
+        "title": "Paid Campaign — Existing Assets (Running)",
+        "owner": "Anj",
+        "status": "active",
+        "budget_allocated": null,
+        "next_actions": [
+          "Do not interrupt current paid campaign — it is the top performer",
+          "Monitor frequency — if ad fatigue sets in, swap to the short-form CTA version",
+          "When spring series launches, add Episode 1 as a new paid creative alongside existing assets",
+          "Test spring series episode against existing long-form video to identify performance delta"
+        ],
+        "notes": "The current paid campaign is confirmed as the top-performing ad in the LHS portfolio. This is a rare and valuable position — do not casually disrupt it. Any changes should be additive (new creative alongside) rather than replacement until performance data supports a swap."
+      },
+      {
+        "initiative_type": "ads",
+        "title": "Paid Campaign — Spring Series Expansion",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "At spring series launch, introduce Episode 1 as new paid creative",
+          "A/B test: original long-form vs. Episode 1 spring series",
+          "Target: male truck drivers, Facebook trucking communities, nostalgia/pride sentiment audiences",
+          "Retarget: existing lander visitors and Outriders partial signups"
+        ],
+        "notes": "Spring series creative should be tested for paid performance before scaling. The original video's success should not be assumed to transfer automatically — the new format needs its own performance validation."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Legacy Lodge Narrative Integration",
+        "owner": "Jeff / G-Man / Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Document the Legacy Lodge story from Tri-State Motor Transit fully for campaign use",
+          "Identify where in the episode arc the Legacy Lodge story fits most powerfully (likely Episode 2 or 3 — the history/precedent episode)",
+          "Determine how to tell the story without making it about Jeff personally — frame it as proof that this has worked before"
+        ],
+        "notes": "The Legacy Lodge backstory — Jeff building a driver-first lodge at Tri-State Motor Transit — is a critical piece of credibility for this campaign. It establishes that Jeff is not theorizing about driver care. He has done it before. This makes the Year of the Trucker message land as history, not promise. It is one of the most powerful differentiators in the campaign. It must be included in the spring series."
+      }
+    ],
+    "weekly_cadence": {
+      "monday_review": {
+        "required": true,
+        "agenda": [
+          "Review Year of the Trucker paid ad performance: impressions, CTR, cost per signup, Outriders conversions",
+          "Check lander conversion rate",
+          "Confirm spring series production status",
+          "Review social engagement on organic Year of the Trucker posts from prior week"
+        ],
+        "notes": ""
+      },
+      "friday_report": {
+        "required": true,
+        "report_format": "visual",
+        "source_tool": "Facebook Ads Manager + native analytics",
+        "notes": "Track: paid video view rate, landing page visits, Outriders signups attributable to YOTT funnel, cost per conversion. The lander is already confirmed as a strong converter — report on it weekly."
+      }
+    }
+  },
+
+  "campaign_identity": {
+
+    "campaign_premise": "You're out there working hard. What you don't know is someone's working hard for you.",
+    "campaign_theme": "This is your year.",
+
+    "one_sentence_summary": "The Year of the Trucker campaign celebrates professional drivers while introducing LineHaul Station as the system built to restore pride, opportunity, and lifestyle to the trucking profession.",
+
+    "emotional_pillars": {
+      "pride": "The trucking profession carries a deep identity and heritage that has been systematically eroded. This campaign names that, honors it, and reclaims it. Drivers should feel seen — not as labor units but as the foundation of the freight economy.",
+      "nostalgia": "The 1960s and 70s represent a high watermark for trucking culture — better pay, stronger identity, more respect, genuine pride in the profession. Deregulation in the 1980s began a five-decade decline. This campaign connects to that memory and treats it as the standard to rebuild toward, not a relic to mourn.",
+      "hope": "The message is not just retrospective — it is forward-looking. LineHaul Station is the concrete proof that someone is building something better. The year is now. The change is happening."
+    },
+
+    "the_problem_being_solved": {
+      "historical_context": "Trucking deregulated in the 1980s. Carriers shifted priorities away from driver welfare. Over five decades, drivers experienced declining relative pay, increased regulation, reduced home time, loss of cultural prestige, and a general feeling of being treated as interchangeable commodities rather than skilled professionals.",
+      "current_driver_sentiment": "On social media, a dominant pattern in trucking communities is the 'old days were better' refrain — experienced drivers lamenting that conditions were far superior in the 1970s and that nothing has improved. Younger drivers see a profession with high barriers and low lifestyle rewards. Neither group has had a reason to believe the trend can reverse.",
+      "what_is_missing": "No trucking brand has addressed this gap directly and credibly. Most trucking marketing talks about equipment, pay rates, and sign-on bonuses. None of it addresses driver identity, cultural pride, or a fundamentally different operational model that genuinely improves lifestyle. Year of the Trucker fills that gap."
+    },
+
+    "jeff_swenson_founder_narrative": {
+      "framing_principle": "Jeff's story is more powerful when told about him than by him. G-Man telling Jeff's story removes self-promotion awkwardness and makes the advocacy feel genuine and credible.",
+      "core_jeff_narrative": "Jeff Swenson recognized what the trucking industry has done to drivers over five decades. He is not theorizing about change — he has built driver-first infrastructure before (the Legacy Lodge at Tri-State Motor Transit) and is now building it at national scale with LineHaul Station. He came up with an idea that has morphed into a plan that is entirely about taking better care of drivers.",
+      "legacy_lodge_proof_point": "The Legacy Lodge, built by Jeff for Tri-State Motor Transit drivers, is the historical precedent that makes the Year of the Trucker promise credible. It demonstrates that Jeff has already done this — smaller, earlier — and that LineHaul Station is the scaled realization of the same philosophy.",
+      "campaign_role": "Jeff is positioned not as a CEO doing marketing, but as an advocate and builder who happens to be building the thing drivers have needed for fifty years. He is working in the background while they work on the road. The discovery of that fact is the emotional core of the campaign."
+    },
+
+    "approved_copy": {
+      "primary_campaign_line": "You're the trucker. While you're out there working hard, someone's working hard for you.",
+      "theme_line": "This is your year.",
+      "nostalgia_hook": "Everyone remembers when trucking was great. It can be again.",
+      "paradigm_shift_line": "Five decades. And now something's finally changing in your favor.",
+      "founder_line": "Jeff Swenson saw what the industry did to drivers. So he built something about it.",
+      "legacy_lodge_line": "He did it once before, at Tri-State Motor Transit. Now he's doing it at national scale.",
+      "outriders_cta": "Join the Outriders Drivers Club. Free. Be part of what's coming."
+    },
+
+    "episode_backlog": [
+      {
+        "episode_id": "YOTT-001",
+        "title": "Behind the Scenes",
+        "status": "produced",
+        "premise": "The original Year of the Trucker video. 'You're out there working hard. What you don't know is someone's working hard for you.' Introduces the concept of LineHaul Station as a system being built specifically for drivers. The Memphis launch is the opening proof point — this is not a future plan, it is already happening. Confirmed top performer. Current lander is top-converting asset across all LHS campaigns.",
+        "notes": "This is the anchor episode. All spring series episodes build from the emotional foundation this one established. Do not alter the core message. The Memphis opening gives this episode new urgency — tie it in every CTA."
+      },
+      {
+        "episode_id": "YOTT-002",
+        "title": "The Problem — What Happened to Trucking",
+        "status": "planned",
+        "premise": "A direct, honest look at the five decades since deregulation. The 1970s were the high-water mark — better pay, cultural identity, respect for the profession. Deregulation in the 1980s began the slide. Carriers stopped prioritizing driver welfare. Five decades of declining pay, more regulation, less home time, diminished prestige. This episode names what drivers already know: 'You're not wrong. It really was better. And here's exactly why it changed.' Ends with a turn: 'But that's not the end of the story.'",
+        "notes": "The trust-building episode. Must be produced before any other spring episode — it sets the table. Tone: clear-eyed and nostalgic, never angry or defeated. This is where the 'old days were better' community recognizes that LHS actually understands them. Do not skip the 70s cultural references — that is the emotional anchor."
+      },
+      {
+        "episode_id": "YOTT-003",
+        "title": "The Legacy Lodge — Proof It Works",
+        "status": "planned",
+        "premise": "Before LineHaul Station, Jeff built the Legacy Lodge for Tri-State Motor Transit drivers — a driver-first facility that proved a different standard was possible. This is that story. Not as a trophy, but as evidence: this philosophy has already worked once. LineHaul Station is the national-scale version of the same idea. Jeff did not come up with this theory. He came up with this practice.",
+        "notes": "G-Man (Jeff McCuskey) narrates this story — not Jeff Swenson. The advocacy is more credible when it comes from someone else. G-Man's framing: 'It's easier to talk about somebody else than to talk about yourself.' The Legacy Lodge story must be fully documented and locked before this episode is scripted. This is the single most credibility-building moment in the entire series."
+      },
+      {
+        "episode_id": "YOTT-004",
+        "title": "The Vision — The Network, The Lifestyle",
+        "status": "planned",
+        "premise": "The information episode. What is LineHaul Station? What is the relay model and how does it work operationally? What does it actually mean for a driver to have a home on the road, shift-based work, more home time, and a network designed to respect them? This episode makes the vision concrete — not theoretical. Covers: the relay freight model, the OneHome program, better routes, more predictable schedules, and what it looks like day-to-day to be a driver inside this system.",
+        "notes": "Connects YOTT to CMP-0003 (OneHome) and CMP-0002 (Modern-Day Pony Express). YOTT earns the emotional buy-in; these program campaigns convert it. Keep the episode grounded and operational — this is not a sales pitch, it is a description of what is being built. Younger driver audience is especially important here: they need to see that trucking can be an attractive modern profession, not just a historical identity."
+      },
+      {
+        "episode_id": "YOTT-005",
+        "title": "The Driver — Who This Is For",
+        "status": "planned",
+        "premise": "A driver-portrait episode. This is the trucker LineHaul Station was designed for. Experienced enough to know what the industry took away. Skilled enough to deserve better. Old enough to remember how it felt. Young enough to still want it. This episode holds up a mirror and says: this is you, this is what you've been carrying, and this is what's being built for you. Covers the full driver spectrum — long-haul veterans and younger drivers entering a profession that needs them.",
+        "notes": "The highest emotional-resonance episode in the series. Tone: dignified, specific, honest. Zero platitudes. Addresses both legacy drivers (nostalgia, pride, disappointment) and younger drivers (the pitch for why trucking is worth entering now). These are two different emotional conversations delivered as one portrait — the through-line is that LineHaul Station was built with both in mind."
+      },
+      {
+        "episode_id": "YOTT-006",
+        "title": "Your Invitation — Memphis Is Open",
+        "status": "planned",
+        "premise": "The full-circle episode. The history has been named. The legacy has been established. The vision is concrete. The driver has been seen. Now: the invitation. Memphis is open. The Outriders Drivers Club is free. This is not a concept anymore — it is here. 'This is your year' is no longer a theme. It is a fact. Come be part of what starts now.",
+        "notes": "This episode must feel inevitable, not promotional. A driver who has watched all six episodes should feel that joining Outriders is the natural, obvious next step — not a sales conversion. The CTA is an invitation, not a pitch. The Memphis opening is the physical proof that the campaign's promise has been kept. Coordinate timing with CMP-0005 (West Memphis) launch."
+      }
+    ]
+  },
+
+  "execution": {
+    "content_queue": [
+      {
+        "content_id": "CNT-001",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "You're out there working hard. What you don't know is someone's working hard for you. Year of the Trucker. LineHaul Station.",
+        "asset_links": ["Year of the Trucker — long-form video (existing, live)"],
+        "cta": "Join the Outriders Drivers Club free — [URL]",
+        "status": "active"
+      },
+      {
+        "content_id": "CNT-002",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "Short-form CTA cutdown. Year of the Trucker. [CTA]",
+        "asset_links": ["Year of the Trucker — short-form CTA video (existing, live)"],
+        "cta": "Join Outriders free — [URL]",
+        "status": "active"
+      },
+      {
+        "content_id": "CNT-003",
+        "channel": "Facebook",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "Static ad rotation. Year of the Trucker driver imagery + CTA.",
+        "asset_links": ["Year of the Trucker — static CTA images (existing, live)"],
+        "cta": "Join Outriders free — [URL]",
+        "status": "active"
+      },
+      {
+        "content_id": "CNT-004",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "Spring series launch",
+        "caption_or_script": "Episode 2 — What Happened to Trucking. 'Everyone talks about when trucking was great. The 70s. Before deregulation. Before the industry stopped caring. You're not wrong to miss it. And you're not wrong to want it back.' Year of the Trucker. LineHaul Station.",
+        "asset_links": ["YOTT Episode 2 — in production"],
+        "cta": "Join Outriders. Be part of what's coming — [URL]",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-005",
+        "channel": "Facebook",
+        "type": "reel",
+        "publish_date": "Spring series — Episode 3 week",
+        "caption_or_script": "Episode 3 — The Legacy Lodge. Before LineHaul Station, there was something else Jeff built. A place where drivers were treated differently. A place that proved it could work. This is that story.",
+        "asset_links": ["YOTT Episode 3 — in production"],
+        "cta": "Join Outriders free — [URL]",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-006",
+        "channel": "Instagram",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "Five decades. And now something's finally changing in your favor. Year of the Trucker. LineHaul Station. Join the Outriders Drivers Club — free.",
+        "asset_links": ["Year of the Trucker static — driver imagery"],
+        "cta": "[Outriders URL]",
+        "status": "draft"
+      }
+    ],
+    "engagement_plan": {
+      "weekly_targets": "Engage in trucking Facebook groups where 'old days were better' sentiment is active. Do not argue with the sentiment — affirm it and introduce Year of the Trucker as a response to it. 'You're not wrong. Something is changing.' Let the campaign content do the rest. Avoid generic engagement; Year of the Trucker content should feel personal and specific.",
+      "influencers_to_engage": [],
+      "notes": "The 'old days were better' trucker community on Facebook is not cynical about change — they are cynical about fake change. Year of the Trucker works on this audience because it acknowledges the problem first. When engaging in these communities, lead with acknowledgment, not promotion."
+    }
+  },
+
+  "reporting": {
+    "weekly_reports": []
+  },
+
+  "performance_baseline": {
+    "note": "Year of the Trucker is confirmed as the top-performing ad and top-converting lander in the LHS campaign portfolio as of campaign creation date. All future campaign performance should be benchmarked against YOTT as the baseline. This is the standard.",
+    "key_metrics_to_protect": [
+      "Landing page conversion rate — do not disrupt the current lander until the spring refresh is ready",
+      "Video view rate on long-form — indicates emotional resonance with the driver audience",
+      "Outriders signups attributable to YOTT funnel — the primary conversion output"
+    ]
+  },
+
+  "cross_campaign_connections": {
+    "CMP-0002_ModernDayPonyExpress": "YOTT Episode 4 (The Vision) is where the relay network model and the Modern-Day Pony Express narrative connect. YOTT earns the emotional buy-in for the driver audience; MDPE converts it through the network/infrastructure story. These two campaigns are the intellectual and emotional halves of the same message.",
+    "CMP-0003_OneHome": "YOTT Episode 4 and Episode 5 both seed the OneHome message — better home time, a place to rest that is actually worthy of the driver. Drivers who convert through YOTT should be nurtured toward OneHome as the next-step program.",
+    "CMP-0005_WestMemphis": "YOTT Episode 6 (Your Invitation) is the bridge to the Memphis launch campaign. The Memphis opening is the physical proof that the Year of the Trucker is not just a campaign — it is happening. YOTT provides the emotional context; CMP-0005 provides the conversion moment.",
+    "CMP-0006_TruckerTuesdays": "Trucker Tuesdays is the live amplification of the Year of the Trucker message. Jeff discussing the history, the vision, and the build on Trucker Tuesdays extends the YOTT narrative into a direct, ongoing conversation with the driver audience. Cross-promote: YOTT content leads drivers to Trucker Tuesdays; Trucker Tuesdays reinforces the YOTT message.",
+    "CMP-0007_RealHousewivesOfTrucking": "YOTT targets the driver directly; RHOT targets the spouse who influences the driver. Both campaigns ultimately drive the same conversion (Outriders membership) through different emotional entry points. They should not conflict and can be run simultaneously to the same household."
+  },
+
+  "flags": [
+    "Current paid campaign is TOP PERFORMER — do not disrupt without strong data-based reason",
+    "Legacy Lodge story must be fully documented before YOTT-003 is produced — this is a credibility-critical episode",
+    "Spring series lander refresh must be ready before Episode 1 launches — do not send paid traffic to the current lander if the creative no longer matches",
+    "G-Man (Jeff McCuskey) is the recommended narrator/voice for episodes where the founder story is told about Jeff — not by him",
+    "Song lyrics and campaign script are existing assets — confirm file locations and ensure they are accessible to the production team"
+  ],
+
+  "next_actions": [
+    "Do not change current paid campaign — monitor performance only",
+    "Fully document the Legacy Lodge story for Episode 3 production",
+    "Write Episode 2 script (What Happened to Trucking) — this is the trust-building episode and should be produced first",
+    "Confirm episode format: Jeff on-camera, voiceover only, or mixed",
+    "Identify and confirm G-Man's role in the spring series narration",
+    "Begin spring series lander refresh wireframe",
+    "Locate campaign script and song lyrics files — confirm accessible in shared asset library"
+  ],
+
+  "notes": [
+    "Year of the Trucker is an evergreen campaign, not a time-boxed promotion. It is the emotional backbone of everything LHS does for drivers. It should run indefinitely as a brand-identity pillar and be refreshed with new content seasons rather than retired.",
+    "The campaign works because it addresses a real emotional truth, not because it is clever marketing. Do not over-produce, over-stylize, or make it feel like an ad. It must always feel like someone who understands drivers speaking directly to them.",
+    "The Jeff-as-advocate framing (telling his story rather than having him tell it) is a structural advantage. Protect this. When Jeff appears on camera, he should be authentic and direct — not scripted or promotional. G-Man or voiceover narration should carry the founder story.",
+    "The Legacy Lodge is the single most powerful credibility proof point in the entire LHS marketing portfolio. It turns the Year of the Trucker promise from aspiration into precedent. It must be told in the spring series.",
+    "Drivers in the 'old days were better' community are not hopeless — they are waiting for a reason to believe. Year of the Trucker is that reason. The campaign must never feel defensive or promotional in these communities. It must feel like acknowledgment first, solution second.",
+    "Do not retire the original long-form video unless performance data demands it. It is the foundation. Everything else builds on it."
+  ],
+
+  "timestamps": {
+    "created_at": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-03-10T01:00:00Z"
+  }
+}
