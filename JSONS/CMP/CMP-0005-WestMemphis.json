@@ -1,0 +1,531 @@
+{
+  "__path__": "/linehaul-station/campaigns/CMP-0005-WestMemphis.json",
+  "schema_version": "2.0",
+  "entity_type": "campaign",
+  "id": "CMP-0005",
+  "status": "active",
+
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "AngBot",
+    "last_touched_at": "2026-03-10T00:00:00Z"
+  },
+
+  "campaign_card": {
+    "target_audience": {
+      "segment": "both",
+      "details": "PRIMARY: Carrier owners, fleet operators, owner-operators, brokers, and logistics executives — business decision-makers who would buy space or terminal access at Memphis Node 1. Reached via LinkedIn, paid and organic. SECONDARY: Professional truck drivers considering the OneHome program at the Memphis Home Hub. Reached via Facebook and Instagram. Both audiences share the same location but require different messaging angles: carriers get the relay network / infrastructure play, drivers get the lifestyle / OneHome play. All Memphis content should be positioned as the start of a national network, not a single location — downplay 'West Memphis' address framing, lead with 'Memphis.'"
+    },
+    "campaign_name": "West Memphis — Node 1",
+    "campaign_goal": {
+      "primary_goal": "Drive carrier space reservations and driver OneHome signups at the Memphis location — the first LineHaul Station in the network — while establishing Memphis as the proof-of-concept launch that makes the entire national relay network real and credible.",
+      "memberships_per_week_target": 3
+    },
+    "key_messages": [
+      "Memphis is where it starts. The modern-day Pony Express — America's great relay network — begins here, and space is available now.",
+      "A full-service, member-only truck terminal designed for the industry: carriers get a relay hub, drivers get a home. One location, two programs.",
+      "This is not a truck stop. This is infrastructure — built for efficiency, designed for the long haul, and opening in Memphis first."
+    ],
+    "cta": {
+      "text": "Get your space in Memphis. Reserve now.",
+      "lead_capture_point": "https://linehaulstation.com/memphis — lander rebuild in progress; current lander has form + site plan; future lander will be mobile-first carrier onboarding portal with interactive space selector"
+    },
+    "campaign_type": "mixed",
+    "budget": {
+      "planned_total": null,
+      "planned_weekly": null,
+      "currency": "USD",
+      "notes": "LinkedIn paid campaign activates after lander rebuild is live. Organic content runs immediately using available renderings and Pony Express video content as it is produced. Jeff talking-head videos: no hard cost. Sora/Artlist video production: existing credits. Rendering enhancement: AI tools, minimal cost."
+    },
+    "creative_assets": [
+      {
+        "asset_type": "lander",
+        "title": "Memphis Lander — Current",
+        "link": "https://linehaulstation.com/memphis",
+        "notes": "Live. Has site plan, intro copy, and lead capture form. Functional but not conversion-optimized. Needs rebuild before paid campaign activates."
+      },
+      {
+        "asset_type": "lander",
+        "title": "Memphis Lander — Rebuild (In Development)",
+        "link": "",
+        "notes": "Target: mobile-first, visually premium carrier onboarding portal. Interactive space selector. User auto-created on app on submit. Routes into carrier portal. Direct path to space purchase. Evaluate Base44 build. This is the #1 blocker for paid campaign launch."
+      },
+      {
+        "asset_type": "image_library",
+        "title": "Memphis Architectural Renderings",
+        "link": "",
+        "notes": "Available in Ron Dietrich folder. 18 views including site plan, building exterior, LH entrance, sky deck, amenity areas. Being enhanced for lifelike quality via AI processing. Pool/spa renderings from Ron incoming. Cross-references CMP-0004 (Renderings) asset library."
+      },
+      {
+        "asset_type": "image",
+        "title": "LHS Freight Network Map — Vintage Redrawn",
+        "link": "",
+        "notes": "Parchment-style vintage map of the full LHS national network. Geo-accurate. Large stars = primary hubs (including Memphis/West Memphis). Small stars = secondary nodes. Freight corridor topology matches real US Interstate system. Source image for Sora animation. LOCKED — do not modify."
+      },
+      {
+        "asset_type": "video",
+        "title": "Network Map Animation (Sora — In Production)",
+        "link": "",
+        "notes": "12-second Sora 2 image-to-video animation. Phase 1 (0–3s): empty parchment map. Phase 2 (3–7s): freight corridors draw in, stars stamp in. Phase 3 (7–12s): map modernizes, corridors glow warm copper/amber, freight pulses ping-pong between nodes. Matte orange five-point industrial stars. Exactly 9 primary nodes: West Memphis, Dallas, Kansas City, Indianapolis, Chicago, Atlanta, San Antonio, Laredo, Carlisle. Full Sora prompt locked in production assets."
+      },
+      {
+        "asset_type": "video",
+        "title": "Jeff Swinson Memphis Talking Head — 45 Seconds (In Production)",
+        "link": "",
+        "notes": "Jeff records from home office. Multiple cuts planned. Topics: what Memphis is, why it's the first location, what carriers and drivers get, how to reserve space. Upload from phone at 9:16 for LinkedIn algorithmic advantage. Will be paired with map animation B-roll."
+      },
+      {
+        "asset_type": "video_series",
+        "title": "Modern-Day Pony Express — Narrative Video Series (In Production)",
+        "link": "",
+        "notes": "Six-vignette cinematic narrative series. Pony Express rider character as the throughline. Rider and horse bibles locked. Sora 2 prompts written for each shot. VO and music separate (Anj handles stitching). Series builds to the LineHaul Station network reveal. Memphis is the destination. See PRODUCTION_ASSETS block for full detail."
+      },
+      {
+        "asset_type": "audio",
+        "title": "Modern-Day Pony Express Score — Suno (In Production)",
+        "link": "",
+        "notes": "Two variants. Main theme: cinematic western orchestral, galloping rhythm, solo violin, slide guitar, taiko drums, dynamic movements. Reflective variant: minimal, slow tempo, solo violin, soft cello, slide guitar, sparse piano. Prompts locked. Seeds must be saved on generation."
+      }
+    ]
+  },
+
+  "plan": {
+    "strategic_context": "West Memphis / Memphis Node 1 is the most important single asset in the entire LineHaul Station marketing universe right now. It is the proof point that everything else — OneHome, FlexSpace, the Pony Express narrative, the modern relay network — is real and operational. The campaign has two simultaneous jobs: (1) acquire carriers who will buy space and generate revenue, and (2) attract drivers who will join OneHome and anchor the lifestyle program. Both jobs require the same foundational belief: that this is a real, premium, purpose-built facility that is opening now. The campaign must communicate urgency (space is limited, Memphis is first) without desperation. The tone is confident and infrastructural, not promotional. LinkedIn is the primary paid channel for carrier acquisition. Facebook and Instagram handle the driver side through OneHome crossover content. The Pony Express narrative provides the myth layer that makes the location feel inevitable rather than speculative. The network map animation is the single most important visual asset — it contextualizes Memphis within a national story rather than making it look like an isolated local development. Every piece of content should answer the question: 'Why Memphis? Why now?' The answer is always the same: because the relay has to start somewhere.",
+    "organic_plan_90_day": {
+      "start_date": "2026-03-10",
+      "end_date": "2026-06-07",
+      "plan_link": "",
+      "weekly_focus_notes": "Phase 1 (Weeks 1–3): Organic warm-up using renderings + map animation as it becomes available. No paid spend until lander rebuild is live. Establish visual identity and network narrative on LinkedIn. Phase 2 (Weeks 4–6): Pony Express Vignette 1 and 2 drop on LinkedIn. Jeff talking-head video launches. Paid LinkedIn campaign activates. Phase 3 (Weeks 7–12): Full Pony Express series in market. Retargeting from lander visits. Memphis CTA push — 'Space is moving. Get yours.'"
+    },
+    "channels": [
+      "LinkedIn",
+      "Facebook",
+      "Instagram"
+    ],
+    "initiatives": [
+      {
+        "initiative_type": "other",
+        "title": "Memphis Lander Rebuild",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Design mobile-first wireframe: premium, on-brand, carrier-focused",
+          "Build interactive space selector showing available Memphis bays/spaces",
+          "Connect form submission to auto-create user account in app",
+          "Route new users into carrier portal",
+          "Add direct purchase path for space reservation",
+          "Evaluate Base44 vs manual build",
+          "Consider web capture video of the purchase flow for use as social content"
+        ],
+        "notes": "This is the #1 blocker for the paid LinkedIn campaign. Nothing goes paid until this is live. The lander must function as a carrier onboarding portal, not just a marketing page. The experience should feel as premium as the facility itself."
+      },
+      {
+        "initiative_type": "ads",
+        "title": "LinkedIn Paid Campaign — Carrier Acquisition",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Define targeting: carrier owners, fleet operators, logistics executives, owner-operators — business decision-makers in trucking",
+          "Select 1–2 strongest video assets as paid openers (map animation or Pony Express Vignette 1 preferred)",
+          "Set Memphis lander rebuild as destination — do not activate paid without rebuilt lander",
+          "Upload all LinkedIn video from phone at 9:16 — NEVER desktop — for algorithmic advantage",
+          "Select hashtags on upload (LinkedIn mobile unlock)",
+          "Flag if ad manager or agency needed at scale"
+        ],
+        "notes": "LinkedIn's algorithm strongly favors video uploaded from mobile at 9:16. This is a platform mechanic, not optional. Every Jeff video and every Pony Express clip must go through phone upload. The paid campaign follows the organic warm-up — do not cold-launch paid before the organic presence is established."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Jeff Swinson Talking Head Video Series",
+        "owner": "Jeff / Anj",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Jeff records 45-second Memphis video from home office",
+          "Topics per video: (1) what Memphis is and why it's first, (2) what carriers get, (3) what drivers get, (4) how to reserve space",
+          "Anj adds B-roll: map animation, renderings, network visuals",
+          "All exports at 9:16 for LinkedIn",
+          "Upload from phone"
+        ],
+        "notes": "Jeff's talking-head videos are the authority layer — they make the network map and the Pony Express narrative land with credibility. They should feel like a founder speaking to peers, not a promotional video. No teleprompter stiffness. Home office setting is fine — authenticity works on LinkedIn."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Pony Express Narrative Video Series — Production",
+        "owner": "Anj",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Generate Sora 2 clips using locked rider + horse bibles (see PRODUCTION_ASSETS)",
+          "Generate each shot separately — stitch manually in post",
+          "Generate Suno main theme + reflective variant, save seeds",
+          "Produce VO scripts for each vignette",
+          "Stitch Vignette 1 first (The Relay Life) as proof of concept",
+          "All exports at 9:16 for LinkedIn reels",
+          "Upload from phone"
+        ],
+        "notes": "The Pony Express series is the myth layer of the Memphis campaign — it builds emotional and intellectual buy-in before the CTA lands. It should feel like a prestige short film, not a corporate video. Anj handles all stitching and post. Sora generates individual clips only. Music from Suno. VO from Anj or recorded talent."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Network Map Animation — Production",
+        "owner": "Anj",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Input vintage network map image into Sora 2 using locked image-to-video prompt",
+          "Verify: US shape correct, exactly 9 primary nodes, freight corridors match topology",
+          "Generate 12-second animation: empty map → corridors draw → stars stamp → modernization → freight pulses",
+          "If output hallucinates extra stars or incorrect geography — fix source image, never the video prompt",
+          "Use as standalone LinkedIn content and as B-roll behind Jeff videos"
+        ],
+        "notes": "The network map animation contextualizes Memphis within the national story. It answers 'why Memphis?' visually — it's node one on a national relay network, not a single random location. This is the single most important visual asset for the carrier-facing campaign."
+      },
+      {
+        "initiative_type": "other",
+        "title": "FlexSpace Carrier Messaging — Memphis",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Develop FlexSpace-specific copy for Memphis: drop-and-hook, driver pass programs, secure freight",
+          "Produce at least 2 LinkedIn posts with FlexSpace angle",
+          "Ensure FlexSpace framing is present in lander and Jeff videos"
+        ],
+        "notes": "The Memphis campaign targets both carriers who want to buy space (ownership angle) and carriers who want terminal access (FlexSpace angle). Both should be present. Do not let the campaign default entirely to the ownership pitch."
+      }
+    ],
+    "weekly_cadence": {
+      "monday_review": {
+        "required": true,
+        "agenda": [
+          "Review organic LinkedIn content for the week",
+          "Check lander rebuild status — is paid campaign unblocked?",
+          "Confirm Pony Express / map animation production status",
+          "Review Jeff video recording schedule",
+          "Review last week's LinkedIn engagement numbers"
+        ],
+        "notes": ""
+      },
+      "friday_report": {
+        "required": true,
+        "report_format": "visual",
+        "source_tool": "LinkedIn native analytics or Later",
+        "notes": "Track: impressions, engagement rate, profile visits, lander clicks, space reservation form submissions."
+      }
+    }
+  },
+
+  "production_assets": {
+
+    "rider_character_bible": {
+      "description": "LOCKED. Copy verbatim into every Pony Express Sora prompt.",
+      "copy": "A rugged Pony Express rider in his late 20s to early 30s. Lean, athletic build from hard riding. Weathered but confident face. Calm eyes, focused expression. Clean-shaven or light stubble, no beard. Strong jawline. Sun-worn skin. He wears a tan or light brown frontier jacket (canvas or suede, slightly worn), a simple off-white or faded cream shirt underneath, dark brown leather gloves, dark trousers suitable for riding, well-worn brown leather boots, and a classic mid-1800s western hat (not oversized, practical, slightly weathered). His posture is confident and experienced. He moves like a professional relay rider — efficient, controlled, never sloppy. He looks completely at home on the horse. No exaggerated acting, no comedy expressions. This character must remain visually consistent across all shots."
+    },
+
+    "horse_bible": {
+      "description": "LOCKED. Copy verbatim into every Pony Express Sora prompt.",
+      "copy": "A strong, well-conditioned black horse with a healthy sheen to its coat. Athletic build, powerful legs, alert posture. Thick black mane and tail, natural and slightly windswept while riding. The horse wears a classic brown leather western saddle (historically appropriate), simple leather bridle and reins. No decorative elements, no modern gear. Functional, utilitarian tack only. The horse moves smoothly and confidently at speed. Gallop feels powerful but controlled. No exaggerated rearing, no wild behavior. This is a relay horse trained for endurance and speed. The horse must remain visually consistent across all shots."
+    },
+
+    "cinematic_style_bible": {
+      "description": "LOCKED. Paste into all Pony Express Sora prompts.",
+      "copy": "Cinematic, high-end film look. Natural lighting only (sunlight, dusk, dawn). Shallow depth of field when appropriate. Subtle film grain. Realistic motion blur at speed. Color grading inspired by western epics and prestige historical dramas. Earthy tones: browns, greens, dusty golds, muted blues. Camera behavior: mostly grounded, physical camera. Occasional tracking shots alongside the horse. Low-angle shots for power. Wide landscape shots to establish scale. No drone-like impossible camera moves. No fast zooms or gimmicky transitions. Do NOT use fantasy lighting, sci-fi color grading, cartoon motion, or over-stylized treatment. This must feel authentic and cinematic, not theatrical."
+    },
+
+    "base_sora_prompt_template": {
+      "description": "Universal template. Replace [WHAT WE SEE] with shot-specific description. Paste all three bibles above before the what we see block.",
+      "copy": "Create a cinematic historical video featuring the following locked character and horse: [PASTE RIDER BIBLE] [PASTE HORSE BIBLE]. Visual style and camera language must follow these rules: [PASTE CINEMATIC STYLE BIBLE]. The setting is the American frontier during the Pony Express era. No modern elements of any kind. No text overlays. No logos. No dialogue unless explicitly requested. What we see: [INSERT SHOT DESCRIPTION]"
+    },
+
+    "vignettes": [
+      {
+        "vignette_id": "VIG-PE-001",
+        "title": "The Relay Life",
+        "narrative_purpose": "Establish that the rider LOVES the relay. He is not miserable. The system works because it respects the operator. Subtext: We solved this once.",
+        "shots": [
+          {
+            "shot_id": "PE-001-A",
+            "title": "Full Speed Through Forest",
+            "duration": "6–8s",
+            "what_we_see": "The Pony Express rider gallops at full speed through a dense pine forest. Sunlight cuts through the trees in streaks. The camera tracks slightly behind and to the side of the horse, capturing powerful movement and flying dirt. The rider leans forward naturally, completely in control, focused on the path ahead."
+          },
+          {
+            "shot_id": "PE-001-B",
+            "title": "Relay Handoff — 12 Seconds (Consolidated)",
+            "duration": "12s",
+            "what_we_see": "The shot begins with the rider galloping at speed toward a small frontier relay town. The camera tracks from a low, side-front angle as wooden buildings and a relay post come into view. Dust rises from the horse's hooves. The rider is focused and controlled — this is the end of a long, familiar run. As the rider approaches the relay post, he slows the horse smoothly. Another Pony Express rider with a fresh horse is already waiting. The transition from speed to control is calm and practiced. The camera moves closer as the first rider dismounts and hands a leather mail pouch to the waiting rider. The exchange is efficient and deliberate — one clean handoff, no hesitation, no drama. Hands, leather, and dust are clearly visible. Immediately after the handoff, the first rider steps aside. His black horse lowers its head to drink from a wooden water trough. The rider pats the horse's neck with quiet appreciation. In the background, the second rider mounts and begins to ride out. No slow motion, no dramatic crowd reaction, no modern objects, no text."
+          },
+          {
+            "shot_id": "PE-001-C",
+            "title": "The Relay at Rest — 12 Seconds (Consolidated)",
+            "duration": "12s",
+            "what_we_see": "The shot begins inside a dimly lit frontier saloon. The rider sits at a wooden bar, relaxed but alert. He removes one glove and lifts a simple glass mug, taking a slow drink. Warm lamplight reflects off worn wood and leather. The scene transitions smoothly into a frontier bathing room — steam rises softly as the rider sits in an old-fashioned wooden or metal bathtub, leaning back, shoulders relaxing. The image then flows naturally into a nighttime bunkhouse. The rider lies on a simple wooden bed, boots set aside, hat resting nearby. He exhales and settles into sleep. Moonlight or low lamplight softly illuminates the room. Transitions feel like time passing — subtle fades or dissolves only. The tone is calm, dignified, and restorative. No dialogue, no text, no modern elements, no exaggerated emotion."
+          }
+        ],
+        "vo_direction": "Rider's internal voice or a quiet narrator. Tone: confident, grounded. Example line: 'The relay worked because we never tried to run the whole way.'"
+      },
+      {
+        "vignette_id": "VIG-PE-002",
+        "title": "The Dreamer",
+        "narrative_purpose": "As he rides, he imagines a faster future. He is not frustrated — he is curious and forward-thinking. He does not question the relay itself. He imagines better tools. Subtext: What if the relay had more power?",
+        "shots": [
+          {
+            "shot_id": "PE-002-A",
+            "title": "Wide Sky Ride — Vision Forms",
+            "duration": "6–8s",
+            "what_we_see": "Side-profile, wide tracking shot. Rider small in frame, mostly sky. Muddy path, open landscape. Above him, a single soft imagined vision forms in the clouds — one road, one modern semi-truck rendered in pen-and-ink parchment style (sepia, charcoal, slightly imperfect lines). The vision is ONE unified cloud shape — not multiple bubbles, not layered images. Inside it: a paved road replaces the muddy path, and a single modern American semi-truck drives forward. Rendered as if sketched by a 19th-century mind. Rider continues forward, expression calm and thoughtful. No dramatic reaction. No modern objects on the ground."
+          },
+          {
+            "shot_id": "PE-002-B",
+            "title": "Full Speed Dream Ride",
+            "duration": "6–8s",
+            "what_we_see": "The rider gallops through stunning open terrain — fields, river crossings, forest edge. Camera close and cinematic. As he rides at full speed, subtle thought-visions flicker around him: impressionistic shapes suggesting roads, machines, movement. Not literal, not multiple bubbles. Dreamlike but restrained. He is not slowing down — this is imagination at full gallop."
+          }
+        ],
+        "vo_direction": "Example line: 'Sometimes, riding through all this… I could almost see what was coming.' Or simply: 'One day, we'll smooth all this out. Lay it clean. And run something faster than any horse.'"
+      },
+      {
+        "vignette_id": "VIG-PE-003",
+        "title": "The Crossing",
+        "narrative_purpose": "The hinge moment. He rides through his own vision and the world expands. He does not abandon his world — it grows. The modern road appears next to the relay path, not replacing it. Subtext: You built everything I dreamed of.",
+        "shots": [
+          {
+            "shot_id": "PE-003-A",
+            "title": "The Crossing — 12 Seconds",
+            "duration": "12s",
+            "what_we_see": "Mid-level side-tracking shot. Rider galloping through familiar forest terrain. Routine and practiced. For the first few seconds, everything is historical. A soft atmospheric vision appears ahead of him — same parchment-toned, pen-and-ink style as before, aligned with his path. No portal, no special effect. Without slowing, the rider rides directly through it. At the moment he passes through, the scene transitions seamlessly — no flash, no explosion. On the other side, the same forested landscape but a modern highway runs alongside the terrain, offset from the rider's path. Rider remains on dirt. A large semi truck passes at speed on the highway. The rider slows slightly, turns his head to look at the road. Expression: quiet recognition and satisfaction, not fear or disbelief. Camera briefly shows the road and traffic, then returns to rider's profile. He smiles subtly. No text, no labels, no visual effects, no explanation."
+          }
+        ],
+        "vo_direction": "Example line: 'Turns out… I wasn't wrong.'"
+      },
+      {
+        "vignette_id": "VIG-PE-004",
+        "title": "The Phenomenon",
+        "narrative_purpose": "He becomes a figure in the modern world without explanation. He is not a caveman — he is a professional encountering new tools. He enjoys it. He is comfortable on a stage. Subtext: The principles never changed.",
+        "shots": [
+          {
+            "shot_id": "PE-004-A",
+            "title": "Stage / Boardroom Presence",
+            "duration": "6–8s",
+            "what_we_see": "Stylized news clip and conference montage. The rider on a stage in modern clothing or hybrid attire, calm and composed. Brief boardroom shot. Brief news-style coverage. He is articulate, confident, and at ease — not confused or performing. The tone is surreal but controlled. No comedy. No exaggeration."
+          }
+        ],
+        "vo_direction": "Example line: 'They kept asking how I got here. I told them — same way I always moved. One relay at a time.'"
+      },
+      {
+        "vignette_id": "VIG-PE-005",
+        "title": "The Insight",
+        "narrative_purpose": "He studies the modern system and identifies the missing piece. Speed exists. Scale exists. But the relay principle was lost. This is where the LineHaul Station idea lands — not as a pitch, but as an inevitable conclusion. Subtext: You built speed. You forgot balance.",
+        "shots": [
+          {
+            "shot_id": "PE-005-A",
+            "title": "The Network Study",
+            "duration": "6–8s",
+            "what_we_see": "He looks at freight maps. He observes trucks idling or sitting in traffic. He sees fatigue — in systems and in people. His expression is not critical but diagnostic. Then the vintage network map appears as a visual overlay — corridors, stars, relay logic. His expression shifts to recognition. This is familiar."
+          }
+        ],
+        "vo_direction": "Example line: 'You solved speed. You solved scale. But you forgot the relay. No rider runs the whole way.'"
+      },
+      {
+        "vignette_id": "VIG-PE-006",
+        "title": "America's Great Relay Network",
+        "narrative_purpose": "The reveal. The vintage map modernizes. Memphis lights up as Node 1. The network expands. This is the LineHaul Station network come to life. No hype — just inevitability. Subtext: This is the relay, rebuilt for now.",
+        "shots": [
+          {
+            "shot_id": "PE-006-A",
+            "title": "Network Map Animation — 12 Seconds",
+            "duration": "12s",
+            "what_we_see": "See MAP_ANIMATION_PROMPT below. Uses the locked vintage network map image as source. Empty parchment → corridors draw → stars stamp → modernization → freight pulses between nodes. Memphis is first. The network grows.",
+            "note": "This is the Sora image-to-video animation shot. Uses the vintage network map as the base image."
+          },
+          {
+            "shot_id": "PE-006-B",
+            "title": "End Card",
+            "duration": "4–6s",
+            "what_we_see": "Static or near-static branded end frame. LineHaul Station logotype. 'America's Great Relay Network.' Memphis is first. Reserve your space."
+          }
+        ],
+        "vo_direction": "Example line: 'We built it once. LineHaul Station is building it again. America's great relay network — starting in Memphis.'"
+      }
+    ],
+
+    "map_animation_prompt": {
+      "title": "Sora 2 — Network Map Animation (Image-to-Video, 12 Seconds)",
+      "source_image": "Locked vintage network map — parchment style, geo-accurate, large stars = primary hubs, small stars = secondary nodes",
+      "prompt": "Use the provided vintage freight map image as the exact base frame. Do not alter the geography, layout, routes, or node placement. All animation must be derived from this image only. Create a 12-second cinematic transformation in vertical 9:16. PHASE 1 (0–3s): The map appears as a clean aged parchment United States map, matching the base image's background and coastline. Parchment texture is visible. No stars, no freight corridors, no motion other than subtle film grain. PHASE 2 (3–7s): Freight corridors and nodes assemble onto the map deliberately. Roads draw themselves on following exact paths shown in the base image, as if being inked by an invisible draftsman — smooth and controlled, no glowing yet. As corridors complete, stars appear: large stars first (major hubs), smaller stars follow (secondary nodes). Stars fade and press into the map, like stamped ink — they do not fly or bounce. At the end of this phase, the map visually matches the original vintage image, fully assembled. PHASE 3 (7–12s): The map transitions from historical to modern without changing layout. Parchment texture subtly fades. Map surface becomes cleaner and darker. Freight corridors shift from inked lines to modern clean infrastructure lines in warm copper/amber. Stars transform from flat ink prints into modern five-point industrial markers with matte orange color, minimal glow, minimal bloom — no sparkle, no rotation. Freight flow animates along corridors as pulses moving rapidly from star to star, directional like ping-ponging relay traffic, following exact road geometry. FINAL FRAME: Stable. Clean modern US freight network. Active movement between stars. Large stars dominant, small stars clearly secondary. No labels, no text, no UI. Calm, confident, national scale. STRICT RULES: Do not add or remove stars. Do not add or remove roads. Do not alter geography. No text, labels, legends, vehicles, people, buildings, neon, holograms, sci-fi interfaces. No camera spins or aggressive zooms. If Sora adds anything not in the source image — reject and regenerate."
+    },
+
+    "suno_prompts": {
+      "main_theme": {
+        "title": "Modern-Day Pony Express — Main Theme (Instrumental)",
+        "prompt": "instrumental, cinematic western, modern orchestral western, symphonic score, epic but grounded, American frontier atmosphere, galloping rhythm, driving tempo, wide open landscapes, emotional movement, dynamic swells, quiet reflective breaks, dramatic pauses, heroic but restrained, no vocals, no lyrics, storytelling through music, prestige film score, full string orchestra, cinematic violins, cellos and basses, featured solo violin for melodic leads, featured slide guitar with subtle reverb, acoustic guitar strumming patterns, low percussion, toms, taiko-style drums, brushed snare, subtle timpani, deep bass pulses, occasional french horn accents, warm brass swells, sparse piano accents, ambient pads for atmosphere, steady gallop rhythm, forward momentum, sense of relay and handoff, moments of tension and release, cliffhanger notes, sudden drop to near silence, intimate quiet passages, emotional lift into wide heroic sections, confidence not bombast, grit and dignity, American mythic tone"
+      },
+      "reflective_variant": {
+        "title": "The Relay at Rest — Reflective Variant (Instrumental)",
+        "prompt": "instrumental, cinematic western, minimal orchestral western, intimate frontier atmosphere, slow tempo, reflective and emotional, Americana score, no vocals, no lyrics, subtle movement, breathing space, prestige film score, solo violin, soft cello, slide guitar lightly picked, acoustic guitar harmonics, sparse piano, ambient strings, light brush percussion, distant low drums, warm analog pads, natural room reverb, quiet dignity, earned rest, emotional warmth, calm confidence, reflective pauses, slow breathing rhythm, sense of continuity and purpose, peaceful but not sleepy"
+      },
+      "production_note": "When Suno generates a version you like, save the seed immediately. Generate variations for: faster cuts, quieter beds, alternate endings. Build one musical family for the whole series — do not use random tracks."
+    }
+  },
+
+  "messaging_framework": {
+    "carrier_facing": {
+      "headline": "Memphis is where the relay starts. Get your space now.",
+      "sub_message": "LineHaul Station Memphis is a full-service, member-only truck terminal built for carriers who need a real infrastructure partner — not another truck stop. Drop-and-hook. Driver pass access. Secure freight. And for forward-thinking fleets: a relay hub that moves freight 1,500 miles in 24–36 hours.",
+      "cta": "Reserve your space at linehaulstation.com/memphis",
+      "tone": "Infrastructural. Peer-to-peer. Confident. No hype."
+    },
+    "driver_facing": {
+      "headline": "Memphis is the first Home Hub in the network.",
+      "sub_message": "OneHome begins in Memphis. If you're ready to stop paying for a home you barely see, start here. Your mailbox, your storage, your parking — and the entire LineHaul Station network as your home wherever the road takes you.",
+      "cta": "Learn about OneHome at linehaulstation.com/memphis",
+      "tone": "Aspirational but real. Lifestyle. Not salesy.",
+      "cross_campaign": "CMP-0003 (OneHome) handles the full driver lifestyle messaging — Memphis campaign should route driver traffic to OneHome lander content"
+    },
+    "network_framing": {
+      "note": "ALWAYS frame Memphis as Node 1, not as a single location. The city address is West Memphis, Arkansas — but lead with 'Memphis.' Do not hide the West Memphis location, but do not lead with it either. The story is: 'Memphis is where it starts. The network is already planned.' The vintage map animation and the network node visuals reinforce this automatically.",
+      "scroll_stop_hook": "America built the fastest relay network in the world once. LineHaul Station is building it again. Memphis is where it starts.",
+      "ford_hook": "The industry doesn't need faster trucks. It needs a better system. Memphis is where it starts.",
+      "pony_express_bridge": "Every great relay network started somewhere. The original Pony Express started in St. Joseph, Missouri. The modern one starts in Memphis."
+    }
+  },
+
+  "execution": {
+    "content_queue": [
+      {
+        "content_id": "CNT-001",
+        "channel": "LinkedIn",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "America built the fastest relay network in the world once. No rider ran the whole way. Speed came from the handoff. LineHaul Station is rebuilding that system — for modern freight, modern carriers, and modern drivers. Memphis is Node 1. Space is available now.",
+        "asset_links": ["Network map animation (when ready) or vintage map static"],
+        "cta": "Reserve your space — linehaulstation.com/memphis",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-002",
+        "channel": "LinkedIn",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "Jeff Swinson — 45 seconds. Topic: What is LineHaul Station Memphis and why now. Upload from phone at 9:16.",
+        "asset_links": ["Jeff talking-head video (in production)"],
+        "cta": "Get your space — linehaulstation.com/memphis",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-003",
+        "channel": "LinkedIn",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "Network map animation. No caption needed except: LineHaul Station. America's Great Relay Network. Memphis is first. Reserve your space now.",
+        "asset_links": ["Network map animation (Sora — in production)"],
+        "cta": "linehaulstation.com/memphis",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-004",
+        "channel": "LinkedIn",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "Pony Express Vignette 1 — The Relay Life. No caption on the video itself. Post copy: 'We built the modern-day Pony Express once. LineHaul Station is building it again.' Ends with network map + Memphis Node 1.",
+        "asset_links": ["Pony Express Vignette 1 stitched clips (in production)"],
+        "cta": "Learn more — linehaulstation.com/memphis",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-005",
+        "channel": "Facebook",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "The first LineHaul Station is opening in Memphis. If you're a driver thinking about OneHome — this is your Home Hub. Mailbox. Storage. Personal vehicle parking. And access to the entire network as it grows. Start with the days you need.",
+        "asset_links": ["Memphis rendering — building exterior or LH entrance, lifelike version"],
+        "cta": "Learn about OneHome — linehaulstation.com/memphis",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-006",
+        "channel": "Instagram",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "OneHome starts in Memphis. Carbon-fiber tear reveal showing Memphis amenity rendering. OneHome branding. CTA: Everywhere the road takes you. It starts here.",
+        "asset_links": ["OneHome carbon-fiber tear reel (CMP-0003 crossover)"],
+        "cta": "OneHome. linehaulstation.com/memphis",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-007",
+        "channel": "LinkedIn",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "The industry doesn't need faster trucks. It needs a better system. Hub-based. Agnostic. Built for relay. That's LineHaul Station. Memphis is where it starts. Carriers, fleet operators — space is open now.",
+        "asset_links": ["Site plan rendering or map static"],
+        "cta": "linehaulstation.com/memphis",
+        "status": "draft"
+      }
+    ],
+    "engagement_plan": {
+      "weekly_targets": "LinkedIn: engage on 5–10 logistics / carrier / trucking posts per week. Focus: infrastructure, supply chain efficiency, driver retention, carrier challenges. Build presence before the paid campaign activates. Facebook/Instagram: engage in driver community conversations — link to OneHome angle when relevant.",
+      "influencers_to_engage": [],
+      "notes": "LinkedIn engagement strategy: engage as LineHaul Station, not as an individual. Focus on being a thought voice on relay logistics and driver quality of life. Do not pitch in comment threads — let the content do the conversion work. Save pitching for direct message follow-up after connection."
+    }
+  },
+
+  "reporting": {
+    "weekly_reports": []
+  },
+
+  "cross_campaign_connections": {
+    "CMP-0002_ModernDayPonyExpress": "The Pony Express narrative campaign is the intellectual and emotional backbone of this Memphis launch campaign. The two campaigns share visual assets (network map, Pony Express video series) and messaging (relay network, Memphis as Node 1). Pony Express campaign is always organic; Memphis campaign adds the paid layer and the direct CTA.",
+    "CMP-0003_OneHome": "OneHome is the driver-facing program housed at the Memphis location. Memphis campaign routes driver traffic to the OneHome program. Amenity renderings and reveal reels from CMP-0003 can be used as Memphis campaign content on Facebook and Instagram. Carrier and driver audiences are segmented by channel — LinkedIn for carriers, Facebook/Instagram for drivers.",
+    "CMP-0004_Renderings": "All Memphis architectural renderings flow through the Renderings campaign library (CMP-0004). Memphis campaign pulls from that library for organic content. Pool/spa renderings from Ron (incoming) are particularly high-value for the Memphis driver/OneHome angle."
+  },
+
+  "location_facts": {
+    "name": "LineHaul Station Memphis",
+    "address_note": "Located in West Memphis, Arkansas — just east of Memphis across the Mississippi River. Lead with 'Memphis' in all marketing. Do not hide the West Memphis location but do not feature it prominently. The story is the network node, not the ZIP code.",
+    "node_designation": "Node 1 — first location in the national network",
+    "lander_url": "https://linehaulstation.com/memphis",
+    "available_programs": ["OneHome (drivers)", "FlexSpace (carriers + fleets)", "Freight Relay (operational — TBD brand name)"],
+    "phase": "Pre-opening — space reservation active"
+  },
+
+  "flags": [
+    "Memphis lander rebuild is the #1 blocker — paid LinkedIn campaign cannot launch until the new lander is live",
+    "All LinkedIn video must be uploaded from phone at 9:16 — NEVER desktop — this is a platform algorithmic requirement",
+    "Do NOT lead with 'West Memphis' in any content — always lead with 'Memphis'",
+    "Pony Express video series is in production — do not finalize LinkedIn content calendar until at least Vignette 1 is stitched",
+    "Jeff talking-head video recording is outstanding — needed for Phase 2 launch",
+    "Network map animation is in production — this is the anchor visual for the carrier campaign",
+    "FlexSpace messaging must be present in the campaign — do not default entirely to the space ownership pitch",
+    "Suno music seeds must be saved immediately on generation — do not regenerate from scratch"
+  ],
+
+  "next_actions": [
+    "Begin Memphis lander rebuild wireframe — mobile-first, carrier onboarding flow, space selector",
+    "Jeff records 45-second Memphis talking-head video (home office, 9:16)",
+    "Generate Sora Vignette 1 shots using locked rider + horse bibles",
+    "Generate and test network map animation using vintage map source image",
+    "Generate Suno main theme + reflective variant — save seeds",
+    "Schedule CNT-001 (network map static or animation) and CNT-007 (site plan post) as first organic LinkedIn content",
+    "Define LinkedIn paid campaign targeting parameters — carrier owners, fleet operators, logistics executives",
+    "Coordinate with CMP-0003 to confirm OneHome reveal reels as Memphis driver content"
+  ],
+
+  "notes": [
+    "Memphis is not a local campaign — it is a national network launch that happens to start in Memphis. Every piece of content should reinforce: this is Node 1, not the only node.",
+    "The Pony Express series earns attention and builds myth. Jeff's talking-head videos convert. The map animation contextualizes. These three content types work as a system — do not deploy any one of them in isolation.",
+    "The carrier audience on LinkedIn does not respond to hype. They respond to infrastructure logic, operational efficiency, and peer credibility. Keep the tone direct, smart, and business-to-business.",
+    "The driver audience on Facebook/Instagram does respond to aspiration, lifestyle, and financial benefit. The OneHome angle (CMP-0003) handles this — Memphis campaign simply points drivers that direction.",
+    "Paid LinkedIn campaign is a Phase 2 move — do not cold-launch paid before organic has established the brand voice and before the lander rebuild is live.",
+    "The Pony Express rider is not a mascot. He is not a spokesperson. He is a narrative device that makes the relay concept emotionally legible. Keep him out of promotional content and in storytelling content only.",
+    "Boots Walker (CMP-0001) cameo at Memphis is possible — Boots arriving at the LineHaul Station entrance — but do not force it. If it fits naturally in production, great. If not, skip it."
+  ],
+
+  "timestamps": {
+    "created_at": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-03-10T00:00:00Z"
+  }
+}

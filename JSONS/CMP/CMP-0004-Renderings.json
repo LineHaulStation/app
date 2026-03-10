@@ -1,0 +1,523 @@
+{
+  "__path__": "/linehaul-station/campaigns/CMP-0004-Renderings.json",
+  "schema_version": "2.0",
+  "entity_type": "campaign",
+  "id": "CMP-0004",
+  "status": "active",
+
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "AngBot",
+    "last_touched_at": "2026-03-10T00:00:00Z"
+  },
+
+  "campaign_card": {
+    "target_audience": {
+      "segment": "drivers",
+      "details": "Primary: drivers and carrier community across Facebook, Instagram, and TikTok. Secondary: carriers, investors, and industry observers who respond to design, infrastructure, and vision content. Renderings content functions as brand equity — it builds credibility, aspiration, and scale perception across all audiences. Not a single-segment campaign — treat as a broad awareness and storytelling tool."
+    },
+    "campaign_name": "Renderings",
+    "campaign_goal": {
+      "primary_goal": "Maintain a standing library of high-quality evergreen content by treating every LineHaul Station rendering as a multi-output content source. Keep the brand visually present and aspirational across all channels without requiring new photoshoots or production from scratch.",
+      "memberships_per_week_target": null
+    },
+    "key_messages": [
+      "LineHaul Station is a real, thoughtfully designed, purpose-built facility — not a concept.",
+      "Every detail of the layout was designed for efficiency, safety, and driver experience.",
+      "This is what the future of trucking infrastructure looks like."
+    ],
+    "cta": {
+      "text": "See what's coming. Follow LineHaul Station.",
+      "lead_capture_point": "linehaulstation.com — contextual per post"
+    },
+    "campaign_type": "organic",
+    "budget": {
+      "planned_total": null,
+      "planned_weekly": null,
+      "currency": "USD",
+      "notes": "Primarily zero-cost organic content generation via AI tools (ChatGPT image generation, Sora video prompts). Artlist credits used for video enhancement. No paid budget required for base operation — paid boost optional for high-performing posts."
+    },
+    "creative_assets": [
+      {
+        "asset_type": "image_library",
+        "title": "Original Architectural Renderings — Ron Dietrich Folder",
+        "link": "",
+        "notes": "18 pages / rendering views in original deck. Access currently limited — Anj to move best-of selects to shared Renderings + Prompts folder for team access. This is the canonical source material."
+      },
+      {
+        "asset_type": "image_library",
+        "title": "Lifelike Enhanced Renderings — AI Processed",
+        "link": "",
+        "notes": "Ongoing. Anj feeding original renderings through AI image generation to produce more photorealistic versions. Output used for OneHome and general LHS brand content. Growing library."
+      },
+      {
+        "asset_type": "image_library",
+        "title": "Pool & Spa Renderings — Ron (Incoming)",
+        "link": "",
+        "notes": "Not yet delivered. Expected: overhead view, oblique view, hot tub back to waterfalls, long-end pool view toward pool house. 2–3 orientations total. High-value OneHome crossover content."
+      },
+      {
+        "asset_type": "video",
+        "title": "Building Front / LH Entrance Video",
+        "link": "",
+        "notes": "Anj produced one video of the building front featuring the LH entrance branding. Live. The LH entrance is the most versatile single visual asset in the library — use it in multiple formats."
+      },
+      {
+        "asset_type": "image_library",
+        "title": "Styled Variants — Watercolor / Ink Architectural Style",
+        "link": "",
+        "notes": "Exploratory. AI-generated artistic watercolor/marker-style versions of renderings. Jeff prefers clean photorealistic style as primary — artistic variants to be used selectively where the 'this is coming' concept-to-reality angle fits. Not for primary campaign use."
+      },
+      {
+        "asset_type": "concept",
+        "title": "Diorama / Architectural Scale Model Visual Concept",
+        "link": "",
+        "notes": "Not yet produced. Concept: AI-generate the site/building as a detailed tabletop architectural scale model — miniature roads, landscaping, structures, vehicles. Makes the property feel like a premium design-center presentation. Could crossover with Boots Walker placing a truck on the model. High social potential."
+      }
+    ]
+  },
+
+  "plan": {
+    "strategic_context": "The Renderings campaign is not a traditional campaign with a single message arc. It is a standing evergreen content engine built on LineHaul Station's visual asset library. Every rendering — site plan, building exterior, amenity areas, aerial, concept, or derivative — is source material for multiple content outputs: static social posts, lifelike AI-enhanced imagery, short-form video, architectural concept treatments, and prompt-driven variations. The campaign's value compounds over time: the library grows as new renderings are delivered (pool/spa, new Ron Dietrich work, enhanced versions), and every image in the library can be reinterpreted in multiple visual styles and narrative angles. The iconic LH entrance alone is capable of generating dozens of unique posts across different formats and themes. This campaign exists to keep the brand visually present, aspirational, and credible without requiring continuous new production. It is the creative safety net that ensures the social calendar always has high-quality brand content available.",
+    "organic_plan_90_day": {
+      "start_date": "2026-03-10",
+      "end_date": "2026-06-07",
+      "plan_link": "",
+      "weekly_focus_notes": "Minimum 1–2 rendering-based posts per week across channels. Rotate through content pillars: design/efficiency, arrival/entrance, amenities, vision/future, scale-model concept. Prioritize enhanced lifelike versions over raw renders when available. Pool/spa content goes live as soon as Ron delivers."
+    },
+    "channels": [
+      "Facebook",
+      "Instagram",
+      "TikTok",
+      "LinkedIn"
+    ],
+    "initiatives": [
+      {
+        "initiative_type": "other",
+        "title": "Renderings + Prompts Folder — Shared Library Setup",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Move best-of rendering selects out of Ron Dietrich folder into shared Renderings + Prompts folder",
+          "Organize by folder structure (see folder_structure field below)",
+          "Pair each rendering with approved prompt language and caption bank",
+          "Ensure Angie has access and knows how to use it"
+        ],
+        "notes": "The shared folder is the operational core of this campaign. Without it, the asset pool is fragmented and underused. Once built, it becomes a self-service content toolkit for the whole team."
+      },
+      {
+        "initiative_type": "ugc",
+        "title": "AI-Enhanced Lifelike Rendering Production",
+        "owner": "Anj",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Continue feeding original renderings through AI image tools to produce lifelike versions",
+          "Prioritize: building exterior, LH entrance, sky deck, pool area (when delivered), truck yard",
+          "Store enhanced versions in 06 Styled Variations subfolder",
+          "Flag best outputs for social calendar use"
+        ],
+        "notes": "Lifelike versions outperform raw renders on social — they read as real to the audience and build credibility. Prioritize these over raw renders for primary posts whenever available."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Diorama / Scale Model Concept Posts",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Run site plan rendering through diorama AI prompt (see prompt_library below)",
+          "Evaluate output quality — if strong, produce 3–5 variations",
+          "Consider Boots Walker crossover: Boots placing a truck on the model",
+          "Use as standalone posts: 'This is how we planned it.'"
+        ],
+        "notes": "The diorama concept is high social potential — it feels like a premium design-center reveal and makes the development tangible. The Boots Walker scale model version is particularly strong. Coordinate with CMP-0001 if pursuing the Boots crossover."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Pool & Spa Content — Ron Renderings",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Receive pool and spa renderings from Ron",
+          "Expected views: overhead, oblique, hot tub to waterfalls, long pool toward pool house",
+          "Run through lifelike enhancement immediately on receipt",
+          "Feed into OneHome campaign (CMP-0003) and Renderings calendar simultaneously"
+        ],
+        "notes": "Pool/spa renderings are among the highest-value assets for the OneHome campaign. As soon as they arrive, they go into both the Renderings library and the OneHome content queue."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Artlist Video Production — Rendering Fly-Throughs",
+        "owner": "Anj",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Use Artlist credits to generate additional video versions from key renderings",
+          "Priority: LH entrance, building exterior, sky deck, site plan aerial",
+          "Produce short 6–15 second clips for use as standalone reels and B-roll",
+          "Export at 9:16 for social"
+        ],
+        "notes": "LH entrance video already produced and live. More entrance and aerial versions are high priority. Video outperforms static on all social platforms — every strong rendering should eventually have a video version."
+      }
+    ],
+    "weekly_cadence": {
+      "monday_review": {
+        "required": true,
+        "agenda": [
+          "Review rendering content to post this week",
+          "Check for new enhanced images or videos ready to schedule",
+          "Confirm prompt-based generation tasks for the week",
+          "Review last week's rendering post performance"
+        ],
+        "notes": ""
+      },
+      "friday_report": {
+        "required": true,
+        "report_format": "visual",
+        "source_tool": "Later or native platform analytics",
+        "notes": ""
+      }
+    }
+  },
+
+  "content_system": {
+
+    "folder_structure": {
+      "root": "Renderings + Prompts",
+      "subfolders": [
+        {
+          "folder": "01 Original Renderings",
+          "purpose": "Source files from Ron Dietrich — do not edit originals"
+        },
+        {
+          "folder": "02 Best-of Selects",
+          "purpose": "Curated hero images approved for social use"
+        },
+        {
+          "folder": "03 Social Captions",
+          "purpose": "Approved caption bank, organized by theme"
+        },
+        {
+          "folder": "04 Image Prompts",
+          "purpose": "Reusable AI image prompt formulas paired with rendering references"
+        },
+        {
+          "folder": "05 Video Prompts",
+          "purpose": "Sora and other video prompt scripts paired with rendering references"
+        },
+        {
+          "folder": "06 Styled Variations",
+          "purpose": "AI-enhanced lifelike versions, diorama concepts, artistic variants"
+        },
+        {
+          "folder": "07 Evergreen Themes",
+          "purpose": "Content angle library — organized by pillar so the team knows what narrative to use with each image"
+        },
+        {
+          "folder": "08 Final Exports",
+          "purpose": "Approved, sized, ready-to-post assets"
+        }
+      ]
+    },
+
+    "content_pillars": {
+      "pillar_1_design_and_efficiency": {
+        "label": "Thoughtful Design",
+        "purpose": "Highlight how well-planned the site is — circulation, flow, navigation, layout intelligence",
+        "best_visuals": ["site plan", "aerial rendering", "overhead concept"],
+        "tone": "Confident, infrastructural, credible"
+      },
+      "pillar_2_arrival_and_entrance": {
+        "label": "The Arrival",
+        "purpose": "The LH entrance is the brand's most iconic single image — use it to signal quality, identity, and presence",
+        "best_visuals": ["LH entrance rendering", "building front", "entry sequence"],
+        "tone": "Aspirational, proud, brand-forward"
+      },
+      "pillar_3_amenities_and_experience": {
+        "label": "The Experience",
+        "purpose": "Show the inside: sky deck, pool, craft kitchen, fitness studio — make it feel like a destination",
+        "best_visuals": ["sky deck rendering", "pool and spa", "amenity area visuals"],
+        "tone": "Lifestyle, resort-quality, inviting"
+      },
+      "pillar_4_vision_and_future": {
+        "label": "What's Coming",
+        "purpose": "Frame the renderings as a preview of something real and imminent — builds anticipation and credibility",
+        "best_visuals": ["full site plan", "aerial overview", "concept-to-reality sequence"],
+        "tone": "Forward-looking, exciting, grounded"
+      },
+      "pillar_5_scale_and_network": {
+        "label": "Built at Scale",
+        "purpose": "Communicate that this isn't one location — it's a repeating model that grows nationwide",
+        "best_visuals": ["site plan", "network map", "multiple location views"],
+        "tone": "Infrastructure, national, ambitious but real"
+      },
+      "pillar_6_concept_and_craft": {
+        "label": "Design Craft",
+        "purpose": "Celebrate the design itself — architecture, details, how it was conceived and drawn",
+        "best_visuals": ["diorama/scale model", "watercolor/ink variants", "detail close-ups"],
+        "tone": "Craftsmanship, pride, premium development"
+      }
+    },
+
+    "prompt_library": {
+      "image_prompts": [
+        {
+          "prompt_id": "IMG-001",
+          "title": "Lifelike Enhancement",
+          "use_case": "Turn any rendering into a photorealistic version",
+          "prompt": "Use this rendering as the reference image. Create a highly realistic, polished architectural visualization that preserves the layout, structure, and branding while enhancing lighting, landscaping, materials, depth, and realism. Keep it premium, clean, believable, and aspirational. No fantasy elements."
+        },
+        {
+          "prompt_id": "IMG-002",
+          "title": "Hero Entrance Feature",
+          "use_case": "Feature the LH entrance as a brand identity moment",
+          "prompt": "Use this rendering to create a realistic feature image centered on the LH entrance. Highlight the signage, arrival sequence, landscaping, and the sense of brand presence at the front of the property. Evening or golden-hour lighting preferred. Premium and welcoming."
+        },
+        {
+          "prompt_id": "IMG-003",
+          "title": "Social Hero Image",
+          "use_case": "Create a scroll-stopping hero for Instagram/Facebook",
+          "prompt": "Use this rendering as the base and create a visually striking hero image for social media. Emphasize arrival, atmosphere, architectural presence, and brand identity. Clean composition, premium lighting, realistic materials. Cropped for 4:5 vertical format."
+        },
+        {
+          "prompt_id": "IMG-004",
+          "title": "Aerial Site Overview",
+          "use_case": "Make the site plan feel like a real aerial photograph",
+          "prompt": "Transform this site plan into a realistic aerial concept visualization that preserves the actual layout while making the environment feel fully built, navigable, and operational. Show roads, landscaping, structures, and vehicles in a realistic overhead photographic style."
+        },
+        {
+          "prompt_id": "IMG-005",
+          "title": "Diorama / Scale Model",
+          "use_case": "Turn the property into a premium architectural scale model",
+          "prompt": "Turn this rendering into a detailed architectural scale model displayed on a tabletop, with miniature roads, landscaping, structures, and vehicles. Make it look like a premium design-center tabletop model photographed in real life — the kind you'd see in a high-end golf community or luxury condominium sales center. Clean presentation surface, professional lighting, sharp detail."
+        },
+        {
+          "prompt_id": "IMG-006",
+          "title": "Artistic Watercolor / Ink Variant",
+          "use_case": "Selective use for concept-to-reality storytelling",
+          "prompt": "Redraw this rendering in the style of a hand-drawn architectural watercolor and ink illustration. Warm, artistic, organic feeling. Detailed but stylized — like a premium design sketch. Use this style selectively; not for primary brand content."
+        },
+        {
+          "prompt_id": "IMG-007",
+          "title": "Night / Evening Atmosphere",
+          "use_case": "Show the property at night with premium lighting",
+          "prompt": "Using this rendering as the base, create a nighttime version of the property with warm, premium architectural lighting. Building illumination, landscape lighting, lit signage. The overall mood should feel upscale, safe, and inviting — like a resort or private community at night."
+        },
+        {
+          "prompt_id": "IMG-008",
+          "title": "Pool and Spa Feature",
+          "use_case": "Amenity lifestyle post for OneHome crossover",
+          "prompt": "Using this pool and spa rendering as the reference, create a highly realistic lifestyle image of the pool area. Warm afternoon light, clean water, lush landscaping, premium outdoor furniture. The feeling should be resort-level — calm, exclusive, beautiful. No people required unless they enhance the mood."
+        }
+      ],
+
+      "video_prompts": [
+        {
+          "prompt_id": "VID-001",
+          "title": "Cinematic Entrance Fly-Through",
+          "use_case": "Primary brand video from the LH entrance rendering",
+          "prompt": "Using this rendering as the visual reference, create a short cinematic fly-through that begins outside the property and slowly moves toward the LH entrance. Emphasize signage, landscaping, arrival sequence, lighting, and realism. The motion should feel like a premium real estate reveal. 9:16 vertical. 8–12 seconds."
+        },
+        {
+          "prompt_id": "VID-002",
+          "title": "Aerial Site Reveal",
+          "use_case": "Site plan / overview reveal video",
+          "prompt": "Create a cinematic overhead aerial reveal starting from a wide view of the surrounding area and slowly descending toward the LineHaul Station property. As the camera descends, the full site layout becomes visible — roads, structures, landscaping, parking areas. Slow and premium. No fast cuts. 9:16 vertical. 10–15 seconds."
+        },
+        {
+          "prompt_id": "VID-003",
+          "title": "Amenity Walk-Through",
+          "use_case": "Sky deck, pool, or amenity area video",
+          "prompt": "Using this amenity rendering as the reference, create a slow, cinematic walk-through of the space. The camera moves through the area at eye level, revealing the environment gradually. Natural lighting, premium atmosphere, no people necessary. Feels like a real estate lifestyle video for a high-end development. 9:16 vertical. 8–12 seconds."
+        },
+        {
+          "prompt_id": "VID-004",
+          "title": "Concept-to-Reality Transition",
+          "use_case": "Show the rendering becoming real",
+          "prompt": "Create a 12-second transition video that begins with the raw architectural rendering, then slowly transitions to a photorealistic version of the same scene. The transition should feel like watching a design come to life — smooth, cinematic, premium. End on the realistic version held for 3–4 seconds. 9:16 vertical."
+        }
+      ]
+    },
+
+    "caption_bank": {
+      "pillar_design_and_efficiency": [
+        "Big ideas start with smart planning. Every detail of the LineHaul Station site plan was designed with efficiency in mind — from truck circulation to driver flow to service access. The result: a facility that works as smoothly as the people who keep freight moving.",
+        "Great operations start with great design. The LineHaul Station site plan was built to eliminate bottlenecks, simplify navigation, and support the rhythm of linehaul logistics. When the layout works, everything works.",
+        "A facility is more than a building — it's a system. From arrival points to service areas, every piece of the LineHaul Station layout was intentionally placed to create a smooth, intuitive flow. Thoughtful design drives operational excellence.",
+        "What you're seeing here is more than a rendering — it's a blueprint for efficiency. Every roadway, entry point, and operational zone was mapped to make movement simple, safe, and fast.",
+        "Efficiency isn't accidental. It's built into the layout. LineHaul Station was designed to organize truck movement, service access, and facility operations into a clean, intuitive system built to keep freight moving.",
+        "The beauty of a well-designed facility is how simple it feels. Clear routes. Logical placement. Seamless movement. That's the thinking behind the LineHaul Station site plan."
+      ],
+      "pillar_arrival_and_entrance": [
+        "First impressions matter. The LineHaul Station entrance was designed to signal something different from the moment you pull in. This is what professionalism looks like.",
+        "Every detail you see at the entrance was intentional. The LH. The lighting. The approach. This is a facility designed to make you feel like you arrived somewhere worth being.",
+        "The entrance is a statement. LineHaul Station was built to stand apart — and you know it the moment you see it.",
+        "Pull up. Look around. This is what a real driver facility looks like."
+      ],
+      "pillar_amenities_and_experience": [
+        "This is what life at LineHaul Station looks like. Not a truck stop. Not a parking lot. A destination.",
+        "Drivers keep the country moving. They deserve more than they've been given. We built this to fix that.",
+        "Resort-quality living designed exclusively for professional drivers. This is OneHome.",
+        "The Sky Deck. The pool. The Craft Kitchen. The Fitness Studio. Every amenity was designed to make drivers feel at home — wherever the road takes them."
+      ],
+      "pillar_vision_and_future": [
+        "This is what's coming. And it's closer than you think. LineHaul Station — Memphis is first.",
+        "Before the first truck arrives, the vision is already this clear. See you soon.",
+        "Every great project starts with a great plan. This is ours.",
+        "Some build for what they need today. We're building for what trucking deserves tomorrow.",
+        "Looking at the full rendering, you can see the bigger picture. Operations, amenities, and infrastructure working together as one cohesive system."
+      ],
+      "pillar_scale_and_network": [
+        "Memphis is first. But it's far from the only one. The network is growing.",
+        "One facility, one layout, one standard — replicated across the country. That's the plan.",
+        "This isn't a single location. It's a template. A nationwide template for what driver infrastructure should look like.",
+        "Built for Memphis. Designed for the whole country."
+      ],
+      "pillar_concept_and_craft": [
+        "This is how it starts — on the drawing board. And this is where it goes.",
+        "Before the steel. Before the concrete. The vision looks like this. We think it's pretty good.",
+        "Every line in this rendering was drawn with a purpose. Architecture for the working world.",
+        "Imagined in detail. Built in full. LineHaul Station."
+      ]
+    },
+
+    "18_rendering_content_map": {
+      "note": "18 views exist in the original Ron Dietrich rendering deck. Each view maps to one or more content pillars and can generate multiple posts. This is a working guide — update as rendering inventory grows.",
+      "views": [
+        { "view": "Site Plan / Overview", "pillar": ["design_and_efficiency", "scale_and_network", "vision_and_future"], "priority": "high" },
+        { "view": "LH Entrance / Building Front", "pillar": ["arrival_and_entrance", "vision_and_future"], "priority": "high — most versatile single asset" },
+        { "view": "Aerial / Overhead", "pillar": ["design_and_efficiency", "scale_and_network"], "priority": "high" },
+        { "view": "Building Exterior — Full View", "pillar": ["arrival_and_entrance", "vision_and_future"], "priority": "high" },
+        { "view": "Sky Deck", "pillar": ["amenities_and_experience"], "priority": "high — OneHome crossover" },
+        { "view": "Truck Yard / Circulation", "pillar": ["design_and_efficiency"], "priority": "medium" },
+        { "view": "Entry Drive / Approach", "pillar": ["arrival_and_entrance"], "priority": "medium" },
+        { "view": "Parking / Vehicle Storage Area", "pillar": ["design_and_efficiency", "amenities_and_experience"], "priority": "medium" },
+        { "view": "Interior Common Area", "pillar": ["amenities_and_experience"], "priority": "medium" },
+        { "view": "Driver Lounge", "pillar": ["amenities_and_experience"], "priority": "medium — OneHome crossover" },
+        { "view": "Craft Kitchen", "pillar": ["amenities_and_experience"], "priority": "medium — OneHome crossover" },
+        { "view": "Fitness Studio", "pillar": ["amenities_and_experience"], "priority": "medium" },
+        { "view": "Laundry / Service Area", "pillar": ["amenities_and_experience"], "priority": "low — support content" },
+        { "view": "Gear Shop", "pillar": ["amenities_and_experience"], "priority": "low — support content" },
+        { "view": "Pool and Spa — Incoming from Ron", "pillar": ["amenities_and_experience"], "priority": "high — arriving soon" },
+        { "view": "Pool and Spa — Hot Tub / Waterfall View", "pillar": ["amenities_and_experience"], "priority": "high — OneHome hero" },
+        { "view": "Landscape / Exterior Detail", "pillar": ["concept_and_craft", "arrival_and_entrance"], "priority": "medium" },
+        { "view": "Signage / Brand Moment Detail", "pillar": ["arrival_and_entrance", "concept_and_craft"], "priority": "medium" }
+      ]
+    }
+  },
+
+  "execution": {
+    "content_queue": [
+      {
+        "content_id": "CNT-001",
+        "channel": "Instagram",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "Big ideas start with smart planning. Every detail of the LineHaul Station site plan was designed with efficiency in mind — from truck circulation to driver flow to service access. The result: a facility that works as smoothly as the people who keep freight moving.",
+        "asset_links": ["Site plan rendering or enhanced aerial"],
+        "cta": "Follow for updates. Memphis is coming.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-002",
+        "channel": "Facebook",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "This is what's coming. And it's closer than you think. LineHaul Station — Memphis is first.",
+        "asset_links": ["LH entrance rendering — lifelike enhanced version"],
+        "cta": "See what's coming at linehaulstation.com",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-003",
+        "channel": "Instagram",
+        "type": "reel",
+        "publish_date": "",
+        "caption_or_script": "Cinematic entrance fly-through. LH entrance video asset. No caption needed beyond: LineHaul Station. Memphis. Opening soon.",
+        "asset_links": ["LH entrance video (existing)"],
+        "cta": "Follow LineHaul Station.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-004",
+        "channel": "Facebook",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "Drivers keep the country moving. They deserve more than they've been given. We built this to fix that. LineHaul Station — resort-quality living designed for professional truck drivers.",
+        "asset_links": ["Sky deck or amenity rendering — lifelike version preferred"],
+        "cta": "OneHome. Everywhere the road takes you.",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-005",
+        "channel": "LinkedIn",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "What you're seeing here is more than a rendering — it's a blueprint for efficiency. Every roadway, entry point, and operational zone was mapped to make movement simple, safe, and fast. Smart design makes all the difference. LineHaul Station — Memphis.",
+        "asset_links": ["Site plan or aerial rendering"],
+        "cta": "Learn more at linehaulstation.com/memphis",
+        "status": "draft"
+      },
+      {
+        "content_id": "CNT-006",
+        "channel": "Instagram",
+        "type": "post",
+        "publish_date": "",
+        "caption_or_script": "Before the steel. Before the concrete. The vision looks like this. We think it's pretty good. LineHaul Station.",
+        "asset_links": ["Diorama / scale model AI-generated concept — when produced"],
+        "cta": "Follow for the build.",
+        "status": "draft"
+      }
+    ],
+    "engagement_plan": {
+      "weekly_targets": "2 rendering-based posts per week minimum. Rotate through pillars — do not over-index on any single angle. Every 3–4 weeks, rotate back to the LH entrance as the anchor image.",
+      "influencers_to_engage": [],
+      "notes": "Rendering posts are brand equity content — they do not need aggressive CTAs. Let the visual do the work. Minimal caption, strong image, clean CTA is the formula."
+    }
+  },
+
+  "reporting": {
+    "weekly_reports": []
+  },
+
+  "cross_campaign_connections": {
+    "CMP-0001_BootsWalker": "Diorama / scale model concept is a natural Boots Walker crossover — Boots placing a miniature truck on the scale model while planning the network. Flag for coordination.",
+    "CMP-0002_ModernDayPonyExpress": "Network map and site plan renderings reinforce the relay network narrative. Can be used as B-roll or supporting visuals in MDPE content.",
+    "CMP-0003_OneHome": "Amenity renderings (sky deck, pool, spa, craft kitchen) are high-value OneHome content. All amenity rendering posts should be tagged for potential OneHome calendar use simultaneously. Pool/spa content when delivered from Ron is a shared asset."
+  },
+
+  "flags": [
+    "Ron Dietrich original folder access is limited — Anj must create shared Renderings + Prompts folder before Angie can use the library",
+    "Pool and spa renderings not yet delivered — high-value content, flag Ron for timeline",
+    "Diorama concept not yet tested — run IMG-005 prompt before committing to this as a content format",
+    "18-rendering content map is estimated — verify actual view count once shared folder is built"
+  ],
+
+  "next_actions": [
+    "Create shared Renderings + Prompts folder with proper subfolder structure",
+    "Move best-of rendering selects from Ron Dietrich folder to shared library",
+    "Run IMG-001 lifelike enhancement prompt on top 5 priority renderings",
+    "Run IMG-005 diorama prompt on site plan — evaluate output",
+    "Follow up with Ron on pool and spa rendering delivery timeline",
+    "Schedule CNT-001 through CNT-005 once enhanced images are ready",
+    "Produce additional LH entrance video variants using Artlist credits"
+  ],
+
+  "notes": [
+    "This is a campaign in the sense that it has a goal, a strategy, and an output system — but it operates more like a standing content pillar than a time-boxed campaign. Treat it as always-on.",
+    "The LH entrance is the single most versatile asset in the entire library. Every channel, every format, every pillar can use it. It should be in regular rotation indefinitely.",
+    "Every rendering is a multi-output asset, not a one-time post. Each image should generate at minimum: one static post, one AI-enhanced version, and one video prompt attempt.",
+    "The prompt library (IMG-001 through IMG-008, VID-001 through VID-004) is the operational core of this campaign — it's what allows Angie or any team member to independently generate new content from the library without reinventing the wheel.",
+    "Jeff prefers clean, photorealistic rendering style as the primary voice. Watercolor/artistic variants are selective-use only — not for lead content.",
+    "The diorama concept has high social potential but needs to be tested before committing. Run the prompt, evaluate output, decide.",
+    "This campaign compounds in value over time — every new rendering added to the library multiplies the output potential. Treat incoming assets (pool/spa, new Ron work) as additions to a growing engine, not one-off drops."
+  ],
+
+  "timestamps": {
+    "created_at": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-03-10T00:00:00Z"
+  }
+}
