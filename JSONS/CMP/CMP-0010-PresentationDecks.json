@@ -1,0 +1,470 @@
+{
+  "__path__": "/linehaul-station/campaigns/CMP-0010-PresentationDecks.json",
+  "schema_version": "2.0",
+  "entity_type": "campaign",
+  "id": "CMP-0010",
+  "status": "active",
+
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "AngBot",
+    "last_touched_at": "2026-03-10T00:00:00Z"
+  },
+
+  "campaign_card": {
+    "target_audience": {
+      "segment": "drivers",
+      "details": "MULTI-AUDIENCE RESOURCE LIBRARY. Each deck targets a distinct audience segment. Audience routing by asset: MASTER DECK (DECK-002): All audiences — sales prospects, strategic partners, investors, drivers, LinkedIn professional audience. BROKER DECK (DECK-005): Freight brokers, brokerage owners, logistics decision makers — LinkedIn primary. GOVERNMENT DECK (DECK-004): Investors, strategic partners, industry leadership, policymakers — LinkedIn only. NOT the driver audience directly. AnjBot routing rule: audience changes tone, tone changes framing, framing changes CTA. Never use government or broker deck framing in driver-facing content. Never use driver emotional language in broker or investor-facing content. Audience segmentation in this library: Drivers / Carriers / Brokers / Government / Investors / Industry at large."
+    },
+    "campaign_name": "Presentation Decks & FlippingBook Resource Library",
+    "campaign_goal": {
+      "primary_goal": "Centralize all LHS presentation decks and FlippingBook resources as a structured, mineable content and messaging library. Every deck contains narrative DNA — positioning statements, data points, objection-handling language, and structural concepts — that feeds social content, thought leadership, sales conversations, and investor communications without requiring new production.",
+      "memberships_per_week_target": null
+    },
+    "key_messages": [
+      "These are not slide decks. They are messaging gold. Authority positioning. Visual asset banks. Educational content engines. LinkedIn thought leadership mines. Mine them, do not recycle them.",
+      "Audience segmentation is non-negotiable. The broker deck has a different tone than the driver deck. The government deck has a different tone than both. AnjBot must select the right deck for the right audience before extracting any content.",
+      "The goal is narrative DNA extraction — core concepts, data points, definitions, positioning statements, and objection-handling language converted into social content, threads, carousels, and reels."
+    ],
+    "cta": {
+      "text": "Varies by deck and audience. See individual asset cta field.",
+      "lead_capture_point": "Varies by deck. Master Deck: broad authority — drives to linehaulstation.com. Broker Deck: LinkedIn engagement, direct outreach, partner inquiry. Government Deck: credibility signal only — no direct CTA in most uses."
+    },
+    "campaign_type": "organic",
+    "budget": {
+      "planned_total": null,
+      "planned_weekly": null,
+      "currency": "USD",
+      "notes": "Static repurposing from all decks: $0. Reel conversions with voiceover/animation: Artlist credits required — estimate per reel before scheduling. FlippingBook login access required for Anj to mine additional decks, pull screenshots, and access private/internal versions. Confirm login is active."
+    },
+    "creative_assets": []
+  },
+
+  "plan": {
+    "strategic_context": "The LHS presentation deck library contains some of the most carefully refined positioning language in the entire campaign ecosystem. These decks have been used in live sales conversations, strategic partner pitches, investor discussions, and federal government presentations. The language in them has been tested, revised, and approved at the highest level of the organization. This means the decks are not just references — they are validated messaging frameworks. The critical operating principle: we are not recycling slides. We are extracting the narrative DNA from each deck and converting it into platform-appropriate content. A slide that explains the $165K per space terminal cost does not get screenshotted and posted. It gets converted into a data-backed LinkedIn authority thread, a static math post with a branded frame, and a micro clip hook. The deck provides the intellectual raw material. The content team provides the format transformation. There are three distinct content categories within this library, each serving a different strategic function: (1) MASTER DECK — broad authority, category definition, all audiences. (2) BROKER DECK — targeted distribution leverage, LinkedIn niche content, brokerage audience. (3) GOVERNMENT DECK — credibility gravity, institutional signaling, investor and partner perception. Each has its own cadence, platform priority, and tone rules. They do not compete — they compound.",
+    "organic_plan_90_day": {
+      "start_date": "2026-03-10",
+      "end_date": "2026-06-07",
+      "plan_link": "",
+      "weekly_focus_notes": "Phase 1 (Weeks 1–4): Activate Master Deck (DECK-002). Begin with 1–2 authority posts per week extracted from the deck. Launch explainer series — one concept per week. Phase 2 (Weeks 5–8): Introduce Broker Deck content (DECK-005) on LinkedIn for broker audience targeting. 5-post 'Broker Advantage' series. Phase 3 (Weeks 9–12): Deploy Government Deck credibility signals (DECK-004) around any relevant infrastructure news cycles, policy announcements, or LHS milestones. Low frequency, high timing sensitivity."
+    },
+    "channels": [
+      "LinkedIn",
+      "Facebook",
+      "Instagram",
+      "Email"
+    ],
+    "initiatives": [
+      {
+        "initiative_type": "other",
+        "title": "FlippingBook Access Audit",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Confirm Anj has active FlippingBook login",
+          "Audit all available decks in the FlippingBook account — public and private/internal",
+          "Log any additional decks not yet in this library record",
+          "Identify whether screenshot extraction is available within FlippingBook's interface or requires external tool",
+          "Test page flattening workflow for static post conversion — confirm output quality"
+        ],
+        "notes": "FlippingBook login access is a prerequisite for deep mining of the deck library. Without it, Anj is limited to the public FlippingBook URLs. The private/internal decks may contain the most valuable and least-publicly-distributed positioning language."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Master Deck Content Extraction — Ongoing",
+        "owner": "Anj / AnjBot",
+        "status": "in_progress",
+        "budget_allocated": null,
+        "next_actions": [
+          "Work through Master Deck (DECK-002) systematically — one slide cluster per week",
+          "For each slide or concept: identify (a) the core insight, (b) the data point if present, (c) the positioning statement, (d) the objection it handles",
+          "Convert each into the appropriate content format: static authority post, carousel, LinkedIn thread, or reel script",
+          "Build a 30-day content queue from the Master Deck alone before moving to other decks",
+          "Log all extracted content back to the content_queue in this record"
+        ],
+        "notes": "The Master Deck is the highest-volume content source in this library. It supports 1–2 authority posts per week indefinitely because it covers the full LHS narrative — from industry problem to solution framework to differentiation. Start here. Do not skip to Broker or Government deck until Master Deck mining is established as a regular cadence."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Broker Advantage LinkedIn Series — 5 Posts",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Mine Broker Deck (DECK-005) for the 5 strongest positioning statements",
+          "Convert to 5 LinkedIn posts: Post 1 (broker pain point), Post 2 (carrier loyalty thesis), Post 3 (infrastructure differentiator), Post 4 (rate vs value framing), Post 5 (CTA/invitation to learn more)",
+          "Tone check: every post must read as strategic partner framing, not middleman critique",
+          "Schedule as a named series: 'Broker Advantage' — post once per week for 5 weeks",
+          "Monitor comments and direct messages for broker engagement — flag any incoming broker leads to Jeff/G-Man immediately"
+        ],
+        "notes": "The broker distribution angle is a strategic debate within LHS leadership — some prioritize carriers directly, others see brokers as network accelerators who touch thousands of carriers at once. This series tests the broker channel without committing the full campaign to it. Five posts is enough to generate signal without over-investing. Monitor carefully before scaling broker content."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Government Credibility Signal Deployment",
+        "owner": "Anj / Jeff",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Identify upcoming infrastructure news cycles, DOT announcements, or transportation policy headlines",
+          "Pre-write 2–3 credibility signal posts from DECK-004 material — ready to deploy within 24 hours of a relevant news moment",
+          "Mine Duffy Vimeo (https://vimeo.com/linehaul/duffy) for 20–30 second authority clip — subtitle and frame it for LinkedIn-native video",
+          "Write behind-the-scenes authority post: process-level storytelling about federal-level engagement",
+          "All posts must pass tone check: infrastructure-focused, politically neutral, system-focused"
+        ],
+        "notes": "Timing is everything with the government credibility content. A post about federal transportation engagement lands 10x harder when there is an active infrastructure news cycle to attach it to. Pre-write the posts and hold them in reserve. Deploy on the right moment, not on a scheduled calendar date."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Deck Mining Workflow — AnjBot Standard Process",
+        "owner": "Anj / AnjBot",
+        "status": "active",
+        "budget_allocated": null,
+        "next_actions": [
+          "Establish and document the standard deck mining process so it can be repeated for any new deck added to the library",
+          "Step 1: Open FlippingBook deck (or PDF source)",
+          "Step 2: Read through systematically — flag slides that contain (a) core concepts, (b) data points, (c) positioning statements, (d) objection-handling language",
+          "Step 3: For each flagged slide, assign a content format: static post / carousel / LinkedIn thread / reel script / quote graphic",
+          "Step 4: Write the content — translate the deck language into platform-appropriate copy that sounds like Jeff's voice (reference CMP-0009 voice fingerprint)",
+          "Step 5: Log extracted content to the content_queue of the appropriate campaign record",
+          "Step 6: Schedule content and track engagement"
+        ],
+        "notes": "The deck mining workflow is a repeatable process that should work for every deck in the library and every deck added in the future. Once standardized, any new deck can be fully mined in a single focused session. The key output is not the deck screenshot — it is the platform-appropriate content extract."
+      }
+    ],
+    "weekly_cadence": {
+      "monday_review": {
+        "required": true,
+        "agenda": [
+          "Confirm which deck asset is the content source for the week",
+          "Confirm which concept or slide cluster is being mined",
+          "Check content queue — confirm posts are extracted, written, and scheduled",
+          "Review prior week's deck-sourced content performance",
+          "Flag any inbound engagement from broker or investor content for follow-up"
+        ],
+        "notes": "Deck content runs as a background authority layer alongside active driver and carrier campaigns. The Monday review for this campaign is typically 10 minutes unless a new deck needs to be added or a government credibility moment is imminent."
+      },
+      "friday_report": {
+        "required": true,
+        "report_format": "visual",
+        "source_tool": "LinkedIn native analytics",
+        "notes": "Track per-post: impressions, engagement rate, comments, shares, profile visits. For broker content: flag any direct messages or connection requests from brokerage contacts. For government content: flag any engagement from policy-adjacent accounts. Quality of engagement matters more than volume for this library's content."
+      }
+    }
+  },
+
+  "deck_library": {
+
+    "library_operating_rules": [
+      "We are extracting narrative DNA, not recycling slides. A slide does not get screenshotted and posted. It gets converted into platform-appropriate content.",
+      "Every deck has a designated audience. Never use broker deck framing in driver content. Never use government deck framing in consumer-facing content. Audience segmentation is non-negotiable.",
+      "Tone changes by audience: Drivers — empathy, dignity, pride. Carriers — data, economics, operational logic. Brokers — strategic partnership, differentiation, loyalty. Investors — infrastructure thesis, national scale, historical precedent. Government — neutrality, systems, national efficiency.",
+      "Master Deck is the always-on source. Broker and Government decks are deployed strategically, not routinely.",
+      "All deck-sourced content should sound like Jeff's voice — reference the Jeff Voice Fingerprint in CMP-0009 for tone guidance.",
+      "Government deck content requires a political neutrality check before publishing. No partisan framing, no policy advocacy, no political positioning. Infrastructure-only language.",
+      "FlippingBook login required for full mining access. Confirm Anj's login is active before beginning any deep extraction session."
+    ],
+
+    "assets": [
+
+      {
+        "asset_id": "DECK-002",
+        "title": "LHS America's Flip Freight Relay Network — Master Deck",
+        "category": "Brand — Foundational Master Deck",
+        "status": "ready",
+        "priority": "PRIMARY — mine this deck first and most frequently",
+        "target_audience": "All audiences. Sales prospects, strategic partners, investors, drivers considering membership, LinkedIn professional audience, all social platforms for authority positioning.",
+        "platform_priority": "LinkedIn (thought leadership, authority threads, explainer posts). Facebook/Instagram (educational reels, carousel repurposing). All platforms for quote graphics and static authority posts.",
+        "flippingbook_url": "https://online.flippingbook.com/view/740347813/",
+        "dropbox_source": "https://www.dropbox.com/scl/fo/bqqfg6113ygd57o9maznz/AJCNX5_6hl3FWJn8St5xw5w?rlkey=h1uoyu70960uum4y1a0run1c5&dl=0",
+        "description": "The foundational brand deck. Communicates what LineHaul Station is, what the Flip Freight Relay Network means, the structural innovation behind the model, core industry pain points, the LHS solution framework, and strategic positioning. Has been used for sales conversations, strategic partner discussions, investor explanations, and high-level model walkthroughs. The language in this deck is refined, tested, and approved at the highest organizational level. It is the single richest source of positioning language in the entire LHS content ecosystem.",
+        "strategic_purpose": "Primary narrative source for social content generation. Removes the 'what do I say about LHS?' problem. Supports long-term authority compounding — one slide can generate a month of content when properly extracted. Not a one-time use asset. Evergreen.",
+        "content_extraction_method": "AnjBot prompt pattern: 'Extract 10 authority positioning posts from this deck.' OR 'Turn Slide 4 into a 3-part educational reel script.' OR 'What objection does this slide handle and how would a driver respond to it?' Do NOT ask 'What does this slide say?' — ask 'What content does this slide generate?'",
+        "pre_approved_angles": [
+          "Authority positioning — category-defining language for freight infrastructure innovation",
+          "Industry pain point education — systemic inefficiencies in long-haul trucking",
+          "Solution framework explainer — how the relay network addresses structural problems",
+          "Founder-led thought leadership — strategic insights powering LinkedIn authority posts",
+          "Structural innovation storytelling — LHS as a new freight infrastructure model"
+        ],
+        "repurposing": {
+          "static_authority_posts": "Screenshot slide → add branded top/bottom frame → CTA strip → reformat to square. Use original still images as background with bold stat overlay.",
+          "carousel_series": "Break one slide into 3–5 posts: headline → breakdown → data point → solution → CTA.",
+          "reel_conversion": "Animate key bullet points with voiceover explanation. Founder commentary overlay optional. Use Artlist credits.",
+          "linkedin_authority_threads": "Turn one slide into a 5-post educational thread. Structured, calm, analytical tone.",
+          "explainer_series": "One slide per week, deep dive into single concept. Run indefinitely — deck has enough slides to sustain a weekly series for months."
+        },
+        "cadence": "Evergreen. Pull 1–2 authority posts per week. Space strategically between promotional or conversion-focused content. This deck should always be running as a background authority layer.",
+        "artlist_cost": "$0 for static repurposing. Artlist credits required for reel conversions with voiceover or animation.",
+        "cross_reference": "Cross-reference with VL-010 (Hello America) and VL-028 (McLean/Drucker) in CMP-0009 for the broadest possible authority thread construction — Master Deck provides the structure, Video Library provides the founder voice."
+      },
+
+      {
+        "asset_id": "DECK-005",
+        "title": "Freight Broker Positioning & Brokerage Pitch",
+        "category": "Product — Segment-Specific Broker Deck",
+        "status": "ready",
+        "priority": "SECONDARY — deploy after Master Deck is established. Use for targeted broker channel testing.",
+        "target_audience": "Freight brokers (primary), brokerage owners, logistics decision makers. SECONDARY: Carriers who work with brokers. Primary platform: LinkedIn. Do NOT use broker framing in driver-facing content.",
+        "platform_priority": "LinkedIn (primary and almost exclusive for this deck). Industry commentary and niche posts.",
+        "flippingbook_url": "https://online.flippingbook.com/view/722066835/",
+        "dropbox_source": "",
+        "description": "Segment-specific pitch deck positioning LineHaul Station as an industry-first opportunity for freight brokers to offer terminal network access to their carrier base. Core message: 'Be the Brokerage.' Reframes brokers from middlemen into infrastructure enhancers. Argues that brokers who provide LHS access differentiate from competitors, increase carrier loyalty, and add value beyond rate. This deck exists within a strategic debate inside LHS: should the company go after brokers directly, after carriers directly, or use brokers as distribution leverage to reach thousands of carriers simultaneously? The broker-as-network-accelerator argument is the strongest case for including this channel.",
+        "strategic_purpose": "Captures the broker distribution pathway. Brokers touch thousands of carriers — if leveraged correctly, they become network accelerators rather than revenue intermediaries. This deck tests whether the broker channel is viable for LHS without committing the full campaign to it. A successful 5-post LinkedIn broker series generates the signal needed to make that strategic decision.",
+        "core_message": "Be the Brokerage. An industry first — brokers can now offer access to a terminal network and stand above the crowd by supporting carriers with first-class OTR solutions.",
+        "broker_value_proposition": {
+          "option_1": "Offer LHS access as a carrier perk",
+          "option_2": "Include access with a rate",
+          "option_3": "Provide a pass when solving an operational problem",
+          "outcome": "Carriers keep coming back. Brokerage differentiates on infrastructure, not price."
+        },
+        "pre_approved_angles": [
+          "LinkedIn targeted authority: 'How brokers can reduce carrier churn'",
+          "LinkedIn targeted authority: 'Carrier loyalty isn't about rate alone'",
+          "LinkedIn targeted authority: 'Infrastructure as a brokerage differentiator'",
+          "Niche campaign: 5-post 'Broker Advantage Week' series",
+          "Industry commentary: market volatility, margin compression, service differentiation",
+          "Hypothetical case study framing"
+        ],
+        "tone_rules": [
+          "NEVER frame brokers as middlemen — even indirectly",
+          "NEVER use blame language or carrier-vs-broker conflict framing",
+          "ALWAYS position brokers as strategic partners, infrastructure amplifiers, and loyalty builders",
+          "Tone target: analytical, peer-level, collaborative — broker decision-makers respond to data and strategic logic, not emotional appeals"
+        ],
+        "approved_series": {
+          "series_name": "Broker Advantage",
+          "post_count": 5,
+          "post_structure": [
+            "Post 1: Broker pain point — why carrier churn is expensive and underestimated",
+            "Post 2: The loyalty thesis — why carriers choose brokerages and why rate is not the primary driver",
+            "Post 3: Infrastructure as differentiator — what it means to offer something no other brokerage offers",
+            "Post 4: The LHS model explained for brokers — how it works, what it costs, what carriers experience",
+            "Post 5: Invitation — 'If this is the kind of brokerage you want to run, let's talk'"
+          ]
+        },
+        "repurposing": {
+          "linkedin_threads": "Broker differentiation authority content. One concept per post.",
+          "industry_commentary": "Market volatility, margin compression, and why rate-only competition is a race to the bottom.",
+          "case_study_hypothetical": "Fictional brokerage scenario: 'What happens when a brokerage offers infrastructure access as a carrier benefit.' Use hypothetical framing to illustrate the value without making unsubstantiated claims.",
+          "cross_reference": "Can be cross-referenced with Master Deck (DECK-002) for the broader infrastructure narrative — broker posts can reference the same relay network thesis as carrier posts, just framed through the brokerage lens."
+        },
+        "cadence": "Low to moderate frequency. LinkedIn primary. Use when discussing partnerships, network growth, distribution strategy, or industry inefficiencies. Do NOT over-surface in 90-day planning unless broker strategy becomes an active priority decision.",
+        "artlist_cost": "$0 for static repurposing and LinkedIn text posts.",
+        "strategic_debate_note": "The question of whether to prioritize direct carrier outreach vs. broker-distribution leverage is unresolved within LHS leadership. This deck and its content series exist as a test. Monitor broker engagement carefully. If the 5-post series generates broker inbound, escalate the broker channel discussion. If it generates silence, deprioritize until strategy clarifies."
+      },
+
+      {
+        "asset_id": "DECK-004",
+        "title": "Federal Government Engagements — Strategic Authority Layer",
+        "category": "Brand — Institutional Credibility Asset",
+        "status": "ready",
+        "priority": "LOW FREQUENCY — HIGH IMPACT. Deploy strategically around news cycles and milestones, not on a calendar schedule.",
+        "target_audience": "Investors, strategic partners, industry leaders, policymakers, LinkedIn professional audience. EXPLICITLY NOT the general driver audience for direct posting. The credibility halo benefits all audiences but the content itself is institutional-facing.",
+        "platform_priority": "LinkedIn (exclusive). This content does not belong on Facebook or Instagram in its primary form. Clips from the Duffy Vimeo may have broader platform utility but must be reframed for non-professional audiences.",
+        "flippingbook_url": "https://online.flippingbook.com/view/773641369/",
+        "vimeo_link": "https://vimeo.com/linehaul/duffy?share=copy&fl=sv&fe=ci",
+        "dropbox_source": "Additional government decks should be logged here as they are produced.",
+        "description": "Documents direct engagement between LineHaul Station and federal and state-level transportation leadership. Jeff has presented the LHS model to Texas DOT and U.S. Secretary of Transportation Sean Duffy. A custom presentation piece was created specifically for the Duffy engagement. These materials represent the LHS model being presented within infrastructure reform conversations at the institutional level. The existence of these engagements establishes policy relevance, institutional seriousness, infrastructure-level legitimacy, and national-level conversation participation.",
+        "strategic_purpose": "This asset creates credibility gravity — not content volume. It signals that LHS is operating at a federal conversation level. That signal changes investor perception, partner perception, industry credibility, and internal organizational confidence. This is not a startup narrative anymore. This is an institutional infrastructure narrative. The shift in framing from 'startup' to 'institutional' is the most valuable thing this asset delivers. Deploy it rarely and with precision — frequency kills the signal.",
+        "engagements_documented": [
+          {
+            "entity": "Texas Department of Transportation",
+            "type": "State-level infrastructure presentation",
+            "asset": "Covered within the FlippingBook deck"
+          },
+          {
+            "entity": "Secretary Sean Duffy, U.S. Department of Transportation",
+            "type": "Federal transportation leadership presentation",
+            "assets": ["Duffy Presentation FlippingBook", "Duffy Video Vimeo"]
+          }
+        ],
+        "pre_approved_angles": [
+          "Credibility signal: 'Presented to federal transportation leadership on freight infrastructure reform'",
+          "Credibility signal: 'In conversation with DOT regarding relay network modernization'",
+          "Credibility signal: 'Engaging policymakers on national freight system efficiency'",
+          "Thought leadership: infrastructure reform, transportation funding, national freight inefficiency commentary",
+          "Behind-the-scenes authority: 'When you're working to redesign freight at a national level'",
+          "Behind-the-scenes authority: 'Policy conversations don't happen overnight — here's what the process looks like'"
+        ],
+        "tone_rules": [
+          "STRICT POLITICAL NEUTRALITY — no partisan framing, no political advocacy, no policy position statements",
+          "Infrastructure-focused language only — systems, efficiency, national logistics, freight movement",
+          "Never name Secretary Duffy in a partisan context — always frame as infrastructure conversation, not political alignment",
+          "Tone target: institutional, measured, serious, confident — the tone of an organization that belongs in these conversations"
+        ],
+        "political_neutrality_check": "Before publishing any content from this asset, ask: (1) Could this post be read as supporting a political party or candidate? (2) Does this post take a policy position that could alienate any segment of LHS's audience? (3) Is the framing about infrastructure systems or about politics? If the answer to (1) or (2) is yes, rewrite. If the answer to (3) is politics, rewrite.",
+        "repurposing": {
+          "authority_clip_mining": "Extract 20–30 second segments from the Duffy Vimeo. Add subtitles and framing context. Format as LinkedIn-native video. Target: 3–5 clips from the full presentation.",
+          "credibility_signal_posts": "Announce or reference federal-level engagement within infrastructure conversations. Keep announcements factual and infrastructure-focused.",
+          "thought_leadership_threads": "LinkedIn threads on freight policy, infrastructure modernization, and national logistics challenges. Frame as industry perspective, not political commentary.",
+          "behind_the_scenes": "Process-level storytelling about participating in national infrastructure discussions. Humanizes the institutional engagement without over-claiming."
+        },
+        "cadence": "Low frequency, high impact. Pre-write posts and hold in reserve. Deploy around: infrastructure news cycles, DOT policy announcements, federal transportation funding developments, and major LHS milestones (Memphis opening, national network expansion announcements). Do NOT put this content on a regular posting schedule — timing is the variable that determines its impact.",
+        "artlist_cost": "$0 for static credibility posts. Vimeo clip mining with subtitles and framing may require editing credits.",
+        "future_logging_note": "As additional government engagements occur (state DOTs, federal agencies, congressional conversations), add them to this asset record. This is a living credibility log, not a static deck entry."
+      }
+
+    ]
+  },
+
+  "audience_tone_matrix": {
+    "description": "Quick-reference guide for tone calibration by audience. Use this matrix before writing any content sourced from this library.",
+    "segments": [
+      {
+        "segment": "Drivers",
+        "tone": "Empathetic, warm, respectful, proud. Speak to dignity and the life on the road. Nostalgia is a powerful lever. Hope is the CTA.",
+        "primary_decks": "Not directly served by this deck library. Use CMP-0008 (Year of the Trucker) and CMP-0009 (Video Library VL-009, VL-010) for driver content.",
+        "avoid": "Corporate language, data-heavy posts, infrastructure jargon"
+      },
+      {
+        "segment": "Carriers",
+        "tone": "Analytical, data-backed, peer-level. Speak to CapEx efficiency, operational logic, and driver retention economics. Respect their intelligence.",
+        "primary_decks": "DECK-002 (Master Deck), CMP-0009 VL-011 (True Cost of Terminals)",
+        "avoid": "Emotional appeals, driver-dignity language, political references"
+      },
+      {
+        "segment": "Brokers",
+        "tone": "Strategic, differentiation-focused, partnership framing. Never middleman language. Speak to their competitive position and carrier loyalty.",
+        "primary_decks": "DECK-005 (Broker Deck), cross-reference DECK-002 for infrastructure framing",
+        "avoid": "Carrier-vs-broker framing, blame language, middleman references"
+      },
+      {
+        "segment": "Investors",
+        "tone": "Visionary, institutional, data-anchored, historically grounded. Infrastructure thesis framing. Historical analogy welcome.",
+        "primary_decks": "DECK-002, DECK-004 (Government), CMP-0009 VL-028 (McLean/Drucker)",
+        "avoid": "Consumer marketing language, emotional appeals, unsubstantiated claims"
+      },
+      {
+        "segment": "Government / Policy",
+        "tone": "Measured, infrastructure-focused, politically neutral, systems-level. No advocacy. No partisan signals.",
+        "primary_decks": "DECK-004 (Government), CMP-0009 VL-FREIGHT (Freight Recession), VL-SUPPLY (Kearney report)",
+        "avoid": "Political framing, partisan language, advocacy positions"
+      },
+      {
+        "segment": "Industry at Large",
+        "tone": "Confident, educational, reform-oriented. Industry colleague framing — not marketing to them, thinking with them.",
+        "primary_decks": "DECK-002, CMP-0009 VL-FORD (Henry Ford), VL-SUPPLY (Kearney), VL-028 (McLean)",
+        "avoid": "Self-promotional language, superlatives, unsubstantiated industry claims"
+      }
+    ]
+  },
+
+  "execution": {
+    "content_queue": [
+      {
+        "content_id": "CNT-001",
+        "channel": "LinkedIn",
+        "type": "post",
+        "publish_date": "Week 1",
+        "caption_or_script": "Master Deck extraction — concept TBD from DECK-002 first pass. Authority positioning post. Structured educational tone. 1 key insight from the deck's infrastructure thesis. [Extract from FlippingBook DECK-002 before writing final copy.]",
+        "asset_links": ["DECK-002 FlippingBook — https://online.flippingbook.com/view/740347813/"],
+        "cta": "What's your take on this? / Follow for more on freight infrastructure.",
+        "status": "planned"
+      },
+      {
+        "content_id": "CNT-002",
+        "channel": "LinkedIn",
+        "type": "post",
+        "publish_date": "Week 2",
+        "caption_or_script": "Master Deck extraction — industry pain point education. One systemic inefficiency in long-haul trucking, explained clearly. No hype. Data if available. [Extract from FlippingBook DECK-002.]",
+        "asset_links": ["DECK-002 FlippingBook"],
+        "cta": "What would solving this inefficiency be worth to your operation?",
+        "status": "planned"
+      },
+      {
+        "content_id": "CNT-003",
+        "channel": "LinkedIn",
+        "type": "post",
+        "publish_date": "Week 3",
+        "caption_or_script": "Master Deck extraction — solution framework explainer. How the relay network addresses a specific structural problem. Use the deck language as the basis. Translate to thread format. [Extract from FlippingBook DECK-002.]",
+        "asset_links": ["DECK-002 FlippingBook"],
+        "cta": "See the full model → [link]",
+        "status": "planned"
+      },
+      {
+        "content_id": "CNT-004",
+        "channel": "LinkedIn",
+        "type": "post",
+        "publish_date": "Week 5 — Broker series launch",
+        "caption_or_script": "Broker Advantage Series — Post 1. Broker pain point: why carrier churn is expensive and underestimated. Analytical tone. Peer-level framing. [Extract from DECK-005.]",
+        "asset_links": ["DECK-005 FlippingBook — https://online.flippingbook.com/view/722066835/"],
+        "cta": "How does your brokerage handle carrier retention?",
+        "status": "planned"
+      },
+      {
+        "content_id": "CNT-005",
+        "channel": "LinkedIn",
+        "type": "post",
+        "publish_date": "Week 6",
+        "caption_or_script": "Broker Advantage Series — Post 2. The loyalty thesis: carriers choose brokerages for reasons that aren't always about rate. [Extract from DECK-005.]",
+        "asset_links": ["DECK-005 FlippingBook"],
+        "cta": "What keeps your carriers coming back?",
+        "status": "planned"
+      },
+      {
+        "content_id": "CNT-006",
+        "channel": "LinkedIn",
+        "type": "video",
+        "publish_date": "Deploy when relevant infrastructure news cycle occurs",
+        "caption_or_script": "Government credibility signal — Duffy Vimeo clip. 20–30 seconds. Subtitle overlay. Framing context: LHS engagement in federal transportation infrastructure conversations. [Extract clip from https://vimeo.com/linehaul/duffy — POLITICAL NEUTRALITY CHECK REQUIRED before publishing.]",
+        "asset_links": ["Duffy Vimeo — https://vimeo.com/linehaul/duffy?share=copy&fl=sv&fe=ci"],
+        "cta": "Infrastructure modernization starts with infrastructure conversations. / Follow for updates on the LHS national network.",
+        "status": "draft_hold"
+      },
+      {
+        "content_id": "CNT-007",
+        "channel": "LinkedIn",
+        "type": "post",
+        "publish_date": "Deploy around Memphis launch or national network announcement",
+        "caption_or_script": "Behind-the-scenes authority from DECK-004 government engagement. Process-level storytelling. 'When you're working to redesign freight at a national level, the conversations happen before the headlines.' [Extract from DECK-004 FlippingBook. POLITICAL NEUTRALITY CHECK REQUIRED.]",
+        "asset_links": ["DECK-004 FlippingBook — https://online.flippingbook.com/view/773641369/"],
+        "cta": "The infrastructure is being built. Memphis is first.",
+        "status": "draft_hold"
+      }
+    ],
+    "engagement_plan": {
+      "weekly_targets": "Respond substantively to every comment on deck-sourced LinkedIn authority posts. These audiences — brokers, investors, industry leaders — judge the brand by the quality of the conversation in the comments, not just the post itself. Generic replies undermine the authority positioning the post was designed to create. When a senior industry contact engages, Jeff or G-Man should respond personally.",
+      "influencers_to_engage": [],
+      "notes": "If a broker or carrier executive comments on broker deck content, that is a warm lead. Tag it immediately and route to Jeff/G-Man for direct follow-up. Do not let inbound engagement from target-audience accounts sit unanswered."
+    }
+  },
+
+  "reporting": {
+    "weekly_reports": []
+  },
+
+  "flags": [
+    "FlippingBook login access for Anj — confirm before beginning deep mining sessions",
+    "DECK-004 (Government) content requires POLITICAL NEUTRALITY CHECK before every post — this is mandatory, not optional",
+    "Broker channel strategy is unresolved at the leadership level — the 5-post Broker Advantage series is a test, not a commitment. Monitor engagement before scaling.",
+    "Dropbox source files confirmed for DECK-002 only — DECK-005 and DECK-004 Dropbox locations needed",
+    "Additional government decks (beyond Duffy) not yet catalogued — flag for logging as they are produced",
+    "Duffy Vimeo clip extraction not yet started — needed before government credibility content can deploy"
+  ],
+
+  "next_actions": [
+    "Confirm Anj's FlippingBook login is active and provides access to private/internal decks",
+    "Open DECK-002 (Master Deck) and conduct first extraction pass — identify 10 authority post opportunities, assign content format to each",
+    "Build 4-week content queue from Master Deck extraction before scheduling any posts",
+    "Extract 20–30 second Duffy Vimeo clip — subtitle, frame, hold in reserve for next infrastructure news cycle",
+    "Locate or confirm Dropbox source file locations for DECK-005 and DECK-004",
+    "Log any additional government engagement decks not yet in this record",
+    "Review broker channel strategy with Jeff/G-Man before launching Broker Advantage series — confirm whether broker is an active priority for this quarter"
+  ],
+
+  "notes": [
+    "These are not slide decks. They are messaging gold. The deck mining mindset — extract narrative DNA, do not recycle slides — is the operating principle for everything in this library.",
+    "Audience segmentation is the single most important discipline when working with this library. The Master Deck can reach all audiences because it is the broadest narrative document. Every other deck has a specific audience and tone. Never cross-contaminate.",
+    "The Government deck (DECK-004) is the most strategically sensitive asset in this library. Its value is entirely in the timing and framing of deployment. Posted at the wrong moment or with the wrong framing, it does nothing or worse. Posted at the right moment with strict political neutrality, it signals institutional-level seriousness that no other piece of content can achieve.",
+    "The broker strategic debate is unresolved. The 5-post Broker Advantage series is a controlled test. Monitor inbound engagement closely. If brokers respond, bring the broker channel strategy back to leadership for a decision. If silence, deprioritize for the next 90 days.",
+    "The Master Deck's Dropbox source folder is confirmed. Use it for high-resolution static image extraction. Screenshot quality from FlippingBook may be adequate for most social posts, but original production files will produce better quality for printed or high-resolution formats.",
+    "Cross-reference between this library (CMP-0010) and the Video Library (CMP-0009) is strongly encouraged — deck language provides the structural narrative while video clips provide the founder voice. Together they produce the most authoritative content LHS can generate."
+  ],
+
+  "timestamps": {
+    "created_at": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-03-10T00:00:00Z"
+  }
+}
