@@ -1,0 +1,689 @@
+{
+  "__path__": "/linehaul-station/campaigns/CMP-0009-VideoLibrary.json",
+  "schema_version": "2.0",
+  "entity_type": "campaign",
+  "id": "CMP-0009",
+  "status": "active",
+
+  "ownership": {
+    "lead": "Anj",
+    "last_touched_by": "AngBot",
+    "last_touched_at": "2026-03-10T00:00:00Z"
+  },
+
+  "campaign_card": {
+    "target_audience": {
+      "segment": "drivers",
+      "details": "MULTI-AUDIENCE ASSET LIBRARY. Different video assets target different audiences. Audience routing by asset: DRIVER-FACING (VL-009, VL-010): Professional truck drivers, Facebook/Instagram/TikTok, emotional resonance content. CARRIER/INVESTOR-FACING (VL-011, VL-028, VL-REC, VL-FREIGHT, VL-SUPPLY, VL-FORD): Carrier CEOs, fleet operators, investors, supply chain executives, policymakers — primary platform LinkedIn. CROSSOVER (VL-010 Hello America, VL-PODCAST): Both driver and carrier/investor audiences. AnjBot routing rule: always check the individual asset's target_audience field before assigning to a campaign post or content queue."
+    },
+    "campaign_name": "Video Library — Jeff Swenson Founder Asset Pool",
+    "campaign_goal": {
+      "primary_goal": "Centralize and operationalize all produced Jeff Swenson video content as a reusable, mineable asset pool. Every video in this library must be extractable into micro clips, quote graphics, LinkedIn threads, carousel posts, and recurring series without requiring new production. The library multiplies existing content value rather than competing with new production budgets.",
+      "memberships_per_week_target": null
+    },
+    "key_messages": [
+      "Jeff Swenson's founder voice is the most credible and differentiated content asset LHS has. Every video in this library is a content mine — not a one-time post.",
+      "AnjBot must capture Jeff's voice patterns, recurring metaphors, and cadence style from this library so all generated captions and copy sound like Jeff, not generic AI.",
+      "This library is not for daily posting — it is for authority positioning, evergreen deployment, and content multiplication. Each asset has its own cadence. Do not spam."
+    ],
+    "cta": {
+      "text": "Varies by asset and audience. See individual asset cta field.",
+      "lead_capture_point": "Varies by asset. Driver-facing: Outriders Drivers Club signup. Carrier-facing: LinehaulStation.com or Memphis lander. LinkedIn thought leadership: profile follow + connection request. See individual asset for specific lead capture point."
+    },
+    "campaign_type": "organic",
+    "budget": {
+      "planned_total": null,
+      "planned_weekly": null,
+      "currency": "USD",
+      "notes": "All existing videos are zero incremental cost for repurposing. Clip editing from YouTube/Vimeo requires minimal production credits. Subtitle overlays minimal. A clip extraction partner or automated clip tool should be identified and contracted — this is the only budget item required to fully activate the library. Original source files should be stored in Dropbox production folders where available."
+    },
+    "creative_assets": []
+  },
+
+  "plan": {
+    "strategic_context": "Jeff Swenson is a prolific content creator who consistently produces material of high intellectual and emotional quality — then frequently leaves it underutilized. He is self-critical in the editing process and tends to second-guess finished work that is actually strong. This library exists to prevent that value from being lost and to build a systematized content engine from what already exists. The library contains two major asset categories: (1) FOUNDER VOICE ASSETS — direct-to-driver emotional content that builds trust, dignity, and loyalty; (2) AUTHORITY POSITIONING ASSETS — carrier/investor-facing intellectual content that establishes LHS as a serious, data-backed infrastructure company. Both categories are evergreen. Both can generate weeks to months of content without new production. The most important operating principle for this library: DO NOT post everything at once. Each asset has a recommended cadence — weekly for some, quarterly for others. The goal is sustained authority presence, not a content flood. AnjBot's secondary directive for this library: extract Jeff's voice fingerprint across all assets — recurring phrases, metaphors, cadence patterns, emotional hooks — and use them to make all generated LHS copy sound like Jeff, not generic AI output.",
+    "organic_plan_90_day": {
+      "start_date": "2026-03-10",
+      "end_date": "2026-06-07",
+      "plan_link": "",
+      "weekly_focus_notes": "Phase 1 (Weeks 1–4): Activate Founder Voice assets (VL-009, VL-010). Begin extracting micro clips. Launch 'Founder Fridays' or 'From Jeff's Desk' recurring series using VL-009. Deploy Hello America (VL-010) quote graphics and carousel on LinkedIn. Phase 2 (Weeks 5–8): Activate Authority Positioning assets (VL-011, VL-028). Static Math Drip Series from VL-011 begins. McLean/Drucker authority thread from VL-028 on LinkedIn. Phase 3 (Weeks 9–12): Activate remaining assets (VL-REC, VL-FREIGHT, VL-SUPPLY, VL-FORD, VL-PODCAST). One asset per 1–2 weeks. No asset runs more than once per quarter unless performing exceptionally well."
+    },
+    "channels": [
+      "LinkedIn",
+      "Facebook",
+      "Instagram",
+      "YouTube",
+      "Vimeo",
+      "Email"
+    ],
+    "initiatives": [
+      {
+        "initiative_type": "other",
+        "title": "Clip Extraction Partner — Identify and Contract",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Identify an automated clip extraction tool or service (options: Opus Clip, Submagic, Munch, or similar)",
+          "Test tool against VL-009 (Jeff's 5-Min Driver Address) — target: 8–10 micro clips from one video",
+          "Evaluate output quality: clip selection relevance, subtitle accuracy, formatting",
+          "If tool is adequate, process all library assets through clip extraction",
+          "Store extracted clips in organized Dropbox subfolders per video asset"
+        ],
+        "notes": "The clip extraction tool is the most important infrastructure investment for activating this library. Without it, repurposing requires manual editing which creates a bottleneck. A good tool should be able to generate 8–15 usable clips per video automatically. Budget: typically $30–$100/month for a good clip tool. One-time ROI is enormous given the volume of existing source video."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Jeff Voice Fingerprint Extraction",
+        "owner": "Anj / AnjBot",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Watch or transcript-mine VL-009 and VL-010 specifically for recurring voice patterns",
+          "Document: key phrases Jeff uses repeatedly, recurring metaphors, emotional anchor statements, pacing cues, emphasis patterns",
+          "Key phrases already identified across library: 'Faster, Better & Cheaper', 'WIN-WIN', 'Relay is the future', 'Modern-Day Pony Express', 'Rig Carlton', 'It takes a village', 'Always be learning', 'dignity', 'treated right', national transformation framing",
+          "Store voice fingerprint in a separate reference document that AnjBot uses when generating any LHS copy",
+          "Guardrail: translate Jeff's voice into social-appropriate copy — do NOT replicate verbatim (especially ALL CAPS patterns) but DO preserve the bold confidence, empathy for drivers, and big-vision framing"
+        ],
+        "notes": "This is the highest-leverage initiative in the entire Video Library campaign. A well-captured Jeff voice fingerprint means AnjBot can generate months of on-brand content without human review of every post. Without it, every generated caption risks sounding generic or inconsistent with Jeff's established tone."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Dropbox Production Folder Audit",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Audit all video assets and confirm original source file storage locations",
+          "For each asset: confirm YouTube/Vimeo link is still live",
+          "For each asset: confirm whether original production file (high-res, uncompressed) is accessible in Dropbox",
+          "Flag any assets where only the YouTube/Vimeo compressed version is available — these can still be clipped but quality may be lower",
+          "Create a shared Dropbox folder structure per the asset folder schema defined in CMP-0004 (Renderings) as reference model"
+        ],
+        "notes": "Production file access determines clip quality. YouTube/Vimeo compressed video is adequate for social micro clips but not for broadcast or high-res repurposing. If original files are accessible, prioritize those for all clip extraction."
+      },
+      {
+        "initiative_type": "other",
+        "title": "Recurring Series Concepts — Standing Content Slots",
+        "owner": "Anj",
+        "status": "planned",
+        "budget_allocated": null,
+        "next_actions": [
+          "Evaluate and select one recurring series to launch first — recommendation: 'Founder Fridays' (weekly, LinkedIn + Facebook, 30–60 second Jeff clip from the library with caption)",
+          "Confirm cadence: weekly or bi-weekly",
+          "Source first 4 episodes from VL-009 clips before launching publicly — build buffer",
+          "Option 2: 'From Jeff's Desk' — longer-form LinkedIn thought post sourced from video transcript, once or twice per month",
+          "Option 3: 'Why We Built This' — origin story clips from VL-010, quarterly anchor content"
+        ],
+        "notes": "A recurring named series is the most efficient way to deploy the library because it gives the audience a format to follow and removes the weekly decision of 'what do we post.' The series name becomes a brand asset in itself. 'Founder Fridays' is the lowest-friction launch option — it requires only one clip per week and no new production."
+      }
+    ],
+    "weekly_cadence": {
+      "monday_review": {
+        "required": true,
+        "agenda": [
+          "Confirm which library asset is deploying this week and on which channels",
+          "Check that clip extraction has been run for that asset",
+          "Confirm caption copy is on-brand with Jeff's voice fingerprint",
+          "Review engagement from prior week's library content — note which asset, which format, and which platform performed"
+        ],
+        "notes": "The Video Library is an always-on campaign running in the background of all other campaigns. Its Monday review is typically 5–10 minutes, not a full session. The key decision is: which asset deploys this week and in what format."
+      },
+      "friday_report": {
+        "required": true,
+        "report_format": "visual",
+        "source_tool": "LinkedIn native analytics + Facebook/Instagram Insights",
+        "notes": "Track per-asset: views, engagement rate, profile clicks (LinkedIn), shares. Over time, identify which asset categories perform best with which audiences — this informs future deployment priority. Note: authority positioning assets (VL-028, VL-011, VL-FREIGHT) should be judged on engagement quality (comments, shares, connection requests) not just volume."
+      }
+    }
+  },
+
+  "video_library": {
+
+    "library_operating_rules": [
+      "Never lead with the video link in social posts — lead with the insight or the hook. The link is the destination, not the opener.",
+      "Never post the same asset on the same platform within 60 days.",
+      "LinkedIn authority assets (VL-028, VL-011, VL-SUPPLY, VL-FORD) deploy maximum 1–2 times per quarter. These are not weekly content.",
+      "Driver-facing assets (VL-009, VL-010) can deploy more frequently — clips, quote graphics, and carousels from these sources do not compete with each other.",
+      "Always attribute. Every post from this library should carry Jeff's name and title: Jeff Swenson, Founder & CEO, LineHaul Station.",
+      "Tone guardrail: bold confidence, big vision, empathy for drivers. Avoid generic AI copy, excessive ALL CAPS, corporate jargon, or hype language. When in doubt, ask: 'Would Jeff say this?'",
+      "Clip extraction comes before posting. Always have the clip ready before scheduling the post.",
+      "Jeff is self-critical. AnjBot should not show Jeff clips for approval unless the format is final — rough cuts increase the chance of perfectly good content being pulled."
+    ],
+
+    "assets": [
+
+      {
+        "asset_id": "VL-009",
+        "title": "Jeff's 5-Minute Driver Address",
+        "category": "Founder Voice — Driver Facing",
+        "status": "ready",
+        "target_audience": "Truck drivers (primary). Prospective LHS members. Industry professionals on LinkedIn. General social followers.",
+        "platform_priority": "Facebook + Instagram (driver-facing clips). LinkedIn (thought leadership longer cuts).",
+        "youtube_link": "https://youtu.be/DlDuf34bZ6g?si=0e9rWxFAOMvXuEC-",
+        "vimeo_link": "",
+        "dropbox_link": "Original source file location TBD — confirm with production.",
+        "description": "Direct communication from Jeff Swenson to professional truck drivers. Clear articulation of LHS intent, emotional positioning, industry empathy, and cultural tone. This is founder-to-driver trust content that builds legitimacy and relatability. Unlike decks or renderings, this is human, spoken, personal, authentic — capturing Jeff's tone, pacing, emphasis, and emotional cues. This is one of the two anchor assets for the Voice Fingerprint extraction initiative.",
+        "strategic_purpose": "Founder voice authority asset and caption goldmine. This single video can generate months of content: micro clips, LinkedIn thought posts, quote graphics, carousel series, and recurring series concepts.",
+        "pre_approved_angles": [
+          "Direct-to-driver emotional trust",
+          "Founder authenticity",
+          "Industry empathy and reform positioning",
+          "'If you're a driver...' openers",
+          "Problem-solution framing for the relay concept"
+        ],
+        "approved_series_concepts": [
+          "Founder Fridays — weekly recurring clip from this and other library assets",
+          "From Jeff's Desk — longer LinkedIn thought posts sourced from transcript",
+          "Why We Built This — origin story clips, quarterly anchor"
+        ],
+        "repurposing": {
+          "micro_clips": "20–45 second hooks. Emotional quotes, strong opinion statements, 'If you're a driver...' openers. Target: 8–12 clips from this one video.",
+          "linkedin_posts": "Pull transcript sections, convert to structured commentary, frame as industry reform discussion. Target: 10+ unique posts.",
+          "quote_graphics": "Pull strongest lines, overlay on render header graphics with branded frame.",
+          "carousel_series": "Slide 1: Drivers deserve better infrastructure → Problem statement → Relay concept → CTA.",
+          "recurring_series": "Founder Fridays, From Jeff's Desk, Why We Built This."
+        },
+        "cadence": "Evergreen. Minimum once per month in some format. Use in clips, reposts, throwback authority posts. Spike around membership pushes or facility milestones.",
+        "artlist_cost": "$0 for repurposing. Minimal credits for clip editing and subtitle overlay.",
+        "voice_fingerprint_note": "PRIORITY ASSET for voice extraction. AnjBot should extract: key phrases Jeff uses repeatedly, recurring metaphors, emotional high points, cadence and pacing style. This helps all generated LHS copy sound like Jeff."
+      },
+
+      {
+        "asset_id": "VL-010",
+        "title": "Hello America's Truck Drivers",
+        "category": "Founder Voice — Foundational Manifesto",
+        "status": "ready",
+        "target_audience": "Truck drivers (primary emotional appeal). Carriers, brokers, investors, policymakers. LinkedIn professional audience. General public interested in infrastructure reform.",
+        "platform_priority": "All platforms. Clips for Instagram/Facebook/TikTok. Threads for LinkedIn. Quote graphics everywhere.",
+        "youtube_link": "https://youtu.be/SbREGNeRzF4?si=KbVZZVmTbeUZfv-o",
+        "vimeo_link": "",
+        "dropbox_link": "Original source file location TBD — confirm with production.",
+        "description": "The original LHS launch video and the most important narrative asset in the entire archive. This is the Narrative DNA of LineHaul Station. Contains: origin story nostalgia (1970s trucking pride), emotional driver respect language, core infrastructure thesis, membership explanation, relay network economics, investor pitch logic, national transformation framing, 'Rig Carlton' cultural hook, Modern-Day Pony Express metaphor, productivity math (78K → 300K miles), $40B annual cost reduction claim, sustainability framing, driver lifestyle revolution framing. Full script available. This asset functions simultaneously as founder myth-building, driver emotional appeal, infrastructure explanation, carrier+broker pitch, investor thesis, policy positioning, and cultural manifesto.",
+        "strategic_purpose": "Content gold mine. Single script can generate 50+ micro clips, 100+ quote graphics, 6+ LinkedIn series. Can fuel 2–3 posts per week for 2–3 months without repeating ideas.",
+        "key_quotes": [
+          "You ALL deserve to be treated with dignity for the hard work you do and we're going to make damn sure you get it!",
+          "Shared infrastructure is the truest expression of REAL driver appreciation.",
+          "Rather than today's average of 80,000 miles a year per truck, the relay operation can potentially exceed a whopping 300,000 miles annually.",
+          "RELAY IS THE FUTURE and NOW is the time to ACT.",
+          "Faster, Better & Cheaper!",
+          "The Rig Carlton",
+          "Modern-Day Pony Express",
+          "The cost of trucking reduced by approximately $40B per year."
+        ],
+        "pre_approved_angles": [
+          "1970s trucking nostalgia and pride",
+          "Driver dignity and respect",
+          "'Rig Carlton' cultural hook",
+          "Modern-Day Pony Express metaphor",
+          "Relay network productivity math (78K → 300K miles)",
+          "$40B industry impact",
+          "Sustainability and decarbonization",
+          "Driver lifestyle revolution (home daily)",
+          "Shared infrastructure as competitive cooperation",
+          "Carrier and broker value proposition",
+          "Investor thesis framing"
+        ],
+        "approved_linkedin_series": [
+          "Driver Dignity Series — 5 posts",
+          "Infrastructure Economics Series — 5 posts",
+          "Asset Utilization Breakdown — 3 posts",
+          "Sustainability Series — 3 posts",
+          "Investor Thesis Series — 3 posts",
+          "Shared Infrastructure Explained — 5 posts"
+        ],
+        "repurposing": {
+          "micro_clips": "50+ clips. Pride of trucking, driver dignity, 'Rig Carlton', 300K miles stat, 25% cost drop, $40B impact, 'Relay is the future', 'Modern-Day Pony Express', 'Faster Better Cheaper'.",
+          "quote_graphics": "100+ opportunities. Extract strong lines, overlay on render headers and branded frames.",
+          "carousel_series": "78K vs 300K miles productivity visual, relay network animation stills, membership breakdown, driver lifestyle before/after.",
+          "linkedin_series": "6 named series above. 24 posts total from single script."
+        },
+        "founder_library_note": "This asset + VL-009 form the FOUNDER CONTENT LIBRARY pillar. Together these two assets are the voice foundation for all other LHS content. They contain every major LHS narrative concept in original founder voice.",
+        "cadence": "Evergreen foundational content. 2–3 posts per week sourced from this script. Platform mix: clips for IG/FB, threads for LinkedIn, quote graphics all platforms.",
+        "artlist_cost": "$0 for script mining, quote graphics, text repurposing. Minimal credits for YouTube clip editing.",
+        "tone_guardrail": "Maintain bold confidence, big vision, driver respect tone. Avoid overhype, excessive ALL CAPS, or verbatim replication of speech style. Translate the founder voice — do not copy-paste it."
+      },
+
+      {
+        "asset_id": "VL-011",
+        "title": "The True Cost of Truck Terminals",
+        "category": "Economic Authority — Carrier Facing",
+        "status": "ready",
+        "target_audience": "Carriers and fleet owners (primary — CapEx decision makers). Brokers, investors, industry analysts. Drivers (simplified version). Primary platform: LinkedIn.",
+        "platform_priority": "LinkedIn (primary). Carrier-targeted Facebook ads for amplification.",
+        "youtube_link": "https://youtu.be/ZLC1wy6WwDc?si=gZ3wUT3Q7o24woqM",
+        "vimeo_link": "",
+        "dropbox_link": "Original video stills available in assets folder — each screen from the video exists as a still image for static post creation.",
+        "description": "Heavyweight carrier-facing economic authority piece. Jeff's math-backed breakdown of what it truly costs to buy and maintain a truck terminal versus the $100,000 dedicated space at LineHaul Station. Reframes terminal ownership as a hidden capital drag that most carriers fail to analyze. Data sourced from 200+ terminal properties sold.",
+        "strategic_purpose": "Math over hype. Data over emotion. Carrier logic over marketing fluff. This piece anchors an entire high-level carrier drip campaign. Elevates LHS intellectual weight and positions it as the data-backed alternative to terminal ownership. FUTURE INTEGRATION: Once the carrier cost calculator launches, this asset activates 'Run Your Numbers' posts and dynamic fleet-size comparison content.",
+        "core_math": {
+          "total_development_cost": "~$15,000,000 (typical 10-acre terminal)",
+          "tractor_trailer_spaces": "~90",
+          "cost_per_space": "~$165,000",
+          "land": "$200K–$2M per acre depending on market",
+          "horizontal_10_inch_concrete": "$700K/acre, $5M+ for 10 acres",
+          "building_20k_sqft": "$3.5M at $175/sq ft",
+          "on_site_improvements": "~$1M",
+          "soft_costs": "~20% = $2.5M"
+        },
+        "comp_data": {
+          "properties_analyzed": "200+",
+          "average_age_of_comps": "43 years",
+          "average_resale_per_space_pre_reno": "$86,000",
+          "average_resale_per_space_post_reno": "$130,000",
+          "newer_construction_DFW": "$200,000 per space",
+          "US_DOT_public_lots_FL_TN": "$153,000 per space (parking + bathrooms only)"
+        },
+        "killer_quote": "If you don't like owning unseated trucks, you should probably feel the same about the excess parking spaces that rarely get used at your truck terminals.",
+        "pre_approved_angles": [
+          "CapEx reframing: terminal space costs as much as a new truck",
+          "Hidden infrastructure cost education",
+          "200+ property comp study data",
+          "Public vs private sector cost comparison",
+          "Shared-space economic advantage",
+          "'Run your numbers' engagement hook",
+          "Industry efficiency positioning"
+        ],
+        "repurposing": {
+          "static_math_drip_series_10_parts": [
+            "What land costs in major metros",
+            "Why 10\" concrete matters",
+            "$700K/acre hard surface cost",
+            "$3.5M building cost",
+            "Soft costs = 20%",
+            "$15M total development",
+            "$165K per space",
+            "$86K resale comps before renovation",
+            "$130K post-renovation comps",
+            "Why shared space changes the game"
+          ],
+          "micro_clips": [
+            "'This isn't chump change.'",
+            "'If you don't like unseated trucks...'",
+            "'New terminals start at $160K per space.'",
+            "'Public sector projects hit $153K per space.'"
+          ],
+          "linkedin_authority_thread": "Post 1: Terminal utilization question → Post 2: Cost breakdown → Post 3: $165K per space reveal → Post 4: Shared-space solution intro.",
+          "static_post_note": "Each screen from the video exists as a still image in the assets folder — use these as ready-made static post visuals with a brand frame and bold stat overlay."
+        },
+        "cadence": "Quarterly authority deployment. Use during carrier acquisition pushes, investor discussions, capital markets conversations, industry downturn cycles. Evergreen economics content — not daily, not spammed.",
+        "artlist_cost": "$0 for script mining, quote graphics, still image repurposing. Minimal credits for YouTube clip editing.",
+        "tone": "Confident, analytical, data-backed, calm, non-condescending. Position as industry perspective, not criticism."
+      },
+
+      {
+        "asset_id": "VL-028",
+        "title": "Malcolm McLean / Shipping Containerization",
+        "category": "Authority Analogy — Investor + LinkedIn Facing",
+        "status": "ready",
+        "target_audience": "LinkedIn professionals (primary). Investors, carriers, policymakers, industry media, thought leadership audience.",
+        "platform_priority": "LinkedIn (primary and almost exclusive). High-credibility, low-frequency.",
+        "vimeo_link": "https://vimeo.com/1001779564?share=copy&fl=sv&fe=ci",
+        "youtube_link": "",
+        "dropbox_link": "",
+        "description": "Jeff draws a direct analogy between Malcolm McLean's 1956 shipping containerization revolution and the LHS freight relay network. Insight originates from a conversation with Rich Karlgaard, former Chief Publisher of Forbes Magazine. Peter Drucker identified containerization as one of the three most important post-WWII industrial advancements. The McLean analogy connects LHS to one of the most transformative logistics innovations in modern history.",
+        "strategic_purpose": "Institutional-grade credibility. Historical analogy framing. Connects LHS to Malcolm McLean + Peter Drucker + Forbes publisher. This is not hype — it is a documented historical parallel. The type of framing that resonates with investors, carriers, policymakers, and industry media. Rich Karlgaard name-drop adds a Forbes-level credibility layer. This single asset belongs in every investor-facing content piece.",
+        "the_analogy": {
+          "mclean_year": 1956,
+          "cost_before_containerization": "$5.86 per ton",
+          "cost_after_containerization": "$0.16 per ton",
+          "savings_multiplier": "36-fold cost reduction",
+          "innovation_impact": "Eliminated manual unloading/reloading at ports, dramatically speeding delivery"
+        },
+        "drucker_citation": {
+          "claim": "Peter Drucker identified the three most important advancements in American industrialization since WWII",
+          "list": ["Jet engines", "The silicon computer microchip", "Shipping containerization"]
+        },
+        "karlgaard_endorsement": "Rich Karlgaard, former Chief Publisher of Forbes Magazine, drew the parallel between containerization's impact on international shipping and the potential impact of the LHS relay network on truckload transportation.",
+        "key_quotes": [
+          "A ship earns money only when she's at sea. (Malcolm McLean)",
+          "A truck only makes money when the wheels are rolling. (LHS parallel)",
+          "Everything related to trucking will be Faster, Better & Cheaper!",
+          "Freight relay could reduce operating costs by double-digit percentages."
+        ],
+        "pre_approved_angles": [
+          "Malcolm McLean historical parallel",
+          "$5.86 to $0.16 containerization cost reduction (36x)",
+          "Peter Drucker's three major post-WWII innovations",
+          "Forbes publisher credibility layer",
+          "Mirror quote framing: ships at sea / trucks on the road",
+          "Relay network as generational infrastructure shift"
+        ],
+        "repurposing": {
+          "linkedin_authority_thread": "McLean history → containerization cost drop → Drucker's three innovations → LHS relay parallel. High-credibility thought leadership. This thread can anchor a month of carrier/investor LinkedIn presence.",
+          "quote_graphic": "Left side: 'A ship earns money only when she's at sea.' — Malcolm McLean. Right side: 'A truck only makes money when the wheels are rolling.' — LineHaul Station. Historical + modern contrast visual.",
+          "carousel": "Slide 1: McLean revolutionized shipping → Slide 2: $5.86 to $0.16 → Slide 3: Drucker's 3 innovations → Slide 4: LHS relay parallel → Slide 5: Faster, Better, Cheaper.",
+          "video_clips": "Cut from Vimeo. Use Rich Karlgaard reference moments for maximum authority signaling.",
+          "investor_content": "This framing belongs in every investor deck, infrastructure discussion, and industry presentation. It provides historical precedent for transformational logistics innovation."
+        },
+        "cadence": "Evergreen authority. 1–2 LinkedIn deployments per quarter. Deploy around infrastructure news, investor discussions, industry conferences. High-impact, low-frequency.",
+        "artlist_cost": "$0 for repurposing. No incremental cost for script mining."
+      },
+
+      {
+        "asset_id": "VL-REC",
+        "title": "A New Way to Win the Driver Recruiting and Retention Battle",
+        "category": "Recruiting & Retention Authority — Carrier Facing",
+        "status": "ready",
+        "target_audience": "Carriers and fleet operators (primary — recruiting/retention decision makers). Fleet managers, recruiters. Investors, industry analysts. Drivers evaluating carriers. Primary platform: LinkedIn.",
+        "platform_priority": "LinkedIn (primary).",
+        "vimeo_link": "https://vimeo.com/1153013101?fl=pl&fe=vl",
+        "youtube_link": "",
+        "dropbox_link": "",
+        "blog_published": "Jan 9",
+        "description": "A carrier-facing recruiting and retention strategy piece arguing that LineHaul Station provides a fundamentally different — infrastructure-based — solution to the driver retention challenge. Reframes recruiting around environment and respect rather than money and promises. Introduces the ATRI statistic that carriers spend $8,500 per driver per year on turnover replacement. Covers the free driver membership model, carrier digital access pass system, and the West Memphis pilot launch. Positions LHS as a retention investment rather than a recruiting expense.",
+        "strategic_purpose": "Recruiting economics plus driver dignity bridge narrative. Connects carrier business case to driver lifestyle improvement. Most trucking recruiting content focuses on money and promises — this piece reframes recruiting around environment, which is both more credible and more defensible. CEO-level business case for investing in driver conditions.",
+        "atri_stat": {
+          "source": "American Transportation Research Institute (ATRI)",
+          "stat": "$8,500 per driver per year in turnover replacement cost",
+          "components": ["Recruiting fees", "Onboarding", "Training", "Lost productivity", "Operational disruption"]
+        },
+        "cost_reduction_claim": "$0.08–$0.10 per mile or more in operating cost reduction",
+        "membership_model_summary": "Drivers receive free membership. Carriers and brokers purchase digital access passes. Passes can be instantly distributed to drivers. Scalable across fleets.",
+        "key_quotes": [
+          "Retention is cheaper than replacement — by a mile.",
+          "The best drivers gravitate toward the best conditions and the carriers who support them.",
+          "Infrastructure creates loyalty that promises cannot."
+        ],
+        "pre_approved_angles": [
+          "Recruiting advantage through infrastructure",
+          "Driver dignity and respect as retention strategy",
+          "ATRI $8,500 turnover cost statistic",
+          "Shared infrastructure model",
+          "Driver lifestyle improvement",
+          "$0.08–$0.10/mile cost reduction framing",
+          "Carrier competitive advantage through driver care"
+        ],
+        "repurposing": {
+          "micro_clips": ["'Retention is cheaper than replacement.'", "'Drivers become members for free.'", "'Carriers only pay for the space they use.'", "'Infrastructure creates loyalty.'"],
+          "linkedin_posts": ["The real driver crisis", "Why retention beats recruiting", "The hidden cost of driver turnover", "Infrastructure as recruiting advantage"],
+          "carousel": "Slide 1: Recruiting crisis → Slide 2: $8,500 turnover cost → Slide 3: Why drivers leave → Slide 4: Infrastructure solution → Slide 5: LHS model.",
+          "quote_graphics": ["'Retention is cheaper than replacement — by a mile.'", "'The best drivers gravitate toward the best conditions.'"]
+        },
+        "cadence": "Evergreen. Best deployed during carrier recruitment pushes, driver market discussions, freight downturn cycles, industry workforce debates. Can be reused 2–3 times per year without audience fatigue.",
+        "artlist_cost": "$0 for repurposing."
+      },
+
+      {
+        "asset_id": "VL-FREIGHT",
+        "title": "What Will Happen to the Trucking Industry if the Freight Recession Continues?",
+        "category": "Macro Industry Thought Leadership — C-Suite Facing",
+        "status": "ready",
+        "target_audience": "Carrier CEOs and fleet executives (primary). Logistics strategists, investors, private fleet operators, policymakers. Primary platform: LinkedIn.",
+        "platform_priority": "LinkedIn thought leadership (primary). High-credibility audience only.",
+        "vimeo_link": "https://vimeo.com/1139045548?fl=pl&fe=vl",
+        "youtube_link": "",
+        "dropbox_link": "",
+        "blog_published": "Nov 20, 2025",
+        "description": "A macro-industry analysis and innovation proposal exploring what happens if the current freight recession extends for another three years. Jeff frames the discussion as a strategic thought experiment, examining economic warning signs and proposing a disruptive solution: commoditizing the power-only component of trucking through a universal freight relay network. Positions LHS as the infrastructure catalyst for a carrier co-op model that could reduce industry costs by ~20%. Contains Jeff's most explicitly collaborative, CEO-to-CEO framing.",
+        "strategic_purpose": "Positions LHS as a thought leader in industry restructuring during economic pressure. Plants the seed that freight relay networks are the next major industry transformation. This is the most overtly intellectual and collaborative piece in the library — Jeff is asking carrier CEOs to think with him, not just buy from him. Strongest asset for starting carrier conversations at the executive level.",
+        "economic_indicators_cited": [
+          "Tariffs slowing import freight",
+          "Reshoring manufacturing — slow ramp",
+          "Residential construction remains low",
+          "Foreclosure activity up ~20% year-over-year",
+          "Consumer sentiment index dropped from 71.8 to 50.3 in one year",
+          "Surplus trucking capacity driving down rates",
+          "DOT enforcement of non-domiciled carriers",
+          "Continued shipper pricing pressure"
+        ],
+        "structural_problem": {
+          "current_daily_truck_utilization": "~7 hours",
+          "causes": ["Detention and dwell", "Deadhead miles", "Lane imbalance", "HOS restrictions", "Traffic congestion", "Lack of safe parking"]
+        },
+        "proposed_solution": {
+          "model": "National freight relay network — commoditize the power-only component",
+          "relay_segment": "500–600 miles per relay run",
+          "runs_per_day": "Two relay runs per day possible",
+          "driver_home_time": "Every driver home every night",
+          "utilization_improvement": "3–4x current levels",
+          "cost_reduction": "~20% through amortizing fixed costs over more productive miles"
+        },
+        "governance_structure": "Carrier co-op model similar to an insurance captive. Participating carriers contribute capital or equipment. Carriers remain competitive on trailer pools, technology, customer service. The shared relay network handles power-only utilization.",
+        "key_quote": "What if the power-only component of trucking could be commoditized through a universal freight relay network?",
+        "pre_approved_angles": [
+          "Freight recession scenario planning",
+          "Structural inefficiencies in trucking",
+          "7-hour daily truck utilization problem",
+          "Relay network productivity potential (3–4x)",
+          "Carrier cooperative infrastructure model",
+          "Industry innovation during downturns",
+          "Driver home-every-night lifestyle improvement",
+          "Shared infrastructure economics"
+        ],
+        "repurposing": {
+          "micro_clips": ["'What if the freight recession lasts three more years?'", "'Trucks are only rolling about 7 hours a day.'", "'Asset utilization could increase three to four times.'", "'It's time for change.'"],
+          "linkedin_posts": ["What if the freight recession continues?", "Why trucks only run 7 hours per day", "The structural inefficiency of traditional trucking", "The relay network concept", "A cooperative infrastructure model"],
+          "carousel": "Slide 1: Freight recession scenario → Slide 2: Warning economic indicators → Slide 3: Truck utilization problem → Slide 4: Relay network solution → Slide 5: 20% cost reduction."
+        },
+        "cadence": "Evergreen strategic thought leadership. 1–2 posts per quarter. Best deployed during freight market downturn discussions, economic outlook debates, industry conferences, carrier leadership discussions.",
+        "artlist_cost": "$0 for repurposing."
+      },
+
+      {
+        "asset_id": "VL-SUPPLY",
+        "title": "A New Strategy for Remaking Supply Chain Networks",
+        "category": "Supply Chain Innovation — LinkedIn Authority",
+        "status": "ready",
+        "target_audience": "Supply chain executives, logistics strategists, carrier leadership, transportation analysts (primary). Investors, industry media, freight brokers. Primary platform: LinkedIn.",
+        "platform_priority": "LinkedIn (primary).",
+        "vimeo_link": "https://vimeo.com/1001776189/2061852df9?fl=pl&fe=vl",
+        "youtube_link": "",
+        "dropbox_link": "",
+        "blog_published": "Aug 30, 2024",
+        "description": "A supply chain strategy piece connecting findings from the 2024 State of Logistics Report (Kearney / Penske Logistics) to the LHS freight relay opportunity. Positions LHS alongside Amazon and Wayfair as examples of organizations that have reengineered logistics networks for major efficiency gains. Frames the LHS relay model as a network-level optimization aligned with broader industry trends in supply chain redesign.",
+        "strategic_purpose": "Establishes strategic alignment between LHS and broader supply chain innovation trends. Rather than presenting LHS as a standalone trucking concept, Jeff positions it within the context of global logistics network redesign. Kearney / Penske endorsement adds third-party credibility that does not rely on Jeff's own assertions.",
+        "industry_source": {
+          "report": "2024 State of Logistics Report",
+          "prepared_by": "Kearney",
+          "presented_by": "Penske Logistics",
+          "key_quote": "Executives are remaking these networks not only to squeeze out costs, but also to catalyze growth through greater capacity, agility, and flexibility."
+        },
+        "analogous_companies": ["Amazon", "Wayfair"],
+        "key_messaging": "Network architecture determines logistics efficiency. Trucking networks have significant untapped optimization potential. Shared relay infrastructure allows the truckload industry to move freight Faster, Better, and Cheaper.",
+        "pre_approved_angles": [
+          "Supply chain network redesign",
+          "Kearney logistics report insights",
+          "Amazon and Wayfair network transformation examples",
+          "Shared infrastructure logistics strategy",
+          "Freight relay network concept",
+          "Network-level innovation in transportation"
+        ],
+        "repurposing": {
+          "micro_clips": ["'Supply chain networks are being redesigned across every industry.'", "'Network architecture determines efficiency.'", "'Transportation can be Faster, Better & Cheaper.'"],
+          "linkedin_thread": "Why companies redesign supply chains → Lessons from Amazon/Wayfair → Trucking network inefficiencies → Freight relay network solution.",
+          "carousel": "Slide 1: Supply chains are being redesigned → Slide 2: Kearney report insights → Slide 3: Amazon/Wayfair models → Slide 4: Truckload inefficiencies → Slide 5: Relay solution."
+        },
+        "cadence": "Evergreen strategic thought leadership. 1–2 LinkedIn deployments per quarter. Best deployed around supply chain news, network architecture discussions, industry conferences.",
+        "artlist_cost": "$0 for repurposing."
+      },
+
+      {
+        "asset_id": "VL-FORD",
+        "title": "What Can We Learn From Henry Ford?",
+        "category": "Innovation Analogy — Founder Perspective",
+        "status": "ready",
+        "target_audience": "Supply chain executives, carrier leadership, logistics professionals (primary). Investors, analysts, innovation-focused audiences. General business audience. Primary platform: LinkedIn.",
+        "platform_priority": "LinkedIn (primary). Broad professional audience appeal.",
+        "vimeo_link": "https://vimeo.com/1001771794/a19217a446?fl=pl&fe=vl",
+        "youtube_link": "",
+        "dropbox_link": "",
+        "blog_published": "Aug 30, 2024",
+        "description": "A historical innovation analogy using Henry Ford's approach to manufacturing to explain how breakthroughs often come from reorganizing existing ideas rather than inventing something new. Jeff notes that Ford did not invent the automobile or the assembly line — he combined them in a way that maximized efficiency. Jeff applies this directly to LHS: we haven't invented anything new. We've reorganized the pieces of trucking into a better operating model. Introduces Jeff's two founding principles: 'Always be learning' and 'It takes a village.' The HBR research note on the Ford quote authenticity is an additional engagement hook.",
+        "strategic_purpose": "Positions LHS as a system innovation, not a technology invention. Makes the relay network concept feel credible and approachable rather than speculative. Reframes the innovation as reorganization — which is both true and more persuasive to analytical carrier and investor audiences who distrust hype. Reinforces Jeff's humble-but-visionary founder persona.",
+        "the_ford_parallel": {
+          "ford_did_not_invent": ["The automobile", "The assembly line"],
+          "fords_breakthrough": "Combined them in an ultra-efficient, cost-effective way that transformed manufacturing",
+          "hbr_note": "Harvard Business Review research suggests Ford likely never said the famous 'faster horses' quote, but the insight it captures about innovation remains valid",
+          "lhs_parallel": "LHS hasn't invented anything new. It has reorganized existing trucking components — trucks, trailers, terminals, freight networks — into a fundamentally more efficient operating model."
+        },
+        "founders_two_principles": [
+          "Always be learning",
+          "It takes a village"
+        ],
+        "key_quotes": [
+          "Innovation often comes from reorganizing existing ideas.",
+          "We've just worked hard to listen to ALL industry stakeholders from executives to the front-line employees, identified the most serious issues, and reorganized the pieces to build a better mousetrap.",
+          "I wholeheartedly believe there is a better path to improving the operating model of truckload transportation to be significantly Faster, Better & Cheaper."
+        ],
+        "pre_approved_angles": [
+          "Henry Ford innovation analogy",
+          "Assembly line efficiency breakthrough",
+          "System design vs invention",
+          "Industry listening and collaboration",
+          "Shared infrastructure model",
+          "Freight relay network efficiency",
+          "Founder innovation philosophy"
+        ],
+        "repurposing": {
+          "micro_clips": ["'Innovation isn't always about inventing something new.'", "'Henry Ford didn't invent the automobile.'", "'We've reorganized the pieces of trucking.'"],
+          "linkedin_posts": ["The myth of the Henry Ford quote", "Innovation through system design", "Why listening to industry stakeholders matters", "Building a better operating model"],
+          "quote_graphics": ["'Innovation often comes from reorganizing existing ideas.'", "'Henry Ford didn't invent the automobile — he perfected the system.'", "'It takes a village to rebuild an industry.'"],
+          "carousel": "Slide 1: The Ford quote myth → Slide 2: Ford's real breakthrough → Slide 3: System innovation principle → Slide 4: Trucking inefficiencies → Slide 5: LHS solution."
+        },
+        "cadence": "Evergreen thought leadership. 1–2 LinkedIn deployments per quarter. Good opener for new LinkedIn followers — approachable, intellectual, founder voice.",
+        "artlist_cost": "$0 for repurposing."
+      },
+
+      {
+        "asset_id": "VL-PODCAST",
+        "title": "Elevating the Experience for the Modern Truck Driver — Miles and Mentors Podcast",
+        "category": "Third-Party Credibility — Podcast Interview",
+        "status": "ready",
+        "target_audience": "Truck drivers (primary). Industry professionals, carriers, fleet managers, recruiting teams. Podcast listener community for logistics and trucking. Primary platforms: LinkedIn, YouTube.",
+        "platform_priority": "LinkedIn (professional credibility). YouTube (discovery and organic reach). Can also clip for Facebook/Instagram driver audience.",
+        "youtube_link": "https://youtu.be/7U8nPUD5eHw?si=X8utuSz1lU1JRrIt",
+        "vimeo_link": "",
+        "dropbox_link": "",
+        "published": "Nov 13, 2024 (Updated Apr 1, 2025)",
+        "podcast": {
+          "name": "Miles and Mentors Podcast",
+          "episode": "Episode 15",
+          "host": "Alex Powers",
+          "website": "https://www.milesandmentorspodcast.com",
+          "facebook": "https://facebook.com/milesandmentors",
+          "linkedin": "https://linkedin.com/company/miles-and-mentors-podcast"
+        },
+        "description": "Podcast interview featuring Jeff Swenson on Episode 15 of The Miles and Mentors Podcast. Jeff discusses the vision behind LineHaul Station, the infrastructure modernization concept, and driver experience improvement. Drawing on his real estate background, Jeff explains how he identified the gap in trucking facility quality and built the LHS concept. Conversational tone captures a more personal and approachable side of Jeff's founder voice.",
+        "strategic_purpose": "Third-party credibility content. Unlike owned media, this interview positions Jeff as a guest expert — externally validated, not self-promotional. Podcast format captures authentic, conversational founder voice. Valuable because the tone is different from Jeff's scripted videos — more spontaneous, more humanizing. Good for audiences who respond better to conversation than presentation.",
+        "key_topics_covered": [
+          "Driver dignity and quality of life",
+          "Infrastructure modernization",
+          "Real estate background applied to trucking",
+          "Shared-space terminal economics",
+          "Recruiting and retention improvements"
+        ],
+        "pre_approved_angles": [
+          "Modernizing truck driver facilities",
+          "Real estate insight applied to trucking",
+          "Driver dignity and respect",
+          "Shared terminal infrastructure",
+          "Recruiting and retention improvements",
+          "Industry innovation through infrastructure",
+          "Founder vision story — conversational version"
+        ],
+        "repurposing": {
+          "podcast_highlight_clips": ["Jeff explaining the LHS origin", "The real estate insight behind the idea", "Driver dignity and lifestyle improvements", "Shared infrastructure explanation"],
+          "linkedin_posts": ["Why trucking facilities haven't evolved", "The infrastructure gap", "How environment affects retention", "Real estate innovation in trucking"],
+          "quote_graphics": ["'Truck drivers deserve better places to stop and recharge.'", "'Infrastructure affects how drivers experience the job.'"],
+          "cross_promotion": "Tag Miles and Mentors Podcast in all derivative posts — increases reach through the podcast's existing audience and demonstrates third-party validation."
+        },
+        "cadence": "Evergreen interview content. 2–3 reposts per year. Best used during driver-focused campaigns, founder narrative moments, and recruiting/retention content pushes. Podcast clips can supplement archetype campaign content (CMP-0022).",
+        "artlist_cost": "$0 for repurposing. Third-party content, no production cost."
+      }
+
+    ]
+  },
+
+  "jeff_voice_fingerprint": {
+    "status": "draft — to be completed after VL-009 and VL-010 full extraction",
+    "recurring_phrases": [
+      "Faster, Better & Cheaper",
+      "WIN-WIN",
+      "Relay is the future",
+      "Modern-Day Pony Express",
+      "The Rig Carlton",
+      "It takes a village",
+      "Always be learning",
+      "dignity",
+      "treated right",
+      "national transformation",
+      "If you're a driver...",
+      "America's Freight Relay Network"
+    ],
+    "recurring_metaphors": [
+      "Ships at sea / trucks on the road (McLean parallel)",
+      "Henry Ford assembly line (system design, not invention)",
+      "Malcolm McLean containerization (infrastructure revolution)",
+      "Pony Express (relay network historical precedent)",
+      "The Rig Carlton (luxury for drivers)",
+      "Unseated trucks = unused terminal spaces (capital utilization parallel)"
+    ],
+    "emotional_anchors": [
+      "Driver dignity — drivers deserve respect",
+      "National pride — trucking as the backbone of America",
+      "Nostalgia — the 1970s trucking culture as the standard to rebuild toward",
+      "Hope — the industry can be better and LHS is building it",
+      "Collaboration — industry problems require collective solutions"
+    ],
+    "tone_characteristics": [
+      "Bold and confident — not tentative",
+      "Visionary — national scale, industry transformation",
+      "Empathetic toward drivers",
+      "Analytical toward carriers and investors",
+      "Declarative — Jeff states things, he does not hedge",
+      "Occasionally ALL CAPS for emphasis — translate to bold or italics in social copy"
+    ],
+    "guardrails": [
+      "Do NOT copy-paste Jeff's ALL CAPS patterns verbatim into social — translate to appropriate emphasis",
+      "Do NOT use generic AI phrases (e.g., 'game-changer', 'revolutionize', 'disruptive') — Jeff uses specific language",
+      "Do maintain the big-vision framing — small, cautious copy does not match Jeff's voice",
+      "Do maintain driver empathy — every piece of content that reaches drivers should feel like it respects them",
+      "When uncertain: ask 'Would Jeff say this?' and 'Would a driver trust this?'"
+    ]
+  },
+
+  "execution": {
+    "content_queue": [],
+    "engagement_plan": {
+      "weekly_targets": "Deploy one Video Library asset per week in some format (clip, quote graphic, LinkedIn post, carousel). Library content should always be running in the background — it does not require campaign bursts. The goal is sustained authority presence.",
+      "influencers_to_engage": [],
+      "notes": "When a Video Library post gets strong engagement on LinkedIn, respond substantively in comments — Jeff's voice in comments extends the post's reach and builds authentic connection with the carrier/investor audience. Do not use bot-style generic replies."
+    }
+  },
+
+  "reporting": {
+    "weekly_reports": []
+  },
+
+  "flags": [
+    "Clip extraction tool not yet identified or contracted — this is the #1 activation blocker for the entire library",
+    "Jeff voice fingerprint extraction is DRAFT — requires full watch or transcript mining of VL-009 and VL-010 before finalizing",
+    "Original source file Dropbox locations unconfirmed for most assets — flag where only YouTube/Vimeo compressed version is available",
+    "Several asset IDs are non-numeric (VL-REC, VL-FREIGHT, VL-SUPPLY, VL-FORD, VL-PODCAST) — numeric IDs should be assigned once the full library is catalogued",
+    "Asset ID VL-009 and VL-010 are anchor assets — all other library activity is secondary until these two are fully mined"
+  ],
+
+  "next_actions": [
+    "Identify and evaluate clip extraction tool (Opus Clip, Submagic, or similar) — test against VL-009",
+    "Watch or transcript-mine VL-009 and VL-010 — extract Jeff voice fingerprint, document recurring phrases and emotional anchors",
+    "Audit Dropbox for original source file availability across all 8 library assets",
+    "Launch 'Founder Fridays' series — source first 4 episodes from VL-009 clips, build buffer before going public",
+    "Assign numeric asset IDs to VL-REC, VL-FREIGHT, VL-SUPPLY, VL-FORD, VL-PODCAST once full library catalogue is complete",
+    "Build content queue with first 4 weeks of library deployment scheduled"
+  ],
+
+  "notes": [
+    "The Video Library is an always-on background campaign — it runs quietly beneath all active campaigns and provides the authority and trust-building layer that makes conversions easier. It is not a burst campaign.",
+    "Jeff's self-critical editing habit is the primary reason good content has been underutilized. AnjBot's role is to do the mining and repurposing so that content value is captured regardless of Jeff's approval anxiety on individual clips.",
+    "The most underutilized asset in the entire library is VL-010 (Hello America's Truck Drivers). It contains every major LHS narrative concept in original founder voice and has never been fully mined. It is the single highest-return asset available.",
+    "The McLean/Drucker analogy (VL-028) is the strongest credibility asset for investor and carrier CEO audiences. If only one asset is used in any investor conversation, it should be this one.",
+    "VL-011 (True Cost of Truck Terminals) becomes exponentially more powerful when the carrier cost calculator is launched — 'Run your numbers' becomes a live engagement mechanic that turns a static video into an interactive conversion tool.",
+    "The Jeff Voice Fingerprint is the hidden multiplier of this entire campaign. Once captured, it enables AnjBot to generate months of on-brand content without human rewrite on every post. This investment pays back in every future campaign."
+  ],
+
+  "timestamps": {
+    "created_at": "2026-03-10T00:00:00Z",
+    "updated_at": "2026-03-10T00:00:00Z"
+  }
+}
