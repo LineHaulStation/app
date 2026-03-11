@@ -5,15 +5,15 @@
   "id": "CAR-0010",
   "status": "target",
   "metadata": {
-    "dossier_version": 1,
-    "source_csv_reference": "Empire_Express.csv (Lusha export, 2024-12-10 / 2026-02-17)",
+    "dossier_version": 2,
+    "source_csv_reference": "Empire_Express.csv (Lusha export, 2024-12-10 / 2026-02-17) + website scrape 2026-03-11",
     "created_by": "Chip",
     "github_path": "JSONS/CAR/CAR-0010.json"
   },
   "ownership": {
     "assigned_to": "JJ",
     "last_touched_by": "Chip",
-    "last_touched_at": "2026-03-04T00:00:00Z"
+    "last_touched_at": "2026-03-11T00:00:00Z"
   },
   "profile": {
     "company_name": "Empire Express, Inc.",
@@ -26,25 +26,28 @@
     "employee_range": "201-500 (Lusha) / 152 trucks, 133 drivers (FMCSA)",
     "naics_code": "484121",
     "sic_code": "4213",
-    "description": "Memphis-headquartered truckload carrier founded May 5, 1985 by Ed Gatlin ('Big Ed'). Family-owned: Tim Gatlin (Chairman/CEO since 1989, co-owner since 1994) and the late Ed Gatlin (Founder). Fleet of 152 trucks and 133 drivers (FMCSA). Serves 48 states, Mexico, and Canada. HAZMAT specialist: 35% of loads are packaged chemicals (agricultural chemicals, paint-related materials, styrenes, polymers, chemical process industry products). Also hauls clothing/apparel, air cargo, home/office products, packaging, paper products, retail, electronics, cotton, general commodities. Dry van, no-touch freight. Revenue ~$18M (D&B). American Chemistry Council Responsible Care program member. SmartWay partner. MCS-150 mileage: 13.2M miles (2022). Company philosophy: 'Treat People Right.' Port of Memphis member. Tim Gatlin serves on Tennessee Trucking Association board of directors. Memphis terminal at 3710 Tulane Road — trucks and trailers inspected by maintenance every time they roll through. Newer trucks have APUs and power inverters. USDOT 253615.",
+    "description": "Memphis-headquartered truckload carrier founded May 5, 1985 by Ed Gatlin ('Big Ed'). Family-owned: Tim Gatlin (Chairman/CEO since 1989, co-owner since 1994) and the late Ed Gatlin (Founder). Todd Gatlin (VP Driver Relations) represents the next Gatlin generation in day-to-day operations. Fleet of 152 trucks and 133 drivers (FMCSA). Serves 48 states, Mexico, and Canada. Primary lane focus: East of I-35, South of I-80. HAZMAT specialist: 35% of loads are packaged chemicals (agricultural chemicals, paint-related materials, styrenes, polymers, chemical process industry products) including cyanide compounds. FedEx is a major client — Empire runs time-sensitive air cargo feeder lanes for FedEx in Memphis. Also hauls clothing/apparel, air cargo, home/office products, packaging, paper products, retail, electronics, cotton, general commodities. Dry van, no-touch freight. Revenue ~$18M (D&B). Certifications: American Chemistry Council Responsible Care partner, SmartWay Carrier, C-TPAT (Customs-Trade Partnership Against Terrorism), International Cyanide Management Institute Certified Signatory. MCS-150 mileage: 13.2M miles (2022). Company philosophy: 'Treat People Right.' Port of Memphis member. Tim Gatlin serves on Tennessee Trucking Association board of directors. Memphis terminal at 3710 Tulane Road — trucks and trailers inspected by maintenance every time they roll through. Newer trucks have APUs and power inverters. USDOT 253615.",
     "specialties": [
       "Full Truckload (dry van)",
       "HAZMAT / Chemicals Transport (35% of loads)",
       "Agricultural Chemicals",
-      "Air Cargo",
+      "Cyanide Compounds (ICMI Certified Signatory)",
+      "Air Cargo / Time-Sensitive Delivery (FedEx partner)",
       "Retail / Electronics",
       "Cotton",
       "No-Touch Freight",
       "American Chemistry Council Responsible Care",
+      "C-TPAT Certified",
       "SmartWay Partner"
     ],
     "operating_regions": [
       "48 continental states",
       "Mexico",
       "Canada",
+      "Primary focus: East of I-35, South of I-80",
       "Memphis TN terminal (HQ)"
     ],
-    "corridor_alignment_notes": "MAXIMUM GEOGRAPHIC ALIGNMENT. Empire Express is headquartered in Memphis, TN at 3710 Tulane Road — roughly 20 miles from the LHS Phase One site at the I-40/I-55 interchange in West Memphis, AR. Every truck in their 152-unit fleet originates from the Memphis terminal. Tim Gatlin lives in Collierville (east Memphis suburb). All CSV contacts have 901 area codes. This is the second Memphis-headquartered carrier in the pipeline alongside Mid South Transport (CAR-0008). Empire's HAZMAT/chemicals loads traverse the I-40/I-55 interchange heading west and south — those are the exact corridors where chemical plants and agricultural customers sit. Their Memphis terminal inspects every truck that rolls through — LHS flex-space truck terminal at the interchange extends that maintenance capability to the I-40 westbound corridor."
+    "corridor_alignment_notes": "MAXIMUM GEOGRAPHIC ALIGNMENT. Empire Express is headquartered in Memphis, TN at 3710 Tulane Road — roughly 20 miles from the LHS Phase One site at the I-40/I-55 interchange in West Memphis, AR. Every truck in their 152-unit fleet originates from the Memphis terminal. Tim Gatlin lives in Collierville (east Memphis suburb). All CSV contacts have 901 area codes. Empire's HAZMAT/chemicals loads traverse the I-40/I-55 interchange heading west and south — those are the exact corridors where chemical plants and agricultural customers sit. Their Memphis terminal inspects every truck that rolls through — LHS flex-space truck terminal at the interchange extends that maintenance capability to the I-40 westbound corridor. FedEx air cargo feeder lanes originate from Memphis and run through the interchange. The I-40/I-55 interchange is squarely within Empire's primary lane focus (East of I-35, South of I-80)."
   },
   "authority_id": "AUTH-0010",
   "external_refs": {
@@ -57,18 +60,19 @@
     "confidence": "high",
     "naics_vs_description_conflict": false,
     "disqualifiers": [],
-    "notes": "Clear carrier model. NAICS 484121 matches. 152 trucks, asset-based truckload, HAZMAT, dry van. Family-owned. No brokerage division mentioned."
+    "notes": "Clear carrier model. NAICS 484121 matches. 152 trucks, asset-based truckload, HAZMAT, dry van. Family-owned. No brokerage division mentioned. Empire Logistics (Gene Phillips) is a separate entity — do not conflate with carrier operations."
   },
   "fit_score": {
-    "total": 9.0,
+    "total": 9.2,
     "breakdown": {
       "geography_corridor": 10.0,
       "fleet_scale_model": 8.0,
       "operating_history": 9.0,
-      "contact_quality": 8.0,
+      "contact_quality": 9.5,
       "strategic_signals": 10.0
     },
-    "rationale": "GEOGRAPHY (10.0): PERFECT SCORE. Empire Express is headquartered in Memphis at 3710 Tulane Road, ~20 miles from the LHS West Memphis site. Every truck originates from the Memphis terminal. All contacts are Memphis metro. This is a home-field carrier. FLEET SCALE (8.0): 152 trucks, 133 drivers per FMCSA. Solidly in Dedicated Proprietary territory (100+ trucks). HAZMAT/chemicals specialization adds value — these are premium loads requiring specialized handling and safety infrastructure. 13.2M miles annually shows this fleet runs hard. OPERATING HISTORY (9.0): Founded 1985 — 40+ years. Ed Gatlin started the company to save a group of loyal drivers from a corporate fleet rejection. Tim Gatlin has been CEO since 1989 — 36 years running the company. MBA from Ole Miss, former bank lending officer. This is a deeply rooted Memphis institution with generational continuity. CONTACT QUALITY (8.0): 4 contacts including the CEO with A+ email and two phone numbers. Direct access to the owner/decision-maker from Day 1. VP Driver Operations is the key operational contact but has no email. Director of Logistics and Fleet Manager round out the operational team. Small team but CEO-accessible = strong. STRATEGIC SIGNALS (10.0): PERFECT SCORE. This is a Memphis carrier whose founding philosophy is 'Treat People Right' — the same principle that drives LHS. Tim Gatlin is on the Tennessee Trucking Association board. Empire is a Port of Memphis member. American Chemistry Council Responsible Care member. The origin story is powerful: Ed Gatlin started Empire Express to save a group of drivers that a corporation threw away. He built the company FOR drivers. LHS flex-space truck terminals are built FOR drivers. The philosophical alignment is total. Combined with Mid South Transport (CAR-0008), two Memphis-headquartered carriers as founding members creates the local validation narrative that every subsequent pitch references."
+    "rationale": "GEOGRAPHY (10.0): PERFECT SCORE. Empire Express is headquartered in Memphis at 3710 Tulane Road, ~20 miles from the LHS West Memphis site. Every truck originates from the Memphis terminal. All contacts are Memphis metro. This is a home-field carrier. I-40/I-55 is squarely within their primary lane focus (East of I-35, South of I-80). FLEET SCALE (8.0): 152 trucks, 133 drivers per FMCSA. Solidly in Dedicated Proprietary territory (100+ trucks). HAZMAT/chemicals specialization adds value — these are premium loads requiring specialized handling and safety infrastructure. 13.2M miles annually shows this fleet runs hard. OPERATING HISTORY (9.0): Founded 1985 — 40+ years. Ed Gatlin started the company to save a group of loyal drivers from a corporate fleet rejection. Tim Gatlin has been CEO since 1989 — 36 years running the company. MBA from Ole Miss, former bank lending officer. This is a deeply rooted Memphis institution with generational continuity. CONTACT QUALITY (9.5): UPGRADED from 8.0. Website scrape revealed a full VP-level leadership team — 8 VP/President contacts plus directors, vs. 4 contacts in original Lusha CSV. Direct access to Tim Gatlin (CEO), John Phillips (COO), Mark Hopper (VP Safety), Danny Walston (VP Maintenance), Don Stroud (VP Sales), Rod Hudson (VP Driver Ops), plus Jera Skaggs (Director Recruiting) and Todd Gatlin (VP Driver Relations — family). Multi-threaded approach is now fully viable. STRATEGIC SIGNALS (10.0): PERFECT SCORE. FedEx is a confirmed major client (air cargo feeder lanes) — LHS at the I-40 interchange directly supports those lanes. C-TPAT and ICMI certifications confirm elite safety culture. 'Treat People Right' founding philosophy = total alignment with LHS driver-first mission. TTA board. Port of Memphis. American Chemistry Council Responsible Care. The philosophical alignment is total.",
+    "version_note": "Score upgraded from 9.0 to 9.2 on dossier v2 — contact quality upgrade driven by full leadership team discovery."
   },
   "contacts": [
     {
@@ -84,36 +88,56 @@
       "priority_tier": "tier1",
       "priority_day": "day1",
       "sender": "Jeff",
-      "strategic_angle": "FOUNDER-LEVEL CONTACT. Tim Gatlin is the Chairman/CEO and co-owner of Empire Express. He joined the company in January 1989, became CEO two months later at age ~25, and purchased half the stock in 1994. MBA from Ole Miss. Former lending officer at Trustmark Bank (Columbus MS) — he understands finance, capital allocation, and business case analysis. Serves on the Tennessee Trucking Association board alongside other Memphis carrier leaders. Tim has been running Empire for 36 years. His father Ed started the company to save a group of drivers. Tim continues the 'Treat People Right' philosophy. Jeff approaches as a peer: builder-to-builder, Memphis neighbor-to-neighbor, driver-first-to-driver-first. Tim lives in Collierville (affluent east Memphis suburb, ~30 miles from LHS site). This is Jeff's conversation from Day 1.",
-      "personality_read": "Collierville TN. MBA, former banker turned trucking CEO at age ~25. 36 years running the family company. TTA board member. Philosophy: 'Treat People Right.' Analytical (banking background) but values-driven (father's legacy). Likely conservative, disciplined, family-oriented. Small LinkedIn presence (3 connections) suggests he doesn't live online — he's running trucks.",
+      "strategic_angle": "FOUNDER-LEVEL CONTACT. Tim Gatlin is the Chairman/CEO and co-owner of Empire Express. He joined the company in January 1989, became CEO two months later at age ~25, and purchased half the stock in 1994. MBA from Ole Miss. Former lending officer at Trustmark Bank (Columbus MS) — he understands finance, capital allocation, and business case analysis. Serves on the Tennessee Trucking Association board alongside other Memphis carrier leaders. Tim has been running Empire for 36 years. His father Ed started the company to save a group of drivers. Tim continues the 'Treat People Right' philosophy. The Gatlin family was honored by Carnival Memphis with the Chairman's Award at their Business & Industry Salute Luncheon — Tim is a Memphis civic figure, not just a carrier CEO. Jeff approaches as a peer: builder-to-builder, Memphis neighbor-to-neighbor, driver-first-to-driver-first. Tim lives in Collierville (affluent east Memphis suburb, ~30 miles from LHS site). This is Jeff's conversation from Day 1.",
+      "personality_read": "Collierville TN. MBA, former banker turned trucking CEO at age ~25. 36 years running the family company. TTA board member. Carnival Memphis Chairman's Award recipient. Philosophy: 'Treat People Right.' Analytical (banking background) but values-driven (father's legacy). Likely conservative, disciplined, family-oriented. Small LinkedIn presence (3 connections) suggests he doesn't live online — he's running trucks.",
       "influence_level": "decision_maker",
       "communication_tone": "peer_relational",
       "flags": [],
       "enrichment": {
         "status": "good",
-        "source": "lusha+website+theorg+news+tta",
-        "enriched_at": "2026-03-04T00:00:00Z",
+        "source": "lusha+website+theorg+news+tta+memphisdailynews",
+        "enriched_at": "2026-03-11T00:00:00Z",
         "linkedin_url": "https://www.linkedin.com/in/tim-gatlin-0aaba6262",
-        "bio_summary": "Chairman/CEO and co-owner of Empire Express since 1989. MBA from University of Mississippi. Former lending officer at Trustmark Bank. Purchased half the company from his father Ed Gatlin in 1994. TTA board member. Port of Memphis member. 36 years leading the company. Lives in Collierville, TN.",
+        "bio_summary": "Chairman/CEO and co-owner of Empire Express since 1989. MBA from University of Mississippi. Former lending officer at Trustmark Bank. Purchased half the company from his father Ed Gatlin in 1994. TTA board member. Port of Memphis member. Carnival Memphis Chairman's Award recipient. 36 years leading the company. Lives in Collierville, TN.",
         "career_highlights": [
           "CEO since 1989 (36 years)",
           "MBA from Ole Miss",
           "Purchased 50% ownership from father in 1994",
           "Tennessee Trucking Association board member",
           "Led company through growth from small fleet to 152 trucks",
-          "American Chemistry Council Responsible Care program"
+          "American Chemistry Council Responsible Care program",
+          "Carnival Memphis Chairman's Award — civic recognition in Memphis"
         ],
-        "signals": ["TTA board = knows every Memphis trucking leader personally", "Banking background = speaks finance fluently", "Port of Memphis member = embedded in Memphis logistics community"],
+        "signals": [
+          "TTA board = knows every Memphis trucking leader personally",
+          "Banking background = speaks finance fluently",
+          "Port of Memphis member = embedded in Memphis logistics community",
+          "Carnival Memphis honor = Memphis civic identity, not just trucking identity",
+          "FedEx relationship = understands time-sensitive operational excellence"
+        ],
         "communication_style": "analytical_relational",
         "motivators": ["Driver welfare (father's legacy)", "Safety (HAZMAT operator)", "Company culture", "Memphis community"],
-        "watchouts": ["Do NOT hard-sell a 36-year CEO who sits on the TTA board", "He's seen every pitch", "Banking background means he'll do the math himself", "Small LinkedIn = prefers phone and in-person"],
-        "likely_objections": ["We're a HAZMAT carrier — your facility handles HAZMAT?", "Our Memphis terminal already serves our drivers", "What does this look like for a 152-truck fleet", "I know everyone in Memphis trucking — who else is in?"],
+        "watchouts": [
+          "Do NOT hard-sell a 36-year CEO who sits on the TTA board",
+          "He's seen every pitch",
+          "Banking background means he'll do the math himself",
+          "Small LinkedIn = prefers phone and in-person",
+          "He will ask 'who else is in?' — have Mid South Transport answer ready"
+        ],
+        "likely_objections": [
+          "We're a HAZMAT carrier — your facility handles HAZMAT?",
+          "Our Memphis terminal already serves our drivers",
+          "What does this look like for a 152-truck fleet",
+          "I know everyone in Memphis trucking — who else is in?",
+          "Our drivers run East of I-35 mostly — does this interchange really help us?"
+        ],
         "recommended_angle": [
           "Jeff peer-to-peer: 'Tim — your dad started Empire to take care of drivers. We're building flex-space truck terminals with the same philosophy.'",
           "Memphis neighbor: 'We're 20 miles from Tulane Road, building at the I-40/I-55 interchange.'",
-          "TTA connection: 'You know the Memphis trucking community better than anyone. We want the Memphis carriers at the founding table.'"
+          "TTA connection: 'You know the Memphis trucking community better than anyone. We want the Memphis carriers at the founding table.'",
+          "Civic recognition: 'Carnival Memphis honored your family for what you've built. We're building infrastructure for the community you've served.'"
         ],
-        "approach_summary": "Tim Gatlin is the owner, the CEO, and the soul of Empire Express. His father started the company to save a group of drivers. Tim has spent 36 years honoring that legacy. He's on the TTA board — he knows every carrier in Memphis. Jeff approaches with respect for the legacy, references the driver-first philosophy, and invites Tim to the founding table. This is not a sales pitch. It's an invitation from one Memphis builder to another. Tim's banking background means he'll evaluate the economics rigorously — have the Carrier Calculator ready. But the emotional hook is the legacy: 'Your dad started this company for drivers. We're building infrastructure for the same reason.'"
+        "approach_summary": "Tim Gatlin is the owner, the CEO, and the soul of Empire Express. His father started the company to save a group of drivers. Tim has spent 36 years honoring that legacy. He's on the TTA board — he knows every carrier in Memphis. He was honored by Carnival Memphis as a civic leader. Jeff approaches with respect for the legacy, references the driver-first philosophy, and invites Tim to the founding table. This is not a sales pitch. It's an invitation from one Memphis builder to another. Tim's banking background means he'll evaluate the economics rigorously — have the Carrier Calculator ready. But the emotional hook is the legacy: 'Your dad started this company for drivers. We're building infrastructure for the same reason.'"
       },
       "career_context": {
         "tenure_estimate": "36 years (1989-present)",
@@ -130,7 +154,7 @@
     },
     {
       "contact_id": "C-0002",
-      "name": "Rodney Hudson",
+      "name": "Rod Hudson",
       "title": "Vice President of Driver Operations",
       "email": null,
       "email_confidence": null,
@@ -140,25 +164,28 @@
       "priority_tier": "tier1",
       "priority_day": "day1",
       "sender": "JJ",
-      "strategic_angle": "ANCHOR OPERATIONAL CONTACT. VP of DRIVER Operations — not fleet ops, not general ops, DRIVER operations. At a company whose philosophy is 'Treat People Right' and whose founding story is about saving drivers, the VP of Driver Operations is the person who executes that philosophy every day. LHS flex-space truck terminals are driver infrastructure. Rodney Hudson IS the audience. Lead with: 'Rodney — Empire's philosophy is to treat people right. What would it mean for your drivers to have access to flex-space truck terminal infrastructure at the I-40/I-55 interchange instead of truck stops?' 708 area code = Chicago origin. May have relocated to Memphis for the role.",
+      "strategic_angle": "ANCHOR OPERATIONAL CONTACT. VP of DRIVER Operations — not fleet ops, not general ops, DRIVER operations. At a company whose philosophy is 'Treat People Right' and whose founding story is about saving drivers, the VP of Driver Operations is the person who executes that philosophy every day. LHS flex-space truck terminals are driver infrastructure. Rod Hudson IS the audience. Lead with: 'Rod — Empire's philosophy is to treat people right. What would it mean for your drivers to have access to flex-space truck terminal infrastructure at the I-40/I-55 interchange instead of truck stops?' 708 area code = Chicago origin. May have relocated to Memphis for the role. NOTE: ZoomInfo also shows a separate 'Director of Driver Operations' title held by Michelle Tetrick — Rod is VP above her.",
       "personality_read": "Memphis-based per CSV. 708 area code (south suburbs of Chicago) suggests relocated. VP title at a 152-truck carrier = significant authority. 'Driver Operations' focus = driver advocate, quality-of-life champion.",
       "influence_level": "decision_maker",
       "communication_tone": "operational_relational",
       "flags": ["missing_email"],
       "enrichment": {
-        "status": "pending",
-        "source": "lusha",
-        "enriched_at": "2026-03-04T00:00:00Z",
+        "status": "partial",
+        "source": "lusha+website",
+        "enriched_at": "2026-03-11T00:00:00Z",
         "linkedin_url": "https://www.linkedin.com/in/rodney-hudson-7844391ba",
-        "bio_summary": null,
-        "career_highlights": [],
-        "signals": ["'Driver Operations' title = driver-centric culture embedded in org structure"],
+        "bio_summary": "VP of Driver Operations at Empire Express. Confirmed on company website. 708 area code suggests Chicago-area origin, relocated to Memphis. Leads driver experience and operations reporting to Tim Gatlin.",
+        "signals": [
+          "'Driver Operations' title = driver-centric culture embedded in org structure",
+          "Website-confirmed role = active, not stale Lusha data",
+          "Michelle Tetrick (Director Driver Ops) reports to Rod — he has a team"
+        ],
         "communication_style": "driver_focused",
         "motivators": ["Driver welfare", "Retention", "Safety"],
         "watchouts": [],
         "likely_objections": ["Our drivers come home to Memphis regularly", "What specific driver amenities does LHS offer"],
         "recommended_angle": ["Flex-space truck terminal infrastructure for driver staging, maintenance, and quality-of-life at the I-40 interchange", "Recruit & Retain tool", "HAZMAT driver safety and rest quality"],
-        "approach_summary": "Rodney Hudson owns driver experience at a company built for drivers. JJ leads with specific driver infrastructure: staging, maintenance, truck wash, rest facilities at the I-40/I-55 interchange. For HAZMAT drivers especially, rest quality and HOS compliance are safety-critical."
+        "approach_summary": "Rod Hudson owns driver experience at a company built for drivers. JJ leads with specific driver infrastructure: staging, maintenance, truck wash, rest facilities at the I-40/I-55 interchange. For HAZMAT drivers especially, rest quality and HOS compliance are safety-critical. Rod has a Director (Michelle Tetrick) under him — if he engages, she becomes an implementation contact."
       },
       "career_context": {},
       "decision_dynamics": {
@@ -170,6 +197,253 @@
     },
     {
       "contact_id": "C-0003",
+      "name": "John Phillips",
+      "title": "President and Chief Operating Officer",
+      "email": "john@empireexpress.com",
+      "email_confidence": "unconfirmed",
+      "alt_email": null,
+      "phone": "+1 901-942-3300",
+      "phone_alt": null,
+      "linkedin_url": null,
+      "priority_tier": "tier1",
+      "priority_day": "day2",
+      "sender": "JJ",
+      "strategic_angle": "NEWLY DISCOVERED — NOT IN ORIGINAL DOSSIER. John Phillips is President and COO — the #2 person in the company. He runs day-to-day operations and implements what Tim Gatlin decides. As COO, he is the operational validator for any major infrastructure commitment. In multi-threaded outreach, reaching Phillips simultaneously with Tim adds pressure and legitimacy: when Tim hears about LHS from Jeff, and then hears Phillips is already in conversation with JJ, the pitch gains internal momentum. Email follows first-name pattern consistent with tim@, tommy@ — high confidence unconfirmed. Phone is main line. Day 2 send — let Jeff's Tim email land first.",
+      "personality_read": "President and COO of a 152-truck HAZMAT carrier. Operational leader, not just a figurehead. Reports to Tim Gatlin. Likely detail-oriented, systems-focused, cost-conscious. His buy-in is needed for implementation even if Tim makes the call.",
+      "influence_level": "decision_maker",
+      "communication_tone": "operational",
+      "flags": ["unconfirmed_email"],
+      "enrichment": {
+        "status": "pending",
+        "source": "website+rocketreach",
+        "enriched_at": "2026-03-11T00:00:00Z",
+        "bio_summary": "President and COO of Empire Express. Confirmed on company website. Role suggests he is the operational number two — Tim sets direction, John runs the machine.",
+        "signals": [
+          "COO title = operational owner, not just influencer",
+          "Also listed as 'President of Empire Express' — distinct from 'President of Empire Logistics' (Gene Phillips) and 'President of Empire Financial' (Jackie Buckingham)",
+          "RocketReach confirms John Phillips as President/COO"
+        ],
+        "recommended_angle": [
+          "JJ operational pitch: 'John — you run operations for 152 trucks and 133 drivers across 48 states. LHS at the I-40/I-55 interchange is 20 miles from Tulane Road. Here is what Dedicated Proprietary access looks like for a fleet at your scale.'",
+          "COO framing: 'This is not a driver benefit — it's operational infrastructure. Maintenance touchpoint, staging, secure HAZMAT parking, 20 miles from your yard.'"
+        ]
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "decision_maker",
+        "reports_to": "Tim Gatlin",
+        "internal_allies": null,
+        "budget_authority": "operational"
+      }
+    },
+    {
+      "contact_id": "C-0004",
+      "name": "Mark Hopper",
+      "title": "Vice President of Safety and Risk Management",
+      "email": "mark@empireexpress.com",
+      "email_confidence": "unconfirmed",
+      "alt_email": null,
+      "phone": null,
+      "linkedin_url": null,
+      "priority_tier": "tier1",
+      "priority_day": "day2",
+      "sender": "JJ",
+      "strategic_angle": "NEWLY DISCOVERED — HIGH PRIORITY. At a HAZMAT carrier that holds Responsible Care, C-TPAT, and International Cyanide Management Institute certifications, the VP of Safety & Risk Management is not a compliance checkbox — he is a core operations leader. Empire hauls cyanide compounds, agricultural poisons, styrenes, and polymers. Mark Hopper owns the safety philosophy that keeps those loads moving without incident. LHS flex-space terminals speak directly to his mandate: secure HAZMAT parking, professional maintenance for loaded chemical trailers, staging that meets Responsible Care requirements. If Hopper endorses LHS internally, it removes the HAZMAT objection before Tim ever raises it. This is a pre-emption contact. Approach before Tim's HAZMAT question becomes an objection.",
+      "personality_read": "VP Safety at a certified Responsible Care carrier hauling cyanide and agricultural chemicals. Process-oriented, risk-aware, regulation-fluent. The ACC Responsible Care program and ICMI certification require continuous improvement documentation — he thinks in systems. Will respond to infrastructure that matches the safety culture he's built.",
+      "influence_level": "influencer",
+      "communication_tone": "technical_relational",
+      "flags": ["unconfirmed_email", "missing_phone"],
+      "enrichment": {
+        "status": "pending",
+        "source": "website+zoominfo",
+        "enriched_at": "2026-03-11T00:00:00Z",
+        "bio_summary": "VP of Safety and Risk Management at Empire Express. Confirmed on company website and ZoomInfo. Oversees safety culture for a carrier with ACC Responsible Care, C-TPAT, and ICMI Certified Signatory status.",
+        "signals": [
+          "ICMI certification = Empire hauls cyanide compounds — highest HAZMAT tier",
+          "C-TPAT = federal security vetting, chain-of-custody standards",
+          "ACC Responsible Care = continuous safety improvement process",
+          "All three certifications require ongoing documentation and compliance — Hopper owns this"
+        ],
+        "recommended_angle": [
+          "'Mark — Empire holds Responsible Care, C-TPAT, and ICMI certifications. That level of safety rigor deserves matching infrastructure when your drivers are away from Tulane Road. LHS flex-space terminals at the I-40/I-55 interchange are built for professional carrier operations — secure HAZMAT parking, professional maintenance, staging that meets the standard your certifications require.'",
+          "Frame as Responsible Care extension: 'When your driver is 300 miles down I-40 hauling packaged cyanide compounds, a truck stop is not Responsible Care. LHS is.'"
+        ],
+        "likely_objections": ["What are LHS HAZMAT parking and containment standards?", "How does LHS align with our Responsible Care management system?"],
+        "approach_summary": "Hopper is the internal gatekeeper on the HAZMAT question. If Jeff gets Tim interested and Tim asks 'can your facility handle our HAZMAT loads?' — Hopper is the person Tim will ask to vet it. Reaching Hopper first, before that question gets raised, makes JJ's call an asset: 'Tim, your VP of Safety is already in conversation with us about how LHS aligns with your Responsible Care commitments.' Have HAZMAT facility talking points fully developed before this call."
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Tim Gatlin / John Phillips",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0005",
+      "name": "Danny Walston",
+      "title": "Vice President of Maintenance",
+      "email": "danny@empireexpress.com",
+      "email_confidence": "unconfirmed",
+      "alt_email": null,
+      "phone": null,
+      "linkedin_url": null,
+      "priority_tier": "tier1",
+      "priority_day": "day2",
+      "sender": "JJ",
+      "strategic_angle": "NEWLY DISCOVERED — KEY MAINTENANCE CONTACT. Danny Walston owns the maintenance philosophy for 152 trucks running 13.2 million miles annually. The 'every truck inspected when it rolls through Tulane Road' discipline that driver reviews confirm comes from his department. He is the person who understands the cost of road calls, the value of preventive inspection, and the gap between what happens at Tulane Road and what happens 300 miles down I-40. LHS maintenance facilities at the interchange are a direct extension of his standard. This is a stronger maintenance contact than Tommy Robinson (Fleet Manager) — Walston is Robinson's VP. Lead with the Tulane Road inspection culture to show you've done your homework.",
+      "personality_read": "VP of Maintenance for a HAZMAT fleet. Hands-on, equipment-focused, preventive maintenance mindset. Likely conservative about vendors and facilities — will want to know maintenance standards before endorsing. Responds to specifics, not generalities.",
+      "influence_level": "influencer",
+      "communication_tone": "technical_operational",
+      "flags": ["unconfirmed_email", "missing_phone"],
+      "enrichment": {
+        "status": "pending",
+        "source": "website+zoominfo",
+        "enriched_at": "2026-03-11T00:00:00Z",
+        "bio_summary": "VP of Maintenance at Empire Express. Confirmed on company website and ZoomInfo. Responsible for maintenance of 152-truck fleet running 13.2M miles annually.",
+        "signals": [
+          "Driver reviews confirm Empire inspects every truck at Tulane Road — Walston's standard",
+          "Newer trucks have APUs and power inverters — investment in driver quality and equipment quality",
+          "13.2M annual miles = high utilization fleet where maintenance touchpoints reduce incident risk",
+          "HAZMAT loads mean a breakdown on the road is not just a delay — it's a safety event"
+        ],
+        "recommended_angle": [
+          "'Danny — I know Empire inspects every truck that rolls through Tulane Road. That maintenance culture is a big reason your safety record is what it is. But when your trucks are heading down I-40 west of Memphis, that standard doesn't follow them. LHS flex-space truck terminals at the I-40/I-55 interchange — 20 miles from Tulane Road — extend your maintenance standard to the first major interchange west of your yard.'",
+          "ROI framing: 'For 152 trucks running 13.2 million miles a year, a maintenance touchpoint 20 miles from your terminal changes the road call math — especially on HAZMAT loads.'"
+        ]
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Tim Gatlin / John Phillips",
+        "internal_allies": null,
+        "budget_authority": "departmental"
+      }
+    },
+    {
+      "contact_id": "C-0006",
+      "name": "Don Stroud",
+      "title": "Vice President of Sales and Customer Operations",
+      "email": "don@empireexpress.com",
+      "email_confidence": "unconfirmed",
+      "alt_email": null,
+      "phone": null,
+      "linkedin_url": null,
+      "priority_tier": "tier2",
+      "priority_day": "day3",
+      "sender": "JJ",
+      "strategic_angle": "NEWLY DISCOVERED — REVENUE SIDE. Don Stroud owns customer relationships, freight acquisition, and customer operations — including the FedEx relationship and premium chemical shipper accounts. Empire competes for those premium accounts against larger HAZMAT carriers by offering safety culture, Responsible Care compliance, and service reliability. LHS founding membership adds a differentiator Stroud can use in customer conversations: 'Empire's drivers have dedicated terminal infrastructure at the I-40/I-55 interchange, not truck stops — that's what our service reliability is built on.' Approach Day 3 — after the operational contacts are warm.",
+      "personality_read": "Sales VP at a carrier with premium HAZMAT accounts including FedEx. Customer-facing, relationship-oriented, competitive. Thinks about differentiation from larger carriers. Understands that premium shippers pay premium rates for reliability and safety — and will understand LHS as a service differentiator.",
+      "influence_level": "influencer",
+      "communication_tone": "commercial_relational",
+      "flags": ["unconfirmed_email", "missing_phone"],
+      "enrichment": {
+        "status": "pending",
+        "source": "website+zoominfo",
+        "enriched_at": "2026-03-11T00:00:00Z",
+        "bio_summary": "VP of Sales and Customer Operations at Empire Express. Confirmed on company website and ZoomInfo. Owns revenue relationships including FedEx air cargo feeder lanes and chemical shipper accounts.",
+        "signals": [
+          "FedEx is a confirmed major client — Empire runs time-sensitive air cargo feeder lanes",
+          "Premium chemical shippers pay premium rates — Stroud defends those accounts",
+          "Empire competes against larger HAZMAT carriers — needs differentiators"
+        ],
+        "recommended_angle": [
+          "Competitive differentiation: 'Don — when you're pitching premium chemical shippers on why Empire over a larger carrier, what's your differentiator? LHS founding membership adds an infrastructure story: Empire drivers have dedicated terminal access at the I-40 interchange, not truck stops. That's what your on-time rate is built on.'",
+          "FedEx angle: 'Your FedEx air cargo lanes run through the I-40/I-55 interchange. LHS is 20 miles from Tulane Road — staging and relay at the interchange tightens your time-sensitive lane performance.'"
+        ]
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Tim Gatlin / John Phillips",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0007",
+      "name": "Jera Skaggs",
+      "title": "Director of Recruiting",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": null,
+      "linkedin_url": null,
+      "priority_tier": "tier2",
+      "priority_day": "day3",
+      "sender": "JJ",
+      "strategic_angle": "NEWLY DISCOVERED — RECRUITING BUDGET OWNER. Ed Gatlin himself named recruiting spend as a major pain: 'We spend a large amount of money, like most truck lines, recruiting.' Jera Skaggs owns that budget. LHS founding membership is a direct recruiting tool — 'Join Empire Express and your drivers get access to flex-space terminal infrastructure at the I-40/I-55 interchange.' For a company competing against mega-fleets for CDL-A HAZMAT-certified drivers, this is a tangible differentiator that Skaggs can put in job postings, on the driveforempire.com careers site, and in recruiter pitches. ROI framing: one HAZMAT driver turnover costs $12K-$15K. LHS at $13/day pays for itself if it reduces one turnover.",
+      "personality_read": "Director-level recruiter at a family carrier that competes on culture. Recruiting CDL-A HAZMAT-certified drivers in a shortage market. Likely creative about differentiation, cost-conscious about spend, motivated by metrics (placements, retention, turnover rate).",
+      "influence_level": "influencer",
+      "communication_tone": "operational_relational",
+      "flags": ["missing_email", "missing_phone"],
+      "enrichment": {
+        "status": "pending",
+        "source": "zoominfo",
+        "enriched_at": "2026-03-11T00:00:00Z",
+        "bio_summary": "Director of Recruiting at Empire Express. Confirmed via ZoomInfo. Owns CDL-A driver recruiting for a 152-truck carrier in a documented driver shortage market.",
+        "signals": [
+          "Ed Gatlin explicitly named recruiting spend as a company pain point",
+          "HAZMAT certification requirement narrows the driver pool",
+          "Competing against mega-fleets for CDL-A talent",
+          "driveforempire.com is a separate driver recruiting site — active investment in this channel"
+        ],
+        "recommended_angle": [
+          "'Jera — Ed Gatlin built Empire to attract drivers who want to be treated right. LHS founding membership gives you something most carriers can't put on a job posting: your drivers get dedicated terminal infrastructure at the I-40/I-55 interchange. Not truck stops. Can we talk about what that looks like for your recruiting materials?'",
+          "ROI pitch: 'What does one HAZMAT driver turnover cost you to replace? $12K? $15K? LHS at $13/day pays for itself in the first retention win.'"
+        ]
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Rod Hudson / Tim Gatlin",
+        "internal_allies": null,
+        "budget_authority": "departmental"
+      }
+    },
+    {
+      "contact_id": "C-0008",
+      "name": "Todd Gatlin",
+      "title": "Vice President of Driver Relations",
+      "email": null,
+      "email_confidence": null,
+      "alt_email": null,
+      "phone": "+1 901-251-1272",
+      "phone_alt": "+1 901-251-1295",
+      "linkedin_url": null,
+      "priority_tier": "tier2",
+      "priority_day": "day5_warm_only",
+      "sender": "Jeff",
+      "strategic_angle": "FAMILY — WARM ESCALATION ONLY. Todd Gatlin holds VP of Driver Relations and is part of the Gatlin family — the next generation carrying Ed's legacy alongside Tim. Memphis Daily News confirms: Tim Gatlin serves as president/CEO and Todd Gatlin serves as vice president of driver relations. Todd is the keeper of the driver culture that Ed started. Do NOT cold-approach Todd — approach only after Tim is warm or if Tim is unreachable after Day 5. If Tim engages, Todd becomes the internal champion who ensures LHS alignment with Empire's driver culture. If Tim is unreachable, Todd is the warm side door into the family. Jeff approaches — never JJ. Reference Ed's legacy. Todd lives this every day.",
+      "personality_read": "Gatlin family. VP Driver Relations — the title that most directly mirrors Ed Gatlin's founding mission. Next generation at a family company. Likely shares Tim's driver-first values but may be more accessible than Tim. Phone numbers sourced from Radaris (901 area codes = Memphis).",
+      "influence_level": "influencer",
+      "communication_tone": "family_relational",
+      "flags": ["missing_email", "warm_approach_only"],
+      "enrichment": {
+        "status": "partial",
+        "source": "memphisdailynews+radaris",
+        "enriched_at": "2026-03-11T00:00:00Z",
+        "bio_summary": "VP of Driver Relations at Empire Express. Confirmed via Memphis Daily News profile of the Gatlin family. Part of the family ownership structure. Carries Ed Gatlin's driver-first philosophy in his title and daily role.",
+        "signals": [
+          "Gatlin family = co-owner tier, not just an employee",
+          "VP Driver Relations = the most direct embodiment of Ed's founding mission",
+          "Memphis Daily News coverage = family is publicly identified as the leadership of Empire",
+          "Phones sourced from Radaris — 901 area codes confirm Memphis"
+        ],
+        "recommended_angle": [
+          "Jeff warm escalation only: 'Todd — Jeff here. I've been talking with Tim about what we're building at the I-40 interchange for Memphis carriers. Your dad started Empire for drivers. What we're building is for the same reason. I'd love 15 minutes to walk you through it.'"
+        ]
+      },
+      "career_context": {},
+      "decision_dynamics": {
+        "influence_level": "influencer",
+        "reports_to": "Tim Gatlin",
+        "internal_allies": null,
+        "budget_authority": "no"
+      }
+    },
+    {
+      "contact_id": "C-0009",
       "name": "Jonathan Gaines",
       "title": "Director of Logistics",
       "email": "jonathan@empireexpress.com",
@@ -180,7 +454,7 @@
       "priority_tier": "tier2",
       "priority_day": "day2",
       "sender": "JJ",
-      "strategic_angle": "Director of Logistics — manages freight flow, routing, and logistics operations. LHS flex-space terminal at the I-40/I-55 interchange changes logistics planning: staging, relay points, cross-dock capability. Secondary operational contact. Day 2 send with logistics/routing angle.",
+      "strategic_angle": "Director of Logistics — manages freight flow, routing, and logistics operations. LHS flex-space terminal at the I-40/I-55 interchange changes logistics planning: staging, relay points, cross-dock capability. Note: 'Empire Logistics' is a separate subsidiary under Gene Phillips (President) — Jonathan Gaines likely operates within the carrier's logistics coordination function, not the subsidiary. Secondary operational contact. Day 2 send with logistics/routing angle. NOTE: Empire's primary lane focus is East of I-35, South of I-80 — I-40/I-55 is the eastern anchor of that network. Frame LHS as the home-base interchange for westbound dispatch.",
       "personality_read": "Memphis-based. 901 area code = Memphis native. Director level = mid-management, operational.",
       "influence_level": "influencer",
       "communication_tone": "operational",
@@ -188,18 +462,18 @@
       "enrichment": {
         "status": "pending",
         "source": "lusha",
-        "enriched_at": "2026-03-04T00:00:00Z"
+        "enriched_at": "2026-03-11T00:00:00Z"
       },
       "career_context": {},
       "decision_dynamics": {
         "influence_level": "influencer",
-        "reports_to": "Tim Gatlin / Rodney Hudson",
+        "reports_to": "Tim Gatlin / John Phillips",
         "internal_allies": null,
         "budget_authority": "no"
       }
     },
     {
-      "contact_id": "C-0004",
+      "contact_id": "C-0010",
       "name": "Tommy Robinson",
       "title": "Fleet Manager",
       "email": "tommy@empireexpress.com",
@@ -210,7 +484,7 @@
       "priority_tier": "tier2",
       "priority_day": "day2",
       "sender": "JJ",
-      "strategic_angle": "Fleet Manager — manages the 152-truck fleet day-to-day. Equipment maintenance, truck assignment, driver-truck matching. LHS Fleet Maintenance Center at the interchange is directly relevant: 'Tommy — when your trucks are 300 miles down I-40 and need service, what are the options today? LHS flex-space terminals include professional maintenance at the interchange.' Listed in Kansas per Lusha but has 901 area code — may have relocated or Lusha location is wrong.",
+      "strategic_angle": "Fleet Manager — manages the 152-truck fleet day-to-day. Equipment maintenance, truck assignment, driver-truck matching. Reports to Danny Walston (VP Maintenance). LHS Fleet Maintenance Center at the interchange is directly relevant. Listed in Kansas per Lusha but has 901 area code — almost certainly Memphis-based. NOTE: With Danny Walston (VP Maintenance) now identified, Robinson is the operational implementer under Walston. Reaching both creates layered maintenance contact. Email Tommy alongside Danny on Day 2 — parallel threads.",
       "personality_read": "901 area code = Memphis. Fleet management = hands-on, equipment-focused.",
       "influence_level": "influencer",
       "communication_tone": "operational",
@@ -218,121 +492,133 @@
       "enrichment": {
         "status": "pending",
         "source": "lusha",
-        "enriched_at": "2026-03-04T00:00:00Z"
+        "enriched_at": "2026-03-11T00:00:00Z"
       },
       "career_context": {},
       "decision_dynamics": {
         "influence_level": "influencer",
-        "reports_to": "Rodney Hudson / Tim Gatlin",
+        "reports_to": "Danny Walston",
         "internal_allies": null,
         "budget_authority": "no"
       }
     }
   ],
   "strategic_positioning": {
-    "win_thesis": "Empire Express is a 152-truck, 40-year Memphis carrier founded by Ed Gatlin to save a group of drivers that a corporation threw away. Tim Gatlin has run the company for 36 years on the philosophy 'Treat People Right.' They're headquartered 20 miles from the LHS Phase One site, every truck in their fleet originates from Memphis, and their CEO sits on the Tennessee Trucking Association board. LHS flex-space truck terminals are built on the same principle Empire was founded on: infrastructure that treats drivers the way they deserve. If Mid South Transport (CAR-0008) is the local validation story, Empire Express is the values validation story. Two Memphis carriers whose founding philosophies align perfectly with LHS — that's the narrative that sells every subsequent carrier.",
+    "win_thesis": "Empire Express is a 152-truck, 40-year Memphis carrier founded by Ed Gatlin to save a group of drivers that a corporation threw away. Tim Gatlin has run the company for 36 years on the philosophy 'Treat People Right.' They're headquartered 20 miles from the LHS Phase One site, every truck in their fleet originates from Memphis, and their CEO sits on the Tennessee Trucking Association board. They hold Responsible Care, C-TPAT, and ICMI Certified Signatory status — among the most rigorous safety certifications a carrier can hold. FedEx is a major client. LHS flex-space truck terminals are built on the same principle Empire was founded on: infrastructure that treats drivers the way they deserve. If Mid South Transport (CAR-0008) is the local validation story, Empire Express is the values validation story. Two Memphis carriers whose founding philosophies align perfectly with LHS — that's the narrative that sells every subsequent carrier.",
     "pain_points": [
       {
         "pain": "HAZMAT driver safety and rest quality on the road",
         "confidence": "high",
-        "detail": "35% of Empire's loads are packaged chemicals — HAZMAT cargo. HAZMAT drivers face higher regulatory scrutiny, stricter HOS enforcement, and greater safety stakes. When a HAZMAT driver is fatigued at a truck stop, the consequences are worse than a dry van incident. Quality rest infrastructure is a safety imperative, not a perk. LHS flex-space terminals provide professional, secure staging for HAZMAT-loaded trucks."
+        "detail": "35% of Empire's loads are packaged chemicals — including cyanide compounds (ICMI certification). HAZMAT drivers face higher regulatory scrutiny, stricter HOS enforcement, and greater safety stakes. When a HAZMAT driver is fatigued at a truck stop, the consequences are categorically worse than a dry van incident. Quality rest infrastructure is a safety imperative. LHS flex-space terminals provide professional, secure staging for HAZMAT-loaded trucks — aligned with Responsible Care commitments."
       },
       {
-        "pain": "Driver recruiting and retention at family-carrier scale",
+        "pain": "Driver recruiting and retention in a shortage market",
         "confidence": "high",
-        "detail": "Empire has a VP of Driver Operations and runs driver-friendly policies (no-touch freight, signing/referral/safety bonuses, tuition reimbursement, 401k matching). But at 152 trucks they compete against mega-fleets with bigger budgets. Founding membership in LHS becomes a recruiting differentiator: 'Join Empire — your drivers get access to flex-space truck terminal infrastructure that most carriers can't offer.'"
+        "detail": "Ed Gatlin himself named recruiting spend as a major pain: 'We spend a large amount of money, like most truck lines, recruiting.' Empire has a VP of Driver Operations, a Director of Driver Operations, a Director of Recruiting, and a VP of Driver Relations (Todd Gatlin). The organizational investment in driver culture is real — but at 152 trucks they compete against mega-fleets with bigger budgets. LHS founding membership becomes a recruiting differentiator on driveforempire.com and in recruiter pitches: 'Join Empire — your drivers get dedicated terminal infrastructure at the I-40/I-55 interchange.'"
       },
       {
         "pain": "Fleet maintenance away from Memphis terminal",
         "confidence": "medium",
-        "detail": "Empire's Memphis terminal inspects every truck that rolls through (confirmed by driver reviews). But when trucks are on I-40 heading west through West Memphis, maintenance means a truck stop or roadside service. LHS flex-space terminal at the interchange extends Empire's maintenance standard beyond Tulane Road."
+        "detail": "Empire's Memphis terminal inspects every truck that rolls through (confirmed by driver reviews). VP of Maintenance Danny Walston owns this standard. But when trucks are on I-40 heading west through West Memphis, maintenance means a truck stop or roadside service. For a HAZMAT-loaded truck, a breakdown is a safety event, not just a delay. LHS flex-space terminal at the interchange extends the Tulane Road maintenance standard 20 miles west."
+      },
+      {
+        "pain": "Time-sensitive lane reliability for FedEx",
+        "confidence": "high",
+        "detail": "FedEx is a confirmed major client for Empire's air cargo feeder lanes. Those loads have zero tolerance for delay. LHS at the I-40/I-55 interchange — the gateway interchange for westbound Memphis freight — provides staging and relay capability that tightens time-sensitive lane performance. Don Stroud (VP Sales) and John Phillips (COO) will immediately understand this framing."
       },
       {
         "pain": "Mid-size carrier competing for premium HAZMAT customers",
         "confidence": "medium",
-        "detail": "As an American Chemistry Council Responsible Care member, Empire competes for premium chemical shipper accounts against larger HAZMAT carriers. Founding membership in LHS = infrastructure story that demonstrates commitment to driver safety and operational excellence beyond what competitors offer."
+        "detail": "As an ACC Responsible Care member with C-TPAT and ICMI certifications, Empire competes for premium chemical shipper accounts against larger HAZMAT carriers. Founding membership in LHS = infrastructure story that demonstrates commitment to driver safety and operational excellence beyond what competitors offer. Don Stroud can use this in customer conversations."
       }
     ],
-    "competitive_angle": "Empire Express was literally founded to take care of drivers. Big Ed started the company because he wouldn't let loyal drivers down. Forty years later, Tim carries that torch. LHS flex-space truck terminals extend that philosophy from the Memphis terminal to the road. When Empire's HAZMAT drivers are 300 miles down I-40, they deserve better than a truck stop. They deserve infrastructure built with the same 'Treat People Right' philosophy that Empire was founded on. That's what LHS is.",
+    "competitive_angle": "Empire Express was literally founded to take care of drivers. Big Ed started the company because he wouldn't let loyal drivers down. Forty years later, Tim carries that torch — and his family's name is on the VP of Driver Relations title too. LHS flex-space truck terminals extend that philosophy from the Memphis terminal to the road. When Empire's HAZMAT drivers are 300 miles down I-40 hauling cyanide compounds, they deserve better than a truck stop. They deserve infrastructure built with the same 'Treat People Right' philosophy that Empire was founded on. A company with Responsible Care, C-TPAT, and ICMI certifications shouldn't be staging at Pilot. That's what LHS is.",
     "leverage_points": [
       "Memphis HQ — 20 miles from LHS Phase One. Another local champion.",
       "'Treat People Right' founding philosophy = total alignment with LHS driver-first mission.",
-      "Tim Gatlin: 36-year CEO, TTA board member, MBA, co-owner. Direct access via A+ email + two phones.",
-      "HAZMAT specialist (35% of loads) = safety-critical driver rest quality.",
-      "American Chemistry Council Responsible Care = premium safety culture.",
+      "Tim Gatlin: 36-year CEO, TTA board member, MBA, co-owner. Carnival Memphis Chairman's Award recipient.",
+      "HAZMAT specialist with ICMI Certified Signatory status — highest HAZMAT tier for cyanide compounds.",
+      "Responsible Care + C-TPAT + ICMI = elite safety culture that demands matching infrastructure.",
+      "FedEx is a major client — time-sensitive lane performance tied to I-40 interchange.",
       "Port of Memphis member = embedded in Memphis logistics community.",
       "TTA board = Tim knows every carrier CEO in Tennessee personally.",
       "152 trucks = Dedicated Proprietary scale.",
-      "Origin story: Ed Gatlin saved a group of drivers from corporate abandonment. LHS saves drivers from truck stop dependency.",
-      "All 901 area codes = Memphis family business through and through.",
-      "Newer trucks with APUs and inverters = investing in driver quality-of-life already.",
-      "VP of DRIVER Operations (not fleet ops) = driver-centric org structure.",
-      "Paired with Mid South Transport (CAR-0008): two Memphis carriers as founding members = unassailable local validation."
+      "Ed Gatlin origin story: saved a group of drivers from corporate abandonment. LHS saves drivers from truck stop dependency.",
+      "Todd Gatlin (VP Driver Relations) carries the family legacy in his daily title — internal champion candidate.",
+      "Active driver shortage pain — Ed Gatlin confirmed recruiting spend as a major cost. LHS is a recruiting tool.",
+      "driveforempire.com = active investment in driver recruiting brand. LHS membership upgrades that brand.",
+      "VP of DRIVER Operations (not fleet ops) = driver-centric org structure with a full team under him.",
+      "Paired with Mid South Transport (CAR-0008): two Memphis carriers as founding members = unassailable local validation.",
+      "Full VP leadership team now accessible — 10 contacts across CEO, COO, 5 VPs, director, family, fleet manager."
     ],
     "objection_map": [
       {
         "objection": "We're a HAZMAT carrier — does your facility handle HAZMAT?",
-        "response": "LHS flex-space truck terminals are designed for professional carrier operations, including HAZMAT-loaded equipment. Secure parking for loaded trailers, professional maintenance that understands HAZMAT equipment, and staging areas that meet the standards your Responsible Care program requires. Empire's drivers hauling packaged chemicals deserve infrastructure that matches the seriousness of what they're carrying."
+        "response": "LHS flex-space truck terminals are designed for professional carrier operations, including HAZMAT-loaded equipment. Secure parking for loaded trailers, professional maintenance that understands HAZMAT equipment, and staging areas that meet the standards your Responsible Care program, C-TPAT certification, and ICMI signatory status require. Empire's drivers hauling cyanide compounds and agricultural chemicals deserve infrastructure that matches the seriousness of what they're carrying. That's not a truck stop."
       },
       {
         "objection": "Our Memphis terminal already takes care of our drivers",
-        "response": "It does — and that's exactly why you should see what we're building. You inspect every truck that rolls through Tulane Road. But when your driver is 300 miles down I-40 heading west, what does he have? A truck stop. LHS flex-space truck terminal at the I-40/I-55 interchange extends the Tulane Road standard to the first major interchange west of Memphis. 20 miles from your yard."
+        "response": "It does — Danny Walston's maintenance culture and your inspection discipline at Tulane Road are part of why Empire's safety record is what it is. But when your driver is 300 miles down I-40 heading west, what does he have? A truck stop. LHS flex-space truck terminal at the I-40/I-55 interchange — 20 miles from Tulane Road — extends that Tulane Road standard to the first major interchange west of your yard."
       },
       {
         "objection": "We're a $18M carrier — $100K is significant",
-        "response": "80% refundable = $20K net. Flex Proprietary (reserved days) is also available if you want to start smaller. And the Finance Option spreads Dedicated to $10K/month. But here's the real math: what does one HAZMAT driver turnover cost you? $12K-$15K? LHS as a recruiting and retention tool saves that in the first year. And at $13/day, it costs less than a truck stop stay."
+        "response": "80% refundable = $20K net. Flex Proprietary (reserved days) is also available if you want to start smaller. And the Finance Option spreads Dedicated to $10K/month. But here's the real math: what does one HAZMAT driver turnover cost you? Ed Gatlin said recruiting is a major spend. One replacement = $12K-$15K. LHS as a recruiting and retention tool saves that in the first year. And at $13/day, it costs less than a truck stop stay."
       },
       {
         "objection": "Who else is signing up? I know everyone in Memphis trucking.",
         "response": "That's exactly why we want you at the table, Tim. You know the Memphis carriers. You sit on the TTA board. When we bring the Memphis trucking community together as founding members, your voice carries weight. We're building this for the carriers you've been working alongside for 40 years."
+      },
+      {
+        "objection": "Our drivers mostly run East of I-35 and South of I-80 — does this interchange help us?",
+        "response": "The I-40/I-55 interchange in West Memphis is the eastern anchor of your westbound and southbound lanes. Every driver leaving Memphis on I-40 heading toward your chemical plant customers in Arkansas, Louisiana, and Texas passes through that interchange. It's not a detour — it's mile one. And your FedEx air cargo lanes originate from Memphis — staging at the interchange tightens those time windows."
       }
     ]
   },
   "playbook": {
     "first_touch": {
       "channel": "email + phone",
-      "sender": "Jeff to Tim Gatlin (CEO). JJ to Rodney Hudson (VP Driver Ops).",
-      "angle_summary": "This is a Memphis family conversation. Jeff approaches Tim as a peer builder — founder-to-founder, Memphis neighbor-to-neighbor. Reference Ed Gatlin's origin story, the 'Treat People Right' philosophy, and the LHS flex-space truck terminal vision. JJ approaches Rodney Hudson with the driver operations angle: flex-space terminal infrastructure for driver staging, maintenance, and quality-of-life at the I-40 interchange.",
+      "sender": "Jeff to Tim Gatlin (CEO). JJ to Rod Hudson (VP Driver Ops, phone only). JJ emails John Phillips (COO) and Mark Hopper (VP Safety) on Day 2.",
+      "angle_summary": "This is a Memphis family conversation. Jeff approaches Tim as a peer builder — founder-to-founder, Memphis neighbor-to-neighbor. Reference Ed Gatlin's origin story, the 'Treat People Right' philosophy, and the LHS flex-space truck terminal vision. JJ approaches Rod Hudson with the driver operations angle. JJ follows Day 2 with the COO (Phillips), Safety VP (Hopper), and Maintenance VP (Walston) — simultaneous threads before Tim has responded, so when Tim asks his team, they're already in conversation.",
       "tone": "Personal, respectful of legacy, Memphis-proud. Reference Tulane Road, the interchange, the philosophy. This should feel like a conversation between Memphis trucking families, not a corporate sales call."
     },
     "sequence_recommendation": [
       {
         "step": "pre_send",
-        "action": "Source Rodney Hudson email — critical path (VP Driver Ops is the operational anchor). Verify Jonathan Gaines email confidence. Verify Tommy Robinson location (Kansas vs Memphis). Jeff connect with Tim Gatlin on LinkedIn.",
+        "action": "Source Rod Hudson email — critical path (VP Driver Ops, no email in CSV). Source Jera Skaggs email via LinkedIn. Verify John Phillips, Mark Hopper, Danny Walston, Don Stroud emails via LinkedIn (first-name pattern high confidence). Verify Tommy Robinson location (Kansas vs Memphis) via LinkedIn. Prepare HAZMAT facility talking points — Hopper will vet LHS before Tim commits. Coordinate timing with Mid South Transport (CAR-0008) — approach both Memphis carriers same week. Review TTA board calendar — next Memphis regional meeting, Jeff should attend.",
         "owner": "JJ"
       },
       {
         "step": "day1",
-        "action": "Jeff emails Tim Gatlin — founder-to-founder, 'Treat People Right' alignment, flex-space truck terminal vision at the I-40 interchange, 20 miles from Tulane Road. JJ calls Rodney Hudson mobile (no email) — VP Driver Ops, driver infrastructure angle. Phone is the only channel for Hudson right now.",
+        "action": "Jeff emails Tim Gatlin — founder-to-founder, 'Treat People Right' alignment, flex-space truck terminal vision at I-40 interchange, 20 miles from Tulane Road. Reference Ed Gatlin legacy. Reference Carnival Memphis civic recognition. DRAFT-001. JJ calls Rod Hudson mobile — VP Driver Ops, driver infrastructure angle. No email available. Use DRAFT-002 talking points. If Hudson picks up: pitch flex-space terminal, ask for email.",
         "owner": "Jeff + JJ"
       },
       {
         "step": "day2",
-        "action": "JJ emails Jonathan Gaines — logistics/routing angle, flex-space terminal at I-40 interchange. JJ emails Tommy Robinson — fleet maintenance angle. If Hudson email sourced, JJ emails Hudson with driver infrastructure detail.",
+        "action": "JJ emails John Phillips (COO) — operational scale angle, Dedicated Proprietary economics for 152-truck fleet. DRAFT-003. JJ emails Mark Hopper (VP Safety) — HAZMAT, Responsible Care, C-TPAT, ICMI alignment. DRAFT-004. JJ emails Danny Walston (VP Maintenance) — Tulane Road standard extension, maintenance touchpoint at interchange. DRAFT-005. JJ emails Jonathan Gaines (Director Logistics) — routing and staging angle. DRAFT-006. JJ emails Tommy Robinson (Fleet Manager) — fleet maintenance angle. DRAFT-007. If Hudson email sourced: JJ emails Hudson. DRAFT-008.",
         "owner": "JJ"
       },
       {
         "step": "day3",
-        "action": "Jeff calls Tim Gatlin if Day 1 email gets no response. Two phone numbers available. This is a Memphis call — Jeff should be warm and direct.",
-        "owner": "Jeff"
+        "action": "Jeff calls Tim Gatlin if Day 1 email got no response. Primary: +1 901-647-7954. Alt: +1 901-251-1211. Memphis call — warm and direct. Reference Ed Gatlin legacy. JJ emails Don Stroud (VP Sales) — competitive differentiation, FedEx lane performance angle. DRAFT-009. JJ emails Jera Skaggs (Recruiting Director) — driver recruiting differentiator, turnover ROI angle. DRAFT-010. JJ follows up Rod Hudson call if Day 1 connected but no meeting set.",
+        "owner": "Jeff + JJ"
       },
       {
         "step": "day5",
-        "action": "If no response from any channel: Jeff and JJ visit Tulane Road. 20 miles from the LHS site. Bring site plans. This is the same playbook as Mid South Transport — Memphis carriers get in-person attention.",
+        "action": "If no response from any channel: Jeff and JJ drive to 3710 Tulane Road with site plans. 20 miles from LHS site. Same playbook as Mid South Transport — Memphis carriers get in-person attention. If Tim engaged: schedule Carrier Calculator demo and West Memphis site visit. Jeff warm-approaches Todd Gatlin only if Tim is unreachable after Day 5 — family side door, not cold pitch.",
         "owner": "Jeff + JJ"
       },
       {
         "step": "day7plus",
-        "action": "If engaged: offer ride to LHS West Memphis site (20 minutes). Carrier Calculator demo for 152-truck HAZMAT fleet. If Tim engages: propose founding table meeting with other Memphis carriers (Mid South Transport, etc.). If silence: maintain relationship via TTA events. Tim will be at every TTA function — Jeff should be there too.",
+        "action": "If engaged: site visit (20-minute drive from Tulane Road). Carrier Calculator demo for 152-truck HAZMAT fleet. Propose founding table meeting with other Memphis carriers (Mid South Transport, etc.). If Tim asks 'who else?': reference Mid South Transport (CAR-0008) and Memphis carrier founding table concept. If silence: maintain via TTA events. Tim Gatlin is at every TTA Memphis regional meeting — Jeff should be in the room.",
         "owner": "Jeff + JJ"
       }
     ],
-    "escalation_trigger": "At a 152-truck family carrier where the CEO is the co-owner, there's no escalation above Tim Gatlin. If Jeff's Day 1 email and Day 3 call get silence, the next move is an in-person visit or a TTA event connection. Tim Gatlin knows everyone in Memphis trucking — if he hears about LHS from another carrier CEO first, the approach is already validated.",
+    "escalation_trigger": "At a 152-truck family carrier where the CEO is the co-owner, there is no escalation above Tim Gatlin. If Jeff's Day 1 email and Day 3 call get silence, the next move is in-person at Tulane Road or a TTA event. Todd Gatlin (VP Driver Relations, family) is the warm side door if Tim remains unreachable — approach only after Day 5 and only if Jeff leads the conversation.",
     "approach_flags": {
       "jeff_should_enter": true,
-      "jeff_should_enter_rationale": "Tim Gatlin is the owner and 36-year CEO of a family business his father started for drivers. Jeff approaches as a peer. This is Jeff's conversation from Day 1. JJ handles the operational contacts (Hudson, Gaines, Robinson).",
+      "jeff_should_enter_rationale": "Tim Gatlin is the owner and 36-year CEO of a family business his father started for drivers. Jeff approaches as a peer. This is Jeff's conversation from Day 1. JJ handles the operational VP contacts.",
       "video_outreach_appropriate": true,
-      "video_outreach_rationale": "A video from the LHS West Memphis site: 'Tim — this is 20 miles from Tulane Road. Here's what we're building for Memphis carriers like Empire Express.'",
+      "video_outreach_rationale": "A video from the LHS West Memphis site: 'Tim — this is 20 miles from Tulane Road. Here's what we're building for Memphis carriers like Empire Express.' Can also reference the interchange and HAZMAT corridor.",
       "linkedin_tagging_appropriate": false,
       "linkedin_tagging_rationale": "Tim Gatlin has 3 LinkedIn connections. He's not on LinkedIn. Phone and email are the right channels. In-person is best.",
       "in_person_visit_appropriate": true,
@@ -345,9 +631,9 @@
       "site_visit_rationale": "20 minutes from Tulane Road across the bridge. Invite Tim to drive over and walk the site. This is the highest-value action for a local carrier. If Tim sees the site in person, the conversation changes from theoretical to real."
     },
     "tone_profile": {
-      "company_tone": "Family legacy. Driver-first. Memphis proud. 'Treat People Right' is the thread that connects Empire Express to LHS. Never pitch — invite. Reference Ed Gatlin's origin story. Reference the philosophy. Make Tim feel like this was built for carriers like his.",
-      "jj_variant": "Direct, operational, driver-focused. To Hudson: 'Rodney — your title is VP of Driver Operations. Everything we're building is for your drivers. Flex-space truck terminal infrastructure at the I-40/I-55 interchange, 20 miles from your Memphis terminal. Staging, maintenance, truck wash, rest facilities. Can we talk through what this looks like for Empire's fleet?'",
-      "jeff_variant": "Peer founder. Memphis neighbor. 'Tim — your dad started Empire to take care of drivers that a corporation threw away. Forty years later, you're still living that philosophy. We're building flex-space truck terminals with the same conviction: infrastructure that treats drivers the way they deserve. I'd like to show you what we're putting at the I-40/I-55 interchange, 20 miles from Tulane Road. When can we meet?'",
+      "company_tone": "Family legacy. Driver-first. Memphis proud. 'Treat People Right' is the thread that connects Empire Express to LHS. Never pitch — invite. Reference Ed Gatlin's origin story. Reference the philosophy. Make Tim feel like this was built for carriers like his. Acknowledge Carnival Memphis civic recognition — Tim is not just a carrier CEO, he's a Memphis institution.",
+      "jj_variant": "Direct, operational, role-specific. Each VP gets a different angle: Hopper gets safety/HAZMAT, Walston gets maintenance extension, Hudson gets driver culture, Phillips gets operational economics, Stroud gets competitive differentiation, Skaggs gets recruiting ROI. Never the same email twice.",
+      "jeff_variant": "Peer founder. Memphis neighbor. 'Tim — your dad started Empire to take care of drivers that a corporation threw away. Forty years later, you're still living that philosophy — and your family is still running the company that carries his name. We're building flex-space truck terminals with the same conviction: infrastructure that treats drivers the way they deserve. I'd like to show you what we're putting at the I-40/I-55 interchange, 20 miles from Tulane Road. When can we meet?'",
       "model_variant": "carrier"
     }
   },
@@ -355,15 +641,15 @@
     {
       "flag_id": "F-001",
       "type": "missing_email",
-      "who_or_what": "Rodney Hudson (C-0002) — VP Driver Operations",
-      "detail": "No email in CSV. VP-level operational leader who owns driver experience. This is the #1 pre-send flag — Hudson is the anchor operational contact. Phone available (+1 708-299-0417). 708 area code = south Chicago suburbs.",
-      "required_action": "Source email via LinkedIn. If email unavailable, JJ calls Hudson mobile on Day 1 — phone is the primary channel until email is sourced.",
+      "who_or_what": "Rod Hudson (C-0002) — VP Driver Operations",
+      "detail": "No email in CSV. VP-level operational leader who owns driver experience. Phone available (+1 708-299-0417). 708 area code = south Chicago suburbs. Website confirms name is 'Rod' not 'Rodney' — dossier v1 had wrong first name.",
+      "required_action": "Source email via LinkedIn. If email unavailable, JJ calls Hudson mobile on Day 1 — phone is the primary channel until email is sourced. Note name correction: Rod, not Rodney.",
       "status": "open"
     },
     {
       "flag_id": "F-002",
       "type": "unconfirmed_email",
-      "who_or_what": "Jonathan Gaines (C-0003) — Director of Logistics",
+      "who_or_what": "Jonathan Gaines (C-0009) — Director of Logistics",
       "detail": "Lusha CSV did not assign email confidence rating. Email jonathan@empireexpress.com follows first-name pattern (consistent with tim@, tommy@). Likely valid but unconfirmed.",
       "required_action": "Verify via LinkedIn before Day 2 send.",
       "status": "open"
@@ -371,8 +657,8 @@
     {
       "flag_id": "F-003",
       "type": "geographic_anomaly",
-      "who_or_what": "Tommy Robinson (C-0004) — Fleet Manager",
-      "detail": "Lusha lists location as 'Kansas' but phone is 901 area code (Memphis). Empire Express has no Kansas operations — HQ is Memphis only. Lusha location data appears incorrect. Robinson is almost certainly Memphis-based.",
+      "who_or_what": "Tommy Robinson (C-0010) — Fleet Manager",
+      "detail": "Lusha lists location as 'Kansas' but phone is 901 area code (Memphis). Empire Express has no Kansas operations. Lusha location data appears incorrect. Robinson is almost certainly Memphis-based.",
       "required_action": "LinkedIn-verify location. Low risk — proceed with Memphis assumption.",
       "status": "open"
     },
@@ -380,44 +666,102 @@
       "flag_id": "F-004",
       "type": "missing_contact",
       "who_or_what": "Ed Gatlin — Founder / Co-Owner",
-      "detail": "Company website now refers to 'his late father, Ed Gatlin' — Ed appears to have passed away. The updated About page says Tim continues to lead the company. Remove Ed from active contact list. Reference his legacy in Jeff's outreach to Tim.",
-      "required_action": "None. Ed Gatlin is deceased. Reference his legacy respectfully in Jeff's email to Tim.",
+      "detail": "Company website now refers to 'his late father, Ed Gatlin' — Ed has passed away. Remove from active contact list. Reference his legacy respectfully in Jeff's outreach to Tim and Todd.",
+      "required_action": "None. Ed Gatlin is deceased. Reference his legacy respectfully in Jeff's emails.",
       "status": "resolved"
     },
     {
       "flag_id": "F-005",
-      "type": "missing_contact",
-      "who_or_what": "CFO / Controller",
-      "detail": "No finance contact in CSV. At a 152-truck carrier, Tim Gatlin (MBA, former banker) likely handles financial decisions himself or has a controller. Not critical for initial outreach — Tim is the financial decision-maker.",
-      "required_action": "Source if needed during engagement. Not required for Day 1.",
+      "type": "unconfirmed_email",
+      "who_or_what": "John Phillips (C-0003) — President and COO",
+      "detail": "Not in original Lusha CSV. Email john@empireexpress.com follows first-name pattern — high confidence unconfirmed. Phone is main line 901-942-3300 (main number). Confirm via LinkedIn before Day 2 send.",
+      "required_action": "LinkedIn-verify email before Day 2 send.",
       "status": "open"
+    },
+    {
+      "flag_id": "F-006",
+      "type": "unconfirmed_email",
+      "who_or_what": "Mark Hopper (C-0004) — VP Safety and Risk Management",
+      "detail": "Not in original Lusha CSV. Email mark@empireexpress.com follows first-name pattern. No phone found. Confirm via LinkedIn. HIGH PRIORITY — Hopper is the HAZMAT objection pre-emption contact and should be reached before Tim raises the question.",
+      "required_action": "LinkedIn-verify email and source phone before Day 2 send.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-007",
+      "type": "unconfirmed_email",
+      "who_or_what": "Danny Walston (C-0005) — VP Maintenance",
+      "detail": "Not in original Lusha CSV. Email danny@empireexpress.com follows first-name pattern. No phone found. Confirmed via ZoomInfo and website. Verify via LinkedIn before Day 2 send.",
+      "required_action": "LinkedIn-verify email and source phone before Day 2 send.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-008",
+      "type": "unconfirmed_email",
+      "who_or_what": "Don Stroud (C-0006) — VP Sales and Customer Operations",
+      "detail": "Not in original Lusha CSV. Email don@empireexpress.com follows first-name pattern. No phone found. Confirmed via ZoomInfo and website. Verify via LinkedIn before Day 3 send.",
+      "required_action": "LinkedIn-verify email and source phone before Day 3 send.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-009",
+      "type": "missing_email",
+      "who_or_what": "Jera Skaggs (C-0007) — Director of Recruiting",
+      "detail": "Found via ZoomInfo only. No email or phone. Name is unusual — first name may help LinkedIn search. Email may be jera@empireexpress.com.",
+      "required_action": "LinkedIn search for Jera Skaggs Empire Express. Source email and phone before Day 3 send.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-010",
+      "type": "missing_email",
+      "who_or_what": "Todd Gatlin (C-0008) — VP Driver Relations",
+      "detail": "Gatlin family — warm approach only. No email found. Phone numbers from Radaris (901-251-1272, 901-251-1295). Do not cold email. Jeff approaches Todd only after Tim is warm or after Day 5 with no response. Email likely todd@empireexpress.com but do not send without warm context.",
+      "required_action": "Do not cold-approach. Jeff warm-escalates only. If Tim engages: Todd becomes internal champion and Jeff follows up directly.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-011",
+      "type": "intelligence_note",
+      "who_or_what": "HAZMAT facility answer — must have ready",
+      "detail": "Empire holds ACC Responsible Care, C-TPAT, and ICMI Certified Signatory status. They will ask if LHS handles HAZMAT-loaded equipment to their certification standards. This is not a maybe — it is a certainty. Mark Hopper (VP Safety) will vet LHS specifically. Must have clear answers on HAZMAT parking, containment standards, and Responsible Care alignment before any contact is initiated.",
+      "required_action": "Develop HAZMAT facility talking points addressing: (1) secure HAZMAT-loaded trailer parking, (2) containment standards, (3) Responsible Care process compatibility, (4) C-TPAT chain-of-custody compatibility. Have these ready BEFORE Day 1.",
+      "status": "open"
+    },
+    {
+      "flag_id": "F-012",
+      "type": "intelligence_note",
+      "who_or_what": "Empire Logistics / Empire Financial — separate entities",
+      "detail": "Gene Phillips (President of Empire Logistics) and Jackie Buckingham (President of Empire Financial) are listed on the leadership page as separate business units. Do not confuse with carrier operations. Jonathan Gaines (Director of Logistics) is an operational role within the carrier — not affiliated with Empire Logistics subsidiary. Do not pitch Gene Phillips or Jackie Buckingham on LHS — different business lines.",
+      "required_action": "Exclude Gene Phillips and Jackie Buckingham from LHS outreach. Carrier contacts only.",
+      "status": "resolved"
     }
   ],
   "offer_pricing": {
     "recommended_tier": "Dedicated Proprietary",
-    "pricing_notes": "152 trucks is solidly above the 100-truck Dedicated Proprietary threshold. $100K initiation (80% refundable = $20K net) + $13/day. At ~$18M revenue, $100K is ~0.56% of annual revenue — significant but manageable, especially with 80% refundable. Tim Gatlin has an MBA and banking background — lead with the financial structure: refundability, net exposure, daily cost comparison to truck stop spend. Finance Option ($10K/mo × 12) available if cash flow timing matters. Flex Proprietary available if Tim wants to start smaller and scale. For a HAZMAT carrier, frame the safety value: what does one HAZMAT incident cost? One driver turnover? LHS at $13/day is insurance, not expense.",
-    "capex_comparison_notes": "Empire operates one Memphis terminal at Tulane Road. They inspect every truck there. LHS comparison: instead of building or leasing a second facility at the I-40 interchange, access flex-space truck terminal infrastructure for $100K (80% refundable) + $13/day. For Tim's MBA brain: traditional terminal $165K/space new. LHS: $100K, 80% refundable = $20K net = 88% reduction. For a HAZMAT carrier, the safety/compliance infrastructure at LHS supports their Responsible Care commitments."
+    "pricing_notes": "152 trucks is solidly above the 100-truck Dedicated Proprietary threshold. $100K initiation (80% refundable = $20K net) + $13/day. At ~$18M revenue, $100K is ~0.56% of annual revenue — significant but manageable, especially with 80% refundable. Tim Gatlin has an MBA and banking background — lead with the financial structure: refundability, net exposure, daily cost comparison to truck stop spend. Finance Option ($10K/mo × 12) available if cash flow timing matters. Flex Proprietary available if Tim wants to start smaller and scale. For a HAZMAT carrier with C-TPAT and ICMI certifications, frame the safety value: what does one HAZMAT incident cost? One driver turnover? LHS at $13/day is insurance, not expense.",
+    "capex_comparison_notes": "Empire operates one Memphis terminal at Tulane Road. LHS comparison: instead of building or leasing a second facility at the I-40 interchange, access flex-space truck terminal infrastructure for $100K (80% refundable) + $13/day. For Tim's MBA brain: traditional terminal $165K/space new. LHS: $100K, 80% refundable = $20K net = 88% reduction. For a HAZMAT carrier, the safety/compliance infrastructure at LHS supports their Responsible Care, C-TPAT, and ICMI commitments."
   },
   "engagement": {
     "stage": "target",
     "events": [],
     "last_outreach_at": null,
-    "next_step": "Source Rodney Hudson email. Verify Gaines email. Jeff connect with Tim Gatlin (phone/email preferred over LinkedIn — Tim has 3 LinkedIn connections). Day 1: Jeff emails Tim, JJ calls Hudson."
+    "next_step": "Resolve pre_send flags F-001 through F-009 (source emails, verify phones). Prepare HAZMAT facility answer (F-011). Coordinate timing with Mid South Transport (CAR-0008). Day 1: Jeff emails Tim, JJ calls Rod Hudson."
   },
   "chip_assessment": {
     "priority": "high",
     "standout_contact_id": "C-0001",
     "key_risks": [
-      "VP DRIVER OPS HAS NO EMAIL: Rodney Hudson is the anchor operational contact but has no email. Phone is the only channel. JJ must call cold on Day 1 or source the email first.",
-      "SMALL CONTACT LIST: Only 4 contacts. If Tim says no, the path narrows fast. But at a 152-truck family carrier, Tim IS the decision. Everyone else implements.",
-      "HAZMAT FACILITY QUESTION: Empire will ask if LHS handles HAZMAT-loaded equipment. Must have a clear answer on HAZMAT parking, safety protocols, and Responsible Care alignment before approaching.",
-      "REVENUE SCALE: ~$18M revenue means $100K is ~0.56% of annual revenue. Not trivial. The 80% refundable framing and Finance Option are important. Tim's banking background means he'll do the math — have it ready.",
+      "VP DRIVER OPS HAS NO EMAIL: Rod Hudson (C-0002) is the anchor operational contact but has no email. JJ must call cold on Day 1 or source email first. Name corrected to 'Rod' from 'Rodney' per website.",
+      "HAZMAT FACILITY QUESTION IS CERTAIN: Empire holds Responsible Care, C-TPAT, and ICMI Certified Signatory status (cyanide compounds). Mark Hopper (VP Safety) will vet LHS specifically. HAZMAT talking points must be fully developed before any contact — not after Tim raises the question.",
+      "EMPIRE LOGISTICS CONFLICT RISK: Gene Phillips (President Empire Logistics) and Jackie Buckingham (President Empire Financial) appear on the leadership page but run separate subsidiaries. Pitching them would be off-target and confusing. Carrier contacts only.",
+      "REVENUE SCALE: ~$18M revenue means $100K is ~0.56% of annual revenue. The 80% refundable framing and Finance Option are important. Tim's banking background means he'll do the math — have it ready.",
       "'WHO ELSE IS IN?': Tim Gatlin sits on the TTA board. He knows every carrier in Memphis. He will ask who else is committed. Having Mid South Transport (CAR-0008) at the table first — or approaching simultaneously — strengthens both conversations.",
-      "SMALL LINKEDIN: Tim has 3 LinkedIn connections. LinkedIn outreach is ineffective. Phone and in-person are the right channels."
+      "SMALL LINKEDIN: Tim has 3 LinkedIn connections. LinkedIn outreach is ineffective. Phone and in-person are the right channels.",
+      "LANE FOCUS OBJECTION: Empire focuses on lanes East of I-35, South of I-80. Have the I-40 westbound lane argument ready — I-40/I-55 is the eastern anchor of their westbound and southbound network, not a detour.",
+      "TODD GATLIN RISK: Do not cold-approach Todd Gatlin. He is family. Approaching without Tim's warmth could create a defensive dynamic. Jeff owns this relationship — warm only."
     ],
-    "close_path": "1) Source Hudson email. Verify Gaines email. 2) Jeff emails Tim Gatlin Day 1 — founder-to-founder, 'Treat People Right' alignment, flex-space truck terminal vision at the I-40 interchange. JJ calls Hudson Day 1 — driver infrastructure angle. 3) Day 2: JJ emails Gaines and Robinson with operational detail. 4) Day 3: Jeff calls Tim if no email response. 5) Day 5: Jeff and JJ visit Tulane Road. 20 miles. Bring site plans. 6) If Tim engages: Carrier Calculator demo (152-truck HAZMAT fleet economics), site visit invitation (20 minutes to West Memphis). 7) If Tim asks 'who else?': reference Mid South Transport (if engaged) and the Memphis carrier founding table concept. 8) Target: in-person meeting within 10 days. This is a local carrier. Tim lives in Collierville.",
-    "company_intel_summary": "Empire Express is a 152-truck Memphis carrier founded in 1985 by Ed Gatlin to save a group of drivers. Tim Gatlin (Chairman/CEO, MBA, 36-year tenure, TTA board member) runs the company on the philosophy 'Treat People Right.' HAZMAT specialist hauling packaged chemicals (35% of loads), American Chemistry Council Responsible Care member. Headquartered at 3710 Tulane Road, 20 miles from LHS Phase One. This is the values alignment story: a carrier built for drivers, meeting infrastructure built for drivers.",
-    "maverick_relevance": "Empire Express paired with Mid South Transport creates the Memphis founding member narrative. Two Memphis carriers — one a 40-year HAZMAT specialist built to save drivers, the other a 43-year OTR carrier rooted in Memphis — both at the founding table. When Jeff pitches PAM Transport or Covenant Logistics, he says: 'The Memphis carriers are already in. Empire Express and Mid South Transport — both founded on driver-first philosophies, both headquartered within 20 miles of the site — are founding members.' That's not a sales pitch. That's a movement. Additionally: Tim Gatlin sits on the TTA board alongside leaders from FedEx Freight, Intermodal Cartage, JNJ Express, and Wooten Transports. If Tim endorses LHS, the word-of-mouth through TTA is invaluable."
+    "close_path": "1) Resolve pre_send flags — source emails, prepare HAZMAT answer. 2) Jeff emails Tim Day 1 — founder-to-founder, 'Treat People Right' alignment, 20 miles from Tulane Road. JJ calls Rod Hudson Day 1. 3) Day 2: JJ emails John Phillips, Mark Hopper, Danny Walston, Jonathan Gaines, Tommy Robinson — simultaneous VP-level threads. 4) Day 3: Jeff calls Tim if no email response. JJ emails Don Stroud and Jera Skaggs. 5) Day 5: Jeff and JJ visit Tulane Road. 20 miles. Bring site plans. If Tim unreachable, Jeff warm-approaches Todd Gatlin. 6) If Tim engages: Carrier Calculator demo (152-truck HAZMAT fleet economics, FedEx lane performance), site visit invitation (20 minutes to West Memphis). 7) If Tim asks 'who else?': reference Mid South Transport (CAR-0008) and Memphis carrier founding table. 8) Target: in-person meeting within 10 days. Tim lives in Collierville.",
+    "company_intel_summary": "Empire Express is a 152-truck Memphis carrier founded in 1985 by Ed Gatlin to save a group of drivers. Tim Gatlin (Chairman/CEO, MBA, 36-year tenure, TTA board, Carnival Memphis Chairman's Award) runs the company on 'Treat People Right.' HAZMAT specialist hauling packaged chemicals including cyanide compounds — holds ACC Responsible Care, C-TPAT, and ICMI Certified Signatory status. FedEx is a major client for air cargo feeder lanes. Headquartered at 3710 Tulane Road, 20 miles from LHS Phase One. Full VP leadership team now mapped: COO, 5 VPs, recruiting director, Todd Gatlin (family/VP Driver Relations). 10 contacts total. This is the values alignment story.",
+    "maverick_relevance": "Empire Express paired with Mid South Transport creates the Memphis founding member narrative. Two Memphis carriers — one a 40-year HAZMAT specialist built to save drivers, the other a 43-year OTR carrier rooted in Memphis — both at the founding table. When Jeff pitches PAM Transport or Covenant Logistics, he says: 'The Memphis carriers are already in. Empire Express and Mid South Transport — both founded on driver-first philosophies, both headquartered within 20 miles of the site — are founding members.' That's not a sales pitch. That's a movement. Tim Gatlin sits on the TTA board alongside FedEx Freight (Rob Rhea), Intermodal Cartage (Mark George), Wooten Transports (Mike Lathum), and JNJ Express (Lester Lawson). If Tim endorses LHS, the word-of-mouth through TTA hits every major Memphis motor carrier at once."
   },
   "trevor_feedback": {
     "is_skip": false,
@@ -431,41 +775,52 @@
       {
         "day": "pre_send",
         "actions": [
-          "Source Rodney Hudson email via LinkedIn (VP Driver Operations — anchor operational contact, no email in CSV)",
-          "Verify Jonathan Gaines email confidence via LinkedIn (jonathan@empireexpress.com — first-name pattern consistent but unconfirmed)",
+          "Source Rod Hudson email via LinkedIn (VP Driver Operations — no email, phone only, name is Rod not Rodney)",
+          "Verify John Phillips email (john@empireexpress.com — pattern match, unconfirmed)",
+          "Verify Mark Hopper email and source phone (mark@empireexpress.com — HIGH PRIORITY, HAZMAT pre-emption contact)",
+          "Verify Danny Walston email and source phone (danny@empireexpress.com)",
+          "Verify Don Stroud email and source phone (don@empireexpress.com)",
+          "Source Jera Skaggs email via LinkedIn (Director Recruiting — no email or phone in any source)",
+          "Verify Jonathan Gaines email via LinkedIn (jonathan@empireexpress.com — unconfirmed)",
           "Verify Tommy Robinson location via LinkedIn (Lusha says Kansas, 901 area code says Memphis)",
-          "Jeff connect with Tim Gatlin — phone or email preferred (Tim has 3 LinkedIn connections, not active on platform)",
-          "Prepare HAZMAT facility talking points for Tim's inevitable question",
-          "Coordinate timing with Mid South Transport (CAR-0008) outreach — approach both Memphis carriers same week"
+          "Develop HAZMAT facility talking points: secure HAZMAT parking, containment, Responsible Care compatibility, C-TPAT chain-of-custody compatibility — must be ready BEFORE Day 1",
+          "Coordinate timing with Mid South Transport (CAR-0008) outreach — approach both Memphis carriers same week",
+          "Check TTA event calendar for next Memphis regional meeting — Jeff should attend",
+          "Jeff connect with Tim Gatlin — phone or email preferred (Tim has 3 LinkedIn connections, not active on platform)"
         ]
       },
       {
         "day": "day1",
         "actions": [
-          "Jeff sends email to Tim Gatlin (C-0001) — founder-to-founder, 'Treat People Right' alignment, flex-space truck terminal vision, 20 miles from Tulane Road. DRAFT-001.",
-          "JJ calls Rodney Hudson (C-0002) mobile +1 708-299-0417 — VP Driver Operations, driver infrastructure angle. No email available. Phone is primary channel. Use DRAFT-002 as call talking points.",
-          "If Hudson call connects: pitch flex-space terminal driver staging, maintenance, truck wash at I-40/I-55 interchange. Ask for email to send follow-up."
+          "Jeff sends email to Tim Gatlin (C-0001) — founder-to-founder, 'Treat People Right' alignment, Ed Gatlin legacy, Carnival Memphis civic recognition, flex-space truck terminal vision, 20 miles from Tulane Road. DRAFT-001.",
+          "JJ calls Rod Hudson (C-0002) mobile +1 708-299-0417 — VP Driver Operations, driver infrastructure angle. No email available. Use DRAFT-002 as call talking points. If voicemail: leave message referencing Empire Express and the I-40/I-55 interchange. Ask for email in voicemail."
         ]
       },
       {
         "day": "day2",
         "actions": [
-          "JJ emails Jonathan Gaines (C-0003) — logistics/routing angle, flex-space terminal at interchange changes freight staging and relay planning. DRAFT-003.",
-          "JJ emails Tommy Robinson (C-0004) — fleet maintenance angle, flex-space terminal extends Tulane Road maintenance standard to I-40 corridor. DRAFT-004.",
-          "If Hudson email sourced: JJ emails Hudson with driver infrastructure detail. DRAFT-005."
+          "JJ emails John Phillips (C-0003) — COO operational scale angle, Dedicated Proprietary economics. DRAFT-003.",
+          "JJ emails Mark Hopper (C-0004) — HAZMAT, Responsible Care, C-TPAT, ICMI alignment, secure staging for loaded chemical trailers. DRAFT-004.",
+          "JJ emails Danny Walston (C-0005) — Tulane Road inspection standard extension, maintenance touchpoint at I-40 interchange. DRAFT-005.",
+          "JJ emails Jonathan Gaines (C-0009) — logistics routing and staging angle, I-40/I-55 as westbound dispatch anchor. DRAFT-006.",
+          "JJ emails Tommy Robinson (C-0010) — fleet maintenance angle. DRAFT-007.",
+          "If Rod Hudson email sourced: JJ emails Hudson with driver infrastructure detail. DRAFT-008."
         ]
       },
       {
         "day": "day3",
         "actions": [
-          "Jeff calls Tim Gatlin if Day 1 email got no response. Two numbers: +1 901-647-7954 (primary), +1 901-251-1211 (alt). Memphis call — warm and direct.",
-          "JJ follows up Hudson call if Day 1 connected but no meeting set."
+          "Jeff calls Tim Gatlin if Day 1 email got no response. Primary: +1 901-647-7954. Alt: +1 901-251-1211. Memphis call — warm and direct. Reference Ed Gatlin legacy and 'Treat People Right.'",
+          "JJ emails Don Stroud (C-0006) — competitive differentiation, FedEx lane performance, premium chemical shipper account retention. DRAFT-009.",
+          "JJ emails Jera Skaggs (C-0007) — driver recruiting differentiator, turnover ROI angle. DRAFT-010.",
+          "JJ follows up Rod Hudson call if Day 1 connected but no meeting set."
         ]
       },
       {
         "day": "day5",
         "actions": [
-          "If no response from any channel: Jeff and JJ drive to 3710 Tulane Road with site plans. 20 miles from LHS site. Same playbook as Mid South Transport (CAR-0008). Memphis carriers get in-person attention.",
+          "If no response from any channel: Jeff and JJ drive to 3710 Tulane Road with site plans. 20 miles from LHS site. Memphis carriers get in-person attention.",
+          "Jeff warm-approaches Todd Gatlin (C-0008) only if Tim unreachable after Day 5. Family approach — Jeff only, reference Ed Gatlin legacy. Phone: +1 901-251-1272.",
           "If Tim engaged: schedule Carrier Calculator demo and West Memphis site visit."
         ]
       },
@@ -473,8 +828,9 @@
         "day": "day7plus",
         "actions": [
           "If engaged: site visit (20-minute drive from Tulane Road). Carrier Calculator demo for 152-truck HAZMAT fleet. Propose founding table meeting with other Memphis carriers.",
-          "If silence: maintain via TTA events. Tim Gatlin is at every TTA Memphis regional meeting. Jeff should be there.",
-          "If Tim asks 'who else?': reference Mid South Transport (CAR-0008) and Memphis carrier founding table concept."
+          "If Tim asks 'who else?': reference Mid South Transport (CAR-0008) and Memphis carrier founding table concept.",
+          "If silence: maintain via TTA events. Tim Gatlin is at every TTA Memphis regional meeting. Jeff should be in the room.",
+          "If Mark Hopper (VP Safety) is engaged: request internal HAZMAT facility review — make Hopper the LHS safety validator so he becomes an internal champion, not a gatekeeper."
         ]
       }
     ],
@@ -486,10 +842,10 @@
         "sender": "Jeff",
         "day": "day1",
         "subject": "Empire Express and flex-space truck terminals at I-40/I-55",
-        "body": "Tim —\n\nYour dad started Empire Express because he wouldn't let a group of loyal drivers down. Forty years later, you're still running the company on that principle. That's rare, and it's exactly why I wanted to reach out.\n\nWe're building a network of flex-space truck terminals — starting at the I-40/I-55 interchange in West Memphis, about 20 miles from Tulane Road. These aren't truck stops. They're shared-access terminal facilities where carriers like Empire get driver staging, professional maintenance, truck wash, and secure parking — without building or leasing fixed infrastructure.\n\nFor a 152-truck HAZMAT carrier running 48 states out of Memphis, this means your drivers get terminal-quality operations at the busiest freight interchange in the Mid-South. Dedicated Proprietary membership is $100,000 initiation — 80% refundable — plus $13 per day. That's less than most truck stop overnight stays, and your drivers get infrastructure that matches what you've built at Tulane Road.\n\nI'd like to show you the site. It's a 20-minute drive from your yard. When can we meet?\n\nJeff",
-        "hook_summary": "Ed Gatlin origin story + 'Treat People Right' philosophy alignment",
+        "body": "Tim —\n\nYour dad started Empire Express because he wouldn't let a group of loyal drivers down. Forty years later, you're still running the company on that principle — and your family is still running it alongside you. That's rare, and it's exactly why I wanted to reach out.\n\nWe're building a network of flex-space truck terminals — starting at the I-40/I-55 interchange in West Memphis, about 20 miles from Tulane Road. These aren't truck stops. They're shared-access terminal facilities where carriers like Empire get driver staging, professional maintenance, truck wash, and secure parking — without building or leasing fixed infrastructure.\n\nFor a 152-truck HAZMAT carrier running 48 states out of Memphis, this means your drivers get terminal-quality operations at the busiest freight interchange in the Mid-South. Dedicated Proprietary membership is $100,000 initiation — 80% refundable — plus $13 per day. That's less than most truck stop overnight stays, and your drivers get infrastructure that matches what you've built at Tulane Road.\n\nI'd like to show you the site. It's a 20-minute drive from your yard. When can we meet?\n\nJeff",
+        "hook_summary": "Ed Gatlin origin story + family legacy + 'Treat People Right' philosophy alignment",
         "ask": "Site visit — 20-minute drive from Tulane Road",
-        "notes": "Jeff sends Day 1. Founder-to-founder. Reference Tulane Road proximity. Include pricing (carrier model). Tim's MBA/banking background means he'll want numbers immediately. The emotional hook is the legacy; the close is the math."
+        "notes": "Jeff sends Day 1. Founder-to-founder. Reference Tulane Road proximity. Include pricing. Tim's MBA/banking background means he'll want numbers immediately. The emotional hook is the legacy; the close is the math."
       },
       {
         "draft_id": "DRAFT-002",
@@ -498,10 +854,10 @@
         "sender": "JJ",
         "day": "day1",
         "subject": null,
-        "body": "PHONE CALL TALKING POINTS — Rodney Hudson, VP Driver Operations\n\nOpening: 'Rodney — I'm JJ with LineHaul Station. I know your title is VP of Driver Operations at Empire Express, and everything we're building is for the people you take care of every day. Do you have five minutes?'\n\nPitch: 'We're building flex-space truck terminals at key freight interchanges — starting at I-40/I-55 in West Memphis, about 20 miles from your Memphis terminal. These give your drivers terminal-quality staging, maintenance, truck wash, and secure rest — instead of truck stops. For your HAZMAT drivers especially, rest quality isn't a perk. It's a safety requirement.'\n\nAsk: 'Can I send you a one-pager and set up 20 minutes to walk you through what this looks like for Empire's 152-truck fleet?'\n\nIf he asks about pricing: '$100,000 initiation, 80% refundable, plus $13 a day per truck. That's Dedicated Proprietary — founding member access. Less than a truck stop overnight.'\n\nIf he asks who else: 'We're working with Memphis carriers right now. I'd rather show you the specifics in person — the site is 20 minutes from Tulane Road.'\n\nGet his email for follow-up.",
+        "body": "PHONE CALL TALKING POINTS — Rod Hudson, VP Driver Operations\n\nOpening: 'Rod — I'm JJ with LineHaul Station. I know your title is VP of Driver Operations at Empire Express, and everything we're building is for the people you take care of every day. Do you have five minutes?'\n\nPitch: 'We're building flex-space truck terminals at key freight interchanges — starting at I-40/I-55 in West Memphis, about 20 miles from your Memphis terminal. These give your drivers terminal-quality staging, maintenance, truck wash, and secure rest — instead of truck stops. For your HAZMAT drivers especially, rest quality isn't a perk. It's a safety requirement.'\n\nAsk: 'Can I send you a one-pager and set up 20 minutes to walk you through what this looks like for Empire's 152-truck fleet?'\n\nIf he asks about pricing: '$100,000 initiation, 80% refundable, plus $13 a day per truck. Founding member access. Less than a truck stop overnight.'\n\nIf he asks who else: 'We're working with Memphis carriers right now. I'd rather show you the specifics in person — the site is 20 minutes from Tulane Road.'\n\nGet his email for follow-up.",
         "hook_summary": "VP of Driver Operations — everything LHS builds is for the people he manages",
         "ask": "Email address + 20-minute meeting",
-        "notes": "PHONE ONLY — Hudson has no email in CSV. JJ calls mobile +1 708-299-0417 Day 1. 708 = south Chicago suburbs. Hudson may be a relocate. If voicemail: leave message referencing Empire Express by name and the I-40/I-55 interchange. Try again Day 3."
+        "notes": "PHONE ONLY — Rod has no email. JJ calls mobile +1 708-299-0417 Day 1. If voicemail: leave message referencing Empire Express by name and the I-40/I-55 interchange. Try again Day 3."
       },
       {
         "draft_id": "DRAFT-003",
@@ -509,11 +865,11 @@
         "model": "carrier",
         "sender": "JJ",
         "day": "day2",
-        "subject": "Flex-space terminal at the I-40/I-55 interchange — Empire Express logistics",
-        "body": "Jonathan —\n\nI'm reaching out because Empire Express runs freight through the I-40/I-55 interchange every day — and we're building something there that changes how Memphis carriers manage that corridor.\n\nLineHaul Station is a flex-space truck terminal at the West Memphis interchange. For your logistics operation, it means relay staging, driver swap points, and equipment positioning right at the junction of I-40 and I-55 — 20 miles from Tulane Road. Instead of routing trucks to truck stops or back to Memphis for staging, you have terminal-quality infrastructure at the interchange itself.\n\nFor a carrier hauling HAZMAT loads across 48 states, staging flexibility at the Mid-South's busiest interchange tightens your routing options considerably.\n\nWorth 20 minutes to walk through? I can show you what it looks like for Empire's lanes.\n\nJJ",
-        "hook_summary": "Logistics/routing impact — staging and relay at the interchange",
-        "ask": "20 minutes to review routing impact",
-        "notes": "JJ sends Day 2. Logistics angle — different from Jeff's CEO pitch and JJ's driver ops pitch to Hudson. Jonathan manages freight flow. Reference routing, staging, relay. Pending email verification."
+        "subject": "Operational infrastructure for Empire Express at I-40/I-55",
+        "body": "John —\n\nI'm reaching out because Empire Express runs 152 trucks and 13 million miles a year out of Memphis — and we're building something at the I-40/I-55 interchange that changes what operational infrastructure looks like for a fleet at your scale.\n\nLineHaul Station is a flex-space truck terminal at the West Memphis interchange, 20 miles from Tulane Road. No construction, no lease — Dedicated Proprietary membership gives Empire professional maintenance, driver staging, truck wash, and secure HAZMAT parking at the first major interchange west of your yard. For a COO running 48-state operations out of a single terminal, that's a second quality touchpoint without the capital.\n\nDedicated Proprietary: $100,000 initiation (80% refundable) + $13/day. Worth 20 minutes to walk through how this works for Empire's operation?\n\nJJ",
+        "hook_summary": "COO operational infrastructure angle — 152 trucks, 13M miles, single terminal extending west",
+        "ask": "20-minute meeting",
+        "notes": "JJ sends Day 2. COO angle — operational scale, no-CapEx infrastructure. Let Jeff's Day 1 Tim email land before this goes out."
       },
       {
         "draft_id": "DRAFT-004",
@@ -521,26 +877,86 @@
         "model": "carrier",
         "sender": "JJ",
         "day": "day2",
-        "subject": "Fleet maintenance at I-40/I-55 — for Empire's 152 trucks",
-        "body": "Tommy —\n\nI know Empire inspects every truck that rolls through the Memphis terminal. That kind of maintenance discipline is what keeps a HAZMAT fleet running safely.\n\nWe're building flex-space truck terminal infrastructure at the I-40/I-55 interchange in West Memphis — about 20 miles from Tulane Road. For your fleet, that means professional maintenance, truck wash, and secure equipment parking at the first major interchange west of Memphis. When your trucks are heading down I-40 and need service, the option is no longer a truck stop or turning around.\n\nFor 152 trucks running 48 states, having a second maintenance-quality facility 20 miles from your yard — without building or leasing it — changes the equation.\n\nCan we talk through what this looks like for Empire's fleet operations?\n\nJJ",
-        "hook_summary": "Fleet maintenance extension — Tulane Road standard at the interchange",
-        "ask": "Call to discuss fleet operations impact",
-        "notes": "JJ sends Day 2. Fleet Manager angle — equipment, maintenance, truck wash. Reference their known maintenance discipline (every truck inspected at Memphis terminal per driver reviews). Different from CEO pitch, driver ops pitch, and logistics pitch."
+        "subject": "Responsible Care infrastructure — Empire Express at the I-40 interchange",
+        "body": "Mark —\n\nEmpire holds ACC Responsible Care certification, C-TPAT status, and ICMI Certified Signatory designation. That level of safety rigor is rare — and it deserves matching infrastructure when your drivers are away from Tulane Road.\n\nWe're building flex-space truck terminals at the I-40/I-55 interchange in West Memphis — 20 miles from your Memphis terminal. For Empire's HAZMAT operation, that means secure parking for loaded chemical trailers, professional maintenance for HAZMAT-equipped trucks, and staging that meets the standards your certifications require. When your drivers are hauling packaged chemicals and cyanide compounds down I-40, a truck stop is not Responsible Care.\n\nI'd like to walk you through how LHS aligns with Empire's safety management system. Can we get 20 minutes?\n\nJJ",
+        "hook_summary": "HAZMAT certifications (Responsible Care + C-TPAT + ICMI) demand matching infrastructure away from Tulane Road",
+        "ask": "20-minute meeting — position as LHS safety review, not a pitch",
+        "notes": "JJ sends Day 2. CRITICAL contact — Hopper is the HAZMAT objection pre-emption. If Hopper is engaged before Tim raises the HAZMAT question, JJ can tell Tim: 'Your VP of Safety is already reviewing LHS alignment with your Responsible Care commitments.' Have full HAZMAT facility talking points ready."
       },
       {
         "draft_id": "DRAFT-005",
+        "contact_id": "C-0005",
+        "model": "carrier",
+        "sender": "JJ",
+        "day": "day2",
+        "subject": "Fleet maintenance at I-40/I-55 — extending the Tulane Road standard",
+        "body": "Danny —\n\nI know Empire inspects every truck that rolls through the Memphis terminal. That maintenance discipline is a big part of why a 152-truck HAZMAT fleet runs 13 million miles a year safely.\n\nWe're building flex-space truck terminal infrastructure at the I-40/I-55 interchange in West Memphis — 20 miles from Tulane Road. For your fleet, that means professional maintenance, truck wash, and secure equipment parking at the first major interchange west of your yard. When your trucks are heading down I-40 and need service, the option is no longer a truck stop or turning back to Memphis.\n\nFor a HAZMAT fleet where a breakdown isn't just a delay — it's a safety event — having a maintenance-quality touchpoint 20 miles from your terminal changes the road call math.\n\nCan we talk through what this looks like for Empire's maintenance operation?\n\nJJ",
+        "hook_summary": "Tulane Road inspection discipline + Walston's maintenance standard extended to I-40 corridor",
+        "ask": "Call to discuss fleet maintenance impact",
+        "notes": "JJ sends Day 2. Reference their known maintenance culture — Walston will know you've done your homework. HAZMAT road call angle is the differentiator vs. a generic maintenance pitch."
+      },
+      {
+        "draft_id": "DRAFT-006",
+        "contact_id": "C-0009",
+        "model": "carrier",
+        "sender": "JJ",
+        "day": "day2",
+        "subject": "Flex-space terminal at the I-40/I-55 interchange — Empire Express logistics",
+        "body": "Jonathan —\n\nI'm reaching out because Empire Express runs freight through the I-40/I-55 interchange every day — and we're building something there that changes how Memphis carriers manage that corridor.\n\nLineHaul Station is a flex-space truck terminal at the West Memphis interchange. For your logistics operation, it means relay staging, driver swap points, and equipment positioning right at the junction of I-40 and I-55 — 20 miles from Tulane Road. Instead of routing trucks to truck stops or back to Memphis for staging, you have terminal-quality infrastructure at the interchange itself.\n\nFor a carrier running HAZMAT loads to chemical customers across 48 states, staging flexibility at the Mid-South's busiest interchange tightens your routing options considerably.\n\nWorth 20 minutes to walk through what it looks like for Empire's lanes?\n\nJJ",
+        "hook_summary": "Logistics/routing impact — staging and relay at the interchange",
+        "ask": "20 minutes to review routing impact",
+        "notes": "JJ sends Day 2. Logistics angle — different from COO, Safety, and Maintenance pitches. Jonathan manages freight flow. Pending email verification."
+      },
+      {
+        "draft_id": "DRAFT-007",
+        "contact_id": "C-0010",
+        "model": "carrier",
+        "sender": "JJ",
+        "day": "day2",
+        "subject": "Fleet maintenance at I-40/I-55 — for Empire's 152 trucks",
+        "body": "Tommy —\n\nI know Empire inspects every truck that rolls through the Memphis terminal. That kind of maintenance discipline is what keeps a HAZMAT fleet running safely.\n\nWe're building flex-space truck terminal infrastructure at the I-40/I-55 interchange in West Memphis — about 20 miles from Tulane Road. For your fleet, that means professional maintenance, truck wash, and secure equipment parking at the first major interchange west of Memphis. When your trucks are heading down I-40 and need service, the option is no longer a truck stop or turning around.\n\nFor 152 trucks running 48 states, having a maintenance-quality facility 20 miles from your yard — without building or leasing it — changes the equation.\n\nCan we talk through what this looks like for Empire's fleet operations?\n\nJJ",
+        "hook_summary": "Fleet maintenance extension — Tulane Road standard at the interchange",
+        "ask": "Call to discuss fleet operations impact",
+        "notes": "JJ sends Day 2. Fleet Manager angle — parallel to Danny Walston email but at the implementation level. Tommy reports to Danny. If both respond, JJ references the other conversation to build momentum."
+      },
+      {
+        "draft_id": "DRAFT-008",
         "contact_id": "C-0002",
         "model": "carrier",
         "sender": "JJ",
         "day": "day2",
         "subject": "Following up — flex-space truck terminal for Empire's drivers",
-        "body": "Rodney —\n\nFollowing up on our conversation. Here's the overview of what we're building at the I-40/I-55 interchange for carriers like Empire Express.\n\nLineHaul Station is a flex-space truck terminal — not a truck stop. Your drivers get professional staging, maintenance, truck wash, secure parking, and quality rest facilities at the busiest freight interchange in the Mid-South. For Empire's HAZMAT drivers, this is especially relevant: quality rest and safe staging for loaded chemical trailers isn't optional.\n\nDedicated Proprietary membership: $100,000 initiation (80% refundable) + $13 per day. That's terminal-quality infrastructure for less than a truck stop overnight. The site is 20 miles from Tulane Road.\n\nWhen can we get 20 minutes to walk through how this works for your driver operations?\n\nJJ",
+        "body": "Rod —\n\nFollowing up on our conversation. Here's the overview of what we're building at the I-40/I-55 interchange for carriers like Empire Express.\n\nLineHaul Station is a flex-space truck terminal — not a truck stop. Your drivers get professional staging, maintenance, truck wash, secure parking, and quality rest facilities at the busiest freight interchange in the Mid-South. For Empire's HAZMAT drivers, this is especially relevant: quality rest and safe staging for loaded chemical trailers isn't optional.\n\nDedicated Proprietary membership: $100,000 initiation (80% refundable) + $13 per day. Terminal-quality infrastructure for less than a truck stop overnight. The site is 20 miles from Tulane Road.\n\nWhen can we get 20 minutes to walk through how this works for your driver operations?\n\nJJ",
         "hook_summary": "Follow-up to Day 1 phone call — driver infrastructure detail with pricing",
         "ask": "20-minute meeting",
-        "notes": "CONTINGENT DRAFT — only send if Hudson email is sourced during Day 1 call or pre-send LinkedIn outreach. If no email by Day 2, JJ calls again."
+        "notes": "CONTINGENT DRAFT — only send if Rod Hudson email is sourced during Day 1 call or pre-send outreach. If no email by Day 2, JJ calls again on Day 3."
       },
       {
-        "draft_id": "DRAFT-006",
+        "draft_id": "DRAFT-009",
+        "contact_id": "C-0006",
+        "model": "carrier",
+        "sender": "JJ",
+        "day": "day3",
+        "subject": "Competitive infrastructure for Empire's premium accounts",
+        "body": "Don —\n\nWhen you're pitching premium chemical shippers on why Empire over a larger carrier, you lead with safety culture, Responsible Care certification, and service reliability. LHS founding membership gives you a new differentiator to add: Empire drivers have dedicated terminal infrastructure at the I-40/I-55 interchange — not truck stops.\n\nFor your FedEx air cargo feeder lanes, LHS at the interchange is a staging point that tightens time windows and reduces variance. For your chemical shipper accounts, it's an infrastructure story that most carriers can't match.\n\nLineHaul Station is a flex-space truck terminal 20 miles from Tulane Road. Dedicated Proprietary access: $100,000 initiation (80% refundable) + $13/day.\n\nWorth 20 minutes to walk through what this looks like from a customer operations angle?\n\nJJ",
+        "hook_summary": "Competitive differentiation for premium chemical shippers + FedEx lane reliability",
+        "ask": "20-minute meeting",
+        "notes": "JJ sends Day 3. Sales/revenue angle. Reference FedEx relationship specifically — show you know Empire's customer base. Don Stroud will respond to differentiation framing more than driver welfare framing."
+      },
+      {
+        "draft_id": "DRAFT-010",
+        "contact_id": "C-0007",
+        "model": "carrier",
+        "sender": "JJ",
+        "day": "day3",
+        "subject": "A recruiting tool for Empire's driver pipeline",
+        "body": "Jera —\n\nEmpire was built to attract drivers who want to be treated right. That story gets drivers in the door. LHS founding membership gives you something to put on the job posting that most carriers can't offer: Empire drivers get dedicated terminal infrastructure at the I-40/I-55 interchange — staging, maintenance, truck wash, secure rest facilities — not truck stops.\n\nFor CDL-A HAZMAT-certified drivers who have options, that's a real differentiator. And for retention: LHS at $13/day costs less than the first week of a driver replacement.\n\nWorth a 20-minute conversation about what this looks like for your recruiting materials?\n\nJJ",
+        "hook_summary": "Driver recruiting differentiator + retention ROI vs. turnover cost",
+        "ask": "20-minute conversation",
+        "notes": "JJ sends Day 3. Recruiting-specific framing — reference driveforempire.com as evidence of Empire's recruiting investment. ROI angle: HAZMAT driver turnover costs $12K-$15K. LHS at $13/day is retention insurance."
+      },
+      {
+        "draft_id": "DRAFT-011",
         "contact_id": "C-0001",
         "model": "carrier",
         "sender": "Jeff",
@@ -556,19 +972,24 @@
   },
   "flags": [],
   "next_actions": [
-    "Source Rodney Hudson email (VP Driver Operations) — #1 priority",
-    "Verify Jonathan Gaines email via LinkedIn",
-    "Verify Tommy Robinson location (Kansas vs Memphis) via LinkedIn",
-    "Jeff connect with Tim Gatlin — phone/email preferred (Tim has 3 LinkedIn connections)",
-    "Prepare HAZMAT facility answer for Tim's objection",
-    "Coordinate timing with Mid South Transport (CAR-0008) outreach — approach both Memphis carriers in same week for mutual reinforcement",
-    "Check TTA event calendar for next Memphis regional meeting — Jeff should attend",
-    "Once flags resolved: Day 1 — Jeff emails Tim, JJ calls Hudson"
+    "Resolve F-001: Source Rod Hudson email via LinkedIn (name is Rod, not Rodney)",
+    "Resolve F-005: Verify John Phillips email john@empireexpress.com",
+    "Resolve F-006: Verify Mark Hopper email and phone — HIGHEST PRIORITY (HAZMAT pre-emption contact)",
+    "Resolve F-007: Verify Danny Walston email and source phone",
+    "Resolve F-008: Verify Don Stroud email and source phone",
+    "Resolve F-009: Source Jera Skaggs email via LinkedIn",
+    "Resolve F-011: Develop HAZMAT facility talking points (Responsible Care, C-TPAT, ICMI compatibility) before Day 1",
+    "Coordinate timing with Mid South Transport (CAR-0008) — approach both Memphis carriers same week",
+    "Check TTA event calendar for next Memphis regional meeting",
+    "Jeff connect with Tim Gatlin — phone or email preferred (Tim has 3 LinkedIn connections, not active on platform)",
+    "Once flags resolved: Day 1 — Jeff emails Tim, JJ calls Rod Hudson"
   ],
   "rep_notes": [],
-  "notes": [],
+  "notes": [
+    "Dossier v2 (2026-03-11): Full leadership team discovered via empireexpress.com website scrape. Original Lusha CSV had 4 contacts; 10 total contacts now mapped including President/COO (John Phillips), VP Safety (Mark Hopper), VP Maintenance (Danny Walston), VP Sales (Don Stroud), Director Recruiting (Jera Skaggs), and family member Todd Gatlin (VP Driver Relations). FedEx confirmed as major client. C-TPAT and ICMI Certified Signatory certifications added — upgrade from Responsible Care/SmartWay only. Ed Gatlin confirmed deceased per current website language. Rod Hudson name corrected from 'Rodney' to 'Rod' per website. Empire Logistics (Gene Phillips) and Empire Financial (Jackie Buckingham) flagged as separate subsidiaries — excluded from LHS outreach. Fit score upgraded from 9.0 to 9.2 on contact quality improvement."
+  ],
   "timestamps": {
     "created_at": "2026-03-04T00:00:00Z",
-    "updated_at": "2026-03-04T00:00:00Z"
+    "updated_at": "2026-03-11T00:00:00Z"
   }
 }
