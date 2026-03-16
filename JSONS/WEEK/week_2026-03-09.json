@@ -22,7 +22,8 @@
       "active_ad_count": 16,
       "total_ad_count": 21,
       "running_total_spend": 11830.1,
-      "alltime_cost_per_member": 9.03
+      "alltime_cost_per_member": 8.67,
+      "running_total_members": null
     },
     "ads": [
       {
@@ -597,8 +598,8 @@
   "membership": {
     "new_members": 77,
     "cost_per_member": 9.71,
-    "running_total_members": 1310,
-    "progress_to_500k": 0.00262
+    "running_total_members": 1364,
+    "progress_to_500k": 0.002728
   },
   "content": {
     "posts_published": 0,
