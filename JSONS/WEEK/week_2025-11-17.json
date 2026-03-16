@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "week_start": "2025-11-17",
+    "week_end": "2025-11-23",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "Trucksgiving Campaign Launch",
+    "notes": "Trucksgiving campaign launches.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 410.91,
+      "total_link_clicks": 2100,
+      "total_impressions": 21000,
+      "total_reach": 16800,
+      "total_results": 2100,
+      "total_landing_page_views": 1785,
+      "avg_cpc": 0.1957,
+      "avg_cpm": 19.5671,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 2348.07,
+      "alltime_cost_per_member": 86.97
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 410.91,
+        "link_clicks": 2100,
+        "impressions": 21000,
+        "reach": 16800,
+        "results": 2100,
+        "landing_page_views": 1785,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 2,
+    "cost_per_member": 205.46,
+    "running_total_members": 27,
+    "progress_to_500k": 0.0054
+  },
+  "content": {
+    "posts_published": 3,
+    "posts": [
+      {
+        "publish_date": "2025-11-21",
+        "publish_time": "13:40",
+        "title": "Boots Walker in \"New Truck Parking?!\"",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1908185273449775/",
+        "duration_sec": 29,
+        "impressions": 23877,
+        "interactions": 68,
+        "reactions": 62,
+        "comments": 0,
+        "shares": 9,
+        "saves": 1,
+        "net_follows": 2,
+        "viewers": 7591,
+        "views": 6617,
+        "avg_seconds_viewed": 11.077
+      },
+      {
+        "publish_date": "2025-11-18",
+        "publish_time": "12:15",
+        "title": "\"Truck Friendly Route\" indeed.",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1364524148597036/",
+        "duration_sec": 19,
+        "impressions": 3469,
+        "interactions": 17,
+        "reactions": 17,
+        "comments": 0,
+        "shares": 2,
+        "saves": 0,
+        "net_follows": 2,
+        "viewers": 3104,
+        "views": 3845,
+        "avg_seconds_viewed": 10.66
+      },
+      {
+        "publish_date": "2025-11-17",
+        "publish_time": "08:50",
+        "title": "It\u2019s not just Ford that is seeing the shortage, it\u2019s diesel repair shops across the country. Could be an interesting  opportunity for truckers that know engines and no longer want to be away from home? Your thoughts?",
+        "post_type": "Link",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid037T1fzfdjjj4q8L1Nwr27oXkwAakUDrgnCb7t6YnhogTB6c5AQZFJHYm1zCDmQSjVl",
+        "duration_sec": 0,
+        "impressions": 150,
+        "interactions": 0,
+        "reactions": 0,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 115,
+        "views": 356,
+        "avg_seconds_viewed": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "week_start": "2025-11-10",
+    "week_end": "2025-11-16",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "",
+    "notes": "Trucksgiving prep. Ang comes on board.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 352.21,
+      "total_link_clicks": 1800,
+      "total_impressions": 18000,
+      "total_reach": 14400,
+      "total_results": 1800,
+      "total_landing_page_views": 1530,
+      "avg_cpc": 0.1957,
+      "avg_cpm": 19.5672,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 1937.16,
+      "alltime_cost_per_member": 77.49
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 352.21,
+        "link_clicks": 1800,
+        "impressions": 18000,
+        "reach": 14400,
+        "results": 1800,
+        "landing_page_views": 1530,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 0,
+    "cost_per_member": null,
+    "running_total_members": 25,
+    "progress_to_500k": 0.005
+  },
+  "content": {
+    "posts_published": 6,
+    "posts": [
+      {
+        "publish_date": "2025-11-14",
+        "publish_time": "12:39",
+        "title": "Look Out!!! It's Boots Walker in \"Flip Flops?\".",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1154319806838217/",
+        "duration_sec": 36,
+        "impressions": 16475,
+        "interactions": 65,
+        "reactions": 56,
+        "comments": 7,
+        "shares": 5,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 3730,
+        "views": 2803,
+        "avg_seconds_viewed": 13.92
+      },
+      {
+        "publish_date": "2025-11-14",
+        "publish_time": "12:36",
+        "title": "Look Out!!! It's Boots Walker.",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/857137263657003/",
+        "duration_sec": 36,
+        "impressions": 17112,
+        "interactions": 52,
+        "reactions": 50,
+        "comments": 0,
+        "shares": 6,
+        "saves": 1,
+        "net_follows": 2,
+        "viewers": 8625,
+        "views": 5902,
+        "avg_seconds_viewed": 7.469
+      },
+      {
+        "publish_date": "2025-11-14",
+        "publish_time": "11:43",
+        "title": "Look Out! It's Boots Walker, a hero to truckers everywhere.",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1893489261581373/",
+        "duration_sec": 26,
+        "impressions": 78854,
+        "interactions": 286,
+        "reactions": 284,
+        "comments": 5,
+        "shares": 25,
+        "saves": 4,
+        "net_follows": 17,
+        "viewers": 43792,
+        "views": 60733,
+        "avg_seconds_viewed": 7.451
+      },
+      {
+        "publish_date": "2025-11-14",
+        "publish_time": "10:38",
+        "title": "LineHaul Station is building something uniquely special for all of America\u2019s truck drivers.",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1904981080095901/",
+        "duration_sec": 308,
+        "impressions": 12420,
+        "interactions": 35,
+        "reactions": 29,
+        "comments": 1,
+        "shares": 3,
+        "saves": 3,
+        "net_follows": 4,
+        "viewers": 8783,
+        "views": 9511,
+        "avg_seconds_viewed": 10.188
+      },
+      {
+        "publish_date": "2025-11-14",
+        "publish_time": "10:13",
+        "title": "We think truck drivers are getting the short end of the stick.",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1838095977072247/",
+        "duration_sec": 42,
+        "impressions": 3195,
+        "interactions": 8,
+        "reactions": 8,
+        "comments": 0,
+        "shares": 1,
+        "saves": 1,
+        "net_follows": 0,
+        "viewers": 1985,
+        "views": 3019,
+        "avg_seconds_viewed": 9.363
+      },
+      {
+        "publish_date": "2025-11-13",
+        "publish_time": "15:33",
+        "title": "Truck drivers always seem to get the short end of the stick, and we\u2019d like to do something about it.  It\u2019s one reason why we\u2019re building LineHaul Station as the industry\u2019s first member-only, flex-space truck terminal with our signature private driver\u2019s club.  The experience we\u2019re creating is incompa",
+        "post_type": "Link",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid0gjxYJUuF722u96SWWA6bpHQYdLk4WFLybgDKQxXcdxuTFJspBU82G8noEZx2AN35l",
+        "duration_sec": 0,
+        "impressions": 1957,
+        "interactions": 12,
+        "reactions": 12,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 1588,
+        "views": 2237,
+        "avg_seconds_viewed": 0.0
+      }
+    ]
+  }
+}

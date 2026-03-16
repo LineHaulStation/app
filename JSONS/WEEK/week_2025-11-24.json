@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "week_start": "2025-11-24",
+    "week_end": "2025-11-30",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "Trucksgiving Week",
+    "notes": "Trucksgiving week push.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 469.61,
+      "total_link_clicks": 2400,
+      "total_impressions": 24000,
+      "total_reach": 19200,
+      "total_results": 2400,
+      "total_landing_page_views": 2040,
+      "avg_cpc": 0.1957,
+      "avg_cpm": 19.5671,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 2817.68,
+      "alltime_cost_per_member": 100.63
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 469.61,
+        "link_clicks": 2400,
+        "impressions": 24000,
+        "reach": 19200,
+        "results": 2400,
+        "landing_page_views": 2040,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 1,
+    "cost_per_member": 469.61,
+    "running_total_members": 28,
+    "progress_to_500k": 0.0056
+  },
+  "content": {
+    "posts_published": 6,
+    "posts": [
+      {
+        "publish_date": "2025-11-27",
+        "publish_time": "06:00",
+        "title": "On this Trucksgiving, we\u2019re giving thanks to every driver who keeps America running strong.  Your hard work is seen, valued, and appreciated \u2014 today and every day. \ud83d\ude4c\ud83d\ude9a\ud83e\udd83  #linehaulstation #truckerlife #readytoroll #trending",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1550818722936899/",
+        "duration_sec": 35,
+        "impressions": 48056,
+        "interactions": 729,
+        "reactions": 669,
+        "comments": 23,
+        "shares": 70,
+        "saves": 4,
+        "net_follows": 5,
+        "viewers": 31639,
+        "views": 15580,
+        "avg_seconds_viewed": 8.033
+      },
+      {
+        "publish_date": "2025-11-27",
+        "publish_time": "05:00",
+        "title": "Trucksgiving: when the loads are light, the plates are full, and the gratitude is heavy.   #linehaulstation #truckerlife #trending #readytoroll",
+        "post_type": "Link",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid02cVMtTdoyQtRJEHZVCMDsEHNqM4oczM3TXKdYwCUBsyKSdnBmYEnpXpmrqa8ucd5Al",
+        "duration_sec": 0,
+        "impressions": 6096,
+        "interactions": 73,
+        "reactions": 64,
+        "comments": 0,
+        "shares": 9,
+        "saves": 1,
+        "net_follows": 0,
+        "viewers": 6707,
+        "views": 7730,
+        "avg_seconds_viewed": 0.0
+      },
+      {
+        "publish_date": "2025-11-26",
+        "publish_time": "09:48",
+        "title": "I was thinking about shipper detention the other day and wondered, how would executives of those same companies that make you wait hours to get loaded, react if they went to an important business meeting and were asked to sit and wait for hours in the waiting room until the other guests arrived? I b",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1349907309479655/",
+        "duration_sec": 25,
+        "impressions": 693,
+        "interactions": 16,
+        "reactions": 13,
+        "comments": 5,
+        "shares": 1,
+        "saves": 0,
+        "net_follows": 1,
+        "viewers": 567,
+        "views": 769,
+        "avg_seconds_viewed": 7.677
+      },
+      {
+        "publish_date": "2025-11-25",
+        "publish_time": "05:13",
+        "title": "LineHaul Station's Trucker Question for the Day:  From you experience, what are the biggest factors that make drivers leave a carrier for good?  #linehaulstation #truckerlife #trending #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1742704446413659/",
+        "duration_sec": 8,
+        "impressions": 287,
+        "interactions": 5,
+        "reactions": 2,
+        "comments": 1,
+        "shares": 2,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 194,
+        "views": 387,
+        "avg_seconds_viewed": 6.432
+      },
+      {
+        "publish_date": "2025-11-24",
+        "publish_time": "13:21",
+        "title": "LineHaul Station's Trucker Question of the Day:  What do you think about the US Courts attempting to block the DOT's effort to purge non-domiciled truck drivers? Are they right or wrong?  Comment your thoughts below.  #linehaulstation #truckerlife #trending #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/2368281096939481/",
+        "duration_sec": 11,
+        "impressions": 290,
+        "interactions": 9,
+        "reactions": 4,
+        "comments": 9,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 1,
+        "viewers": 222,
+        "views": 417,
+        "avg_seconds_viewed": 7.62
+      },
+      {
+        "publish_date": "2025-11-24",
+        "publish_time": "13:16",
+        "title": "From secured terminals to lounges, gaming rooms, and outdoor spaces \u2014 LineHaul Station is redefining what a driver\u2019s life on the road looks like.  Exclusive. Premium. Member-Only. Welcome to the Club.  Drivers register for free: www.linehaulstation.com/driver-register  #linehaulstation #truckerlife",
+        "post_type": "Photo",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid02WRbUSqou8noyFkZzxd4goPPaBif2Hsrft924RUA4k8mnBhrB3ypCEvzZ5qfyeenel",
+        "duration_sec": 0,
+        "impressions": 156,
+        "interactions": 3,
+        "reactions": 3,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 133,
+        "views": 307,
+        "avg_seconds_viewed": 0.0
+      }
+    ]
+  }
+}

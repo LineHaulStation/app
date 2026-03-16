@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "week_start": "2026-01-12",
+    "week_end": "2026-01-18",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "confirmed_csv",
+    "milestone": "",
+    "notes": "CSV confirmed. 3 ads: Year of Trucker ($152), Best of LHS ($157), Top Ten Trucker ($145).",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 453.59,
+      "total_link_clicks": 887,
+      "total_impressions": 26404,
+      "total_reach": 18819,
+      "total_results": 642,
+      "total_landing_page_views": 599,
+      "avg_cpc": 0.5114,
+      "avg_cpm": 17.1788,
+      "active_ad_count": 3,
+      "total_ad_count": 3,
+      "running_total_spend": 8683.98,
+      "alltime_cost_per_member": 21.03
+    },
+    "ads": [
+      {
+        "ad_name": "Year of the trucker - short",
+        "result_type": "conversions:submit_application_website",
+        "results": 106,
+        "spend": 152.14,
+        "link_clicks": 392,
+        "impressions": 13131,
+        "reach": 9200,
+        "landing_page_views": 327,
+        "cpc": 0.388112,
+        "cpm": 11.586322,
+        "quality_ranking": "Above average"
+      },
+      {
+        "ad_name": "Best of LHS Series",
+        "result_type": "conversions:submit_application_website",
+        "results": 31,
+        "spend": 156.82,
+        "link_clicks": 374,
+        "impressions": 7418,
+        "reach": 4761,
+        "landing_page_views": 271,
+        "cpc": 0.419305,
+        "cpm": 21.140469,
+        "quality_ranking": "Average"
+      },
+      {
+        "ad_name": "Top Ten Trucker: PitStop King",
+        "result_type": "total_profile_visits",
+        "results": 505,
+        "spend": 144.63,
+        "link_clicks": 121,
+        "impressions": 5855,
+        "reach": 4858,
+        "landing_page_views": 1,
+        "cpc": 1.195289,
+        "cpm": 24.701964,
+        "quality_ranking": "Below average - Bottom 35% of ads"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 128,
+    "cost_per_member": 3.54,
+    "running_total_members": 413,
+    "progress_to_500k": 0.0826
+  },
+  "content": {
+    "posts_published": 2,
+    "posts": [
+      {
+        "publish_date": "2026-01-16",
+        "publish_time": "12:17",
+        "title": "TAG A TRUCKER\u2026. Who does this remind you of??  LineHaul Station is celebrating the BEST drivers in America!  #truckerlife #linehaulstation #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/864781396269403/",
+        "duration_sec": 43,
+        "impressions": 280,
+        "interactions": 5,
+        "reactions": 4,
+        "comments": 3,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 196,
+        "views": 404,
+        "avg_seconds_viewed": 15.108
+      },
+      {
+        "publish_date": "2026-01-13",
+        "publish_time": "16:05",
+        "title": "Think about it truckers......",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1571545013996366/",
+        "duration_sec": 79,
+        "impressions": 633,
+        "interactions": 29,
+        "reactions": 28,
+        "comments": 3,
+        "shares": 1,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 457,
+        "views": 694,
+        "avg_seconds_viewed": 15.104
+      }
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "week_start": "2025-12-15",
+    "week_end": "2025-12-21",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "confirmed_csv",
+    "milestone": "",
+    "notes": "CSV confirmed. 15 campaigns active. Twelve Days of Trucking peak spend week.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 1476.34,
+      "total_link_clicks": 8975,
+      "total_impressions": 129821,
+      "total_reach": 120377,
+      "total_results": 8975,
+      "total_landing_page_views": 0,
+      "avg_cpc": 0.1645,
+      "avg_cpm": 11.3721,
+      "active_ad_count": 15,
+      "total_ad_count": 15,
+      "running_total_spend": 6293.24,
+      "alltime_cost_per_member": 73.18
+    },
+    "ads": [
+      {
+        "ad_name": "Post: \"On Day 7, we\u2019re now halfway through and still...\"",
+        "result_type": "Link clicks",
+        "results": 3465,
+        "spend": 385.47,
+        "impressions": 36844,
+        "reach": 32119,
+        "link_clicks": 3465
+      },
+      {
+        "ad_name": "Post: \"Only a couple days left as the...\"",
+        "result_type": "Link clicks",
+        "results": 1758,
+        "spend": 199.89,
+        "impressions": 24068,
+        "reach": 23253,
+        "link_clicks": 1758
+      },
+      {
+        "ad_name": "Post: \"Almost there\u2026 Day 11 of #TheTwelveDaysOfTrucking...\"",
+        "result_type": "Link clicks",
+        "results": 536,
+        "spend": 133.02,
+        "impressions": 13700,
+        "reach": 12968,
+        "link_clicks": 536
+      },
+      {
+        "ad_name": "Post: \"We\u2019re having a BLAST kicking off...\"",
+        "result_type": "Link clicks",
+        "results": 576,
+        "spend": 99.98,
+        "impressions": 8121,
+        "reach": 7975,
+        "link_clicks": 576
+      },
+      {
+        "ad_name": "Post: \"We\u2019re having a BLAST kicking off...\"",
+        "result_type": "Link clicks",
+        "results": 578,
+        "spend": 99.92,
+        "impressions": 7869,
+        "reach": 7685,
+        "link_clicks": 578
+      },
+      {
+        "ad_name": "Instagram post: We\u2019re having a BLAST kicking off...",
+        "result_type": "Instagram profile visits",
+        "results": 26,
+        "spend": 99.71,
+        "impressions": 2352,
+        "reach": 2276,
+        "link_clicks": 26
+      },
+      {
+        "ad_name": "Instagram post: On Day 7, we\u2019re now halfway...",
+        "result_type": "Instagram profile visits",
+        "results": 92,
+        "spend": 99.7,
+        "impressions": 4498,
+        "reach": 4029,
+        "link_clicks": 92
+      },
+      {
+        "ad_name": "Post: \"Drivers EVERYWHERE can relate to this one!  Day 9...\"",
+        "result_type": "Link clicks",
+        "results": 405,
+        "spend": 99.56,
+        "impressions": 8057,
+        "reach": 7490,
+        "link_clicks": 405
+      },
+      {
+        "ad_name": "Post: \"Only a couple days left as the...\"",
+        "result_type": "Link clicks",
+        "results": 497,
+        "spend": 99.31,
+        "impressions": 7925,
+        "reach": 6906,
+        "link_clicks": 497
+      },
+      {
+        "ad_name": "Post: \"Register for FREE:...\"",
+        "result_type": "Link clicks",
+        "results": 423,
+        "spend": 77.57,
+        "impressions": 8114,
+        "reach": 7937,
+        "link_clicks": 423
+      },
+      {
+        "ad_name": "Post: \"Register for FREE:...\"",
+        "result_type": "Link clicks",
+        "results": 233,
+        "spend": 34.59,
+        "impressions": 3878,
+        "reach": 3577,
+        "link_clicks": 233
+      },
+      {
+        "ad_name": "Post: \"We\u2019re having a BLAST kicking off...\"",
+        "result_type": "Link clicks",
+        "results": 148,
+        "spend": 19.99,
+        "impressions": 2218,
+        "reach": 2058,
+        "link_clicks": 148
+      },
+      {
+        "ad_name": "Post: \"Look Out! It's Boots Walker, a hero to truckers...\"",
+        "result_type": "Link clicks",
+        "results": 106,
+        "spend": 10.62,
+        "impressions": 988,
+        "reach": 948,
+        "link_clicks": 106
+      },
+      {
+        "ad_name": "Post: \"Boots Walker in \"New Truck Parking?!\"\"",
+        "result_type": "Link clicks",
+        "results": 117,
+        "spend": 10.45,
+        "impressions": 945,
+        "reach": 915,
+        "link_clicks": 117
+      },
+      {
+        "ad_name": "Instagram post: Register for FREE:...",
+        "result_type": "Link clicks",
+        "results": 15,
+        "spend": 6.56,
+        "impressions": 244,
+        "reach": 241,
+        "link_clicks": 15
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 3,
+    "cost_per_member": 492.11,
+    "running_total_members": 86,
+    "progress_to_500k": 0.0172
+  },
+  "content": {
+    "posts_published": 8,
+    "posts": [
+      {
+        "publish_date": "2025-12-21",
+        "publish_time": "16:00",
+        "title": "Ha!!! Here\u2019s Day 12 of #TheTwelveDaysOfTrucking!  Hope you\u2019re all getting ready for some rest, relaxation and extra special time with family!  But, wait\u2026 we\u2019re not quite done.  Don\u2019t miss tomorrow\u2019s Grand Finale with our special guest!!  #twelvedaysoftrucking #linehaulstation #truckinglife",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/2430468960755684/",
+        "duration_sec": 76,
+        "impressions": 18785,
+        "interactions": 194,
+        "reactions": 167,
+        "comments": 6,
+        "shares": 25,
+        "saves": 9,
+        "net_follows": 3,
+        "viewers": 15800,
+        "views": 13351,
+        "avg_seconds_viewed": 8.957
+      },
+      {
+        "publish_date": "2025-12-21",
+        "publish_time": "16:00",
+        "title": "Ha!!! Here\u2019s Day 12 of #TheTwelveDaysOfTrucking!  Hope you\u2019re all getting ready for some rest, relaxation and extra special time with family!  But, wait\u2026 we\u2019re not quite done.  Don\u2019t miss tomorrow\u2019s Grand Finale with our special guest!!  #twelvedaysoftrucking #linehaulstation #truckinglife",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1391977928976826/",
+        "duration_sec": 78,
+        "impressions": 17850,
+        "interactions": 248,
+        "reactions": 209,
+        "comments": 5,
+        "shares": 39,
+        "saves": 7,
+        "net_follows": 5,
+        "viewers": 15296,
+        "views": 15642,
+        "avg_seconds_viewed": 8.391
+      },
+      {
+        "publish_date": "2025-12-20",
+        "publish_time": "16:00",
+        "title": "Almost there\u2026 Day 11 of #TheTwelveDaysOfTrucking is upon us! Everyone talks about the Twelve Days of Trucking, but we always forget what Day 11 even is?! #roadrageproblems  #truckinglife #linehaulstation #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1415097213291184/",
+        "duration_sec": 44,
+        "impressions": 19448,
+        "interactions": 237,
+        "reactions": 195,
+        "comments": 3,
+        "shares": 55,
+        "saves": 3,
+        "net_follows": 3,
+        "viewers": 15302,
+        "views": 13394,
+        "avg_seconds_viewed": 10.59
+      },
+      {
+        "publish_date": "2025-12-19",
+        "publish_time": "16:00",
+        "title": "Only a couple days left as the #TheTwelveDaysOfTrucking hits Day 10!  Hope you\u2019re all having as much fun as we are with this humorous spoof of the well-known jingle! Get #homesafe this year to all #truckers  Tune in tomorrow for Day 11.  #truckerlife #linehaulstation #readytoroll #truckerwives",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1928688734717459/",
+        "duration_sec": 53,
+        "impressions": 32567,
+        "interactions": 187,
+        "reactions": 173,
+        "comments": 1,
+        "shares": 18,
+        "saves": 10,
+        "net_follows": 2,
+        "viewers": 29656,
+        "views": 25432,
+        "avg_seconds_viewed": 10.178
+      },
+      {
+        "publish_date": "2025-12-18",
+        "publish_time": "16:00",
+        "title": "Drivers EVERYWHERE can relate to this one!  Day 9 of the #TheTwelveDaysOfTrucking is here and we\u2019re still having fun with this humorous spoof of the well-known jingle!  Day 9 of The Twelve Days Of Trucking is live.  Tune in tomorrow for Day 10.  #truckinglife #linehaulstation #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/2225646331294843/",
+        "duration_sec": 42,
+        "impressions": 8527,
+        "interactions": 84,
+        "reactions": 77,
+        "comments": 3,
+        "shares": 10,
+        "saves": 2,
+        "net_follows": 2,
+        "viewers": 6424,
+        "views": 5776,
+        "avg_seconds_viewed": 10.043
+      },
+      {
+        "publish_date": "2025-12-17",
+        "publish_time": "16:00",
+        "title": "We\u2019re having a BLAST kicking off #TheTwelveDaysOfTrucking \u2014 a humorous spoof of the well-known jingle!  If you\u2019ve been driving long enough, you\u2019ve lived this one!!  Tune in tomorrow for Day 9.  #truckinglife #linehaulstation #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/4273704196193915/",
+        "duration_sec": 47,
+        "impressions": 16777,
+        "interactions": 206,
+        "reactions": 180,
+        "comments": 2,
+        "shares": 35,
+        "saves": 3,
+        "net_follows": 2,
+        "viewers": 14338,
+        "views": 15662,
+        "avg_seconds_viewed": 8.632
+      },
+      {
+        "publish_date": "2025-12-16",
+        "publish_time": "16:00",
+        "title": "On Day 7, we\u2019re now halfway through and still having a BLAST with #TheTwelveDaysOfTrucking \u2014 a humorous spoof of the well-known jingle!  The stories of trucker chaos keep stacking up! Help a driver out already!  Tune in tomorrow for Day 8.  #truckinglife #linehaulstation #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/749543027506275/",
+        "duration_sec": 40,
+        "impressions": 37486,
+        "interactions": 255,
+        "reactions": 247,
+        "comments": 2,
+        "shares": 23,
+        "saves": 5,
+        "net_follows": 2,
+        "viewers": 30069,
+        "views": 35379,
+        "avg_seconds_viewed": 8.89
+      },
+      {
+        "publish_date": "2025-12-15",
+        "publish_time": "16:00",
+        "title": "We\u2019re having a BLAST kicking off #TheTwelveDaysOfTrucking \u2014 a humorous spoof of the well-known jingle!  If you\u2019ve been following along, you already know \u2014 this road isn\u2019t always smooth!  Tune in tomorrow for Day 7.  #truckinglife #linehaulstation #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/2108579639909750/",
+        "duration_sec": 38,
+        "impressions": 513,
+        "interactions": 14,
+        "reactions": 6,
+        "comments": 3,
+        "shares": 4,
+        "saves": 1,
+        "net_follows": 1,
+        "viewers": 418,
+        "views": 569,
+        "avg_seconds_viewed": 9.804
+      }
+    ]
+  }
+}

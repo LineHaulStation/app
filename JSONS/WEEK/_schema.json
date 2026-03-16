@@ -1,0 +1,107 @@
+{
+  "title": "LHS Weekly JSON Schema Reference",
+  "version": "1.0",
+  "description": "Each week of LineHaul Station marketing history is stored as a single JSON file named week_YYYY-MM-DD.json where the date is the Monday of that week. A _manifest.json file indexes all weeks.",
+  "usage": {
+    "angbot_workflow": [
+      "1. Ang pulls weekly Meta ad report (CSV)",
+      "2. Convert CSV to weekly JSON using this schema",
+      "3. Place JSON in the weekly_jsons folder (or GitHub repo)",
+      "4. AngBot reads _manifest.json to find all available weeks",
+      "5. AngBot loads whichever weeks it needs for the requested report"
+    ],
+    "corrections": "To fix a mistake, edit the specific week's JSON and re-upload. No rebuild needed.",
+    "new_week": "Create a new week_YYYY-MM-DD.json and add its entry to _manifest.json"
+  },
+  "confidence_levels": {
+    "confirmed_csv": "Data pulled directly from Ang's Meta ad manager CSV export for that exact week",
+    "confirmed_pdf": "Data pulled from a PDF weekly insights report for that exact week",
+    "estimated": "Derived from aggregate reports, pro-rated from longer date ranges, or interpolated"
+  },
+  "schema": {
+    "meta": {
+      "week_start": "YYYY-MM-DD (Monday)",
+      "week_end": "YYYY-MM-DD (Sunday)",
+      "era": "original | new_account",
+      "meta_account": "original | new_account",
+      "data_confidence": "confirmed_csv | confirmed_pdf | estimated",
+      "milestone": "Notable event this week (empty string if none)",
+      "notes": "Human-readable context about this week",
+      "generated": "Date this JSON was created"
+    },
+    "ads": {
+      "summary": {
+        "total_spend": "float, USD",
+        "total_link_clicks": "int",
+        "total_impressions": "int",
+        "total_reach": "int",
+        "total_results": "int (conversions, clicks, etc depending on campaign type)",
+        "total_landing_page_views": "int",
+        "avg_cpc": "float or null",
+        "avg_cpm": "float or null",
+        "active_ad_count": "int (ads with spend > 0)",
+        "total_ad_count": "int (all ads in report including inactive)",
+        "running_total_spend": "float, all-time cumulative",
+        "alltime_cost_per_member": "float or null, running all-time"
+      },
+      "ads": [
+        {
+          "ad_name": "string",
+          "date_created": "date string (from Meta)",
+          "result_type": "string (conversions:submit_application_website, actions:link_click, etc)",
+          "results": "int",
+          "spend": "float",
+          "frequency": "float",
+          "page_engagement": "int",
+          "interactions": "int",
+          "post_reactions": "int",
+          "post_comments": "int",
+          "post_saves": "int",
+          "post_shares": "int",
+          "facebook_likes": "int",
+          "instagram_follows": "int",
+          "link_clicks": "int",
+          "impressions": "int",
+          "reach": "int",
+          "viewers": "int",
+          "views": "int",
+          "cost_per_result": "float",
+          "cpc": "float",
+          "cost_per_1k_reached": "float",
+          "cpm": "float",
+          "cost_per_lpv": "float",
+          "landing_page_views": "int"
+        }
+      ]
+    },
+    "membership": {
+      "new_members": "int (exact, from Automator export)",
+      "cost_per_member": "float or null (spend / new_members)",
+      "running_total_members": "int, all-time cumulative",
+      "progress_to_500k": "float, percentage toward 500K goal"
+    },
+    "content": {
+      "posts_published": "int",
+      "posts": [
+        {
+          "publish_date": "YYYY-MM-DD",
+          "publish_time": "HH:MM",
+          "title": "string (first ~300 chars of post text)",
+          "post_type": "Reel | Photo | Content | Link",
+          "permalink": "URL",
+          "duration_sec": "int (for Reels)",
+          "impressions": "int",
+          "interactions": "int",
+          "reactions": "int",
+          "comments": "int",
+          "shares": "int",
+          "saves": "int",
+          "net_follows": "int",
+          "viewers": "int",
+          "views": "int",
+          "avg_seconds_viewed": "float (for Reels)"
+        }
+      ]
+    }
+  }
+}

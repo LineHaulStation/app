@@ -1,0 +1,277 @@
+{
+  "description": "LineHaul Station Weekly Marketing History",
+  "generated": "2026-03-16",
+  "first_member_date": "2025-10-08",
+  "reporting_start": "2025-10-06",
+  "total_weeks": 23,
+  "total_spend": 11830.1,
+  "total_members": 1310,
+  "alltime_cost_per_member": 9.03,
+  "eras": {
+    "original": {
+      "start": "2025-10-06",
+      "end": "2026-01-19",
+      "note": "Original Meta ad account (Jeff Swenson)"
+    },
+    "new_account": {
+      "start": "2026-01-27",
+      "end": "present",
+      "note": "New Meta ad account (post-hack, Ang managing)"
+    }
+  },
+  "weeks": [
+    {
+      "filename": "week_2025-10-06.json",
+      "week_start": "2025-10-06",
+      "week_end": "2025-10-12",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 293.51,
+      "new_members": 1,
+      "milestone": "First Automator Member (Oct 8)"
+    },
+    {
+      "filename": "week_2025-10-13.json",
+      "week_start": "2025-10-13",
+      "week_end": "2025-10-19",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 293.51,
+      "new_members": 0,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2025-10-20.json",
+      "week_start": "2025-10-20",
+      "week_end": "2025-10-26",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 322.86,
+      "new_members": 10,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2025-10-27.json",
+      "week_start": "2025-10-27",
+      "week_end": "2025-11-02",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 322.86,
+      "new_members": 14,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2025-11-03.json",
+      "week_start": "2025-11-03",
+      "week_end": "2025-11-09",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 352.21,
+      "new_members": 0,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2025-11-10.json",
+      "week_start": "2025-11-10",
+      "week_end": "2025-11-16",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 352.21,
+      "new_members": 0,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2025-11-17.json",
+      "week_start": "2025-11-17",
+      "week_end": "2025-11-23",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 410.91,
+      "new_members": 2,
+      "milestone": "Trucksgiving Campaign Launch"
+    },
+    {
+      "filename": "week_2025-11-24.json",
+      "week_start": "2025-11-24",
+      "week_end": "2025-11-30",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 469.61,
+      "new_members": 1,
+      "milestone": "Trucksgiving Week"
+    },
+    {
+      "filename": "week_2025-12-01.json",
+      "week_start": "2025-12-01",
+      "week_end": "2025-12-07",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "confirmed_pdf",
+      "spend": 1060.0,
+      "new_members": 31,
+      "milestone": "Twelve Days of Trucking Launch"
+    },
+    {
+      "filename": "week_2025-12-08.json",
+      "week_start": "2025-12-08",
+      "week_end": "2025-12-14",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 939.22,
+      "new_members": 24,
+      "milestone": "Twelve Days of Trucking continues"
+    },
+    {
+      "filename": "week_2025-12-15.json",
+      "week_start": "2025-12-15",
+      "week_end": "2025-12-21",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "confirmed_csv",
+      "spend": 1476.34,
+      "new_members": 3,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2025-12-22.json",
+      "week_start": "2025-12-22",
+      "week_end": "2025-12-28",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 704.42,
+      "new_members": 9,
+      "milestone": "Twelve Days Wrap-Up"
+    },
+    {
+      "filename": "week_2025-12-29.json",
+      "week_start": "2025-12-29",
+      "week_end": "2026-01-04",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 587.01,
+      "new_members": 37,
+      "milestone": "Year of the Trucker Launch"
+    },
+    {
+      "filename": "week_2026-01-05.json",
+      "week_start": "2026-01-05",
+      "week_end": "2026-01-11",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 645.72,
+      "new_members": 153,
+      "milestone": "Massive Signup Week"
+    },
+    {
+      "filename": "week_2026-01-12.json",
+      "week_start": "2026-01-12",
+      "week_end": "2026-01-18",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "confirmed_csv",
+      "spend": 453.59,
+      "new_members": 128,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2026-01-19.json",
+      "week_start": "2026-01-19",
+      "week_end": "2026-01-25",
+      "era": "original",
+      "meta_account": "original",
+      "confidence": "estimated",
+      "spend": 58.7,
+      "new_members": 2,
+      "milestone": "Meta Account Hacked"
+    },
+    {
+      "filename": "week_2026-01-27.json",
+      "week_start": "2026-01-27",
+      "week_end": "2026-02-02",
+      "era": "new_account",
+      "meta_account": "new_account",
+      "confidence": "estimated",
+      "spend": 51.73,
+      "new_members": 0,
+      "milestone": "New Ad Account Created (Jan 28)"
+    },
+    {
+      "filename": "week_2026-02-02.json",
+      "week_start": "2026-02-02",
+      "week_end": "2026-02-08",
+      "era": "new_account",
+      "meta_account": "new_account",
+      "confidence": "confirmed_csv",
+      "spend": 359.11,
+      "new_members": 145,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2026-02-09.json",
+      "week_start": "2026-02-09",
+      "week_end": "2026-02-15",
+      "era": "new_account",
+      "meta_account": "new_account",
+      "confidence": "confirmed_csv",
+      "spend": 552.96,
+      "new_members": 276,
+      "milestone": "Peak Signup Week (276 members)"
+    },
+    {
+      "filename": "week_2026-02-16.json",
+      "week_start": "2026-02-16",
+      "week_end": "2026-02-22",
+      "era": "new_account",
+      "meta_account": "new_account",
+      "confidence": "confirmed_csv",
+      "spend": 379.46,
+      "new_members": 213,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2026-02-23.json",
+      "week_start": "2026-02-23",
+      "week_end": "2026-03-01",
+      "era": "new_account",
+      "meta_account": "new_account",
+      "confidence": "confirmed_csv",
+      "spend": 502.62,
+      "new_members": 150,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2026-03-02.json",
+      "week_start": "2026-03-02",
+      "week_end": "2026-03-08",
+      "era": "new_account",
+      "meta_account": "new_account",
+      "confidence": "confirmed_csv",
+      "spend": 493.67,
+      "new_members": 86,
+      "milestone": ""
+    },
+    {
+      "filename": "week_2026-03-09.json",
+      "week_start": "2026-03-09",
+      "week_end": "2026-03-15",
+      "era": "new_account",
+      "meta_account": "new_account",
+      "confidence": "confirmed_csv",
+      "spend": 747.87,
+      "new_members": 25,
+      "milestone": "Campaign Expansion Week"
+    }
+  ]
+}

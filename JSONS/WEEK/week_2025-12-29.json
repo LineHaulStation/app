@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "week_start": "2025-12-29",
+    "week_end": "2026-01-04",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "Year of the Trucker Launch",
+    "notes": "Year of the Trucker launch. Year-end.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 587.01,
+      "total_link_clicks": 3000,
+      "total_impressions": 38000,
+      "total_reach": 30400,
+      "total_results": 3000,
+      "total_landing_page_views": 2550,
+      "avg_cpc": 0.1957,
+      "avg_cpm": 15.4476,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 7584.67,
+      "alltime_cost_per_member": 57.46
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 587.01,
+        "link_clicks": 3000,
+        "impressions": 38000,
+        "reach": 30400,
+        "results": 3000,
+        "landing_page_views": 2550,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 37,
+    "cost_per_member": 15.87,
+    "running_total_members": 132,
+    "progress_to_500k": 0.0264
+  },
+  "content": {
+    "posts_published": 5,
+    "posts": [
+      {
+        "publish_date": "2026-01-02",
+        "publish_time": "08:39",
+        "title": "Change is Coming.   2026 is The Year of the Trucker!",
+        "post_type": "Photo",
+        "permalink": "https://www.facebook.com/photo.php?fbid=724158564099757&set=a.101872609661692&type=3",
+        "duration_sec": 0,
+        "impressions": 350,
+        "interactions": 6,
+        "reactions": 6,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 280,
+        "views": 660,
+        "avg_seconds_viewed": 0.0
+      },
+      {
+        "publish_date": "2025-12-31",
+        "publish_time": "13:00",
+        "title": "",
+        "post_type": "Link",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid02fHkph16quBG6cBKYoVPDEkxNJKrDBEKqmYCDirH7QgPGZPAh3HiPH3zGWoTSCZiml",
+        "duration_sec": 0,
+        "impressions": 11368,
+        "interactions": 45,
+        "reactions": 40,
+        "comments": 4,
+        "shares": 1,
+        "saves": 2,
+        "net_follows": 3,
+        "viewers": 9153,
+        "views": 12487,
+        "avg_seconds_viewed": 0.0
+      },
+      {
+        "publish_date": "2025-12-31",
+        "publish_time": "11:00",
+        "title": "2026 is the Year of the Trucker!  #truckerlife #linehaulstation #ReadyToRoll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/26376248751962597/",
+        "duration_sec": 23,
+        "impressions": 19709,
+        "interactions": 572,
+        "reactions": 489,
+        "comments": 14,
+        "shares": 84,
+        "saves": 15,
+        "net_follows": 39,
+        "viewers": 12761,
+        "views": 21051,
+        "avg_seconds_viewed": 5.441
+      },
+      {
+        "publish_date": "2025-12-31",
+        "publish_time": "07:13",
+        "title": "Not everyone realizes the sleepless nights and 3am alarms\u2026 Not everyone feels the missed birthdays, holidays and family events\u2026 Not everyone understands the thousands of miles of solitude\u2026  But WE Do\u2026  Thanks to you all that keep the store shelves stocked, families fed and businesses moving! 2026 is",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/851993484366239/",
+        "duration_sec": 115,
+        "impressions": 203514,
+        "interactions": 2496,
+        "reactions": 1975,
+        "comments": 165,
+        "shares": 510,
+        "saves": 64,
+        "net_follows": 120,
+        "viewers": 68065,
+        "views": 60571,
+        "avg_seconds_viewed": 15.358
+      },
+      {
+        "publish_date": "2025-12-30",
+        "publish_time": "12:44",
+        "title": "Drivers Join Free: www.linehaulstation.com/driver-register  Not everyone realizes the sleepless nights and 3am alarms\u2026  Not everyone feels the missed birthdays, holidays and family events\u2026  Not everyone understands the thousands of miles of solitude\u2026  But WE Do\u2026  Thanks to you all that keep the stor",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/2648282162266670/",
+        "duration_sec": 115,
+        "impressions": 31469,
+        "interactions": 65,
+        "reactions": 58,
+        "comments": 13,
+        "shares": 4,
+        "saves": 0,
+        "net_follows": 4,
+        "viewers": 13356,
+        "views": 5319,
+        "avg_seconds_viewed": 12.015
+      }
+    ]
+  }
+}

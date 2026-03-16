@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "week_start": "2025-12-08",
+    "week_end": "2025-12-14",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "Twelve Days of Trucking continues",
+    "notes": "Twelve Days continuing. Estimated.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 939.22,
+      "total_link_clicks": 4500,
+      "total_impressions": 55000,
+      "total_reach": 44000,
+      "total_results": 4500,
+      "total_landing_page_views": 3825,
+      "avg_cpc": 0.2087,
+      "avg_cpm": 17.0767,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 4816.9,
+      "alltime_cost_per_member": 58.03
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 939.22,
+        "link_clicks": 4500,
+        "impressions": 55000,
+        "reach": 44000,
+        "results": 4500,
+        "landing_page_views": 3825,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 24,
+    "cost_per_member": 39.13,
+    "running_total_members": 83,
+    "progress_to_500k": 0.0166
+  },
+  "content": {
+    "posts_published": 5,
+    "posts": [
+      {
+        "publish_date": "2025-12-14",
+        "publish_time": "16:00",
+        "title": "We\u2019re having a BLAST kicking off #TheTwelveDaysOfTrucking \u2014 a humorous spoof of the well-known jingle!  Some days cost you time & others suck your paychecks!  It\u2019s just NOT FAIR!  We want to help fix it.  Tune in tomorrow for Day 6.  #truckerproblems #linehaulstation #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1192201609010762/",
+        "duration_sec": 37,
+        "impressions": 2590,
+        "interactions": 40,
+        "reactions": 32,
+        "comments": 3,
+        "shares": 8,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 2106,
+        "views": 2244,
+        "avg_seconds_viewed": 9.323
+      },
+      {
+        "publish_date": "2025-12-13",
+        "publish_time": "16:00",
+        "title": "We\u2019re having a BLAST kicking off #TheTwelveDaysOfTrucking \u2014 a humorous spoof of the well-known jingle!   This one hits close to home \ud83d\ude9b  Tune in tomorrow for Day 5.  #truckerlife #truckingcommunity #linehaulstation",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1965339494025412/",
+        "duration_sec": 37,
+        "impressions": 22911,
+        "interactions": 44,
+        "reactions": 31,
+        "comments": 4,
+        "shares": 11,
+        "saves": 0,
+        "net_follows": 1,
+        "viewers": 12697,
+        "views": 6231,
+        "avg_seconds_viewed": 7.789
+      },
+      {
+        "publish_date": "2025-12-12",
+        "publish_time": "16:00",
+        "title": "We\u2019re having a BLAST kicking off #TheTwelveDaysOfTrucking \u2014 a humorous spoof of the well-known jingle!  When will trucking ever get easier??!!!  Tune in tomorrow for Day 4.  #twelvedaysoftrucking #linehaulstation #readytoroll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/2723950411299019/",
+        "duration_sec": 31,
+        "impressions": 22916,
+        "interactions": 81,
+        "reactions": 82,
+        "comments": 5,
+        "shares": 10,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 17804,
+        "views": 15061,
+        "avg_seconds_viewed": 7.28
+      },
+      {
+        "publish_date": "2025-12-11",
+        "publish_time": "16:00",
+        "title": "We\u2019re having a BLAST kicking off #TheTwelveDaysOfTrucking \u2014 a humorous spoof of the well-known jingle!  Another day of trucking reality.  Tune in tomorrow for Day 3.  #truckerproblems #truckinglife #linehaulstation",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1504844510572651/",
+        "duration_sec": 33,
+        "impressions": 21454,
+        "interactions": 98,
+        "reactions": 89,
+        "comments": 5,
+        "shares": 17,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 17830,
+        "views": 14564,
+        "avg_seconds_viewed": 10.062
+      },
+      {
+        "publish_date": "2025-12-11",
+        "publish_time": "06:38",
+        "title": "We\u2019re having a BLAST kicking off #TheTwelveDaysOfTrucking \u2014 a humorous spoof of the well-known jingle!  Tune in tomorrow for Day 2.  #twelvedaysoftrucking #truckerlife #linehaulstation",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1199797302058312/",
+        "duration_sec": 28,
+        "impressions": 32368,
+        "interactions": 108,
+        "reactions": 98,
+        "comments": 4,
+        "shares": 23,
+        "saves": 1,
+        "net_follows": 2,
+        "viewers": 13736,
+        "views": 8869,
+        "avg_seconds_viewed": 8.315
+      }
+    ]
+  }
+}

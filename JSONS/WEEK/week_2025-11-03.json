@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "week_start": "2025-11-03",
+    "week_end": "2025-11-09",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "",
+    "notes": "Ramp-up to Trucksgiving.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 352.21,
+      "total_link_clicks": 1800,
+      "total_impressions": 18000,
+      "total_reach": 14400,
+      "total_results": 1800,
+      "total_landing_page_views": 1530,
+      "avg_cpc": 0.1957,
+      "avg_cpm": 19.5672,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 1584.95,
+      "alltime_cost_per_member": 63.4
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 352.21,
+        "link_clicks": 1800,
+        "impressions": 18000,
+        "reach": 14400,
+        "results": 1800,
+        "landing_page_views": 1530,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 0,
+    "cost_per_member": null,
+    "running_total_members": 25,
+    "progress_to_500k": 0.005
+  },
+  "content": {
+    "posts_published": 3,
+    "posts": [
+      {
+        "publish_date": "2025-11-07",
+        "publish_time": "11:48",
+        "title": "A BIG WIN for Carrier and Drivers!   America\u2019s Member-Only Truck Terminal Network is now available in West Memphis at the junction of Interstates 40 & 55.   Features include extra-wide parking, fleet repair & maintenance and a spectacular private driver\u2019s club all within a lighted, gated & surveilla",
+        "post_type": "Photo",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid035qRGvypt8FE2CNaqT2F1yv9oEMkKrcb4tFUkrooQcHQtQiM9Ho6r4FVknuKDGGepl",
+        "duration_sec": 0,
+        "impressions": 262,
+        "interactions": 3,
+        "reactions": 3,
+        "comments": 0,
+        "shares": 2,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 194,
+        "views": 488,
+        "avg_seconds_viewed": 0.0
+      },
+      {
+        "publish_date": "2025-11-07",
+        "publish_time": "10:06",
+        "title": "The 5 Stages of Truck Parking...",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/3418342834975616/",
+        "duration_sec": 45,
+        "impressions": 8182,
+        "interactions": 35,
+        "reactions": 28,
+        "comments": 3,
+        "shares": 5,
+        "saves": 1,
+        "net_follows": 0,
+        "viewers": 5379,
+        "views": 7102,
+        "avg_seconds_viewed": 11.645
+      },
+      {
+        "publish_date": "2025-11-04",
+        "publish_time": "12:59",
+        "title": "If you love Mexican Food, it\u2019s a \u201cmust visit\u201d to hit Ajo Al\u2019s in Phoenix!",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1110653514389230/",
+        "duration_sec": 18,
+        "impressions": 365,
+        "interactions": 7,
+        "reactions": 9,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 1,
+        "viewers": 215,
+        "views": 608,
+        "avg_seconds_viewed": 6.323
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "week_start": "2026-01-05",
+    "week_end": "2026-01-11",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "Massive Signup Week",
+    "notes": "Massive signup week (153). Retargeting active.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 645.72,
+      "total_link_clicks": 3300,
+      "total_impressions": 42000,
+      "total_reach": 33600,
+      "total_results": 3300,
+      "total_landing_page_views": 2805,
+      "avg_cpc": 0.1957,
+      "avg_cpm": 15.3743,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 8230.39,
+      "alltime_cost_per_member": 28.88
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 645.72,
+        "link_clicks": 3300,
+        "impressions": 42000,
+        "reach": 33600,
+        "results": 3300,
+        "landing_page_views": 2805,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 153,
+    "cost_per_member": 4.22,
+    "running_total_members": 285,
+    "progress_to_500k": 0.057
+  },
+  "content": {
+    "posts_published": 1,
+    "posts": [
+      {
+        "publish_date": "2026-01-08",
+        "publish_time": "13:52",
+        "title": "If you\u2019re a driver, you\u2019ve already done the hard part. Now it\u2019s time the system worked for you. 2026 is the year of the trucker.  #truckerlife #linehaulstation #readytoroll",
+        "post_type": "Photo",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid0CMqMHfnHngEg5ebhjxsZaDafiQKnCMqiRE6JbeYotF6UZLPX3koDPshBpV6Dk466l",
+        "duration_sec": 0,
+        "impressions": 500,
+        "interactions": 17,
+        "reactions": 18,
+        "comments": 2,
+        "shares": 2,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 403,
+        "views": 955,
+        "avg_seconds_viewed": 0.0
+      }
+    ]
+  }
+}

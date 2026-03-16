@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "week_start": "2025-10-20",
+    "week_end": "2025-10-26",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "",
+    "notes": "Early funnel testing. 10 signups.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 322.86,
+      "total_link_clicks": 1650,
+      "total_impressions": 16500,
+      "total_reach": 13200,
+      "total_results": 1650,
+      "total_landing_page_views": 1402,
+      "avg_cpc": 0.1957,
+      "avg_cpm": 19.5673,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 909.88,
+      "alltime_cost_per_member": 82.72
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 322.86,
+        "link_clicks": 1650,
+        "impressions": 16500,
+        "reach": 13200,
+        "results": 1650,
+        "landing_page_views": 1402,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 10,
+    "cost_per_member": 32.29,
+    "running_total_members": 11,
+    "progress_to_500k": 0.0022
+  },
+  "content": {
+    "posts_published": 1,
+    "posts": [
+      {
+        "publish_date": "2025-10-22",
+        "publish_time": "20:00",
+        "title": "\ud83d\ude9b Change is Coming.\u2060  The New Era of Trucking is here!\u2060  Welcome to LineHaul Station \u2014 the movement that\u2019s driving the future of trucking.\u2060 \u2060 #LineHaulStation #ChangeIsComing #TruckingCommunity #TruckersOfAmerica #TruckingLife #Ready2Roll",
+        "post_type": "Reel",
+        "permalink": "https://www.facebook.com/reel/1537868467407516/",
+        "duration_sec": 42,
+        "impressions": 5293,
+        "interactions": 16,
+        "reactions": 19,
+        "comments": 0,
+        "shares": 2,
+        "saves": 2,
+        "net_follows": 3,
+        "viewers": 4438,
+        "views": 4871,
+        "avg_seconds_viewed": 6.765
+      }
+    ]
+  }
+}

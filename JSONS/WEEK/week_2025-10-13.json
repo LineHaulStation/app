@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "week_start": "2025-10-13",
+    "week_end": "2025-10-19",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "",
+    "notes": "Awareness campaigns continuing.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 293.51,
+      "total_link_clicks": 1500,
+      "total_impressions": 15000,
+      "total_reach": 12000,
+      "total_results": 1500,
+      "total_landing_page_views": 1275,
+      "avg_cpc": 0.1957,
+      "avg_cpm": 19.5673,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 587.02,
+      "alltime_cost_per_member": 587.02
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 293.51,
+        "link_clicks": 1500,
+        "impressions": 15000,
+        "reach": 12000,
+        "results": 1500,
+        "landing_page_views": 1275,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 0,
+    "cost_per_member": null,
+    "running_total_members": 1,
+    "progress_to_500k": 0.0002
+  },
+  "content": {
+    "posts_published": 0,
+    "posts": []
+  }
+}

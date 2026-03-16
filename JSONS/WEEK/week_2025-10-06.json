@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "week_start": "2025-10-06",
+    "week_end": "2025-10-12",
+    "era": "original",
+    "meta_account": "original",
+    "data_confidence": "estimated",
+    "milestone": "First Automator Member (Oct 8)",
+    "notes": "First Automator member Oct 8. Early awareness.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 293.51,
+      "total_link_clicks": 1500,
+      "total_impressions": 15000,
+      "total_reach": 12000,
+      "total_results": 1500,
+      "total_landing_page_views": 1275,
+      "avg_cpc": 0.1957,
+      "avg_cpm": 19.5673,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 293.51,
+      "alltime_cost_per_member": 293.51
+    },
+    "ads": [
+      {
+        "ad_name": "Old Account Aggregate (estimated)",
+        "spend": 293.51,
+        "link_clicks": 1500,
+        "impressions": 15000,
+        "reach": 12000,
+        "results": 1500,
+        "landing_page_views": 1275,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 1,
+    "cost_per_member": 293.51,
+    "running_total_members": 1,
+    "progress_to_500k": 0.0002
+  },
+  "content": {
+    "posts_published": 3,
+    "posts": [
+      {
+        "publish_date": "2025-10-11",
+        "publish_time": "07:14",
+        "title": "When you think of LineHaul Station\u2026 think of a driver experience that resembles the quality of this incredible truck!  Change is Coming!",
+        "post_type": "Content",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid02sQCHTKv9LAzJiSxwsyubCoCy5JsTCBLEHd6RBTiBgXR9hTjcpSUHoc1HS3J9MM4Kl",
+        "duration_sec": 0,
+        "impressions": 272,
+        "interactions": 10,
+        "reactions": 9,
+        "comments": 1,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 108,
+        "views": 217,
+        "avg_seconds_viewed": 0.0
+      },
+      {
+        "publish_date": "2025-10-10",
+        "publish_time": "09:00",
+        "title": "The \u201creshaping\u201d as it\u2019s referred could be very interesting.  Tell us what changes YOU would make to create greater efficiency and improve the base of truck drivers!",
+        "post_type": "Content",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid02CVhMP3DuCetFH1KfhsCJ6PsFjfMeAeZjuQ1aBNtTSYnHa1nXQohnuAXXu5Jc3Mdsl",
+        "duration_sec": 0,
+        "impressions": 271,
+        "interactions": 5,
+        "reactions": 5,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 213,
+        "views": 436,
+        "avg_seconds_viewed": 0.0
+      },
+      {
+        "publish_date": "2025-10-08",
+        "publish_time": "04:47",
+        "title": "The fun side of trucking that makes everyone feel good\u2026.. \ud83d\udc4d\ud83c\udffc",
+        "post_type": "Content",
+        "permalink": "https://www.facebook.com/linehaulstation/posts/pfbid034b1i8cSJcnP8DwWozkDPVEoKDgowi4UabktwXaxW6THae8y3Xf5XPN4F6h61u2t2l",
+        "duration_sec": 0,
+        "impressions": 198,
+        "interactions": 4,
+        "reactions": 4,
+        "comments": 0,
+        "shares": 0,
+        "saves": 0,
+        "net_follows": 0,
+        "viewers": 80,
+        "views": 169,
+        "avg_seconds_viewed": 0.0
+      }
+    ]
+  }
+}

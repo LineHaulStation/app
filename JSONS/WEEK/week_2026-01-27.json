@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "week_start": "2026-01-27",
+    "week_end": "2026-02-02",
+    "era": "new_account",
+    "meta_account": "new_account",
+    "data_confidence": "estimated",
+    "milestone": "New Ad Account Created (Jan 28)",
+    "notes": "New Meta account established after hack. Campaigns rebuilding. Partial week Jan 28-Feb 1. Spend estimated from difference between Max report and weekly totals.",
+    "generated": "2026-03-16"
+  },
+  "ads": {
+    "summary": {
+      "total_spend": 51.73,
+      "total_link_clicks": 80,
+      "total_impressions": 3200,
+      "total_reach": 2500,
+      "total_results": 20,
+      "total_landing_page_views": 65,
+      "avg_cpc": 0.6466,
+      "avg_cpm": 16.1656,
+      "active_ad_count": 1,
+      "total_ad_count": 1,
+      "running_total_spend": 8794.41,
+      "alltime_cost_per_member": 21.19
+    },
+    "ads": [
+      {
+        "ad_name": "New account campaigns (partial week)",
+        "spend": 51.73,
+        "link_clicks": 80,
+        "impressions": 3200,
+        "reach": 2500,
+        "results": 20,
+        "landing_page_views": 65,
+        "result_type": "mixed"
+      }
+    ]
+  },
+  "membership": {
+    "new_members": 0,
+    "cost_per_member": null,
+    "running_total_members": 415,
+    "progress_to_500k": 0.083
+  },
+  "content": {
+    "posts_published": 0,
+    "posts": []
+  }
+}
