@@ -1,11 +1,11 @@
 {
   "repository_metadata": {
-    "repository_name": "LineHaul Station \u2013 Driver Voice Repository",
+    "repository_name": "LineHaul Station – Driver Voice Repository",
     "audience": "Professional truck drivers, owner-operators, company drivers",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "purpose": "Structured voice intelligence system for all driver-facing bots, landing pages, emails, social posts, chatbot replies, scripts, and sales content",
-    "primary_source_type": "Jeff Swenson scripts, website copy, OneHome white paper, welcome emails, FAQ, founder articles, video presentations, bot builder guide, pricing documents",
-    "author_voice": "Jeff Swenson \u2013 Founder & CEO, LineHaul Station",
+    "primary_source_type": "Jeff Swenson scripts, website copy, OneHome white paper, welcome emails, FAQ, founder articles, video presentations, bot builder guide, pricing documents, Jeff Swenson Copy Playbook editorial revisions (March 2026)",
+    "author_voice": "Jeff Swenson – Founder & CEO, LineHaul Station",
     "intended_bot_usage": [
       "Lulu chatbot (ManyChat)",
       "Driver onboarding flows",
@@ -19,8 +19,8 @@
     ]
   },
   "brand_context": {
-    "what_linehaul_station_is": "LineHaul Station is America's first national, member-only, shared-use, flex-space, full-service truck terminal network. It is a private network of premium hubs designed to serve professional truck drivers with dignity, quality amenities, fleet services, and secure parking.",
-    "how_it_should_be_positioned": "A massive paradigm shift in trucking \u2013 a game-changer that restores pride, dignity, and quality of life for professional drivers while making trucking faster, better, and cheaper.",
+    "what_linehaul_station_is": "LineHaul Station is America's first national, member-only, shared-use, flex-space, full-service truck terminal network. It is a private network of premium hubs designed to serve American truckers with dignity, quality amenities, fleet services, and secure parking.",
+    "how_it_should_be_positioned": "A massive paradigm shift in trucking – a game-changer that restores pride, dignity, and quality of life for professional drivers while making trucking faster, better, and cheaper.",
     "what_problem_it_solves_for_drivers": [
       "Dangerous, dirty, and unreliable parking options",
       "Lack of respect and dignity on the road",
@@ -33,18 +33,20 @@
     ],
     "what_category_it_belongs_to": "Shared-use truck terminal infrastructure / Driver lifestyle platform / National freight relay network",
     "what_makes_it_different": [
-      "Member-only, gated, access-controlled \u2013 not a public truck stop",
+      "Member-only, gated, access-controlled – not a public truck stop",
       "Resort-style private drivers club (Outriders) with 25,000+ sq ft of amenities",
-      "Flex-space model \u2013 use it when and how you want, by the space",
+      "Flex-space model – use it when and how you want, by the space",
       "Driver membership is FREE",
       "Premium environment designed specifically for professional truckers",
       "National network planned for dozens of locations along major freight lanes",
       "OneHome program replaces traditional housing costs with smarter road-life living",
-      "Shared-economy model like AirBNB or NetJets applied to truck terminals"
+      "Shared-economy model like AirBNB or NetJets applied to truck terminals",
+      "Resort-quality community network – not just resort-style, but resort-quality",
+      "Gated community exclusively built to accommodate tractor-trailers"
     ]
   },
   "audience_profile": {
-    "primary_audience": "Professional truck drivers who spend significant time on the road",
+    "primary_audience": "American truckers who spend significant time on the road",
     "segments": {
       "company_drivers": {
         "description": "Drivers employed by carriers who want better conditions, respect, and quality of life on the road",
@@ -122,9 +124,9 @@
     "personality_traits": [
       "Visionary but grounded",
       "Confident without arrogance",
-      "Respectful of drivers \u2013 treats them as professionals",
+      "Respectful of drivers – treats them as professionals",
       "Slightly rebellious against industry status quo",
-      "Mission-oriented \u2013 this is a movement, not just a business",
+      "Mission-oriented – this is a movement, not just a business",
       "Premium but not fake-luxury",
       "Direct and honest",
       "Entrepreneurial energy",
@@ -157,19 +159,34 @@
       "ambassadors of commerce",
       "nothing to lose & everything to gain",
       "YOUR terminal network",
-      "built for today / designed for tomorrow"
+      "built for today / designed for tomorrow",
+      "American truckers",
+      "resort-quality",
+      "community network",
+      "lifestyle program",
+      "tractor-trailers",
+      "top-notch",
+      "fleet shop services",
+      "smartest truckers",
+      "massive win",
+      "men & women",
+      "ecosystem",
+      "your stuff"
     ],
-    "how_jeff_frames_problems": "Acknowledges driver frustrations head-on. Lists specific pain points with vivid detail. Uses industry data to validate that the system is broken. Makes it personal \u2013 'you deserve better than this.'",
+    "how_jeff_frames_problems": "Acknowledges driver frustrations head-on. Lists specific pain points with vivid detail. Uses industry data to validate that the system is broken. Makes it personal – 'you deserve better than this.'",
     "how_jeff_frames_solutions": "Presents LineHaul Station as a bold but practical answer. Frames it as something drivers have never had access to before. Uses premium comparisons (resort, private club, JW Marriott vs Motel 6). Emphasizes that driver membership is free and there's no risk."
   },
   "tone_rules": {
     "should_sound_like": [
       "A founder who genuinely respects and cares about truck drivers",
-      "Premium but approachable \u2013 like a high-end club that welcomes you warmly",
-      "Confident and convicted \u2013 this IS happening",
-      "Mission-driven \u2013 part of a bigger movement to fix trucking",
-      "Exciting \u2013 something new and amazing is coming",
-      "Direct \u2013 no corporate fluff or weasel words"
+      "Premium but approachable – like a high-end club that welcomes you warmly",
+      "Confident and convicted – this IS happening",
+      "Mission-driven – part of a bigger movement to fix trucking",
+      "Exciting – something new and amazing is coming",
+      "Direct – no corporate fluff or weasel words",
+      "Identity-driven – speaks to American truckers, not generic professional drivers",
+      "Financially specific – always includes dollar amounts and cost breakdowns",
+      "Operationally grounded – mentions tractor-trailers, fleet services, gated community"
     ],
     "should_never_sound_like": [
       "Generic marketing copy",
@@ -181,9 +198,12 @@
       "Fake-luxury with no substance",
       "Militaristic or aggressive",
       "Preachy or lecturing",
-      "Overly cautious or hedging everything"
+      "Overly cautious or hedging everything",
+      "Abstract or conceptual without concrete details",
+      "Using resort-style when resort-quality is meant",
+      "Using professional drivers in driver-facing copy (use American truckers)"
     ],
-    "aspiration_vs_practicality": "70% aspiration, 30% practicality in driver-facing content. Lead with the vision and lifestyle, then ground it with how it actually works.",
+    "aspiration_vs_practicality": "60% financial specificity, 25% aspiration, 15% operational detail in driver-facing content. Lead with dollars, support with lifestyle, ground with specifics.",
     "how_premium_to_sound": "Premium enough that drivers feel special and valued. Never so premium that it feels out of reach or intimidating. Think 'you deserve this' not 'this is exclusive and you're lucky to be here.'",
     "how_direct_to_sound": "Very direct. Drivers appreciate straight talk. No corporate hedging. Say what it is, what it costs, how to get it."
   },
@@ -203,7 +223,13 @@
       "Ambassadors of commerce",
       "Mission Possible",
       "Ready to Roll",
-      "America's BEST option"
+      "America's BEST option",
+      "Resort-quality community network",
+      "A new lifestyle program uniquely designed for American truckers",
+      "A massive win for the smartest truckers",
+      "Invest your savings and build a brighter financial future",
+      "Men & women that live on the road",
+      "Eliminate the year-round costs"
     ],
     "recurring_contrast_patterns": [
       "Truck stops vs LineHaul Station (Motel 6 vs JW Marriott)",
@@ -211,8 +237,12 @@
       "Bad parking options vs gated, secure, premium parking",
       "Paying for a home you rarely use vs OneHome flexibility",
       "Being disrespected vs being treated with dignity",
-      "Public course (truck stops) vs private club (LHS) \u2013 golf analogy",
-      "Cold showers and dirty lots vs luxury shower suites and sky deck"
+      "Public course (truck stops) vs private club (LHS) – golf analogy",
+      "Cold showers and dirty lots vs luxury shower suites and sky deck",
+      "Mortgage, rent, taxes, insurance, utilities, maintenance vs. OneHome membership (enumerate each cost)",
+      "$20,000+/year housing costs vs. saving over $14,000 annually with OneHome",
+      "Rarely-used apartment vs. resort-quality gated community",
+      "Professional drivers (corporate language) vs. American truckers (identity language)"
     ],
     "rhetorical_styles": [
       "Imagine... statements to paint the vision",
@@ -223,18 +253,18 @@
       "Rhetorical questions that make the listener nod"
     ],
     "analogy_types": [
-      "AirBNB / NetJets \u2013 shared economy model",
-      "Private golf club \u2013 membership and amenities",
-      "JW Marriott vs Motel 6 \u2013 quality comparison",
-      "Modern-Day Pony Express \u2013 freight relay",
-      "Henry Ford \u2013 paradigm shift thinking",
-      "Shipping containerization \u2013 system-level innovation"
+      "AirBNB / NetJets – shared economy model",
+      "Private golf club – membership and amenities",
+      "JW Marriott vs Motel 6 – quality comparison",
+      "Modern-Day Pony Express – freight relay",
+      "Henry Ford – paradigm shift thinking",
+      "Shipping containerization – system-level innovation"
     ],
     "emphasis_techniques": [
       "ALL CAPS for key words (BEST, FREE, YOUR, EVERYTHING)",
       "Exclamation points for energy and conviction",
       "Ellipses (....) for dramatic pause",
-      "Dashes (\u2013) for asides and emphasis",
+      "Dashes (–) for asides and emphasis",
       "Repetition of key phrases across content"
     ],
     "movement_language": [
@@ -286,7 +316,7 @@
       ]
     },
     "community_and_belonging": {
-      "summary": "The Outriders Club is more than amenities \u2013 it's a brotherhood of professional drivers committed to learning, sharing, and helping each other.",
+      "summary": "The Outriders Club is more than amenities – it's a brotherhood of professional drivers committed to learning, sharing, and helping each other.",
       "key_messages": [
         "A private drivers club built on the cornerstone of driver courtesy and mutual respect.",
         "An industry original committed to creating an unparalleled experience for every member.",
@@ -294,12 +324,14 @@
       ]
     },
     "onehome_lifestyle": {
-      "summary": "OneHome replaces the waste of maintaining a home you rarely use with a smarter, resort-style living model built for life on the road.",
+      "summary": "OneHome replaces the waste of maintaining a home you rarely use with a resort-quality community network built for American truckers. It’s a new lifestyle program that combines first-class amenities with significant financial savings.",
       "key_messages": [
-        "Stop paying for a home you rarely use.",
-        "A private, resort-style home network built exclusively for professional drivers.",
+        "Eliminate the year-round costs of mortgage, rent, taxes, insurance, utilities, and maintenance.",
+        "A private, resort-quality community network built exclusively for American truckers.",
+        "Save over $14,000 annually while upgrading your lifestyle on the road.",
         "Home, everywhere the road takes you.",
-        "Pay for the days you need. Grow into it over time."
+        "Pay for the days you use. Grow into it over time.",
+        "It’s a massive win for the smartest truckers."
       ]
     },
     "free_membership_no_risk": {
@@ -322,10 +354,10 @@
   "programs": {
     "linehaul_station": {
       "name": "LineHaul Station",
-      "audience_specific_definition": "America's first national, member-only, shared-use, flex-space truck terminal network \u2013 built specifically for professional drivers like you.",
+      "audience_specific_definition": "America's first national, member-only, shared-use, flex-space truck terminal network – built specifically for professional drivers like you.",
       "plain_english_definition": "A network of premium private truck terminals across the country where drivers get secure parking, amazing amenities, and fleet services in a gated, resort-like environment.",
       "why_it_matters": "Because you deserve access to world-class terminal infrastructure regardless of who you drive for or the size of your fleet.",
-      "value_proposition": "First-class facilities, secure parking, incredible amenities, and a private drivers club \u2013 all accessible through a free driver membership.",
+      "value_proposition": "First-class facilities, secure parking, incredible amenities, and a private drivers club – all accessible through a free driver membership.",
       "emotional_frame": "This is YOUR terminal network. Finally, someone built something amazing specifically for professional truck drivers.",
       "operational_frame": "Member-only, gated, 24/7 access, nearly 1,000 extra-wide spaces per hub, fleet services, truck wash, cross dock, and the Outriders private drivers club.",
       "how_jeff_talks_about_it": [
@@ -367,15 +399,15 @@
     },
     "outriders_club": {
       "name": "Outriders Club / Outriders Private Drivers Club",
-      "audience_specific_definition": "Your private drivers club at every LineHaul Station hub \u2013 a 25,000+ sq ft lodge-style space loaded with incredible food, entertainment, fitness, and relaxation amenities. Also a nationwide community of professional drivers committed to mutual respect.",
+      "audience_specific_definition": "Your private drivers club at every LineHaul Station hub – a 25,000+ sq ft lodge-style space loaded with incredible food, entertainment, fitness, and relaxation amenities. Also a nationwide community of professional drivers committed to mutual respect.",
       "plain_english_definition": "A physical private club at each terminal with premium amenities, plus a national driver organization focused on community, learning, and professional growth.",
-      "why_it_matters": "Because you deserve a place that treats you like a valued professional \u2013 not another dirty truck stop with overpriced food and cold showers.",
-      "value_proposition": "Premium food & drink, fitness studio, private shower suites, gaming, entertainment, sky deck, barbershop, gear shop \u2013 all designed exclusively for professional drivers.",
+      "why_it_matters": "Because you deserve a place that treats you like a valued professional – not another dirty truck stop with overpriced food and cold showers.",
+      "value_proposition": "Premium food & drink, fitness studio, private shower suites, gaming, entertainment, sky deck, barbershop, gear shop – all designed exclusively for professional drivers.",
       "emotional_frame": "This is your oasis on the road. A place where you're welcomed, respected, and can truly rest, recharge, and enjoy yourself.",
       "operational_frame": "Physical club at each hub plus member organization. Includes food (Rotisserie Craft Kitchen, Coffee & Juice Bar), entertainment (Billiards, Cornhole, Gamers Den, Virtual Trap & Skeet, Sky Deck with Firepits), wellness (Fitness Studio, Private Shower Suites, Vintage Barbershop), and services (Laundry, Gear Shop).",
       "how_jeff_talks_about_it": [
         "The place is sort of a rustic hip vibe that's loaded with fantastic amenities!",
-        "Some drivers already call it The Rig Carlton \u2013 ha!",
+        "Some drivers already call it The Rig Carlton – ha!",
         "An industry original, built on the cornerstone of driver courtesy and mutual respect.",
         "With over 25,000 square feet of incredible amenities, drivers will feel like they have exclusive membership to the Rig Carlton!"
       ],
@@ -410,20 +442,29 @@
     },
     "onehome": {
       "name": "OneHome",
-      "audience_specific_definition": "A LineHaul Station program that gives you a Home Hub and access to a private, resort-style nationwide home network built for life on the road. It's a smarter way to live \u2013 replacing the cost and hassle of a home you rarely use.",
-      "plain_english_definition": "A program where drivers choose one LineHaul Station location as their Home Hub (with mail, storage, vehicle parking) and get consistent resort-style living at every location in the network.",
-      "why_it_matters": "Because most drivers pay $1,500\u2013$2,000/month for a home they barely use. OneHome lets you pay for what you actually need and live better for less.",
-      "value_proposition": "Stop paying 365 days of housing costs for a home you rarely see. Choose a Home Hub, access the whole network, and live a resort-style life on the road at a fraction of traditional housing costs.",
-      "emotional_frame": "You do not have to live like the road has treated drivers for the last 50 years. OneHome is a relief, a breakthrough, a life upgrade \u2013 a hidden advantage that finally makes sense for truckers.",
-      "operational_frame": "Home Hub anchors mail, storage, vehicle parking. Network-wide access to consistent premium amenities. Flexible participation \u2013 start at 60 days/year and grow. Sleeper-as-bedroom concept with customization options.",
+      "audience_specific_definition": "OneHome is a new lifestyle program uniquely designed for American truckers. Drivers can now live in a high-quality, gated community exclusively built to accommodate tractor-trailers. The amenities are like a first-class resort, the fleet shop services are top-notch, and the cost is much lower than a traditional home or apartment that’s rarely used.",
+      "plain_english_definition": "A LineHaul Station program where American truckers choose one location as their home hub (with mailing address, personal vehicle parking, and storage) and get consistent resort-quality living at every location in the planned national network.",
+      "why_it_matters": "Because most drivers pay over $20,000 a year for year-round housing they use less than 100 days. OneHome can save a truck driver over $14,000 annually while giving them a far better lifestyle.",
+      "value_proposition": "Eliminate the year-round costs of mortgage or rent, taxes, insurance, utilities, and maintenance. Choose a home hub, access the whole network, and live in a resort-quality community at a fraction of traditional housing costs.",
+      "emotional_frame": "You do not have to live like the road has treated drivers for the last 50 years. OneHome is a massive win for the smartest truckers – invest your savings and build a brighter financial future while living a better life today.",
+      "operational_frame": "Home Hub anchors mail, storage, vehicle parking. Network-wide access to consistent premium amenities. Flexible participation – start at 60 days/year and grow. Sleeper-as-bedroom concept with customization options.",
       "how_jeff_talks_about_it": [
-        "Drivers can save over $15,000 per year by eliminating their current home or apartment and replacing it with the OneHome plan.",
-        "Rather than pay 365 days for rent/mortgage, utilities, maintenance and off-site truck parking on a home that you rarely use, drivers are upgrading their truck's sleeper into a hip, master bedroom and using LineHaul Station as their new home.",
-        "A private, resort-style home network built exclusively for professional drivers.",
-        "Home, everywhere the road takes you."
+        "OneHome is a new lifestyle program uniquely designed for American truckers.",
+        "Drivers can now live in a high-quality, gated community exclusively built to accommodate tractor-trailers.",
+        "The amenities are like a first-class resort, the fleet shop services are top-notch, and the cost is much lower than a traditional home or apartment.",
+        "Most drivers pay for year-round housing but they’re typically only there for less than 100 days. With current average housing costs soaring above $20,000 per year, OneHome can save a truck driver over $14,000 annually.",
+        "Invest your savings and build a brighter financial future while living a better life today. It’s a massive win for the smartest truckers.",
+        "It’s the first resort-quality community network designed for men & women that live on the road.",
+        "Eliminate the year-round costs of a mortgage or rent, taxes, insurance, utilities, maintenance and more.",
+        "A private, resort-quality community network built exclusively for American truckers."
       ],
       "approved_phrases": [
-        "Everywhere the road takes you",
+        "Everywhere The Road Takes You",
+        "A private, resort-quality community network built exclusively for American truckers",
+        "A new lifestyle program uniquely designed for American truckers",
+        "Resort-quality (not resort-style)",
+        "Community network (not home network)",
+        "American truckers (not professional drivers in driver-facing copy)",
         "A smarter way to live on the road",
         "Club-level living for drivers",
         "Stop paying for a home you rarely use",
@@ -431,7 +472,11 @@
         "More lifestyle. Less waste.",
         "The math might surprise you",
         "Built for rest, recovery, and real life",
-        "From truck stops to something far better"
+        "From truck stops to something far better",
+        "A massive win for the smartest truckers",
+        "Invest your savings and build a brighter financial future",
+        "Men & women that live on the road",
+        "Gated community exclusively built to accommodate tractor-trailers"
       ],
       "supporting_quotes": [
         "OneHome is a LineHaul Station program that gives professional drivers a Home Hub and access to a private, resort-style nationwide home network built for life on the road."
@@ -459,7 +504,7 @@
     },
     "home_hub": {
       "name": "Home Hub",
-      "audience_specific_definition": "Your primary LineHaul Station location \u2013 the spot in the network you call home. Where your mailbox, vehicle parking, and storage live. Your anchor on the road.",
+      "audience_specific_definition": "Your primary LineHaul Station location – the spot in the network you call home. Where your mailbox, vehicle parking, and storage live. Your anchor on the road.",
       "plain_english_definition": "The member's primary location in the LineHaul Station network where personal services like mail, storage, and vehicle parking are anchored.",
       "why_it_matters": "Having a Home Hub gives you a sense of permanent belonging even while living a mobile life.",
       "value_proposition": "One location that's uniquely yours within a nationwide network that feels like home everywhere.",
@@ -468,7 +513,8 @@
       "how_jeff_talks_about_it": [
         "Choose your Home Hub.",
         "Your Home Hub anchors your life on the road.",
-        "The Home Hub is the driver's primary location within the LineHaul Station network."
+        "The Home Hub is the driver's primary location within the LineHaul Station network.",
+        "Your home hub offers you a mailing address, personal vehicle parking and storage for your stuff."
       ],
       "approved_phrases": [
         "Choose your Home Hub",
@@ -483,7 +529,7 @@
         "Storage"
       ],
       "do_not_confuse_with": [
-        "Home Base (avoid this term \u2013 sounds military/operational)"
+        "Home Base (avoid this term – sounds military/operational)"
       ],
       "narrative_use_cases": [
         "OneHome explanation",
@@ -495,7 +541,7 @@
       "name": "Flex-Space",
       "audience_specific_definition": "Parking passes you buy in bundles and use whenever you need them at any LineHaul Station terminal. You only pay for the days you use it.",
       "plain_english_definition": "Single-use parking passes purchased in bundles that provide flexible, non-assigned access to available parking at any location in the network.",
-      "why_it_matters": "You get premium terminal access without committing to a dedicated space \u2013 use it when and how you want.",
+      "why_it_matters": "You get premium terminal access without committing to a dedicated space – use it when and how you want.",
       "value_proposition": "Maximum flexibility. Buy a bundle, use passes when needed, at any location. Like AirBNB for truck terminals.",
       "emotional_frame": "Freedom and flexibility. Your road, your schedule, your choice.",
       "operational_frame": "Passes expire annually. Non-assigned spaces. Used periodically. Can be shared digitally. Purchased under proprietary membership or as guest passes.",
@@ -567,7 +613,7 @@
       "audience_specific_definition": "The membership tier that gets you the lowest daily cost ($13/day operations + $6/day reserve = $19/day). Requires a one-time refundable membership fee, but the majority of that fee comes back to you when you leave.",
       "plain_english_definition": "A membership that includes a one-time refundable capital participation fee and access to lower daily usage rates. Available as dedicated space or flex-space bundles.",
       "why_it_matters": "It's the smartest way to access the network long-term. Lower daily costs and your initial investment is refundable.",
-      "value_proposition": "One-time refundable fee + $19/day. Your participation is protected \u2013 think of it like an investment you get back.",
+      "value_proposition": "One-time refundable fee + $19/day. Your participation is protected – think of it like an investment you get back.",
       "emotional_frame": "This isn't money you're throwing away. It's more like buying into a private club where your initiation fee comes back to you.",
       "operational_frame": "Refundable membership fee based on pass quantity. Can be financed over 12 months. $19/day total dues ($13 operations + $6 reserve). Can cancel after first year. Refund based on first-member-in/first-member-out. 20% transfer fee applies.",
       "how_jeff_talks_about_it": [
@@ -601,7 +647,7 @@
     },
     "guest_pass_outrider_access": {
       "name": "Guest Pass / Outrider Access",
-      "audience_specific_definition": "Day-by-day access to any LineHaul Station terminal without buying a membership. $59/day \u2013 just show up and use it.",
+      "audience_specific_definition": "Day-by-day access to any LineHaul Station terminal without buying a membership. $59/day – just show up and use it.",
       "plain_english_definition": "A pay-as-you-go daily pass for drivers who are free Outriders Club members but do not hold a proprietary membership. Costs $59 per day.",
       "why_it_matters": "You can try LineHaul Station without any long-term commitment. No membership fee required.",
       "value_proposition": "Full access, no strings attached. Great for trying the network or occasional use.",
@@ -637,7 +683,7 @@
       "plain_english_definition": "A member referral program that rewards drivers for growing the LineHaul Station community by inviting quality members.",
       "why_it_matters": "You help build the community, we reward you with free network access. Simple give and take.",
       "value_proposition": "Refer 10 drivers. They refer 10 more. Hit growth benchmarks and earn free use of the network for years to come.",
-      "emotional_frame": "You're not just joining a club \u2013 you're helping build something. And we reward you for it.",
+      "emotional_frame": "You're not just joining a club – you're helping build something. And we reward you for it.",
       "operational_frame": "Referral-based membership growth. Rewards tied to growth benchmarks. Can earn free passes. Founders Membership option includes seat on Driver's Advisory Board.",
       "how_jeff_talks_about_it": [
         "Can you think of 10 other drivers that fit that description? Invite them to join. It's that simple.",
@@ -711,7 +757,7 @@
       "audience_specific_definition": "On-site maintenance, repair, inspection, and truck wash at LineHaul Station terminals. Our expert team treats your rig like it's their own.",
       "plain_english_definition": "Comprehensive fleet maintenance center at each hub offering inspection, repair, maintenance services, truck wash, and cross-dock capabilities.",
       "why_it_matters": "Keep your rig in top shape without hunting for a reliable shop. Our team has the experience and fair pricing to keep you on the road.",
-      "value_proposition": "High-quality maintenance, strong supplier relationships, fair labor rates, state-of-the-art truck wash, and cross-dock services \u2013 all at your terminal.",
+      "value_proposition": "High-quality maintenance, strong supplier relationships, fair labor rates, state-of-the-art truck wash, and cross-dock services – all at your terminal.",
       "emotional_frame": "Your truck gets its own TLC while you relax in the Outriders Club.",
       "operational_frame": "Inspection, maintenance, repair. Truck wash. Cross-dock. Experienced team. Competitive pricing. Fair labor rates. Available at most locations.",
       "how_jeff_talks_about_it": [
@@ -780,7 +826,7 @@
     "linehaul_station": {
       "term": "LineHaul Station",
       "term_type": "Brand / Company",
-      "driver_definition": "America's first national, member-only, shared-use truck terminal network \u2013 built for professional drivers who deserve better than truck stops.",
+      "driver_definition": "America's first national, member-only, shared-use truck terminal network – built for professional drivers who deserve better than truck stops.",
       "plain_definition": "A planned national network of premium private truck terminals offering secure parking, fleet services, and driver amenities.",
       "jeff_style_definition": "A major game-changer for the trucking industry. America's BEST option for first-class, private truck terminal space.",
       "when_to_use": "Always when referring to the company, the network, or the overall program.",
@@ -812,7 +858,7 @@
         "Video scripts",
         "All source material"
       ],
-      "notes": "Always refer to as 'LineHaul Station' \u2013 not 'LHS' in customer-facing content unless space-constrained."
+      "notes": "Always refer to as 'LineHaul Station' – not 'LHS' in customer-facing content unless space-constrained."
     },
     "outriders_club": {
       "term": "Outriders Club / Outriders Private Drivers Club",
@@ -821,7 +867,7 @@
       "plain_definition": "A physical private club at each terminal plus a driver membership organization.",
       "jeff_style_definition": "An industry original, built on the cornerstone of driver courtesy and mutual respect, committed to creating an unparalleled experience for every member.",
       "when_to_use": "When describing driver amenities, the club experience, or driver community.",
-      "when_not_to_use": "Do not use 'Outriders' alone without context \u2013 always connect it to LineHaul Station or the drivers club.",
+      "when_not_to_use": "Do not use 'Outriders' alone without context – always connect it to LineHaul Station or the drivers club.",
       "synonyms_or_related": [
         "The Rig Carlton",
         "Drivers Club",
@@ -853,9 +899,9 @@
       "term_type": "Brand nickname / Cultural phrase",
       "driver_definition": "The nickname drivers have given LineHaul Station because the amenities are so impressive it feels like staying at a luxury hotel.",
       "plain_definition": "An informal, affectionate nickname for LineHaul Station terminals comparing them to the Ritz-Carlton hotel brand.",
-      "jeff_style_definition": "In fact, it's so darn nice that some drivers have already nicknamed it The Rig Carlton \u2013 Ha!",
+      "jeff_style_definition": "In fact, it's so darn nice that some drivers have already nicknamed it The Rig Carlton – Ha!",
       "when_to_use": "When emphasizing the premium quality of the driver experience. Great for social media, casual conversation, and culture-building.",
-      "when_not_to_use": "Avoid in formal legal or investor documents. Use sparingly \u2013 don't overdo it.",
+      "when_not_to_use": "Avoid in formal legal or investor documents. Use sparingly – don't overdo it.",
       "synonyms_or_related": [
         "Outriders Club",
         "Premium amenities",
@@ -866,7 +912,7 @@
       ],
       "approved_descriptors": [],
       "supporting_quotes": [
-        "Some drivers already call it The Rig Carlton \u2013 ha!"
+        "Some drivers already call it The Rig Carlton – ha!"
       ],
       "source_origin": [
         "Video scripts",
@@ -917,17 +963,17 @@
     "home_hub": {
       "term": "Home Hub",
       "term_type": "Concept / Term",
-      "driver_definition": "Your primary LineHaul Station location \u2013 where your mailbox, vehicle parking, and storage are anchored. Your home base in the network.",
+      "driver_definition": "Your primary LineHaul Station location – where your mailbox, vehicle parking, and storage are anchored. Your home base in the network.",
       "plain_definition": "The member's primary location in the LineHaul Station network for personal services.",
       "jeff_style_definition": "Your Home Hub anchors your life on the road. One Home Hub. A nationwide network.",
       "when_to_use": "Always when referring to a driver's primary location. This is the preferred term.",
-      "when_not_to_use": "N/A \u2013 this is the default term.",
+      "when_not_to_use": "N/A – this is the default term.",
       "synonyms_or_related": [
         "Primary location",
         "Home location"
       ],
       "contrast_terms": [
-        "Home Base (AVOID \u2013 sounds military/operational)"
+        "Home Base (AVOID – sounds military/operational)"
       ],
       "approved_descriptors": [],
       "supporting_quotes": [
@@ -975,7 +1021,7 @@
       "term_type": "Membership tier",
       "driver_definition": "The membership level that gives you the lowest daily cost. You pay a one-time refundable fee plus just $19/day. Most of your initial fee comes back when you leave.",
       "plain_definition": "A membership tier requiring a refundable capital participation fee in exchange for significantly lower daily usage rates.",
-      "jeff_style_definition": "The great news is that most of the membership fee is TOTALLY REFUNDABLE when the membership is retired \u2013 think of it like buying and then selling any other property you have.",
+      "jeff_style_definition": "The great news is that most of the membership fee is TOTALLY REFUNDABLE when the membership is retired – think of it like buying and then selling any other property you have.",
       "when_to_use": "When explaining the economics of membership, comparing to guest passes, or discussing long-term value.",
       "when_not_to_use": "Do not lead with the large upfront number without immediately explaining it's refundable.",
       "synonyms_or_related": [
@@ -1011,7 +1057,7 @@
       "plain_definition": "A daily access pass for non-proprietary members at $59 per day.",
       "jeff_style_definition": "A guest pass provides access to the terminal without any proprietary membership commitment.",
       "when_to_use": "When explaining low-commitment options or for drivers trying the network for the first time.",
-      "when_not_to_use": "Do not position as the primary recommendation \u2013 proprietary membership is better value for regular users.",
+      "when_not_to_use": "Do not position as the primary recommendation – proprietary membership is better value for regular users.",
       "synonyms_or_related": [
         "Day pass",
         "Pay-as-you-go",
@@ -1063,7 +1109,7 @@
     "modern_day_pony_express": {
       "term": "Modern-Day Pony Express",
       "term_type": "Vision / Analogy",
-      "driver_definition": "The future of freight movement \u2013 trailers passed like batons through hubs across the country, with drivers working normal shifts and getting home daily.",
+      "driver_definition": "The future of freight movement – trailers passed like batons through hubs across the country, with drivers working normal shifts and getting home daily.",
       "plain_definition": "An analogy describing the LineHaul Station freight relay system where freight is continuously moved through a hub-and-spoke network.",
       "jeff_style_definition": "This Modern-Day Pony Express is fueled by a large base of dedicated, reliable, power-only capacity coupled with carriers, brokers & private fleets that plug freight into a system that rolls 24/7.",
       "when_to_use": "When discussing the relay vision, future of trucking, or long-term LineHaul Station plans.",
@@ -1126,11 +1172,11 @@
     "shared_economy_model": {
       "term": "Shared-Economy Model",
       "term_type": "Business concept",
-      "driver_definition": "The same idea behind AirBNB and NetJets \u2013 instead of one person owning the whole thing, many people share it. You get premium terminal access at a fraction of what it would cost to build your own.",
+      "driver_definition": "The same idea behind AirBNB and NetJets – instead of one person owning the whole thing, many people share it. You get premium terminal access at a fraction of what it would cost to build your own.",
       "plain_definition": "A business model where infrastructure costs are distributed across multiple users, reducing per-user cost while improving quality.",
       "jeff_style_definition": "It's a shared-economy business model that works like AirBNB or NetJets. Members use it BY THE SPACE.",
       "when_to_use": "When explaining why LineHaul Station is affordable or how the business model works.",
-      "when_not_to_use": "Avoid overusing \u2013 it's an analogy, not the core identity.",
+      "when_not_to_use": "Avoid overusing – it's an analogy, not the core identity.",
       "synonyms_or_related": [
         "Shared-use",
         "Flex-space model",
@@ -1184,7 +1230,7 @@
     "code_of_conduct": {
       "term": "Code of Conduct",
       "term_type": "Policy / Standard",
-      "driver_definition": "Our commitment to keeping LineHaul Station a place of mutual respect. All members sign a code of conduct. We have zero tolerance for bad actors \u2013 only the best drivers are welcome.",
+      "driver_definition": "Our commitment to keeping LineHaul Station a place of mutual respect. All members sign a code of conduct. We have zero tolerance for bad actors – only the best drivers are welcome.",
       "plain_definition": "A behavioral agreement all members sign, committing to respectful conduct and proper use of facilities.",
       "jeff_style_definition": "We have zero tolerance for any bad actors or drivers with questionable character. We are only interested in serving top notch truck drivers that will be kind to fellow drivers, treat our property like it's their own and practice respect for everyone.",
       "when_to_use": "When explaining membership requirements or the quality-of-community promise.",
@@ -1214,7 +1260,7 @@
     "sleeper_makeover": {
       "term": "Sleeper Makeover / Sleeper Customization",
       "term_type": "Program concept",
-      "driver_definition": "A program to upgrade your truck's sleeper into a comfortable, personalized bedroom. Premium mattresses, bedding, pillows, d\u00e9cor, and entertainment options.",
+      "driver_definition": "A program to upgrade your truck's sleeper into a comfortable, personalized bedroom. Premium mattresses, bedding, pillows, décor, and entertainment options.",
       "plain_definition": "A service or program to improve the sleeping environment in a truck's sleeper cab.",
       "jeff_style_definition": "Drivers are upgrading their truck's sleeper into a hip, master bedroom.",
       "when_to_use": "When discussing OneHome lifestyle, road-life comfort, or sleeper-as-bedroom concept.",
@@ -1242,7 +1288,7 @@
     "west_memphis": {
       "term": "West Memphis",
       "term_type": "Location",
-      "driver_definition": "The first LineHaul Station terminal \u2013 located in West Memphis at 1212 Martin Luther King Drive, just one block from the I-40 and I-55 interchange.",
+      "driver_definition": "The first LineHaul Station terminal – located in West Memphis at 1212 Martin Luther King Drive, just one block from the I-40 and I-55 interchange.",
       "plain_definition": "First planned LineHaul Station hub location.",
       "jeff_style_definition": "We are opening our first location in WEST MEMPHIS just one block from the interchange at I-40 where it also connects with I-55.",
       "when_to_use": "When discussing the first terminal, launch timeline, or geographic positioning.",
@@ -1271,7 +1317,7 @@
     "pay_as_you_go_option": {
       "name": "Guest Pass / Outrider Access",
       "daily_rate": "$59/day",
-      "what_it_includes": "Full facility access \u2013 parking, amenities, fleet services access",
+      "what_it_includes": "Full facility access – parking, amenities, fleet services access",
       "what_it_does_not_include": "No capital participation. No reduced daily rate.",
       "best_for": "Drivers trying the network for the first time or occasional users."
     },
@@ -1306,7 +1352,7 @@
     },
     "driver_narrative": {
       "framing": "OneHome lifestyle savings",
-      "typical_driver_home_costs": "$1,500 \u2013 $2,000/month for rent, utilities, maintenance, storage, truck parking",
+      "typical_driver_home_costs": "$1,500 – $2,000/month for rent, utilities, maintenance, storage, truck parking",
       "onehome_potential_savings": "~$1,200/month average savings (scenario dependent)",
       "how_it_works": "Replace fixed housing costs with flexible LineHaul Station participation. Start with as few as 60 days/year. Grow over time. As participation pays down, daily cost approaches $19/day operating floor.",
       "key_messaging": [
@@ -1362,7 +1408,7 @@
         "Top Ten Truckers eligibility",
         "Member events and communications"
       ],
-      "what_it_does_not_include": "Parking passes \u2013 these must be purchased, requested, or earned separately.",
+      "what_it_does_not_include": "Parking passes – these must be purchased, requested, or earned separately.",
       "signup_process": "Go to LineHaulStation.com, complete membership agreement. Takes a couple minutes. No obligation if never used.",
       "qr_access": "QR code for gate access issued once terminal is open and profile is complete."
     },
@@ -1372,7 +1418,7 @@
         "Dedicated Space (24/7/365 assigned)",
         "Flex-Space (bundle of passes)"
       ],
-      "who_typically_buys": "Carriers, brokers, fleets, owner-operators \u2013 anyone wanting lower daily cost and network investment.",
+      "who_typically_buys": "Carriers, brokers, fleets, owner-operators – anyone wanting lower daily cost and network investment.",
       "pass_sharing": "Proprietary members can digitally share passes with any driver.",
       "cancellation": "Can cancel after first year. Refund based on program terms. 60-day notice period. First-in/first-out refund rotation. 20% transfer fee.",
       "refund_key_points": [
@@ -1445,7 +1491,7 @@
     },
     {
       "question": "What amenities are available?",
-      "approved_short_answer": "Our Outriders Club features a restaurant, fitness center, private shower suites, gaming center, sky deck, barbershop, gear shop, and much more \u2013 plus fleet services, truck wash, and cross dock.",
+      "approved_short_answer": "Our Outriders Club features a restaurant, fitness center, private shower suites, gaming center, sky deck, barbershop, gear shop, and much more – plus fleet services, truck wash, and cross dock.",
       "approved_detailed_answer": "The Outriders Club includes a Rotisserie Craft Kitchen, Coffee & Juice Bar, Sports Lounge with Fireplace, Open-Air Dining, fitness studio, private shower suites, digital gaming center, billiards room, virtual trap & skeet, cornhole courts, sky deck with firepits, vintage barbershop, apparel & gear shop, and laundry facilities. Our terminals also include a fleet services center for maintenance and repair, a state-of-the-art truck wash, and a cross dock.",
       "audience": "drivers",
       "related_terms": [
@@ -1482,7 +1528,7 @@
     },
     {
       "question": "What is OneHome?",
-      "approved_short_answer": "OneHome is a LineHaul Station program that gives you a Home Hub and access to a nationwide network of premium locations \u2013 a smarter, resort-style alternative to paying for a home you rarely use.",
+      "approved_short_answer": "OneHome is a LineHaul Station program that gives you a Home Hub and access to a nationwide network of premium locations – a smarter, resort-style alternative to paying for a home you rarely use.",
       "approved_detailed_answer": "OneHome is the first nationwide home network designed specifically for professional truck drivers. You choose a Home Hub for essentials like mail, storage, and personal vehicle parking, while gaining access to a growing network of LineHaul Station locations that deliver a consistent, high-quality lifestyle experience. It's designed as a smarter alternative to maintaining a traditional home you rarely use, with the ability to start small and grow your participation over time.",
       "audience": "drivers",
       "related_terms": [
@@ -1623,7 +1669,7 @@
         "source_type": "Welcome email"
       },
       {
-        "quote": "Mission Possible is our battle cry \u2013 it won't be easy, but CAN be done.",
+        "quote": "Mission Possible is our battle cry – it won't be easy, but CAN be done.",
         "speaker": "Jeff Swenson",
         "topic": "Mission",
         "audience": "drivers",
@@ -1824,16 +1870,16 @@
   ],
   "narrative_arcs": {
     "broken_road_life_to_better_future": {
-      "arc_name": "Life on the road is broken \u2192 Here's a better life",
+      "arc_name": "Life on the road is broken → Here's a better life",
       "problem": "Drivers endure dangerous conditions, poor parking, cold showers, dirty lots, bad food, disrespect, and time away from family.",
       "breakthrough": "LineHaul Station is building a national network of premium private terminals specifically for professional drivers.",
       "how_it_works": "Join for free. Get access to gated, secure terminals with incredible amenities. Use guest passes or join as a proprietary member.",
-      "lifestyle": "Premium food, private showers, fitness, entertainment, sky deck \u2013 all in a resort-like environment.",
+      "lifestyle": "Premium food, private showers, fitness, entertainment, sky deck – all in a resort-like environment.",
       "financial_logic": "OneHome can replace wasted housing costs. Passes start at $59/day or $19/day with participation.",
       "future": "A growing national network. Freight relay could mean drivers get home daily."
     },
     "wasted_home_costs_to_onehome": {
-      "arc_name": "Home you rarely use \u2192 OneHome and Home Hub",
+      "arc_name": "Home you rarely use → OneHome and Home Hub",
       "problem": "Most drivers pay $1,500-$2,000/month for a home they barely occupy. That's wasted money on rent, utilities, and maintenance for an empty place.",
       "breakthrough": "OneHome by LineHaul Station lets you replace those fixed costs with flexible, resort-style network access.",
       "how_it_works": "Choose a Home Hub for mail, storage, and vehicle parking. Access any LineHaul Station location in the network.",
@@ -1842,7 +1888,7 @@
       "future": "As the network expands, you have home everywhere the road takes you."
     },
     "truck_stop_life_to_resort_living": {
-      "arc_name": "Truck stops \u2192 Resort on the road",
+      "arc_name": "Truck stops → Resort on the road",
       "problem": "Cold showers, overpriced food, unsafe parking, no privacy, no respect.",
       "breakthrough": "LineHaul Station is to truck stops what a JW Marriott is to a Motel 6.",
       "how_it_works": "Join the Outriders Club for free. Access 25,000+ sq ft of premium amenities at every hub.",
@@ -1856,7 +1902,7 @@
       "objection": "This sounds too good to be true.",
       "guidance": "Acknowledge the skepticism respectfully. Emphasize that LineHaul Station is backed by real investment, real development, and the first terminal is opening in West Memphis. Invite them to check the website, see the renderings, and join for free with no obligation.",
       "suggested_response_themes": [
-        "We understand \u2013 the industry has broken a lot of promises.",
+        "We understand – the industry has broken a lot of promises.",
         "That's exactly why driver membership is free. No risk, no obligation.",
         "Check out our website and see the renderings. This is real.",
         "We're backed by real capital and our first terminal is opening soon in West Memphis."
@@ -1864,9 +1910,9 @@
     },
     "why_would_i_pay_for_this": {
       "objection": "Why would I pay for this when truck stops are free to park at?",
-      "guidance": "Acknowledge that some truck stops offer free parking, but contrast the experience. Emphasize safety, quality, amenities, and the gated/controlled environment. Point out that driver membership is free \u2013 they'd only pay for parking passes.",
+      "guidance": "Acknowledge that some truck stops offer free parking, but contrast the experience. Emphasize safety, quality, amenities, and the gated/controlled environment. Point out that driver membership is free – they'd only pay for parking passes.",
       "suggested_response_themes": [
-        "Driver membership is free \u2013 you only pay for the parking pass when you use it.",
+        "Driver membership is free – you only pay for the parking pass when you use it.",
         "Think about what free parking at a truck stop actually costs you: safety risk, no amenities, no rest quality, stress.",
         "This is a private, gated, member-only environment with resort-level amenities. It's a completely different experience.",
         "And if your carrier or broker buys passes, it may not cost you anything at all."
@@ -1876,9 +1922,9 @@
       "objection": "I already have a house/apartment.",
       "guidance": "Don't challenge their housing choice. Position OneHome as an alternative worth exploring, especially if they're paying for a home they rarely use. Reference the savings calculator.",
       "suggested_response_themes": [
-        "That's great \u2013 OneHome isn't for everyone and we'd never suggest it doesn't work for you.",
+        "That's great – OneHome isn't for everyone and we'd never suggest it doesn't work for you.",
         "But if you're curious, many drivers find they're paying $1,500-$2,000/month for a place they only use a few days a month.",
-        "OneHome gives you the option to start small \u2013 even 60 days/year \u2013 and see if the math works for your situation.",
+        "OneHome gives you the option to start small – even 60 days/year – and see if the math works for your situation.",
         "The math might surprise you."
       ]
     },
@@ -1887,7 +1933,7 @@
       "guidance": "Validate the concern. Offer multiple paths: the driver can buy their own passes, earn free ones through referrals, or consider working with a carrier that participates.",
       "suggested_response_themes": [
         "You have options. You can purchase passes yourself, or earn free passes through our Top Ten Truckers referral program.",
-        "We also plan to list all member carriers and brokers on our website \u2013 so you can see which companies support their drivers this way.",
+        "We also plan to list all member carriers and brokers on our website – so you can see which companies support their drivers this way.",
         "If your carrier won't support you with passes, maybe it's time to find one that will. The choice is yours.",
         "And remember, your membership is free either way."
       ]
@@ -1906,23 +1952,23 @@
   "conversation_guidance": {
     "explaining_linehaul_station": {
       "short": "LineHaul Station is a national network of private, member-only truck terminals with secure parking, fleet services, and an amazing private drivers club. Driver membership is free.",
-      "medium": "LineHaul Station is America's first member-only, flex-space truck terminal network. We're building premium hubs across the country with gated parking, fleet maintenance, and the Outriders private drivers club \u2013 loaded with food, fitness, entertainment, and more. Driver membership is free. You just need a parking pass to use the terminal, which you can buy, request from your carrier, or earn through our referral program.",
-      "long": "Use the full narrative arc: problem (bad parking, no respect, poor conditions) \u2192 breakthrough (LineHaul Station, first-of-its-kind) \u2192 how it works (free membership, parking passes, shared-economy model) \u2192 lifestyle (Outriders Club, amenities, resort-like experience) \u2192 financial (OneHome savings, $19/day floor) \u2192 future (growing network, freight relay vision, drivers home daily).",
+      "medium": "LineHaul Station is America's first member-only, flex-space truck terminal network. We're building premium hubs across the country with gated parking, fleet maintenance, and the Outriders private drivers club – loaded with food, fitness, entertainment, and more. Driver membership is free. You just need a parking pass to use the terminal, which you can buy, request from your carrier, or earn through our referral program.",
+      "long": "Use the full narrative arc: problem (bad parking, no respect, poor conditions) → breakthrough (LineHaul Station, first-of-its-kind) → how it works (free membership, parking passes, shared-economy model) → lifestyle (Outriders Club, amenities, resort-like experience) → financial (OneHome savings, $19/day floor) → future (growing network, freight relay vision, drivers home daily).",
       "when_to_lead_with_emotion": "When talking to drivers about their daily struggles, quality of life, or sense of being undervalued.",
-      "when_to_lead_with_economics": "When discussing pricing, OneHome savings, or comparing to housing/parking costs.",
+      "when_to_lead_with_economics": "When discussing pricing, OneHome savings, or comparing to housing/parking costs. Always use specific dollar amounts: $20,000+ annual housing costs, $14,000+ annual savings. Enumerate costs eliminated: mortgage/rent, taxes, insurance, utilities, maintenance.",
       "when_to_lead_with_infrastructure": "When discussing terminal features, security, fleet services, or location specifics."
     },
     "explaining_pricing": {
       "simple": "Driver membership is free. Parking is $59/day guest access, or $19/day with a proprietary membership.",
       "detailed": "Three ways to pay: Guest pass at $59/day with no commitment. Proprietary membership with a one-time refundable fee plus $19/day. Or earn free passes through referrals. The proprietary fee is like an investment that comes back to you.",
-      "when_asked_about_the_big_numbers": "Always lead with the daily cost ($19/day or $59/day). Then explain the participation fee. Always immediately mention it's refundable. Compare it to buying property \u2013 you get your money back."
+      "when_asked_about_the_big_numbers": "Always lead with the daily cost ($19/day or $59/day). Then explain the participation fee. Always immediately mention it's refundable. Compare it to buying property – you get your money back."
     }
   },
   "bot_behavior_rules": [
-    "Always address drivers as 'you' and 'your' \u2013 make it personal.",
+    "Always address drivers as 'you' and 'your' – make it personal.",
     "Never mix carrier-facing framing with driver-facing framing unless explicitly appropriate.",
     "Do not reintroduce the bot (Lulu) in every flow. Greet once, then stay conversational.",
-    "Always respond to typed user questions \u2013 never deflect or give non-answers.",
+    "Always respond to typed user questions – never deflect or give non-answers.",
     "Handle pricing questions directly. Never dodge or redirect without providing information.",
     "Use Jeff Swenson's phrasing and vocabulary whenever possible. Do not genericize.",
     "Keep messaging premium, aspirational, and driver-respecting at all times.",
@@ -1931,7 +1977,7 @@
     "Never sound like a truck stop ad. Sound like a premium private club invitation.",
     "When a driver expresses frustration about the industry, validate their feelings before presenting solutions.",
     "Always have a clear next step: join free, visit website, contact us, learn more.",
-    "Buttons and links should always lead somewhere meaningful \u2013 never dead ends.",
+    "Buttons and links should always lead somewhere meaningful – never dead ends.",
     "Use the glossary for consistent terminology. Same terms, same definitions, every time."
   ],
   "source_trace": {
@@ -1951,7 +1997,7 @@
   },
   "content_filtering_rules": {
     "approved_core_voice": "All polished website copy, FAQ content, OneHome white paper language, welcome email final copy, approved video scripts",
-    "founder_style_strong_opinionated": "Jeff's driver negative chatter comments, political references, strong personal opinions \u2013 preserve for context but DO NOT use as default bot language",
+    "founder_style_strong_opinionated": "Jeff's driver negative chatter comments, political references, strong personal opinions – preserve for context but DO NOT use as default bot language",
     "internal_note_only": "Bot builder revision notes, flow change requests, button corrections, duplicate text flags",
     "requires_verification": [
       "Asset utilization claim: trucks could go from 80,000 to 300,000 miles/year",
@@ -1975,6 +2021,25 @@
       "Specific personal deal volume claims ($2 billion)",
       "Strong opinions about flip flops or dress code debates",
       "Any language that could be perceived as attacking specific driver groups"
-    ]
+    ],
+    "voice_corrections_march_2026": {
+      "description": "Jeff Swenson editorial corrections applied March 2026. These are hard rules for all driver-facing copy.",
+      "rules": [
+        "ALWAYS use American truckers in driver-facing copy, not professional drivers",
+        "ALWAYS use resort-quality, not resort-style",
+        "ALWAYS use community network, not home network, when describing OneHome",
+        "ALWAYS use ecosystem, not universe, when describing LineHaul Station brand architecture",
+        "ALWAYS use LineHaul Station’s OneHome (possessive), not LineHaul Station OneHome",
+        "ALWAYS capitalize The in tagline: Everywhere The Road Takes You",
+        "ALWAYS enumerate specific costs being eliminated (mortgage/rent, taxes, insurance, utilities, maintenance)",
+        "ALWAYS include dollar figures when making the financial case ($20K+ costs, $14K+ savings)",
+        "PREFER lifestyle program over home network as the category descriptor",
+        "PREFER men & women that live on the road over people who live on the road",
+        "PREFER smartest truckers, massive win as aspirational framing",
+        "PREFER first-class resort over resort-style when describing amenity quality",
+        "INCLUDE at least one operational detail (tractor-trailers, fleet services, gated) in any OneHome description",
+        "Use your stuff, your mail, your vehicle – conversational possessive language"
+      ]
+    }
   }
 }
