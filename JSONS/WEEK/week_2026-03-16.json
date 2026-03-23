@@ -6,7 +6,7 @@
     "meta_account": "new_account",
     "data_confidence": "confirmed_csv",
     "milestone": "",
-    "notes": "",
+    "notes": "Rebased running_total_members to 1510 from CRM export (was 1437 from running sum). Gap of 73 from estimated early weeks.",
     "generated": "2026-03-23"
   },
   "ads": {
@@ -22,7 +22,7 @@
       "active_ad_count": 18,
       "total_ad_count": 24,
       "running_total_spend": 12616.09,
-      "alltime_cost_per_member": 8.78
+      "alltime_cost_per_member": 8.36
     },
     "ads": [
       {
@@ -678,8 +678,8 @@
   "membership": {
     "new_members": 127,
     "cost_per_member": 6.19,
-    "running_total_members": 1437,
-    "progress_to_500k": 0.002874
+    "running_total_members": 1510,
+    "progress_to_500k": 0.00302
   },
   "content": {
     "posts_published": 0,
