@@ -1,12 +1,12 @@
 {
   "description": "LineHaul Station Weekly Marketing History",
-  "generated": "2026-03-16",
+  "generated": "2026-03-23",
   "first_member_date": "2025-10-08",
   "reporting_start": "2025-10-06",
-  "total_weeks": 23,
-  "total_spend": 11830.1,
-  "total_members": 1310,
-  "alltime_cost_per_member": 9.03,
+  "total_weeks": 24,
+  "total_spend": 12616.09,
+  "total_members": 1437,
+  "alltime_cost_per_member": 8.78,
   "eras": {
     "original": {
       "start": "2025-10-06",
@@ -272,6 +272,17 @@
       "spend": 747.87,
       "new_members": 25,
       "milestone": "Campaign Expansion Week"
+    },
+    {
+      "filename": "week_2026-03-16.json",
+      "week_start": "2026-03-16",
+      "week_end": "2026-03-22",
+      "era": "new_account",
+      "meta_account": "new_account",
+      "confidence": "confirmed_csv",
+      "spend": 785.99,
+      "new_members": 127,
+      "milestone": ""
     }
   ]
 }
