@@ -2,9 +2,9 @@
   "repository_metadata": {
     "repository_name": "LineHaul Station – Driver Voice Repository",
     "audience": "Professional truck drivers, owner-operators, company drivers",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "purpose": "Structured voice intelligence system for all driver-facing bots, landing pages, emails, social posts, chatbot replies, scripts, and sales content",
-    "primary_source_type": "Jeff Swenson scripts, website copy, OneHome white paper, welcome emails, FAQ, founder articles, video presentations, bot builder guide, pricing documents, Jeff Swenson Copy Playbook editorial revisions (March 2026)",
+    "primary_source_type": "Jeff Swenson scripts, website copy, OneHome white paper, welcome emails, FAQ, founder articles, video presentations, bot builder guide, pricing documents, Jeff Swenson Copy Playbook editorial revisions (March 2026), OneHome Copy Bible (March 2026), OneHome Deep Dive Final Edits (March 2026), Jeff's Voice Feed social media revisions (March 25, 2026), OneHome Driver Price Sheet — West Memphis Early Adopter (March 2026)",
     "author_voice": "Jeff Swenson – Founder & CEO, LineHaul Station",
     "intended_bot_usage": [
       "Lulu chatbot (ManyChat)",
@@ -15,7 +15,10 @@
       "Email generation",
       "Social media content",
       "Landing page copy generation",
-      "Driver sales conversations"
+      "Driver sales conversations",
+      "Sales center conversations",
+      "Price sheet and membership explainers",
+      "Social media content (Jeff's voice revisions)"
     ]
   },
   "brand_context": {
@@ -34,15 +37,17 @@
     "what_category_it_belongs_to": "Shared-use truck terminal infrastructure / Driver lifestyle platform / National freight relay network",
     "what_makes_it_different": [
       "Member-only, gated, access-controlled – not a public truck stop",
-      "Resort-style private drivers club (Outriders) with 25,000+ sq ft of amenities",
+      "Resort-quality private drivers club (Outriders) with 25,000+ sq ft of amenities",
       "Flex-space model – use it when and how you want, by the space",
       "Driver membership is FREE",
-      "Premium environment designed specifically for professional truckers",
+      "Premium environment designed specifically for American truckers",
       "National network planned for dozens of locations along major freight lanes",
       "OneHome program replaces traditional housing costs with smarter road-life living",
       "Shared-economy model like AirBNB or NetJets applied to truck terminals",
       "Resort-quality community network – not just resort-style, but resort-quality",
-      "Gated community exclusively built to accommodate tractor-trailers"
+      "Gated community exclusively built to accommodate tractor-trailers",
+      "Fleet Services on-site — repairs, maintenance, inspections, truck wash",
+      "Only 133 Early Adopter spaces at West Memphis launch"
     ]
   },
   "audience_profile": {
@@ -133,7 +138,7 @@
       "Nostalgic about trucking's proud past"
     ],
     "emotional_posture": "Stands alongside drivers. Acknowledges their pain and frustration. Offers a real solution built with conviction. Balances empathy with high standards and accountability.",
-    "persuasion_style": "Leads with emotional truth (drivers deserve better), supports with operational logic (here's how it works), closes with community invitation (join us, nothing to lose). Uses strong contrasts between current pain and the LineHaul Station alternative.",
+    "persuasion_style": "Leads with emotional truth (drivers deserve better), supports with financial specifics (always include a dollar amount), grounds with operational detail (tractor-trailers, fleet services, gated community), and closes with aspiration (massive win for the smartest truckers). Uses 'we' solidarity language — stands alongside drivers, not across from them. Extends financial argument from monthly savings to annual savings to lifetime wealth building.",
     "cadence": "Conversational and energetic. Uses short punchy sentences mixed with longer explanatory ones. Frequently uses exclamation points and emphasis. Asks rhetorical questions. Builds momentum toward a call to action.",
     "vocabulary_tendencies": [
       "first-class",
@@ -171,7 +176,28 @@
       "massive win",
       "men & women",
       "ecosystem",
-      "your stuff"
+      "your stuff",
+      "live smart, save money and build long term wealth",
+      "flushing money down the drain",
+      "look under the hood",
+      "take a peek",
+      "UNTIL NOW",
+      "traditional home or apartment",
+      "hard-earned income",
+      "game changer",
+      "Member's Grill",
+      "Camp K9",
+      "Resort Pool & Spa",
+      "Digital Den",
+      "Sky Deck",
+      "Absolutely Amazing Amenities",
+      "sundries",
+      "Storage Lockers",
+      "Personal Vehicle",
+      "better save for retirement",
+      "staggering amount of money",
+      "no more flushing money down the drain",
+      "#letsfixtrucking"
     ],
     "how_jeff_frames_problems": "Acknowledges driver frustrations head-on. Lists specific pain points with vivid detail. Uses industry data to validate that the system is broken. Makes it personal – 'you deserve better than this.'",
     "how_jeff_frames_solutions": "Presents LineHaul Station as a bold but practical answer. Frames it as something drivers have never had access to before. Uses premium comparisons (resort, private club, JW Marriott vs Motel 6). Emphasizes that driver membership is free and there's no risk."
@@ -186,7 +212,8 @@
       "Direct – no corporate fluff or weasel words",
       "Identity-driven – speaks to American truckers, not generic professional drivers",
       "Financially specific – always includes dollar amounts and cost breakdowns",
-      "Operationally grounded – mentions tractor-trailers, fleet services, gated community"
+      "Operationally grounded – mentions tractor-trailers, fleet services, gated community",
+      "Uses 'we' solidarity language – stands alongside drivers"
     ],
     "should_never_sound_like": [
       "Generic marketing copy",
@@ -201,7 +228,8 @@
       "Overly cautious or hedging everything",
       "Abstract or conceptual without concrete details",
       "Using resort-style when resort-quality is meant",
-      "Using professional drivers in driver-facing copy (use American truckers)"
+      "Using professional drivers in driver-facing copy (use American truckers)",
+      "Using generic savings language without a dollar amount"
     ],
     "aspiration_vs_practicality": "60% financial specificity, 25% aspiration, 15% operational detail in driver-facing content. Lead with dollars, support with lifestyle, ground with specifics.",
     "how_premium_to_sound": "Premium enough that drivers feel special and valued. Never so premium that it feels out of reach or intimidating. Think 'you deserve this' not 'this is exclusive and you're lucky to be here.'",
@@ -229,7 +257,19 @@
       "A massive win for the smartest truckers",
       "Invest your savings and build a brighter financial future",
       "Men & women that live on the road",
-      "Eliminate the year-round costs"
+      "Eliminate the year-round costs",
+      "Live smart, save money and build long term wealth",
+      "No more flushing money down the drain",
+      "UNTIL NOW",
+      "ONLY PAY FOR THE DAYS YOU USE IT",
+      "OneHome changes the game with convenience, quality and cost",
+      "Look under the hood",
+      "Take a peek",
+      "HERE'S A NEW & BETTER OPTION",
+      "The math might surprise you",
+      "$192/day for a traditional home vs. $19/day at LineHaul Station",
+      "That's your retirement — built from money you're currently spending on housing you barely use",
+      "Absolutely Amazing Amenities"
     ],
     "recurring_contrast_patterns": [
       "Truck stops vs LineHaul Station (Motel 6 vs JW Marriott)",
@@ -242,7 +282,14 @@
       "Mortgage, rent, taxes, insurance, utilities, maintenance vs. OneHome membership (enumerate each cost)",
       "$20,000+/year housing costs vs. saving over $14,000 annually with OneHome",
       "Rarely-used apartment vs. resort-quality gated community",
-      "Professional drivers (corporate language) vs. American truckers (identity language)"
+      "Professional drivers (corporate language) vs. American truckers (identity language)",
+      "$192/day traditional housing vs. $19/day OneHome",
+      "$23,040/year housing costs vs. $2,280/year OneHome (10 days/month)",
+      "Annual savings of $20,760 — $1,730/month back in your pocket",
+      "Pay for 365 days vs. pay only for days you use",
+      "Money gone forever vs. refundable membership — your asset",
+      "'Normal apartment' (dismissive) vs. 'traditional home or apartment' (respectful)",
+      "'Take a look' (generic) vs. 'take a peek / look under the hood' (trucker language)"
     ],
     "rhetorical_styles": [
       "Imagine... statements to paint the vision",
@@ -261,11 +308,12 @@
       "Shipping containerization – system-level innovation"
     ],
     "emphasis_techniques": [
-      "ALL CAPS for key words (BEST, FREE, YOUR, EVERYTHING)",
+      "ALL CAPS for key financial claims: 365 DAYS A YEAR, ONLY PAY FOR THE DAYS YOU USE IT, SAVE $15,000 or more",
       "Exclamation points for energy and conviction",
-      "Ellipses (....) for dramatic pause",
+      "Ellipsis + capitalized pivot: '....UNTIL NOW' for dramatic reveals",
       "Dashes (–) for asides and emphasis",
-      "Repetition of key phrases across content"
+      "Repetition of key phrases across content",
+      "Strategic CAPS is intentional emphasis, not shouting — use sparingly for core financial claims only"
     ],
     "movement_language": [
       "Join us",
@@ -324,15 +372,25 @@
       ]
     },
     "onehome_lifestyle": {
-      "summary": "OneHome replaces the waste of maintaining a home you rarely use with a resort-quality community network built for American truckers. It’s a new lifestyle program that combines first-class amenities with significant financial savings.",
+      "summary": "OneHome replaces the waste of maintaining a home you rarely use with a resort-quality community network built for American truckers. It's a new lifestyle program that combines first-class amenities with significant financial savings and long-term wealth building.",
       "key_messages": [
         "Eliminate the year-round costs of mortgage, rent, taxes, insurance, utilities, and maintenance.",
         "A private, resort-quality community network built exclusively for American truckers.",
         "Save over $14,000 annually while upgrading your lifestyle on the road.",
         "Home, everywhere the road takes you.",
         "Pay for the days you use. Grow into it over time.",
-        "It’s a massive win for the smartest truckers."
-      ]
+        "It's a massive win for the smartest truckers.",
+        "Invest your savings and build a brighter financial future while living a better life today.",
+        "Live smart, save money and build long term wealth.",
+        "$192/day for a traditional home vs. $19/day at LineHaul Station.",
+        "Your savings could grow into a staggering amount of money if carefully invested over the next 30–40 years.",
+        "That's your retirement — built from money you're currently spending on housing you barely use."
+      ],
+      "financial_time_horizons": {
+        "monthly": "$1,730/month back in your pocket",
+        "annual": "$20,760/year in savings",
+        "lifetime": "$1.7M+ projected over 30 years at 6% return (hypothetical illustration)"
+      }
     },
     "free_membership_no_risk": {
       "summary": "Driver membership costs nothing. There's no obligation, no catch, and no reason not to join.",
@@ -442,21 +500,28 @@
     },
     "onehome": {
       "name": "OneHome",
-      "audience_specific_definition": "OneHome is a new lifestyle program uniquely designed for American truckers. Drivers can now live in a high-quality, gated community exclusively built to accommodate tractor-trailers. The amenities are like a first-class resort, the fleet shop services are top-notch, and the cost is much lower than a traditional home or apartment that’s rarely used.",
+      "audience_specific_definition": "OneHome is a new lifestyle program uniquely designed for American truckers. Drivers can now live in a high-quality, gated community exclusively built to accommodate tractor-trailers. The amenities are like a first-class resort, the fleet shop services are top-notch, and the cost is much lower than a traditional home or apartment that's rarely used.",
       "plain_english_definition": "A LineHaul Station program where American truckers choose one location as their home hub (with mailing address, personal vehicle parking, and storage) and get consistent resort-quality living at every location in the planned national network.",
       "why_it_matters": "Because most drivers pay over $20,000 a year for year-round housing they use less than 100 days. OneHome can save a truck driver over $14,000 annually while giving them a far better lifestyle.",
-      "value_proposition": "Eliminate the year-round costs of mortgage or rent, taxes, insurance, utilities, and maintenance. Choose a home hub, access the whole network, and live in a resort-quality community at a fraction of traditional housing costs.",
-      "emotional_frame": "You do not have to live like the road has treated drivers for the last 50 years. OneHome is a massive win for the smartest truckers – invest your savings and build a brighter financial future while living a better life today.",
+      "value_proposition": "Eliminate the year-round costs of mortgage or rent, taxes, insurance, utilities, and maintenance. Choose a home hub, access the whole network, and live in a resort-quality community. Save $15,000 or more per year. Invest your savings and build a brighter financial future.",
+      "emotional_frame": "You do not have to live like the road has treated drivers for the last 50 years. OneHome is a massive win for the smartest truckers – invest your savings and build a brighter financial future while living a better life today. Live smart, save money and build long term wealth.",
       "operational_frame": "Home Hub anchors mail, storage, vehicle parking. Network-wide access to consistent premium amenities. Flexible participation – start at 60 days/year and grow. Sleeper-as-bedroom concept with customization options.",
       "how_jeff_talks_about_it": [
         "OneHome is a new lifestyle program uniquely designed for American truckers.",
         "Drivers can now live in a high-quality, gated community exclusively built to accommodate tractor-trailers.",
         "The amenities are like a first-class resort, the fleet shop services are top-notch, and the cost is much lower than a traditional home or apartment.",
-        "Most drivers pay for year-round housing but they’re typically only there for less than 100 days. With current average housing costs soaring above $20,000 per year, OneHome can save a truck driver over $14,000 annually.",
-        "Invest your savings and build a brighter financial future while living a better life today. It’s a massive win for the smartest truckers.",
-        "It’s the first resort-quality community network designed for men & women that live on the road.",
+        "Most drivers pay for year-round housing but they're typically only there for less than 100 days. With current average housing costs soaring above $20,000 per year, OneHome can save a truck driver over $14,000 annually.",
+        "Invest your savings and build a brighter financial future while living a better life today. It's a massive win for the smartest truckers.",
+        "It's the first resort-quality community network designed for men & women that live on the road.",
         "Eliminate the year-round costs of a mortgage or rent, taxes, insurance, utilities, maintenance and more.",
-        "A private, resort-quality community network built exclusively for American truckers."
+        "A private, resort-quality community network built exclusively for American truckers.",
+        "Housing is expensive — rent/mortgage, taxes, insurance, utilities, maintenance — and we pay for it 365 DAYS A YEAR whether we're home or not.... UNTIL NOW.",
+        "OneHome eliminates the financial waste for truckers so that they keep more of their hard-earned income and better save for retirement.",
+        "You ONLY PAY FOR THE DAYS YOU USE IT.",
+        "No more flushing money down the drain.",
+        "Those savings could grow into a staggering amount of money if carefully invested over the next 30–40 years!",
+        "Live smart, save money and build long term wealth.",
+        "OneHome changes the game with convenience, quality and cost."
       ],
       "approved_phrases": [
         "Everywhere The Road Takes You",
@@ -476,7 +541,17 @@
         "A massive win for the smartest truckers",
         "Invest your savings and build a brighter financial future",
         "Men & women that live on the road",
-        "Gated community exclusively built to accommodate tractor-trailers"
+        "Gated community exclusively built to accommodate tractor-trailers",
+        "Live smart, save money and build long term wealth",
+        "HERE'S A NEW & BETTER OPTION",
+        "No more flushing money down the drain",
+        "UNTIL NOW",
+        "OneHome changes the game with convenience, quality and cost",
+        "Look under the hood",
+        "Take a peek",
+        "$19/day",
+        "Refundable membership — your asset",
+        "That's your retirement"
       ],
       "supporting_quotes": [
         "OneHome is a LineHaul Station program that gives professional drivers a Home Hub and access to a private, resort-style nationwide home network built for life on the road."
@@ -509,12 +584,13 @@
       "why_it_matters": "Having a Home Hub gives you a sense of permanent belonging even while living a mobile life.",
       "value_proposition": "One location that's uniquely yours within a nationwide network that feels like home everywhere.",
       "emotional_frame": "Your Home Hub anchors your life on the road. One Home Hub. A nationwide network.",
-      "operational_frame": "May include mailbox, personal vehicle parking (covered/garage), storage unit. Serves as the driver's anchor point for postal services and personal property.",
+      "operational_frame": "Mail Services (first priority), Personal Vehicle parking, Storage Lockers. Serves as the driver's anchor point for postal services and personal property. Service priority order: Mail first, Vehicle second, Storage third.",
       "how_jeff_talks_about_it": [
         "Choose your Home Hub.",
         "Your Home Hub anchors your life on the road.",
         "The Home Hub is the driver's primary location within the LineHaul Station network.",
-        "Your home hub offers you a mailing address, personal vehicle parking and storage for your stuff."
+        "Your home hub offers you a mailing address, personal vehicle parking and storage for your stuff.",
+        "Your Home Hub is just where your stuff is. The entire LineHaul Station network is your home."
       ],
       "approved_phrases": [
         "Choose your Home Hub",
@@ -1313,74 +1389,281 @@
     }
   },
   "pricing_framework": {
-    "overview": "LineHaul Station uses a two-part pricing structure: a one-time refundable membership participation fee plus daily member dues. There is also a pay-as-you-go option for those who don't want to commit upfront.",
-    "pay_as_you_go_option": {
-      "name": "Guest Pass / Outrider Access",
-      "daily_rate": "$59/day",
-      "what_it_includes": "Full facility access – parking, amenities, fleet services access",
-      "what_it_does_not_include": "No capital participation. No reduced daily rate.",
-      "best_for": "Drivers trying the network for the first time or occasional users."
-    },
-    "participation_option": {
-      "name": "Proprietary Membership",
-      "structure": "One-time refundable membership fee + daily member dues",
-      "one_time_refundable_membership_fee": {
-        "description": "A capital participation component. Members purchase participation in the LineHaul Station network. This amount is refundable under program terms.",
-        "example_levels": {
-          "30_days_per_year": "~$9,750",
-          "60_days_per_year": "~$19,000",
-          "90_days_per_year": "~$28,000",
-          "120_days_per_year": "~$38,000",
-          "365_days_per_year": "~$100,000"
-        },
-        "daily_participation_rate_range": "$283/day to $325/day depending on volume",
-        "financing": "Can be financed over 12 months with equal installments",
-        "refund_structure": "Refundable based on first-member-in / first-member-out rotation. Amount is the lower of original fee paid or current fee for new members. 20% transfer fee applies covering sales, administration, and capital reserve."
-      },
-      "daily_member_dues": {
+    "overview": "OneHome has two components: a Daily Member Rate of $19/day and a one-time Refundable Membership Purchase based on planned usage days. The membership purchase is an asset — not a cost. Think of it like buying into a private club where your initiation fee comes back to you.",
+    "daily_member_rate": {
+      "rate": "$19/day",
+      "description": "Your all-in daily cost for using any LineHaul Station location. Covers access to all amenities, facilities, parking, and the full OneHome experience. You only pay for the days you use it.",
+      "breakdown": {
         "operations_component": "$13/day",
         "capital_reserve_component": "$6/day",
-        "total_minimum_daily_cost": "$19/day",
-        "what_operations_covers": "24/7 staffing, security monitoring, property maintenance, utilities, administration, driver amenity access",
-        "why_reserve_exists": "Because the membership fee is refundable, the company cannot use membership capital for long-term facility replacement. The $6/day reserve funds concrete replacement, gate systems, lighting, plumbing, building systems, club amenities, and long-term capital needs. Similar to a condo reserve fund or private club capital reserve."
+        "total": "$19/day"
+      },
+      "what_operations_covers": "24/7 staffing, security monitoring, property maintenance, utilities, administration, driver amenity access",
+      "why_reserve_exists": "Because the membership fee is refundable, the company cannot use membership capital for long-term facility replacement. The $6/day reserve funds concrete replacement, gate systems, lighting, plumbing, building systems, club amenities, and long-term capital needs. Similar to a condo reserve fund or private club capital reserve."
+    },
+    "refundable_membership_purchase": {
+      "description": "A one-time refundable purchase based on how many days per month you plan to use the network. This is your asset — not a cost. More days = lower per-day rate on the membership.",
+      "fee_tiers": {
+        "1_to_30_annual_days": "$325/annual day",
+        "31_to_90_annual_days": "$320/annual day",
+        "91_to_180_annual_days": "$305/annual day",
+        "181_to_364_annual_days": "$295/annual day",
+        "365_annual_days": "$100,000 flat"
+      },
+      "membership_fee_table": [
+        {
+          "days_per_month": 5,
+          "annual_days": 60,
+          "standard_fee": "$19,200",
+          "early_adopter_fee": "$12,691",
+          "ea_12_month_plan": "$1,269/mo",
+          "ea_24_month_plan": "$635/mo"
+        },
+        {
+          "days_per_month": 8,
+          "annual_days": 96,
+          "standard_fee": "$29,280",
+          "early_adopter_fee": "$19,354",
+          "ea_12_month_plan": "$1,935/mo",
+          "ea_24_month_plan": "$968/mo"
+        },
+        {
+          "days_per_month": 10,
+          "annual_days": 120,
+          "standard_fee": "$36,600",
+          "early_adopter_fee": "$24,193",
+          "ea_12_month_plan": "$2,419/mo",
+          "ea_24_month_plan": "$1,210/mo"
+        },
+        {
+          "days_per_month": 12,
+          "annual_days": 144,
+          "standard_fee": "$43,920",
+          "early_adopter_fee": "$29,031",
+          "ea_12_month_plan": "$2,903/mo",
+          "ea_24_month_plan": "$1,452/mo"
+        },
+        {
+          "days_per_month": 15,
+          "annual_days": 180,
+          "standard_fee": "$54,900",
+          "early_adopter_fee": "$36,289",
+          "ea_12_month_plan": "$3,629/mo",
+          "ea_24_month_plan": "$1,814/mo"
+        },
+        {
+          "days_per_month": 20,
+          "annual_days": 240,
+          "standard_fee": "$70,800",
+          "early_adopter_fee": "$46,799",
+          "ea_12_month_plan": "$4,680/mo",
+          "ea_24_month_plan": "$2,340/mo"
+        },
+        {
+          "days_per_month": 25,
+          "annual_days": 300,
+          "standard_fee": "$88,500",
+          "early_adopter_fee": "$58,499",
+          "ea_12_month_plan": "$5,850/mo",
+          "ea_24_month_plan": "$2,925/mo"
+        },
+        {
+          "days_per_month": 30,
+          "annual_days": 360,
+          "standard_fee": "$106,200",
+          "early_adopter_fee": "$70,198",
+          "ea_12_month_plan": "$7,020/mo",
+          "ea_24_month_plan": "$3,510/mo"
+        }
+      ],
+      "early_adopter_discount": "33.9% off standard (described as ~34% off)",
+      "financing_premium": "20% financing premium on payment plans",
+      "refund_structure": "Refundable based on first-member-in / first-member-out rotation. Amount is the lower of original fee paid or current fee for new members. 20% transfer fee applies covering sales, administration, and capital reserve."
+    },
+    "west_memphis_early_adopter_offer": {
+      "name": "100-Day Reserved Membership — West Memphis Early Adopter",
+      "description": "As a founding member at West Memphis, you lock in a significant discount on your membership purchase. This is the lowest price the membership will ever be at this location. Only 133 Early Adopter spaces available.",
+      "regular_price": "$29,500",
+      "early_adopter_price": "$19,500",
+      "savings": "$10,000",
+      "days_included": 100,
+      "daily_rate_after_securing": "$19/day",
+      "payment_options": {
+        "pay_in_full": "$19,500",
+        "finance_12_months": "$1,900/mo",
+        "finance_24_months": "$1,050/mo"
+      },
+      "financing_note": "Financing totals are higher than the cash price because financing includes the cost of money.",
+      "how_it_works": [
+        "1. Secure your 100-day reserved membership at the Early Adopter price.",
+        "2. Your membership begins at the West Memphis Sales Center.",
+        "3. Your membership then transfers to the main home hub being constructed just north of the sales center.",
+        "4. You pay $19/day for every day you use. Reserved access. Guaranteed availability.",
+        "5. Your membership fee is refundable based on program terms."
+      ],
+      "benefits": "Priority Space · Reserved access · Guaranteed availability"
+    },
+    "space_available_option": {
+      "name": "Space Available",
+      "daily_rate": "$59/day",
+      "upfront": "No money down",
+      "availability": "First-come, first-served · No reserved access",
+      "description": "Access the network with no upfront commitment. Pay $59/day when space is available — flexible, but not guaranteed.",
+      "best_for": "Occasional use · Trial"
+    },
+    "at_a_glance_comparison": {
+      "priority_space": {
+        "daily_rate": "$19/day",
+        "upfront": "$19,500 (EA price)",
+        "availability": "Guaranteed reserved",
+        "membership_fee": "Refundable — your asset",
+        "financing": "12 or 24 month plans",
+        "best_for": "Frequent users · Max savings"
+      },
+      "space_available": {
+        "daily_rate": "$59/day",
+        "upfront": "No money down",
+        "availability": "First-come, first-served",
+        "membership_fee": "None",
+        "financing": "N/A",
+        "best_for": "Occasional use · Trial"
       }
     },
-    "dedicated_space_option": {
-      "monthly_cost": "$395/month",
-      "includes": "Exclusive 24/7 assigned space",
-      "additional": "Plus one-time refundable membership fee (varies by lease length)"
+    "housing_vs_onehome_math": {
+      "scenario": "Driver on the road 20 days/month, home 10 days/month",
+      "traditional_housing": {
+        "rent_mortgage": "$1,500",
+        "water": "$50",
+        "electric": "$130",
+        "gas": "$80",
+        "internet": "$65",
+        "trash": "$35",
+        "lawn_and_snow": "$60",
+        "monthly_total": "$1,920",
+        "annual_total": "$23,040",
+        "cost_per_day_at_home": "$192/day (based on 10 days/month)"
+      },
+      "onehome_10_days_per_month": {
+        "daily_rate": "$19/day",
+        "monthly_cost": "$190",
+        "annual_cost": "$2,280"
+      },
+      "annual_savings": "$20,760/year",
+      "monthly_savings": "$1,730/month",
+      "headline_comparison": "$192/day for a traditional home vs. $19/day at LineHaul Station"
     },
-    "driver_narrative": {
-      "framing": "OneHome lifestyle savings",
-      "typical_driver_home_costs": "$1,500 – $2,000/month for rent, utilities, maintenance, storage, truck parking",
-      "onehome_potential_savings": "~$1,200/month average savings (scenario dependent)",
-      "how_it_works": "Replace fixed housing costs with flexible LineHaul Station participation. Start with as few as 60 days/year. Grow over time. As participation pays down, daily cost approaches $19/day operating floor.",
-      "key_messaging": [
-        "Stop paying for a home you rarely use.",
-        "Pay for the days you need. Grow into it over time.",
-        "More lifestyle. Less waste.",
-        "The math might surprise you."
+    "wealth_building_projections": {
+      "description": "Based on $1,730/month savings invested at 6% average annual return",
+      "disclaimer": "Hypothetical growth illustration. Actual returns vary. Does not account for taxes, fees, or inflation.",
+      "projections": [
+        {
+          "years": 10,
+          "contributed": "$207,600",
+          "projected_value": "$283,511",
+          "growth": "$75,911"
+        },
+        {
+          "years": 20,
+          "contributed": "$415,200",
+          "projected_value": "$799,331",
+          "growth": "$384,131"
+        },
+        {
+          "years": 30,
+          "contributed": "$622,800",
+          "projected_value": "$1,737,811",
+          "growth": "$1,115,011"
+        },
+        {
+          "years": 40,
+          "contributed": "$830,400",
+          "projected_value": "$3,445,279",
+          "growth": "$2,614,879"
+        }
       ],
-      "savings_language_rules": {
-        "use": [
-          "could save",
-          "may reduce",
-          "many drivers may find",
-          "depending on current housing costs"
-        ],
-        "avoid": [
-          "You WILL save money",
-          "It always costs less",
-          "This is cheaper for everyone"
-        ],
-        "note": "Always be scenario-based. Reference the calculator when possible. Do not make universal savings promises."
+      "closing_line": "That's your retirement — built from money you're currently spending on housing you barely use."
+    },
+    "side_by_side_comparison": [
+      {
+        "traditional": "Pay for 365 days",
+        "onehome": "Pay only for days you use"
+      },
+      {
+        "traditional": "Use maybe 60–120 days",
+        "onehome": "Start at 60 days, grow anytime"
+      },
+      {
+        "traditional": "Mortgage + interest",
+        "onehome": "No mortgage, no interest"
+      },
+      {
+        "traditional": "Full utilities year-round",
+        "onehome": "No utility burden"
+      },
+      {
+        "traditional": "Maintenance and repairs",
+        "onehome": "Zero maintenance"
+      },
+      {
+        "traditional": "Can't park your truck",
+        "onehome": "Secure truck parking included"
+      },
+      {
+        "traditional": "Truck stop when on the road",
+        "onehome": "Resort-quality network nationwide"
+      },
+      {
+        "traditional": "No amenities",
+        "onehome": "First-class resort amenities"
+      },
+      {
+        "traditional": "Money gone forever",
+        "onehome": "Refundable membership — your asset"
+      },
+      {
+        "traditional": "$192/day (if home 10 days/mo)",
+        "onehome": "$19/day"
+      }
+    ],
+    "three_payment_options": {
+      "option_1_pay_in_full": {
+        "description": "One-time payment. $19/day starts immediately. Lowest total cost."
+      },
+      "option_2_twelve_month_plan": {
+        "description": "Monthly payments over 12 months (20% financing premium). $19/day starts day one while you pay down the membership."
+      },
+      "option_3_twenty_four_month_plan": {
+        "description": "Monthly payments over 24 months (20% financing premium). Lowest monthly commitment. $19/day starts day one."
       }
     },
     "key_pricing_anchors": {
-      "pay_as_you_go": "$59/day",
+      "space_available": "$59/day",
       "operating_floor": "$19/day",
-      "dedicated_participation_example": "$100,000 for 365 days/year",
-      "dedicated_space_monthly": "$395/month"
+      "west_memphis_ea_100_day": "$19,500",
+      "west_memphis_regular_100_day": "$29,500",
+      "full_year_365": "$100,000 flat",
+      "dedicated_space_monthly": "$395/month",
+      "early_adopter_discount": "~34% off standard",
+      "typical_housing_annual": "$23,040",
+      "onehome_annual_10_days": "$2,280",
+      "annual_savings": "$20,760"
+    },
+    "savings_language_rules": {
+      "use": [
+        "could save",
+        "may reduce",
+        "many drivers may find",
+        "depending on current housing costs",
+        "$15,000 or more (standard savings phrasing)",
+        "save over $14,000 annually"
+      ],
+      "avoid": [
+        "You WILL save money",
+        "It always costs less",
+        "This is cheaper for everyone",
+        "$15,000–$20,000 (range is retired — use '$15,000 or more')"
+      ],
+      "note": "Always be scenario-based. Reference the calculator when possible. Do not make universal savings promises."
     },
     "pass_acquisition_methods_for_drivers": [
       {
@@ -1413,7 +1696,7 @@
       "qr_access": "QR code for gate access issued once terminal is open and profile is complete."
     },
     "proprietary_membership": {
-      "cost_structure": "One-time refundable fee + $19/day dues",
+      "cost_structure": "One-time refundable membership purchase + $19/day dues. West Memphis Early Adopter: 100-day membership at $19,500 (regular $29,500). Payment options: Pay in full, 12-month plan ($1,900/mo), or 24-month plan ($1,050/mo).",
       "options": [
         "Dedicated Space (24/7/365 assigned)",
         "Flex-Space (bundle of passes)"
@@ -1422,10 +1705,11 @@
       "pass_sharing": "Proprietary members can digitally share passes with any driver.",
       "cancellation": "Can cancel after first year. Refund based on program terms. 60-day notice period. First-in/first-out refund rotation. 20% transfer fee.",
       "refund_key_points": [
-        "Initial membership fee is refundable",
+        "Initial membership fee is refundable — it's your asset",
         "Refund amount is lower of original fee or current new-member fee",
         "All memberships must be sold out before refunds process (unless member nominates a replacement)",
-        "20% transfer fee covers sales, admin, and capital reserve"
+        "20% transfer fee covers sales, admin, and capital reserve",
+        "Can cancel after first year with 60-day notice"
       ]
     },
     "guest_pass": {
@@ -1456,8 +1740,8 @@
     },
     {
       "question": "How much does it cost?",
-      "approved_short_answer": "Driver membership is FREE. Parking passes start at $59/day for guest access, or as low as $19/day with a proprietary membership that includes a refundable participation fee.",
-      "approved_detailed_answer": "There are several ways to access LineHaul Station. Driver membership in the Outriders Club is completely free. For parking, you have options: Guest passes at $59/day with no upfront commitment, or Proprietary Membership with a one-time refundable participation fee that brings your daily cost down to just $19/day ($13 operations + $6 capital reserve). The participation fee varies based on how many days you plan to use the network and can be financed over 12 months. Most of the participation fee is refundable when you leave the program.",
+      "approved_short_answer": "Driver membership is FREE. Space Available access is $59/day with no upfront cost. Priority Space membership starts at $19,500 for the West Memphis Early Adopter offer (100-day reserved membership), then just $19/day.",
+      "approved_detailed_answer": "There are several ways to access LineHaul Station. Driver membership in the Outriders Club is completely free. For parking, you have options: Space Available at $59/day with no upfront commitment (first-come, first-served), or Priority Space with a one-time refundable membership purchase that brings your daily cost down to just $19/day. The West Memphis Early Adopter offer is a 100-day reserved membership at $19,500 (regular $29,500 — you save $10,000). You can pay in full or finance over 12 months ($1,900/mo) or 24 months ($1,050/mo). Your membership fee is refundable — it's your asset, not a cost. Think of it like buying into a private club where your initiation fee comes back to you.",
       "audience": "drivers",
       "related_terms": [
         "Guest Pass",
@@ -1528,8 +1812,8 @@
     },
     {
       "question": "What is OneHome?",
-      "approved_short_answer": "OneHome is a LineHaul Station program that gives you a Home Hub and access to a nationwide network of premium locations – a smarter, resort-style alternative to paying for a home you rarely use.",
-      "approved_detailed_answer": "OneHome is the first nationwide home network designed specifically for professional truck drivers. You choose a Home Hub for essentials like mail, storage, and personal vehicle parking, while gaining access to a growing network of LineHaul Station locations that deliver a consistent, high-quality lifestyle experience. It's designed as a smarter alternative to maintaining a traditional home you rarely use, with the ability to start small and grow your participation over time.",
+      "approved_short_answer": "OneHome is a new lifestyle program uniquely designed for American truckers. It's a resort-quality community network where you choose a Home Hub for your mail, vehicle, and storage — then access the entire LineHaul Station network. It could save you $15,000 or more per year.",
+      "approved_detailed_answer": "OneHome is a new lifestyle program uniquely designed for American truckers. Drivers can now live in a high-quality, gated community exclusively built to accommodate tractor-trailers. The amenities are like a first-class resort, the fleet shop services are top-notch, and the cost is much lower than a traditional home or apartment that's rarely used. Most drivers pay over $20,000 a year for housing they use less than 100 days. With OneHome, you eliminate the year-round costs of mortgage, rent, taxes, insurance, utilities, and maintenance. Choose a Home Hub for your mail, personal vehicle, and storage — then the entire LineHaul Station network is your home. Start with the days you need and grow over time. Invest your savings and build a brighter financial future. It's a massive win for the smartest truckers.",
       "audience": "drivers",
       "related_terms": [
         "Home Hub",
@@ -1697,6 +1981,53 @@
         "usage_notes": "Strong emotional anchor.",
         "source_type": "Video script"
       }
+    ],
+    "financial_messaging": [
+      {
+        "quote": "Housing is expensive — rent/mortgage, taxes, insurance, utilities, maintenance — and we pay for it 365 DAYS A YEAR whether we're home or not.... UNTIL NOW.",
+        "speaker": "Jeff Swenson",
+        "topic": "OneHome financial pivot",
+        "audience": "drivers",
+        "tone": "Dramatic, solidarity",
+        "usage_notes": "The signature 'UNTIL NOW' pivot. Opens the core sales block.",
+        "source_type": "Copy Bible — Core Sales Block"
+      },
+      {
+        "quote": "Those savings could grow into a staggering amount of money if carefully invested over the next 30–40 years!",
+        "speaker": "Jeff Swenson",
+        "topic": "Wealth building",
+        "audience": "drivers",
+        "tone": "Excited, forward-looking",
+        "usage_notes": "Extends financial argument to lifetime wealth. Pure Jeff energy.",
+        "source_type": "Copy Bible — Core Sales Block"
+      },
+      {
+        "quote": "No more flushing money down the drain.",
+        "speaker": "Jeff Swenson",
+        "topic": "Financial waste",
+        "audience": "drivers",
+        "tone": "Visceral, direct",
+        "usage_notes": "Bar-stool language, not brochure language. Works because every trucker has felt this.",
+        "source_type": "Copy Bible — Core Sales Block"
+      },
+      {
+        "quote": "Live smart, save money and build long term wealth.",
+        "speaker": "Jeff Swenson",
+        "topic": "Financial mantra",
+        "audience": "drivers",
+        "tone": "Aspirational, positive",
+        "usage_notes": "Standard closing line alongside 'Everywhere The Road Takes You.'",
+        "source_type": "Copy Bible — Email 3"
+      },
+      {
+        "quote": "OneHome changes the game with convenience, quality and cost.",
+        "speaker": "Jeff Swenson",
+        "topic": "Value proposition",
+        "audience": "drivers",
+        "tone": "Confident, punchy",
+        "usage_notes": "Three-word value proposition triad. Perfect for closers.",
+        "source_type": "Copy Bible — Email 3"
+      }
     ]
   },
   "approved_phrases": {
@@ -1726,7 +2057,17 @@
       "A smarter way to live on the road",
       "More lifestyle. Less waste.",
       "The math might surprise you",
-      "Pay for the days you need"
+      "Pay for the days you need",
+      "Live smart, save money and build long term wealth",
+      "HERE'S A NEW & BETTER OPTION",
+      "No more flushing money down the drain",
+      "UNTIL NOW",
+      "OneHome changes the game with convenience, quality and cost",
+      "Look under the hood",
+      "Take a peek",
+      "$192/day for a traditional home vs. $19/day",
+      "Refundable membership — your asset",
+      "That's your retirement"
     ],
     "community_phrases": [
       "Mission Possible",
@@ -1743,7 +2084,13 @@
       "Refundable membership fee",
       "Think of it like an investment",
       "Far less than building your own terminal",
-      "A fraction of the cost"
+      "A fraction of the cost",
+      "$19/day — all-in daily rate",
+      "$19,500 Early Adopter (100-day reserved membership)",
+      "You save $10,000",
+      "Only 133 Early Adopter spaces",
+      "Priority Space — reserved access, guaranteed availability",
+      "Financing totals include the cost of money"
     ],
     "premium_environment_phrases": [
       "Resort-style",
@@ -1866,6 +2213,106 @@
     {
       "phrase": "any language implying OneHome fits everyone equally",
       "reason": "Be scenario-based with savings claims."
+    },
+    {
+      "phrase": "professional drivers (in driver-facing copy)",
+      "reason": "Use 'American truckers' — identity language, not corporate HR language."
+    },
+    {
+      "phrase": "resort-style (in driver-facing copy)",
+      "reason": "Use 'resort-quality' — quality means it performs like a resort, style just means it looks like one."
+    },
+    {
+      "phrase": "home network",
+      "reason": "Use 'community network' — communicates belonging and shared values."
+    },
+    {
+      "phrase": "Sign Up",
+      "reason": "Use 'Join' — it's community language."
+    },
+    {
+      "phrase": "$15,000–$20,000 range",
+      "reason": "Use '$15,000 or more' — a range sounds like marketing, 'or more' sounds like real conversation."
+    },
+    {
+      "phrase": "normal apartment",
+      "reason": "Use 'traditional home or apartment' — 'normal' implies OneHome is abnormal."
+    },
+    {
+      "phrase": "take a look",
+      "reason": "Use 'take a peek' or 'look under the hood' — trucker/mechanic metaphors."
+    },
+    {
+      "phrase": "save money (generic)",
+      "reason": "Use 'live smart, save money and build long term wealth' — the full financial mantra."
+    },
+    {
+      "phrase": "Craft Kitchen",
+      "reason": "Renamed to 'Member's Grill' — ownership + familiar concept."
+    },
+    {
+      "phrase": "Dog Park",
+      "reason": "Renamed to 'Camp K9' — branded, memorable, fun."
+    },
+    {
+      "phrase": "Pool & Spa",
+      "reason": "Renamed to 'Resort Pool & Spa' — reinforces resort-quality positioning."
+    },
+    {
+      "phrase": "One★Home (in body copy)",
+      "reason": "Star is logo/header only. All body copy uses 'OneHome'."
+    },
+    {
+      "phrase": "Amazing Amenities",
+      "reason": "Use 'Absolutely Amazing Amenities' — Jeff's approved phrasing."
+    },
+    {
+      "phrase": "you pay / drivers pay (in sales copy)",
+      "reason": "Use 'we pay' — solidarity language, standing alongside drivers."
+    },
+    {
+      "phrase": "more soon / stay tuned",
+      "reason": "Replace with real contact: 'call JJ at 602-858-8000'"
+    },
+    {
+      "phrase": "Gifts (in Gear Shop)",
+      "reason": "Use 'sundries' instead."
+    },
+    {
+      "phrase": "Parking Options",
+      "reason": "Use 'Personal Vehicle' — more specific."
+    },
+    {
+      "phrase": "Personal Storage",
+      "reason": "Use 'Storage Lockers' — more tangible."
+    },
+    {
+      "phrase": "align your living costs",
+      "reason": "Use 'eliminate the year-round costs of...' — enumerate specific costs."
+    },
+    {
+      "phrase": "a fraction of the time",
+      "reason": "Use 'less than 100 days' — specific number."
+    },
+    {
+      "phrase": "housing expenses (generic)",
+      "reason": "Enumerate: mortgage, rent, taxes, insurance, utilities, maintenance."
+    },
+    {
+      "phrase": "premium locations",
+      "reason": "Use 'gated community built for tractor-trailers' — operational detail."
+    },
+    {
+      "phrase": "affordable alternative",
+      "reason": "Use 'massive win for the smartest truckers' — aspiration, not desperation."
+    },
+    {
+      "phrase": "smarter way to live",
+      "reason": "Use 'new lifestyle program' — Jeff's preferred category descriptor."
+    },
+    {
+      "phrase": "universe (brand context)",
+      "reason": "Use 'ecosystem' when describing LineHaul Station brand architecture."
     }
   ],
   "narrative_arcs": {
@@ -1895,6 +2342,15 @@
       "lifestyle": "Rotisserie kitchen, fitness studio, private shower suites, sky deck, gaming, barbershop, gear shop.",
       "financial_logic": "Free driver membership. Parking starts at $59/day or $19/day with proprietary membership.",
       "future": "More locations coming. The Rig Carlton experience, everywhere."
+    },
+    "monthly_savings_to_retirement_wealth": {
+      "arc_name": "Monthly savings → Retirement wealth",
+      "monthly": "Save $1,730/month by switching from traditional housing to OneHome.",
+      "annual": "That's $20,760/year no longer wasted on housing you barely use.",
+      "decade": "In 10 years at 6% return: $283,511.",
+      "lifetime": "In 30 years: $1.7 million. In 40 years: $3.4 million.",
+      "closing": "That's your retirement — built from money you're currently spending on housing you barely use.",
+      "disclaimer": "Hypothetical growth illustration. Actual returns vary. Does not account for taxes, fees, or inflation."
     }
   },
   "objection_handling": {
@@ -1959,9 +2415,10 @@
       "when_to_lead_with_infrastructure": "When discussing terminal features, security, fleet services, or location specifics."
     },
     "explaining_pricing": {
-      "simple": "Driver membership is free. Parking is $59/day guest access, or $19/day with a proprietary membership.",
-      "detailed": "Three ways to pay: Guest pass at $59/day with no commitment. Proprietary membership with a one-time refundable fee plus $19/day. Or earn free passes through referrals. The proprietary fee is like an investment that comes back to you.",
-      "when_asked_about_the_big_numbers": "Always lead with the daily cost ($19/day or $59/day). Then explain the participation fee. Always immediately mention it's refundable. Compare it to buying property – you get your money back."
+      "simple": "Driver membership is free. Space Available is $59/day with no commitment. Priority Space is $19/day with a refundable membership purchase — the West Memphis Early Adopter offer is $19,500 for 100 reserved days (regular $29,500).",
+      "detailed": "Two ways to access: Space Available at $59/day, first-come first-served, no upfront cost. Or Priority Space with a one-time refundable membership purchase plus $19/day. The West Memphis Early Adopter offer is a 100-day reserved membership at $19,500 — that's $10,000 off. You can pay in full or finance over 12 months ($1,900/mo) or 24 months ($1,050/mo). Your membership fee is refundable — it's your asset, like buying into a private club where your initiation fee comes back to you.",
+      "when_asked_about_the_big_numbers": "Always lead with the daily cost ($19/day or $59/day). Then explain the membership purchase. Always immediately mention it's refundable. Compare it to buying into a private club — your initiation fee comes back to you. Emphasize the Early Adopter savings ($10,000 off). Only 133 spaces available.",
+      "housing_comparison": "Traditional housing: $1,920/month average = $23,040/year = $192/day if you're only home 10 days/month. OneHome: $19/day × 10 days = $190/month = $2,280/year. Annual savings: $20,760. That's $1,730/month back in your pocket. Invested at 6% over 30 years, that's $1.7 million."
     }
   },
   "bot_behavior_rules": [
@@ -1993,7 +2450,11 @@
     "video_scripts_carrier": "Asset utilization arguments, terminal cost analysis, flex-space economic case, shared infrastructure thesis",
     "video_scripts_driver": "Driver dignity narrative, trucking nostalgia, Outriders club tour, membership explanation, ShorePower, safety",
     "founder_articles": "Henry Ford analogy, containerization parallel, supply chain strategy alignment, recruiting/retention economics, terminal cost deep-dive",
-    "bot_builder_guide": "Lulu identity, flow-by-flow messaging, OneHome and Flex-Space copy, pricing tiers, contact info, functional requirements"
+    "bot_builder_guide": "Lulu identity, flow-by-flow messaging, OneHome and Flex-Space copy, pricing tiers, contact info, functional requirements",
+    "onehome_copy_bible_march_2026": "Complete approved copy for all OneHome sections, voice rules, word swap reference, Jeff Test pre-publish checklist, copy formula, before/after examples, full pricing model from Lifestyle Calculator v2.2, sales playbook with phone script and follow-up emails",
+    "onehome_deep_dive_final_edits": "Detailed change analysis of Jeff's final revisions, 8 new voice patterns, amenity renames, email rewrites, phone script refinements, production/design notes",
+    "jeffs_voice_feed_032526": "Jeff's social media copy revisions showing authentic voice vs. polished marketing copy. Patterns: direct industry language over metaphors, naming programs explicitly, high-energy CAPS and exclamation points, trucking-first comparisons, #letsfixtrucking",
+    "onehome_driver_price_sheet_march_2026": "West Memphis Early Adopter pricing: 100-Day Reserved Membership at $19,500 (regular $29,500), $19/day after securing membership, payment options (pay in full, 12-mo, 24-mo), Space Available $59/day option, housing vs OneHome math, wealth building projections, side-by-side comparison table, only 133 Early Adopter spaces"
   },
   "content_filtering_rules": {
     "approved_core_voice": "All polished website copy, FAQ content, OneHome white paper language, welcome email final copy, approved video scripts",
@@ -2025,21 +2486,585 @@
     "voice_corrections_march_2026": {
       "description": "Jeff Swenson editorial corrections applied March 2026. These are hard rules for all driver-facing copy.",
       "rules": [
-        "ALWAYS use American truckers in driver-facing copy, not professional drivers",
-        "ALWAYS use resort-quality, not resort-style",
-        "ALWAYS use community network, not home network, when describing OneHome",
-        "ALWAYS use ecosystem, not universe, when describing LineHaul Station brand architecture",
-        "ALWAYS use LineHaul Station’s OneHome (possessive), not LineHaul Station OneHome",
-        "ALWAYS capitalize The in tagline: Everywhere The Road Takes You",
+        "ALWAYS use 'American truckers' in driver-facing copy, not 'professional drivers'",
+        "ALWAYS use 'resort-quality', not 'resort-style'",
+        "ALWAYS use 'community network', not 'home network', when describing OneHome",
+        "ALWAYS use 'ecosystem', not 'universe', when describing LineHaul Station brand architecture",
+        "ALWAYS use 'LineHaul Station's OneHome' (possessive), not 'LineHaul Station OneHome'",
+        "ALWAYS capitalize The in tagline: 'Everywhere The Road Takes You'",
         "ALWAYS enumerate specific costs being eliminated (mortgage/rent, taxes, insurance, utilities, maintenance)",
-        "ALWAYS include dollar figures when making the financial case ($20K+ costs, $14K+ savings)",
-        "PREFER lifestyle program over home network as the category descriptor",
-        "PREFER men & women that live on the road over people who live on the road",
-        "PREFER smartest truckers, massive win as aspirational framing",
-        "PREFER first-class resort over resort-style when describing amenity quality",
+        "ALWAYS include dollar figures when making the financial case ($20K+ costs, $14K+ savings, $19/day)",
+        "ALWAYS use '$15,000 or more' not '$15,000–$20,000' — the range is retired",
+        "ALWAYS use 'traditional home or apartment' not 'normal apartment'",
+        "ALWAYS use 'take a peek' or 'look under the hood' not 'take a look'",
+        "ALWAYS use 'we pay' solidarity language, not 'you pay' or 'drivers pay' in sales copy",
+        "ALWAYS use 'Join' not 'Sign Up'",
+        "ALWAYS use 'Home Hub' not 'home base'",
+        "ALWAYS use 'OneHome' (no star) in body copy — One★Home is logo/header only",
+        "ALWAYS use Jeff's branded amenity names: Member's Grill, Camp K9, Resort Pool & Spa, Digital Den, Sky Deck",
+        "ALWAYS use 'Absolutely Amazing Amenities' not 'Amazing Amenities'",
+        "ALWAYS use 'sundries' not 'Gifts' in Gear Shop context",
+        "ALWAYS use 'Personal Vehicle' not 'Parking Options'",
+        "ALWAYS use 'Storage Lockers' not 'Personal Storage'",
+        "ALWAYS list Home Hub services in priority order: Mail first, Vehicle second, Storage third",
+        "PREFER 'lifestyle program' over 'home network' as the category descriptor",
+        "PREFER 'men & women that live on the road' over 'people who live on the road'",
+        "PREFER 'smartest truckers', 'massive win' as aspirational framing",
+        "PREFER 'first-class resort' over 'resort-style' when describing amenity quality",
         "INCLUDE at least one operational detail (tractor-trailers, fleet services, gated) in any OneHome description",
-        "Use your stuff, your mail, your vehicle – conversational possessive language"
+        "INCLUDE at least one dollar amount or specific number in every piece of copy",
+        "Use 'your stuff', 'your mail', 'your vehicle' – conversational possessive language",
+        "Confirmation emails are sales tools, not receipts — include real contact info, specific offers, timeline",
+        "Financial messaging has three time horizons: monthly savings, annual savings, lifetime wealth",
+        "Jeff's CAPS usage is intentional emphasis, not shouting — use sparingly for core financial claims",
+        "Headline preference: lead with the solution, not the problem. Problem belongs in body copy.",
+        "In social media: use #letsfixtrucking, name programs explicitly, high energy, direct contrasts against truck stops"
       ]
     }
+  },
+  "jeff_voice_rules": {
+    "description": "The 7 non-negotiable rules for all OneHome copy, derived directly from Jeff Swenson's editorial revisions.",
+    "rules": [
+      {
+        "rule_number": 1,
+        "rule": "Say 'American Truckers,' Not 'Professional Drivers'",
+        "explanation": "'Professional drivers' is corporate HR language. 'American truckers' is identity language — patriotic, direct, culturally resonant. Only exception: formal investor or regulatory documents.",
+        "correct": "A new lifestyle program uniquely designed for American truckers.",
+        "incorrect": "A nationwide home network for professional drivers."
+      },
+      {
+        "rule_number": 2,
+        "rule": "Say 'Resort-Quality,' Not 'Resort-Style'",
+        "explanation": "'Style' means it looks like a resort. 'Quality' means it performs like one. Truckers don't trust vibes — they trust substance.",
+        "correct": "A private, resort-quality community network.",
+        "incorrect": "A private, resort-style home network."
+      },
+      {
+        "rule_number": 3,
+        "rule": "Say 'Community Network,' Not 'Home Network'",
+        "explanation": "'Community network' communicates belonging, shared values, and social infrastructure. Connects to Outriders Club culture.",
+        "correct": "The first resort-quality community network designed for men & women that live on the road.",
+        "incorrect": "The first home network designed for people who live on the road."
+      },
+      {
+        "rule_number": 4,
+        "rule": "Lead with a Dollar Amount",
+        "explanation": "Every piece should include at least one specific number. Not 'save money' — say how much. Anchor numbers: $20,000+/year (current costs), $14,000+/year (savings), less than 100 days (actual home use).",
+        "correct": "With current average housing costs soaring above $20,000 per year, OneHome can save a truck driver over $14,000 annually.",
+        "incorrect": "OneHome helps you align your living costs with how you actually live."
+      },
+      {
+        "rule_number": 5,
+        "rule": "List the Costs Being Killed",
+        "explanation": "Don't summarize expenses — enumerate them. Each item is a mental checkbox: mortgage or rent, taxes, insurance, utilities, maintenance.",
+        "correct": "Eliminate the year-round costs of a mortgage or rent, taxes, insurance, utilities, maintenance and more.",
+        "incorrect": "Stop paying for a home you rarely use."
+      },
+      {
+        "rule_number": 6,
+        "rule": "Always Include One Operational Detail",
+        "explanation": "Never describe OneHome as purely lifestyle. Ground it with at least one trucking-specific detail: tractor-trailers, fleet services, gated community, covered parking, storage, mailing address.",
+        "correct": "A high-quality, gated community exclusively built to accommodate tractor-trailers.",
+        "incorrect": "A premium, resort-like environment designed for life on the road."
+      },
+      {
+        "rule_number": 7,
+        "rule": "Make Them Feel Smart, Not Desperate",
+        "explanation": "Choosing OneHome should feel like a savvy business decision. Jeff's framing: 'a massive win for the smartest truckers.' Aspiration, not desperation.",
+        "correct": "Invest your savings and build a brighter financial future. It's a massive win for the smartest truckers.",
+        "incorrect": "Many drivers can't afford the homes they're living in. OneHome provides a more affordable alternative."
+      }
+    ]
+  },
+  "jeff_test": {
+    "description": "Run every piece of OneHome copy through these five questions. If you can't answer yes to all five, revise.",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Is there a dollar amount or specific number?",
+        "guidance": "$14K savings, $20K costs, 100 days, $19/day. If there's no number, add one."
+      },
+      {
+        "number": 2,
+        "question": "Would a trucker in Memphis think 'this was written for me'?",
+        "guidance": "Use trucker language, not marketing language. If it could describe a yoga retreat, it's not specific enough."
+      },
+      {
+        "number": 3,
+        "question": "Did I say 'American truckers,' not 'professional drivers'?",
+        "guidance": "Hard rule. Every time. Search your copy and replace."
+      },
+      {
+        "number": 4,
+        "question": "Is there at least one concrete, operational detail?",
+        "guidance": "Tractor-trailers, fleet shop, gated, covered parking, storage, mailing address. At least one."
+      },
+      {
+        "number": 5,
+        "question": "Does it make the reader feel smart, not desperate?",
+        "guidance": "'Massive win for the smartest truckers' — an upgrade, not a lifeline."
+      }
+    ]
+  },
+  "copy_formula": {
+    "description": "The OneHome Copy Formula for writing any piece of content from scratch. Mirrors Jeff's natural sales flow.",
+    "steps": [
+      {
+        "step": 1,
+        "name": "Hook with Money",
+        "example": "You're paying for housing 365 days a year. You're only there about 100."
+      },
+      {
+        "step": 2,
+        "name": "Name the Audience",
+        "example": "OneHome is a new lifestyle program uniquely designed for American truckers."
+      },
+      {
+        "step": 3,
+        "name": "Describe It Concretely",
+        "example": "A high-quality, gated community exclusively built to accommodate tractor-trailers."
+      },
+      {
+        "step": 4,
+        "name": "Kill the Costs",
+        "example": "Eliminate the year-round costs of a mortgage or rent, taxes, insurance, utilities, maintenance and more."
+      },
+      {
+        "step": 5,
+        "name": "Close with Aspiration",
+        "example": "It's a massive win for the smartest truckers."
+      },
+      {
+        "step": 6,
+        "name": "CTA: 'Join'",
+        "example": "Join OneHome."
+      }
+    ]
+  },
+  "voice_patterns_deep_dive": {
+    "description": "Eight new voice patterns discovered from Jeff's final editorial revisions (March 2026). These supplement the original voice system.",
+    "patterns": [
+      {
+        "pattern": "Wealth Building, Not Just Savings",
+        "description": "Jeff extended the financial story from 'save money this month' to 'build long-term wealth over 30–40 years.'",
+        "mantra": "Live smart, save money and build long term wealth.",
+        "time_horizons": "monthly savings → annual savings → lifetime wealth"
+      },
+      {
+        "pattern": "'We' Solidarity Language",
+        "description": "Jeff shifted from 'you pay' to 'we pay for it 365 days a year.' Positions himself alongside drivers, not across from them.",
+        "rule": "In sales copy, use 'we' not 'you pay' or 'drivers pay.'"
+      },
+      {
+        "pattern": "'UNTIL NOW' Dramatic Reveals",
+        "description": "Jeff uses ellipsis + capitalized pivot words to create mini-plot-twists. '...UNTIL NOW.' 'ONLY PAY FOR THE DAYS YOU USE IT.'",
+        "usage": "Verbal punches that work in both written and spoken delivery. Use sparingly for core financial claims."
+      },
+      {
+        "pattern": "'$15,000 or More' (Range Retired)",
+        "description": "The '$15,000–$20,000' range is gone everywhere. A range sounds like marketing. 'Or more' sounds like real advice.",
+        "rule": "'$15,000 or more' is now the standard savings phrasing. The range is retired. Applies everywhere."
+      },
+      {
+        "pattern": "Trucker Metaphors in CTAs",
+        "description": "'Look under the hood' and 'take a peek' replace 'take a look' and 'learn more.' Jeff speaks in the audience's native language.",
+        "rule": "Replace generic CTAs with trucker/mechanic metaphors."
+      },
+      {
+        "pattern": "'Traditional' Not 'Normal'",
+        "description": "Homes and apartments are 'traditional,' not 'normal.' 'Normal' implies OneHome is abnormal. 'Traditional' positions OneHome as the modern evolution.",
+        "rule": "Always say 'traditional home or apartment' never 'normal apartment.'"
+      },
+      {
+        "pattern": "Branded Amenity Names",
+        "description": "Jeff wants amenities to sound like destinations, not feature checkboxes. 'Camp K9' is a place. 'Member's Grill' is a place. 'Dog Park' and 'Craft Kitchen' are generic.",
+        "rule": "Every amenity should have a name drivers would actually use in conversation."
+      },
+      {
+        "pattern": "Confirmation Email = First Sales Touch",
+        "description": "The interest-list confirmation is not a receipt — it's an immediate sales opportunity with real contact info, specific incentives, and a timeline.",
+        "rule": "Include real contact (JJ at 602-858-8000), a specific offer, and a timeline. A human being one phone call away."
+      }
+    ]
+  },
+  "sales_playbook": {
+    "sales_flow_six_steps": {
+      "description": "Jeff's proven six-step framework. Use in every conversation.",
+      "steps": [
+        {
+          "step": 1,
+          "name": "Relate",
+          "script": "You live in an apartment or small home..."
+        },
+        {
+          "step": 2,
+          "name": "Expose the Problem",
+          "script": "You're paying for it 365 days a year..."
+        },
+        {
+          "step": 3,
+          "name": "Contrast Reality",
+          "script": "But you're only there about 100 days..."
+        },
+        {
+          "step": 4,
+          "name": "Introduce the Solution",
+          "script": "What if you could eliminate that cost..."
+        },
+        {
+          "step": 5,
+          "name": "Add the Upside",
+          "script": "And come home to something better..."
+        },
+        {
+          "step": 6,
+          "name": "Close",
+          "script": "There's no reason not to at least take a look."
+        }
+      ]
+    },
+    "phone_script": {
+      "opening": "Hey [Name], this is JJ with LineHaul Station — quick question...",
+      "hook": "If you could save $15,000 or more on your living costs, would you at least take a peek at the program?",
+      "context": "We're building a terminal in West Memphis specifically for drivers.",
+      "problem": "Most drivers use their home for less than 100 days per year but pay for it all year-round.",
+      "solution": "We created a program called OneHome that lets you ditch your apartment and only pay for what you actually use.",
+      "upside": "Plus you get amenities you'd never get in a traditional home or apartment.",
+      "close": "It's the coolest thing happening in trucking right now — worth a look?"
+    },
+    "follow_up_emails": {
+      "rules": "Plain text. No templates. No attachments. One idea per email. 150 words max.",
+      "email_1_confirmation": {
+        "subject": "you're on the list",
+        "body": "Hey [Name],\n\nThanks for joining the OneHome interest list. We're currently offering special incentives for our first hub in West Memphis. If you'd like to get details, please call our Membership Director, J.J. Swenson, at 602-858-8000 or send an email to jj@linehaulstation.com\n\nOccupancy is available June 2026.\n\n— LineHaul Station",
+        "note": "CRITICAL: The confirmation email is a sales tool, not a receipt. Include real contact info, a specific offer, and a timeline."
+      },
+      "email_2_financial_hook": {
+        "subject": "quick question",
+        "body": "Hey [Name],\n\nIf you could save $15,000 or more on your costs of housing, would you at least take a peek at how it works? That's what OneHome is built to do and we're confident it will be a game changer for a lot of truckers.\n\nMost drivers use their homes less than 100 days per year but pay for it year-round. It's a massive waste of money. OneHome gives you a far better option that not only saves you a ton of money, but also gives you access to resort-quality amenities that are never available with a traditional home or apartment.\n\nWant to look under the hood and learn more?\n\n— JJ, LineHaul Station"
+      },
+      "email_3_education": {
+        "subject": "here's how it works",
+        "body": "Hey [Name],\n\nOneHome is simple: you select a home hub — and choose your options for mail service, personal vehicle parking and a storage locker. After, the entire LineHaul Station network becomes your home. Same amenities, same quality, same experience... wherever you go.\n\nStart with the days you need. Add more whenever you want. Live smart, save money and build long term wealth.\n\nOneHome changes the game with convenience, quality and cost. If you're curious, just reply.\n\n— JJ, LineHaul Station"
+      }
+    },
+    "key_contact": {
+      "name": "J.J. Swenson",
+      "title": "Membership Director",
+      "phone": "602-858-8000",
+      "email": "jj@linehaulstation.com",
+      "location": "West Memphis, AR",
+      "occupancy": "June 2026"
+    }
+  },
+  "word_swap_reference": {
+    "description": "Complete word swap reference. If you catch yourself using the left column, swap for the right. Every time. Combined from both revision rounds (R1 = first revision, R2 = final revision).",
+    "swaps": [
+      {
+        "never_write": "professional drivers",
+        "always_write": "American truckers",
+        "source": "R1"
+      },
+      {
+        "never_write": "resort-style",
+        "always_write": "resort-quality",
+        "source": "R1"
+      },
+      {
+        "never_write": "home network",
+        "always_write": "community network",
+        "source": "R1"
+      },
+      {
+        "never_write": "universe (brand)",
+        "always_write": "ecosystem",
+        "source": "R1"
+      },
+      {
+        "never_write": "LineHaul Station OneHome",
+        "always_write": "LineHaul Station's OneHome",
+        "source": "R1"
+      },
+      {
+        "never_write": "people who live on the road",
+        "always_write": "men & women that live on the road",
+        "source": "R1"
+      },
+      {
+        "never_write": "Everywhere the Road Takes You",
+        "always_write": "Everywhere The Road Takes You",
+        "source": "R1"
+      },
+      {
+        "never_write": "align your living costs",
+        "always_write": "eliminate the year-round costs of...",
+        "source": "R1"
+      },
+      {
+        "never_write": "save money (generic)",
+        "always_write": "save $15,000 or more / build long term wealth",
+        "source": "R1"
+      },
+      {
+        "never_write": "a fraction of the time",
+        "always_write": "less than 100 days",
+        "source": "R1"
+      },
+      {
+        "never_write": "housing expenses (generic)",
+        "always_write": "mortgage, rent, taxes, insurance, utilities, maintenance",
+        "source": "R1"
+      },
+      {
+        "never_write": "premium locations",
+        "always_write": "gated community built for tractor-trailers",
+        "source": "R1"
+      },
+      {
+        "never_write": "Sign Up",
+        "always_write": "Join",
+        "source": "R1"
+      },
+      {
+        "never_write": "affordable alternative",
+        "always_write": "massive win for the smartest truckers",
+        "source": "R1"
+      },
+      {
+        "never_write": "home base",
+        "always_write": "Home Hub",
+        "source": "R1"
+      },
+      {
+        "never_write": "smarter way to live",
+        "always_write": "new lifestyle program",
+        "source": "R1"
+      },
+      {
+        "never_write": "$15,000–$20,000",
+        "always_write": "$15,000 or more",
+        "source": "R2"
+      },
+      {
+        "never_write": "normal apartment",
+        "always_write": "traditional home or apartment",
+        "source": "R2"
+      },
+      {
+        "never_write": "take a look",
+        "always_write": "take a peek / look under the hood",
+        "source": "R2"
+      },
+      {
+        "never_write": "Craft Kitchen",
+        "always_write": "Member's Grill",
+        "source": "R2"
+      },
+      {
+        "never_write": "Dog Park",
+        "always_write": "Camp K9",
+        "source": "R2"
+      },
+      {
+        "never_write": "Pool & Spa",
+        "always_write": "Resort Pool & Spa",
+        "source": "R2"
+      },
+      {
+        "never_write": "One★Home (in body copy)",
+        "always_write": "OneHome",
+        "source": "R2"
+      },
+      {
+        "never_write": "Amazing Amenities",
+        "always_write": "Absolutely Amazing Amenities",
+        "source": "R2"
+      },
+      {
+        "never_write": "you pay / drivers pay (in sales copy)",
+        "always_write": "we pay (solidarity language)",
+        "source": "R2"
+      },
+      {
+        "never_write": "more soon / stay tuned",
+        "always_write": "call JJ at 602-858-8000",
+        "source": "R2"
+      },
+      {
+        "never_write": "Gifts (Gear Shop)",
+        "always_write": "sundries",
+        "source": "R2"
+      },
+      {
+        "never_write": "Parking Options",
+        "always_write": "Personal Vehicle",
+        "source": "R2"
+      },
+      {
+        "never_write": "Personal Storage",
+        "always_write": "Storage Lockers",
+        "source": "R2"
+      }
+    ]
+  },
+  "amenities": {
+    "section_header": "Absolutely Amazing Amenities",
+    "description": "Every LineHaul Station location is built to deliver a premium experience for drivers. Every detail is designed to help you recharge, reset, and enjoy your time off the road.",
+    "amenities": [
+      {
+        "name": "Member's Grill",
+        "subhead": "great food • entertainment • relax",
+        "copy": "A real kitchen for real meals — your days of eating whatever's under the heat lamp are over.",
+        "previous_name": "Craft Kitchen",
+        "naming_note": "Ownership + familiar concept. 'Member's' communicates belonging, 'Grill' is familiar not pretentious."
+      },
+      {
+        "name": "Sky Deck",
+        "subhead": "outdoor firepits • water features • star gazing",
+        "copy": "Your open-air escape — kick back and take it all in.",
+        "production_note": "Spell as two words on lander."
+      },
+      {
+        "name": "Digital Den",
+        "subhead": "gamer's center • billiards • trap & skeet",
+        "copy": "An experiential center built for downtime — unwind after a long day behind the wheel."
+      },
+      {
+        "name": "Fitness Studio",
+        "subhead": "cardio • weights • showers • lockers",
+        "copy": "Stay strong on the road — everything you need to move, stretch, and recharge."
+      },
+      {
+        "name": "Laundry & More",
+        "subhead": "washers • dryers • daily essentials",
+        "copy": "Clean clothes made easy — feel fresh and ready for the road."
+      },
+      {
+        "name": "Gear Shop",
+        "subhead": "logo apparel • accessories • sundries",
+        "copy": "Everything a driver needs, right where you need it.",
+        "naming_note": "Use 'sundries' not 'Gifts'."
+      },
+      {
+        "name": "Resort Pool & Spa",
+        "subhead": "outdoor pool • hot tubs • sun & fun",
+        "copy": "Resort-level recovery — because life on the road shouldn't mean skipping rest.",
+        "previous_name": "Pool & Spa",
+        "naming_note": "Reinforces resort-quality positioning."
+      },
+      {
+        "name": "Camp K9",
+        "subhead": "dog park • relief stations • driver-friendly",
+        "copy": "Your co-pilot deserves a break too.",
+        "previous_name": "Dog Park",
+        "naming_note": "Branded, memorable, fun. 'Camp K9' sounds like a real place with its own identity."
+      },
+      {
+        "name": "Fleet Services",
+        "subhead": "repairs • maintenance • inspections • truck wash",
+        "copy": "It's no secret that preventive maintenance is critically important for truckers. The trick is finding a nearby shop that does good work at a fair price on your schedule. LineHaul Station makes it easy as a one-stop shop solution with super convenient access while you're relaxing at your new home. It doesn't get any better than this!",
+        "strategic_note": "Fleet Services is the bridge between lifestyle and operations. Makes OneHome relevant to owner-operators and business-minded drivers. Every OneHome description should include fleet services as an anchor detail."
+      }
+    ],
+    "naming_rule": "Amenity names should be branded, possessive, or experiential. Not generic feature descriptions. If it could describe any apartment complex, it's not distinctive enough.",
+    "subhead_philosophy": "Replace feature lists with experience descriptions. Jeff thinks in images, not categories. 'Star gazing' evokes a mood; 'relaxation' is a generic label."
+  },
+  "social_media_voice_feed": {
+    "description": "Jeff's social media revision patterns from March 25, 2026. Shows the difference between polished marketing copy and Jeff's authentic voice. Use Jeff's revisions as the standard for social content.",
+    "revision_patterns": [
+      {
+        "pattern": "Replace abstract metaphors with direct industry language",
+        "polished": "Nobody asked for a car. They asked for a faster horse.",
+        "jeff": "Enough of the non-sense. Trucking needs a revolutionary change.",
+        "note": "Jeff prefers direct industry critique over literary analogies."
+      },
+      {
+        "pattern": "Name the three programs explicitly",
+        "polished": "Monday morning usually feels like a reset...",
+        "jeff": "LineHaul Station has created 3 programs to overhaul how trucking operates. Our exclusive OneHome program offers drivers a better way to live on the road at a lower cost... the Flex-Space program is an affordable option for carriers... And for those carriers & shippers that understand the power of freight relay, they will love our Rapid Relay program...",
+        "note": "Jeff always names the programs and quantifies the benefit. No vague 'something new is coming.'"
+      },
+      {
+        "pattern": "Use exclamation points and CAPS for energy",
+        "polished": "If you're a trucker, this is the kind of news that matters.",
+        "jeff": "If you're a trucker, you've never seen something like this before!! ... Check us out – you're going to LOVE what you see! #letsfixtrucking",
+        "note": "Jeff's social voice is high-energy. Exclamation points, CAPS, and hashtags are intentional."
+      },
+      {
+        "pattern": "Trucking-first comparisons, not generic aspiration",
+        "polished": "LineHaul Station is bringing something new to trucking!",
+        "jeff": "Truckstops are geared for fuel & fast food... LineHaul Station is built for LIVING on the road! It's like a first-class RV resort with the best amenities & services uniquely designed for America's top-notch truckers.",
+        "note": "Jeff contrasts directly against truck stops and names the audience."
+      },
+      {
+        "pattern": "Driver dignity and concrete value over abstract positioning",
+        "polished": "'Be part of something big' gets thrown around a lot.",
+        "jeff": "Truck Drivers need better lifestyle options and we're working hard to make it happen. We are not just here to provide entertainment... we are delivering a real, tangible service that benefits drivers in a big way.",
+        "note": "Jeff grounds emotional appeals in tangible service delivery."
+      },
+      {
+        "pattern": "Call to action is always community-oriented",
+        "jeff_cta_style": "Follow us, join us and be part of something big that's uniquely designed for America's best truck drivers.",
+        "note": "Always ends with follow/join/learn + specific audience reference."
+      }
+    ],
+    "social_media_rules": [
+      "Use #letsfixtrucking hashtag",
+      "Name 'American truckers' or 'America's best truck drivers' explicitly",
+      "Include at least one specific dollar amount or operational detail",
+      "Contrast against truck stops directly — don't be vague",
+      "High energy — exclamation points are OK, CAPS for emphasis is OK",
+      "Always end with a community-oriented CTA: follow us, join us, be part of something",
+      "Jeff's voice is conversational and fired up — not polished marketing"
+    ]
+  },
+  "approved_copy": {
+    "description": "Jeff Swenson's final approved copy blocks — use these as-is or as templates. These are the definitive versions.",
+    "program_summaries": {
+      "short": {
+        "use_for": "ads, hero text, quick intros, social bios, cold emails",
+        "copy": "OneHome is a new lifestyle program uniquely designed for American truckers. Drivers can now live in a high-quality, gated community exclusively built to accommodate tractor-trailers. The amenities are like a first-class resort, the fleet shop services are top-notch, and the cost is much lower than a traditional home or apartment that's rarely used."
+      },
+      "medium": {
+        "use_for": "landing page intro, brochure opener, email body",
+        "copy": "OneHome is a LineHaul Station program designed for drivers who spend most of their lives on the road. Eliminate the year-round costs of a mortgage or rent, taxes, insurance, utilities, maintenance and more. With OneHome, you only pay for the days you use it and can also leave your personal vehicle, get your mail and store your stuff. With locations planned across the country, each location delivers the same resort-quality amenities and experience, so wherever you travel, it always feels like home."
+      },
+      "full": {
+        "use_for": "brochure interior, website 'About OneHome' page, investor materials",
+        "copy": "Most drivers pay for year-round housing — but they're typically only there for less than 100 days. With current average housing costs & monthly expenses soaring above $20,000 per year, OneHome can save a truck driver over $14,000 annually and give them a far better lifestyle.\n\nBuilt specifically for American truckers, OneHome gives you a home hub and access to a planned national network of LineHaul Station locations. Your home hub offers you a mailing address, personal vehicle parking and storage for your stuff. But the entire network is your home. Every location delivers the same high-quality experience: top-notch design, resort amenities and relaxing atmosphere wherever you go.\n\nThe program is also very flexible; start with the number of days you need now and grow your membership over time. Invest your savings and build a brighter financial future while living a better life today. It's a massive win for the smartest truckers.\n\nOneHome isn't a truck stop. It's not an apartment. It's the first resort-quality community network designed for men & women that live on the road."
+      }
+    },
+    "hero": {
+      "headline": "I need OneHome\nat both ends of a long road.",
+      "subhead": "Truck doesn't fit in the driveway. / Can't live out of some truck stop lot. / What if there was a new way for truckers / to make the most of what they've got?",
+      "blurb": "A smarter way to live on the road — built exclusively for American truckers."
+    },
+    "core_sales_block": {
+      "headline": "HERE'S A NEW & BETTER OPTION",
+      "subhead": "Most drivers are paying for a home they barely live in.",
+      "blurb": "Stop paying for what you don't use.",
+      "full_copy": "Housing is expensive — rent/mortgage, taxes, insurance, utilities, maintenance — and we pay for it 365 DAYS A YEAR whether we're home or not.... UNTIL NOW. OneHome eliminates the financial waste for truckers so that they keep more of their hard-earned income and better save for retirement. With our proprietary OneHome program, LineHaul Station becomes your new home, and you ONLY PAY FOR THE DAYS YOU USE IT.\n\nLife becomes a much better experience with daily access to resort-quality amenities and options for mail service, personal vehicle parking and self-storage. Start with the number of days you need and increase your use whenever you're ready. No more flushing money down the drain.\n\nWe anticipate truckers could SAVE $15,000 or more per year on ordinary living expenses and those savings could grow into a staggering amount of money if carefully invested over the next 30–40 years!"
+    },
+    "value_statement": {
+      "headline": "For a lot less money, a far superior experience.",
+      "subhead_questions": [
+        "WHAT IS HOME FOR YOU TODAY?",
+        "How often are you there? Where do you park your truck?",
+        "Renting a Small Basic Apartment?",
+        "Renting or Owning a Traditional Home?",
+        "Random Parking Lots with No Services?"
+      ],
+      "blurb": "Upgrade your lifestyle on the road — often while spending less."
+    },
+    "lifestyle_calculator": {
+      "headline": "The math might surprise you.",
+      "subhead": "You could save $15,000 or more per year."
+    },
+    "cta": {
+      "headline": "Join OneHome",
+      "note": "CTA Button: 'Join OneHome' — Never 'Sign Up.'",
+      "pre_launch_copy": "OneHome is currently in pre-launch. By joining now, you'll get early access to availability, program details, and next steps as locations come online."
+    },
+    "closing_tagline": "OneHome isn't a truck stop. It's not an apartment. It's the first resort-quality community network designed for men & women that live on the road."
   }
 }
