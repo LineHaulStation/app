@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LineHaul Station — Driver One-Home Calculator</title>
+<title>LineHaul Station — FlexSpace Fleet Calculator</title>
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600;700;800;900&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -315,13 +315,13 @@ input[type=range]::-webkit-slider-thumb:hover{transform:scale(1.18)}
 </head>
 <body>
 
-<div class="topbar"><div class="topbar-tag">Driver One-Home Calculator</div></div>
+<div class="topbar"><div class="topbar-tag">FlexSpace Fleet Calculator</div></div>
 
 <div id="heroSec" class="hero">
-  <h1>ONE<span>★</span>HOME<br>LIFESTYLE CALCULATOR</h1>
-  <div class="hero-tagline">Find out what your home base is really costing you</div>
-  <p>Move the sliders, see the numbers. We'll show you what you're spending — and what a LineHaul Station membership would cost to replace it.</p>
-  <button class="start-btn" onclick="startCalc()">Show Me the Numbers →</button>
+  <h1>FLEX<span>★</span>SPACE<br>FLEET PRICING CALCULATOR</h1>
+  <div class="hero-tagline">Buy only the terminal space you need — where you need it</div>
+  <p>A private terminal space costs $160K–$250K to build and sits ~20% empty. See what FlexSpace costs instead, and what your fleet saves.</p>
+  <button class="start-btn" onclick="startCalc()">Run My Numbers →</button>
 </div>
 
 <div id="progWrap" style="display:none">
@@ -334,8 +334,8 @@ input[type=range]::-webkit-slider-thumb:hover{transform:scale(1.18)}
       <div class="step-dot" id="dot3" onclick="tryJump(3)">3</div>
     </div>
     <div class="step-labels">
-      <span class="step-lbl active" id="lbl1">Home Setup</span>
-      <span class="step-lbl" id="lbl2">Road Reality</span>
+      <span class="step-lbl active" id="lbl1">Your Need</span>
+      <span class="step-lbl" id="lbl2">Your Usage</span>
       <span class="step-lbl" id="lbl3">Your Plan</span>
     </div>
   </div>
@@ -346,407 +346,228 @@ input[type=range]::-webkit-slider-thumb:hover{transform:scale(1.18)}
 <!-- PANE 1 -->
 <div class="pane active" id="pane1">
   <div class="pane-badge">Step 1 of 3</div>
-  <div class="pane-title">Your Current Home Base</div>
-  <div class="pane-desc">What does it cost to keep a place waiting for you? Best estimates are fine.</div>
+  <div class="pane-title">Your Fleet's Terminal Need</div>
+  <div class="pane-desc">How many spaces do you need, and what does terminal space cost you today?</div>
 
   <div class="card">
-    <div class="card-label">🏠 YOUR CURRENT MONTHLY HOME COSTS</div>
-
+    <div class="card-label">🚛 HOW MANY SPACES DO YOU NEED?</div>
     <div class="sl-block">
-      <div class="sl-row"><span class="sl-q">MONTHLY RENT OR MORTGAGE<br><span class="sl-q-sub">(Includes Property Taxes &amp; Insurance)</span></span><span class="sl-v" id="vRent">$1,500</span></div>
-      <input type="range" id="sRent" min="0" max="5000" step="50" value="1500" oninput="slUpdate(this,'vRent',v=>{S.rent=v},'$')">
+      <div class="sl-row"><span class="sl-q">Number of spaces</span><span class="sl-v" id="vSpaces">2</span></div>
+      <input type="range" id="sSpaces" min="1" max="25" step="1" value="2" oninput="slSpaces(this)">
+      <div class="sl-hint">Buy whole spaces and distribute digital day-passes to any driver on your team.</div>
     </div>
+  </div>
 
-    <div class="sl-group-label">MONTHLY UTILITIES</div>
-
-    <div class="sl-block sl-sub">
-      <div class="sl-row"><span class="sl-q">Water</span><span class="sl-v" id="vWater">$50</span></div>
-      <input type="range" id="sWater" min="0" max="200" step="5" value="50" oninput="slUpdate(this,'vWater',v=>{S.water=v;S.util=utilTotal()},'$')">
+  <div class="card">
+    <div class="card-label">🏗️ HOW DO YOU HANDLE TERMINAL SPACE TODAY?</div>
+    <div class="p3-home-btns" id="setupBtns">
+      <button class="p3hbtn sel" onclick="setSetup('own',this)">Build / Own</button>
+      <button class="p3hbtn" onclick="setSetup('park',this)">Off-Site Parking</button>
+      <button class="p3hbtn" onclick="setSetup('none',this)">We Make It Work</button>
     </div>
-
-    <div class="sl-block sl-sub">
-      <div class="sl-row"><span class="sl-q">Electric</span><span class="sl-v" id="vElec">$130</span></div>
-      <input type="range" id="sElec" min="0" max="400" step="5" value="130" oninput="slUpdate(this,'vElec',v=>{S.elec=v;S.util=utilTotal()},'$')">
-    </div>
-
-    <div class="sl-block sl-sub">
-      <div class="sl-row"><span class="sl-q">Gas</span><span class="sl-v" id="vGas">$80</span></div>
-      <input type="range" id="sGas" min="0" max="300" step="5" value="80" oninput="slUpdate(this,'vGas',v=>{S.gas=v;S.util=utilTotal()},'$')">
-    </div>
-
-    <div class="sl-block sl-sub" style="margin-bottom:22px">
-      <div class="sl-row"><span class="sl-q">Internet</span><span class="sl-v" id="vNet">$65</span></div>
-      <input type="range" id="sNet" min="0" max="200" step="5" value="65" oninput="slUpdate(this,'vNet',v=>{S.net=v;S.util=utilTotal()},'$')">
-    </div>
-
-    <div class="sl-group-label">HOA OR BUILDING MAINTENANCE</div>
-
-    <div class="sl-block" style="margin-bottom:22px">
-      <div class="sl-row"><span class="sl-q sl-q-dim">Monthly HOA / Maintenance Fee</span><span class="sl-v" id="vHoa">$0</span></div>
-      <input type="range" id="sHoa" min="0" max="600" step="25" value="0" oninput="slUpdate(this,'vHoa',v=>{S.hoa=v},'$')">
-    </div>
-
-    <div class="sl-group-label">HOME SERVICES</div>
-
-    <div class="sl-block sl-sub">
-      <div class="sl-row"><span class="sl-q">Trash</span><span class="sl-v" id="vTrash">$35</span></div>
-      <input type="range" id="sTrash" min="0" max="100" step="5" value="35" oninput="slUpdate(this,'vTrash',v=>{S.trash=v;S.homeSvc=svcTotal()},'$')">
-    </div>
-
-    <div class="sl-block sl-sub">
-      <div class="sl-row"><span class="sl-q">Lawn &amp; Snow</span><span class="sl-v" id="vLawn">$60</span></div>
-      <input type="range" id="sLawn" min="0" max="300" step="10" value="60" oninput="slUpdate(this,'vLawn',v=>{S.lawn=v;S.homeSvc=svcTotal()},'$')">
-    </div>
-
-    <div class="sl-block sl-sub" style="margin-bottom:22px">
-      <div class="sl-row"><span class="sl-q">Cleaning</span><span class="sl-v" id="vClean">$0</span></div>
-      <input type="range" id="sClean" min="0" max="400" step="25" value="0" oninput="slUpdate(this,'vClean',v=>{S.clean=v;S.homeSvc=svcTotal()},'$')">
-    </div>
-
-    <div class="opt-row" onclick="togStor()">
-      <label class="tog" onclick="event.stopPropagation()">
-        <input type="checkbox" id="cbStor" onchange="togStor()">
-        <span class="tog-track"></span>
-      </label>
-      <span class="opt-row-lbl">I RENT A STORAGE UNIT</span>
-    </div>
-    <div class="opt-field" id="optStor">
-      <div class="sl-block" style="padding-top:14px;margin-bottom:0">
-        <div class="sl-row"><span class="sl-q">STORAGE UNIT MONTHLY COST</span><span class="sl-v" id="vStor">$150</span></div>
-        <input type="range" id="sStor" min="0" max="400" step="25" value="150" oninput="slUpdate(this,'vStor',v=>{S.stor=v},'$')">
-      </div>
-    </div>
-
-    <div class="opt-row" onclick="togPark()">
-      <label class="tog" onclick="event.stopPropagation()">
-        <input type="checkbox" id="cbPark" onchange="togPark()">
-        <span class="tog-track"></span>
-      </label>
-      <span class="opt-row-lbl">I PAY FOR OFFSITE TRUCK PARKING</span>
-    </div>
-    <div class="opt-field" id="optPark">
-      <div class="sl-block" style="padding-top:14px;margin-bottom:0">
-        <div class="sl-row"><span class="sl-q">OFFSITE TRUCK PARKING COST</span><span class="sl-v" id="vPark">$200</span></div>
-        <input type="range" id="sPark" min="0" max="600" step="25" value="200" oninput="slUpdate(this,'vPark',v=>{S.park=v},'$')">
-        <div class="sl-hint">Many drivers pay for dedicated truck parking when living in apartments or areas that restrict commercial vehicles.</div>
+    <div id="ownWrap" style="margin-top:16px">
+      <div class="sl-block" style="margin-bottom:0">
+        <div class="sl-row"><span class="sl-q">What does ONE space cost you per year today?</span><span class="sl-v" id="vOwnYr">$50,000</span></div>
+        <input type="range" id="sOwnYr" min="0" max="100000" step="1000" value="50000" oninput="slOwnYr(this)">
+        <div class="sl-hint">Industry effective cost per occupied space often exceeds $50,000/yr (build + ~20% occupancy + upkeep).</div>
       </div>
     </div>
   </div>
 
-  <div class="anchor gold">
-    <div class="anchor-eyebrow">Your total monthly home base cost</div>
-    <div class="anchor-num" id="p1Mo">$1,700</div>
+  <div class="anchor red">
+    <div class="anchor-eyebrow">What your terminal space costs you today</div>
+    <div class="anchor-num" id="p1Now">$100,000</div>
     <div class="anchor-pills">
-      <div class="anchor-pill"><div class="pill-label">Annual</div><div class="pill-val" id="p1Yr">$20,400</div></div>
+      <div class="anchor-pill"><div class="pill-label">Per space / yr</div><div class="pill-val" id="p1NowEach">$50,000</div></div>
+      <div class="anchor-pill"><div class="pill-label">Spaces</div><div class="pill-val" id="p1NowSpaces">2</div></div>
     </div>
   </div>
 
-  <div class="nav-btns">
-    <div></div>
-    <button class="btn-next" onclick="goTo(2)">Next: My Road Reality →</button>
-  </div>
+  <div class="nav-btns"><div></div><button class="btn-next" onclick="goTo(2)">Next: My Usage →</button></div>
 </div>
 
 <!-- PANE 2 -->
 <div class="pane" id="pane2">
   <div class="pane-badge">Step 2 of 3</div>
-  <div class="pane-title">Your Schedule &amp; Road Reality</div>
-  <div class="pane-desc">Move either slider — they're linked. Drag one and watch the other respond.</div>
+  <div class="pane-title">How Much Will You Use It?</div>
+  <div class="pane-desc">FlexSpace prices to how many days a year you actually need each space.</div>
 
   <div class="card">
-    <div class="card-label">🚛 Days on the Road vs. Days at Home</div>
-    <div class="linked-panel">
-      <div class="linked-eyebrow">They add up to 30 — move one, the other adjusts</div>
-      <div class="linked-grid">
-        <div class="linked-col">
-          <div class="linked-col-label">Days on Road</div>
-          <div class="linked-col-num road" id="vRoad">20</div>
-          <input type="range" id="sRoad" min="0" max="30" step="1" value="20" oninput="syncRoad(this)">
-          <div class="linked-col-sub">per month</div>
-        </div>
-        <div class="linked-divider">⇄</div>
-        <div class="linked-col">
-          <div class="linked-col-label">Days at Home</div>
-          <div class="linked-col-num home" id="vHome">10</div>
-          <input type="range" id="sHome" min="0" max="30" step="1" value="10" class="green-track" oninput="syncHome(this)">
-          <div class="linked-col-sub">per month</div>
-        </div>
-      </div>
-      <div class="linked-bar" id="linkedBar">20 days on the road · 10 days at home · 30-day month</div>
+    <div class="card-label">📅 DAYS PER YEAR YOU'LL USE EACH SPACE</div>
+    <div class="ph-days-row">
+      <input type="range" id="sDays" min="15" max="365" step="1" value="100" oninput="slDays(this)">
+      <div class="ph-days-val" id="vDays">100</div>
+    </div>
+    <div class="sl-hint" id="daysHint">About 8–9 days a month per space. You only pay for the days you reserve.</div>
+  </div>
+
+  <div class="anchor gold">
+    <div class="anchor-eyebrow">Your FlexSpace price — per space</div>
+    <div class="anchor-num" id="p2Mo">$549</div>
+    <div class="anchor-pills">
+      <div class="anchor-pill"><div class="pill-label">Per space / yr</div><div class="pill-val" id="p2Yr">$6,588</div></div>
+      <div class="anchor-pill"><div class="pill-label">Year-1 / mo</div><div class="pill-val" id="p2Yr1">$389</div></div>
     </div>
   </div>
 
-  <div class="anchor red">
-    <div class="anchor-eyebrow">What you're really paying for each day you're actually home</div>
-    <div class="anchor-num" id="tCPD">$170</div>
-    <div class="anchor-caption" id="tCPDcap">Based on 10 days at home this month.</div>
-  </div>
-
-  <div class="card">
-    <div class="card-label">🚛 My Current Truck Parking Costs</div>
-    <div class="sl-block" style="margin-bottom:0">
-      <div class="sl-row">
-        <span class="sl-q">What do overnight stops typically cost?</span>
-        <span class="sl-v" id="vRoadDog">$0/night</span>
-      </div>
-      <input type="range" id="sRoadDog" min="0" max="50" step="5" value="0" oninput="slRoadDog(this)">
-      <div class="sl-hint">Shown on your plan for context — not counted as savings LineHaul creates.</div>
-    </div>
-  </div>
-
-  <div class="allin-total">
-    <div class="allin-total-eyebrow">Fixed home-base cost — paid whether you're there or not</div>
-    <div class="allin-total-big" id="tAllin">$1,700</div>
-    <div class="allin-total-sub">per month &nbsp;·&nbsp; <span id="tAllinYr">$20,400</span>/year</div>
-    <div class="allin-total-note" id="tAllinNote">You're paying $170 for each day you're actually home.</div>
-  </div>
-
-  <div class="nav-btns">
-    <button class="btn-back" onclick="goTo(1)">← Back</button>
-    <button class="btn-next" onclick="goTo(3)">See My Plan →</button>
-  </div>
+  <div class="nav-btns"><button class="btn-back" onclick="goTo(1)">← Back</button><button class="btn-next" onclick="goTo(3)">See My Plan →</button></div>
 </div>
 
 <!-- PANE 3 -->
 <div class="pane" id="pane3">
   <div class="pane-badge">Step 3 of 3</div>
-  <div class="pane-title">Your LineHaul One-Home Plan</div>
-  <div class="pane-desc">Pricing is pulled straight from LineHaul's official rate sheet. Numbers update live.</div>
+  <div class="pane-title">Your FlexSpace Plan</div>
+  <div class="pane-desc">Pricing pulled straight from LineHaul's official rate sheet. Numbers update live.</div>
 
-  <!-- PLAN SIZE + PRICE -->
   <div class="pricing-header">
     <div class="ph-row">
-      <div class="ph-row-label">Nights you're home per year — your plan size</div>
-      <div class="ph-days-row">
-        <input type="range" id="sLH" min="15" max="365" step="1" value="120" oninput="slLH(this)">
-        <div class="ph-days-val" id="vLH">120</div>
-      </div>
-      <div class="ph-annual" id="phAnnual">About 10 nights a month</div>
+      <div class="ph-row-label"><span id="vPlanSpaces">2</span> space(s) · <span id="vPlanDays">100</span> days/yr each</div>
     </div>
-
     <div class="swap-cols" style="margin-top:4px">
       <div class="swap-col swap-in">
-        <div class="swap-col-title">Standard</div>
-        <div class="anchor-num" id="ohStdMo" style="font-size:34px;line-height:1.05">$549</div>
-        <div class="ph-init-sub" style="margin-top:4px">per month &nbsp;·&nbsp; <span id="ohStdYr">$6,588</span>/yr</div>
+        <div class="swap-col-title">Standard / space</div>
+        <div class="anchor-num" id="fsStdMo" style="font-size:32px;line-height:1.05">$549</div>
+        <div class="ph-init-sub" style="margin-top:4px">per month &nbsp;·&nbsp; <span id="fsStdYr">$6,588</span>/yr</div>
       </div>
       <div class="swap-col swap-out" style="border-color:var(--gold)">
-        <div class="swap-col-title" style="color:var(--gold)">★ Founding Member <span style="font-weight:600;font-size:11px">(first 300)</span></div>
-        <div class="anchor-num" id="ohFndMo" style="font-size:34px;line-height:1.05;color:var(--gold)">$349</div>
-        <div class="ph-init-sub" style="margin-top:4px">per month &nbsp;·&nbsp; <span id="ohFndYr">$4,188</span>/yr</div>
+        <div class="swap-col-title" style="color:var(--gold)">★ Year-1 / space <span style="font-weight:600;font-size:11px">(first 300)</span></div>
+        <div class="anchor-num" id="fsY1Mo" style="font-size:32px;line-height:1.05;color:var(--gold)">$389</div>
+        <div class="ph-init-sub" style="margin-top:4px">per month &nbsp;·&nbsp; <span id="fsY1Yr">$4,668</span>/yr</div>
       </div>
     </div>
-
     <div class="ph-init-block">
       <div class="ph-init-top">
         <div>
-          <div class="ph-init-label">REFUNDABLE MEMBERSHIP FEE</div>
-          <div class="ph-init-val" id="ohMemberFee">$29,900</div>
+          <div class="ph-init-label">REFUNDABLE MEMBERSHIP FEE (per space)</div>
+          <div class="ph-init-val" id="fsMemberFee">$29,900</div>
         </div>
-        <span class="cap-badge" id="ohRefBadge">80% refundable</span>
+        <span class="cap-badge" id="fsDownBadge">80% refundable</span>
       </div>
-      <div class="ph-init-sub">Financed into the monthly price above. Plus a refundable security deposit of <strong id="ohSecDep">$1,000</strong> ($10 per plan-day). Refunds subject to program terms.</div>
+      <div class="ph-init-sub">Down payment <strong id="fsDown">$2,093</strong> · financed balance <strong id="fsLoan">$27,807</strong>. Plus a refundable security deposit of <strong id="fsSecDep">$1,000</strong> per space ($10/day). Refunds subject to program terms.</div>
     </div>
   </div>
 
-  <!-- HOME DECISION -->
-  <div class="card">
-    <div class="card-label">🏠 What would you do with your current place?</div>
-    <div class="p3-home-btns" id="p3HomeBtns">
-      <button class="p3hbtn sel" onclick="p3Home('eliminate',this)">Eliminate It</button>
-      <button class="p3hbtn" onclick="p3Home('downsize',this)">Downsize It</button>
-      <button class="p3hbtn" onclick="p3Home('keep',this)">Keep It</button>
-    </div>
-    <div id="p3DszWrap" style="display:none;margin-top:16px">
-      <div class="sl-block" style="margin-bottom:0">
-        <div class="sl-row"><span class="sl-q">How much could you cut your home cost?</span><span class="sl-v green" id="vP3Dsz">50%</span></div>
-        <input type="range" class="green-track" id="sP3Dsz" min="0" max="100" step="5" value="50" oninput="slP3Dsz(this)">
-      </div>
-    </div>
-  </div>
-
-  <!-- LIFESTYLE SWAP -->
+  <!-- COMPARISON -->
   <div class="swap-block">
     <div class="swap-cols">
       <div class="swap-col swap-out">
-        <div class="swap-col-title">❌ You stop paying</div>
-        <div id="swapOutList"></div>
-        <div class="swap-col-total"><span>Total eliminated</span><span id="swapOutTotal" class="swap-out-total-val">$0/mo</span></div>
+        <div class="swap-col-title">❌ Owning / today</div>
+        <div id="cmpOut"></div>
+        <div class="swap-col-total"><span>Your cost / yr</span><span id="cmpOutTotal" class="swap-out-total-val">$0</span></div>
       </div>
       <div class="swap-col swap-in">
-        <div class="swap-col-title">✓ You pay LineHaul</div>
-        <div id="swapInList"></div>
-        <div class="swap-col-total"><span>Total added</span><span id="swapInTotal" class="swap-in-total-val">$0/mo</span></div>
+        <div class="swap-col-title">✓ FlexSpace</div>
+        <div id="cmpIn"></div>
+        <div class="swap-col-total"><span>FlexSpace / yr</span><span id="cmpInTotal" class="swap-in-total-val">$0</span></div>
       </div>
     </div>
     <div class="swap-net">
       <div>
-        <div class="swap-net-label">NET MONTHLY SAVINGS</div>
-        <div class="swap-net-sub" id="swapNetSub"></div>
+        <div class="swap-net-label">NET ANNUAL SAVINGS</div>
+        <div class="swap-net-sub" id="cmpNetSub"></div>
       </div>
-      <div class="swap-net-val" id="swapNetVal">—</div>
+      <div class="swap-net-val" id="cmpNetVal">—</div>
     </div>
   </div>
 
-  <!-- ANNUAL HERO -->
   <div class="anchor gold">
-    <div class="anchor-eyebrow">Your estimated yearly savings with OneHome — Founding Member rate</div>
-    <div class="anchor-num" id="ohSaveYr">$0</div>
+    <div class="anchor-eyebrow">Your estimated fleet savings vs. owning — Standard rate</div>
+    <div class="anchor-num" id="fsSaveYr">$0</div>
     <div class="anchor-pills">
-      <div class="anchor-pill"><div class="pill-label">Per month (Founding)</div><div class="pill-val" id="ohSaveMo">$0</div></div>
-      <div class="anchor-pill"><div class="pill-label">Per year (Standard)</div><div class="pill-val" id="ohSaveYrStd">$0</div></div>
+      <div class="anchor-pill"><div class="pill-label">Total FlexSpace / yr</div><div class="pill-val" id="fsTotalYr">$0</div></div>
+      <div class="anchor-pill"><div class="pill-label">Total membership fee</div><div class="pill-val" id="fsTotalFee">$0</div></div>
     </div>
   </div>
 
-  <div class="disclaimer"><strong>Note:</strong> Pricing reflects LineHaul Station's West Memphis rate sheet (4-13-26). West Memphis is the first hub — amenities phase in over time. Figures are estimates for planning. Your road expenses outside LineHaul locations may continue.</div>
+  <div class="disclaimer"><strong>Note:</strong> FlexSpace pricing reflects LineHaul Station's West Memphis rate sheet (4-13-26). Ownership comparison uses published industry benchmarks (build cost $160K–$250K/space, ~20% occupancy, effective cost $50K+/space/yr); adjust the "cost today" slider to match your numbers. Figures are estimates for planning.</div>
 
-  <div class="nav-btns">
-    <button class="btn-back" onclick="goTo(2)">← Back</button>
-  </div>
+  <div class="nav-btns"><button class="btn-back" onclick="goTo(2)">← Back</button></div>
 </div>
 
 </div><!-- /main -->
 
 <script>
 // ════════════════════════════════════════════════════════════════
-// OneHome OFFICIAL RATE TABLE
-// Source: "Membership - Pricing - West Memphis - 4-13-26.xlsx" → "OneHome" sheet.
-// Keyed by nights-at-home per YEAR (15–365). Values are EXACT from the sheet.
-//   m  = standard price / month        y  = standard price / year
-//   fm = Founding Member price / month (first 300)   sd = refundable security deposit ($10/day)
-//   mf = refundable membership fee     rf = refundable portion (80%)
+// FlexSpace OFFICIAL RATE TABLE
+// Source: "Membership - Pricing - West Memphis - 4-13-26.xlsx" → "Flex-Space" sheet.
+// Keyed by days-of-use per YEAR per space (15–365). EXACT from the sheet.
+//   m=std price/mo  y=std price/yr  fm=Year-1 price/mo (first 300)
+//   sd=refundable security deposit ($10/day)  mf=refundable membership fee  dp=down payment  ln=financed balance
 // ════════════════════════════════════════════════════════════════
-const OH = {15:{m:99,y:1188,fm:79,sd:150,mf:4900,rf:3920},16:{m:106,y:1267,fm:86,sd:160,mf:5227,rf:4181},17:{m:112,y:1346,fm:92,sd:170,mf:5553,rf:4443},18:{m:119,y:1426,fm:99,sd:180,mf:5880,rf:4704},19:{m:125,y:1505,fm:105,sd:190,mf:6207,rf:4965},20:{m:132,y:1584,fm:112,sd:200,mf:6533,rf:5227},21:{m:139,y:1663,fm:119,sd:210,mf:6860,rf:5488},22:{m:145,y:1742,fm:125,sd:220,mf:7187,rf:5749},23:{m:152,y:1822,fm:132,sd:230,mf:7513,rf:6011},24:{m:158,y:1901,fm:138,sd:240,mf:7840,rf:6272},25:{m:165,y:1980,fm:145,sd:250,mf:8167,rf:6533},26:{m:172,y:2059,fm:152,sd:260,mf:8493,rf:6795},27:{m:178,y:2138,fm:158,sd:270,mf:8820,rf:7056},28:{m:185,y:2218,fm:165,sd:280,mf:9147,rf:7317},29:{m:191,y:2297,fm:171,sd:290,mf:9473,rf:7579},30:{m:179,y:2148,fm:119,sd:300,mf:9900,rf:7920},31:{m:185,y:2220,fm:125,sd:310,mf:10230,rf:8184},32:{m:191,y:2291,fm:131,sd:320,mf:10560,rf:8448},33:{m:197,y:2363,fm:137,sd:330,mf:10890,rf:8712},34:{m:203,y:2434,fm:143,sd:340,mf:11220,rf:8976},35:{m:209,y:2506,fm:149,sd:350,mf:11550,rf:9240},36:{m:215,y:2578,fm:155,sd:360,mf:11880,rf:9504},37:{m:221,y:2649,fm:161,sd:370,mf:12210,rf:9768},38:{m:227,y:2721,fm:167,sd:380,mf:12540,rf:10032},39:{m:233,y:2792,fm:173,sd:390,mf:12870,rf:10296},40:{m:239,y:2868,fm:149,sd:400,mf:13200,rf:10560},41:{m:245,y:2940,fm:155,sd:410,mf:13530,rf:10824},42:{m:251,y:3011,fm:161,sd:420,mf:13860,rf:11088},43:{m:257,y:3083,fm:167,sd:430,mf:14190,rf:11352},44:{m:263,y:3155,fm:173,sd:440,mf:14520,rf:11616},45:{m:269,y:3227,fm:179,sd:450,mf:14850,rf:11880},46:{m:275,y:3298,fm:185,sd:460,mf:15180,rf:12144},47:{m:281,y:3370,fm:191,sd:470,mf:15510,rf:12408},48:{m:287,y:3442,fm:197,sd:480,mf:15840,rf:12672},49:{m:293,y:3513,fm:203,sd:490,mf:16170,rf:12936},50:{m:299,y:3588,fm:189,sd:500,mf:16500,rf:13200},51:{m:305,y:3660,fm:195,sd:510,mf:16830,rf:13464},52:{m:311,y:3732,fm:201,sd:520,mf:17160,rf:13728},53:{m:317,y:3803,fm:207,sd:530,mf:17490,rf:13992},54:{m:323,y:3875,fm:213,sd:540,mf:17820,rf:14256},55:{m:329,y:3947,fm:219,sd:550,mf:18150,rf:14520},56:{m:335,y:4019,fm:225,sd:560,mf:18480,rf:14784},57:{m:341,y:4090,fm:231,sd:570,mf:18810,rf:15048},58:{m:347,y:4162,fm:237,sd:580,mf:19140,rf:15312},59:{m:353,y:4234,fm:243,sd:590,mf:19470,rf:15576},60:{m:349,y:4188,fm:199,sd:600,mf:18900,rf:15120},61:{m:355,y:4258,fm:205,sd:610,mf:19215,rf:15372},62:{m:361,y:4328,fm:211,sd:620,mf:19530,rf:15624},63:{m:366,y:4397,fm:216,sd:630,mf:19845,rf:15876},64:{m:372,y:4467,fm:222,sd:640,mf:20160,rf:16128},65:{m:378,y:4537,fm:228,sd:650,mf:20475,rf:16380},66:{m:384,y:4607,fm:234,sd:660,mf:20790,rf:16632},67:{m:390,y:4677,fm:240,sd:670,mf:21105,rf:16884},68:{m:396,y:4746,fm:246,sd:680,mf:21420,rf:17136},69:{m:401,y:4816,fm:251,sd:690,mf:21735,rf:17388},70:{m:407,y:4886,fm:257,sd:700,mf:22050,rf:17640},71:{m:413,y:4956,fm:263,sd:710,mf:22365,rf:17892},72:{m:419,y:5026,fm:269,sd:720,mf:22680,rf:18144},73:{m:425,y:5095,fm:275,sd:730,mf:22995,rf:18396},74:{m:430,y:5165,fm:280,sd:740,mf:23310,rf:18648},75:{m:436,y:5235,fm:286,sd:750,mf:23625,rf:18900},76:{m:442,y:5305,fm:292,sd:760,mf:23940,rf:19152},77:{m:448,y:5375,fm:298,sd:770,mf:24255,rf:19404},78:{m:454,y:5444,fm:304,sd:780,mf:24570,rf:19656},79:{m:460,y:5514,fm:310,sd:790,mf:24885,rf:19908},80:{m:469,y:5628,fm:269,sd:800,mf:25200,rf:20160},81:{m:475,y:5698,fm:275,sd:810,mf:25515,rf:20412},82:{m:481,y:5769,fm:281,sd:820,mf:25830,rf:20664},83:{m:487,y:5839,fm:287,sd:830,mf:26145,rf:20916},84:{m:492,y:5909,fm:292,sd:840,mf:26460,rf:21168},85:{m:498,y:5980,fm:298,sd:850,mf:26775,rf:21420},86:{m:504,y:6050,fm:304,sd:860,mf:27090,rf:21672},87:{m:510,y:6120,fm:310,sd:870,mf:27405,rf:21924},88:{m:516,y:6191,fm:316,sd:880,mf:27720,rf:22176},89:{m:522,y:6261,fm:322,sd:890,mf:28035,rf:22428},90:{m:499,y:5988,fm:299,sd:900,mf:28350,rf:22680},91:{m:505,y:6055,fm:305,sd:910,mf:28665,rf:22932},92:{m:510,y:6121,fm:310,sd:920,mf:28980,rf:23184},93:{m:516,y:6188,fm:316,sd:930,mf:29295,rf:23436},94:{m:521,y:6254,fm:321,sd:940,mf:29610,rf:23688},95:{m:527,y:6321,fm:327,sd:950,mf:29925,rf:23940},96:{m:532,y:6387,fm:332,sd:960,mf:30240,rf:24192},97:{m:538,y:6454,fm:338,sd:970,mf:30555,rf:24444},98:{m:543,y:6520,fm:343,sd:980,mf:30870,rf:24696},99:{m:549,y:6587,fm:349,sd:990,mf:31185,rf:24948},100:{m:549,y:6588,fm:349,sd:1000,mf:29900,rf:23920},101:{m:554,y:6654,fm:354,sd:1010,mf:30199,rf:24159},102:{m:560,y:6720,fm:360,sd:1020,mf:30498,rf:24398},103:{m:565,y:6786,fm:365,sd:1030,mf:30797,rf:24638},104:{m:571,y:6852,fm:371,sd:1040,mf:31096,rf:24877},105:{m:576,y:6917,fm:376,sd:1050,mf:31395,rf:25116},106:{m:582,y:6983,fm:382,sd:1060,mf:31694,rf:25355},107:{m:587,y:7049,fm:387,sd:1070,mf:31993,rf:25594},108:{m:593,y:7115,fm:393,sd:1080,mf:32292,rf:25834},109:{m:598,y:7181,fm:398,sd:1090,mf:32591,rf:26073},110:{m:604,y:7247,fm:404,sd:1100,mf:32890,rf:26312},111:{m:609,y:7313,fm:409,sd:1110,mf:33189,rf:26551},112:{m:615,y:7379,fm:415,sd:1120,mf:33488,rf:26790},113:{m:620,y:7444,fm:420,sd:1130,mf:33787,rf:27030},114:{m:626,y:7510,fm:426,sd:1140,mf:34086,rf:27269},115:{m:631,y:7576,fm:431,sd:1150,mf:34385,rf:27508},116:{m:637,y:7642,fm:437,sd:1160,mf:34684,rf:27747},117:{m:642,y:7708,fm:442,sd:1170,mf:34983,rf:27986},118:{m:648,y:7774,fm:448,sd:1180,mf:35282,rf:28226},119:{m:653,y:7840,fm:453,sd:1190,mf:35581,rf:28465},120:{m:599,y:7188,fm:389,sd:1200,mf:35880,rf:28704},121:{m:604,y:7248,fm:394,sd:1210,mf:36179,rf:28943},122:{m:609,y:7308,fm:399,sd:1220,mf:36478,rf:29182},123:{m:614,y:7368,fm:404,sd:1230,mf:36777,rf:29422},124:{m:619,y:7428,fm:409,sd:1240,mf:37076,rf:29661},125:{m:624,y:7488,fm:414,sd:1250,mf:37375,rf:29900},126:{m:629,y:7547,fm:419,sd:1260,mf:37674,rf:30139},127:{m:634,y:7607,fm:424,sd:1270,mf:37973,rf:30378},128:{m:639,y:7667,fm:429,sd:1280,mf:38272,rf:30618},129:{m:644,y:7727,fm:434,sd:1290,mf:38571,rf:30857},130:{m:649,y:7787,fm:439,sd:1300,mf:38870,rf:31096},131:{m:654,y:7847,fm:444,sd:1310,mf:39169,rf:31335},132:{m:659,y:7907,fm:449,sd:1320,mf:39468,rf:31574},133:{m:664,y:7967,fm:454,sd:1330,mf:39767,rf:31814},134:{m:669,y:8027,fm:459,sd:1340,mf:40066,rf:32053},135:{m:674,y:8087,fm:464,sd:1350,mf:40365,rf:32292},136:{m:679,y:8146,fm:469,sd:1360,mf:40664,rf:32531},137:{m:684,y:8206,fm:474,sd:1370,mf:40963,rf:32770},138:{m:689,y:8266,fm:479,sd:1380,mf:41262,rf:33010},139:{m:694,y:8326,fm:484,sd:1390,mf:41561,rf:33249},140:{m:699,y:8386,fm:489,sd:1400,mf:41860,rf:33488},141:{m:704,y:8446,fm:494,sd:1410,mf:42159,rf:33727},142:{m:709,y:8506,fm:499,sd:1420,mf:42458,rf:33966},143:{m:714,y:8566,fm:504,sd:1430,mf:42757,rf:34206},144:{m:719,y:8626,fm:509,sd:1440,mf:43056,rf:34445},145:{m:724,y:8686,fm:514,sd:1450,mf:43355,rf:34684},146:{m:729,y:8745,fm:519,sd:1460,mf:43654,rf:34923},147:{m:734,y:8805,fm:524,sd:1470,mf:43953,rf:35162},148:{m:739,y:8865,fm:529,sd:1480,mf:44252,rf:35402},149:{m:744,y:8925,fm:534,sd:1490,mf:44551,rf:35641},150:{m:749,y:8985,fm:539,sd:1500,mf:44850,rf:35880},151:{m:754,y:9045,fm:544,sd:1510,mf:45149,rf:36119},152:{m:759,y:9105,fm:549,sd:1520,mf:45448,rf:36358},153:{m:764,y:9165,fm:554,sd:1530,mf:45747,rf:36598},154:{m:769,y:9225,fm:559,sd:1540,mf:46046,rf:36837},155:{m:774,y:9284,fm:564,sd:1550,mf:46345,rf:37076},156:{m:779,y:9344,fm:569,sd:1560,mf:46644,rf:37315},157:{m:784,y:9404,fm:574,sd:1570,mf:46943,rf:37554},158:{m:789,y:9464,fm:579,sd:1580,mf:47242,rf:37794},159:{m:794,y:9524,fm:584,sd:1590,mf:47541,rf:38033},160:{m:799,y:9584,fm:589,sd:1600,mf:47840,rf:38272},161:{m:804,y:9644,fm:594,sd:1610,mf:48139,rf:38511},162:{m:809,y:9704,fm:599,sd:1620,mf:48438,rf:38750},163:{m:814,y:9764,fm:604,sd:1630,mf:48737,rf:38990},164:{m:819,y:9824,fm:609,sd:1640,mf:49036,rf:39229},165:{m:824,y:9883,fm:614,sd:1650,mf:49335,rf:39468},166:{m:829,y:9943,fm:619,sd:1660,mf:49634,rf:39707},167:{m:834,y:10003,fm:624,sd:1670,mf:49933,rf:39946},168:{m:839,y:10063,fm:629,sd:1680,mf:50232,rf:40186},169:{m:844,y:10123,fm:634,sd:1690,mf:50531,rf:40425},170:{m:849,y:10183,fm:639,sd:1700,mf:50830,rf:40664},171:{m:854,y:10243,fm:644,sd:1710,mf:51129,rf:40903},172:{m:859,y:10303,fm:649,sd:1720,mf:51428,rf:41142},173:{m:864,y:10363,fm:654,sd:1730,mf:51727,rf:41382},174:{m:869,y:10423,fm:659,sd:1740,mf:52026,rf:41621},175:{m:874,y:10483,fm:664,sd:1750,mf:52325,rf:41860},176:{m:879,y:10542,fm:669,sd:1760,mf:52624,rf:42099},177:{m:884,y:10602,fm:674,sd:1770,mf:52923,rf:42338},178:{m:889,y:10662,fm:679,sd:1780,mf:53222,rf:42578},179:{m:894,y:10722,fm:684,sd:1790,mf:53521,rf:42817},180:{m:799,y:9588,fm:449,sd:1800,mf:53820,rf:43056},181:{m:803,y:9641,fm:453,sd:1810,mf:54119,rf:43295},182:{m:808,y:9695,fm:458,sd:1820,mf:54418,rf:43534},183:{m:812,y:9748,fm:462,sd:1830,mf:54717,rf:43774},184:{m:817,y:9801,fm:467,sd:1840,mf:55016,rf:44013},185:{m:821,y:9854,fm:471,sd:1850,mf:55315,rf:44252},186:{m:826,y:9908,fm:476,sd:1860,mf:55614,rf:44491},187:{m:830,y:9961,fm:480,sd:1870,mf:55913,rf:44730},188:{m:835,y:10014,fm:485,sd:1880,mf:56212,rf:44970},189:{m:839,y:10067,fm:489,sd:1890,mf:56511,rf:45209},190:{m:843,y:10121,fm:493,sd:1900,mf:56810,rf:45448},191:{m:848,y:10174,fm:498,sd:1910,mf:57109,rf:45687},192:{m:852,y:10227,fm:502,sd:1920,mf:57408,rf:45926},193:{m:857,y:10280,fm:507,sd:1930,mf:57707,rf:46166},194:{m:861,y:10334,fm:511,sd:1940,mf:58006,rf:46405},195:{m:866,y:10387,fm:516,sd:1950,mf:58305,rf:46644},196:{m:870,y:10440,fm:520,sd:1960,mf:58604,rf:46883},197:{m:874,y:10494,fm:524,sd:1970,mf:58903,rf:47122},198:{m:879,y:10547,fm:529,sd:1980,mf:59202,rf:47362},199:{m:883,y:10600,fm:533,sd:1990,mf:59501,rf:47601},200:{m:888,y:10653,fm:538,sd:2000,mf:59800,rf:47840},201:{m:892,y:10707,fm:542,sd:2010,mf:60099,rf:48079},202:{m:897,y:10760,fm:547,sd:2020,mf:60398,rf:48318},203:{m:901,y:10813,fm:551,sd:2030,mf:60697,rf:48558},204:{m:906,y:10866,fm:556,sd:2040,mf:60996,rf:48797},205:{m:910,y:10920,fm:560,sd:2050,mf:61295,rf:49036},206:{m:914,y:10973,fm:564,sd:2060,mf:61594,rf:49275},207:{m:919,y:11026,fm:569,sd:2070,mf:61893,rf:49514},208:{m:923,y:11079,fm:573,sd:2080,mf:62192,rf:49754},209:{m:928,y:11133,fm:578,sd:2090,mf:62491,rf:49993},210:{m:932,y:11186,fm:582,sd:2100,mf:62790,rf:50232},211:{m:937,y:11239,fm:587,sd:2110,mf:63089,rf:50471},212:{m:941,y:11293,fm:591,sd:2120,mf:63388,rf:50710},213:{m:945,y:11346,fm:595,sd:2130,mf:63687,rf:50950},214:{m:950,y:11399,fm:600,sd:2140,mf:63986,rf:51189},215:{m:954,y:11452,fm:604,sd:2150,mf:64285,rf:51428},216:{m:959,y:11506,fm:609,sd:2160,mf:64584,rf:51667},217:{m:963,y:11559,fm:613,sd:2170,mf:64883,rf:51906},218:{m:968,y:11612,fm:618,sd:2180,mf:65182,rf:52146},219:{m:972,y:11665,fm:622,sd:2190,mf:65481,rf:52385},220:{m:977,y:11719,fm:627,sd:2200,mf:65780,rf:52624},221:{m:981,y:11772,fm:631,sd:2210,mf:66079,rf:52863},222:{m:985,y:11825,fm:635,sd:2220,mf:66378,rf:53102},223:{m:990,y:11878,fm:640,sd:2230,mf:66677,rf:53342},224:{m:994,y:11932,fm:644,sd:2240,mf:66976,rf:53581},225:{m:999,y:11985,fm:649,sd:2250,mf:67275,rf:53820},226:{m:1003,y:12038,fm:653,sd:2260,mf:67574,rf:54059},227:{m:1008,y:12092,fm:658,sd:2270,mf:67873,rf:54298},228:{m:1012,y:12145,fm:662,sd:2280,mf:68172,rf:54538},229:{m:1017,y:12198,fm:667,sd:2290,mf:68471,rf:54777},230:{m:1021,y:12251,fm:671,sd:2300,mf:68770,rf:55016},231:{m:1025,y:12305,fm:675,sd:2310,mf:69069,rf:55255},232:{m:1030,y:12358,fm:680,sd:2320,mf:69368,rf:55494},233:{m:1034,y:12411,fm:684,sd:2330,mf:69667,rf:55734},234:{m:1039,y:12464,fm:689,sd:2340,mf:69966,rf:55973},235:{m:1043,y:12518,fm:693,sd:2350,mf:70265,rf:56212},236:{m:1048,y:12571,fm:698,sd:2360,mf:70564,rf:56451},237:{m:1052,y:12624,fm:702,sd:2370,mf:70863,rf:56690},238:{m:1056,y:12677,fm:706,sd:2380,mf:71162,rf:56930},239:{m:1061,y:12731,fm:711,sd:2390,mf:71461,rf:57169},240:{m:1065,y:12784,fm:715,sd:2400,mf:71760,rf:57408},241:{m:1070,y:12837,fm:720,sd:2410,mf:72059,rf:57647},242:{m:1074,y:12891,fm:724,sd:2420,mf:72358,rf:57886},243:{m:1079,y:12944,fm:729,sd:2430,mf:72657,rf:58126},244:{m:1083,y:12997,fm:733,sd:2440,mf:72956,rf:58365},245:{m:1088,y:13050,fm:738,sd:2450,mf:73255,rf:58604},246:{m:1092,y:13104,fm:742,sd:2460,mf:73554,rf:58843},247:{m:1096,y:13157,fm:746,sd:2470,mf:73853,rf:59082},248:{m:1101,y:13210,fm:751,sd:2480,mf:74152,rf:59322},249:{m:1105,y:13263,fm:755,sd:2490,mf:74451,rf:59561},250:{m:1110,y:13317,fm:760,sd:2500,mf:74750,rf:59800},251:{m:1114,y:13370,fm:764,sd:2510,mf:75049,rf:60039},252:{m:1119,y:13423,fm:769,sd:2520,mf:75348,rf:60278},253:{m:1123,y:13476,fm:773,sd:2530,mf:75647,rf:60518},254:{m:1127,y:13530,fm:777,sd:2540,mf:75946,rf:60757},255:{m:1132,y:13583,fm:782,sd:2550,mf:76245,rf:60996},256:{m:1136,y:13636,fm:786,sd:2560,mf:76544,rf:61235},257:{m:1141,y:13690,fm:791,sd:2570,mf:76843,rf:61474},258:{m:1145,y:13743,fm:795,sd:2580,mf:77142,rf:61714},259:{m:1150,y:13796,fm:800,sd:2590,mf:77441,rf:61953},260:{m:1154,y:13849,fm:804,sd:2600,mf:77740,rf:62192},261:{m:1159,y:13903,fm:809,sd:2610,mf:78039,rf:62431},262:{m:1163,y:13956,fm:813,sd:2620,mf:78338,rf:62670},263:{m:1167,y:14009,fm:817,sd:2630,mf:78637,rf:62910},264:{m:1172,y:14062,fm:822,sd:2640,mf:78936,rf:63149},265:{m:1176,y:14116,fm:826,sd:2650,mf:79235,rf:63388},266:{m:1181,y:14169,fm:831,sd:2660,mf:79534,rf:63627},267:{m:1185,y:14222,fm:835,sd:2670,mf:79833,rf:63866},268:{m:1190,y:14275,fm:840,sd:2680,mf:80132,rf:64106},269:{m:1194,y:14329,fm:844,sd:2690,mf:80431,rf:64345},270:{m:1199,y:14382,fm:848,sd:2700,mf:80730,rf:64584},271:{m:1203,y:14435,fm:853,sd:2710,mf:81029,rf:64823},272:{m:1207,y:14489,fm:857,sd:2720,mf:81328,rf:65062},273:{m:1212,y:14542,fm:862,sd:2730,mf:81627,rf:65302},274:{m:1216,y:14595,fm:866,sd:2740,mf:81926,rf:65541},275:{m:1221,y:14648,fm:871,sd:2750,mf:82225,rf:65780},276:{m:1225,y:14702,fm:875,sd:2760,mf:82524,rf:66019},277:{m:1230,y:14755,fm:880,sd:2770,mf:82823,rf:66258},278:{m:1234,y:14808,fm:884,sd:2780,mf:83122,rf:66498},279:{m:1238,y:14861,fm:888,sd:2790,mf:83421,rf:66737},280:{m:1243,y:14915,fm:893,sd:2800,mf:83720,rf:66976},281:{m:1247,y:14968,fm:897,sd:2810,mf:84019,rf:67215},282:{m:1252,y:15021,fm:902,sd:2820,mf:84318,rf:67454},283:{m:1256,y:15074,fm:906,sd:2830,mf:84617,rf:67694},284:{m:1261,y:15128,fm:911,sd:2840,mf:84916,rf:67933},285:{m:1265,y:15181,fm:915,sd:2850,mf:85215,rf:68172},286:{m:1270,y:15234,fm:920,sd:2860,mf:85514,rf:68411},287:{m:1274,y:15288,fm:924,sd:2870,mf:85813,rf:68650},288:{m:1278,y:15341,fm:928,sd:2880,mf:86112,rf:68890},289:{m:1283,y:15394,fm:933,sd:2890,mf:86411,rf:69129},290:{m:1287,y:15447,fm:937,sd:2900,mf:86710,rf:69368},291:{m:1292,y:15501,fm:942,sd:2910,mf:87009,rf:69607},292:{m:1296,y:15554,fm:946,sd:2920,mf:87308,rf:69846},293:{m:1301,y:15607,fm:951,sd:2930,mf:87607,rf:70086},294:{m:1305,y:15660,fm:955,sd:2940,mf:87906,rf:70325},295:{m:1309,y:15714,fm:959,sd:2950,mf:88205,rf:70564},296:{m:1314,y:15767,fm:964,sd:2960,mf:88504,rf:70803},297:{m:1318,y:15820,fm:968,sd:2970,mf:88803,rf:71042},298:{m:1323,y:15873,fm:973,sd:2980,mf:89102,rf:71282},299:{m:1327,y:15927,fm:977,sd:2990,mf:89401,rf:71521},300:{m:1332,y:15980,fm:982,sd:3000,mf:89700,rf:71760},301:{m:1336,y:16033,fm:986,sd:3010,mf:89999,rf:71999},302:{m:1341,y:16087,fm:991,sd:3020,mf:90298,rf:72238},303:{m:1345,y:16140,fm:995,sd:3030,mf:90597,rf:72478},304:{m:1349,y:16193,fm:999,sd:3040,mf:90896,rf:72717},305:{m:1354,y:16246,fm:1004,sd:3050,mf:91195,rf:72956},306:{m:1358,y:16300,fm:1008,sd:3060,mf:91494,rf:73195},307:{m:1363,y:16353,fm:1013,sd:3070,mf:91793,rf:73434},308:{m:1367,y:16406,fm:1017,sd:3080,mf:92092,rf:73674},309:{m:1372,y:16459,fm:1022,sd:3090,mf:92391,rf:73913},310:{m:1376,y:16513,fm:1026,sd:3100,mf:92690,rf:74152},311:{m:1380,y:16566,fm:1030,sd:3110,mf:92989,rf:74391},312:{m:1385,y:16619,fm:1035,sd:3120,mf:93288,rf:74630},313:{m:1389,y:16672,fm:1039,sd:3130,mf:93587,rf:74870},314:{m:1394,y:16726,fm:1044,sd:3140,mf:93886,rf:75109},315:{m:1398,y:16779,fm:1048,sd:3150,mf:94185,rf:75348},316:{m:1403,y:16832,fm:1053,sd:3160,mf:94484,rf:75587},317:{m:1407,y:16886,fm:1057,sd:3170,mf:94783,rf:75826},318:{m:1412,y:16939,fm:1062,sd:3180,mf:95082,rf:76066},319:{m:1416,y:16992,fm:1066,sd:3190,mf:95381,rf:76305},320:{m:1420,y:17045,fm:1070,sd:3200,mf:95680,rf:76544},321:{m:1425,y:17099,fm:1075,sd:3210,mf:95979,rf:76783},322:{m:1429,y:17152,fm:1079,sd:3220,mf:96278,rf:77022},323:{m:1434,y:17205,fm:1084,sd:3230,mf:96577,rf:77262},324:{m:1438,y:17258,fm:1088,sd:3240,mf:96876,rf:77501},325:{m:1443,y:17312,fm:1093,sd:3250,mf:97175,rf:77740},326:{m:1447,y:17365,fm:1097,sd:3260,mf:97474,rf:77979},327:{m:1452,y:17418,fm:1102,sd:3270,mf:97773,rf:78218},328:{m:1456,y:17471,fm:1106,sd:3280,mf:98072,rf:78458},329:{m:1460,y:17525,fm:1110,sd:3290,mf:98371,rf:78697},330:{m:1465,y:17578,fm:1115,sd:3300,mf:98670,rf:78936},331:{m:1469,y:17631,fm:1119,sd:3310,mf:98969,rf:79175},332:{m:1474,y:17685,fm:1124,sd:3320,mf:99268,rf:79414},333:{m:1478,y:17738,fm:1128,sd:3330,mf:99567,rf:79654},334:{m:1483,y:17791,fm:1133,sd:3340,mf:99866,rf:79893},335:{m:1487,y:17844,fm:1137,sd:3350,mf:100165,rf:80132},336:{m:1491,y:17898,fm:1141,sd:3360,mf:100464,rf:80371},337:{m:1496,y:17951,fm:1146,sd:3370,mf:100763,rf:80610},338:{m:1500,y:18004,fm:1150,sd:3380,mf:101062,rf:80850},339:{m:1505,y:18057,fm:1155,sd:3390,mf:101361,rf:81089},340:{m:1509,y:18111,fm:1159,sd:3400,mf:101660,rf:81328},341:{m:1514,y:18164,fm:1164,sd:3410,mf:101959,rf:81567},342:{m:1518,y:18217,fm:1168,sd:3420,mf:102258,rf:81806},343:{m:1523,y:18270,fm:1173,sd:3430,mf:102557,rf:82046},344:{m:1527,y:18324,fm:1177,sd:3440,mf:102856,rf:82285},345:{m:1531,y:18377,fm:1181,sd:3450,mf:103155,rf:82524},346:{m:1536,y:18430,fm:1186,sd:3460,mf:103454,rf:82763},347:{m:1540,y:18484,fm:1190,sd:3470,mf:103753,rf:83002},348:{m:1545,y:18537,fm:1195,sd:3480,mf:104052,rf:83242},349:{m:1549,y:18590,fm:1199,sd:3490,mf:104351,rf:83481},350:{m:1554,y:18643,fm:1204,sd:3500,mf:104650,rf:83720},351:{m:1558,y:18697,fm:1208,sd:3510,mf:104949,rf:83959},352:{m:1562,y:18750,fm:1212,sd:3520,mf:105248,rf:84198},353:{m:1567,y:18803,fm:1217,sd:3530,mf:105547,rf:84438},354:{m:1571,y:18856,fm:1221,sd:3540,mf:105846,rf:84677},355:{m:1576,y:18910,fm:1226,sd:3550,mf:106145,rf:84916},356:{m:1580,y:18963,fm:1230,sd:3560,mf:106444,rf:85155},357:{m:1585,y:19016,fm:1235,sd:3570,mf:106743,rf:85394},358:{m:1589,y:19069,fm:1239,sd:3580,mf:107042,rf:85634},359:{m:1594,y:19123,fm:1244,sd:3590,mf:107341,rf:85873},360:{m:1598,y:19176,fm:1248,sd:3600,mf:107640,rf:86112},361:{m:1602,y:19229,fm:1252,sd:3610,mf:107939,rf:86351},362:{m:1607,y:19283,fm:1257,sd:3620,mf:108238,rf:86590},363:{m:1611,y:19336,fm:1261,sd:3630,mf:108537,rf:86830},364:{m:1616,y:19389,fm:1266,sd:3640,mf:108836,rf:87069},365:{m:1499,y:17988,fm:999,sd:3650,mf:100000,rf:80000}};
+const FS = {15:{m:99,y:1188,fm:99,sd:150,mf:4900,dp:0,ln:4900},16:{m:106,y:1267,fm:106,sd:160,mf:5227,dp:366,ln:4861},17:{m:112,y:1346,fm:112,sd:170,mf:5553,dp:389,ln:5165},18:{m:119,y:1426,fm:119,sd:180,mf:5880,dp:412,ln:5468},19:{m:125,y:1505,fm:125,sd:190,mf:6207,dp:434,ln:5772},20:{m:132,y:1584,fm:132,sd:200,mf:6533,dp:457,ln:6076},21:{m:139,y:1663,fm:139,sd:210,mf:6860,dp:480,ln:6380},22:{m:145,y:1742,fm:145,sd:220,mf:7187,dp:503,ln:6684},23:{m:152,y:1822,fm:152,sd:230,mf:7513,dp:526,ln:6987},24:{m:158,y:1901,fm:158,sd:240,mf:7840,dp:549,ln:7291},25:{m:165,y:1980,fm:165,sd:250,mf:8167,dp:572,ln:7595},26:{m:172,y:2059,fm:172,sd:260,mf:8493,dp:595,ln:7899},27:{m:178,y:2138,fm:178,sd:270,mf:8820,dp:617,ln:8203},28:{m:185,y:2218,fm:185,sd:280,mf:9147,dp:640,ln:8506},29:{m:191,y:2297,fm:191,sd:290,mf:9473,dp:663,ln:8810},30:{m:179,y:2148,fm:149,sd:300,mf:9900,dp:693,ln:9207},31:{m:185,y:2220,fm:155,sd:310,mf:10230,dp:716,ln:9514},32:{m:191,y:2291,fm:161,sd:320,mf:10560,dp:739,ln:9821},33:{m:197,y:2363,fm:167,sd:330,mf:10890,dp:762,ln:10128},34:{m:203,y:2434,fm:173,sd:340,mf:11220,dp:785,ln:10435},35:{m:209,y:2506,fm:179,sd:350,mf:11550,dp:809,ln:10742},36:{m:215,y:2578,fm:185,sd:360,mf:11880,dp:832,ln:11048},37:{m:221,y:2649,fm:191,sd:370,mf:12210,dp:855,ln:11355},38:{m:227,y:2721,fm:197,sd:380,mf:12540,dp:878,ln:11662},39:{m:233,y:2792,fm:203,sd:390,mf:12870,dp:901,ln:11969},40:{m:239,y:2868,fm:179,sd:400,mf:13200,dp:924,ln:12276},41:{m:245,y:2940,fm:185,sd:410,mf:13530,dp:947,ln:12583},42:{m:251,y:3011,fm:191,sd:420,mf:13860,dp:970,ln:12890},43:{m:257,y:3083,fm:197,sd:430,mf:14190,dp:993,ln:13197},44:{m:263,y:3155,fm:203,sd:440,mf:14520,dp:1016,ln:13504},45:{m:269,y:3227,fm:209,sd:450,mf:14850,dp:1040,ln:13811},46:{m:275,y:3298,fm:215,sd:460,mf:15180,dp:1063,ln:14117},47:{m:281,y:3370,fm:221,sd:470,mf:15510,dp:1086,ln:14424},48:{m:287,y:3442,fm:227,sd:480,mf:15840,dp:1109,ln:14731},49:{m:293,y:3513,fm:233,sd:490,mf:16170,dp:1132,ln:15038},50:{m:299,y:3588,fm:219,sd:500,mf:16500,dp:1155,ln:15345},51:{m:305,y:3660,fm:225,sd:510,mf:16830,dp:1178,ln:15652},52:{m:311,y:3732,fm:231,sd:520,mf:17160,dp:1201,ln:15959},53:{m:317,y:3803,fm:237,sd:530,mf:17490,dp:1224,ln:16266},54:{m:323,y:3875,fm:243,sd:540,mf:17820,dp:1247,ln:16573},55:{m:329,y:3947,fm:249,sd:550,mf:18150,dp:1271,ln:16880},56:{m:335,y:4019,fm:255,sd:560,mf:18480,dp:1294,ln:17186},57:{m:341,y:4090,fm:261,sd:570,mf:18810,dp:1317,ln:17493},58:{m:347,y:4162,fm:267,sd:580,mf:19140,dp:1340,ln:17800},59:{m:353,y:4234,fm:273,sd:590,mf:19470,dp:1363,ln:18107},60:{m:349,y:4188,fm:249,sd:600,mf:18900,dp:1323,ln:17577},61:{m:355,y:4258,fm:255,sd:610,mf:19215,dp:1345,ln:17870},62:{m:361,y:4328,fm:261,sd:620,mf:19530,dp:1367,ln:18163},63:{m:366,y:4397,fm:266,sd:630,mf:19845,dp:1389,ln:18456},64:{m:372,y:4467,fm:272,sd:640,mf:20160,dp:1411,ln:18749},65:{m:378,y:4537,fm:278,sd:650,mf:20475,dp:1433,ln:19042},66:{m:384,y:4607,fm:284,sd:660,mf:20790,dp:1455,ln:19335},67:{m:390,y:4677,fm:290,sd:670,mf:21105,dp:1477,ln:19628},68:{m:396,y:4746,fm:296,sd:680,mf:21420,dp:1499,ln:19921},69:{m:401,y:4816,fm:301,sd:690,mf:21735,dp:1521,ln:20214},70:{m:407,y:4886,fm:307,sd:700,mf:22050,dp:1544,ln:20507},71:{m:413,y:4956,fm:313,sd:710,mf:22365,dp:1566,ln:20799},72:{m:419,y:5026,fm:319,sd:720,mf:22680,dp:1588,ln:21092},73:{m:425,y:5095,fm:325,sd:730,mf:22995,dp:1610,ln:21385},74:{m:430,y:5165,fm:330,sd:740,mf:23310,dp:1632,ln:21678},75:{m:436,y:5235,fm:296,sd:750,mf:23625,dp:1654,ln:21971},76:{m:442,y:5305,fm:302,sd:760,mf:23940,dp:1676,ln:22264},77:{m:448,y:5375,fm:308,sd:770,mf:24255,dp:1698,ln:22557},78:{m:454,y:5444,fm:314,sd:780,mf:24570,dp:1720,ln:22850},79:{m:460,y:5514,fm:320,sd:790,mf:24885,dp:1742,ln:23143},80:{m:469,y:5628,fm:329,sd:800,mf:25200,dp:1764,ln:23436},81:{m:475,y:5698,fm:335,sd:810,mf:25515,dp:1786,ln:23729},82:{m:481,y:5769,fm:341,sd:820,mf:25830,dp:1808,ln:24022},83:{m:487,y:5839,fm:347,sd:830,mf:26145,dp:1830,ln:24315},84:{m:492,y:5909,fm:352,sd:840,mf:26460,dp:1852,ln:24608},85:{m:498,y:5980,fm:358,sd:850,mf:26775,dp:1874,ln:24901},86:{m:504,y:6050,fm:364,sd:860,mf:27090,dp:1896,ln:25194},87:{m:510,y:6120,fm:370,sd:870,mf:27405,dp:1918,ln:25487},88:{m:516,y:6191,fm:376,sd:880,mf:27720,dp:1940,ln:25780},89:{m:522,y:6261,fm:382,sd:890,mf:28035,dp:1962,ln:26073},90:{m:499,y:5988,fm:349,sd:900,mf:28350,dp:1985,ln:26366},91:{m:505,y:6055,fm:355,sd:910,mf:28665,dp:2007,ln:26658},92:{m:510,y:6121,fm:360,sd:920,mf:28980,dp:2029,ln:26951},93:{m:516,y:6188,fm:366,sd:930,mf:29295,dp:2051,ln:27244},94:{m:521,y:6254,fm:371,sd:940,mf:29610,dp:2073,ln:27537},95:{m:527,y:6321,fm:377,sd:950,mf:29925,dp:2095,ln:27830},96:{m:532,y:6387,fm:382,sd:960,mf:30240,dp:2117,ln:28123},97:{m:538,y:6454,fm:388,sd:970,mf:30555,dp:2139,ln:28416},98:{m:543,y:6520,fm:393,sd:980,mf:30870,dp:2161,ln:28709},99:{m:549,y:6587,fm:399,sd:990,mf:31185,dp:2183,ln:29002},100:{m:549,y:6588,fm:389,sd:1000,mf:29900,dp:2093,ln:27807},101:{m:554,y:6654,fm:394,sd:1010,mf:30199,dp:2114,ln:28085},102:{m:560,y:6720,fm:400,sd:1020,mf:30498,dp:2135,ln:28363},103:{m:565,y:6786,fm:405,sd:1030,mf:30797,dp:2156,ln:28641},104:{m:571,y:6852,fm:411,sd:1040,mf:31096,dp:2177,ln:28919},105:{m:576,y:6917,fm:416,sd:1050,mf:31395,dp:2198,ln:29197},106:{m:582,y:6983,fm:422,sd:1060,mf:31694,dp:2219,ln:29475},107:{m:587,y:7049,fm:427,sd:1070,mf:31993,dp:2240,ln:29753},108:{m:593,y:7115,fm:433,sd:1080,mf:32292,dp:2260,ln:30032},109:{m:598,y:7181,fm:438,sd:1090,mf:32591,dp:2281,ln:30310},110:{m:604,y:7247,fm:444,sd:1100,mf:32890,dp:2302,ln:30588},111:{m:609,y:7313,fm:449,sd:1110,mf:33189,dp:2323,ln:30866},112:{m:615,y:7379,fm:455,sd:1120,mf:33488,dp:2344,ln:31144},113:{m:620,y:7444,fm:460,sd:1130,mf:33787,dp:2365,ln:31422},114:{m:626,y:7510,fm:466,sd:1140,mf:34086,dp:2386,ln:31700},115:{m:631,y:7576,fm:471,sd:1150,mf:34385,dp:2407,ln:31978},116:{m:637,y:7642,fm:477,sd:1160,mf:34684,dp:2428,ln:32256},117:{m:642,y:7708,fm:482,sd:1170,mf:34983,dp:2449,ln:32534},118:{m:648,y:7774,fm:488,sd:1180,mf:35282,dp:2470,ln:32812},119:{m:653,y:7840,fm:493,sd:1190,mf:35581,dp:2491,ln:33090},120:{m:599,y:7188,fm:449,sd:1200,mf:35880,dp:2512,ln:33368},121:{m:604,y:7248,fm:454,sd:1210,mf:36179,dp:2533,ln:33646},122:{m:609,y:7308,fm:459,sd:1220,mf:36478,dp:2553,ln:33925},123:{m:614,y:7368,fm:464,sd:1230,mf:36777,dp:2574,ln:34203},124:{m:619,y:7428,fm:469,sd:1240,mf:37076,dp:2595,ln:34481},125:{m:624,y:7488,fm:474,sd:1250,mf:37375,dp:2616,ln:34759},126:{m:629,y:7547,fm:479,sd:1260,mf:37674,dp:2637,ln:35037},127:{m:634,y:7607,fm:484,sd:1270,mf:37973,dp:2658,ln:35315},128:{m:639,y:7667,fm:489,sd:1280,mf:38272,dp:2679,ln:35593},129:{m:644,y:7727,fm:494,sd:1290,mf:38571,dp:2700,ln:35871},130:{m:649,y:7787,fm:499,sd:1300,mf:38870,dp:2721,ln:36149},131:{m:654,y:7847,fm:504,sd:1310,mf:39169,dp:2742,ln:36427},132:{m:659,y:7907,fm:509,sd:1320,mf:39468,dp:2763,ln:36705},133:{m:664,y:7967,fm:514,sd:1330,mf:39767,dp:2784,ln:36983},134:{m:669,y:8027,fm:519,sd:1340,mf:40066,dp:2805,ln:37261},135:{m:674,y:8087,fm:524,sd:1350,mf:40365,dp:2826,ln:37539},136:{m:679,y:8146,fm:529,sd:1360,mf:40664,dp:2846,ln:37818},137:{m:684,y:8206,fm:534,sd:1370,mf:40963,dp:2867,ln:38096},138:{m:689,y:8266,fm:539,sd:1380,mf:41262,dp:2888,ln:38374},139:{m:694,y:8326,fm:544,sd:1390,mf:41561,dp:2909,ln:38652},140:{m:699,y:8386,fm:549,sd:1400,mf:41860,dp:2930,ln:38930},141:{m:704,y:8446,fm:554,sd:1410,mf:42159,dp:2951,ln:39208},142:{m:709,y:8506,fm:559,sd:1420,mf:42458,dp:2972,ln:39486},143:{m:714,y:8566,fm:564,sd:1430,mf:42757,dp:2993,ln:39764},144:{m:719,y:8626,fm:569,sd:1440,mf:43056,dp:3014,ln:40042},145:{m:724,y:8686,fm:574,sd:1450,mf:43355,dp:3035,ln:40320},146:{m:729,y:8745,fm:579,sd:1460,mf:43654,dp:3056,ln:40598},147:{m:734,y:8805,fm:584,sd:1470,mf:43953,dp:3077,ln:40876},148:{m:739,y:8865,fm:589,sd:1480,mf:44252,dp:3098,ln:41154},149:{m:744,y:8925,fm:594,sd:1490,mf:44551,dp:3119,ln:41432},150:{m:749,y:8985,fm:599,sd:1500,mf:44850,dp:3140,ln:41711},151:{m:754,y:9045,fm:604,sd:1510,mf:45149,dp:3160,ln:41989},152:{m:759,y:9105,fm:609,sd:1520,mf:45448,dp:3181,ln:42267},153:{m:764,y:9165,fm:614,sd:1530,mf:45747,dp:3202,ln:42545},154:{m:769,y:9225,fm:619,sd:1540,mf:46046,dp:3223,ln:42823},155:{m:774,y:9284,fm:624,sd:1550,mf:46345,dp:3244,ln:43101},156:{m:779,y:9344,fm:629,sd:1560,mf:46644,dp:3265,ln:43379},157:{m:784,y:9404,fm:634,sd:1570,mf:46943,dp:3286,ln:43657},158:{m:789,y:9464,fm:639,sd:1580,mf:47242,dp:3307,ln:43935},159:{m:794,y:9524,fm:644,sd:1590,mf:47541,dp:3328,ln:44213},160:{m:799,y:9584,fm:649,sd:1600,mf:47840,dp:3349,ln:44491},161:{m:804,y:9644,fm:654,sd:1610,mf:48139,dp:3370,ln:44769},162:{m:809,y:9704,fm:659,sd:1620,mf:48438,dp:3391,ln:45047},163:{m:814,y:9764,fm:664,sd:1630,mf:48737,dp:3412,ln:45325},164:{m:819,y:9824,fm:669,sd:1640,mf:49036,dp:3433,ln:45603},165:{m:824,y:9883,fm:674,sd:1650,mf:49335,dp:3453,ln:45882},166:{m:829,y:9943,fm:679,sd:1660,mf:49634,dp:3474,ln:46160},167:{m:834,y:10003,fm:684,sd:1670,mf:49933,dp:3495,ln:46438},168:{m:839,y:10063,fm:689,sd:1680,mf:50232,dp:3516,ln:46716},169:{m:844,y:10123,fm:694,sd:1690,mf:50531,dp:3537,ln:46994},170:{m:849,y:10183,fm:699,sd:1700,mf:50830,dp:3558,ln:47272},171:{m:854,y:10243,fm:704,sd:1710,mf:51129,dp:3579,ln:47550},172:{m:859,y:10303,fm:709,sd:1720,mf:51428,dp:3600,ln:47828},173:{m:864,y:10363,fm:714,sd:1730,mf:51727,dp:3621,ln:48106},174:{m:869,y:10423,fm:719,sd:1740,mf:52026,dp:3642,ln:48384},175:{m:874,y:10483,fm:724,sd:1750,mf:52325,dp:3663,ln:48662},176:{m:879,y:10542,fm:729,sd:1760,mf:52624,dp:3684,ln:48940},177:{m:884,y:10602,fm:734,sd:1770,mf:52923,dp:3705,ln:49218},178:{m:889,y:10662,fm:739,sd:1780,mf:53222,dp:3726,ln:49496},179:{m:894,y:10722,fm:744,sd:1790,mf:53521,dp:3746,ln:49775},180:{m:799,y:9588,fm:599,sd:1800,mf:53820,dp:3767,ln:50053},181:{m:803,y:9641,fm:603,sd:1810,mf:54119,dp:3788,ln:50331},182:{m:808,y:9695,fm:608,sd:1820,mf:54418,dp:3809,ln:50609},183:{m:812,y:9748,fm:612,sd:1830,mf:54717,dp:3830,ln:50887},184:{m:817,y:9801,fm:617,sd:1840,mf:55016,dp:3851,ln:51165},185:{m:821,y:9854,fm:621,sd:1850,mf:55315,dp:3872,ln:51443},186:{m:826,y:9908,fm:626,sd:1860,mf:55614,dp:3893,ln:51721},187:{m:830,y:9961,fm:630,sd:1870,mf:55913,dp:3914,ln:51999},188:{m:835,y:10014,fm:635,sd:1880,mf:56212,dp:3935,ln:52277},189:{m:839,y:10067,fm:639,sd:1890,mf:56511,dp:3956,ln:52555},190:{m:843,y:10121,fm:643,sd:1900,mf:56810,dp:3977,ln:52833},191:{m:848,y:10174,fm:648,sd:1910,mf:57109,dp:3998,ln:53111},192:{m:852,y:10227,fm:652,sd:1920,mf:57408,dp:4019,ln:53389},193:{m:857,y:10280,fm:657,sd:1930,mf:57707,dp:4039,ln:53668},194:{m:861,y:10334,fm:661,sd:1940,mf:58006,dp:4060,ln:53946},195:{m:866,y:10387,fm:666,sd:1950,mf:58305,dp:4081,ln:54224},196:{m:870,y:10440,fm:670,sd:1960,mf:58604,dp:4102,ln:54502},197:{m:874,y:10494,fm:674,sd:1970,mf:58903,dp:4123,ln:54780},198:{m:879,y:10547,fm:679,sd:1980,mf:59202,dp:4144,ln:55058},199:{m:883,y:10600,fm:683,sd:1990,mf:59501,dp:4165,ln:55336},200:{m:888,y:10653,fm:688,sd:2000,mf:59800,dp:4186,ln:55614},201:{m:892,y:10707,fm:692,sd:2010,mf:60099,dp:4207,ln:55892},202:{m:897,y:10760,fm:697,sd:2020,mf:60398,dp:4228,ln:56170},203:{m:901,y:10813,fm:701,sd:2030,mf:60697,dp:4249,ln:56448},204:{m:906,y:10866,fm:706,sd:2040,mf:60996,dp:4270,ln:56726},205:{m:910,y:10920,fm:710,sd:2050,mf:61295,dp:4291,ln:57004},206:{m:914,y:10973,fm:714,sd:2060,mf:61594,dp:4312,ln:57282},207:{m:919,y:11026,fm:719,sd:2070,mf:61893,dp:4333,ln:57560},208:{m:923,y:11079,fm:723,sd:2080,mf:62192,dp:4353,ln:57839},209:{m:928,y:11133,fm:728,sd:2090,mf:62491,dp:4374,ln:58117},210:{m:932,y:11186,fm:732,sd:2100,mf:62790,dp:4395,ln:58395},211:{m:937,y:11239,fm:737,sd:2110,mf:63089,dp:4416,ln:58673},212:{m:941,y:11293,fm:741,sd:2120,mf:63388,dp:4437,ln:58951},213:{m:945,y:11346,fm:745,sd:2130,mf:63687,dp:4458,ln:59229},214:{m:950,y:11399,fm:750,sd:2140,mf:63986,dp:4479,ln:59507},215:{m:954,y:11452,fm:754,sd:2150,mf:64285,dp:4500,ln:59785},216:{m:959,y:11506,fm:759,sd:2160,mf:64584,dp:4521,ln:60063},217:{m:963,y:11559,fm:763,sd:2170,mf:64883,dp:4542,ln:60341},218:{m:968,y:11612,fm:768,sd:2180,mf:65182,dp:4563,ln:60619},219:{m:972,y:11665,fm:772,sd:2190,mf:65481,dp:4584,ln:60897},220:{m:977,y:11719,fm:777,sd:2200,mf:65780,dp:4605,ln:61175},221:{m:981,y:11772,fm:781,sd:2210,mf:66079,dp:4626,ln:61453},222:{m:985,y:11825,fm:785,sd:2220,mf:66378,dp:4646,ln:61732},223:{m:990,y:11878,fm:790,sd:2230,mf:66677,dp:4667,ln:62010},224:{m:994,y:11932,fm:794,sd:2240,mf:66976,dp:4688,ln:62288},225:{m:999,y:11985,fm:799,sd:2250,mf:67275,dp:4709,ln:62566},226:{m:1003,y:12038,fm:803,sd:2260,mf:67574,dp:4730,ln:62844},227:{m:1008,y:12092,fm:808,sd:2270,mf:67873,dp:4751,ln:63122},228:{m:1012,y:12145,fm:812,sd:2280,mf:68172,dp:4772,ln:63400},229:{m:1017,y:12198,fm:817,sd:2290,mf:68471,dp:4793,ln:63678},230:{m:1021,y:12251,fm:821,sd:2300,mf:68770,dp:4814,ln:63956},231:{m:1025,y:12305,fm:825,sd:2310,mf:69069,dp:4835,ln:64234},232:{m:1030,y:12358,fm:830,sd:2320,mf:69368,dp:4856,ln:64512},233:{m:1034,y:12411,fm:834,sd:2330,mf:69667,dp:4877,ln:64790},234:{m:1039,y:12464,fm:839,sd:2340,mf:69966,dp:4898,ln:65068},235:{m:1043,y:12518,fm:843,sd:2350,mf:70265,dp:4919,ln:65346},236:{m:1048,y:12571,fm:848,sd:2360,mf:70564,dp:4939,ln:65625},237:{m:1052,y:12624,fm:852,sd:2370,mf:70863,dp:4960,ln:65903},238:{m:1056,y:12677,fm:856,sd:2380,mf:71162,dp:4981,ln:66181},239:{m:1061,y:12731,fm:861,sd:2390,mf:71461,dp:5002,ln:66459},240:{m:1065,y:12784,fm:865,sd:2400,mf:71760,dp:5023,ln:66737},241:{m:1070,y:12837,fm:870,sd:2410,mf:72059,dp:5044,ln:67015},242:{m:1074,y:12891,fm:874,sd:2420,mf:72358,dp:5065,ln:67293},243:{m:1079,y:12944,fm:879,sd:2430,mf:72657,dp:5086,ln:67571},244:{m:1083,y:12997,fm:883,sd:2440,mf:72956,dp:5107,ln:67849},245:{m:1088,y:13050,fm:888,sd:2450,mf:73255,dp:5128,ln:68127},246:{m:1092,y:13104,fm:892,sd:2460,mf:73554,dp:5149,ln:68405},247:{m:1096,y:13157,fm:896,sd:2470,mf:73853,dp:5170,ln:68683},248:{m:1101,y:13210,fm:901,sd:2480,mf:74152,dp:5191,ln:68961},249:{m:1105,y:13263,fm:905,sd:2490,mf:74451,dp:5212,ln:69239},250:{m:1110,y:13317,fm:910,sd:2500,mf:74750,dp:5233,ln:69518},251:{m:1114,y:13370,fm:914,sd:2510,mf:75049,dp:5253,ln:69796},252:{m:1119,y:13423,fm:919,sd:2520,mf:75348,dp:5274,ln:70074},253:{m:1123,y:13476,fm:923,sd:2530,mf:75647,dp:5295,ln:70352},254:{m:1127,y:13530,fm:927,sd:2540,mf:75946,dp:5316,ln:70630},255:{m:1132,y:13583,fm:932,sd:2550,mf:76245,dp:5337,ln:70908},256:{m:1136,y:13636,fm:936,sd:2560,mf:76544,dp:5358,ln:71186},257:{m:1141,y:13690,fm:941,sd:2570,mf:76843,dp:5379,ln:71464},258:{m:1145,y:13743,fm:945,sd:2580,mf:77142,dp:5400,ln:71742},259:{m:1150,y:13796,fm:950,sd:2590,mf:77441,dp:5421,ln:72020},260:{m:1154,y:13849,fm:954,sd:2600,mf:77740,dp:5442,ln:72298},261:{m:1159,y:13903,fm:959,sd:2610,mf:78039,dp:5463,ln:72576},262:{m:1163,y:13956,fm:963,sd:2620,mf:78338,dp:5484,ln:72854},263:{m:1167,y:14009,fm:967,sd:2630,mf:78637,dp:5505,ln:73132},264:{m:1172,y:14062,fm:972,sd:2640,mf:78936,dp:5526,ln:73410},265:{m:1176,y:14116,fm:976,sd:2650,mf:79235,dp:5546,ln:73689},266:{m:1181,y:14169,fm:981,sd:2660,mf:79534,dp:5567,ln:73967},267:{m:1185,y:14222,fm:985,sd:2670,mf:79833,dp:5588,ln:74245},268:{m:1190,y:14275,fm:990,sd:2680,mf:80132,dp:5609,ln:74523},269:{m:1194,y:14329,fm:994,sd:2690,mf:80431,dp:5630,ln:74801},270:{m:1199,y:14382,fm:998,sd:2700,mf:80730,dp:5651,ln:75079},271:{m:1203,y:14435,fm:1003,sd:2710,mf:81029,dp:5672,ln:75357},272:{m:1207,y:14489,fm:1007,sd:2720,mf:81328,dp:5693,ln:75635},273:{m:1212,y:14542,fm:1012,sd:2730,mf:81627,dp:5714,ln:75913},274:{m:1216,y:14595,fm:1016,sd:2740,mf:81926,dp:5735,ln:76191},275:{m:1221,y:14648,fm:1021,sd:2750,mf:82225,dp:5756,ln:76469},276:{m:1225,y:14702,fm:1025,sd:2760,mf:82524,dp:5777,ln:76747},277:{m:1230,y:14755,fm:1030,sd:2770,mf:82823,dp:5798,ln:77025},278:{m:1234,y:14808,fm:1034,sd:2780,mf:83122,dp:5819,ln:77303},279:{m:1238,y:14861,fm:1038,sd:2790,mf:83421,dp:5839,ln:77582},280:{m:1243,y:14915,fm:1043,sd:2800,mf:83720,dp:5860,ln:77860},281:{m:1247,y:14968,fm:1047,sd:2810,mf:84019,dp:5881,ln:78138},282:{m:1252,y:15021,fm:1052,sd:2820,mf:84318,dp:5902,ln:78416},283:{m:1256,y:15074,fm:1056,sd:2830,mf:84617,dp:5923,ln:78694},284:{m:1261,y:15128,fm:1061,sd:2840,mf:84916,dp:5944,ln:78972},285:{m:1265,y:15181,fm:1065,sd:2850,mf:85215,dp:5965,ln:79250},286:{m:1270,y:15234,fm:1070,sd:2860,mf:85514,dp:5986,ln:79528},287:{m:1274,y:15288,fm:1074,sd:2870,mf:85813,dp:6007,ln:79806},288:{m:1278,y:15341,fm:1078,sd:2880,mf:86112,dp:6028,ln:80084},289:{m:1283,y:15394,fm:1083,sd:2890,mf:86411,dp:6049,ln:80362},290:{m:1287,y:15447,fm:1087,sd:2900,mf:86710,dp:6070,ln:80640},291:{m:1292,y:15501,fm:1092,sd:2910,mf:87009,dp:6091,ln:80918},292:{m:1296,y:15554,fm:1096,sd:2920,mf:87308,dp:6112,ln:81196},293:{m:1301,y:15607,fm:1101,sd:2930,mf:87607,dp:6132,ln:81475},294:{m:1305,y:15660,fm:1105,sd:2940,mf:87906,dp:6153,ln:81753},295:{m:1309,y:15714,fm:1109,sd:2950,mf:88205,dp:6174,ln:82031},296:{m:1314,y:15767,fm:1114,sd:2960,mf:88504,dp:6195,ln:82309},297:{m:1318,y:15820,fm:1118,sd:2970,mf:88803,dp:6216,ln:82587},298:{m:1323,y:15873,fm:1123,sd:2980,mf:89102,dp:6237,ln:82865},299:{m:1327,y:15927,fm:1127,sd:2990,mf:89401,dp:6258,ln:83143},300:{m:1332,y:15980,fm:1132,sd:3000,mf:89700,dp:6279,ln:83421},301:{m:1336,y:16033,fm:1136,sd:3010,mf:89999,dp:6300,ln:83699},302:{m:1341,y:16087,fm:1141,sd:3020,mf:90298,dp:6321,ln:83977},303:{m:1345,y:16140,fm:1145,sd:3030,mf:90597,dp:6342,ln:84255},304:{m:1349,y:16193,fm:1149,sd:3040,mf:90896,dp:6363,ln:84533},305:{m:1354,y:16246,fm:1154,sd:3050,mf:91195,dp:6384,ln:84811},306:{m:1358,y:16300,fm:1158,sd:3060,mf:91494,dp:6405,ln:85089},307:{m:1363,y:16353,fm:1163,sd:3070,mf:91793,dp:6426,ln:85367},308:{m:1367,y:16406,fm:1167,sd:3080,mf:92092,dp:6446,ln:85646},309:{m:1372,y:16459,fm:1172,sd:3090,mf:92391,dp:6467,ln:85924},310:{m:1376,y:16513,fm:1176,sd:3100,mf:92690,dp:6488,ln:86202},311:{m:1380,y:16566,fm:1180,sd:3110,mf:92989,dp:6509,ln:86480},312:{m:1385,y:16619,fm:1185,sd:3120,mf:93288,dp:6530,ln:86758},313:{m:1389,y:16672,fm:1189,sd:3130,mf:93587,dp:6551,ln:87036},314:{m:1394,y:16726,fm:1194,sd:3140,mf:93886,dp:6572,ln:87314},315:{m:1398,y:16779,fm:1198,sd:3150,mf:94185,dp:6593,ln:87592},316:{m:1403,y:16832,fm:1203,sd:3160,mf:94484,dp:6614,ln:87870},317:{m:1407,y:16886,fm:1207,sd:3170,mf:94783,dp:6635,ln:88148},318:{m:1412,y:16939,fm:1212,sd:3180,mf:95082,dp:6656,ln:88426},319:{m:1416,y:16992,fm:1216,sd:3190,mf:95381,dp:6677,ln:88704},320:{m:1420,y:17045,fm:1220,sd:3200,mf:95680,dp:6698,ln:88982},321:{m:1425,y:17099,fm:1225,sd:3210,mf:95979,dp:6719,ln:89260},322:{m:1429,y:17152,fm:1229,sd:3220,mf:96278,dp:6739,ln:89539},323:{m:1434,y:17205,fm:1234,sd:3230,mf:96577,dp:6760,ln:89817},324:{m:1438,y:17258,fm:1238,sd:3240,mf:96876,dp:6781,ln:90095},325:{m:1443,y:17312,fm:1243,sd:3250,mf:97175,dp:6802,ln:90373},326:{m:1447,y:17365,fm:1247,sd:3260,mf:97474,dp:6823,ln:90651},327:{m:1452,y:17418,fm:1252,sd:3270,mf:97773,dp:6844,ln:90929},328:{m:1456,y:17471,fm:1256,sd:3280,mf:98072,dp:6865,ln:91207},329:{m:1460,y:17525,fm:1260,sd:3290,mf:98371,dp:6886,ln:91485},330:{m:1465,y:17578,fm:1265,sd:3300,mf:98670,dp:6907,ln:91763},331:{m:1469,y:17631,fm:1269,sd:3310,mf:98969,dp:6928,ln:92041},332:{m:1474,y:17685,fm:1274,sd:3320,mf:99268,dp:6949,ln:92319},333:{m:1478,y:17738,fm:1278,sd:3330,mf:99567,dp:6970,ln:92597},334:{m:1483,y:17791,fm:1283,sd:3340,mf:99866,dp:6991,ln:92875},335:{m:1487,y:17844,fm:1287,sd:3350,mf:100165,dp:7012,ln:93153},336:{m:1491,y:17898,fm:1291,sd:3360,mf:100464,dp:7032,ln:93432},337:{m:1496,y:17951,fm:1296,sd:3370,mf:100763,dp:7053,ln:93710},338:{m:1500,y:18004,fm:1300,sd:3380,mf:101062,dp:7074,ln:93988},339:{m:1505,y:18057,fm:1305,sd:3390,mf:101361,dp:7095,ln:94266},340:{m:1509,y:18111,fm:1309,sd:3400,mf:101660,dp:7116,ln:94544},341:{m:1514,y:18164,fm:1314,sd:3410,mf:101959,dp:7137,ln:94822},342:{m:1518,y:18217,fm:1318,sd:3420,mf:102258,dp:7158,ln:95100},343:{m:1523,y:18270,fm:1323,sd:3430,mf:102557,dp:7179,ln:95378},344:{m:1527,y:18324,fm:1327,sd:3440,mf:102856,dp:7200,ln:95656},345:{m:1531,y:18377,fm:1331,sd:3450,mf:103155,dp:7221,ln:95934},346:{m:1536,y:18430,fm:1336,sd:3460,mf:103454,dp:7242,ln:96212},347:{m:1540,y:18484,fm:1340,sd:3470,mf:103753,dp:7263,ln:96490},348:{m:1545,y:18537,fm:1345,sd:3480,mf:104052,dp:7284,ln:96768},349:{m:1549,y:18590,fm:1349,sd:3490,mf:104351,dp:7305,ln:97046},350:{m:1554,y:18643,fm:1354,sd:3500,mf:104650,dp:7326,ln:97325},351:{m:1558,y:18697,fm:1358,sd:3510,mf:104949,dp:7346,ln:97603},352:{m:1562,y:18750,fm:1362,sd:3520,mf:105248,dp:7367,ln:97881},353:{m:1567,y:18803,fm:1367,sd:3530,mf:105547,dp:7388,ln:98159},354:{m:1571,y:18856,fm:1371,sd:3540,mf:105846,dp:7409,ln:98437},355:{m:1576,y:18910,fm:1376,sd:3550,mf:106145,dp:7430,ln:98715},356:{m:1580,y:18963,fm:1380,sd:3560,mf:106444,dp:7451,ln:98993},357:{m:1585,y:19016,fm:1385,sd:3570,mf:106743,dp:7472,ln:99271},358:{m:1589,y:19069,fm:1389,sd:3580,mf:107042,dp:7493,ln:99549},359:{m:1594,y:19123,fm:1394,sd:3590,mf:107341,dp:7514,ln:99827},360:{m:1598,y:19176,fm:1398,sd:3600,mf:107640,dp:7535,ln:100105},361:{m:1602,y:19229,fm:1402,sd:3610,mf:107939,dp:7556,ln:100383},362:{m:1607,y:19283,fm:1407,sd:3620,mf:108238,dp:7577,ln:100661},363:{m:1611,y:19336,fm:1411,sd:3630,mf:108537,dp:7598,ln:100939},364:{m:1616,y:19389,fm:1416,sd:3640,mf:108836,dp:7619,ln:101217},365:{m:1499,y:17988,fm:1199,sd:3650,mf:100000,dp:7000,ln:93000}};
 
-// STATE
-const S = {
-  rent:1500, water:50, elec:130, gas:80, net:65, hoa:0, trash:35, lawn:60, clean:0,
-  util:325, homeSvc:95, stor:0, useStor:false, park:0, usePark:false,
-  roadDays:20, roadDogRate:0,
-  planDays:120, p3Home:'eliminate', p3DszPct:50
-};
+const S = { spaces:2, setup:'own', ownYr:50000, days:100 };
 let curPane = 1;
 
-// HELPERS
 const $$ = id => document.getElementById(id);
 const fmt = n => '$' + Math.round(n).toLocaleString();
-const signed = n => (n < 0 ? '−' : '') + '$' + Math.abs(Math.round(n)).toLocaleString();
+const signed = n => (n<0?'−':'') + '$' + Math.abs(Math.round(n)).toLocaleString();
 const clamp = (v,a,b) => Math.max(a, Math.min(b, v));
 function setPct(el){ const p=((el.value-el.min)/(el.max-el.min)*100).toFixed(1); el.style.setProperty('--p',p+'%'); }
-function utilTotal(){ return S.water + S.elec + S.gas + S.net; }
-function svcTotal(){ return S.trash + S.lawn + S.clean; }
-function homeMo(){ return S.rent + S.util + S.hoa + S.homeSvc + (S.useStor?S.stor:0) + (S.usePark?S.park:0); }
-function homeDays(){ return Math.max(1, 30 - S.roadDays); }
-function cpd(){ return homeMo() / homeDays(); }
-function planLookup(days){ return OH[clamp(Math.round(days),15,365)]; }
+function look(d){ return FS[clamp(Math.round(d),15,365)]; }
 
-// SLIDER HANDLERS (Steps 1–2)
-function slUpdate(el,labelId,setter,prefix){ setPct(el); const v=parseInt(el.value); setter(v); const lbl=$$(labelId); if(lbl) lbl.textContent=(prefix||'')+v.toLocaleString(); recalc(); }
-function syncRoad(el){ setPct(el); S.roadDays=parseInt(el.value); const home=30-S.roadDays; const h=$$('sHome'); h.value=home; setPct(h); $$('vRoad').textContent=S.roadDays; $$('vHome').textContent=home; $$('linkedBar').textContent=S.roadDays+' days on the road · '+home+' days at home · 30-day month'; recalc(); }
-function syncHome(el){ setPct(el); const home=parseInt(el.value); S.roadDays=30-home; const r=$$('sRoad'); r.value=S.roadDays; setPct(r); $$('vRoad').textContent=S.roadDays; $$('vHome').textContent=home; $$('linkedBar').textContent=S.roadDays+' days on the road · '+home+' days at home · 30-day month'; recalc(); }
-function slRoadDog(el){ setPct(el); S.roadDogRate=parseInt(el.value); $$('vRoadDog').textContent='$'+S.roadDogRate+'/night'; recalc(); }
-function togStor(){ const cb=$$('cbStor'); S.useStor=cb.checked; $$('optStor').classList.toggle('open',cb.checked); if(cb.checked){ const el=$$('sStor'); S.stor=parseInt(el.value); setPct(el);} else { S.stor=0; } recalc(); }
-function togPark(){ const cb=$$('cbPark'); S.usePark=cb.checked; $$('optPark').classList.toggle('open',cb.checked); if(cb.checked){ const el=$$('sPark'); S.park=parseInt(el.value); setPct(el);} else { S.park=0; } recalc(); }
+function slSpaces(el){ setPct(el); S.spaces=parseInt(el.value); $$('vSpaces').textContent=S.spaces; recalc(); }
+function slOwnYr(el){ setPct(el); S.ownYr=parseInt(el.value); $$('vOwnYr').textContent=fmt(S.ownYr); recalc(); }
+function slDays(el){ setPct(el); S.days=parseInt(el.value); $$('vDays').textContent=S.days; recalc(); }
+function setSetup(v,btn){ document.querySelectorAll('#setupBtns .p3hbtn').forEach(b=>b.classList.remove('sel')); btn.classList.add('sel'); S.setup=v; $$('ownWrap').style.display = (v==='none')?'none':''; recalc(); }
 
-// HANDLERS (Step 3)
-function slLH(el){ setPct(el); S.planDays=parseInt(el.value); recalc(); }
-function slP3Dsz(el){ setPct(el); S.p3DszPct=parseInt(el.value); $$('vP3Dsz').textContent=S.p3DszPct+'%'; recalc(); }
-function p3Home(val,btn){ document.querySelectorAll('#p3HomeBtns .p3hbtn').forEach(b=>b.classList.remove('sel')); btn.classList.add('sel'); S.p3Home=val; $$('p3DszWrap').style.display = val==='downsize' ? '' : 'none'; recalc(); }
-
-// MASTER RECALC
 function recalc(){
-  const hm = homeMo();
-  $$('p1Mo').textContent = fmt(hm);
-  $$('p1Yr').textContent = fmt(hm*12);
+  const p = look(S.days);
+  const spaces = S.spaces;
+  const ownYr = (S.setup==='none') ? 0 : S.ownYr;
 
-  const cpdV = cpd(), hd = homeDays();
-  $$('tCPD').textContent = fmt(cpdV);
-  $$('tCPDcap').textContent = 'Based on '+hd+" days at home this month. Your home base costs this for every single day you're actually there.";
-  $$('tAllin').textContent = fmt(hm);
-  $$('tAllinYr').textContent = fmt(hm*12);
-  $$('tAllinNote').textContent = "You're paying "+fmt(cpdV)+' for each day you're actually home.';
+  // Pane 1
+  $$('p1Now').textContent = fmt(ownYr*spaces);
+  $$('p1NowEach').textContent = fmt(ownYr);
+  $$('p1NowSpaces').textContent = spaces;
+
+  // Pane 2
+  $$('vDays').textContent = S.days;
+  $$('daysHint').textContent = 'About '+Math.round(S.days/12)+' days a month per space. You only pay for the days you reserve.';
+  $$('p2Mo').textContent = fmt(p.m);
+  $$('p2Yr').textContent = fmt(p.y);
+  $$('p2Yr1').textContent = fmt(p.fm);
 
   if(curPane < 3) return;
 
-  const days = clamp(S.planDays,15,365);
-  const p = planLookup(days);
-  $$('vLH').textContent = days;
-  $$('phAnnual').textContent = 'About '+Math.round(days/12)+' nights a month';
-  $$('ohStdMo').textContent = fmt(p.m);
-  $$('ohStdYr').textContent = fmt(p.y);
-  $$('ohFndMo').textContent = fmt(p.fm);
-  $$('ohFndYr').textContent = fmt(p.fm*12);
-  $$('ohMemberFee').textContent = fmt(p.mf);
-  $$('ohSecDep').textContent = fmt(p.sd);
+  // Pane 3
+  $$('vPlanSpaces').textContent = spaces;
+  $$('vPlanDays').textContent = S.days;
+  $$('fsStdMo').textContent = fmt(p.m);
+  $$('fsStdYr').textContent = fmt(p.y);
+  $$('fsY1Mo').textContent = fmt(p.fm);
+  $$('fsY1Yr').textContent = fmt(p.fm*12);
+  $$('fsMemberFee').textContent = fmt(p.mf);
+  $$('fsDown').textContent = fmt(p.dp);
+  $$('fsLoan').textContent = fmt(p.ln);
+  $$('fsSecDep').textContent = fmt(p.sd);
 
-  const frac = S.p3Home==='eliminate' ? 1 : (S.p3Home==='downsize' ? S.p3DszPct/100 : 0);
-  const replaced = hm * frac;
+  const ownTotal = ownYr*spaces;
+  const flexTotal = p.y*spaces;
+  $$('cmpOut').innerHTML = `<div class="swap-item"><span class="swap-item-lbl">Terminal cost (${spaces} space${spaces>1?'s':''})</span><span class="swap-item-val">${fmt(ownYr)}/ea</span></div>`;
+  $$('cmpOutTotal').textContent = fmt(ownTotal);
+  $$('cmpIn').innerHTML = `<div class="swap-item"><span class="swap-item-lbl">FlexSpace (${spaces} space${spaces>1?'s':''} · ${S.days} days)</span><span class="swap-item-val">${fmt(p.y)}/ea</span></div>`;
+  $$('cmpInTotal').textContent = fmt(flexTotal);
 
-  const out = [];
-  if(frac > 0){
-    if(S.rent>0)  out.push({lbl:'Rent / Mortgage', val:S.rent*frac});
-    if(S.water>0) out.push({lbl:'Water',    val:S.water*frac});
-    if(S.elec>0)  out.push({lbl:'Electric', val:S.elec*frac});
-    if(S.gas>0)   out.push({lbl:'Gas',      val:S.gas*frac});
-    if(S.net>0)   out.push({lbl:'Internet', val:S.net*frac});
-    if(S.hoa>0)   out.push({lbl:'HOA / Maintenance', val:S.hoa*frac});
-    if(S.trash>0) out.push({lbl:'Trash',    val:S.trash*frac});
-    if(S.lawn>0)  out.push({lbl:'Lawn & Snow', val:S.lawn*frac});
-    if(S.clean>0) out.push({lbl:'Cleaning', val:S.clean*frac});
-    if(S.useStor && S.stor>0) out.push({lbl:'Storage Unit', val:S.stor*frac});
-    if(S.usePark && S.park>0) out.push({lbl:'Truck Parking', val:S.park*frac});
-  }
-  $$('swapOutList').innerHTML = out.length
-    ? out.map(i=>`<div class="swap-item"><span class="swap-item-lbl">${i.lbl}</span><span class="swap-item-val">${fmt(i.val)}/mo</span></div>`).join('')
-    : '<div style="font-size:12px;color:var(--muted);padding:6px 0">Choose Eliminate or Downsize above</div>';
-  $$('swapOutTotal').textContent = fmt(replaced)+'/mo';
+  const net = ownTotal - flexTotal;
+  const saving = net > 0;
+  $$('cmpNetVal').textContent = signed(net);
+  $$('cmpNetVal').className = 'swap-net-val '+(saving?'saving':'costing');
+  $$('cmpNetSub').textContent = (S.setup==='none')
+    ? 'Set your current cost in Step 1 to see savings vs. owning.'
+    : (saving ? 'FlexSpace vs. owning, at Standard rate. Year-1 founding rate saves even more.' : 'Raise your current cost to reflect true build + occupancy economics.');
 
-  $$('swapInList').innerHTML = `<div class="swap-item"><span class="swap-item-lbl">OneHome membership (${days} nights/yr)</span><span class="swap-item-val">${fmt(p.m)}/mo</span></div>`;
-  $$('swapInTotal').textContent = fmt(p.m)+'/mo';
-
-  const netStd = replaced - p.m;
-  const saving = netStd > 0;
-  $$('swapNetVal').textContent = signed(netStd)+'/mo';
-  $$('swapNetVal').className = 'swap-net-val '+(saving?'saving':'costing');
-  $$('swapNetSub').textContent = saving
-    ? 'Standard rate vs. the home cost you stop paying. Founding Members save even more.'
-    : "LineHaul costs more than the home cost you're replacing here — try Eliminate, or a smaller plan.";
-
-  const netFnd = replaced - p.fm;
-  $$('ohSaveYr').textContent    = signed(netFnd*12);
-  $$('ohSaveMo').textContent    = signed(netFnd);
-  $$('ohSaveYrStd').textContent = signed(netStd*12);
+  $$('fsSaveYr').textContent = signed(net);
+  $$('fsTotalYr').textContent = fmt(flexTotal);
+  $$('fsTotalFee').textContent = fmt(p.mf*spaces);
 }
 
-// NAVIGATION
 function startCalc(){ $$('heroSec').style.display='none'; $$('progWrap').style.display='block'; $$('calcMain').style.display='block'; goTo(1); }
-function goTo(n){
-  document.querySelectorAll('.pane').forEach(p=>p.classList.remove('active'));
-  $$('pane'+n).classList.add('active');
-  curPane = n; updateProg(n);
-  if(n === 3){
-    S.planDays = clamp(Math.round((30 - S.roadDays) * 365/30), 15, 365);
-    const el = $$('sLH'); el.value = S.planDays; setPct(el);
-  }
-  recalc();
-  window.scrollTo({top:0, behavior:'smooth'});
-}
-function tryJump(n){ if(n < curPane) goTo(n); }
-function updateProg(n){
-  for(let i=1;i<=3;i++){
-    const dot=$$('dot'+i), lbl=$$('lbl'+i);
-    dot.className='step-dot'; lbl.className='step-lbl';
-    if(i<n){ dot.classList.add('done'); lbl.classList.add('done'); }
-    else if(i===n){ dot.classList.add('active'); lbl.classList.add('active'); }
-    if(i<3) $$('line'+i).className='step-line'+(i<n?' done':'');
-  }
-}
+function goTo(n){ document.querySelectorAll('.pane').forEach(p=>p.classList.remove('active')); $$('pane'+n).classList.add('active'); curPane=n; updateProg(n); recalc(); window.scrollTo({top:0,behavior:'smooth'}); }
+function tryJump(n){ if(n<curPane) goTo(n); }
+function updateProg(n){ for(let i=1;i<=3;i++){ const dot=$$('dot'+i),lbl=$$('lbl'+i); dot.className='step-dot'; lbl.className='step-lbl'; if(i<n){dot.classList.add('done');lbl.classList.add('done');} else if(i===n){dot.classList.add('active');lbl.classList.add('active');} if(i<3)$$('line'+i).className='step-line'+(i<n?' done':''); } }
 
-// INIT
-window.onload = () => {
-  ['sRent','sWater','sElec','sGas','sNet','sHoa','sTrash','sLawn','sClean','sStor','sPark','sRoad','sHome','sRoadDog','sLH','sP3Dsz'].forEach(id=>{ const el=$$(id); if(el) setPct(el); });
-  recalc();
-};
+window.onload = () => { ['sSpaces','sOwnYr','sDays'].forEach(id=>{const el=$$(id);if(el)setPct(el);}); recalc(); };
 </script>
 </body>
 </html>
