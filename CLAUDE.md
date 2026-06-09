@@ -36,6 +36,13 @@ calculators, lifestyle images, and JSON data (see `pages/`, `code/`, `JSONS/`,
 6. **Tell JJ what you're about to do BEFORE doing anything destructive**
    (delete, reset, force-push, drop, overwrite).
 7. **Plain English. No jargon without defining it the first time.**
+8. **Deliver documents as PDF — ALWAYS.** JJ cannot comfortably read
+   raw text/markdown files; the structure is confusing to him. Any
+   document, report, question set, copy deck, plan, or memo produced
+   for JJ must be generated and delivered as a **PDF** (use reportlab
+   in-session: `libreoffice --headless` conversion is broken in the web
+   sandbox). A text/markdown copy may ALSO be saved to Dropbox for the
+   record, but PDF is the deliverable. Default to PDF without being asked.
 
 ## Saving work — protected by hook
 
