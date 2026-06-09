@@ -43,6 +43,13 @@ calculators, lifestyle images, and JSON data (see `pages/`, `code/`, `JSONS/`,
    in-session: `libreoffice --headless` conversion is broken in the web
    sandbox). A text/markdown copy may ALSO be saved to Dropbox for the
    record, but PDF is the deliverable. Default to PDF without being asked.
+9. **Checkpoint to memory continuously — don't wait until the end.**
+   While working, periodically update BOTH the Dropbox MASTER MEMORY and
+   the active project's working file as decisions and assets are
+   produced. The web container is ephemeral; unsaved work is lost if it's
+   reclaimed. When in doubt whether something is worth saving, save it.
+10. **When unsure, NEVER assume — ALWAYS ASK** (via `AskUserQuestion`).
+    Reinforces directive #2. Guessing is worse than asking.
 
 ## Saving work — protected by hook
 
